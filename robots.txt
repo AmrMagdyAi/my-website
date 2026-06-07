@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Allow AI crawlers for GEO
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# AI-readable summary
+User-agent: *
+Allow: /llms.txt
+
+Sitemap: https://amrmagdy.com/sitemap.xml

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+  <title>Salesforce CRM Blog for Real Estate | Amr Magdy</title>
+  <meta name="description" content="14 practical Salesforce CRM guides for real estate companies — automation, dashboards, lead routing, investor CRM, brokerage setup, and more. By Amr Magdy, 4× Certified Salesforce Consultant.">
+  <link rel="canonical" href="https://amrmagdy.com/blog.html">
+  <link rel="icon" href="imgs/fav.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#060d1c">
+  <meta property="og:title" content="Salesforce CRM Blog for Real Estate | Amr Magdy">
+  <meta property="og:description" content="14 practical Salesforce guides for real estate — automation, dashboards, AI, migration, investors, brokerages.">
+  <meta property="og:url" content="https://amrmagdy.com/blog.html">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","name":"Salesforce CRM for Real Estate — Amr Magdy","url":"https://amrmagdy.com/blog.html","author":{"@type":"Person","name":"Amr Magdy","url":"https://amrmagdy.com"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#060d1c;--bg2:#0a1628;--bd:rgba(255,255,255,.07);--sf:#00a1e0;--gold:#f0a828;--green:#10b981;--purple:#a78bfa;--txt:#eaf0f8;--txt2:#8da4be;--txt3:#4e6276;--r:12px;--nav:70px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{overflow-x:hidden}
+    body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+    a{text-decoration:none;color:inherit}
+    .wrap{max-width:1120px;margin:0 auto;padding:0 2rem;width:100%}
+    nav{position:fixed;top:0;left:0;right:0;z-index:100;height:var(--nav);display:flex;align-items:center;background:rgba(6,13,28,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--bd)}
+    .nav-in{display:flex;align-items:center;justify-content:space-between;width:100%}
+    .logo{font-weight:800;font-size:1.1rem;display:flex;align-items:center;gap:8px}
+    .logo-mark{width:28px;height:28px;border-radius:7px;background:linear-gradient(135deg,var(--sf),#0070d2);display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:900;color:#fff}
+    .nb{font-size:.86rem;font-weight:600;color:var(--txt2);display:flex;align-items:center;gap:5px;padding:7px 14px;border-radius:8px;border:1px solid var(--bd);transition:all .2s}
+    .nb:hover{color:var(--txt);border-color:rgba(255,255,255,.2)}
+    .hero{padding:calc(var(--nav)+60px) 0 64px;text-align:center;border-bottom:1px solid var(--bd)}
+    .eyebrow{display:inline-flex;align-items:center;gap:7px;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--sf);background:rgba(0,161,224,.09);border:1px solid rgba(0,161,224,.2);border-radius:99px;padding:5px 14px;margin-bottom:20px}
+    .eyebrow::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--sf)}
+    .hero h1{font-size:clamp(2rem,4vw,3rem);font-weight:900;letter-spacing:-.025em;line-height:1.1;margin-bottom:18px}
+    .hero h1 span{background:linear-gradient(135deg,var(--sf),#93c5fd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .hero p{font-size:1rem;color:var(--txt2);max-width:580px;margin:0 auto 28px;line-height:1.8}
+    .author{display:flex;align-items:center;justify-content:center;gap:12px;font-size:.88rem;color:var(--txt2)}
+    .author img{width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid rgba(0,161,224,.3)}
+    .author strong{color:var(--txt)}
+    .filters{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:48px}
+    .filter-btn{padding:8px 18px;border-radius:99px;font-size:.83rem;font-weight:600;border:1px solid var(--bd);color:var(--txt2);background:transparent;cursor:pointer;transition:all .2s;font-family:inherit}
+    .filter-btn:hover,.filter-btn.on{color:var(--sf);background:rgba(0,161,224,.09);border-color:rgba(0,161,224,.25)}
+    .grid-section{padding:72px 0}
+    .section-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--txt3);margin-bottom:24px;display:flex;align-items:center;gap:10px}
+    .section-label::after{content:'';flex:1;height:1px;background:var(--bd)}
+    .articles{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:48px}
+    .ac{background:var(--bg2);border:1px solid var(--bd);border-radius:16px;overflow:hidden;transition:all .3s;display:flex;flex-direction:column}
+    .ac:hover{border-color:rgba(0,161,224,.28);transform:translateY(-5px);box-shadow:0 20px 50px rgba(0,0,0,.4)}
+    .ac-top{padding:20px 22px 0;display:flex;align-items:center;gap:10px}
+    .tag{font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;border-radius:99px}
+    .tag.sf{background:rgba(0,161,224,.1);color:var(--sf)}
+    .tag.re{background:rgba(16,185,129,.1);color:var(--green)}
+    .tag.st{background:rgba(139,92,246,.1);color:var(--purple)}
+    .tag.gold{background:rgba(240,168,40,.1);color:var(--gold)}
+    .mins{font-size:.75rem;color:var(--txt3);margin-left:auto}
+    .ac-body{padding:18px 22px 22px;flex:1;display:flex;flex-direction:column}
+    .ac-body h2{font-size:.98rem;font-weight:800;line-height:1.4;margin-bottom:10px}
+    .ac-body p{font-size:.86rem;color:var(--txt2);line-height:1.75;flex:1}
+    .ac-foot{padding:14px 22px;border-top:1px solid var(--bd);display:flex;align-items:center;justify-content:space-between}
+    .ac-date{font-size:.76rem;color:var(--txt3)}
+    .ac-read{font-size:.8rem;font-weight:700;color:var(--sf);display:flex;align-items:center;gap:4px;transition:gap .2s}
+    .ac:hover .ac-read{gap:7px}
+    .cta-section{background:var(--bg2);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd);padding:72px 0;text-align:center}
+    .cta-section h2{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:900;letter-spacing:-.02em;margin-bottom:16px}
+    .cta-section p{color:var(--txt2);max-width:520px;margin:0 auto 28px;font-size:.97rem;line-height:1.8}
+    .btn{display:inline-flex;align-items:center;gap:9px;padding:14px 30px;border-radius:var(--r);font-size:.95rem;font-weight:700;font-family:inherit}
+    .btn-blue{background:var(--sf);color:#fff}
+    .btn-blue:hover{background:#0090cc;transform:translateY(-2px)}
+    footer{padding:36px 0;border-top:1px solid var(--bd)}
+    .foot{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;font-size:.83rem;color:var(--txt3)}
+    .fl{display:flex;gap:20px}
+    .fl a{color:var(--txt3);transition:color .2s}.fl a:hover{color:var(--sf)}
+    @media(max-width:960px){.articles{grid-template-columns:1fr 1fr}}
+    @media(max-width:640px){.articles{grid-template-columns:1fr}.hero{padding:calc(var(--nav)+36px) 0 44px}}
+    @media(max-width:480px){.wrap{padding:0 1rem}}
+  </style>
+</head>
+<body>
+<nav><div class="wrap"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">AM</div>Amr Magdy</a>
+  <a href="index.html" class="nb"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>Back to Portfolio</a>
+</div></div></nav>
+
+<div class="hero"><div class="wrap">
+  <span class="eyebrow">Salesforce &times; Real Estate</span>
+  <h1>CRM Insights for<br><span>Real Estate Companies</span></h1>
+  <p>Practical Salesforce guides written from hands-on experience with US real estate companies — automation, dashboards, lead routing, investor CRM, and more.</p>
+  <div class="author"><img src="imgs/AmrMagdyPic.webp" alt="Amr Magdy" loading="lazy"><span>By <strong>Amr Magdy</strong> &middot; 4&times; Certified Salesforce CRM Consultant &middot; 14 articles</span></div>
+</div></div>
+
+<div class="grid-section"><div class="wrap">
+
+    <div class="section-label">Case Studies — Real Client Work</div>
+    <div class="articles">
+      <a href="blog-salesforce-configuration-object-real-estate.html" class="ac"><div class="ac-top"><span class="tag sf">Advanced Config</span><span class="mins">10 min</span></div><div class="ac-body"><h2>The Salesforce Configuration Object: Manage 50+ Automations Without Touching Code</h2><p>How I built a centralized control panel for all automations — tasks, Slack messages, emails, SMS — that non-technical business users manage themselves, with zero developer involvement.</p></div><div class="ac-foot"><span class="ac-date">June 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+      <a href="blog-migrate-zapier-to-salesforce-real-estate.html" class="ac"><div class="ac-top"><span class="tag st">Automation Migration</span><span class="mins">8 min</span></div><div class="ac-body"><h2>How We Migrated 30+ Zapier Automations to Native Salesforce (And Why You Should Too)</h2><p>A real estate company was hitting Zapier API limits every month. Here's how we moved 30+ Zaps to Salesforce Flows — cutting costs, eliminating delays, and improving reliability.</p></div><div class="ac-foot"><span class="ac-date">May 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+      <a href="blog-ringcentral-salesforce-integration-real-estate.html" class="ac"><div class="ac-top"><span class="tag sf">Apex Development</span><span class="mins">11 min</span></div><div class="ac-body"><h2>How to Build a RingCentral–Salesforce Daily Call Sync with Apex</h2><p>A step-by-step breakdown of the Apex class that auto-syncs RingCentral call logs into Salesforce daily — eliminating 2+ hours of manual logging per user per week.</p></div><div class="ac-foot"><span class="ac-date">May 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+    </div>
+
+  <div class="section-label">Strategy & How-To Guides</div>
+  <div class="articles">
+    <a href="blog-salesforce-financial-analytics-real-estate.html" class="ac"><div class="ac-top"><span class="tag gold">Financial Analytics</span><span class="mins">10 min</span></div><div class="ac-body"><h2>How to Track Real Estate Deal Profitability, Cost Per Lead, and Campaign ROI in Salesforce</h2><p>Build cost-per-lead, cost-per-opportunity, and net profit calculations broken down by campaign and lead source — directly inside Salesforce. No more month-end spreadsheet scrambles.</p></div><div class="ac-foot"><span class="ac-date">June 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+      <a href="blog-salesforce-vs-follow-up-boss-real-estate.html" class="ac"><div class="ac-top"><span class="tag gold">CRM Comparison</span><span class="mins">9 min</span></div><div class="ac-body"><h2>Salesforce vs Follow Up Boss for Real Estate: Which CRM Is Right for You?</h2><p>An honest side-by-side comparison of the two most popular real estate CRMs — covering automation, cost, scalability, and which teams each one is actually built for.</p></div><div class="ac-foot"><span class="ac-date">June 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+    <a href="blog-salesforce-for-real-estate-investors.html" class="ac"><div class="ac-top"><span class="tag re">Investors</span><span class="mins">8 min</span></div><div class="ac-body"><h2>Salesforce for Real Estate Investors: A Complete CRM Guide</h2><p>How to configure Salesforce for deal flow tracking, seller relationship management, renovation tracking, and portfolio-level reporting for real estate investors.</p></div><div class="ac-foot"><span class="ac-date">June 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+    <a href="blog-salesforce-setup-real-estate-brokerage.html" class="ac"><div class="ac-top"><span class="tag sf">How-To Guide</span><span class="mins">10 min</span></div><div class="ac-body"><h2>How to Set Up Salesforce for a Real Estate Brokerage (Step-by-Step)</h2><p>A practical setup guide: choosing the right edition, configuring objects for real estate, building automation, and rolling out to agents.</p></div><div class="ac-foot"><span class="ac-date">May 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+    <a href="blog-salesforce-einstein-ai-real-estate.html" class="ac"><div class="ac-top"><span class="tag sf">AI &amp; Technology</span><span class="mins">7 min</span></div><div class="ac-body"><h2>Salesforce Einstein AI for Real Estate: What It Can Actually Do</h2><p>An honest look at Einstein lead scoring, activity capture, deal insights, and conversation analytics — what works, what requires setup, and what to expect.</p></div><div class="ac-foot"><span class="ac-date">May 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+    <a href="blog-salesforce-property-management-companies.html" class="ac"><div class="ac-top"><span class="tag re">Property Management</span><span class="mins">8 min</span></div><div class="ac-body"><h2>Salesforce for Property Management Companies</h2><p>Tenant relationship management, maintenance routing, lease renewal automation, and owner reporting — how property management companies use Salesforce at scale.</p></div><div class="ac-foot"><span class="ac-date">April 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+    <a href="blog-salesforce-crm-migration-real-estate.html" class="ac"><div class="ac-top"><span class="tag st">Migration</span><span class="mins">8 min</span></div><div class="ac-body"><h2>Real Estate CRM Migration to Salesforce: How to Move Without Losing Data</h2><p>Migrating your real estate CRM to Salesforce without losing leads, history, or your team's trust. Data mapping, parallel running, and training strategy.</p></div><div class="ac-foot"><span class="ac-date">April 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+  </div>
+
+  <div class="section-label">Fundamentals</div>
+  <div class="articles">
+    <a href="blog-salesforce-automations-real-estate.html" class="ac"><div class="ac-top"><span class="tag sf">Automation</span><span class="mins">8 min</span></div><div class="ac-body"><h2>5 Salesforce Automations Every Real Estate Team Needs</h2><p>Lead assignment, follow-up tasks, property status workflows, reporting, and stale lead escalation — the five automations that save 20+ hours per week.</p></div><div class="ac-foot"><span class="ac-date">June 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+    <a href="blog-salesforce-real-estate-pipeline-dashboard.html" class="ac"><div class="ac-top"><span class="tag re">Dashboards</span><span class="mins">7 min</span></div><div class="ac-body"><h2>How to Build a Real Estate Pipeline Dashboard in Salesforce</h2><p>The four dashboard components every real estate company needs — lead funnel, property tracker, revenue forecast, and agent performance leaderboard.</p></div><div class="ac-foot"><span class="ac-date">May 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+    <a href="blog-salesforce-adoption-real-estate.html" class="ac"><div class="ac-top"><span class="tag st">Adoption</span><span class="mins">9 min</span></div><div class="ac-body"><h2>Why Your Agents Aren't Using Salesforce (And How to Fix It)</h2><p>The four failure modes of Salesforce adoption in real estate — and the frameworks that actually work to change agent behavior.</p></div><div class="ac-foot"><span class="ac-date">April 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+    <a href="blog-salesforce-lead-routing-real-estate.html" class="ac"><div class="ac-top"><span class="tag sf">Lead Management</span><span class="mins">6 min</span></div><div class="ac-body"><h2>Salesforce Lead Routing for Real Estate: Speed to Lead Changes Everything</h2><p>How to build automatic lead routing that puts every inbound lead in front of an agent within 5 minutes — assignment rules, round-robin, and Zapier.</p></div><div class="ac-foot"><span class="ac-date">March 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+    <a href="blog-salesforce-kpis-real-estate.html" class="ac"><div class="ac-top"><span class="tag re">KPIs &amp; Analytics</span><span class="mins">7 min</span></div><div class="ac-body"><h2>How to Track Real Estate KPIs in Salesforce: The Metrics That Matter</h2><p>Speed to lead, pipeline coverage ratio, deal velocity, GCI per agent — the KPIs that drive decisions and how to build them in Salesforce.</p></div><div class="ac-foot"><span class="ac-date">March 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+    <a href="blog-crm-roi-real-estate.html" class="ac"><div class="ac-top"><span class="tag re">ROI</span><span class="mins">7 min</span></div><div class="ac-body"><h2>Salesforce ROI for Real Estate: Are You Getting What You're Paying For?</h2><p>A 5-point CRM audit framework to find exactly what you're leaving on the table — automation utilization, dashboard usage, integration coverage, and adoption rate.</p></div><div class="ac-foot"><span class="ac-date">February 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+    <a href="blog-zapier-salesforce-real-estate.html" class="ac"><div class="ac-top"><span class="tag st">Integrations</span><span class="mins">6 min</span></div><div class="ac-body"><h2>Connecting Salesforce to Your Real Estate Stack with Zapier</h2><p>The 5 Zapier integrations that deliver the most value for real estate — website forms, Zillow, Facebook Lead Ads, closed deal automation, and Slack alerts.</p></div><div class="ac-foot"><span class="ac-date">January 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+    <a href="blog-salesforce-appexchange-real-estate.html" class="ac"><div class="ac-top"><span class="tag sf">AppExchange</span><span class="mins">6 min</span></div><div class="ac-body"><h2>Best Salesforce Apps for Real Estate: AppExchange Guide 2025</h2><p>DocuSign, CTI integrations, transaction management, and marketing automation — the AppExchange apps real estate companies actually use.</p></div><div class="ac-foot"><span class="ac-date">February 2025</span><span class="ac-read">Read <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></span></div></a>
+  </div>
+</div></div>
+
+<div class="cta-section"><div class="wrap">
+  <h2>Ready to Fix Your Real Estate Salesforce?</h2>
+  <p>I offer a free 30-minute CRM audit for real estate companies — an honest look at what's costing you deals, with no sales pitch.</p>
+  <a href="index.html#contact" class="btn btn-blue"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.63a2 2 0 012-2.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.91 13a16 16 0 006.29 6.29l.61-.61a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Book Free CRM Audit</a>
+</div></div>
+
+<footer><div class="wrap"><div class="foot">
+  <p>&copy; 2025 Amr Magdy &middot; Salesforce CRM Consultant for Real Estate &middot; <a href="mailto:info@AmrMagdy.com" style="color:inherit">info@AmrMagdy.com</a></p>
+  <div class="fl"><a href="index.html">Portfolio</a><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></div>
+</div></div></footer>
+</body></html>

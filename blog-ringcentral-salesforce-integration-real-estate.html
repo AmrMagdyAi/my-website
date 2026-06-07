@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<title>How to Build a RingCentral–Salesforce Daily Call Sync with Apex (Real Estate Case Study) | Amr Magdy</title>
+<meta name="description" content="A step-by-step breakdown of RCDailyCallLogSync — the Apex class that automatically syncs RingCentral call logs into Salesforce as Task records daily, eliminating 2+ hours of manual logging per user per week.">
+<link rel="canonical" href="https://amrmagdy.com/blog-ringcentral-salesforce-integration-real-estate.html">
+<link rel="icon" href="imgs/fav.svg" type="image/svg+xml">
+<meta name="theme-color" content="#060d1c">
+<meta property="og:title" content="How to Build a RingCentral–Salesforce Daily Call Sync with Apex (Real Estate Case Study)">
+<meta property="og:description" content="A step-by-step breakdown of RCDailyCallLogSync — the Apex class that automatically syncs RingCentral call logs into Salesforce as Task records daily, eliminating 2+ hours of manual logging per user per week.">
+<meta property="og:url" content="https://amrmagdy.com/blog-ringcentral-salesforce-integration-real-estate.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://amrmagdy.com/imgs/AmrMagdyPic.webp">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "How to Build a RingCentral–Salesforce Daily Call Sync with Apex (Real Estate Case Study)", "description": "A step-by-step breakdown of RCDailyCallLogSync — the Apex class that automatically syncs RingCentral call logs into Salesforce as Task records daily, eliminating 2+ hours of manual logging per user per week.", "url": "https://amrmagdy.com/blog-ringcentral-salesforce-integration-real-estate.html", "datePublished": "2025-05-10", "author": {"@type": "Person", "name": "Amr Magdy", "url": "https://amrmagdy.com"}, "publisher": {"@type": "Person", "name": "Amr Magdy", "url": "https://amrmagdy.com"}, "image": "https://amrmagdy.com/imgs/AmrMagdyPic.webp"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#060d1c;--bg2:#0a1628;--bd:rgba(255,255,255,.07);--bd2:rgba(255,255,255,.13);--sf:#00a1e0;--green:#10b981;--purple:#a78bfa;--gold:#f0a828;--txt:#eaf0f8;--txt2:#8da4be;--txt3:#4e6276;--r:12px;--nav:70px}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{overflow-x:hidden}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.75;overflow-x:hidden;-webkit-font-smoothing:antialiased;font-size:17px}
+a{text-decoration:none;color:inherit}img{max-width:100%;display:block}
+.wrap{max-width:740px;margin:0 auto;padding:0 2rem;width:100%}
+.wrap-wide{max-width:1100px;margin:0 auto;padding:0 2rem;width:100%}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;height:var(--nav);display:flex;align-items:center;background:rgba(6,13,28,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--bd)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;width:100%}
+.logo{font-weight:800;font-size:1.1rem;display:flex;align-items:center;gap:8px}
+.logo-mark{width:28px;height:28px;border-radius:7px;background:linear-gradient(135deg,var(--sf),#0070d2);display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:900;color:#fff}
+.nb{font-size:.86rem;font-weight:600;color:var(--txt2);display:flex;align-items:center;gap:5px;padding:7px 14px;border-radius:8px;border:1px solid var(--bd);transition:all .2s}
+.nb:hover{color:var(--txt);border-color:rgba(255,255,255,.2)}
+.ah{padding:calc(var(--nav) + 52px) 0 52px;border-bottom:1px solid var(--bd)}
+.tag{display:inline-flex;align-items:center;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;border-radius:99px;padding:5px 13px;margin-bottom:20px}
+.tag.sf{color:var(--sf);background:rgba(0,161,224,.09);border:1px solid rgba(0,161,224,.2)}
+.tag.re{color:var(--green);background:rgba(16,185,129,.09);border:1px solid rgba(16,185,129,.2)}
+.tag.st{color:var(--purple);background:rgba(139,92,246,.09);border:1px solid rgba(139,92,246,.2)}
+.tag.gold{color:var(--gold);background:rgba(240,168,40,.09);border:1px solid rgba(240,168,40,.2)}
+h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);font-weight:900;letter-spacing:-.03em;line-height:1.1;margin-bottom:20px}
+.meta{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.meta-a{display:flex;align-items:center;gap:8px;font-size:.87rem;font-weight:600}
+.meta-a img{width:30px;height:30px;border-radius:50%;object-fit:cover;border:1.5px solid rgba(0,161,224,.3)}
+.sep{width:1px;height:13px;background:var(--bd2)}
+.mi{font-size:.81rem;color:var(--txt3)}
+.ab{padding:60px 0 80px}
+.ab h2{font-size:clamp(1.25rem,2.5vw,1.65rem);font-weight:800;letter-spacing:-.02em;margin:48px 0 16px;line-height:1.25}
+.ab h3{font-size:1.1rem;font-weight:700;margin:32px 0 12px}
+.ab p{color:var(--txt2);line-height:1.85;margin-bottom:20px;font-size:.97rem}
+.ab p strong{color:var(--txt);font-weight:700}
+.ab ul{margin:0 0 20px;padding:0;list-style:none}
+.ab li{display:flex;gap:11px;color:var(--txt2);font-size:.97rem;line-height:1.8;margin-bottom:12px}
+.ab li::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--sf);flex-shrink:0;margin-top:8px}
+.ab li strong{color:var(--txt)}
+.co{background:rgba(0,161,224,.055);border:1px solid rgba(0,161,224,.17);border-left:3px solid var(--sf);border-radius:0 var(--r) var(--r) 0;padding:20px 22px;margin:28px 0}
+.co p{margin:0;color:var(--txt);font-size:.94rem}
+.code-block{background:rgba(0,0,0,.4);border:1px solid rgba(255,255,255,.1);border-radius:var(--r);padding:20px 22px;margin:24px 0;font-family:'Courier New',monospace;font-size:.84rem;color:#93c5fd;line-height:1.7;overflow-x:auto;white-space:pre}
+.sr{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:32px 0}
+.sb{background:var(--bg2);border:1px solid var(--bd);border-radius:var(--r);padding:22px 16px;text-align:center}
+.sb-n{font-size:1.9rem;font-weight:900;color:var(--sf);line-height:1;letter-spacing:-.03em}
+.sb-l{font-size:.78rem;color:var(--txt3);margin-top:6px}
+.article-cta{background:var(--bg2);border:1px solid rgba(0,161,224,.18);border-radius:16px;padding:34px 38px;margin-top:60px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap}
+.article-cta h3{font-size:1.15rem;font-weight:800;margin-bottom:7px}
+.article-cta p{font-size:.88rem;color:var(--txt2);line-height:1.7;max-width:380px;margin:0}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:var(--r);font-size:.92rem;font-weight:700;font-family:inherit;white-space:nowrap}
+.btn-blue{background:var(--sf);color:#fff}
+.btn-blue:hover{background:#0090cc;transform:translateY(-2px)}
+.rel{padding:60px 0;border-top:1px solid var(--bd)}
+.rel h2{font-size:1.25rem;font-weight:800;margin-bottom:24px}
+.rel-g{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.rc{background:var(--bg2);border:1px solid var(--bd);border-radius:var(--r);padding:20px;transition:all .25s}
+.rc:hover{border-color:rgba(0,161,224,.25);transform:translateY(-3px)}
+.rc h4{font-size:.91rem;font-weight:700;line-height:1.4;margin-bottom:5px}
+.rc p{font-size:.78rem;color:var(--txt3)}
+footer{padding:30px 0;border-top:1px solid var(--bd)}
+.fi{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:.81rem;color:var(--txt3)}
+.fl{display:flex;gap:16px}
+.fl a{color:var(--txt3);transition:color .2s}.fl a:hover{color:var(--sf)}
+@media(max-width:768px){.sr{grid-template-columns:1fr 1fr}.rel-g{grid-template-columns:1fr}.article-cta{flex-direction:column;padding:24px;text-align:center}.article-cta p{max-width:100%}.ah{padding:calc(var(--nav)+32px) 0 36px}.code-block{font-size:.76rem}}
+@media(max-width:480px){.wrap{padding:0 1rem}.wrap-wide{padding:0 1rem}.sr{grid-template-columns:1fr}}
+</style>
+</head><body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">AM</div>Amr Magdy</a>
+  <a href="blog.html" class="nb"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>All Articles</a>
+</div></div></nav>
+<div class="ah"><div class="wrap">
+  <span class="tag sf">Apex Development</span>
+  <h1 class="ttl">How to Build a RingCentral–Salesforce Daily Call Sync with Apex (Real Estate Case Study)</h1>
+  <div class="meta">
+    <div class="meta-a"><img src="imgs/AmrMagdyPic.webp" alt="Amr Magdy" loading="lazy"><span>Amr Magdy</span></div>
+    <span class="sep"></span><span class="mi">May 2025 &middot; 11 min read</span>
+    <span class="sep"></span><span class="mi">Salesforce CRM Consultant</span>
+  </div>
+</div></div>
+<section class="ab"><div class="wrap">
+<p>A real estate acquisition team makes dozens of calls per day — to motivated sellers, to follow up on leads, to check in on contracts. Logging all of those calls manually in Salesforce is hours of administrative work that takes agents away from their actual job. And if calls aren't logged, reports are wrong, accountability breaks down, and management can't see what's actually happening.</p>
+<p>At Central City Solutions, the team was using RingCentral as their phone system. Calls were being made but not consistently logged in Salesforce. The solution was a custom Apex integration that automatically pulls yesterday's call logs from RingCentral's API and creates Salesforce Task records — every day, at 2 AM, without any human involvement.</p>
+<div class="sr">
+  <div class="sb"><div class="sb-n">100%</div><div class="sb-l">Automated daily sync</div></div>
+  <div class="sb"><div class="sb-n">−2 hrs</div><div class="sb-l">Manual logging per user per week</div></div>
+  <div class="sb"><div class="sb-n">100%</div><div class="sb-l">Apex test coverage</div></div>
+</div>
+<h2>The Architecture</h2>
+<p>The solution has two Apex classes working together:</p>
+<ul>
+  <li><strong>RCDailyCallLogSync.cls</strong> — Schedulable class that runs at 2 AM daily, authenticates with RingCentral's API, fetches yesterday's call logs, and creates Task records in Salesforce</li>
+  <li><strong>RCNextUserScheduler.cls</strong> — Queueable class that chains user processing with a 2-minute delay between users, preventing API governor limit violations</li>
+</ul>
+<h3>Why Chained Processing?</h3>
+<p>RingCentral rate-limits API requests. If you try to sync 15 users' call logs simultaneously, you'll hit rate limits. The solution: process one user at a time, with a 2-minute delay between users via chained Queueable jobs. Each job processes one user's calls, then enqueues the next user's job with a delay.</p>
+<div class="code-block">// RCDailyCallLogSync.cls — simplified structure
+public class RCDailyCallLogSync implements Schedulable {
+    public void execute(SchedulableContext ctx) {
+        List&lt;User&gt; activeUsers = [
+            SELECT Id, RingCentral_Extension__c 
+            FROM User 
+            WHERE IsActive = true 
+            AND RingCentral_Extension__c != null
+        ];
+        if (!activeUsers.isEmpty()) {
+            System.enqueueJob(new RCCallLogQueueable(activeUsers, 0));
+        }
+    }
+}</div>
+<h2>Authenticating with RingCentral</h2>
+<p>RingCentral uses OAuth 2.0. The integration stores the access token in Salesforce Custom Settings or Named Credentials and refreshes it as needed. Each API call fetches call logs for a specific extension (stored as a custom field on the Salesforce User record) for the previous day:</p>
+<div class="code-block">// Fetch yesterday's call logs for one user
+String endpoint = 'https://platform.ringcentral.com/restapi/v1.0/account/~'
+    + '/extension/' + user.RingCentral_Extension__c
+    + '/call-log?dateFrom=' + yesterday + '&dateTo=' + today
+    + '&type=Voice&transport=PSTN';
+
+HttpRequest req = new HttpRequest();
+req.setEndpoint(endpoint);
+req.setMethod('GET');
+req.setHeader('Authorization', 'Bearer ' + accessToken);
+req.setTimeout(120000); // 120 second timeout</div>
+<h2>Creating Salesforce Tasks from Call Logs</h2>
+<p>For each call log record returned by the API, the class creates a Salesforce Task. The key logic:</p>
+<ul>
+  <li><strong>Recording filter</strong> — only create Tasks for calls that have a recording attached (calls under 30 seconds are typically not useful)</li>
+  <li><strong>Contact matching</strong> — match the caller's phone number to an existing Lead or Contact in Salesforce and link the Task to that record</li>
+  <li><strong>Duration and direction</strong> — store call duration, inbound/outbound direction, and the recording URL in the Task description</li>
+  <li><strong>Bulk safety</strong> — process in batches of 250 calls per user to stay within Salesforce governor limits</li>
+</ul>
+<div class="code-block">// Create Task from call log
+Task t = new Task();
+t.Subject = call.direction + ' Call — ' + call.duration + 's';
+t.Description = 'Duration: ' + call.duration + 's\n'
+    + 'Direction: ' + call.direction + '\n'
+    + 'Recording: ' + call.recordingUrl;
+t.ActivityDate = Date.today().addDays(-1);
+t.Status = 'Completed';
+t.WhoId = matchedContactId; // linked to Lead or Contact
+t.OwnerId = userId;
+tasksToInsert.add(t);</div>
+<h2>Handling Errors Gracefully</h2>
+<p>The integration has built-in error handling for the most common failure scenarios:</p>
+<ul>
+  <li><strong>API timeout</strong> — if RingCentral doesn't respond within 120 seconds, log the error and skip to the next user</li>
+  <li><strong>User without extension</strong> — skip users whose RingCentral_Extension__c field is empty</li>
+  <li><strong>API authentication failure</strong> — catch HTTP 401 responses, refresh the token, and retry once</li>
+  <li><strong>Empty response</strong> — handle gracefully when a user had no calls the previous day</li>
+</ul>
+<h2>Scheduling and Monitoring</h2>
+<p>Schedule with a cron expression that runs at 2 AM daily:</p>
+<div class="code-block">// Schedule via Execute Anonymous or Setup > Scheduled Jobs
+System.schedule(
+    'RingCentral Daily Sync',
+    '0 0 2 * * ?',
+    new RCDailyCallLogSync()
+);</div>
+<p>After deployment, monitor via Setup → Scheduled Jobs. Check that Tasks are being created by running a Salesforce report filtered to Tasks created by the integration user with yesterday's date.</p>
+<h2>The Business Impact</h2>
+<p>Before this integration, call logging at Central City Solutions was inconsistent. Reports showed whatever agents remembered to log. After deployment: every call over 30 seconds was automatically logged, linked to the correct record, and searchable in Salesforce the next morning. Management could finally see actual call activity, not self-reported activity. The accuracy of acquisition performance reports improved immediately.</p>
+<div class="co"><p>One unexpected benefit: because call recordings were now attached to the Salesforce Task and linked to the relevant Lead or Transaction record, the transaction coordination team could review seller conversations without asking agents to track down recordings manually.</p></div>
+<h2>What You Need to Implement This</h2>
+<p>To replicate this in your Salesforce org, you'll need: a RingCentral account with API access enabled (Platform plan or higher), RingCentral extension IDs mapped to Salesforce User records, Salesforce API access enabled for the integration user, and a Named Credential or Custom Setting to store the OAuth tokens securely. The Apex classes themselves need to be deployed to your org and the scheduled job activated.</p>
+<div class="article-cta"><div><h3>Want this built for your real estate Salesforce?</h3>
+<p>I offer a free 30-minute CRM audit. I'll review your current setup and tell you exactly what's possible — no obligation.</p></div>
+<a href="index.html#contact" class="btn btn-blue">Book Free Audit &#x2192;</a></div></div></section>
+<section class="rel"><div class="wrap"><h2>More Articles</h2><div class="rel-g"><a href="blog-salesforce-configuration-object-real-estate.html" class="rc"><h4>The Salesforce Configuration Object</h4><p>10 min read</p></a><a href="blog-salesforce-automations-real-estate.html" class="rc"><h4>5 Salesforce Automations Every Real Estate Team Needs</h4><p>8 min read</p></a><a href="blog-salesforce-real-estate-pipeline-dashboard.html" class="rc"><h4>How to Build a Real Estate Pipeline Dashboard</h4><p>7 min read</p></a></div></div></section>
+<footer><div class="wrap-wide"><div class="fi">
+  <p>&copy; 2025 <a href="index.html" style="color:inherit">Amr Magdy</a> &middot; Salesforce CRM Consultant for Real Estate</p>
+  <div class="fl"><a href="index.html">Portfolio</a><a href="blog.html">Blog</a><a href="index.html#contact">Hire Me</a><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></div>
+</div></div></footer>
+</body></html>
