@@ -828,7 +828,285 @@ footer p{font-size:.83rem;color:var(--txt3)}
 .sn-dot:hover .sn-label{opacity:1;transform:translateX(0)}
 @media(max-width:1100px){#side-nav{display:none}}
 
-/* ── No-JS fallback: ensure reveal content is always visible ── */
+/* ════════════════════════════════════════════════════
+   GLASS THEME — tokens & section gradients
+════════════════════════════════════════════════════ */
+:root{
+  --glass:      rgba(255,255,255,0.032);
+  --glass-hv:   rgba(255,255,255,0.055);
+  --glass-bd:   rgba(255,255,255,0.09);
+  --glass-bd2:  rgba(255,255,255,0.16);
+  --glow-sf:    0 0 32px rgba(0,161,224,.18);
+  --glow-gold:  0 0 32px rgba(240,168,40,.18);
+  --glow-green: 0 0 32px rgba(16,185,129,.18);
+}
+
+/* Section ambient gradients — give backdrop-filter something to blur */
+#pain{background:var(--bg2);background-image:radial-gradient(ellipse 70% 60% at 90% 10%,rgba(239,68,68,.045) 0%,transparent 100%),radial-gradient(ellipse 50% 50% at 0% 90%,rgba(0,161,224,.03) 0%,transparent 100%)}
+#services{background:var(--bg);background-image:radial-gradient(ellipse 65% 55% at 90% 5%,rgba(0,161,224,.07) 0%,transparent 100%),radial-gradient(ellipse 45% 55% at 5% 90%,rgba(240,168,40,.04) 0%,transparent 100%)}
+#about{background:var(--bg);background-image:radial-gradient(ellipse 55% 65% at 100% 50%,rgba(0,161,224,.055) 0%,transparent 100%)}
+#results{background:var(--bg2);background-image:radial-gradient(ellipse 65% 60% at 5% 95%,rgba(16,185,129,.045) 0%,transparent 100%),radial-gradient(ellipse 50% 50% at 95% 5%,rgba(0,161,224,.04) 0%,transparent 100%)}
+#process{background:var(--bg2);background-image:radial-gradient(ellipse 75% 55% at 50% 0%,rgba(0,161,224,.05) 0%,transparent 100%)}
+#exp{background:var(--bg);background-image:radial-gradient(ellipse 55% 55% at 5% 5%,rgba(0,161,224,.04) 0%,transparent 100%)}
+#skills{background:var(--bg2);background-image:radial-gradient(ellipse 55% 65% at 95% 50%,rgba(0,161,224,.04) 0%,transparent 100%)}
+#certs{background:var(--bg);background-image:radial-gradient(ellipse 65% 55% at 50% 95%,rgba(0,161,224,.055) 0%,transparent 100%)}
+#blog-preview{background:var(--bg);background-image:radial-gradient(ellipse 60% 50% at 85% 5%,rgba(240,168,40,.045) 0%,transparent 100%),radial-gradient(ellipse 45% 55% at 15% 90%,rgba(0,161,224,.04) 0%,transparent 100%)}
+#faq{background:var(--bg2);background-image:radial-gradient(ellipse 55% 65% at 5% 50%,rgba(0,161,224,.04) 0%,transparent 100%)}
+#contact{background:var(--bg);background-image:radial-gradient(ellipse 65% 55% at 95% 95%,rgba(0,161,224,.06) 0%,transparent 100%),radial-gradient(ellipse 45% 55% at 5% 5%,rgba(240,168,40,.04) 0%,transparent 100%)}
+
+/* ════════════════════════════════════════════════════
+   GLASS CARD TREATMENT
+════════════════════════════════════════════════════ */
+/* Pain cards */
+.pain-card{
+  background:rgba(6,13,28,.65);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-color:var(--glass-bd);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04);
+}
+.pain-card:hover{box-shadow:0 20px 50px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.07),0 0 0 1px rgba(239,68,68,.2)}
+
+/* About cards */
+.acard{
+  background:rgba(10,22,40,.7);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-color:var(--glass-bd);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04);
+}
+.acard:hover{border-color:rgba(0,161,224,.3);box-shadow:var(--glow-sf),inset 0 1px 0 rgba(255,255,255,.07);transform:translateX(5px)}
+
+/* Result cards */
+.rcard{
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04);
+}
+.rcard:hover{box-shadow:0 24px 56px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.07)}
+
+/* Service cards */
+.srv-card{
+  background:rgba(10,22,40,.7);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-color:var(--glass-bd);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.05);
+}
+.srv-card.featured{
+  background:linear-gradient(160deg,rgba(0,161,224,.09),rgba(10,22,40,.75));
+  border-color:rgba(0,161,224,.28);
+  box-shadow:var(--glow-sf),inset 0 1px 0 rgba(0,161,224,.12);
+}
+.srv-card:hover{box-shadow:0 28px 64px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.srv-card.featured:hover{box-shadow:var(--glow-sf),0 28px 64px rgba(0,0,0,.5),inset 0 1px 0 rgba(0,161,224,.15)}
+
+/* Process steps */
+.pstep{
+  background:rgba(6,13,28,.7);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-color:var(--glass-bd);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04);
+}
+.pstep:hover{box-shadow:0 20px 48px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.07)}
+
+/* Cert cards */
+.cc{
+  background:rgba(10,22,40,.7);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-color:var(--glass-bd);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04);
+}
+.cc:hover{box-shadow:0 20px 48px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.07)}
+
+/* Blog cards */
+.blog-card{
+  background:rgba(10,22,40,.72);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-color:var(--glass-bd);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04);
+}
+.blog-card:hover{box-shadow:0 24px 56px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.07);border-color:rgba(0,161,224,.2)}
+
+/* FAQ items */
+.fq{
+  background:rgba(6,13,28,.65);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-color:var(--glass-bd);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04);
+}
+.fq:hover{border-color:rgba(0,161,224,.22);box-shadow:inset 0 1px 0 rgba(0,161,224,.07)}
+.fq.on{border-color:rgba(0,161,224,.28);box-shadow:0 8px 32px rgba(0,0,0,.3),inset 0 1px 0 rgba(0,161,224,.1)}
+
+/* Contact form & links */
+.c-form{
+  background:rgba(10,22,40,.75);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  border-color:var(--glass-bd);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 24px 64px rgba(0,0,0,.35);
+}
+.clink{
+  background:rgba(10,22,40,.55);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-color:var(--glass-bd);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.03);
+}
+.clink:hover{border-color:rgba(0,161,224,.3);box-shadow:var(--glow-sf),inset 0 1px 0 rgba(0,161,224,.08)}
+
+/* Form inputs glass */
+.fg input,.fg textarea{
+  background:rgba(6,13,28,.75);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  border-color:var(--glass-bd);
+}
+.fg input:focus,.fg textarea:focus{
+  border-color:var(--sf);
+  box-shadow:0 0 0 3px rgba(0,161,224,.12),inset 0 1px 0 rgba(0,161,224,.05);
+}
+
+/* Hero stats bar */
+.hero-bar{
+  background:rgba(10,22,40,.55);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-color:var(--glass-bd2);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06);
+}
+.hstat{border-right-color:var(--glass-bd)}
+
+/* About numbers */
+.anum{
+  background:rgba(10,22,40,.7);
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-color:var(--glass-bd);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04);
+}
+.anum:hover{border-color:rgba(0,161,224,.28);box-shadow:var(--glow-sf),inset 0 1px 0 rgba(0,161,224,.08)}
+
+/* Trailhead & edu cards */
+.trail-card,.edu-card{
+  background:rgba(10,22,40,.72);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04);
+}
+
+/* Pain bridge */
+.pain-bridge{
+  background:linear-gradient(135deg,rgba(0,161,224,.08),rgba(0,161,224,.03));
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-color:rgba(0,161,224,.2);
+  box-shadow:inset 0 1px 0 rgba(0,161,224,.08);
+}
+
+/* ════════════════════════════════════════════════════
+   ENHANCED BUTTONS
+════════════════════════════════════════════════════ */
+.btn-primary{
+  background:linear-gradient(135deg,#00a1e0,#0086c8);
+  box-shadow:0 0 0 0 rgba(0,161,224,.3);
+  position:relative;overflow:hidden;
+}
+.btn-primary::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,rgba(255,255,255,.1),transparent);
+  border-radius:inherit;pointer-events:none;
+}
+.btn-primary:hover{
+  background:linear-gradient(135deg,#00b8ff,#0095d8);
+  transform:translateY(-2px);
+  box-shadow:0 8px 28px rgba(0,161,224,.45),0 0 0 1px rgba(0,161,224,.3),inset 0 1px 0 rgba(255,255,255,.15);
+}
+.btn-gold{
+  background:linear-gradient(135deg,#f0a828,#fbbf24);
+  box-shadow:0 4px 16px rgba(240,168,40,.25);
+}
+.btn-gold:hover{
+  transform:translateY(-2px);
+  box-shadow:0 8px 28px rgba(240,168,40,.45),inset 0 1px 0 rgba(255,255,255,.2);
+  filter:brightness(1.08);
+}
+.btn-outline{
+  background:rgba(255,255,255,.04);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  border-color:var(--glass-bd2);
+}
+.btn-outline:hover{
+  background:rgba(255,255,255,.08);
+  border-color:rgba(255,255,255,.28);
+  transform:translateY(-2px);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.1);
+}
+
+/* ════════════════════════════════════════════════════
+   ENHANCED NAV
+════════════════════════════════════════════════════ */
+#nav{
+  background:rgba(6,13,28,.82);
+  backdrop-filter:blur(32px);-webkit-backdrop-filter:blur(32px);
+  border-bottom:1px solid transparent;
+  transition:background .4s,box-shadow .4s,border-color .4s;
+}
+#nav.solid{
+  background:rgba(6,13,28,.92);
+  box-shadow:0 4px 24px rgba(0,0,0,.35),0 1px 0 rgba(255,255,255,.06);
+  border-bottom-color:rgba(255,255,255,.07);
+}
+
+/* ════════════════════════════════════════════════════
+   ENHANCED EYEBROW PILLS
+════════════════════════════════════════════════════ */
+.eyebrow{
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06);
+}
+
+/* ════════════════════════════════════════════════════
+   HERO RING GLOW
+════════════════════════════════════════════════════ */
+.ring-wrap::after{
+  content:'';position:absolute;inset:-16px;border-radius:50%;
+  background:radial-gradient(circle,rgba(0,161,224,.12) 0%,transparent 70%);
+  z-index:0;pointer-events:none;
+}
+
+/* ════════════════════════════════════════════════════
+   STRIP GLASS
+════════════════════════════════════════════════════ */
+#strip{
+  background:rgba(10,22,40,.85);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  border-top:1px solid var(--glass-bd);
+  border-bottom:1px solid var(--glass-bd);
+}
+
+/* ════════════════════════════════════════════════════
+   FOOTER GLASS
+════════════════════════════════════════════════════ */
+footer{
+  background:rgba(10,22,40,.9);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  border-top:1px solid var(--glass-bd);
+}
+
+/* ════════════════════════════════════════════════════
+   MOBILE DRAWER GLASS
+════════════════════════════════════════════════════ */
+#mob-menu{
+  background:rgba(10,22,40,.92);
+  backdrop-filter:blur(32px);-webkit-backdrop-filter:blur(32px);
+  border-left-color:var(--glass-bd);
+}
+
+/* ════════════════════════════════════════════════════
+   SCROLLBAR
+════════════════════════════════════════════════════ */
+::-webkit-scrollbar-track{background:rgba(6,13,28,.8)}
+::-webkit-scrollbar-thumb{background:linear-gradient(to bottom,var(--sf),rgba(0,161,224,.4));border-radius:4px}
+
+/* ════════════════════════════════════════════════════
+   BACK TO TOP BUTTON
+════════════════════════════════════════════════════ */
+#back-top{
+  background:linear-gradient(135deg,var(--sf),#0070d2);
+  box-shadow:0 4px 20px rgba(0,161,224,.45),inset 0 1px 0 rgba(255,255,255,.1);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+}
+#back-top:hover{transform:translateY(-4px);box-shadow:0 8px 28px rgba(0,161,224,.6),inset 0 1px 0 rgba(255,255,255,.15)}
 .no-js .rv,.no-js .rvl,.no-js .rvr{opacity:1 !important;transform:none !important}
 .no-js .bar-fill{transition:none}
 
@@ -2036,14 +2314,19 @@ form.addEventListener('submit', async e => {
     if(res.ok && data.success){
       showStatus('ok','✓ Message sent! I\'ll reply within 24 hours.');
       form.reset();
+    } else if(data && data.mailto){
+      /* PHP mail() unavailable on this host — silently fall back to mail client */
+      window.open(mailtoURL,'_blank');
+      showStatus('ok','✓ Your email client has opened with the message pre-filled — just hit Send. If it didn\'t open, '+mailtoLink);
+      form.reset();
     } else {
       const serverMsg = data && data.message ? data.message + ' ' : '';
-      showStatus('err','✕ '+serverMsg+mailtoLink);
+      showStatus('err','Something went wrong. '+mailtoLink);
     }
   } catch(e){
-    /* Network failure or no backend (e.g. static preview) — open mail client */
+    /* Network failure — open mail client */
     window.open(mailtoURL,'_blank');
-    showStatus('ok','✓ Your email client should now be open with the message pre-filled. If not, '+mailtoLink);
+    showStatus('ok','✓ Your email client has opened with the message pre-filled — just hit Send. If it didn\'t open, '+mailtoLink);
     form.reset();
   }
 
