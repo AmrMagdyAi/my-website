@@ -1,0 +1,16 @@
+{
+  "name": "Amr Magdy — Salesforce CRM Consultant for Real Estate",
+  "short_name": "Amr Magdy",
+  "description": "4× Certified Salesforce CRM Consultant for real estate companies. Lead routing, dashboards, automation, and adoption training. Remote, available now.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0176d3",
+  "lang": "en-US",
+  "categories": ["business", "productivity", "consulting"],
+  "icons": [
+    { "src": "imgs/fav.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "imgs/AmrMagdyPic.webp", "sizes": "800x1000", "type": "image/webp", "purpose": "any" }
+  ]
+}
