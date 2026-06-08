@@ -77,7 +77,7 @@
       "@id": "https://amrmagdy.com/#website",
       "url": "https://amrmagdy.com/",
       "name": "Amr Magdy — Salesforce CRM Consultant",
-      "dateModified": "2026-06-07",
+      "dateModified": "2026-06-08",
       "publisher": { "@id": "https://amrmagdy.com/#person" }
     },
     {
@@ -147,6 +147,9 @@
   --spring:cubic-bezier(.34,1.56,.64,1);
 }
 *{margin:0;padding:0;box-sizing:border-box}
+*:focus-visible{outline:2px solid var(--sf);outline-offset:3px;border-radius:4px}
+*:focus:not(:focus-visible){outline:none}
+button:focus-visible,a:focus-visible{outline:2px solid var(--sf);outline-offset:3px}
 html{scroll-behavior:smooth;scroll-padding-top:var(--nav-h)}
 body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 img{max-width:100%;display:block}
@@ -160,10 +163,10 @@ section{position:relative}
 .skip{position:absolute;left:-9999px;top:0;background:var(--sf);color:#fff;padding:10px 16px;border-radius:8px;z-index:9999}
 .skip:focus{left:12px;top:12px}
 #progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--sf),var(--sf2));z-index:1000;transition:width .1s linear}
-#cursor,#cursor-dot{position:fixed;top:0;left:0;pointer-events:none;z-index:9998;border-radius:50%;mix-blend-mode:difference}
-#cursor{width:40px;height:40px;border:1.5px solid #fff;transform:translate(-50%,-50%);transition:width .25s var(--ease),height .25s var(--ease),background .25s var(--ease)}
-#cursor.hover{width:60px;height:60px;background:rgba(255,255,255,.15)}
-#cursor-dot{width:6px;height:6px;background:#fff;transform:translate(-50%,-50%)}
+#cursor,#cursor-dot{position:fixed;top:0;left:0;pointer-events:none;z-index:9998;border-radius:50%}
+#cursor{width:40px;height:40px;border:2px solid var(--sf);opacity:.75;transform:translate(-50%,-50%);transition:width .25s var(--ease),height .25s var(--ease),background .25s var(--ease)}
+#cursor.hover{width:60px;height:60px;background:rgba(1,118,211,.1)}
+#cursor-dot{width:6px;height:6px;background:var(--sf);transform:translate(-50%,-50%)}
 @media (hover:none),(pointer:coarse){#cursor,#cursor-dot{display:none!important}}
 .label{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--sf);background:var(--sf-light);padding:6px 13px;border-radius:50px;margin-bottom:20px}
 .label.amber{color:var(--gold);background:var(--gold-light)}
@@ -251,6 +254,7 @@ p.sub{color:var(--txt2);font-size:1.08rem}
 .hfc-1{top:24px;left:-40px;color:var(--sf);animation:floatY 5s ease-in-out infinite}
 .hfc-1 .big{font-size:1.4rem;font-weight:800}
 .hfc-2{bottom:40px;right:-36px;animation:floatY 6s ease-in-out infinite .5s}
+.hfc-2-inner{display:flex;align-items:center;gap:6px}
 .hfc-3{top:60px;right:-30px;color:#047857;animation:floatY 5.5s ease-in-out infinite .3s}
 @keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
 #strip{padding:34px 0}
@@ -262,12 +266,12 @@ p.sub{color:var(--txt2);font-size:1.08rem}
 .bento .card-dark{display:flex;flex-direction:column;gap:10px}
 .bento-stat{grid-column:span 2;background:linear-gradient(135deg,var(--sf),var(--sf2));border:none;display:flex;flex-direction:column;justify-content:center}
 .bento-stat .pct{font-size:3rem;font-weight:800;line-height:1}
-.pain-ico{width:44px;height:44px;border-radius:11px;background:rgba(255,255,255,.07);display:grid;place-items:center;font-size:1.3rem;margin-bottom:6px}
+.pain-ico{width:44px;height:44px;border-radius:11px;background:rgba(255,255,255,.07);display:grid;place-items:center;margin-bottom:6px;color:#aebfd6}
 .bento h3{font-size:1.12rem;font-weight:700}
 .bento p{font-size:.93rem;color:#aebfd6}
 .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .svc{position:relative;display:flex;flex-direction:column}
-.svc .top{width:52px;height:52px;border-radius:13px;display:grid;place-items:center;font-size:1.5rem;margin-bottom:18px;color:#fff}
+.svc .top{width:52px;height:52px;border-radius:13px;display:grid;place-items:center;margin-bottom:18px;color:#fff}
 .svc.blue .top{background:var(--sf)} .svc.gold .top{background:var(--gold)} .svc.green .top{background:var(--green)}
 .svc h3{font-size:1.3rem;font-weight:800;margin-bottom:10px}
 .svc p.d{color:var(--txt2);font-size:.96rem;margin-bottom:18px}
@@ -284,7 +288,7 @@ p.sub{color:var(--txt2);font-size:1.08rem}
 .stat-tile .l{font-size:.85rem;color:var(--txt2);font-weight:600}
 .cap-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .cap{background:#fff;border:1px solid var(--bd);border-radius:var(--r);padding:22px}
-.cap .ico{font-size:1.6rem;margin-bottom:10px}
+.cap .ico{width:36px;height:36px;margin-bottom:10px;color:var(--sf);display:flex;align-items:center;justify-content:center}
 .cap h4{font-size:1.05rem;font-weight:700;margin-bottom:6px}
 .cap p{font-size:.88rem;color:var(--txt2)}
 .results-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
@@ -309,18 +313,19 @@ p.sub{color:var(--txt2);font-size:1.08rem}
 .step p{font-size:.9rem;color:#aebfd6}
 .exp-cols{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-bottom:40px}
 .exp-col h3{font-size:1.2rem;font-weight:800;margin-bottom:18px;display:flex;align-items:center;gap:10px}
+.exp-col h3 svg{flex:none;color:var(--sf)}
 .acc{border:1px solid var(--bd);border-radius:var(--r);margin-bottom:12px;overflow:hidden;background:#fff}
 .acc-head{width:100%;text-align:left;background:none;border:none;font-family:inherit;cursor:pointer;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;gap:14px}
 .acc-head .role{font-weight:700;font-size:1rem}
 .acc-head .meta{font-size:.84rem;color:var(--txt2)}
-.acc-head .chev{transition:transform .3s;color:var(--sf);font-size:1.1rem;flex:none}
+.acc-head .chev{transition:transform .3s;color:var(--sf);flex:none;display:flex;align-items:center}
 .acc.open .chev{transform:rotate(180deg)}
 .acc-body{max-height:0;overflow:hidden;transition:max-height .4s var(--ease)}
 .acc-body-inner{padding:0 20px 20px;color:var(--txt2);font-size:.93rem}
 .acc-body-inner ul{margin:8px 0 0 18px}
 .extra-cards{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 .extra-cards .card{display:flex;gap:16px;align-items:flex-start}
-.extra-cards .ic{font-size:1.8rem}
+.extra-cards .ic{width:40px;height:40px;flex:none;display:flex;align-items:center;justify-content:center;color:var(--sf)}
 .skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}
 .tag-cloud{display:flex;flex-wrap:wrap;gap:10px}
 .tag{background:#fff;border:1px solid var(--bd);border-radius:50px;padding:8px 16px;font-size:.88rem;font-weight:600;color:var(--txt);transition:.25s}
@@ -330,17 +335,23 @@ p.sub{color:var(--txt2);font-size:1.08rem}
 .bar-track{height:9px;background:var(--bg3);border-radius:50px;overflow:hidden}
 .bar-fill{height:100%;width:0;background:linear-gradient(90deg,var(--sf),var(--sf2));border-radius:50px;transition:width 1.2s var(--ease)}
 .skills-sub{font-weight:800;font-size:1.1rem;margin-bottom:18px}
-.certs-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.certs-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}
 .cert{background:#fff;border:1px solid var(--bd);border-radius:var(--r);padding:22px;text-align:center;transition:.3s}
 .cert:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(13,27,46,.1)}
-.cert .badge{width:54px;height:54px;border-radius:13px;margin:0 auto 12px;background:linear-gradient(135deg,var(--sf-light),#fff);border:1px solid var(--bd);display:grid;place-items:center;font-size:1.4rem}
+.cert .badge{width:54px;height:54px;border-radius:13px;margin:0 auto 12px;background:linear-gradient(135deg,var(--sf-light),#fff);border:1px solid var(--bd);display:grid;place-items:center;color:var(--sf)}
 .cert h4{font-size:.95rem;font-weight:700;line-height:1.3}
 .cert span{font-size:.78rem;color:var(--txt2)}
 .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .blog-card{display:flex;flex-direction:column;overflow:hidden;padding:0}
-.blog-card .img{height:160px;background:linear-gradient(135deg,var(--sf),var(--sf2));display:grid;place-items:center;font-size:2.6rem}
-.blog-card.b2 .img{background:linear-gradient(135deg,var(--gold),#fbbf24)}
-.blog-card.b3 .img{background:linear-gradient(135deg,var(--green),#34d399)}
+.blog-card .blog-thumb{height:130px;display:flex;align-items:center;justify-content:center;position:relative;background:var(--bg2);border-bottom:1px solid var(--bd)}
+.blog-card .blog-thumb::before{content:'';position:absolute;top:0;left:0;right:0;height:4px}
+.blog-card.b1 .blog-thumb::before{background:linear-gradient(90deg,var(--sf),var(--sf2))}
+.blog-card.b2 .blog-thumb::before{background:linear-gradient(90deg,var(--gold),#fbbf24)}
+.blog-card.b3 .blog-thumb::before{background:linear-gradient(90deg,var(--green),#34d399)}
+.blog-card .blog-thumb svg{width:40px;height:40px;opacity:.5;color:var(--txt3)}
+.blog-card.b1 .blog-thumb svg{color:var(--sf);opacity:.7}
+.blog-card.b2 .blog-thumb svg{color:var(--gold);opacity:.7}
+.blog-card.b3 .blog-thumb svg{color:var(--green);opacity:.7}
 .blog-card .bd{padding:24px;display:flex;flex-direction:column;flex:1}
 .blog-card .cat{font-size:.76rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--sf);margin-bottom:10px}
 .blog-card h3{font-size:1.15rem;font-weight:800;margin-bottom:10px;line-height:1.3}
@@ -355,7 +366,7 @@ p.sub{color:var(--txt2);font-size:1.08rem}
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
 .contact-links{display:flex;flex-direction:column;gap:16px;margin-top:30px}
 .contact-link{display:flex;align-items:center;gap:14px;color:#cdd9ec;font-weight:600}
-.contact-link .ic{width:44px;height:44px;border-radius:11px;background:rgba(255,255,255,.07);display:grid;place-items:center;font-size:1.2rem;flex:none}
+.contact-link .ic{width:44px;height:44px;border-radius:11px;background:rgba(255,255,255,.07);display:grid;place-items:center;flex:none;color:#cdd9ec}
 .contact-link span.s{font-size:.78rem;color:#7f93b3;display:block;font-weight:500}
 .cform{background:var(--navy2);border:1px solid rgba(255,255,255,.08);border-radius:var(--rl);padding:30px}
 .cform label{display:block;font-size:.85rem;font-weight:600;color:#cdd9ec;margin-bottom:7px}
@@ -376,7 +387,8 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
   .hero-photo{max-width:420px;margin:0 auto}
   .bento{grid-template-columns:repeat(2,1fr)}
   .bento-stat{grid-column:span 2}
-  .svc-grid,.certs-grid,.blog-grid{grid-template-columns:1fr 1fr}
+  .svc-grid,.blog-grid{grid-template-columns:1fr 1fr}
+  .certs-grid{grid-template-columns:repeat(3,1fr)}
   .process-grid{grid-template-columns:1fr 1fr;gap:34px}
   .process-line{display:none}
   #sidenav{display:none}
@@ -493,7 +505,13 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
           <img src="imgs/AmrMagdyPic.webp" alt="Amr Magdy, Salesforce CRM Consultant for real estate" width="460" height="575" loading="eager" fetchpriority="high" decoding="async">
         </div>
         <div class="hero-float-card hfc-1"><div class="big">+30%</div>Pipeline</div>
-        <div class="hero-float-card hfc-2">⭐⭐ Double Star Ranger</div>
+        <div class="hero-float-card hfc-2">
+          <div class="hfc-2-inner">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--gold)" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--gold)" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            Double Star Ranger
+          </div>
+        </div>
         <div class="hero-float-card hfc-3"><span class="dot-live" style="display:inline-block"></span> Open to Work</div>
       </div>
     </div>
@@ -522,13 +540,43 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
       <p class="sub">You bought the most powerful CRM on earth. So why does it feel like a glorified spreadsheet? Here's what's actually going wrong.</p>
     </div>
     <div class="bento">
-      <div class="card-dark tilt rv d1"><div class="pain-ico">🐢</div><h3>Leads going cold in the queue</h3><p>No speed-to-lead routing means hot inquiries sit unassigned while competitors call first.</p></div>
-      <div class="card-dark tilt rv d2"><div class="pain-ico">🙅</div><h3>Agents not using Salesforce</h3><p>If it's clunky, agents avoid it — and your data and forecasts fall apart.</p></div>
-      <div class="card-dark tilt rv d3"><div class="pain-ico">🌫️</div><h3>Zero pipeline visibility</h3><p>No dashboards means you're flying blind on deals, stages, and revenue.</p></div>
+      <div class="card-dark tilt rv d1">
+        <div class="pain-ico" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3>Leads going cold in the queue</h3><p>No speed-to-lead routing means hot inquiries sit unassigned while competitors call first.</p>
+      </div>
+      <div class="card-dark tilt rv d2">
+        <div class="pain-ico" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="18" y1="8" x2="23" y2="13"/><line x1="23" y1="8" x2="18" y2="13"/></svg>
+        </div>
+        <h3>Agents not using Salesforce</h3><p>If it's clunky, agents avoid it — and your data and forecasts fall apart.</p>
+      </div>
+      <div class="card-dark tilt rv d3">
+        <div class="pain-ico" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+        </div>
+        <h3>Zero pipeline visibility</h3><p>No dashboards means you're flying blind on deals, stages, and revenue.</p>
+      </div>
       <div class="bento-stat card-dark rv d1"><div class="pct">67%</div><p style="color:#fff;font-size:1.05rem;margin-top:8px">of Salesforce implementations fail to deliver expected ROI. Don't be one of them.</p></div>
-      <div class="card-dark tilt rv d4"><div class="pain-ico">⏳</div><h3>Manual work killing productivity</h3><p>Copy-paste, manual follow-ups, and re-keying data eat hours that should close deals.</p></div>
-      <div class="card-dark tilt rv d5"><div class="pain-ico">🧩</div><h3>Disconnected tools & data silos</h3><p>Your portal, email, and CRM don't talk — so nobody trusts the numbers.</p></div>
-      <div class="card-dark tilt rv d6"><div class="pain-ico">💸</div><h3>Paying for Salesforce, getting spreadsheets</h3><p>You're paying enterprise prices for a tool no one fully uses. That's pure waste.</p></div>
+      <div class="card-dark tilt rv d4">
+        <div class="pain-ico" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <h3>Manual work killing productivity</h3><p>Copy-paste, manual follow-ups, and re-keying data eat hours that should close deals.</p>
+      </div>
+      <div class="card-dark tilt rv d5">
+        <div class="pain-ico" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+        </div>
+        <h3>Disconnected tools &amp; data silos</h3><p>Your portal, email, and CRM don't talk — so nobody trusts the numbers.</p>
+      </div>
+      <div class="card-dark tilt rv d6">
+        <div class="pain-ico" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h3>Paying for Salesforce, getting spreadsheets</h3><p>You're paying enterprise prices for a tool no one fully uses. That's pure waste.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -542,12 +590,14 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
     </div>
     <div class="svc-grid">
       <div class="card svc blue tilt rv d1">
-        <div class="top">🔍</div>
-        <h3>CRM Audit & Roadmap</h3>
+        <div class="top" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </div>
+        <h3>CRM Audit &amp; Roadmap</h3>
         <p class="d">A clear-eyed review of your current org and a prioritized plan to fix it.</p>
         <ul>
           <li>Full Salesforce org health check</li>
-          <li>Adoption & data-quality assessment</li>
+          <li>Adoption &amp; data-quality assessment</li>
           <li>Quick-win opportunities identified</li>
           <li>Prioritized 90-day roadmap</li>
         </ul>
@@ -555,27 +605,31 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
       </div>
       <div class="card svc gold tilt rv d2">
         <span class="popular">Most Popular</span>
-        <div class="top">🚀</div>
+        <div class="top" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
         <h3>Full Salesforce Implementation</h3>
         <p class="d">End-to-end build that turns Salesforce into your revenue engine.</p>
         <ul>
           <li>Custom configuration for real estate</li>
-          <li>Automated lead routing & assignment</li>
-          <li>Workflow & process automation</li>
-          <li>Pipeline & performance dashboards</li>
+          <li>Automated lead routing &amp; assignment</li>
+          <li>Workflow &amp; process automation</li>
+          <li>Pipeline &amp; performance dashboards</li>
           <li>Hands-on agent adoption training</li>
         </ul>
         <a href="#contact" class="btn-ghost">Scope a Build →</a>
       </div>
       <div class="card svc green tilt rv d3">
-        <div class="top">🤝</div>
+        <div class="top" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
         <h3>Ongoing CRM Management</h3>
         <p class="d">A dedicated admin and strategist on call every month.</p>
         <ul>
-          <li>Continuous optimization & support</li>
-          <li>New automations & enhancements</li>
-          <li>Monthly reporting & insights</li>
-          <li>User training & troubleshooting</li>
+          <li>Continuous optimization &amp; support</li>
+          <li>New automations &amp; enhancements</li>
+          <li>Monthly reporting &amp; insights</li>
+          <li>User training &amp; troubleshooting</li>
         </ul>
         <a href="#contact" class="btn-ghost">Become a Partner →</a>
       </div>
@@ -599,10 +653,30 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
         </div>
       </div>
       <div class="cap-cards rvr">
-        <div class="cap tilt"><div class="ico">🏗️</div><h4>Strategy & Architecture</h4><p>Designing scalable Salesforce orgs aligned to your sales process.</p></div>
-        <div class="cap tilt"><div class="ico">⚙️</div><h4>Workflow Automation</h4><p>Flows and rules that remove manual work and speed up deals.</p></div>
-        <div class="cap tilt"><div class="ico">📊</div><h4>Pipeline Dashboards</h4><p>Real-time visibility into deals, agents, and revenue.</p></div>
-        <div class="cap tilt"><div class="ico">🎓</div><h4>Adoption Training</h4><p>Practical training that makes agents love the CRM.</p></div>
+        <div class="cap tilt">
+          <div class="ico" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          </div>
+          <h4>Strategy &amp; Architecture</h4><p>Designing scalable Salesforce orgs aligned to your sales process.</p>
+        </div>
+        <div class="cap tilt">
+          <div class="ico" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          </div>
+          <h4>Workflow Automation</h4><p>Flows and rules that remove manual work and speed up deals.</p>
+        </div>
+        <div class="cap tilt">
+          <div class="ico" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h4>Pipeline Dashboards</h4><p>Real-time visibility into deals, agents, and revenue.</p>
+        </div>
+        <div class="cap tilt">
+          <div class="ico" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <h4>Adoption Training</h4><p>Practical training that makes agents love the CRM.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -639,9 +713,9 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
     <div class="process-grid">
       <div class="process-line" aria-hidden="true"></div>
       <div class="step rv d1"><div class="num">1</div><span class="when">Week 1 · Free</span><h4>Discovery Call</h4><p>We map your goals, pain points, and current setup.</p></div>
-      <div class="step rv d2"><div class="num">2</div><span class="when">Week 1–2</span><h4>Audit & Roadmap</h4><p>A deep org review and a prioritized action plan.</p></div>
-      <div class="step rv d3"><div class="num">3</div><span class="when">Week 3+</span><h4>Build & Train</h4><p>Configuration, automation, dashboards, and team training.</p></div>
-      <div class="step rv d4"><div class="num">4</div><span class="when">Ongoing</span><h4>Optimize & Support</h4><p>Continuous tuning to keep ROI climbing.</p></div>
+      <div class="step rv d2"><div class="num">2</div><span class="when">Week 1–2</span><h4>Audit &amp; Roadmap</h4><p>A deep org review and a prioritized action plan.</p></div>
+      <div class="step rv d3"><div class="num">3</div><span class="when">Week 3+</span><h4>Build &amp; Train</h4><p>Configuration, automation, dashboards, and team training.</p></div>
+      <div class="step rv d4"><div class="num">4</div><span class="when">Ongoing</span><h4>Optimize &amp; Support</h4><p>Continuous tuning to keep ROI climbing.</p></div>
     </div>
   </div>
 </section>
@@ -654,31 +728,59 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
     </div>
     <div class="exp-cols">
       <div class="exp-col rvl">
-        <h3>💼 Salesforce Consulting</h3>
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          Salesforce Consulting
+        </h3>
         <div class="acc">
-          <button class="acc-head" aria-expanded="false"><span><span class="role">Salesforce CRM Consultant</span><br><span class="meta">Central City Solutions · Remote (Ohio, US)</span></span><span class="chev">⌄</span></button>
-          <div class="acc-body"><div class="acc-body-inner">Led a full Salesforce optimization for a real estate firm. Outcomes:<ul><li>+30% pipeline growth through better lead routing</li><li>20+ hours/week saved via automation</li><li>+25% user adoption with hands-on training</li></ul></div></div>
+          <button class="acc-head" aria-expanded="false">
+            <span><span class="role">Salesforce CRM Consultant</span><br><span class="meta">Central City Solutions · Remote (Ohio, US)</span></span>
+            <span class="chev" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+          </button>
+          <div class="acc-body"><div class="acc-body-inner">Architected a custom Configuration Object to centralize listing metadata. Migrated 30+ Zapier workflows to native Salesforce Flow, eliminating recurring tool costs. Built automated lead-routing flows with speed-to-lead under 5 minutes. Implemented email automation and stage-based task sequences.<ul><li>+30% pipeline growth through better lead routing</li><li>20+ hours/week saved via automation</li><li>+25% user adoption with hands-on training</li></ul></div></div>
         </div>
         <div class="acc">
-          <button class="acc-head" aria-expanded="false"><span><span class="role">Salesforce CRM Consultant</span><br><span class="meta">Pezon Properties · Remote (Pennsylvania, US)</span></span><span class="chev">⌄</span></button>
-          <div class="acc-body"><div class="acc-body-inner">Implemented dashboards and automation for a property firm.<ul><li>15% faster acquisition cycle</li><li>Unified pipeline visibility across the team</li><li>Reduced manual data entry significantly</li></ul></div></div>
+          <button class="acc-head" aria-expanded="false">
+            <span><span class="role">Salesforce CRM Consultant</span><br><span class="meta">Pezon Properties · Remote (Pennsylvania, US)</span></span>
+            <span class="chev" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+          </button>
+          <div class="acc-body"><div class="acc-body-inner">Built a Transaction Coordination object linking Contacts, Opportunities, and Properties. Developed RCDailyCallLogSync — an Apex class syncing daily call logs automatically. Deployed an LWC Queue Task Manager for agents to manage their daily task queues. Created MergeFieldReplacer Apex utility for dynamic email templates.<ul><li>15% faster acquisition cycle</li><li>Unified pipeline visibility across the team</li><li>Reduced manual data entry significantly</li></ul></div></div>
         </div>
       </div>
       <div class="exp-col rvr">
-        <h3>📈 Adobe Career</h3>
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          Adobe Career
+        </h3>
         <div class="acc">
-          <button class="acc-head" aria-expanded="false"><span><span class="role">Customer Experience Specialist</span><br><span class="meta">Adobe · Multi-year tenure</span></span><span class="chev">⌄</span></button>
-          <div class="acc-body"><div class="acc-body-inner">Resolved 300+ complex customer cases, building deep CRM and customer-success expertise that informs how I design adoption-friendly Salesforce systems today.</div></div>
+          <button class="acc-head" aria-expanded="false">
+            <span><span class="role">Customer Experience Specialist</span><br><span class="meta">Adobe · Multi-year tenure</span></span>
+            <span class="chev" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+          </button>
+          <div class="acc-body"><div class="acc-body-inner">Resolved 300+ complex customer support cases across Creative Cloud products. Designed internal CRM workflow improvements that reduced resolution time. Delivered technical training sessions to agents — honing the adoption-training skills I bring to every Salesforce engagement.</div></div>
         </div>
         <div class="acc">
-          <button class="acc-head" aria-expanded="false"><span><span class="role">Technical Support & Training</span><br><span class="meta">Adobe</span></span><span class="chev">⌄</span></button>
+          <button class="acc-head" aria-expanded="false">
+            <span><span class="role">Technical Support &amp; Training</span><br><span class="meta">Adobe</span></span>
+            <span class="chev" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
+          </button>
           <div class="acc-body"><div class="acc-body-inner">Delivered technical training and support, sharpening the teaching skills I now use to drive Salesforce adoption for client teams.</div></div>
         </div>
       </div>
     </div>
     <div class="extra-cards">
-      <div class="card rv d1"><div class="ic">🏅</div><div><h4 style="font-weight:800;margin-bottom:6px">Trailhead Double Star Ranger</h4><p style="color:var(--txt2);font-size:.92rem">Earned hundreds of badges across Salesforce platform topics — a verified mark of hands-on platform depth.</p></div></div>
-      <div class="card rv d2"><div class="ic">🎓</div><div><h4 style="font-weight:800;margin-bottom:6px">Education</h4><p style="color:var(--txt2);font-size:.92rem">Bachelor's degree plus continuous Salesforce education through certifications and Trailhead.</p></div></div>
+      <div class="card rv d1">
+        <div class="ic" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+        </div>
+        <div><h4 style="font-weight:800;margin-bottom:6px">Trailhead Double Star Ranger</h4><p style="color:var(--txt2);font-size:.92rem">Earned hundreds of badges across Salesforce platform topics — a verified mark of hands-on platform depth.</p></div>
+      </div>
+      <div class="card rv d2">
+        <div class="ic" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+        </div>
+        <div><h4 style="font-weight:800;margin-bottom:6px">Education</h4><p style="color:var(--txt2);font-size:.92rem">Bachelor's degree plus continuous Salesforce education through certifications and Trailhead.</p></div>
+      </div>
     </div>
   </div>
 </section>
@@ -691,12 +793,12 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
     </div>
     <div class="skills-grid">
       <div class="rvl">
-        <div class="skills-sub">Platform & Tools</div>
+        <div class="skills-sub">Platform &amp; Tools</div>
         <div class="tag-cloud">
           <span class="tag">Sales Cloud</span><span class="tag">Service Cloud</span><span class="tag">Flow Builder</span>
           <span class="tag">Lightning App Builder</span><span class="tag">Process Automation</span><span class="tag">Lead Routing</span>
-          <span class="tag">Reports & Dashboards</span><span class="tag">Data Management</span><span class="tag">Validation Rules</span>
-          <span class="tag">Approval Processes</span><span class="tag">Custom Objects</span><span class="tag">Security & Sharing</span>
+          <span class="tag">Reports &amp; Dashboards</span><span class="tag">Data Management</span><span class="tag">Validation Rules</span>
+          <span class="tag">Approval Processes</span><span class="tag">Custom Objects</span><span class="tag">Security &amp; Sharing</span>
           <span class="tag">Email Templates</span><span class="tag">Integrations</span><span class="tag">User Training</span>
         </div>
       </div>
@@ -704,9 +806,9 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
         <div class="skills-sub">Core Competencies</div>
         <div class="bar"><div class="top"><span>Salesforce Administration</span><span>95%</span></div><div class="bar-track"><div class="bar-fill" data-w="95"></div></div></div>
         <div class="bar"><div class="top"><span>Process Automation</span><span>92%</span></div><div class="bar-track"><div class="bar-fill" data-w="92"></div></div></div>
-        <div class="bar"><div class="top"><span>Dashboards & Reporting</span><span>90%</span></div><div class="bar-track"><div class="bar-fill" data-w="90"></div></div></div>
-        <div class="bar"><div class="top"><span>Lead Routing & Sales Cloud</span><span>93%</span></div><div class="bar-track"><div class="bar-fill" data-w="93"></div></div></div>
-        <div class="bar"><div class="top"><span>User Adoption & Training</span><span>96%</span></div><div class="bar-track"><div class="bar-fill" data-w="96"></div></div></div>
+        <div class="bar"><div class="top"><span>Dashboards &amp; Reporting</span><span>90%</span></div><div class="bar-track"><div class="bar-fill" data-w="90"></div></div></div>
+        <div class="bar"><div class="top"><span>Lead Routing &amp; Sales Cloud</span><span>93%</span></div><div class="bar-track"><div class="bar-fill" data-w="93"></div></div></div>
+        <div class="bar"><div class="top"><span>User Adoption &amp; Training</span><span>96%</span></div><div class="bar-track"><div class="bar-fill" data-w="96"></div></div></div>
       </div>
     </div>
   </div>
@@ -719,13 +821,36 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
       <h2 class="h-xl">Certified Across<br>the Full Platform</h2>
     </div>
     <div class="certs-grid">
-      <div class="cert tilt rv d1"><div class="badge">📜</div><h4>Salesforce Administrator</h4><span>Certified</span></div>
-      <div class="cert tilt rv d2"><div class="badge">🛠️</div><h4>Platform App Builder</h4><span>Certified</span></div>
-      <div class="cert tilt rv d3"><div class="badge">☁️</div><h4>Sales Cloud Consultant</h4><span>Certified</span></div>
-      <div class="cert tilt rv d4"><div class="badge">🎯</div><h4>Service Cloud Consultant</h4><span>Certified</span></div>
-      <div class="cert tilt rv d1"><div class="badge">⭐</div><h4>Trailhead Double Star Ranger</h4><span>Achieved</span></div>
-      <div class="cert tilt rv d2"><div class="badge">🤖</div><h4>AI Associate</h4><span>Certified</span></div>
-      <div class="cert tilt rv d3"><div class="badge">🔗</div><h4>Salesforce Associate</h4><span>Certified</span></div>
+      <div class="cert tilt rv d1">
+        <div class="badge" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h4>Salesforce Administrator</h4><span>Certified</span>
+      </div>
+      <div class="cert tilt rv d2">
+        <div class="badge" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        <h4>Platform App Builder</h4><span>Certified</span>
+      </div>
+      <div class="cert tilt rv d3">
+        <div class="badge" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <h4>Salesforce Associate</h4><span>Certified</span>
+      </div>
+      <div class="cert tilt rv d4">
+        <div class="badge" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+        </div>
+        <h4>Salesforce AI Associate</h4><span>Certified</span>
+      </div>
+      <div class="cert tilt rv d5">
+        <div class="badge" aria-hidden="true" style="background:linear-gradient(135deg,var(--gold-light),#fff);border-color:rgba(245,158,11,.3)">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <h4>Trailhead Double Star Ranger</h4><span>Achieved</span>
+      </div>
     </div>
   </div>
 </section>
@@ -739,15 +864,21 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
     </div>
     <div class="blog-grid">
       <a href="blog-salesforce-lead-routing-real-estate.html" class="card blog-card b1 rv d1">
-        <div class="img" aria-hidden="true">🧭</div>
+        <div class="blog-thumb" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </div>
         <div class="bd"><span class="cat">Lead Routing</span><h3>Lead Routing in Salesforce for Real Estate</h3><p>How to assign hot leads instantly and never let an inquiry go cold again.</p><span class="btn-ghost">Read article →</span></div>
       </a>
       <a href="blog-salesforce-automations-real-estate.html" class="card blog-card b2 rv d2">
-        <div class="img" aria-hidden="true">⚙️</div>
+        <div class="blog-thumb" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        </div>
         <div class="bd"><span class="cat">Automation</span><h3>Salesforce Automations That Save Real Estate Teams Hours</h3><p>The flows and rules that quietly reclaim 20+ hours every week.</p><span class="btn-ghost">Read article →</span></div>
       </a>
       <a href="blog-salesforce-configuration-object-real-estate.html" class="card blog-card b3 rv d3">
-        <div class="img" aria-hidden="true">🧩</div>
+        <div class="blog-thumb" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+        </div>
         <div class="bd"><span class="cat">Configuration</span><h3>Configuring the Right Objects for Real Estate</h3><p>Structuring your Salesforce data model around how real estate actually works.</p><span class="btn-ghost">Read article →</span></div>
       </a>
     </div>
@@ -768,7 +899,7 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
       <div class="faq-item"><button class="faq-q" aria-expanded="false">How fast can we start?<span class="chev">+</span></button><div class="faq-a"><div class="faq-a-inner">Discovery calls happen in week one and audits begin immediately after. Builds typically start by week three.</div></div></div>
       <div class="faq-item"><button class="faq-q" aria-expanded="false">Do you only build, or do you train teams too?<span class="chev">+</span></button><div class="faq-a"><div class="faq-a-inner">Both. I build the system and train your agents so adoption actually sticks. I've taught 8,000+ students.</div></div></div>
       <div class="faq-item"><button class="faq-q" aria-expanded="false">What does it cost?<span class="chev">+</span></button><div class="faq-a"><div class="faq-a-inner">Pricing depends on scope. Audits are fixed-fee, implementations are project-based, and ongoing management is a monthly retainer. The discovery call is always free.</div></div></div>
-      <div class="faq-item"><button class="faq-q" aria-expanded="false">What engagement types do you offer?<span class="chev">+</span></button><div class="faq-a"><div class="faq-a-inner">Three: a one-time CRM Audit & Roadmap, a full implementation project, or an ongoing monthly management partnership — pick what fits your stage.</div></div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false">What engagement types do you offer?<span class="chev">+</span></button><div class="faq-a"><div class="faq-a-inner">Three: a one-time CRM Audit &amp; Roadmap, a full implementation project, or an ongoing monthly management partnership — pick what fits your stage.</div></div></div>
     </div>
   </div>
 </section>
@@ -781,13 +912,32 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
         <h2 class="h-xl">Let's Fix Your CRM</h2>
         <p class="sub">Tell me what's broken. I'll tell you how I'd fix it — no obligation, no jargon.</p>
         <div class="contact-links">
-          <a href="mailto:info@AmrMagdy.com" class="contact-link"><span class="ic">✉️</span><span>info@AmrMagdy.com<span class="s">Email me directly</span></span></a>
-          <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" class="contact-link"><span class="ic">in</span><span>linkedin.com/in/amrmagdyai<span class="s">Connect on LinkedIn</span></span></a>
-          <a href="tel:+201033275250" class="contact-link"><span class="ic">📞</span><span>+20 103 327 5250<span class="s">Call or WhatsApp</span></span></a>
-          <div class="contact-link"><span class="ic">🟢</span><span>Available now<span class="s">Remote · Worldwide</span></span></div>
+          <a href="mailto:info@AmrMagdy.com" class="contact-link">
+            <span class="ic" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </span>
+            <span>info@AmrMagdy.com<span class="s">Email me directly</span></span>
+          </a>
+          <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" class="contact-link">
+            <span class="ic" style="font-weight:800;font-size:1rem">in</span>
+            <span>linkedin.com/in/amrmagdyai<span class="s">Connect on LinkedIn</span></span>
+          </a>
+          <a href="tel:+201033275250" class="contact-link">
+            <span class="ic" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.36 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+            </span>
+            <span>+20 103 327 5250<span class="s">Call or WhatsApp</span></span>
+          </a>
+          <div class="contact-link">
+            <span class="ic" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </span>
+            <span>Available now<span class="s">Remote · Worldwide</span></span>
+          </div>
         </div>
       </div>
       <form class="cform rvr" id="contact-form">
+        <input type="text" name="website" style="position:absolute;left:-9999px;opacity:0" tabindex="-1" autocomplete="off" aria-hidden="true">
         <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
         <label for="cf-name">Name</label>
         <input id="cf-name" name="name" type="text" required placeholder="Your name">
@@ -807,7 +957,7 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
 <footer class="dark">
   <div class="wrap">
     <div class="footer-inner">
-      <div class="c">© 2026 Amr Magdy — Salesforce CRM Consultant. All rights reserved.</div>
+      <div class="c">© <span id="footer-year">2026</span> Amr Magdy — Salesforce CRM Consultant. All rights reserved.</div>
       <div class="footer-links">
         <a href="blog.html">Blog</a>
         <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a>
@@ -818,11 +968,13 @@ footer{padding:40px 0;border-top:1px solid rgba(255,255,255,.08)}
   </div>
 </footer>
 
-<p class="geo-hidden">Amr Magdy is a Salesforce CRM Consultant and 4× Salesforce Certified professional (Salesforce Administrator, Platform App Builder, Sales Cloud Consultant, Service Cloud Consultant) and a Trailhead Double Star Ranger. He specializes in Salesforce implementations for real estate companies, including lead routing, Flow Builder automation, Sales Cloud configuration, pipeline dashboards, and user adoption training. He has served US real estate firms such as Central City Solutions (Ohio) and Pezon Properties (Pennsylvania), delivering +30% pipeline growth, 20+ hours saved per week, +25% user adoption, and 15% faster acquisition cycles. He works remotely worldwide and can be reached at info@AmrMagdy.com or +20 103 327 5250.</p>
+<p class="geo-hidden">Amr Magdy is a Salesforce CRM Consultant and 4× Salesforce Certified professional (Salesforce Administrator, Platform App Builder, Salesforce Associate, AI Associate) and a Trailhead Double Star Ranger. He specializes in Salesforce implementations for real estate companies, including lead routing, Flow Builder automation, Sales Cloud configuration, pipeline dashboards, and user adoption training. He has served US real estate firms such as Central City Solutions (Ohio) and Pezon Properties (Pennsylvania), delivering +30% pipeline growth, 20+ hours saved per week, +25% user adoption, and 15% faster acquisition cycles. He works remotely worldwide and can be reached at info@AmrMagdy.com or +20 103 327 5250.</p>
 
 <script>
 (function(){
   "use strict";
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var touch = window.matchMedia('(hover:none),(pointer:coarse)').matches;
   document.documentElement.classList.remove('no-js');
