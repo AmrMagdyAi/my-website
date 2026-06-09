@@ -9,8 +9,8 @@
 <meta name="author" content="Amr Magdy">
 <link rel="canonical" href="https://amrmagdy.com/">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0d1b2e" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fbfcfe" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a1220" media="(prefers-color-scheme: dark)">
 <meta name="format-detection" content="telephone=no">
 <meta name="geo.region" content="US">
 <meta name="geo.placename" content="Remote — United States">
@@ -40,8 +40,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="image" href="imgs/AmrMagdyPic.webp" fetchpriority="high">
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"></noscript>
 
 <script type="application/ld+json">
 {
@@ -77,7 +77,7 @@
       "@id": "https://amrmagdy.com/#website",
       "url": "https://amrmagdy.com/",
       "name": "Amr Magdy — Salesforce CRM Consultant",
-      "dateModified": "2026-06-08",
+      "dateModified": "2026-06-09",
       "publisher": { "@id": "https://amrmagdy.com/#person" }
     },
     {
@@ -103,7 +103,7 @@
       "@id": "https://amrmagdy.com/#faq",
       "mainEntity": [
         { "@type": "Question", "name": "Do you work with real estate companies specifically?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — exclusively. Real estate is the only industry I serve. That means speed-to-lead routing, property acquisition pipelines, transaction coordination, and ROI dashboards built for how brokerages and property firms actually operate." } },
-        { "@type": "Question", "name": "Are you certified?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. I hold 4 Salesforce certifications — Administrator, Platform App Builder, Associate, and AI Associate — and I am a Trailhead Double Star Ranger with 20 superbadges, 210+ badges, and 130,000+ points." } },
+        { "@type": "Question", "name": "Are you certified?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. I hold 4 Salesforce certifications — Administrator (Mar 2023), Platform App Builder (Apr 2023), Associate (Nov 2023), and AI Associate (Nov 2023) — and I am a Trailhead Double Star Ranger with 20 superbadges, 210+ badges, and 130,000+ points." } },
         { "@type": "Question", "name": "Do you work remotely?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, fully remote with US and international clients, working US Eastern and Central hours so we overlap your business day." } },
         { "@type": "Question", "name": "How fast can we start?", "acceptedAnswer": { "@type": "Answer", "text": "Discovery happens in week one with a free 30-minute call, the audit and roadmap follow in weeks one to two, and the build typically begins in week three." } },
         { "@type": "Question", "name": "Do you only build, or do you train teams too?", "acceptedAnswer": { "@type": "Answer", "text": "Both. I build the system and then train your agents until adoption sticks. I spent years as an Adobe Certified Instructor teaching 8,000+ students at a 4.9/5 rating — that teaching DNA is why my implementations actually get used." } },
@@ -134,232 +134,269 @@
 
 <style>
 :root{
-  --navy:#0a1626; --navy2:#101f33; --navy3:#16263d;
-  --bg:#ffffff; --bg2:#f6f9fd; --bg3:#e9f1fa;
-  --txt:#0a1626; --txt2:#475a73; --txt3:#8093ad;
-  --bd:rgba(10,22,38,.08); --bd2:rgba(10,22,38,.14);
-  --sf:#0176d3; --sf2:#00a1e0; --sf-light:#e7f3fe; --sf-dk:#015fad;
-  --gold:#f59e0b; --gold-light:#fff8eb;
-  --green:#10b981; --green-light:#ecfdf5;
-  --purple:#8b5cf6;
-  --nav-h:70px; --r:11px; --rl:20px;
+  --ink:#0a1220; --ink2:#101a2c; --ink3:#17243a;
+  --paper:#fbfcfe; --paper2:#f2f5fa; --paper3:#e7edf6;
+  --txt:#0a1220; --txt2:#48566e; --txt3:#7a89a2;
+  --bd:rgba(10,18,32,.09); --bd2:rgba(10,18,32,.16);
+  --sf:#0176d3; --sf2:#00a1e0; --sf-soft:#e8f4fe; --sf-dk:#015fad;
+  --gold:#f5b544; --gold-dk:#b87708; --gold-soft:#fdf4e0;
+  --em:#10b981; --em-dk:#047a5b; --em-soft:#e7f8f1;
+  --nav-h:72px; --r:14px; --rl:22px; --rxl:26px;
   --ease:cubic-bezier(.4,0,.2,1);
   --spring:cubic-bezier(.34,1.56,.64,1);
-  --sh-sm:0 1px 2px rgba(10,22,38,.05),0 2px 8px rgba(10,22,38,.04);
-  --sh-md:0 6px 16px rgba(10,22,38,.07),0 12px 36px rgba(10,22,38,.06);
-  --sh-lg:0 24px 60px rgba(10,22,38,.14);
+  --sh-sm:0 1px 2px rgba(10,18,32,.05),0 4px 12px rgba(10,18,32,.05);
+  --sh-md:0 10px 28px rgba(10,18,32,.09),0 18px 50px rgba(10,18,32,.06);
+  --sh-lg:0 30px 70px rgba(10,18,32,.16);
+  --dark-glow:radial-gradient(60% 55% at 18% 12%,rgba(1,118,211,.30),transparent 60%),radial-gradient(50% 50% at 88% 8%,rgba(0,161,224,.20),transparent 60%),radial-gradient(55% 60% at 75% 100%,rgba(245,181,68,.10),transparent 60%);
 }
 *{margin:0;padding:0;box-sizing:border-box}
-*:focus-visible{outline:2px solid var(--sf);outline-offset:3px;border-radius:5px}
+*:focus-visible{outline:2.5px solid var(--sf);outline-offset:3px;border-radius:6px}
 *:focus:not(:focus-visible){outline:none}
-html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + 12px)}
-body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--txt);line-height:1.62;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + 14px)}
+body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;background:var(--paper);color:var(--txt);line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
 section{position:relative}
-.wrap{max-width:1200px;margin:0 auto;padding:0 26px}
-.sec{padding:116px 0}
-.dark{background:var(--navy);color:#fff}
-.dark p,.dark .sub{color:#a7bad4}
-.bg2{background:var(--bg2)}
+.wrap{max-width:1220px;margin:0 auto;padding:0 28px}
+.sec{padding:120px 0}
+.mono{font-family:'Space Grotesk','Plus Jakarta Sans',sans-serif}
+.dark{background:var(--ink);color:#fff;overflow:hidden}
+.dark p{color:#aab9d2}
+.dark-mesh{position:absolute;inset:0;background:var(--dark-glow);z-index:0;pointer-events:none}
+.grain{position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.5;mix-blend-mode:overlay}
+.bg2{background:var(--paper2)}
 .skip{position:absolute;left:-9999px;top:0;background:var(--sf);color:#fff;padding:11px 18px;border-radius:9px;z-index:9999;font-weight:700}
 .skip:focus{left:14px;top:14px}
 #progress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--sf),var(--sf2),var(--gold));z-index:1000;transition:width .1s linear}
-#cursor,#cursor-dot{position:fixed;top:0;left:0;pointer-events:none;z-index:9998;border-radius:50%}
-#cursor{width:38px;height:38px;border:2px solid var(--sf);opacity:.72;transform:translate(-50%,-50%);transition:width .25s var(--ease),height .25s var(--ease),background .25s var(--ease),opacity .25s}
-#cursor.hover{width:58px;height:58px;background:rgba(1,118,211,.09)}
-#cursor-dot{width:6px;height:6px;background:var(--sf);transform:translate(-50%,-50%)}
+#cursor,#cursor-dot{position:fixed;top:0;left:0;pointer-events:none;z-index:9998;border-radius:50%;mix-blend-mode:difference}
+#cursor{width:36px;height:36px;border:2px solid #fff;opacity:.9;transform:translate(-50%,-50%);transition:width .25s var(--ease),height .25s var(--ease),opacity .25s}
+#cursor.hover{width:56px;height:56px;background:rgba(255,255,255,.12)}
+#cursor-dot{width:6px;height:6px;background:#fff;transform:translate(-50%,-50%)}
 @media (hover:none),(pointer:coarse){#cursor,#cursor-dot{display:none!important}}
-.label{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--sf);background:var(--sf-light);padding:7px 14px;border-radius:50px;margin-bottom:22px}
-.label svg{width:14px;height:14px}
-.label.amber{color:#b45309;background:var(--gold-light)}
-.label.emerald{color:#047857;background:var(--green-light)}
-.dark .label{background:rgba(255,255,255,.07);color:#cfe0f4}
-.dark .label.amber{color:#fbbf24;background:rgba(245,158,11,.12)}
-.dark .label.emerald{color:#34d399;background:rgba(16,185,129,.12)}
-.h-xl{font-size:clamp(2.05rem,4.8vw,3.35rem);font-weight:800;line-height:1.07;letter-spacing:-.025em}
-h2.h-xl{margin-bottom:18px}
-.sec-head{max-width:720px;margin-bottom:60px}
-.sec-head.center{margin:0 auto 60px;text-align:center}
-.grad{background:linear-gradient(115deg,var(--sf),var(--sf2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-.grad-gold{background:linear-gradient(115deg,#d97706,var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-.dark .grad{background:linear-gradient(115deg,#3db5f0,var(--sf2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-p.sub{color:var(--txt2);font-size:1.1rem}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-family:inherit;font-weight:700;font-size:.96rem;padding:14px 26px;border-radius:var(--r);border:1.5px solid transparent;cursor:pointer;transition:transform .25s var(--spring),box-shadow .25s var(--ease),background .25s var(--ease),color .25s,border-color .25s;will-change:transform}
+
+.eyebrow{display:inline-flex;align-items:center;gap:9px;font-family:'Space Grotesk',sans-serif;font-size:12.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--sf);margin-bottom:22px}
+.eyebrow::before{content:"";width:26px;height:2px;background:linear-gradient(90deg,var(--sf),var(--sf2));border-radius:2px}
+.dark .eyebrow{color:#5cc3f5}
+.dark .eyebrow::before{background:linear-gradient(90deg,#5cc3f5,var(--sf2))}
+.h-disp{font-family:'Space Grotesk',sans-serif;font-weight:700;line-height:1.02;letter-spacing:-.03em}
+.sec-head{max-width:760px;margin-bottom:64px}
+.sec-head h2{font-family:'Space Grotesk',sans-serif;font-size:clamp(2rem,4.6vw,3.1rem);font-weight:700;line-height:1.05;letter-spacing:-.03em;margin-bottom:18px}
+.sec-head.center{margin:0 auto 64px;text-align:center}
+.sec-head p{color:var(--txt2);font-size:1.12rem}
+.dark .sec-head p{color:#aab9d2}
+.grad{background:linear-gradient(110deg,var(--sf),var(--sf2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.dark .grad{background:linear-gradient(110deg,#5cc3f5,var(--sf2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.grad-gold{background:linear-gradient(110deg,var(--gold-dk),var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:inherit;font-weight:700;font-size:.96rem;padding:15px 28px;border-radius:var(--r);border:1.5px solid transparent;cursor:pointer;transition:transform .25s var(--spring),box-shadow .25s var(--ease),background .25s,color .25s,border-color .25s;will-change:transform}
 .btn svg{width:18px;height:18px}
-.btn-primary{background:var(--sf);color:#fff;box-shadow:0 8px 22px rgba(1,118,211,.28)}
-.btn-primary:hover{background:var(--sf-dk);box-shadow:0 12px 30px rgba(1,118,211,.4)}
-.btn-white{background:#fff;color:var(--txt);border-color:var(--bd2)}
-.btn-white:hover{border-color:var(--sf);color:var(--sf)}
-.dark .btn-white{background:transparent;color:#fff;border-color:rgba(255,255,255,.28)}
-.dark .btn-white:hover{background:#fff;color:var(--navy);border-color:#fff}
-.btn-ghost{background:transparent;padding:6px 0;color:var(--sf);font-weight:700;gap:6px;transition:gap .25s var(--ease)}
+.btn-primary{background:linear-gradient(120deg,var(--sf),var(--sf2));color:#fff;box-shadow:0 10px 26px rgba(1,118,211,.34)}
+.btn-primary:hover{box-shadow:0 16px 38px rgba(1,118,211,.46)}
+.btn-line{background:transparent;color:var(--txt);border-color:var(--bd2)}
+.btn-line:hover{border-color:var(--sf);color:var(--sf)}
+.dark .btn-line{color:#fff;border-color:rgba(255,255,255,.3)}
+.dark .btn-line:hover{background:#fff;color:var(--ink);border-color:#fff}
+.btn-ghost{background:transparent;padding:7px 0;color:var(--sf);font-weight:700;gap:7px;transition:gap .25s var(--ease)}
 .btn-ghost svg{width:16px;height:16px;transition:transform .25s var(--ease)}
 .btn-ghost:hover svg{transform:translateX(4px)}
-.card{background:#fff;border:1px solid var(--bd);border-radius:var(--rl);padding:30px;box-shadow:var(--sh-sm);transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .35s}
-.card:hover{box-shadow:var(--sh-md);border-color:var(--bd2)}
-.card-dark{background:var(--navy2);border:1px solid rgba(255,255,255,.08);border-radius:var(--rl);padding:30px;transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .35s}
-.card-dark:hover{border-color:rgba(255,255,255,.2)}
-.tilt{transform-style:preserve-3d;will-change:transform}
-.rv,.rvl,.rvr{opacity:0;transition:opacity .7s var(--ease),transform .7s var(--ease)}
-.rv{transform:translateY(34px)}
-.rvl{transform:translateX(-44px)}
-.rvr{transform:translateX(44px)}
-.rv.on,.rvl.on,.rvr.on{opacity:1;transform:none}
-.d1{transition-delay:.07s}.d2{transition-delay:.14s}.d3{transition-delay:.21s}.d4{transition-delay:.28s}.d5{transition-delay:.35s}.d6{transition-delay:.42s}
+.dark .btn-ghost{color:#5cc3f5}
 
+.rv,.rvl,.rvr{opacity:0;transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.rv{transform:translateY(32px)}
+.rvl{transform:translateX(-40px)}
+.rvr{transform:translateX(40px)}
+.rv.on,.rvl.on,.rvr.on{opacity:1;transform:none}
+.d1{transition-delay:.06s}.d2{transition-delay:.12s}.d3{transition-delay:.18s}.d4{transition-delay:.24s}.d5{transition-delay:.3s}.d6{transition-delay:.36s}
+
+/* NAV */
 #nav{position:fixed;top:0;left:0;right:0;height:var(--nav-h);z-index:900;display:flex;align-items:center;transition:background .3s var(--ease),box-shadow .3s var(--ease),border-color .3s}
-#nav.solid{background:rgba(255,255,255,.85);backdrop-filter:saturate(180%) blur(18px);-webkit-backdrop-filter:saturate(180%) blur(18px);border-bottom:1px solid var(--bd);box-shadow:0 2px 22px rgba(10,22,38,.05)}
+#nav.solid{background:rgba(251,252,254,.82);backdrop-filter:saturate(180%) blur(18px);-webkit-backdrop-filter:saturate(180%) blur(18px);border-bottom:1px solid var(--bd);box-shadow:0 2px 22px rgba(10,18,32,.05)}
 #nav .wrap{display:flex;align-items:center;justify-content:space-between;width:100%}
-.logo{display:flex;align-items:center;gap:11px;font-weight:800;font-size:1.05rem;letter-spacing:-.01em}
-.logo-mark{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--sf),var(--sf2));color:#fff;display:grid;place-items:center;font-size:.86rem;font-weight:800;box-shadow:0 4px 12px rgba(1,118,211,.35)}
+.logo{display:flex;align-items:center;gap:11px;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.06rem;letter-spacing:-.02em}
+.logo-mark{width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,var(--sf),var(--sf2));color:#fff;display:grid;place-items:center;font-size:.82rem;font-weight:700;box-shadow:0 4px 12px rgba(1,118,211,.4)}
 .nav-links{display:flex;gap:30px;align-items:center}
-.nav-links a{font-weight:600;font-size:.94rem;color:var(--txt2);position:relative;transition:color .2s}
+.nav-links a{font-weight:600;font-size:.93rem;color:var(--txt2);position:relative;transition:color .2s}
 .nav-links a:hover,.nav-links a.active{color:var(--txt)}
 .nav-links a.active::after{content:"";position:absolute;left:0;bottom:-7px;width:100%;height:2px;background:var(--sf);border-radius:2px}
 .nav-cta{display:flex;align-items:center;gap:14px}
 .burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:8px}
 .burger span{width:24px;height:2px;background:var(--txt);border-radius:2px;transition:.3s}
-#drawer{position:fixed;top:0;right:-100%;width:min(86vw,350px);height:100%;background:#fff;z-index:1100;box-shadow:-10px 0 44px rgba(10,22,38,.22);transition:right .4s var(--ease);display:flex;flex-direction:column;padding:26px}
+#drawer{position:fixed;top:0;right:-100%;width:min(86vw,360px);height:100%;background:var(--ink);color:#fff;z-index:1100;box-shadow:-10px 0 44px rgba(10,18,32,.4);transition:right .4s var(--ease);display:flex;flex-direction:column;padding:26px;overflow-y:auto}
 #drawer.open{right:0}
-#drawer-overlay{position:fixed;inset:0;background:rgba(10,22,38,.42);opacity:0;pointer-events:none;transition:opacity .3s;z-index:1050}
+#drawer-overlay{position:fixed;inset:0;background:rgba(10,18,32,.55);opacity:0;pointer-events:none;transition:opacity .3s;z-index:1050;backdrop-filter:blur(2px)}
 #drawer-overlay.open{opacity:1;pointer-events:auto}
-.drawer-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
-.drawer-close{background:none;border:none;cursor:pointer;color:var(--txt2);display:flex;padding:6px}
+.drawer-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.drawer-close{background:none;border:none;cursor:pointer;color:#aab9d2;display:flex;padding:6px}
 .drawer-close svg{width:26px;height:26px}
-#drawer a.dlink{padding:15px 2px;font-weight:600;font-size:1.08rem;border-bottom:1px solid var(--bd);transition:color .2s,padding-left .2s}
-#drawer a.dlink:hover{color:var(--sf);padding-left:6px}
+#drawer a.dlink{padding:15px 2px;font-weight:600;font-size:1.06rem;border-bottom:1px solid rgba(255,255,255,.1);transition:color .2s,padding-left .2s;color:#dde6f2}
+#drawer a.dlink:hover{color:#5cc3f5;padding-left:6px}
 #drawer .btn{margin-top:22px}
 
-#sidenav{position:fixed;right:24px;top:50%;transform:translateY(-50%);z-index:800;display:flex;flex-direction:column;gap:13px;opacity:0;pointer-events:none;transition:opacity .4s}
+#sidenav{position:fixed;right:26px;top:50%;transform:translateY(-50%);z-index:800;display:flex;flex-direction:column;gap:13px;opacity:0;pointer-events:none;transition:opacity .4s}
 #sidenav.show{opacity:1;pointer-events:auto}
-#sidenav a{width:11px;height:11px;border-radius:50%;background:var(--bd2);transition:.3s;position:relative}
+#sidenav a{width:10px;height:10px;border-radius:50%;background:var(--bd2);transition:.3s;position:relative}
 #sidenav a.active{background:var(--sf);transform:scale(1.4)}
-#sidenav a::before{content:attr(data-l);position:absolute;right:22px;top:50%;transform:translateY(-50%);background:var(--navy);color:#fff;font-size:11px;font-weight:600;padding:4px 10px;border-radius:6px;white-space:nowrap;opacity:0;pointer-events:none;transition:.25s}
+#sidenav a::before{content:attr(data-l);position:absolute;right:22px;top:50%;transform:translateY(-50%);background:var(--ink);color:#fff;font-size:11px;font-weight:600;padding:4px 10px;border-radius:6px;white-space:nowrap;opacity:0;pointer-events:none;transition:.25s}
 #sidenav a:hover::before{opacity:1}
 
-#hero{min-height:100vh;display:flex;align-items:center;padding-top:calc(var(--nav-h) + 30px);padding-bottom:60px;overflow:hidden}
-.hero-blobs{position:absolute;inset:0;z-index:0;overflow:hidden}
-.parallax-blob{position:absolute;border-radius:50%;filter:blur(72px);opacity:.5;will-change:transform}
-.blob-blue{width:560px;height:560px;background:radial-gradient(circle,var(--sf2),transparent 70%);top:-140px;left:-120px;animation:float1 17s ease-in-out infinite}
-.blob-gold{width:430px;height:430px;background:radial-gradient(circle,var(--gold),transparent 70%);bottom:-110px;right:5%;opacity:.3;animation:float2 20s ease-in-out infinite}
-.blob-green{width:380px;height:380px;background:radial-gradient(circle,var(--green),transparent 70%);top:28%;right:32%;opacity:.26;animation:float1 23s ease-in-out infinite}
-@keyframes float1{0%,100%{transform:translate(0,0)}50%{transform:translate(42px,-32px)}}
-@keyframes float2{0%,100%{transform:translate(0,0)}50%{transform:translate(-42px,32px)}}
-.dot-grid{position:absolute;inset:0;background-image:radial-gradient(var(--bd2) 1px,transparent 1px);background-size:30px 30px;opacity:.45;z-index:0;-webkit-mask-image:radial-gradient(ellipse 80% 60% at 50% 40%,#000,transparent);mask-image:radial-gradient(ellipse 80% 60% at 50% 40%,#000,transparent)}
-.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1fr 450px;gap:64px;align-items:center;width:100%}
-.pill-avail{display:inline-flex;align-items:center;gap:9px;background:var(--green-light);color:#047857;font-weight:700;font-size:.84rem;padding:7px 15px;border-radius:50px;margin-bottom:24px;border:1px solid rgba(16,185,129,.18)}
-.dot-live{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(16,185,129,.5);animation:pulse 2s infinite;flex:none}
-@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(16,185,129,.5)}70%{box-shadow:0 0 0 10px rgba(16,185,129,0)}100%{box-shadow:0 0 0 0 rgba(16,185,129,0)}}
-#hero h1{font-size:clamp(2.35rem,5.4vw,3.95rem);font-weight:800;line-height:1.05;letter-spacing:-.03em;margin-bottom:10px}
-.hero-sub{display:block;font-size:clamp(1.05rem,2.3vw,1.5rem);font-weight:600;color:var(--sf);margin-bottom:22px;min-height:1.4em}
-#hero p.lead{color:var(--txt2);font-size:1.12rem;max-width:560px;margin-bottom:30px}
-.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:36px}
-.hero-stats{display:flex;gap:30px;flex-wrap:wrap}
-.hero-stat .n{font-size:1.75rem;font-weight:800;line-height:1;color:var(--txt);letter-spacing:-.02em}
-.hero-stat .l{font-size:.82rem;color:var(--txt2);font-weight:600;margin-top:3px}
+/* HERO */
+#hero{position:relative;min-height:100vh;display:flex;align-items:center;padding-top:calc(var(--nav-h) + 40px);padding-bottom:70px;background:var(--ink);color:#fff}
+.parallax-blob{position:absolute;border-radius:50%;filter:blur(80px);will-change:transform;z-index:0}
+.blob-blue{width:620px;height:620px;background:radial-gradient(circle,rgba(1,118,211,.55),transparent 68%);top:-180px;left:-160px;animation:float1 18s ease-in-out infinite}
+.blob-cyan{width:460px;height:460px;background:radial-gradient(circle,rgba(0,161,224,.4),transparent 70%);top:-60px;right:-80px;animation:float2 21s ease-in-out infinite}
+.blob-gold{width:420px;height:420px;background:radial-gradient(circle,rgba(245,181,68,.28),transparent 70%);bottom:-160px;left:30%;animation:float1 24s ease-in-out infinite}
+@keyframes float1{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,-30px)}}
+@keyframes float2{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,30px)}}
+.hero-lines{position:absolute;inset:0;z-index:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:64px 64px;-webkit-mask-image:radial-gradient(ellipse 90% 80% at 50% 30%,#000,transparent 75%);mask-image:radial-gradient(ellipse 90% 80% at 50% 30%,#000,transparent 75%)}
+.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr 430px;gap:60px;align-items:center;width:100%}
+.pill-avail{display:inline-flex;align-items:center;gap:9px;background:rgba(16,185,129,.13);color:#5ee9bd;font-weight:600;font-size:.84rem;padding:8px 16px;border-radius:50px;margin-bottom:26px;border:1px solid rgba(16,185,129,.28)}
+.dot-live{width:8px;height:8px;border-radius:50%;background:var(--em);box-shadow:0 0 0 0 rgba(16,185,129,.5);animation:pulse 2s infinite;flex:none}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(16,185,129,.5)}70%{box-shadow:0 0 0 9px rgba(16,185,129,0)}100%{box-shadow:0 0 0 0 rgba(16,185,129,0)}}
+#hero h1{font-family:'Space Grotesk',sans-serif;font-size:clamp(2.6rem,6vw,5rem);font-weight:700;line-height:1.0;letter-spacing:-.04em;margin-bottom:16px}
+#hero h1 .grad{display:inline}
+.hero-sub{display:block;font-size:clamp(1rem,2.2vw,1.4rem);font-weight:600;color:#5cc3f5;margin-bottom:24px;min-height:1.4em}
+#hero p.lead{color:#aeb}
+#hero p.lead{color:#aab9d2;font-size:1.13rem;max-width:540px;margin-bottom:34px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:42px}
+.hero-stats{display:grid;grid-template-columns:repeat(4,auto);gap:34px}
+.hero-stat .n{font-family:'Space Grotesk',sans-serif;font-size:1.95rem;font-weight:700;line-height:1;color:#fff;letter-spacing:-.02em}
+.hero-stat .n .grad{display:inline}
+.hero-stat .l{font-size:.78rem;color:#8294b1;font-weight:600;margin-top:5px;max-width:120px}
 .hero-photo{position:relative}
-.photo-frame{position:relative;border-radius:26px;overflow:hidden;border:1px solid var(--bd);box-shadow:var(--sh-lg);background:linear-gradient(150deg,var(--sf-light),#fff)}
-.photo-frame::after{content:"";position:absolute;inset:0;border-radius:26px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.4);pointer-events:none}
+.photo-frame{position:relative;border-radius:var(--rxl);overflow:hidden;border:1px solid rgba(255,255,255,.12);box-shadow:0 40px 80px rgba(0,0,0,.5);background:linear-gradient(150deg,rgba(1,118,211,.3),rgba(10,18,32,.6))}
 .photo-frame img{width:100%;aspect-ratio:4/5;object-fit:cover}
-.hero-float-card{position:absolute;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid var(--bd);border-radius:15px;padding:12px 16px;box-shadow:0 14px 34px rgba(10,22,38,.15);font-weight:700;font-size:.86rem;z-index:3;display:flex;align-items:center;gap:10px}
-.hfc-ico{width:32px;height:32px;border-radius:9px;display:grid;place-items:center;flex:none}
-.hfc-1{top:26px;left:-42px;animation:floatY 5s ease-in-out infinite}
-.hfc-1 .hfc-ico{background:var(--sf-light);color:var(--sf)}
-.hfc-1 .big{font-size:1.25rem;font-weight:800;line-height:1;color:var(--sf)}
-.hfc-1 small{display:block;font-size:.72rem;color:var(--txt2);font-weight:600}
-.hfc-2{bottom:42px;right:-40px;animation:floatY 6s ease-in-out infinite .5s}
-.hfc-2 .hfc-ico{background:var(--gold-light);color:var(--gold)}
-.hfc-3{top:62px;right:-32px;animation:floatY 5.5s ease-in-out infinite .3s;color:#047857}
-.hfc-3 .hfc-ico{background:var(--green-light);color:var(--green)}
+.photo-frame::after{content:"";position:absolute;inset:0;border-radius:var(--rxl);box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);pointer-events:none}
+.hero-fc{position:absolute;background:rgba(16,26,44,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.12);border-radius:15px;padding:13px 16px;box-shadow:0 18px 40px rgba(0,0,0,.45);z-index:3;display:flex;align-items:center;gap:11px}
+.hero-fc .ic{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;flex:none}
+.hero-fc .big{font-family:'Space Grotesk',sans-serif;font-size:1.2rem;font-weight:700;line-height:1;color:#fff}
+.hero-fc small{display:block;font-size:.72rem;color:#8294b1;font-weight:600}
+.fc-1{top:30px;left:-46px;animation:floatY 5s ease-in-out infinite}
+.fc-1 .ic{background:rgba(1,118,211,.22);color:#5cc3f5}
+.fc-2{bottom:46px;right:-40px;animation:floatY 6s ease-in-out infinite .5s}
+.fc-2 .ic{background:rgba(245,181,68,.2);color:var(--gold)}
+.fc-3{top:80px;right:-34px;animation:floatY 5.5s ease-in-out infinite .3s}
+.fc-3 .ic{background:rgba(16,185,129,.2);color:#5ee9bd}
 @keyframes floatY{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
 
-#strip{padding:30px 0;border-top:1px solid var(--bd);border-bottom:1px solid var(--bd)}
-.strip-inner{display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap}
-.strip-inner .t{font-weight:700;color:var(--txt2);font-size:.92rem}
-.strip-logos{display:flex;gap:30px;flex-wrap:wrap;font-weight:700;color:var(--txt);opacity:.72}
-.strip-logos span{display:flex;align-items:center;gap:8px;font-size:.95rem}
-.strip-logos svg{width:16px;height:16px;color:var(--sf);opacity:.9}
+/* TRUST STRIP */
+#strip{padding:26px 0;background:var(--ink2);border-top:1px solid rgba(255,255,255,.07);position:relative;z-index:2}
+.strip-inner{display:flex;align-items:center;gap:40px;flex-wrap:wrap}
+.strip-inner .t{font-family:'Space Grotesk',sans-serif;font-weight:600;color:#8294b1;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase}
+.strip-logos{display:flex;gap:28px;flex-wrap:wrap;align-items:center;flex:1}
+.strip-logos span{display:flex;align-items:center;gap:8px;font-family:'Space Grotesk',sans-serif;font-weight:600;color:#cdd9ec;font-size:.98rem;opacity:.85;transition:opacity .25s}
+.strip-logos span:hover{opacity:1}
+.strip-logos svg{width:17px;height:17px;color:#5cc3f5;flex:none}
+.strip-logos .div{width:1px;height:18px;background:rgba(255,255,255,.14)}
 
-.bento{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.bento .card-dark{display:flex;flex-direction:column;gap:11px}
-.bento-stat{grid-column:span 2;background:linear-gradient(135deg,var(--sf),var(--sf2));border:none;display:flex;flex-direction:column;justify-content:center}
-.bento-stat .pct{font-size:3rem;font-weight:800;line-height:1;letter-spacing:-.02em}
-.pain-ico{width:46px;height:46px;border-radius:12px;background:rgba(255,255,255,.07);display:grid;place-items:center;margin-bottom:4px;color:#7fa8d6}
-.pain-ico svg{width:22px;height:22px}
-.bento h3{font-size:1.12rem;font-weight:700;color:#fff}
-.bento p{font-size:.93rem;color:#a7bad4;line-height:1.55}
-.bento-stat p{color:rgba(255,255,255,.94);font-size:1.04rem;margin-top:8px}
+/* BENTO */
+.bento{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;grid-auto-rows:auto}
+.tile{background:#fff;border:1px solid var(--bd);border-radius:var(--rl);padding:28px;box-shadow:var(--sh-sm);transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .35s;position:relative;overflow:hidden}
+.tile:hover{transform:translateY(-4px);box-shadow:var(--sh-md);border-color:var(--bd2)}
+.dark .tile{background:rgba(255,255,255,.035);border-color:rgba(255,255,255,.09)}
+.dark .tile:hover{border-color:rgba(255,255,255,.22)}
+.tile-ico{width:48px;height:48px;border-radius:13px;display:grid;place-items:center;margin-bottom:16px}
+.tile-ico svg{width:23px;height:23px}
+.dark .tile-ico{background:rgba(255,255,255,.06);color:#7fb0e4}
+.tile h3{font-family:'Space Grotesk',sans-serif;font-size:1.14rem;font-weight:600;margin-bottom:8px;letter-spacing:-.01em}
+.dark .tile h3{color:#fff}
+.tile p{font-size:.93rem;color:var(--txt2);line-height:1.55}
+.dark .tile p{color:#aab9d2}
+.span2{grid-column:span 2}
+.tile.feature{grid-column:span 2;grid-row:span 2;background:linear-gradient(150deg,var(--sf),var(--sf2));border:none;color:#fff;display:flex;flex-direction:column;justify-content:flex-end}
+.tile.feature .tile-ico{background:rgba(255,255,255,.16);color:#fff}
+.tile.feature h3{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.5rem,2.6vw,2.1rem);color:#fff;margin-bottom:12px;line-height:1.1}
+.tile.feature p{color:rgba(255,255,255,.92);font-size:1rem}
+.tile.feature .glow{position:absolute;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.22),transparent 70%);top:-100px;right:-80px}
+.tile.stat-tile{justify-content:center}
+.tile .pct{font-family:'Space Grotesk',sans-serif;font-size:2.6rem;font-weight:700;line-height:1;letter-spacing:-.02em;color:#fff;margin-bottom:6px}
 
+/* SERVICES */
 .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:stretch}
-.svc{position:relative;display:flex;flex-direction:column}
-.svc .top{width:54px;height:54px;border-radius:14px;display:grid;place-items:center;margin-bottom:20px;color:#fff}
-.svc .top svg{width:24px;height:24px}
-.svc.blue .top{background:linear-gradient(135deg,var(--sf),var(--sf2))} .svc.gold .top{background:linear-gradient(135deg,#d97706,var(--gold))} .svc.green .top{background:linear-gradient(135deg,var(--green),#34d399)}
-.svc h3{font-size:1.32rem;font-weight:800;margin-bottom:8px;letter-spacing:-.01em}
-.svc .price{font-size:.82rem;font-weight:700;color:var(--sf);text-transform:uppercase;letter-spacing:.05em;margin-bottom:14px}
-.svc.gold .price{color:#b45309}.svc.green .price{color:#047857}
-.svc p.d{color:var(--txt2);font-size:.96rem;margin-bottom:20px}
-.svc ul{list-style:none;display:flex;flex-direction:column;gap:11px;margin-bottom:26px;flex:1}
-.svc li{display:flex;gap:11px;font-size:.93rem;color:var(--txt);align-items:flex-start}
-.svc li svg{width:17px;height:17px;color:var(--green);flex:none;margin-top:3px}
-.popular{position:absolute;top:-13px;right:24px;background:linear-gradient(135deg,#d97706,var(--gold));color:#fff;font-size:.72rem;font-weight:800;padding:6px 14px;border-radius:50px;letter-spacing:.05em;text-transform:uppercase;box-shadow:0 6px 16px rgba(245,158,11,.35)}
-.svc.gold{border-color:rgba(245,158,11,.4);box-shadow:0 14px 40px rgba(245,158,11,.13)}
+.svc{position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd);border-radius:var(--rl);padding:34px 30px;box-shadow:var(--sh-sm);transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .35s}
+.svc:hover{transform:translateY(-5px);box-shadow:var(--sh-md)}
+.svc .top{width:54px;height:54px;border-radius:15px;display:grid;place-items:center;margin-bottom:22px;color:#fff}
+.svc .top svg{width:25px;height:25px}
+.svc.blue .top{background:linear-gradient(135deg,var(--sf),var(--sf2))}
+.svc.gold .top{background:linear-gradient(135deg,var(--gold-dk),var(--gold))}
+.svc.green .top{background:linear-gradient(135deg,var(--em),#34d399)}
+.svc h3{font-family:'Space Grotesk',sans-serif;font-size:1.32rem;font-weight:600;margin-bottom:8px;letter-spacing:-.01em}
+.svc .price{font-family:'Space Grotesk',sans-serif;font-size:.8rem;font-weight:600;color:var(--sf);text-transform:uppercase;letter-spacing:.06em;margin-bottom:16px}
+.svc.gold .price{color:var(--gold-dk)}.svc.green .price{color:var(--em-dk)}
+.svc p.d{color:var(--txt2);font-size:.95rem;margin-bottom:22px}
+.svc ul{list-style:none;display:flex;flex-direction:column;gap:12px;margin-bottom:28px;flex:1}
+.svc li{display:flex;gap:11px;font-size:.92rem;color:var(--txt);align-items:flex-start}
+.svc li svg{width:17px;height:17px;color:var(--em);flex:none;margin-top:3px}
+.popular{position:absolute;top:-13px;right:26px;background:linear-gradient(135deg,var(--gold-dk),var(--gold));color:#fff;font-family:'Space Grotesk',sans-serif;font-size:.72rem;font-weight:700;padding:7px 15px;border-radius:50px;letter-spacing:.05em;text-transform:uppercase;box-shadow:0 6px 16px rgba(245,181,68,.4)}
+.svc.gold{border-color:rgba(245,181,68,.45);box-shadow:0 16px 44px rgba(245,181,68,.15)}
 
-.about-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:64px;align-items:center}
+/* CASE STUDIES */
+.case{display:grid;grid-template-columns:1fr 1.25fr;gap:0;border-radius:var(--rxl);overflow:hidden;border:1px solid rgba(255,255,255,.1);box-shadow:0 30px 70px rgba(0,0,0,.35);margin-bottom:30px;background:rgba(255,255,255,.025)}
+.case:last-child{margin-bottom:0}
+.case-side{padding:40px;background:linear-gradient(160deg,rgba(1,118,211,.18),rgba(10,18,32,.1));border-right:1px solid rgba(255,255,255,.08);display:flex;flex-direction:column}
+.case.b .case-side{background:linear-gradient(160deg,rgba(245,181,68,.16),rgba(10,18,32,.1))}
+.case-tag{display:inline-flex;align-items:center;gap:8px;font-family:'Space Grotesk',sans-serif;font-size:.74rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#5cc3f5;background:rgba(1,118,211,.14);padding:6px 12px;border-radius:50px;margin-bottom:18px;align-self:flex-start}
+.case.b .case-tag{color:var(--gold);background:rgba(245,181,68,.14)}
+.case-side h3{font-family:'Space Grotesk',sans-serif;font-size:1.7rem;font-weight:700;color:#fff;line-height:1.1;letter-spacing:-.02em;margin-bottom:8px}
+.case-loc{font-size:.9rem;color:#8294b1;font-weight:600;margin-bottom:26px;display:flex;align-items:center;gap:7px}
+.case-loc svg{width:15px;height:15px;color:#5cc3f5}
+.case-metrics{margin-top:auto;display:grid;grid-template-columns:1fr 1fr;gap:18px;padding-top:26px;border-top:1px solid rgba(255,255,255,.1)}
+.case-metric .big{font-family:'Space Grotesk',sans-serif;font-size:2rem;font-weight:700;line-height:1;letter-spacing:-.02em;background:linear-gradient(110deg,#5cc3f5,var(--sf2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.case.b .case-metric .big{background:linear-gradient(110deg,var(--gold),#fcd47a);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.case-metric .lbl{font-size:.78rem;color:#8294b1;font-weight:600;margin-top:5px}
+.case-body{padding:40px;display:flex;flex-direction:column;gap:22px}
+.case-step{position:relative;padding-left:34px}
+.case-step::before{content:"";position:absolute;left:9px;top:24px;bottom:-22px;width:2px;background:rgba(255,255,255,.1)}
+.case-step:last-child::before{display:none}
+.case-step .dot{position:absolute;left:0;top:1px;width:20px;height:20px;border-radius:6px;display:grid;place-items:center;font-size:0}
+.case-step.problem .dot{background:rgba(244,114,114,.2);color:#f47272}
+.case-step.approach .dot{background:rgba(1,118,211,.2);color:#5cc3f5}
+.case-step.outcome .dot{background:rgba(16,185,129,.2);color:#5ee9bd}
+.case-step .dot svg{width:13px;height:13px}
+.case-step h4{font-family:'Space Grotesk',sans-serif;font-size:.78rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+.case-step.problem h4{color:#f47272}.case-step.approach h4{color:#5cc3f5}.case-step.outcome h4{color:#5ee9bd}
+.case-step p{font-size:.94rem;color:#c2cfe2;line-height:1.6}
+
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:60px;align-items:center}
 .about-grid p{color:var(--txt2);margin-bottom:16px}
-.stat-tiles{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:30px}
-.stat-tile{background:#fff;border:1px solid var(--bd);border-radius:var(--r);padding:18px 20px;box-shadow:var(--sh-sm)}
-.stat-tile .n{font-size:1.85rem;font-weight:800;color:var(--sf);letter-spacing:-.02em}
-.stat-tile .l{font-size:.84rem;color:var(--txt2);font-weight:600}
-.cap-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.cap{background:#fff;border:1px solid var(--bd);border-radius:var(--r);padding:24px;box-shadow:var(--sh-sm)}
-.cap .ico{width:42px;height:42px;border-radius:11px;background:var(--sf-light);margin-bottom:13px;color:var(--sf);display:flex;align-items:center;justify-content:center}
-.cap .ico svg{width:22px;height:22px}
-.cap h4{font-size:1.05rem;font-weight:700;margin-bottom:6px}
-.cap p{font-size:.88rem;color:var(--txt2);line-height:1.5}
+.diff-list{display:flex;flex-direction:column;gap:16px;margin-top:30px}
+.diff{display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--bd);border-radius:var(--r);padding:20px 22px;box-shadow:var(--sh-sm);transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
+.diff:hover{transform:translateX(4px);box-shadow:var(--sh-md)}
+.diff .ic{width:44px;height:44px;border-radius:12px;background:var(--sf-soft);color:var(--sf);display:grid;place-items:center;flex:none}
+.diff .ic svg{width:22px;height:22px}
+.diff h4{font-family:'Space Grotesk',sans-serif;font-size:1.04rem;font-weight:600;margin-bottom:4px}
+.diff p{font-size:.9rem;color:var(--txt2);margin:0;line-height:1.5}
+.about-stats{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
+.about-stat{background:var(--paper2);border:1px solid var(--bd);border-radius:var(--r);padding:22px}
+.about-stat .n{font-family:'Space Grotesk',sans-serif;font-size:2rem;font-weight:700;color:var(--sf);letter-spacing:-.02em;line-height:1}
+.about-stat .l{font-size:.84rem;color:var(--txt2);font-weight:600;margin-top:7px}
 
-.results-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:60px;align-items:center}
-.company-card{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid var(--bd);border-radius:var(--r);padding:16px 18px;margin-bottom:14px;box-shadow:var(--sh-sm)}
-.company-card .ic{width:44px;height:44px;border-radius:11px;background:var(--sf-light);display:grid;place-items:center;font-weight:800;color:var(--sf);flex:none}
-.company-card h4{font-size:1rem;font-weight:700}
-.company-card span{font-size:.84rem;color:var(--txt2)}
-.res-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-.res-card{border-radius:var(--rl);padding:26px;color:#fff;display:flex;flex-direction:column;gap:5px;box-shadow:var(--sh-md)}
-.res-card .big{font-size:2.55rem;font-weight:800;line-height:1;letter-spacing:-.02em}
-.res-card .l{font-weight:600;font-size:.94rem;opacity:.96}
-.res-card .co{font-size:.76rem;opacity:.82;font-weight:600;margin-top:2px}
-.rc-blue{background:linear-gradient(135deg,var(--sf),var(--sf2))}
-.rc-gold{background:linear-gradient(135deg,#d97706,var(--gold))}
-.rc-green{background:linear-gradient(135deg,var(--green),#34d399)}
-.rc-purple{background:linear-gradient(135deg,var(--purple),#a78bfa)}
-.res-note{grid-column:span 2;background:#fff;border:1px solid var(--bd);border-radius:var(--rl);padding:22px 24px;display:flex;gap:14px;align-items:flex-start;box-shadow:var(--sh-sm)}
-.res-note .ic{width:38px;height:38px;border-radius:10px;background:var(--sf-light);color:var(--sf);display:grid;place-items:center;flex:none}
-.res-note .ic svg{width:20px;height:20px}
-.res-note p{font-size:.9rem;color:var(--txt2);margin:0}
-.res-note strong{color:var(--txt)}
+/* PROCESS (sticky scroll) */
+.proc-wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:start}
+.proc-sticky{position:sticky;top:calc(var(--nav-h) + 40px)}
+.proc-sticky .num-big{font-family:'Space Grotesk',sans-serif;font-size:8rem;font-weight:700;line-height:1;letter-spacing:-.05em;background:linear-gradient(150deg,#5cc3f5,var(--sf2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;transition:opacity .4s}
+.proc-steps{display:flex;flex-direction:column;gap:22px}
+.proc-step{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.09);border-radius:var(--rl);padding:30px;transition:border-color .4s,background .4s,transform .4s}
+.proc-step.active{border-color:rgba(92,195,245,.5);background:rgba(1,118,211,.08)}
+.proc-step .pnum{display:inline-flex;align-items:center;gap:10px;font-family:'Space Grotesk',sans-serif;font-size:.76rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#5cc3f5;margin-bottom:12px}
+.proc-step .pnum .when{color:var(--gold);background:rgba(245,181,68,.13);padding:3px 10px;border-radius:50px}
+.proc-step h3{font-family:'Space Grotesk',sans-serif;font-size:1.35rem;font-weight:600;color:#fff;margin-bottom:8px}
+.proc-step p{font-size:.96rem;color:#aab9d2}
 
-.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;position:relative}
-.process-line{position:absolute;top:31px;left:12%;right:12%;height:2px;background:linear-gradient(90deg,var(--sf),var(--sf2),var(--gold));opacity:.45;z-index:0}
-.step{position:relative;z-index:1;text-align:center}
-.step .num{width:62px;height:62px;border-radius:50%;margin:0 auto 18px;background:var(--navy2);border:2px solid var(--sf);color:#fff;display:grid;place-items:center;font-size:1.4rem;font-weight:800}
-.step h4{font-size:1.12rem;font-weight:700;margin-bottom:6px;color:#fff}
-.step .when{font-size:.78rem;color:var(--sf2);font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:9px;display:block}
-.step p{font-size:.9rem;color:#a7bad4}
-
-.timeline{position:relative;max-width:860px;margin:0 auto}
+/* EXPERIENCE timeline */
+.timeline{position:relative;max-width:880px;margin:0 auto}
 .timeline::before{content:"";position:absolute;left:23px;top:8px;bottom:8px;width:2px;background:linear-gradient(180deg,var(--sf),var(--sf2),var(--bd2))}
-.tl-item{position:relative;padding-left:64px;padding-bottom:30px}
+.tl-item{position:relative;padding-left:64px;padding-bottom:18px}
 .tl-item:last-child{padding-bottom:0}
-.tl-dot{position:absolute;left:14px;top:4px;width:20px;height:20px;border-radius:50%;background:#fff;border:3px solid var(--sf);z-index:1}
-.tl-item.now .tl-dot{background:var(--sf);box-shadow:0 0 0 4px var(--sf-light)}
+.tl-dot{position:absolute;left:14px;top:22px;width:20px;height:20px;border-radius:50%;background:#fff;border:3px solid var(--sf);z-index:1}
+.tl-item.now .tl-dot{background:var(--sf);box-shadow:0 0 0 4px var(--sf-soft)}
 .acc{border:1px solid var(--bd);border-radius:var(--r);overflow:hidden;background:#fff;box-shadow:var(--sh-sm);transition:box-shadow .3s,border-color .3s}
 .acc.open{box-shadow:var(--sh-md);border-color:var(--bd2)}
 .acc-head{width:100%;text-align:left;background:none;border:none;font-family:inherit;cursor:pointer;padding:20px 22px;display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
-.acc-head .role{font-weight:800;font-size:1.05rem;letter-spacing:-.01em;display:block}
+.acc-head .role{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:1.06rem;letter-spacing:-.01em;display:block}
 .acc-head .meta{font-size:.86rem;color:var(--txt2);display:block;margin-top:3px}
-.acc-head .when-pill{font-size:.74rem;font-weight:700;color:var(--sf);background:var(--sf-light);padding:3px 10px;border-radius:50px;display:inline-block;margin-top:8px}
-.acc-head .now-pill{color:#047857;background:var(--green-light)}
+.acc-head .when-pill{font-family:'Space Grotesk',sans-serif;font-size:.74rem;font-weight:600;color:var(--sf);background:var(--sf-soft);padding:3px 11px;border-radius:50px;display:inline-block;margin-top:9px}
+.acc-head .now-pill{color:var(--em-dk);background:var(--em-soft)}
 .acc-head .chev{transition:transform .3s;color:var(--sf);flex:none;display:flex;align-items:center;margin-top:4px}
 .acc-head .chev svg{width:20px;height:20px}
 .acc.open .chev{transform:rotate(180deg)}
@@ -367,86 +404,92 @@ p.sub{color:var(--txt2);font-size:1.1rem}
 .acc-body-inner{padding:0 22px 22px;color:var(--txt2);font-size:.93rem}
 .acc-body-inner ul{margin:10px 0 0 4px;list-style:none;display:flex;flex-direction:column;gap:8px}
 .acc-body-inner li{display:flex;gap:9px;align-items:flex-start}
-.acc-body-inner li svg{width:16px;height:16px;color:var(--green);flex:none;margin-top:3px}
+.acc-body-inner li svg{width:16px;height:16px;color:var(--em);flex:none;margin-top:3px}
 
+/* SKILLS */
 .skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:54px}
-.skills-block{margin-bottom:30px}
+.skills-block{margin-bottom:32px}
 .skills-block:last-child{margin-bottom:0}
-.skills-sub{font-weight:800;font-size:1.05rem;margin-bottom:16px;display:flex;align-items:center;gap:9px}
-.skills-sub svg{width:18px;height:18px;color:var(--sf)}
+.skills-sub{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:1.06rem;margin-bottom:18px;display:flex;align-items:center;gap:10px;color:#fff}
+.skills-sub svg{width:19px;height:19px;color:#5cc3f5}
 .tag-cloud{display:flex;flex-wrap:wrap;gap:9px}
-.tag{background:#fff;border:1px solid var(--bd);border-radius:50px;padding:8px 15px;font-size:.86rem;font-weight:600;color:var(--txt);transition:.25s;box-shadow:var(--sh-sm)}
-.tag:hover{border-color:var(--sf);color:var(--sf);transform:translateY(-2px)}
+.tag{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:50px;padding:8px 15px;font-size:.85rem;font-weight:600;color:#cdd9ec;transition:.25s}
+.tag:hover{border-color:#5cc3f5;color:#fff;transform:translateY(-2px)}
 .bar{margin-bottom:18px}
-.bar .bartop{display:flex;justify-content:space-between;font-weight:600;font-size:.91rem;margin-bottom:7px}
-.bar-track{height:9px;background:var(--bg3);border-radius:50px;overflow:hidden}
+.bar .bartop{display:flex;justify-content:space-between;font-weight:600;font-size:.91rem;margin-bottom:7px;color:#dde6f2}
+.bar-track{height:9px;background:rgba(255,255,255,.08);border-radius:50px;overflow:hidden}
 .bar-fill{height:100%;width:0;background:linear-gradient(90deg,var(--sf),var(--sf2));border-radius:50px;transition:width 1.2s var(--ease)}
 
-.certs-wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}
+/* CERTS */
+.certs-wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:42px;align-items:center}
 .certs-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .cert{background:#fff;border:1px solid var(--bd);border-radius:var(--r);padding:22px;transition:.3s;box-shadow:var(--sh-sm);display:flex;gap:15px;align-items:center}
 .cert:hover{transform:translateY(-4px);box-shadow:var(--sh-md)}
-.cert .badge{width:50px;height:50px;border-radius:13px;background:linear-gradient(135deg,var(--sf-light),#fff);border:1px solid var(--bd);display:grid;place-items:center;color:var(--sf);flex:none}
+.cert .badge{width:50px;height:50px;border-radius:14px;background:linear-gradient(135deg,var(--sf-soft),#fff);border:1px solid var(--bd);display:grid;place-items:center;color:var(--sf);flex:none}
 .cert .badge svg{width:24px;height:24px}
-.cert h4{font-size:.97rem;font-weight:700;line-height:1.3}
+.cert h4{font-family:'Space Grotesk',sans-serif;font-size:.97rem;font-weight:600;line-height:1.3}
 .cert span{font-size:.78rem;color:var(--txt2)}
-.ranger-card{background:linear-gradient(150deg,var(--navy),var(--navy2));border-radius:var(--rl);padding:34px;color:#fff;box-shadow:var(--sh-md)}
-.ranger-card .rbadge{width:60px;height:60px;border-radius:15px;background:linear-gradient(135deg,#d97706,var(--gold));display:grid;place-items:center;margin-bottom:18px;box-shadow:0 8px 22px rgba(245,158,11,.35)}
+.ranger-card{background:var(--ink);border-radius:var(--rl);padding:34px;color:#fff;box-shadow:var(--sh-md);position:relative;overflow:hidden}
+.ranger-card .rbadge{width:60px;height:60px;border-radius:16px;background:linear-gradient(135deg,var(--gold-dk),var(--gold));display:grid;place-items:center;margin-bottom:18px;box-shadow:0 8px 22px rgba(245,181,68,.4)}
 .ranger-card .rbadge svg{width:30px;height:30px;color:#fff}
-.ranger-card h3{font-size:1.3rem;font-weight:800;margin-bottom:8px}
-.ranger-card p{color:#a7bad4;font-size:.92rem;margin-bottom:18px}
-.ranger-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;border-top:1px solid rgba(255,255,255,.1);padding-top:18px}
-.ranger-stats .n{font-size:1.4rem;font-weight:800;color:#fbbf24;line-height:1}
-.ranger-stats .l{font-size:.72rem;color:#a7bad4;font-weight:600;margin-top:3px}
+.ranger-card h3{font-family:'Space Grotesk',sans-serif;font-size:1.3rem;font-weight:700;margin-bottom:8px}
+.ranger-card p{color:#aab9d2;font-size:.92rem;margin-bottom:20px}
+.ranger-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;border-top:1px solid rgba(255,255,255,.1);padding-top:20px}
+.ranger-stats .n{font-family:'Space Grotesk',sans-serif;font-size:1.45rem;font-weight:700;color:var(--gold);line-height:1}
+.ranger-stats .l{font-size:.72rem;color:#8294b1;font-weight:600;margin-top:4px}
 
+/* BLOG */
 .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.blog-card{display:flex;flex-direction:column;overflow:hidden;padding:0}
-.blog-head{padding:24px 24px 0;position:relative}
-.blog-head::before{content:'';position:absolute;top:0;left:24px;right:24px;height:3px;border-radius:0 0 3px 3px}
+.blog-card{display:flex;flex-direction:column;overflow:hidden;background:#fff;border:1px solid var(--bd);border-radius:var(--rl);box-shadow:var(--sh-sm);transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .35s}
+.blog-card:hover{transform:translateY(-5px);box-shadow:var(--sh-md);border-color:var(--bd2)}
+.blog-head{padding:26px 26px 0;position:relative}
+.blog-head::before{content:'';position:absolute;top:0;left:26px;right:26px;height:3px;border-radius:0 0 3px 3px}
 .blog-card.b1 .blog-head::before{background:linear-gradient(90deg,var(--sf),var(--sf2))}
-.blog-card.b2 .blog-head::before{background:linear-gradient(90deg,#d97706,var(--gold))}
-.blog-card.b3 .blog-head::before{background:linear-gradient(90deg,var(--green),#34d399)}
-.blog-icon{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;margin-bottom:16px}
-.blog-card.b1 .blog-icon{background:var(--sf-light);color:var(--sf)}
-.blog-card.b2 .blog-icon{background:var(--gold-light);color:var(--gold)}
-.blog-card.b3 .blog-icon{background:var(--green-light);color:var(--green)}
+.blog-card.b2 .blog-head::before{background:linear-gradient(90deg,var(--gold-dk),var(--gold))}
+.blog-card.b3 .blog-head::before{background:linear-gradient(90deg,var(--em),#34d399)}
+.blog-icon{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;margin-bottom:16px}
+.blog-card.b1 .blog-icon{background:var(--sf-soft);color:var(--sf)}
+.blog-card.b2 .blog-icon{background:var(--gold-soft);color:var(--gold-dk)}
+.blog-card.b3 .blog-icon{background:var(--em-soft);color:var(--em-dk)}
 .blog-icon svg{width:22px;height:22px}
-.blog-card .bd{padding:0 24px 24px;display:flex;flex-direction:column;flex:1}
-.blog-card .cat{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}
-.blog-card.b1 .cat{color:var(--sf)}.blog-card.b2 .cat{color:#b45309}.blog-card.b3 .cat{color:#047857}
-.blog-card h3{font-size:1.13rem;font-weight:800;margin-bottom:10px;line-height:1.32;letter-spacing:-.01em}
+.blog-card .bd{padding:0 26px 26px;display:flex;flex-direction:column;flex:1}
+.blog-card .cat{font-family:'Space Grotesk',sans-serif;font-size:.74rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;margin-bottom:10px}
+.blog-card.b1 .cat{color:var(--sf)}.blog-card.b2 .cat{color:var(--gold-dk)}.blog-card.b3 .cat{color:var(--em-dk)}
+.blog-card h3{font-family:'Space Grotesk',sans-serif;font-size:1.13rem;font-weight:600;margin-bottom:10px;line-height:1.32;letter-spacing:-.01em}
 .blog-card p{font-size:.91rem;color:var(--txt2);margin-bottom:16px;flex:1}
 
-.faq-list{max-width:800px;margin:0 auto}
+/* FAQ */
+.faq-list{max-width:820px;margin:0 auto}
 .faq-item{border-bottom:1px solid var(--bd)}
-.faq-q{width:100%;text-align:left;background:none;border:none;font-family:inherit;cursor:pointer;padding:22px 0;display:flex;justify-content:space-between;gap:16px;font-weight:700;font-size:1.07rem;color:var(--txt);transition:color .2s}
+.faq-q{width:100%;text-align:left;background:none;border:none;font-family:'Space Grotesk',sans-serif;cursor:pointer;padding:24px 0;display:flex;justify-content:space-between;gap:16px;font-weight:600;font-size:1.08rem;color:var(--txt);transition:color .2s}
 .faq-q:hover{color:var(--sf)}
 .faq-q .chev{color:var(--sf);transition:transform .3s;flex:none;display:flex}
 .faq-q .chev svg{width:22px;height:22px}
 .faq-item.open .faq-q .chev{transform:rotate(45deg)}
 .faq-a{max-height:0;overflow:hidden;transition:max-height .4s var(--ease)}
-.faq-a-inner{padding:0 0 22px;color:var(--txt2)}
+.faq-a-inner{padding:0 0 24px;color:var(--txt2)}
 
+/* CONTACT */
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
 .contact-links{display:flex;flex-direction:column;gap:14px;margin-top:30px}
 .contact-link{display:flex;align-items:center;gap:14px;color:#cdd9ec;font-weight:600;padding:6px 0;transition:color .2s}
 a.contact-link:hover{color:#fff}
-.contact-link .ic{width:46px;height:46px;border-radius:12px;background:rgba(255,255,255,.07);display:grid;place-items:center;flex:none;color:#cdd9ec;transition:.25s}
+.contact-link .ic{width:46px;height:46px;border-radius:13px;background:rgba(255,255,255,.06);display:grid;place-items:center;flex:none;color:#cdd9ec;transition:.25s}
 a.contact-link:hover .ic{background:var(--sf);color:#fff}
 .contact-link .ic svg{width:22px;height:22px}
-.contact-link span.s{font-size:.78rem;color:#7f93b3;display:block;font-weight:500}
-.cform{background:var(--navy2);border:1px solid rgba(255,255,255,.08);border-radius:var(--rl);padding:32px}
+.contact-link span.s{font-size:.78rem;color:#8294b1;display:block;font-weight:500}
+.cform{background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.1);border-radius:var(--rl);padding:34px}
 .cform label{display:block;font-size:.85rem;font-weight:600;color:#cdd9ec;margin-bottom:7px}
-.cform input,.cform textarea{width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:13px 15px;color:#fff;font-family:inherit;font-size:.95rem;margin-bottom:16px;transition:.25s}
+.cform input,.cform textarea{width:100%;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:14px 15px;color:#fff;font-family:inherit;font-size:.95rem;margin-bottom:16px;transition:.25s}
 .cform input::placeholder,.cform textarea::placeholder{color:#6b80a0}
 .cform input:focus,.cform textarea:focus{outline:none;border-color:var(--sf2);background:rgba(255,255,255,.08)}
 .cform textarea{resize:vertical;min-height:124px}
 .cform .btn{width:100%}
 #form-status{margin-top:14px;font-size:.9rem;font-weight:600;min-height:1.2em}
 
-footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
+footer{padding:44px 0;background:var(--ink2);border-top:1px solid rgba(255,255,255,.08);position:relative;z-index:2}
 .footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
-.footer-inner .c{color:#a7bad4;font-size:.9rem}
+.footer-inner .c{color:#aab9d2;font-size:.9rem}
 .footer-inner .c strong{color:#fff;font-weight:700}
 .footer-links{display:flex;gap:24px;flex-wrap:wrap}
 .footer-links a{color:#cdd9ec;font-weight:600;font-size:.92rem;transition:.2s}
@@ -455,34 +498,38 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
 
 @media(max-width:1024px){
   .hero-grid{grid-template-columns:1fr;gap:50px}
-  .hero-photo{max-width:400px;margin:0 auto}
+  .hero-photo{max-width:380px;margin:0 auto}
   .bento{grid-template-columns:repeat(2,1fr)}
-  .bento-stat{grid-column:span 2}
+  .tile.feature{grid-column:span 2;grid-row:auto}
   .svc-grid,.blog-grid{grid-template-columns:1fr 1fr}
-  .certs-wrap{grid-template-columns:1fr;gap:30px}
-  .process-grid{grid-template-columns:1fr 1fr;gap:36px}
-  .process-line{display:none}
+  .certs-wrap{grid-template-columns:1fr;gap:32px}
+  .proc-wrap{grid-template-columns:1fr;gap:36px}
+  .proc-sticky{position:static}
+  .proc-sticky .num-big{display:none}
   #sidenav{display:none}
 }
 @media(max-width:768px){
-  .sec{padding:76px 0}
+  .sec{padding:80px 0}
   .nav-links{display:none}
   .nav-cta .btn{display:none}
   .burger{display:flex}
-  .about-grid,.results-grid,.contact-grid,.skills-grid{grid-template-columns:1fr;gap:40px}
-  .svc-grid,.certs-grid,.blog-grid,.bento,.cap-cards,.stat-tiles,.res-grid{grid-template-columns:1fr}
-  .bento-stat{grid-column:span 1}
-  .res-note{grid-column:span 1}
-  .hero-float-card{font-size:.78rem}.hfc-1{left:-14px}.hfc-2{right:-10px}.hfc-3{right:-8px}
+  .about-grid,.contact-grid,.skills-grid{grid-template-columns:1fr;gap:42px}
+  .svc-grid,.certs-grid,.blog-grid,.bento{grid-template-columns:1fr}
+  .span2,.tile.feature{grid-column:span 1}
+  .case{grid-template-columns:1fr}
+  .case-side{border-right:none;border-bottom:1px solid rgba(255,255,255,.08)}
+  .hero-stats{grid-template-columns:repeat(2,1fr);gap:24px}
+  .hero-fc{font-size:.78rem}.fc-1{left:-14px}.fc-2{right:-10px}.fc-3{right:-8px}
+  .strip-inner{gap:24px}
 }
 @media(max-width:480px){
   .wrap{padding:0 18px}
   .hero-cta{flex-direction:column}.hero-cta .btn{width:100%}
-  .hero-stats{gap:20px}
+  .case-metrics{grid-template-columns:1fr 1fr}
   .ranger-stats{gap:10px}
 }
 @media(max-width:360px){
-  .hero-stat .n{font-size:1.5rem}
+  .hero-stat .n{font-size:1.6rem}
   .timeline::before{left:19px}.tl-item{padding-left:54px}.tl-dot{left:11px}
 }
 .no-js .rv,.no-js .rvl,.no-js .rvr{opacity:1;transform:none}
@@ -491,6 +538,7 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
   .rv,.rvl,.rvr{opacity:1!important;transform:none!important}
   #cursor,#cursor-dot{display:none!important}
   .bar-fill{transition:none}
+  .grain{display:none}
 }
 </style>
 </head>
@@ -500,6 +548,8 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
 <div id="cursor" aria-hidden="true"></div>
 <div id="cursor-dot" aria-hidden="true"></div>
 
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter></svg>
+
 <nav id="nav" aria-label="Primary">
   <div class="wrap">
     <a href="#hero" class="logo" aria-label="Amr Magdy home">
@@ -508,13 +558,14 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
     </a>
     <div class="nav-links">
       <a href="#services">Services</a>
+      <a href="#cases">Case Studies</a>
       <a href="#about">About</a>
-      <a href="#results">Results</a>
+      <a href="#process">Process</a>
       <a href="#experience">Experience</a>
       <a href="#blog-preview">Blog</a>
     </div>
     <div class="nav-cta">
-      <a href="#contact" class="btn btn-primary btn-mag">Book a Call</a>
+      <a href="#contact" class="btn btn-primary btn-mag">Book a Free Audit</a>
       <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
         <span></span><span></span><span></span>
       </button>
@@ -531,23 +582,23 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
     </button>
   </div>
   <a href="#services" class="dlink">Services</a>
+  <a href="#cases" class="dlink">Case Studies</a>
   <a href="#about" class="dlink">About</a>
-  <a href="#results" class="dlink">Results</a>
   <a href="#process" class="dlink">Process</a>
   <a href="#experience" class="dlink">Experience</a>
   <a href="#skills" class="dlink">Skills</a>
   <a href="#certs" class="dlink">Certifications</a>
   <a href="#blog-preview" class="dlink">Blog</a>
   <a href="#faq" class="dlink">FAQ</a>
-  <a href="#contact" class="btn btn-primary">Book a Discovery Call</a>
+  <a href="#contact" class="btn btn-primary">Book a Free CRM Audit</a>
 </aside>
 
 <nav id="sidenav" aria-label="Section navigation">
   <a href="#hero" data-l="Home" class="active"></a>
   <a href="#pain" data-l="Why CRMs Fail"></a>
   <a href="#services" data-l="Services"></a>
+  <a href="#cases" data-l="Case Studies"></a>
   <a href="#about" data-l="About"></a>
-  <a href="#results" data-l="Results"></a>
   <a href="#process" data-l="Process"></a>
   <a href="#experience" data-l="Experience"></a>
   <a href="#skills" data-l="Skills"></a>
@@ -560,217 +611,268 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
 <main id="main">
 
 <section id="hero">
-  <div class="hero-blobs" aria-hidden="true">
-    <div class="parallax-blob blob-blue" data-depth="0.04"></div>
-    <div class="parallax-blob blob-gold" data-depth="0.025"></div>
-    <div class="parallax-blob blob-green" data-depth="0.05"></div>
-  </div>
-  <div class="dot-grid" aria-hidden="true"></div>
+  <div class="parallax-blob blob-blue" data-depth="0.04" aria-hidden="true"></div>
+  <div class="parallax-blob blob-cyan" data-depth="0.03" aria-hidden="true"></div>
+  <div class="parallax-blob blob-gold" data-depth="0.05" aria-hidden="true"></div>
+  <div class="hero-lines" aria-hidden="true"></div>
+  <div class="grain" style="filter:url(#noise)" aria-hidden="true"></div>
   <div class="wrap">
     <div class="hero-grid">
       <div class="hero-left">
         <span class="pill-avail"><span class="dot-live"></span>Available now · Remote · US Eastern &amp; Central</span>
-        <h1>Salesforce That<br>Real Estate Teams<br><span class="grad">Actually Use.</span></h1>
-        <span class="hero-sub" id="typewriter">Automated lead routing for real estate.</span>
-        <p class="lead">I'm Amr Magdy — a 4× Certified Salesforce consultant who works <strong>exclusively</strong> with real estate companies. I build automated lead routing, pipeline dashboards, and adoption programs, then train your team until it sticks. Not build-and-leave. Built to be used.</p>
+        <h1>The CRM command center for <span class="grad">real estate</span>.</h1>
+        <span class="hero-sub mono" id="typewriter" aria-hidden="true"></span>
+        <p class="lead">I'm Amr Magdy — a 4× Certified Salesforce consultant who works <strong style="color:#dde6f2">exclusively</strong> with real estate companies. I architect lead routing, pipelines, and dashboards, then train your team until adoption actually sticks.</p>
         <div class="hero-cta">
           <a href="#contact" class="btn btn-primary btn-mag">
-            Book a Free Discovery Call
+            Book a free CRM audit
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           </a>
-          <a href="#services" class="btn btn-white btn-mag">See How I Work</a>
+          <a href="#cases" class="btn btn-line">See case studies</a>
         </div>
         <div class="hero-stats">
-          <div class="hero-stat"><div class="n"><span data-target="4">0</span>×</div><div class="l">Salesforce Certs</div></div>
-          <div class="hero-stat"><div class="n"><span data-target="20">0</span>+</div><div class="l">hrs/week saved</div></div>
-          <div class="hero-stat"><div class="n">+<span data-target="30">0</span>%</div><div class="l">Pipeline visibility</div></div>
-          <div class="hero-stat"><div class="n"><span data-target="130">0</span>k+</div><div class="l">Trailhead points</div></div>
+          <div class="hero-stat"><div class="n"><span class="grad">+</span><span data-target="30">0</span><span class="grad">%</span></div><div class="l">Pipeline visibility</div></div>
+          <div class="hero-stat"><div class="n"><span data-target="20">0</span>+</div><div class="l">Hrs/week saved</div></div>
+          <div class="hero-stat"><div class="n"><span data-target="4">0</span>×</div><div class="l">Salesforce certified</div></div>
+          <div class="hero-stat"><div class="n"><span data-target="20">0</span></div><div class="l">Superbadges</div></div>
         </div>
       </div>
       <div class="hero-photo">
         <div class="photo-frame tilt">
-          <img src="imgs/AmrMagdyPic.webp" alt="Amr Magdy, Salesforce CRM Consultant for real estate" width="450" height="563" loading="eager" fetchpriority="high" decoding="async">
+          <img src="imgs/AmrMagdyPic.webp" alt="Amr Magdy, Salesforce CRM Consultant for real estate" width="800" height="1000" fetchpriority="high">
         </div>
-        <div class="hero-float-card hfc-1">
-          <span class="hfc-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></span>
-          <span><span class="big">+30%</span><small>Pipeline visibility</small></span>
+        <div class="hero-fc fc-1">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+          <span><span class="big">&lt;5 min</span><small>Speed-to-lead</small></span>
         </div>
-        <div class="hero-float-card hfc-2">
-          <span class="hfc-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-          Double Star Ranger
+        <div class="hero-fc fc-2">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg></span>
+          <span><span class="big">Double Star</span><small>Trailhead Ranger</small></span>
         </div>
-        <div class="hero-float-card hfc-3">
-          <span class="hfc-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
-          4× Certified
+        <div class="hero-fc fc-3">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+          <span><span class="big">+25%</span><small>User adoption</small></span>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="strip">
+<section id="strip" aria-label="Companies and credentials">
   <div class="wrap">
-    <div class="strip-inner rv">
-      <div class="t">Trusted by US real estate teams</div>
+    <div class="strip-inner">
+      <span class="t">Trusted by</span>
       <div class="strip-logos">
-        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/></svg>Central City Solutions</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>Central City Solutions</span>
         <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Pezon Properties</span>
-        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Salesforce Certified</span>
-        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>Trailhead Ranger</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>Sylndr</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>Conx Digital</span>
+        <span class="div" aria-hidden="true"></span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Salesforce Certified ×4</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>Trailhead Double Star Ranger</span>
       </div>
     </div>
   </div>
 </section>
 
 <section id="pain" class="sec dark">
-  <div class="wrap">
+  <div class="dark-mesh" aria-hidden="true"></div>
+  <div class="grain" style="filter:url(#noise)" aria-hidden="true"></div>
+  <div class="wrap" style="position:relative;z-index:2">
     <div class="sec-head rv">
-      <span class="label">The Problem</span>
-      <h2 class="h-xl">Why Most Real Estate<br>Salesforce Setups Fail</h2>
-      <p class="sub">You bought the most powerful CRM on earth. So why does it feel like a glorified spreadsheet? Here's what's actually going wrong — and what I fix.</p>
+      <span class="eyebrow">The diagnosis</span>
+      <h2>Why real estate CRMs <span class="grad">quietly fail</span></h2>
+      <p>Most property companies don't have a software problem — they have an architecture and adoption problem. Here's what I find inside the orgs I audit.</p>
     </div>
     <div class="bento">
-      <div class="card-dark tilt rv d1">
-        <div class="pain-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-        <h3>Leads going cold in the queue</h3><p>No speed-to-lead routing means hot inquiries sit unassigned while competitors call first.</p>
+      <div class="tile feature rv">
+        <div class="glow" aria-hidden="true"></div>
+        <div class="tile-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+        <h3>The system gets built. Nobody uses it.</h3>
+        <p>Agents revert to spreadsheets and texts, leads go cold, and leadership flies blind. The fix isn't more features — it's the right architecture plus training that makes the CRM the easiest path, not the hardest.</p>
       </div>
-      <div class="card-dark tilt rv d2">
-        <div class="pain-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="18" y1="8" x2="23" y2="13"/><line x1="23" y1="8" x2="18" y2="13"/></svg></div>
-        <h3>Agents not using Salesforce</h3><p>If it's clunky, agents avoid it — and your data, forecasts, and accountability fall apart.</p>
+      <div class="tile rv d1">
+        <div class="tile-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="13 2 13 9 20 9"/><path d="M20 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"/><line x1="8" y1="13" x2="14" y2="13"/><line x1="8" y1="17" x2="11" y2="17"/></svg></div>
+        <h3>Brittle Zapier sprawl</h3>
+        <p>Dozens of stacked zaps silently break, drop leads, and burn through task limits with no audit trail.</p>
       </div>
-      <div class="card-dark tilt rv d3">
-        <div class="pain-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg></div>
-        <h3>Zero pipeline visibility</h3><p>No dashboards means you're flying blind on deals, stages, and acquisition revenue.</p>
+      <div class="tile rv d2">
+        <div class="tile-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+        <h3>Manual call logging</h3>
+        <p>Reps log calls by hand — or not at all — so activity data is incomplete and follow-up slips through.</p>
       </div>
-      <div class="bento-stat card-dark rv d1"><div class="pct">67%</div><p>of Salesforce implementations fail to deliver expected ROI. The difference is almost always adoption — not the software. That's exactly what I obsess over.</p></div>
-      <div class="card-dark tilt rv d4">
-        <div class="pain-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
-        <h3>Manual work killing productivity</h3><p>Copy-paste, manual call logging, and re-keying data eat hours that should be closing deals.</p>
+      <div class="tile stat-tile span2 rv d2" style="background:linear-gradient(135deg,var(--ink2),var(--ink3));border-color:rgba(255,255,255,.1)">
+        <div class="pct"><span data-target="30">0</span>+</div>
+        <p>brittle Zapier automations is a typical starting point — exactly what I migrated to native Flows at Central City Solutions.</p>
       </div>
-      <div class="card-dark tilt rv d5">
-        <div class="pain-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/><line x1="1" y1="1" x2="23" y2="23"/></svg></div>
-        <h3>Disconnected tools &amp; data silos</h3><p>Your dialer, email, and CRM don't talk — so nobody trusts the numbers in any of them.</p>
+      <div class="tile rv d3">
+        <div class="tile-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+        <h3>No pipeline visibility</h3>
+        <p>Leadership can't see where deals stall or which campaigns actually pay — so budget decisions are guesswork.</p>
       </div>
-      <div class="card-dark tilt rv d6">
-        <div class="pain-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
-        <h3>Paying enterprise prices for spreadsheets</h3><p>You're paying for Salesforce but getting a tool no one fully uses. That gap is pure waste.</p>
+      <div class="tile rv d4">
+        <div class="tile-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+        <h3>No deal profitability</h3>
+        <p>Acquisition, renovation, and marketing costs live in scattered sheets — net profit per deal is invisible.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="services" class="sec">
+<section id="services" class="sec bg2">
   <div class="wrap">
     <div class="sec-head center rv">
-      <span class="label">Services</span>
-      <h2 class="h-xl">Three Ways to<br>Work Together</h2>
-      <p class="sub">Whether you need a second opinion, a full build, or a long-term partner — there's a track for you. Every engagement starts with a free 30-minute discovery call.</p>
+      <span class="eyebrow" style="justify-content:center">What I do</span>
+      <h2>Three ways to <span class="grad">work together</span></h2>
+      <p>Every engagement starts with a free 30-minute discovery call — no commitment required.</p>
     </div>
     <div class="svc-grid">
-      <div class="card svc blue tilt rv d1">
-        <div class="top" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></div>
+      <div class="svc blue rv d1">
+        <div class="top" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
         <h3>CRM Audit &amp; Roadmap</h3>
-        <div class="price">Fixed low-cost fee</div>
-        <p class="d">A diagnostic of your existing org with a prioritized plan to fix it — the fastest way to know where you stand.</p>
+        <div class="price">Fixed low-cost · Free discovery</div>
+        <p class="d">A focused diagnostic of your existing org — automation utilization, data quality, adoption, and license ROI — delivered as a prioritized roadmap of highest-impact fixes.</p>
         <ul>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Automation utilization review</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Data quality &amp; adoption assessment</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>License ROI analysis</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Prioritized improvement roadmap</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Full org &amp; automation review</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Data quality &amp; adoption scoring</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Written, prioritized roadmap</li>
         </ul>
-        <a href="#contact" class="btn-ghost">Start with an Audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+        <a href="#contact" class="btn-ghost">Start with an audit <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
       </div>
-      <div class="card svc gold tilt rv d2">
-        <span class="popular">Most Popular</span>
-        <div class="top" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+      <div class="svc gold rv d2">
+        <span class="popular">Most popular</span>
+        <div class="top" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
         <h3>Full Implementation</h3>
         <div class="price">Project-based</div>
-        <p class="d">End-to-end build that turns Salesforce into your real estate revenue engine — architecture to adoption.</p>
+        <p class="d">End-to-end build: architecture, automated lead routing, acquisition pipeline, Salesforce + Tableau dashboards, Zapier/API integrations, and hands-on agent adoption training.</p>
         <ul>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Org architecture &amp; data model</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Automated lead routing (speed-to-lead)</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Property acquisition pipeline</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Salesforce + Tableau dashboards</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Zapier / API integrations</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Hands-on agent adoption training</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Speed-to-lead routing &amp; pipeline</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Salesforce + Tableau dashboards</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Integrations + adoption training</li>
         </ul>
-        <a href="#contact" class="btn-ghost">Scope a Build <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+        <a href="#contact" class="btn-ghost">Build it right <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
       </div>
-      <div class="card svc green tilt rv d3">
-        <div class="top" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-        <h3>Ongoing CRM Management</h3>
+      <div class="svc green rv d3">
+        <div class="top" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3>Ongoing Management</h3>
         <div class="price">Monthly retainer</div>
-        <p class="d">A fractional Salesforce admin on call — far less than a full-time hire, with none of the overhead.</p>
+        <p class="d">Fractional Salesforce admin: new automations, proactive monitoring, fast issue resolution, monthly optimization reports, and continuous training — for far less than a full-time hire.</p>
         <ul>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>New automations &amp; enhancements</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Proactive monitoring</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Fast issue resolution</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Monthly optimization reports</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Continuous team training</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>New automations &amp; fast fixes</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Proactive monitoring</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Monthly reports &amp; training</li>
         </ul>
-        <a href="#contact" class="btn-ghost">Become a Partner <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+        <a href="#contact" class="btn-ghost">Keep it growing <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
       </div>
     </div>
   </div>
 </section>
 
-<section id="about" class="sec bg2">
+<section id="cases" class="sec dark">
+  <div class="dark-mesh" aria-hidden="true"></div>
+  <div class="grain" style="filter:url(#noise)" aria-hidden="true"></div>
+  <div class="wrap" style="position:relative;z-index:2">
+    <div class="sec-head rv">
+      <span class="eyebrow">Proof, not promises</span>
+      <h2>Real builds. <span class="grad">Measured outcomes.</span></h2>
+      <p>Two engagements with named US real estate companies — the actual problem, the approach, and the numbers that moved.</p>
+    </div>
+
+    <article class="case a rv">
+      <div class="case-side">
+        <span class="case-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>Real estate investment</span>
+        <h3>Central City Solutions</h3>
+        <div class="case-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Ohio, USA · Salesforce CRM Platform Manager</div>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="big">+30%</div><div class="lbl">Pipeline visibility</div></div>
+          <div class="case-metric"><div class="big">20+</div><div class="lbl">Hrs/week saved</div></div>
+          <div class="case-metric"><div class="big">+25%</div><div class="lbl">User adoption</div></div>
+          <div class="case-metric"><div class="big">30+</div><div class="lbl">Zaps → native Flows</div></div>
+        </div>
+      </div>
+      <div class="case-body">
+        <div class="case-step problem">
+          <span class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+          <h4>Problem</h4>
+          <p>30+ brittle Zapier automations, calls logged by hand, zero pipeline visibility for leadership, and low Salesforce adoption across the team.</p>
+        </div>
+        <div class="case-step approach">
+          <span class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+          <h4>Approach</h4>
+          <p>Built a centralized Configuration Object (50+ rules, MergeFieldReplacer Apex) and migrated 30+ Zapier automations to native Flows. Added RingCentral daily call-log sync (RCDailyCallLogSync Apex), an LWC Queue Task Manager, duplicate detection, marketing ROI tracking, and Tableau dashboards — then ran hands-on adoption training.</p>
+        </div>
+        <div class="case-step outcome">
+          <span class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          <h4>Outcome</h4>
+          <p>+30% pipeline visibility, 20+ hours per week given back to the team, and +25% Salesforce user adoption — with manual call logging eliminated entirely.</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="case b rv">
+      <div class="case-side">
+        <span class="case-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Real estate acquisition</span>
+        <h3>Pezon Properties</h3>
+        <div class="case-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Pennsylvania, USA · CRM Platform Manager &amp; Consultant</div>
+        <div class="case-metrics">
+          <div class="case-metric"><div class="big">+15%</div><div class="lbl">Faster acquisition</div></div>
+          <div class="case-metric"><div class="big">+20%</div><div class="lbl">Lead assignment efficiency</div></div>
+          <div class="case-metric"><div class="big">−25%</div><div class="lbl">Operational inefficiency</div></div>
+          <div class="case-metric"><div class="big">$/deal</div><div class="lbl">Net profit visibility</div></div>
+        </div>
+      </div>
+      <div class="case-body">
+        <div class="case-step problem">
+          <span class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span>
+          <h4>Problem</h4>
+          <p>No visibility into deal profitability, a slow acquisition process, and cost data scattered across disconnected sheets — making campaign and budget calls a guess.</p>
+        </div>
+        <div class="case-step approach">
+          <span class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+          <h4>Approach</h4>
+          <p>Built a full financial analytics system in Salesforce — property expenses, acquisition costs, renovation budgets, and net profit per deal — with cost-per-lead and cost-per-opportunity by campaign, plus pipeline automation to speed up acquisition.</p>
+        </div>
+        <div class="case-step outcome">
+          <span class="dot" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          <h4>Outcome</h4>
+          <p>+15% faster property acquisition, +20% lead assignment efficiency, and a 25% reduction in operational inefficiencies — with deal profitability finally visible in real time.</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="about" class="sec">
   <div class="wrap">
     <div class="about-grid">
       <div class="rvl">
-        <span class="label">About</span>
-        <h2 class="h-xl">The Consultant Who<br>Builds <span class="grad">AND</span> Trains</h2>
-        <p>Most consultants disappear after go-live. Generalists treat real estate like any other industry. I'm neither. I work <strong>only</strong> with real estate companies, and I stay until your team is actually using what I built.</p>
-        <p>Before Salesforce, I spent eight years as an Adobe Certified Instructor and Expert — one of just five Adobe-authorized training partners in the Middle East — teaching 8,000+ students at a 4.9/5 rating. That teaching DNA is the secret behind my adoption results: I don't just configure Salesforce, I make agents want to use it.</p>
-        <p>Today I architect lead routing, acquisition pipelines, Apex automations, and Tableau dashboards for US real estate firms — and offer ongoing fractional management so it keeps paying off.</p>
-        <div class="stat-tiles">
-          <div class="stat-tile"><div class="n"><span data-target="5">0</span>+</div><div class="l">Years in Salesforce</div></div>
-          <div class="stat-tile"><div class="n"><span data-target="4">0</span></div><div class="l">Companies served</div></div>
-          <div class="stat-tile"><div class="n"><span data-target="8000">0</span>+</div><div class="l">Students taught</div></div>
-          <div class="stat-tile"><div class="n"><span data-target="20">0</span></div><div class="l">Trailhead superbadges</div></div>
+        <span class="eyebrow">Why work with me</span>
+        <h2 class="h-disp" style="font-size:clamp(1.9rem,4.4vw,2.9rem);margin-bottom:18px">A specialist, not a <span class="grad">generalist</span>.</h2>
+        <p>I spent years as an Adobe Certified Instructor teaching 8,000+ students at a 4.9/5 rating — one of just five Adobe-authorized training partners in the Middle East. That teaching DNA is why my Salesforce builds get <strong style="color:var(--txt)">adopted</strong>, not abandoned.</p>
+        <p>Today I work only in real estate: speed-to-lead routing, acquisition pipelines, transaction coordination, and ROI dashboards — built for how property companies actually operate.</p>
+        <div class="about-stats">
+          <div class="about-stat"><div class="n"><span data-target="8000">0</span>+</div><div class="l">Students trained</div></div>
+          <div class="about-stat"><div class="n">4.9<span style="font-size:1.1rem">/5</span></div><div class="l">Instructor rating</div></div>
+          <div class="about-stat"><div class="n"><span data-target="130">0</span>k+</div><div class="l">Trailhead points</div></div>
+          <div class="about-stat"><div class="n"><span data-target="210">0</span>+</div><div class="l">Trailhead badges</div></div>
         </div>
       </div>
-      <div class="cap-cards rvr">
-        <div class="cap tilt">
-          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></div>
-          <h4>Strategy &amp; Architecture</h4><p>Scalable orgs and data models aligned to how real estate actually closes deals.</p>
+      <div class="diff-list">
+        <div class="diff rv d1">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
+          <div><h4>Real estate only</h4><p>Not a generalist juggling five industries. Every pattern I build is a real estate pattern.</p></div>
         </div>
-        <div class="cap tilt">
-          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></div>
-          <h4>Automation &amp; Apex</h4><p>Flows, triggers, and LWC that remove manual work and accelerate deals.</p>
+        <div class="diff rv d2">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+          <div><h4>I build and I train</h4><p>The system ships with your team trained on it — until adoption sticks, not just at handover.</p></div>
         </div>
-        <div class="cap tilt">
-          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
-          <h4>Pipeline Dashboards</h4><p>Real-time visibility into deals, agents, cost-per-lead, and net profit.</p>
+        <div class="diff rv d3">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.2 16.2l2.9 2.9M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.2 7.8l2.9-2.9"/></svg></span>
+          <div><h4>Ongoing, fractional support</h4><p>Most consultants disappear after delivery. I stay on as a fractional admin as you grow.</p></div>
         </div>
-        <div class="cap tilt">
-          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg></div>
-          <h4>Adoption Training</h4><p>Practical, agent-friendly training from a career educator — adoption that sticks.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="results" class="sec">
-  <div class="wrap">
-    <div class="results-grid">
-      <div class="rvl">
-        <span class="label emerald"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Proof</span>
-        <h2 class="h-xl">Numbers From<br>Real Engagements</h2>
-        <p class="sub" style="margin-bottom:26px">These aren't projections. They're outcomes from the real estate companies I've worked with.</p>
-        <div class="company-card"><div class="ic">CC</div><div><h4>Central City Solutions</h4><span>Ohio · Real Estate Investment</span></div></div>
-        <div class="company-card"><div class="ic">PP</div><div><h4>Pezon Properties</h4><span>Pennsylvania · Property Acquisition</span></div></div>
-        <a href="#contact" class="btn btn-primary btn-mag" style="margin-top:14px">Get Results Like These</a>
-      </div>
-      <div class="res-grid rvr">
-        <div class="res-card rc-blue tilt"><div class="big">+<span data-target="30">0</span>%</div><div class="l">Pipeline visibility</div><div class="co">Central City Solutions, OH</div></div>
-        <div class="res-card rc-gold tilt"><div class="big"><span data-target="20">0</span>+</div><div class="l">Hours saved / week</div><div class="co">Central City Solutions, OH</div></div>
-        <div class="res-card rc-green tilt"><div class="big">+<span data-target="25">0</span>%</div><div class="l">User adoption</div><div class="co">Central City Solutions, OH</div></div>
-        <div class="res-card rc-purple tilt"><div class="big">+<span data-target="15">0</span>%</div><div class="l">Faster acquisition</div><div class="co">Pezon Properties, PA</div></div>
-        <div class="res-note">
-          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
-          <p>Also at Pezon Properties: <strong>+20% lead assignment efficiency</strong> and <strong>−25% operational inefficiencies</strong>. Across engagements I've migrated <strong>30+ Zapier automations to native Flows</strong>, built <strong>50+ automation rules</strong> via a centralized Configuration Object, and added <strong>RingCentral daily call-log sync</strong> that eliminated manual logging entirely.</p>
+        <div class="diff rv d4">
+          <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+          <div><h4>Free discovery call</h4><p>Every engagement starts with a free 30-minute call. No commitment, no pressure.</p></div>
         </div>
       </div>
     </div>
@@ -778,44 +880,68 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
 </section>
 
 <section id="process" class="sec dark">
-  <div class="wrap">
-    <div class="sec-head center rv">
-      <span class="label">How It Works</span>
-      <h2 class="h-xl">Clear Path.<br>Fast Results.</h2>
-      <p class="sub">No mystery, no endless meetings. A focused process that gets you to value fast.</p>
+  <div class="dark-mesh" aria-hidden="true"></div>
+  <div class="grain" style="filter:url(#noise)" aria-hidden="true"></div>
+  <div class="wrap" style="position:relative;z-index:2">
+    <div class="sec-head rv">
+      <span class="eyebrow">How I work</span>
+      <h2>From kickoff to <span class="grad">compounding ROI</span></h2>
+      <p>A clear, sequenced engagement — quick wins are typically visible within the first two weeks.</p>
     </div>
-    <div class="process-grid">
-      <div class="process-line" aria-hidden="true"></div>
-      <div class="step rv d1"><div class="num">1</div><span class="when">Week 1 · Free</span><h4>Discovery Call</h4><p>A free 30-minute call to map your goals, team, and pain points.</p></div>
-      <div class="step rv d2"><div class="num">2</div><span class="when">Week 1–2</span><h4>Audit &amp; Roadmap</h4><p>A deep org review with a prioritized, ROI-ranked action plan.</p></div>
-      <div class="step rv d3"><div class="num">3</div><span class="when">Week 3+</span><h4>Build &amp; Train</h4><p>Architecture, automation, dashboards, integrations, and hands-on training.</p></div>
-      <div class="step rv d4"><div class="num">4</div><span class="when">Ongoing</span><h4>Optimize &amp; Support</h4><p>Continuous tuning and monitoring to keep ROI climbing.</p></div>
+    <div class="proc-wrap">
+      <div class="proc-sticky">
+        <div class="num-big mono" id="proc-num">01</div>
+        <p style="color:#8294b1;max-width:300px">Each step builds on the last. Scroll to follow the path — or jump straight to a free discovery call.</p>
+        <a href="#contact" class="btn btn-primary btn-mag" style="margin-top:24px">Book the discovery call</a>
+      </div>
+      <div class="proc-steps">
+        <div class="proc-step rv" data-step="01">
+          <span class="pnum">Step 01 · Discovery <span class="when">Week 1 · Free</span></span>
+          <h3>Discovery Call</h3>
+          <p>A free 30-minute conversation to understand your goals, team, and pain points — and decide together whether we're a fit. No commitment.</p>
+        </div>
+        <div class="proc-step rv" data-step="02">
+          <span class="pnum">Step 02 · Audit <span class="when">Week 1–2</span></span>
+          <h3>Audit &amp; Roadmap</h3>
+          <p>A full org audit of automation utilization, data quality, adoption, and license ROI, delivered as a prioritized, sequenced improvement plan.</p>
+        </div>
+        <div class="proc-step rv" data-step="03">
+          <span class="pnum">Step 03 · Build <span class="when">Week 3+</span></span>
+          <h3>Build &amp; Train</h3>
+          <p>Architecture, automation, dashboards, and integrations — paired with hands-on agent training so the system actually gets used.</p>
+        </div>
+        <div class="proc-step rv" data-step="04">
+          <span class="pnum">Step 04 · Support <span class="when">Ongoing</span></span>
+          <h3>Optimize &amp; Support</h3>
+          <p>Ongoing monitoring, refinement, new capabilities, and weekly updates — keeping the CRM delivering measurable ROI over time.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="experience" class="sec">
+<section id="experience" class="sec bg2">
   <div class="wrap">
     <div class="sec-head center rv">
-      <span class="label">Experience</span>
-      <h2 class="h-xl">A Track Record<br>You Can Trust</h2>
-      <p class="sub">From full-cycle Salesforce platform ownership to enterprise CRM and eight years training thousands. Tap any role for detail.</p>
+      <span class="eyebrow" style="justify-content:center">Track record</span>
+      <h2>Where I've <span class="grad">built CRMs</span></h2>
+      <p>Six roles across real estate, automotive, and global training. Tap any role to expand.</p>
     </div>
     <div class="timeline">
       <div class="tl-item now rv">
         <span class="tl-dot" aria-hidden="true"></span>
         <div class="acc">
           <button class="acc-head" aria-expanded="false">
-            <span><span class="role">Salesforce CRM Platform Manager</span><span class="meta">Central City Solutions · Remote (Ohio, US)</span><span class="when-pill now-pill">Jun 2024 – Present</span></span>
+            <span><span class="role">Salesforce CRM Platform Manager</span><span class="meta">Central City Solutions · Ohio, USA · Real estate investment</span><span class="when-pill now-pill">Jun 2024 – Present</span></span>
             <span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
           </button>
-          <div class="acc-body"><div class="acc-body-inner">Full-cycle Salesforce design and development for a real estate investment company — architecture through adoption.
+          <div class="acc-body"><div class="acc-body-inner">
+            Full-cycle Salesforce design and development for a real estate investment company.
             <ul>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Built a Configuration Object architecture driving 50+ automation rules, with a MergeFieldReplacer Apex utility for dynamic templates.</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>RingCentral integration (RCDailyCallLogSync Apex) eliminating manual call logging.</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Migrated 30+ Zapier automations to native Flows; built LWC components including a Queue Task Manager.</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Tableau dashboards, duplicate detection, and marketing ROI tracking.</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Results: +30% pipeline visibility, 20+ hours/week saved, +25% user adoption.</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Built a Configuration Object architecture (50+ rules) with MergeFieldReplacer Apex</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Migrated 30+ Zapier automations to native Flows; added RingCentral daily call-log sync</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>LWC Queue Task Manager, duplicate detection, marketing ROI &amp; Tableau dashboards</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Results: +30% pipeline visibility, 20+ hrs/week saved, +25% user adoption</li>
             </ul>
           </div></div>
         </div>
@@ -824,13 +950,14 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
         <span class="tl-dot" aria-hidden="true"></span>
         <div class="acc">
           <button class="acc-head" aria-expanded="false">
-            <span><span class="role">Salesforce CRM Consultant (On-Demand)</span><span class="meta">Pezon Properties · Remote (Pennsylvania, US)</span><span class="when-pill now-pill">Apr 2025 – Present</span></span>
+            <span><span class="role">Salesforce CRM Consultant (On-Demand)</span><span class="meta">Pezon Properties · Pennsylvania, USA · Real estate acquisition</span><span class="when-pill now-pill">Apr 2025 – Present</span></span>
             <span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
           </button>
-          <div class="acc-body"><div class="acc-body-inner">Ongoing on-demand CRM development and financial analytics for a real estate acquisition company.
+          <div class="acc-body"><div class="acc-body-inner">
+            Ongoing CRM development and financial analytics for a real estate acquisition company.
             <ul>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Cost-per-lead and deal-profitability tracking across campaigns.</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Continuous enhancements as acquisition needs evolve.</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Continuing development of cost-per-lead and deal profitability tracking systems</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Pipeline automation and lead assignment optimization</li>
             </ul>
           </div></div>
         </div>
@@ -839,14 +966,14 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
         <span class="tl-dot" aria-hidden="true"></span>
         <div class="acc">
           <button class="acc-head" aria-expanded="false">
-            <span><span class="role">CRM Platform Manager (Part-Time)</span><span class="meta">Pezon Properties · Remote (Pennsylvania, US)</span><span class="when-pill">Oct 2024 – Mar 2025</span></span>
+            <span><span class="role">CRM Platform Manager (Part-Time)</span><span class="meta">Pezon Properties · Pennsylvania, USA</span><span class="when-pill">Oct 2024 – Mar 2025</span></span>
             <span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
           </button>
-          <div class="acc-body"><div class="acc-body-inner">Built full financial analytics for property acquisition operations.
+          <div class="acc-body"><div class="acc-body-inner">
+            Built a full financial analytics system tracking property expenses, acquisition costs, renovation budgets, and net profit per deal.
             <ul>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Property expenses, acquisition costs, renovation budgets, and net profit per deal.</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Cost-per-lead and cost-per-opportunity by campaign.</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Results: +15% faster acquisition, +20% lead assignment efficiency, −25% operational inefficiencies.</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Cost-per-lead and cost-per-opportunity by campaign</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Results: +15% faster acquisition, +20% lead assignment efficiency, −25% inefficiencies</li>
             </ul>
           </div></div>
         </div>
@@ -858,10 +985,11 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
             <span><span class="role">Salesforce Administrator &amp; Developer</span><span class="meta">Sylndr · Automotive CRM</span><span class="when-pill">Feb 2024 – Nov 2024</span></span>
             <span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
           </button>
-          <div class="acc-body"><div class="acc-body-inner">Enterprise Salesforce across the full vehicle lifecycle — lead, inspection, refurbishment, pricing, pre-sale, and B2C plus dealer sales.
+          <div class="acc-body"><div class="acc-body-inner">
+            Enterprise Salesforce platform covering the full vehicle lifecycle: lead management, inspection, refurbishment, pricing, pre-sale, and B2C and dealer sales.
             <ul>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Apex, Lightning Web Components, and Flows across complex multi-stage processes.</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Result: −15% data entry errors.</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Apex, LWC, and Flow automation across the lifecycle</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Result: −15% data entry errors</li>
             </ul>
           </div></div>
         </div>
@@ -873,9 +1001,10 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
             <span><span class="role">Jr. Marketing Cloud Consultant</span><span class="meta">Conx Digital · UAE</span><span class="when-pill">Oct 2023 – Dec 2023</span></span>
             <span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
           </button>
-          <div class="acc-body"><div class="acc-body-inner">Salesforce Marketing Cloud setup, data migration, and automated customer journeys.
+          <div class="acc-body"><div class="acc-body-inner">
+            Marketing Cloud setup, data migration, and automated customer journeys for a UAE client.
             <ul>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Result: +10% marketing engagement.</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Result: +10% marketing engagement</li>
             </ul>
           </div></div>
         </div>
@@ -884,75 +1013,61 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
         <span class="tl-dot" aria-hidden="true"></span>
         <div class="acc">
           <button class="acc-head" aria-expanded="false">
-            <span><span class="role">Adobe Certified Instructor &amp; Expert</span><span class="meta">Global · Training &amp; Enablement</span><span class="when-pill">2015 – 2023</span></span>
+            <span><span class="role">Adobe Certified Instructor &amp; Expert</span><span class="meta">Multiple organizations · Global · Photoshop, Illustrator, InDesign</span><span class="when-pill">2015 – 2023</span></span>
             <span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
           </button>
-          <div class="acc-body"><div class="acc-body-inner">Eight years teaching design software — the foundation of the adoption-training strength I bring to every Salesforce engagement.
+          <div class="acc-body"><div class="acc-body-inner">
+            Eight years training professionals — the foundation of my adoption-first approach.
             <ul>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Trained 8,000+ students in Photoshop, Illustrator, and InDesign at a 4.9/5 rating.</li>
-              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>One of just five Adobe-authorized training partners in the Middle East.</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Trained 8,000+ students at a 4.9/5 rating</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>One of five Adobe-authorized training partners in the Middle East</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>BBA, Faculty of Commerce, Cairo University (2020)</li>
             </ul>
           </div></div>
-        </div>
-      </div>
-      <div class="tl-item rv">
-        <span class="tl-dot" aria-hidden="true"></span>
-        <div class="acc">
-          <button class="acc-head" aria-expanded="false">
-            <span><span class="role">Bachelor of Business Administration</span><span class="meta">Cairo University · Faculty of Commerce</span><span class="when-pill">2020</span></span>
-            <span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span>
-          </button>
-          <div class="acc-body"><div class="acc-body-inner">A business foundation that informs how I tie Salesforce to revenue, cost, and ROI — not just configuration.</div></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="skills" class="sec bg2">
-  <div class="wrap">
+<section id="skills" class="sec dark">
+  <div class="dark-mesh" aria-hidden="true"></div>
+  <div class="grain" style="filter:url(#noise)" aria-hidden="true"></div>
+  <div class="wrap" style="position:relative;z-index:2">
     <div class="sec-head rv">
-      <span class="label">Capabilities</span>
-      <h2 class="h-xl">The Full Salesforce<br>Toolkit</h2>
+      <span class="eyebrow">Capabilities</span>
+      <h2>The full <span class="grad">technical stack</span></h2>
+      <p>Platform engineering, integrations, and real-estate-specific systems — built end to end.</p>
     </div>
     <div class="skills-grid">
       <div class="rvl">
         <div class="skills-block">
-          <div class="skills-sub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>Platform &amp; Development</div>
+          <h3 class="skills-sub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>Platform &amp; Development</h3>
           <div class="tag-cloud">
-            <span class="tag">Salesforce Administration</span><span class="tag">Flow Builder</span><span class="tag">Apex Triggers</span>
-            <span class="tag">Queueable &amp; Batch Apex</span><span class="tag">Lightning Web Components</span><span class="tag">Approval Processes</span>
-            <span class="tag">Reports &amp; Dashboards</span><span class="tag">Custom Metadata</span><span class="tag">Permission Sets</span>
-            <span class="tag">Validation Rules</span><span class="tag">Dynamic Forms</span><span class="tag">Marketing Cloud</span>
+            <span class="tag">Salesforce Admin</span><span class="tag">Flow Builder (all types)</span><span class="tag">Apex triggers</span><span class="tag">Queueable / Scheduled / Batch</span><span class="tag">Lightning Web Components</span><span class="tag">Approval Processes</span><span class="tag">Custom Metadata &amp; Settings</span><span class="tag">Permission Sets &amp; Sharing</span><span class="tag">Validation Rules</span><span class="tag">Dynamic Forms</span><span class="tag">Reports &amp; Dashboards</span><span class="tag">Marketing Cloud</span>
           </div>
         </div>
         <div class="skills-block">
-          <div class="skills-sub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>Integrations &amp; Analytics</div>
+          <h3 class="skills-sub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>Integrations &amp; Analytics</h3>
           <div class="tag-cloud">
-            <span class="tag">Zapier</span><span class="tag">Tableau</span><span class="tag">RingCentral</span><span class="tag">DocuSign</span>
-            <span class="tag">QuickBooks</span><span class="tag">Slack</span><span class="tag">REST API</span><span class="tag">SOQL</span>
-            <span class="tag">Data Loader</span><span class="tag">Python Data Migration</span>
+            <span class="tag">Zapier</span><span class="tag">Tableau</span><span class="tag">RingCentral</span><span class="tag">DocuSign</span><span class="tag">QuickBooks</span><span class="tag">Slack</span><span class="tag">REST API</span><span class="tag">SOQL</span><span class="tag">Data Loader</span><span class="tag">Python</span>
           </div>
         </div>
         <div class="skills-block">
-          <div class="skills-sub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Real Estate Specializations</div>
+          <h3 class="skills-sub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Real Estate Specializations</h3>
           <div class="tag-cloud">
-            <span class="tag">Speed-to-Lead (sub-5-min)</span><span class="tag">Round-Robin Routing</span><span class="tag">Acquisition Pipeline</span>
-            <span class="tag">Renovation Workflows</span><span class="tag">Transaction Coordination</span><span class="tag">TC Scorecards</span>
-            <span class="tag">Cost-per-Lead ROI</span><span class="tag">Net Profit per Deal</span><span class="tag">Duplicate Detection</span>
-            <span class="tag">Campaign ROI Tracking</span>
+            <span class="tag">Speed-to-lead &lt;5 min</span><span class="tag">Round-robin routing</span><span class="tag">Acquisition pipeline</span><span class="tag">Renovation workflow</span><span class="tag">Transaction coordination</span><span class="tag">TC scorecards</span><span class="tag">ROI dashboards</span><span class="tag">Cost-per-lead</span><span class="tag">Net profit per deal</span><span class="tag">Duplicate detection</span><span class="tag">Campaign ROI</span>
           </div>
         </div>
       </div>
       <div class="rvr">
-        <div class="skills-sub" style="margin-bottom:20px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>Core Competencies</div>
-        <div class="bar"><div class="bartop"><span>Salesforce Administration</span><span>95%</span></div><div class="bar-track"><div class="bar-fill" data-w="95"></div></div></div>
-        <div class="bar"><div class="bartop"><span>Flow &amp; Process Automation</span><span>94%</span></div><div class="bar-track"><div class="bar-fill" data-w="94"></div></div></div>
-        <div class="bar"><div class="bartop"><span>Apex &amp; LWC Development</span><span>88%</span></div><div class="bar-track"><div class="bar-fill" data-w="88"></div></div></div>
-        <div class="bar"><div class="bartop"><span>Dashboards &amp; Tableau</span><span>90%</span></div><div class="bar-track"><div class="bar-fill" data-w="90"></div></div></div>
-        <div class="bar"><div class="bartop"><span>Lead Routing &amp; Speed-to-Lead</span><span>93%</span></div><div class="bar-track"><div class="bar-fill" data-w="93"></div></div></div>
-        <div class="bar"><div class="bartop"><span>Integrations &amp; Migration</span><span>89%</span></div><div class="bar-track"><div class="bar-fill" data-w="89"></div></div></div>
-        <div class="bar"><div class="bartop"><span>User Adoption &amp; Training</span><span>96%</span></div><div class="bar-track"><div class="bar-fill" data-w="96"></div></div></div>
+        <div class="bar"><div class="bartop"><span>Salesforce Administration &amp; Automation</span><span>98%</span></div><div class="bar-track"><div class="bar-fill" data-w="98"></div></div></div>
+        <div class="bar"><div class="bartop"><span>Flow Builder &amp; Process Automation</span><span>97%</span></div><div class="bar-track"><div class="bar-fill" data-w="97"></div></div></div>
+        <div class="bar"><div class="bartop"><span>Apex &amp; Lightning Web Components</span><span>92%</span></div><div class="bar-track"><div class="bar-fill" data-w="92"></div></div></div>
+        <div class="bar"><div class="bartop"><span>Integrations (Zapier, RingCentral, API)</span><span>95%</span></div><div class="bar-track"><div class="bar-fill" data-w="95"></div></div></div>
+        <div class="bar"><div class="bartop"><span>Tableau &amp; Analytics Dashboards</span><span>90%</span></div><div class="bar-track"><div class="bar-fill" data-w="90"></div></div></div>
+        <div class="bar"><div class="bartop"><span>Real Estate CRM Architecture</span><span>96%</span></div><div class="bar-track"><div class="bar-fill" data-w="96"></div></div></div>
+        <div class="bar"><div class="bartop"><span>User Adoption &amp; Training</span><span>99%</span></div><div class="bar-track"><div class="bar-fill" data-w="99"></div></div></div>
       </div>
     </div>
   </div>
@@ -961,36 +1076,28 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
 <section id="certs" class="sec">
   <div class="wrap">
     <div class="sec-head center rv">
-      <span class="label">Certifications</span>
-      <h2 class="h-xl">Certified, &amp; Proven<br>on the Platform</h2>
+      <span class="eyebrow" style="justify-content:center">Credentials</span>
+      <h2>Certified &amp; <span class="grad-gold">verified</span></h2>
+      <p>Four active Salesforce certifications — earned 2023, not legacy credentials.</p>
     </div>
     <div class="certs-wrap">
-      <div class="certs-grid rvl">
-        <div class="cert tilt">
-          <div class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-          <div><h4>Salesforce Administrator</h4><span>Mar 2023</span></div>
-        </div>
-        <div class="cert tilt">
-          <div class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
-          <div><h4>Platform App Builder</h4><span>Apr 2023</span></div>
-        </div>
-        <div class="cert tilt">
-          <div class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="9 12 11 14 15 9"/></svg></div>
-          <div><h4>Salesforce Associate</h4><span>Nov 2023</span></div>
-        </div>
-        <div class="cert tilt">
-          <div class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg></div>
-          <div><h4>AI Associate</h4><span>Nov 2023</span></div>
-        </div>
+      <div class="certs-grid">
+        <div class="cert rv d1"><span class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span><div><h4>Certified Administrator</h4><span>Salesforce · Mar 2023</span></div></div>
+        <div class="cert rv d2"><span class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span><div><h4>Platform App Builder</h4><span>Salesforce · Apr 2023</span></div></div>
+        <div class="cert rv d3"><span class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span><div><h4>Certified Associate</h4><span>Salesforce · Nov 2023</span></div></div>
+        <div class="cert rv d4"><span class="badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span><div><h4>Certified AI Associate</h4><span>Salesforce · Nov 2023</span></div></div>
       </div>
       <div class="ranger-card rvr">
-        <div class="rbadge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
-        <h3>Trailhead Double Star Ranger</h3>
-        <p>A verified mark of hands-on platform depth — earned through real, applied skill challenges, not just exams.</p>
-        <div class="ranger-stats">
-          <div><div class="n">20</div><div class="l">Superbadges</div></div>
-          <div><div class="n">210+</div><div class="l">Badges</div></div>
-          <div><div class="n">130k+</div><div class="l">Points</div></div>
+        <div class="dark-mesh" aria-hidden="true"></div>
+        <div style="position:relative;z-index:2">
+          <div class="rbadge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <h3>Trailhead Double Star Ranger</h3>
+          <p>The highest available Trailhead tier — earned through hands-on, scenario-based superbadges, not just quizzes.</p>
+          <div class="ranger-stats">
+            <div><div class="n"><span data-target="20">0</span></div><div class="l">Superbadges</div></div>
+            <div><div class="n"><span data-target="210">0</span>+</div><div class="l">Badges</div></div>
+            <div><div class="n"><span data-target="130">0</span>k+</div><div class="l">Points</div></div>
+          </div>
         </div>
       </div>
     </div>
@@ -1000,60 +1107,81 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
 <section id="blog-preview" class="sec bg2">
   <div class="wrap">
     <div class="sec-head center rv">
-      <span class="label">Insights</span>
-      <h2 class="h-xl">From the Blog</h2>
-      <p class="sub">Practical, no-fluff Salesforce guidance written specifically for real estate teams.</p>
+      <span class="eyebrow" style="justify-content:center">From the blog</span>
+      <h2>Practical <span class="grad">Salesforce playbooks</span></h2>
+      <p>Field-tested guides on lead routing, automation, and architecture for real estate teams.</p>
     </div>
     <div class="blog-grid">
-      <a href="blog-salesforce-lead-routing-real-estate.html" class="card blog-card b1 rv d1">
+      <a href="blog-salesforce-lead-routing-real-estate.html" class="blog-card b1 rv d1">
         <div class="blog-head">
-          <div class="blog-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg></div>
+          <span class="blog-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
         </div>
-        <div class="bd"><span class="cat">Lead Routing</span><h3>Salesforce Lead Routing for Real Estate: Speed to Lead Changes Everything</h3><p>Why the first agent to call wins, and how to route hot inquiries automatically in under five minutes.</p><span class="btn-ghost">Read article <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span></div>
+        <div class="bd">
+          <span class="cat">Lead Routing</span>
+          <h3>Salesforce Lead Routing for Real Estate: Speed to Lead Changes Everything</h3>
+          <p>Assignment rules, round-robin routing, Zapier for external sources, and a notification layer that gets agents to leads first.</p>
+          <span class="btn-ghost">Read article <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+        </div>
       </a>
-      <a href="blog-salesforce-automations-real-estate.html" class="card blog-card b2 rv d2">
+      <a href="blog-salesforce-automations-real-estate.html" class="blog-card b2 rv d2">
         <div class="blog-head">
-          <div class="blog-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+          <span class="blog-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
         </div>
-        <div class="bd"><span class="cat">Automation</span><h3>5 Salesforce Automations Every Real Estate Team Needs</h3><p>The flows and rules that quietly reclaim 20+ hours every week — and how to prioritize them.</p><span class="btn-ghost">Read article <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span></div>
+        <div class="bd">
+          <span class="cat">Automation</span>
+          <h3>5 Salesforce Automations Every Real Estate Team Needs</h3>
+          <p>Lead assignment, follow-up automation, property status workflows, reporting, and stale-lead escalation that runs itself.</p>
+          <span class="btn-ghost">Read article <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+        </div>
       </a>
-      <a href="blog-salesforce-configuration-object-real-estate.html" class="card blog-card b3 rv d3">
+      <a href="blog-salesforce-configuration-object-real-estate.html" class="blog-card b3 rv d3">
         <div class="blog-head">
-          <div class="blog-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></div>
+          <span class="blog-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></span>
         </div>
-        <div class="bd"><span class="cat">Architecture</span><h3>The Salesforce Configuration Object: Manage 50+ Automations Without Code</h3><p>A single object pattern that lets you control dozens of automations without touching a single Flow.</p><span class="btn-ghost">Read article <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span></div>
+        <div class="bd">
+          <span class="cat">Architecture</span>
+          <h3>The Salesforce Configuration Object: Manage 50+ Automations Without Touching Code</h3>
+          <p>Centralized automation with a Configuration Object and MergeFieldReplacer Apex — so non-technical admins stay in control.</p>
+          <span class="btn-ghost">Read article <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+        </div>
       </a>
     </div>
-    <div style="text-align:center;margin-top:40px"><a href="blog.html" class="btn btn-white btn-mag">View All Articles</a></div>
+    <div style="text-align:center;margin-top:44px" class="rv">
+      <a href="blog.html" class="btn btn-line">View all articles
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
   </div>
 </section>
 
 <section id="faq" class="sec">
   <div class="wrap">
     <div class="sec-head center rv">
-      <span class="label">FAQ</span>
-      <h2 class="h-xl">Straight Answers</h2>
+      <span class="eyebrow" style="justify-content:center">FAQ</span>
+      <h2>Common <span class="grad">questions</span></h2>
     </div>
     <div class="faq-list">
-      <div class="faq-item"><button class="faq-q" aria-expanded="false">Do you work with real estate companies specifically?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Yes — exclusively. Real estate is the only industry I serve. That means speed-to-lead routing, property acquisition pipelines, transaction coordination, and ROI dashboards built for how brokerages and property firms actually operate.</div></div></div>
-      <div class="faq-item"><button class="faq-q" aria-expanded="false">Are you certified?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Yes. I hold 4 Salesforce certifications — Administrator, Platform App Builder, Associate, and AI Associate — and I'm a Trailhead Double Star Ranger with 20 superbadges, 210+ badges, and 130,000+ points.</div></div></div>
-      <div class="faq-item"><button class="faq-q" aria-expanded="false">Do you work remotely?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Yes — fully remote with US and international clients, working US Eastern and Central hours so we overlap your business day.</div></div></div>
-      <div class="faq-item"><button class="faq-q" aria-expanded="false">How fast can we start?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">The free 30-minute discovery call happens in week one, the audit and roadmap follow in weeks one to two, and the build typically begins in week three.</div></div></div>
-      <div class="faq-item"><button class="faq-q" aria-expanded="false">Do you only build, or do you train teams too?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Both. I build the system and then train your agents until adoption actually sticks. I spent eight years as an Adobe Certified Instructor teaching 8,000+ students at a 4.9/5 rating — that teaching background is why my implementations get used.</div></div></div>
-      <div class="faq-item"><button class="faq-q" aria-expanded="false">What does it cost?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">The CRM Audit &amp; Roadmap is a fixed low-cost fee, full implementation is project-based, and ongoing management is a monthly retainer that costs far less than a full-time admin. The 30-minute discovery call is always free.</div></div></div>
-      <div class="faq-item"><button class="faq-q" aria-expanded="false">What engagement types do you offer?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Three: a one-time CRM Audit &amp; Roadmap, a full implementation project, or ongoing fractional CRM management on a monthly retainer — pick what fits your stage.</div></div></div>
-      <div class="faq-item"><button class="faq-q" aria-expanded="false">What results have you delivered?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">At Central City Solutions (OH): +30% pipeline visibility, 20+ hours saved per week, and +25% Salesforce user adoption. At Pezon Properties (PA): +15% faster property acquisition, +20% lead assignment efficiency, and −25% operational inefficiencies — plus migrating 30+ Zapier automations to native Flows and RingCentral call-log sync that eliminated manual logging.</div></div></div>
+      <div class="faq-item rv"><button class="faq-q" aria-expanded="false">Do you work with real estate companies specifically?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Yes — exclusively. Real estate is the only industry I serve. That means speed-to-lead routing, property acquisition pipelines, transaction coordination, and ROI dashboards built for how brokerages and property firms actually operate.</div></div></div>
+      <div class="faq-item rv"><button class="faq-q" aria-expanded="false">Are you certified?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Yes. I hold 4 Salesforce certifications — Administrator (Mar 2023), Platform App Builder (Apr 2023), Associate (Nov 2023), and AI Associate (Nov 2023) — and I am a Trailhead Double Star Ranger with 20 superbadges, 210+ badges, and 130,000+ points.</div></div></div>
+      <div class="faq-item rv"><button class="faq-q" aria-expanded="false">Do you work remotely?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Yes, fully remote with US and international clients, working US Eastern and Central hours so we overlap your business day.</div></div></div>
+      <div class="faq-item rv"><button class="faq-q" aria-expanded="false">How fast can we start?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Discovery happens in week one with a free 30-minute call, the audit and roadmap follow in weeks one to two, and the build typically begins in week three. Quick wins are usually visible within the first two weeks.</div></div></div>
+      <div class="faq-item rv"><button class="faq-q" aria-expanded="false">Do you only build, or do you train teams too?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Both. I build the system and then train your agents until adoption sticks. I spent years as an Adobe Certified Instructor teaching 8,000+ students at a 4.9/5 rating — that teaching DNA is why my implementations actually get used.</div></div></div>
+      <div class="faq-item rv"><button class="faq-q" aria-expanded="false">What does it cost?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">The CRM Audit &amp; Roadmap is a fixed low-cost fee, full implementation is project-based, and ongoing management is a monthly retainer that costs far less than a full-time admin. The 30-minute discovery call is free.</div></div></div>
+      <div class="faq-item rv"><button class="faq-q" aria-expanded="false">What engagement types do you offer?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">Three: a one-time CRM Audit &amp; Roadmap, a full implementation project, or ongoing fractional CRM management on a monthly retainer. Most clients start with an audit and move to a build or retainer from there.</div></div></div>
+      <div class="faq-item rv"><button class="faq-q" aria-expanded="false">What results have you delivered?<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-a"><div class="faq-a-inner">At Central City Solutions (OH): +30% pipeline visibility, 20+ hours saved per week, and +25% Salesforce user adoption. At Pezon Properties (PA): +15% faster property acquisition, +20% lead assignment efficiency, and a 25% reduction in operational inefficiencies. I also migrated 30+ Zapier automations to native Flows and built RingCentral call-log sync that eliminated manual logging.</div></div></div>
     </div>
   </div>
 </section>
 
 <section id="contact" class="sec dark">
-  <div class="wrap">
+  <div class="dark-mesh" aria-hidden="true"></div>
+  <div class="grain" style="filter:url(#noise)" aria-hidden="true"></div>
+  <div class="wrap" style="position:relative;z-index:2">
     <div class="contact-grid">
       <div class="rvl">
-        <span class="label">Get In Touch</span>
-        <h2 class="h-xl">Let's Fix Your CRM</h2>
-        <p class="sub">Tell me what's broken. I'll tell you how I'd fix it — no obligation, no jargon. The first 30-minute discovery call is free.</p>
+        <span class="eyebrow">Let's talk</span>
+        <h2 class="h-disp" style="font-size:clamp(2rem,4.6vw,3.1rem);margin-bottom:18px">Book your free <span class="grad">CRM audit</span></h2>
+        <p style="font-size:1.12rem;max-width:480px">Tell me what's going on with your Salesforce setup. We'll spend 30 minutes finding your highest-impact quick wins — no commitment, no pressure.</p>
         <div class="contact-links">
           <a href="mailto:info@AmrMagdy.com" class="contact-link">
             <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>
@@ -1094,7 +1222,7 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
 
 </main>
 
-<footer class="dark">
+<footer>
   <div class="wrap">
     <div class="footer-inner">
       <div class="c">© <span id="footer-year">2026</span> <strong>Amr Magdy</strong> — Salesforce CRM Consultant for Real Estate. All rights reserved.</div>
@@ -1224,6 +1352,22 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
     bars.forEach(function(el){ bObs.observe(el); });
   }
 
+  /* PROCESS sticky number sync */
+  var procSteps = document.querySelectorAll('.proc-step');
+  var procNum = byId('proc-num');
+  if(procSteps.length && procNum){
+    var pObs = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){
+          procSteps.forEach(function(s){ s.classList.remove('active'); });
+          e.target.classList.add('active');
+          procNum.textContent = e.target.getAttribute('data-step');
+        }
+      });
+    }, {rootMargin:'-45% 0px -45% 0px', threshold:0});
+    procSteps.forEach(function(s){ pObs.observe(s); });
+  }
+
   if(!touch && !reduce){
     var cursor = byId('cursor');
     var dot = byId('cursor-dot');
@@ -1253,7 +1397,7 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
         var r = el.getBoundingClientRect();
         var px = (e.clientX - r.left)/r.width - 0.5;
         var py = (e.clientY - r.top)/r.height - 0.5;
-        el.style.transform = 'perspective(800px) rotateX('+(-py*5)+'deg) rotateY('+(px*5)+'deg)';
+        el.style.transform = 'perspective(900px) rotateX('+(-py*5)+'deg) rotateY('+(px*5)+'deg)';
       });
       el.addEventListener('mouseleave', function(){ el.style.transform=''; });
     });
@@ -1283,6 +1427,9 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
       }
       setTimeout(type, 1500);
     }
+  } else {
+    var twr = byId('typewriter');
+    if(twr) twr.textContent = 'Automated lead routing for real estate.';
   }
 
   var form = byId('contact-form');
@@ -1296,7 +1443,7 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
       e.preventDefault();
       var fd = new FormData(form);
       var name = fd.get('name'), email = fd.get('email'), msg = fd.get('message');
-      status.style.color = '#a7bad4';
+      status.style.color = '#aab9d2';
       status.textContent = 'Sending…';
       var key = fd.get('access_key');
       var tier1 = (key && key !== 'YOUR_WEB3FORMS_ACCESS_KEY')
@@ -1313,7 +1460,7 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
           })
           .catch(function(){
             mailtoFallback(name,email,msg);
-            status.style.color = '#a7bad4';
+            status.style.color = '#aab9d2';
             status.textContent = 'Opening your email app…';
           });
       });
@@ -1321,7 +1468,7 @@ footer{padding:42px 0;border-top:1px solid rgba(255,255,255,.08)}
   }
   function done(){
     if(!status) return;
-    status.style.color = '#34d399';
+    status.style.color = '#5ee9bd';
     status.textContent = 'Thanks! Your message is on its way. I\'ll reply soon.';
     if(form) form.reset();
   }
