@@ -289,7 +289,8 @@ section{position:relative}
 .strip-inner{display:flex;align-items:center;gap:26px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
 .strip-inner::-webkit-scrollbar{display:none}
 .strip-inner .t{font-size:.78rem;font-weight:700;color:var(--ink3);text-transform:uppercase;letter-spacing:.12em;flex:none}
-.strip-inner .w{font-family:'Fraunces',serif;font-weight:500;font-size:1.08rem;color:var(--ink);white-space:nowrap;flex:none;letter-spacing:-.01em}
+.strip-inner .w{font-family:'Fraunces',serif;font-weight:500;font-size:1.08rem;color:var(--ink);white-space:nowrap;flex:none;letter-spacing:-.01em;display:inline-flex;align-items:center;gap:10px}
+.strip-inner .w img{height:26px;width:auto;flex:none;background:#fff;border-radius:6px;padding:3px 5px;box-shadow:0 1px 3px rgba(11,31,58,.10)}
 .strip-inner .dot{width:5px;height:5px;border-radius:50%;background:var(--gold2);flex:none}
 .strip-inner .bar{width:1px;height:20px;background:var(--bd2);flex:none}
 
@@ -343,7 +344,8 @@ section{position:relative}
 /* CASES */
 .case{padding:46px 0;border-bottom:1px solid var(--bdl)}
 .case:first-of-type{border-top:1px solid var(--bdl)}
-.case-top{display:flex;flex-wrap:wrap;align-items:baseline;gap:14px;margin-bottom:8px}
+.case-top{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-bottom:8px}
+.case-logo{height:46px;width:auto;background:#fff;border-radius:12px;padding:6px 10px;flex:none;box-shadow:0 2px 10px rgba(0,0,0,.25)}
 .case-top h3{font-family:'Fraunces',serif;font-weight:500;font-size:clamp(1.9rem,3.8vw,2.7rem);color:#fff;letter-spacing:-.01em}
 .case-tag{font-size:.78rem;font-weight:600;color:var(--gold2);background:rgba(212,162,62,.14);padding:5px 13px;border-radius:50px}
 .case-meta{color:var(--ink3);font-size:.92rem;margin-bottom:30px}
@@ -694,10 +696,10 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
   <div class="wrap">
     <div class="strip-inner">
       <span class="t">Trusted by</span>
-      <span class="w">Central City Solutions</span><span class="dot" aria-hidden="true"></span>
-      <span class="w">Pezon Properties</span><span class="dot" aria-hidden="true"></span>
-      <span class="w">Sylndr</span><span class="dot" aria-hidden="true"></span>
-      <span class="w">Conx Digital</span>
+      <span class="w"><img src="imgs/logos/CentralCitySolutions.webp" alt="" loading="lazy" width="196" height="103">Central City Solutions</span><span class="dot" aria-hidden="true"></span>
+      <span class="w"><img src="imgs/logos/PezonProperties.webp" alt="" loading="lazy" width="480" height="193">Pezon Properties</span><span class="dot" aria-hidden="true"></span>
+      <span class="w"><img src="imgs/logos/Sylndr.webp" alt="" loading="lazy" width="480" height="455">Sylndr</span><span class="dot" aria-hidden="true"></span>
+      <span class="w"><img src="imgs/logos/ConxDigital.webp" alt="" loading="lazy" width="480" height="138">Conx Digital</span>
       <span class="bar" aria-hidden="true"></span>
       <span class="w">Salesforce Certified ×4</span><span class="dot" aria-hidden="true"></span>
       <span class="w">Trailhead Double Star Ranger</span>
@@ -814,6 +816,7 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
 
     <article class="case rv">
       <div class="case-top">
+        <img class="case-logo" src="imgs/logos/CentralCitySolutions.webp" alt="Central City Solutions logo" loading="lazy" width="196" height="103">
         <h3>Central City Solutions</h3>
         <span class="case-tag">Real estate investment</span>
       </div>
@@ -854,6 +857,7 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
 
     <article class="case rv">
       <div class="case-top">
+        <img class="case-logo" src="imgs/logos/PezonProperties.webp" alt="Pezon Properties logo" loading="lazy" width="480" height="193">
         <h3>Pezon Properties</h3>
         <span class="case-tag">Real estate acquisition</span>
       </div>
