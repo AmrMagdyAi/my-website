@@ -16,65 +16,40 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Salesforce Lead Routing for Real Estate: Speed to Lead Changes Everything", "description": "Leads contacted within 5 minutes are 100x more likely to convert. Here is how to build automatic Salesforce lead routing that puts every lead in front of an agent within minutes.", "url": "https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html", "datePublished": "2025-03-15", "dateModified": "2025-03-15", "author": {"@type": "Person", "name": "Amr Magdy", "url": "https://amrmagdy.com"}, "publisher": {"@type": "Person", "name": "Amr Magdy", "url": "https://amrmagdy.com"}, "image": "https://amrmagdy.com/imgs/AmrMagdyPic.webp", "keywords": "Salesforce CRM real estate, Salesforce consultant real estate"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
 <style>
-:root{--bg:#f7f4ee;--bg2:#ffffff;--bd:rgba(19,36,61,.10);--bd2:rgba(19,36,61,.18);--sf:#0b6bce;--gold:#b8862f;--green:#1f8a4c;--purple:#7a59c9;--txt:#13243d;--txt2:#475569;--txt3:#7d8aa0;--r:14px;--nav:74px}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;overflow-x:hidden}
-body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.75;overflow-x:hidden;-webkit-font-smoothing:antialiased;font-size:17px}
-a{text-decoration:none;color:inherit}img{max-width:100%;display:block}
-.wrap{max-width:740px;margin:0 auto;padding:0 2rem;width:100%}
-.wrap-wide{max-width:1100px;margin:0 auto;padding:0 2rem;width:100%}
-nav{position:fixed;top:0;left:0;right:0;z-index:100;height:var(--nav);display:flex;align-items:center;background:rgba(6,13,28,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--bd)}
-.nav-in{display:flex;align-items:center;justify-content:space-between;width:100%}
-.logo{font-weight:800;font-size:1.1rem;display:flex;align-items:center;gap:8px}
-.logo-mark{width:28px;height:28px;border-radius:7px;background:linear-gradient(135deg,var(--sf),#0070d2);display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:900;color:#fff}
-.nb{font-size:.86rem;font-weight:600;color:var(--txt2);display:flex;align-items:center;gap:5px;padding:7px 14px;border-radius:8px;border:1px solid var(--bd);transition:all .2s}
-.nb:hover{color:var(--txt);border-color:rgba(255,255,255,.2)}
+/* Page-specific styles — shared tokens live in styles.css */
 .ah{padding:calc(var(--nav) + 52px) 0 52px;border-bottom:1px solid var(--bd)}
-.tag{display:inline-flex;align-items:center;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;border-radius:99px;padding:5px 13px;margin-bottom:20px}
-.tag.sf{color:var(--sf);background:rgba(0,161,224,.09);border:1px solid rgba(0,161,224,.2)}
-.tag.re{color:var(--green);background:rgba(16,185,129,.09);border:1px solid rgba(16,185,129,.2)}
-.tag.st{color:var(--purple);background:rgba(139,92,246,.09);border:1px solid rgba(139,92,246,.2)}
-h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);font-weight:900;letter-spacing:-.03em;line-height:1.1;margin-bottom:20px}
+h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 .meta{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .meta-a{display:flex;align-items:center;gap:8px;font-size:.87rem;font-weight:600}
-.meta-a img{width:30px;height:30px;border-radius:50%;object-fit:cover;border:1.5px solid rgba(0,161,224,.3)}
+.meta-a img{width:30px;height:30px;border-radius:50%;object-fit:cover;border:1.5px solid rgba(11,107,206,.25)}
 .sep{width:1px;height:13px;background:var(--bd2)}
 .mi{font-size:.81rem;color:var(--txt3)}
 .ab{padding:60px 0 80px}
-.ab h2{font-size:clamp(1.25rem,2.5vw,1.65rem);font-weight:800;letter-spacing:-.02em;margin:48px 0 16px;line-height:1.25}
+.ab h2{font-family:'Fraunces',Georgia,serif;font-size:clamp(1.25rem,2.5vw,1.65rem);font-weight:500;letter-spacing:-.02em;margin:48px 0 16px;line-height:1.25}
 .ab h3{font-size:1.1rem;font-weight:700;margin:32px 0 12px}
 .ab p{color:var(--txt2);line-height:1.85;margin-bottom:20px;font-size:.97rem}
 .ab p strong{color:var(--txt);font-weight:700}
 .ab ul{margin:0 0 20px;padding:0;list-style:none}
 .ab li{display:flex;gap:11px;color:var(--txt2);font-size:.97rem;line-height:1.8;margin-bottom:12px}
-.ab li::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--sf);flex-shrink:0;margin-top:8px}
+.ab li::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--gold);flex-shrink:0;margin-top:8px}
 .ab li strong{color:var(--txt)}
-.co{background:rgba(0,161,224,.055);border:1px solid rgba(0,161,224,.17);border-left:3px solid var(--sf);border-radius:0 var(--r) var(--r) 0;padding:20px 22px;margin:28px 0}
-.co p{margin:0;color:var(--txt);font-size:.94rem}
 .sr{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:32px 0}
-.sb{background:var(--bg2);border:1px solid var(--bd);border-radius:var(--r);padding:22px 16px;text-align:center}
-.sb-n{font-size:1.9rem;font-weight:900;color:var(--sf);line-height:1;letter-spacing:-.03em}
+.sb{background:var(--bg2);border:1px solid var(--bd);border-radius:var(--r);padding:22px 16px;text-align:center;box-shadow:var(--sh-sm)}
+.sb-n{font-size:1.9rem;line-height:1;letter-spacing:-.03em;color:var(--sf)}
 .sb-l{font-size:.78rem;color:var(--txt3);margin-top:6px}
-.article-cta{background:var(--bg2);border:1px solid rgba(0,161,224,.18);border-radius:16px;padding:34px 38px;margin-top:60px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap}
-.article-cta h3{font-size:1.15rem;font-weight:800;margin-bottom:7px}
+.article-cta{background:var(--bg2);border:1px solid rgba(11,107,206,.18);border-radius:16px;padding:34px 38px;margin-top:60px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;box-shadow:var(--sh-sm)}
+.article-cta h3{font-size:1.15rem;margin-bottom:7px}
 .article-cta p{font-size:.88rem;color:var(--txt2);line-height:1.7;max-width:380px;margin:0}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:var(--r);font-size:.92rem;font-weight:700;font-family:inherit;white-space:nowrap}
-.btn-blue{background:var(--sf);color:#fff}
-.btn-blue:hover{background:#0090cc;transform:translateY(-2px)}
 .rel{padding:60px 0;border-top:1px solid var(--bd)}
-.rel h2{font-size:1.25rem;font-weight:800;margin-bottom:24px}
+.rel h2{font-size:1.25rem;margin-bottom:24px}
 .rel-g{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.rc{background:var(--bg2);border:1px solid var(--bd);border-radius:var(--r);padding:20px;transition:all .25s}
-.rc:hover{border-color:rgba(0,161,224,.25);transform:translateY(-3px)}
-.rc h4{font-size:.91rem;font-weight:700;line-height:1.4;margin-bottom:5px}
+.rc{background:var(--bg2);border:1px solid var(--bd);border-radius:var(--r);padding:20px;transition:transform .25s,border-color .25s,box-shadow .25s}
+.rc h4{font-size:.91rem;line-height:1.4;margin-bottom:5px}
 .rc p{font-size:.78rem;color:var(--txt3)}
-footer{padding:30px 0;border-top:1px solid var(--bd)}
-.fi{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:.81rem;color:var(--txt3)}
-.fl{display:flex;gap:16px}
-.fl a{color:var(--txt3);transition:color .2s}
-.fl a:hover{color:var(--sf)}
 @media(max-width:768px){
   .sr{grid-template-columns:1fr 1fr}
   .rel-g{grid-template-columns:1fr}
@@ -82,35 +57,19 @@ footer{padding:30px 0;border-top:1px solid var(--bd)}
   .article-cta p{max-width:100%}
   .ah{padding:calc(var(--nav) + 32px) 0 36px}
 }
-@media(max-width:480px){
-  .wrap{padding:0 1rem}.wrap-wide{padding:0 1rem}
-  .sr{grid-template-columns:1fr}
-}
-
-/* === New brand design system (Fraunces + cream/navy/gold) === */
-body{font-size:17px;-webkit-font-smoothing:antialiased}
-.logo,.ttl,h1,h2,h3,h4,.hero h1,.cta-section h2,.article-cta h3,.ac-body h2,.rc h4,.rel h2{font-family:'Fraunces',Georgia,serif!important;font-weight:500!important;letter-spacing:-.015em}
-.ttl,.hero h1{font-weight:600!important}
-nav{background:rgba(247,244,238,.85)!important;backdrop-filter:saturate(180%) blur(16px);-webkit-backdrop-filter:saturate(180%) blur(16px);border-bottom:1px solid var(--bd)!important}
-.logo-mark{background:#0b1f3a!important;color:#d4a23e!important;border-radius:9px!important;font-family:'Fraunces',serif!important;font-weight:500!important}
-.nb:hover{border-color:var(--bd2)!important}
-.hero h1 span,.ttl span{background:linear-gradient(135deg,var(--sf),#1287e8)!important;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-.tag.gold{color:var(--gold)!important;background:rgba(184,134,47,.10)!important;border:1px solid rgba(184,134,47,.22)!important}
-.tag.sf{color:var(--sf)!important;background:rgba(11,107,206,.09)!important;border:1px solid rgba(11,107,206,.2)!important}
-.tag.re{color:var(--green)!important;background:rgba(31,138,76,.10)!important;border:1px solid rgba(31,138,76,.2)!important}
-.tag.st{color:var(--purple)!important;background:rgba(122,89,201,.10)!important;border:1px solid rgba(122,89,201,.2)!important}
-.eyebrow{color:var(--gold)!important;background:rgba(184,134,47,.10)!important;border:1px solid rgba(184,134,47,.22)!important}
-.eyebrow::before{background:var(--gold)!important}
-.co{background:rgba(11,107,206,.06)!important;border:1px solid rgba(11,107,206,.16)!important;border-left:3px solid var(--sf)!important}
-.ac,.rc,.sb,.cta-section,.article-cta,.filter-btn{box-shadow:0 1px 2px rgba(19,36,61,.04),0 6px 18px rgba(19,36,61,.05)}
-.ac:hover,.rc:hover{box-shadow:0 16px 40px rgba(19,36,61,.10)!important;border-color:var(--bd2)!important}
-.btn-blue{background:var(--sf)!important;border-radius:50px!important;box-shadow:0 12px 30px rgba(11,107,206,.28)}
-.btn-blue:hover{background:#0a5fb6!important}
-.ab li::before{background:var(--gold)!important}
-.sb-n,.ac-read{color:var(--sf)!important}
-.fl a:hover{color:var(--gold)!important}
-
+@media(max-width:480px){.sr{grid-template-columns:1fr}}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://amrmagdy.com/"},
+    {"@type":"ListItem","position":2,"name":"Blog","item":"https://amrmagdy.com/blog.html"},
+    {"@type":"ListItem","position":3,"name":"Salesforce Lead Routing for Real Estate","item":"https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html"}
+  ]
+}
+</script>
 </head>
 <body>
 <nav><div class="wrap-wide"><div class="nav-in">

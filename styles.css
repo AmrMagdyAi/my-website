@@ -1,0 +1,260 @@
+/*
+ * styles.css — Amr Magdy shared blog design system
+ * Loaded by blog.html and all article pages
+ * Design: Fraunces serif + Plus Jakarta Sans | Cream/Navy/Gold palette
+ */
+
+/* ── Tokens ── */
+:root {
+  --bg: #f7f4ee;
+  --bg2: #ffffff;
+  --bd: rgba(19,36,61,.10);
+  --bd2: rgba(19,36,61,.18);
+  --sf: #0b6bce;
+  --gold: #b8862f;
+  --green: #1f8a4c;
+  --purple: #7a59c9;
+  --txt: #13243d;
+  --txt2: #475569;
+  --txt3: #7d8aa0;
+  --r: 14px;
+  --nav: 74px;
+  --navy: #0b1f3a;
+  --navy2: #102845;
+  --gold2: #d4a23e;
+  --gold-soft: #f6edd9;
+  --azure-soft: #e4f0fc;
+  --green-soft: #e3f3e9;
+  --sh-sm: 0 1px 2px rgba(19,36,61,.04),0 6px 18px rgba(19,36,61,.06);
+  --sh-md: 0 16px 40px rgba(19,36,61,.10);
+  --ease: cubic-bezier(.4,0,.2,1);
+}
+
+/* ── Reset ── */
+*,*::before,*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── HTML ── */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* ── Body ── */
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--txt);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  font-size: 17px;
+  overflow-x: hidden;
+}
+
+/* ── Base elements ── */
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; display: block; }
+
+/* ── Focus styles ── */
+*:focus-visible {
+  outline: 2.5px solid var(--sf);
+  outline-offset: 3px;
+  border-radius: 5px;
+}
+*:focus:not(:focus-visible) { outline: none; }
+
+/* ── Layout wrappers ── */
+.wrap { max-width: 740px; margin: 0 auto; padding: 0 2rem; width: 100%; }
+.wrap-wide { max-width: 1180px; margin: 0 auto; padding: 0 2rem; width: 100%; }
+
+/* ── Nav ── */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: var(--nav);
+  display: flex;
+  align-items: center;
+  background: rgba(247,244,238,.88);
+  backdrop-filter: saturate(180%) blur(16px);
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  border-bottom: 1px solid var(--bd);
+  box-shadow: 0 2px 24px rgba(19,36,61,.05);
+}
+.nav-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  letter-spacing: -.01em;
+}
+.logo-mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  background: var(--navy);
+  color: var(--gold2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: 'Fraunces', Georgia, serif;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.06);
+}
+.nb {
+  font-size: .86rem;
+  font-weight: 600;
+  color: var(--txt2);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 18px;
+  border-radius: 50px;
+  border: 1.5px solid var(--bd2);
+  transition: border-color .2s, color .2s;
+}
+.nb:hover { color: var(--txt); border-color: var(--sf); }
+
+/* ── Buttons ── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-size: .95rem;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: transform .2s, box-shadow .2s, background .2s;
+}
+.btn-blue {
+  background: var(--sf);
+  color: #fff;
+  box-shadow: 0 12px 30px rgba(11,107,206,.28);
+}
+.btn-blue:hover {
+  background: #0a5fb6;
+  transform: translateY(-2px);
+  box-shadow: 0 18px 42px rgba(11,107,206,.38);
+}
+.btn-gold {
+  background: var(--gold);
+  color: #fff;
+  box-shadow: 0 12px 30px rgba(184,134,47,.26);
+}
+.btn-gold:hover { background: #a3761f; transform: translateY(-2px); }
+
+/* ── Tags ── */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  border-radius: 50px;
+  padding: 5px 13px;
+}
+.tag.sf  { color: var(--sf);    background: rgba(11,107,206,.09);  border: 1px solid rgba(11,107,206,.2);  }
+.tag.re  { color: var(--green); background: rgba(31,138,76,.10);   border: 1px solid rgba(31,138,76,.2);   }
+.tag.st  { color: var(--purple);background: rgba(122,89,201,.10);  border: 1px solid rgba(122,89,201,.2);  }
+.tag.gold{ color: var(--gold);  background: rgba(184,134,47,.10);  border: 1px solid rgba(184,134,47,.22); }
+
+/* ── Fraunces serif headings ── */
+h1,h2,h3,h4,
+.ttl,.logo-mark,.hero h1,.cta-section h2,
+.article-cta h3,.ac-body h2,.rc h4,.rel h2 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -.015em;
+}
+.ttl,.hero h1 { font-weight: 600; }
+
+/* ── Eyebrow ── */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  background: rgba(184,134,47,.10);
+  border: 1px solid rgba(184,134,47,.22);
+  border-radius: 50px;
+  padding: 6px 15px;
+  margin-bottom: 22px;
+}
+.eyebrow::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--gold);
+}
+
+/* ── Callout ── */
+.co {
+  background: rgba(11,107,206,.06);
+  border: 1px solid rgba(11,107,206,.16);
+  border-left: 3px solid var(--sf);
+  border-radius: 0 var(--r) var(--r) 0;
+  padding: 20px 22px;
+  margin: 28px 0;
+}
+.co p { margin: 0; color: var(--txt); font-size: .95rem; }
+
+/* ── Footer ── */
+footer { padding: 38px 0; border-top: 1px solid var(--bd); }
+.fi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  font-size: .82rem;
+  color: var(--txt3);
+}
+.fl { display: flex; gap: 20px; }
+.fl a { color: var(--txt3); transition: color .2s; }
+.fl a:hover { color: var(--gold); }
+
+/* ── Hover shadows ── */
+.ac:hover,.rc:hover {
+  box-shadow: 0 16px 40px rgba(19,36,61,.10);
+  border-color: var(--bd2);
+}
+
+/* ── Responsive ── */
+@media(max-width:768px) {
+  .wrap       { padding: 0 1.2rem; }
+  .wrap-wide  { padding: 0 1.2rem; }
+}
+@media(max-width:480px) {
+  .wrap       { padding: 0 1rem; }
+  .wrap-wide  { padding: 0 1rem; }
+}
+
+/* ── Reduced motion ── */
+@media(prefers-reduced-motion:reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

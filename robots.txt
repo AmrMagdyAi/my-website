@@ -16,6 +16,12 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
+User-agent: Slurp
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
 # ── AI / generative engine crawlers (GEO) ──
 # Explicitly welcomed so this profile can be cited in AI answers.
 User-agent: GPTBot
@@ -55,6 +61,30 @@ User-agent: Amazonbot
 Allow: /
 
 User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Gemini-Crawling-Google
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
+User-agent: PetalBot
 Allow: /
 
 # AI-readable entity summary (llms.txt standard):
