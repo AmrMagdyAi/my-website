@@ -8,7 +8,7 @@
 <meta name="description" content="Leadership at most real estate companies makes decisions with outdated data. Here is how to build a live Salesforce dashboard showing every deal, property, and revenue metric in real time.">
 <link rel="canonical" href="https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html">
 <link rel="icon" href="imgs/fav.svg" type="image/svg+xml">
-<meta name="theme-color" content="#060d1c">
+<meta name="theme-color" content="#f7f4ee">
 <meta property="og:title" content="How to Build a Real Estate Pipeline Dashboard in Salesforce">
 <meta property="og:description" content="Leadership at most real estate companies makes decisions with outdated data. Here is how to build a live Salesforce dashboard showing every deal, property, and revenue metric in real time.">
 <meta property="og:url" content="https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html">
@@ -16,9 +16,9 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "How to Build a Real Estate Pipeline Dashboard in Salesforce", "description": "Leadership at most real estate companies makes decisions with outdated data. Here is how to build a live Salesforce dashboard showing every deal, property, and revenue metric in real time.", "url": "https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html", "datePublished": "2025-05-05", "dateModified": "2025-05-05", "author": {"@type": "Person", "name": "Amr Magdy", "url": "https://amrmagdy.com"}, "publisher": {"@type": "Person", "name": "Amr Magdy", "url": "https://amrmagdy.com"}, "image": "https://amrmagdy.com/imgs/AmrMagdyPic.webp", "keywords": "Salesforce CRM real estate, Salesforce consultant real estate"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#060d1c;--bg2:#0a1628;--bd:rgba(255,255,255,.07);--bd2:rgba(255,255,255,.13);--sf:#00a1e0;--green:#10b981;--purple:#a78bfa;--txt:#eaf0f8;--txt2:#8da4be;--txt3:#4e6276;--r:12px;--nav:70px}
+:root{--bg:#f7f4ee;--bg2:#ffffff;--bd:rgba(19,36,61,.10);--bd2:rgba(19,36,61,.18);--sf:#0b6bce;--gold:#b8862f;--green:#1f8a4c;--purple:#7a59c9;--txt:#13243d;--txt2:#475569;--txt3:#7d8aa0;--r:14px;--nav:74px}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;overflow-x:hidden}
 body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.75;overflow-x:hidden;-webkit-font-smoothing:antialiased;font-size:17px}
@@ -86,6 +86,30 @@ footer{padding:30px 0;border-top:1px solid var(--bd)}
   .wrap{padding:0 1rem}.wrap-wide{padding:0 1rem}
   .sr{grid-template-columns:1fr}
 }
+
+/* === New brand design system (Fraunces + cream/navy/gold) === */
+body{font-size:17px;-webkit-font-smoothing:antialiased}
+.logo,.ttl,h1,h2,h3,h4,.hero h1,.cta-section h2,.article-cta h3,.ac-body h2,.rc h4,.rel h2{font-family:'Fraunces',Georgia,serif!important;font-weight:500!important;letter-spacing:-.015em}
+.ttl,.hero h1{font-weight:600!important}
+nav{background:rgba(247,244,238,.85)!important;backdrop-filter:saturate(180%) blur(16px);-webkit-backdrop-filter:saturate(180%) blur(16px);border-bottom:1px solid var(--bd)!important}
+.logo-mark{background:#0b1f3a!important;color:#d4a23e!important;border-radius:9px!important;font-family:'Fraunces',serif!important;font-weight:500!important}
+.nb:hover{border-color:var(--bd2)!important}
+.hero h1 span,.ttl span{background:linear-gradient(135deg,var(--sf),#1287e8)!important;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.tag.gold{color:var(--gold)!important;background:rgba(184,134,47,.10)!important;border:1px solid rgba(184,134,47,.22)!important}
+.tag.sf{color:var(--sf)!important;background:rgba(11,107,206,.09)!important;border:1px solid rgba(11,107,206,.2)!important}
+.tag.re{color:var(--green)!important;background:rgba(31,138,76,.10)!important;border:1px solid rgba(31,138,76,.2)!important}
+.tag.st{color:var(--purple)!important;background:rgba(122,89,201,.10)!important;border:1px solid rgba(122,89,201,.2)!important}
+.eyebrow{color:var(--gold)!important;background:rgba(184,134,47,.10)!important;border:1px solid rgba(184,134,47,.22)!important}
+.eyebrow::before{background:var(--gold)!important}
+.co{background:rgba(11,107,206,.06)!important;border:1px solid rgba(11,107,206,.16)!important;border-left:3px solid var(--sf)!important}
+.ac,.rc,.sb,.cta-section,.article-cta,.filter-btn{box-shadow:0 1px 2px rgba(19,36,61,.04),0 6px 18px rgba(19,36,61,.05)}
+.ac:hover,.rc:hover{box-shadow:0 16px 40px rgba(19,36,61,.10)!important;border-color:var(--bd2)!important}
+.btn-blue{background:var(--sf)!important;border-radius:50px!important;box-shadow:0 12px 30px rgba(11,107,206,.28)}
+.btn-blue:hover{background:#0a5fb6!important}
+.ab li::before{background:var(--gold)!important}
+.sb-n,.ac-read{color:var(--sf)!important}
+.fl a:hover{color:var(--gold)!important}
+
 </style>
 </head>
 <body>
@@ -128,7 +152,7 @@ footer{padding:30px 0;border-top:1px solid var(--bd)}
 <a href="index.html#contact" class="btn btn-blue">Book Free CRM Audit &#x2192;</a></div></div></section>
 <section class="rel"><div class="wrap"><h2>More Articles</h2><div class="rel-g"><a href="blog-salesforce-automations-real-estate.html" class="rc"><h4>5 Salesforce Automations Every Real Estate Team Needs</h4><p>8 min read</p></a><a href="blog-zapier-salesforce-real-estate.html" class="rc"><h4>Connecting Salesforce to Your Stack with Zapier</h4><p>6 min read</p></a><a href="blog-crm-roi-real-estate.html" class="rc"><h4>Salesforce ROI for Real Estate</h4><p>7 min read</p></a></div></div></section>
 <footer><div class="wrap-wide"><div class="fi">
-  <p>&copy; 2025 <a href="index.html" style="color:inherit">Amr Magdy</a> &middot; Salesforce CRM Consultant</p>
+  <p>&copy; 2026 <a href="index.html" style="color:inherit">Amr Magdy</a> &middot; Salesforce CRM Consultant</p>
   <div class="fl"><a href="index.html">Portfolio</a><a href="blog.html">Blog</a><a href="index.html#contact">Contact</a><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></div>
 </div></div></footer>
 </body></html>
