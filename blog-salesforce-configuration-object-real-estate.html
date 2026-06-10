@@ -96,6 +96,7 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 <h2>What the Configuration Object Is</h2>
 <p>The Configuration Object is a custom Salesforce object where each record represents one automation rule. Instead of building a separate Flow for every notification, you have one master Flow that reads from the Configuration Object and executes the right action based on the record's settings.</p>
 <p>A single Configuration record might say: <em>"When Transaction status changes to Under Contract, send a Slack message to #transactions-channel, and create a task for the TC Rep saying 'Reach out to seller' due same day."</em> Non-technical users can modify that record directly — no Flow Builder, no Salesforce setup, no developer needed.</p>
+<div class="co co-case"><p>This is the exact system I built at <strong>Central City Solutions</strong> (Ohio) — 50+ rules, zero developer dependency, +30% pipeline visibility. <a href="index.html#cases" style="color:var(--sf);font-weight:700">See the full case study →</a></p></div>
 <h2>The Object Fields</h2>
 <p>The Configuration Object has fields that define what the automation does:</p>
 <ul>

@@ -112,7 +112,7 @@ nav {
   font-size: 1.1rem;
   font-weight: 500;
   font-family: 'Fraunces', Georgia, serif;
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,.06);
+  border: 2px solid var(--gold2);
 }
 .nb {
   font-size: .86rem;
@@ -257,4 +257,20 @@ footer { padding: 38px 0; border-top: 1px solid var(--bd); }
     transition: none !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* ── Dark mode ── */
+@media(prefers-color-scheme:dark){
+  :root{
+    --bg:#0d1b30; --bg2:#13243d;
+    --txt:#e8edf5; --txt2:#aebbcd; --txt3:#8b9ab0;
+    --bd:rgba(255,255,255,.10); --bd2:rgba(255,255,255,.20);
+    --gold:#d4a23e;
+    --azure-soft:rgba(18,135,232,.16); --gold-soft:rgba(212,162,62,.16); --green-soft:rgba(31,138,76,.18);
+    --sh-sm:0 1px 2px rgba(0,0,0,.25),0 6px 18px rgba(0,0,0,.3);
+    --sh-md:0 16px 40px rgba(0,0,0,.4);
+  }
+  nav{background:rgba(13,27,48,.88)}
+  .ac:hover,.rc:hover{box-shadow:0 16px 40px rgba(0,0,0,.4)}
+  .logo-mark{border:2px solid var(--gold2)}
 }

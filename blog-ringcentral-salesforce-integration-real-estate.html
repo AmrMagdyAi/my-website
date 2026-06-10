@@ -114,6 +114,7 @@ public class RCDailyCallLogSync implements Schedulable {
         }
     }
 }</div>
+<div class="co co-case"><p>This Apex sync runs in production at <strong>Central City Solutions</strong> today — it eliminated all manual call logging for the team. <a href="index.html#cases" style="color:var(--sf);font-weight:700">See the full case study →</a></p></div>
 <h2>Authenticating with RingCentral</h2>
 <p>RingCentral uses OAuth 2.0. The integration stores the access token in Salesforce Custom Settings or Named Credentials and refreshes it as needed. Each API call fetches call logs for a specific extension (stored as a custom field on the Salesforce User record) for the previous day:</p>
 <div class="code-block">// Fetch yesterday's call logs for one user

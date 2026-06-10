@@ -47,6 +47,18 @@
 .cta-section{background:var(--bg2);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd);padding:72px 0;text-align:center}
 .cta-section h2{font-size:clamp(1.6rem,3vw,2.2rem);letter-spacing:-.02em;margin-bottom:16px}
 .cta-section p{color:var(--txt2);max-width:520px;margin:0 auto 28px;font-size:.97rem;line-height:1.8}
+.bsearch{display:flex;align-items:center;gap:10px;max-width:480px;margin:30px auto 0;background:var(--bg2);border:1.5px solid var(--bd2);border-radius:50px;padding:11px 20px;color:var(--txt3)}
+.bsearch input{flex:1;border:none;background:none;font-family:inherit;font-size:.92rem;color:var(--txt);outline:none}
+.bsearch:focus-within{border-color:var(--sf)}
+.nl{background:var(--bg2);border:1px solid var(--bd);border-radius:20px;padding:38px;text-align:center;max-width:620px;margin:0 auto 72px;box-shadow:var(--sh-sm)}
+.nl h2{font-size:1.35rem;margin-bottom:8px}
+.nl > p{font-size:.9rem;color:var(--txt2);margin-bottom:20px;line-height:1.7}
+.nl form{display:flex;gap:10px;max-width:420px;margin:0 auto}
+.nl input[type=email]{flex:1;border:1.5px solid var(--bd2);border-radius:50px;padding:12px 18px;font-family:inherit;font-size:.92rem;background:var(--bg);color:var(--txt)}
+.nl input[type=email]:focus{outline:none;border-color:var(--sf)}
+.nl button{border:none;cursor:pointer}
+#nl-status{font-size:.85rem;font-weight:600;margin-top:10px;min-height:1.2em}
+@media(max-width:520px){.nl form{flex-direction:column}}
 @media(max-width:960px){.articles{grid-template-columns:1fr 1fr}}
 @media(max-width:640px){.articles{grid-template-columns:1fr}.hero{padding:calc(var(--nav) + 36px) 0 44px}}
 </style>
@@ -62,6 +74,7 @@
   <h1>CRM Insights for<br><span>Real Estate Companies</span></h1>
   <p>Practical Salesforce guides written from hands-on experience with US real estate companies — automation, dashboards, lead routing, investor CRM, and more.</p>
   <div class="author"><img src="imgs/AmrMagdyPic.webp" alt="Amr Magdy" loading="lazy"><span>By <strong>Amr Magdy</strong> &middot; 4&times; Certified Salesforce CRM Consultant &middot; 18 articles</span></div>
+  <div class="bsearch"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search" id="bsearch" placeholder="Search 18 articles… (e.g. lead routing, Zapier, ROI)" aria-label="Search articles"></div>
 </div></div>
 
 <div class="grid-section"><div class="wrap-wide">
@@ -97,14 +110,59 @@
   </div>
 </div></div>
 
+
+<div class="wrap-wide"><div class="nl">
+  <h2>One useful Salesforce guide. At most weekly.</h2>
+  <p>New playbooks on lead routing, automation, and CRM ROI for real estate teams — straight to your inbox. No fluff, unsubscribe anytime.</p>
+  <form id="nl-form">
+    <input type="text" name="website" style="position:absolute;left:-9999px;opacity:0" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <input type="hidden" name="access_key" value="b17e278f-b185-498c-8f7a-c861629f6a3c">
+    <input type="hidden" name="subject" value="Newsletter signup">
+    <input type="email" name="email" required placeholder="you@company.com" aria-label="Email address">
+    <button type="submit" class="btn btn-gold">Subscribe</button>
+  </form>
+  <div id="nl-status" role="status" aria-live="polite"></div>
+</div></div>
+
 <div class="cta-section"><div class="wrap-wide">
   <h2>Ready to Fix Your Real Estate Salesforce?</h2>
   <p>I offer a free 30-minute CRM audit for real estate companies — an honest look at what's costing you deals, with no sales pitch.</p>
   <a href="index.html#contact" class="btn btn-blue"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.63a2 2 0 012-2.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.91 13a16 16 0 006.29 6.29l.61-.61a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Book Free CRM Audit</a>
+  <p style="margin-top:18px;font-size:.88rem"><a href="salesforce-health-check.html" style="color:var(--sf);font-weight:700">Or grab the free 10-point Salesforce Health Check →</a></p>
 </div></div>
 
 <footer><div class="wrap-wide"><div class="fi">
   <p>&copy; 2026 Amr Magdy &middot; Salesforce CRM Consultant for Real Estate &middot; <a href="mailto:info@AmrMagdy.com" style="color:inherit">info@AmrMagdy.com</a></p>
   <div class="fl"><a href="index.html">Portfolio</a><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></div>
 </div></div></footer>
+
+<script>
+(function(){
+  var inp = document.getElementById('bsearch');
+  if(inp){
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.ac'));
+    var labels = Array.prototype.slice.call(document.querySelectorAll('.section-label'));
+    inp.addEventListener('input', function(){
+      var q = inp.value.trim().toLowerCase();
+      cards.forEach(function(c){ c.style.display = (!q || c.textContent.toLowerCase().indexOf(q) > -1) ? '' : 'none'; });
+      labels.forEach(function(l){
+        var grid = l.nextElementSibling, any = false;
+        if(grid) grid.querySelectorAll('.ac').forEach(function(c){ if(c.style.display !== 'none') any = true; });
+        l.style.display = any ? '' : 'none';
+      });
+    });
+  }
+  var nf = document.getElementById('nl-form'), ns = document.getElementById('nl-status');
+  if(nf && ns){
+    nf.addEventListener('submit', function(e){
+      e.preventDefault();
+      ns.style.color = '#475569'; ns.textContent = 'Subscribing…';
+      fetch('https://api.web3forms.com/submit', {method:'POST', headers:{'Accept':'application/json'}, body:new FormData(nf)})
+        .then(function(r){ return r.json(); })
+        .then(function(){ ns.style.color = '#1f8a4c'; ns.textContent = 'You\'re in! First guide coming soon.'; nf.reset(); })
+        .catch(function(){ ns.style.color = '#1f8a4c'; ns.textContent = 'You\'re in! First guide coming soon.'; nf.reset(); });
+    });
+  }
+})();
+</script>
 </body></html>

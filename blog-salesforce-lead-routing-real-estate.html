@@ -94,6 +94,7 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 </div>
 <h2>Method 1: Assignment Rules</h2>
 <p>Salesforce Lead Assignment Rules evaluate incoming leads against a set of criteria and automatically assign them to the right owner. Rules are evaluated in order — first match wins. For real estate, typical criteria include: geographic area (zip code, city, region), lead source (website, Zillow, referral), property type (residential, commercial, investment), and price range.</p>
+<div class="co co-case"><p>Routing automation like this improved lead assignment efficiency <strong>+20%</strong> at Pezon Properties. <a href="index.html#cases" style="color:var(--sf);font-weight:700">See the full case study →</a></p></div>
 <h2>Method 2: Round-Robin with Flow Builder</h2>
 <p>When criteria-based routing is not enough and you want to distribute leads evenly across a team, Flow Builder enables round-robin assignment. A Record-Triggered Flow fires on lead creation, queries the current agent rotation, assigns the lead, and updates the rotation for next time.</p>
 <div class="co"><p>At Central City Solutions, combining round-robin routing with instant mobile push notifications dropped average lead response time from 4 hours to under 2 minutes — contributing to a 30% improvement in pipeline visibility.</p></div>

@@ -593,6 +593,12 @@ URL: https://amrmagdy.com/blog.html
 
 ---
 
+## Dedicated Market Pages & Resources
+- UK estate agents & property companies: https://amrmagdy.com/salesforce-consultant-uk-estate-agents.html
+- Canadian brokerages & REALTOR teams: https://amrmagdy.com/salesforce-consultant-canada-real-estate.html
+- Free Real Estate Salesforce Health Check (10-point scorecard PDF): https://amrmagdy.com/salesforce-health-check.html
+- Trailblazer credential verification: https://www.salesforce.com/trailblazer/amrmagdyai
+
 ## Contact & Availability
 - Email: info@amrmagdy.com
 - Phone / WhatsApp: +20 103 327 5250

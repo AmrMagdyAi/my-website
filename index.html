@@ -59,7 +59,7 @@
       "image": "https://amrmagdy.com/imgs/AmrMagdyPic.webp",
       "email": "info@AmrMagdy.com",
       "telephone": "+201033275250",
-      "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://amrmagdy.com/"],
+      "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://amrmagdy.com/"],
       "knowsLanguage": ["en", "ar"],
       "workLocation": { "@type": "VirtualLocation", "name": "Remote — US, UK, Canada, Worldwide" },
       "knowsAbout": ["Salesforce", "Salesforce CRM", "Real Estate CRM", "Lead Routing Automation", "Speed to Lead", "Salesforce Flow Builder", "Apex", "Lightning Web Components", "Property Acquisition Pipeline", "Tableau Dashboards", "Zapier Integration", "RingCentral Integration", "Salesforce Marketing Cloud", "CRM User Adoption", "Salesforce Administration", "Salesforce AI"],
@@ -218,7 +218,7 @@ section{position:relative}
 #nav.solid{background:rgba(247,244,238,.85);backdrop-filter:saturate(180%) blur(16px);-webkit-backdrop-filter:saturate(180%) blur(16px);border-bottom:1px solid var(--bd);box-shadow:0 2px 24px rgba(19,36,61,.05)}
 #nav .wrap{display:flex;align-items:center;justify-content:space-between;width:100%}
 .logo{display:flex;align-items:center;gap:11px;font-weight:700;font-size:1.06rem;letter-spacing:-.01em}
-.logo-mark{width:38px;height:38px;border-radius:11px;background:var(--navy);color:var(--gold2);display:grid;place-items:center;font-size:1.15rem;font-weight:500;font-family:'Fraunces',serif;box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)}
+.logo-mark{width:38px;height:38px;border-radius:11px;background:var(--navy);color:var(--gold2);display:grid;place-items:center;font-size:1.15rem;font-weight:500;font-family:'Fraunces',serif;border:2px solid var(--gold2)}
 .logo .sub{display:block;font-size:.66rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);margin-top:1px}
 .nav-links{display:flex;gap:30px;align-items:center}
 .nav-links a{font-weight:500;font-size:.93rem;color:var(--ink2);position:relative;transition:color .2s}
@@ -497,6 +497,8 @@ a.contact-link:hover .ic{background:var(--gold);color:#fff}
 .cform input::placeholder,.cform textarea::placeholder{color:#6f7d92}
 .cform input:focus,.cform textarea:focus{outline:none;border-color:var(--gold2);background:rgba(255,255,255,.08)}
 .cform textarea{resize:vertical;min-height:128px}
+.cform-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:560px){.cform-row{grid-template-columns:1fr}}
 .cform .btn{width:100%}
 #form-status{margin-top:15px;font-size:.9rem;font-weight:600;min-height:1.2em}
 
@@ -555,6 +557,26 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
   .about-stats{grid-template-columns:1fr}
   .proc-grid,.impact-bento{grid-template-columns:1fr}
   .fc-1{left:8px}.fc-2{right:8px}
+}
+
+@media(prefers-color-scheme:dark){
+  :root{
+    --cream:#0d1b30; --cream2:#0a1626; --paper:#13243d;
+    --ink:#e8edf5; --ink2:#aebbcd; --ink3:#8b9ab0;
+    --gold:#d4a23e;
+    --bd:rgba(255,255,255,.10); --bd2:rgba(255,255,255,.20);
+    --azure-soft:rgba(18,135,232,.16); --gold-soft:rgba(212,162,62,.16); --green-soft:rgba(31,138,76,.18);
+    --sh-sm:0 1px 2px rgba(0,0,0,.25),0 6px 18px rgba(0,0,0,.3);
+    --sh-md:0 16px 40px rgba(0,0,0,.4);
+    --sh-lg:0 34px 80px rgba(0,0,0,.5);
+  }
+  #nav.solid{background:rgba(13,27,48,.85)}
+  #drawer{background:#0d1b30}
+  #mcta{background:rgba(13,27,48,.92)}
+  .blog-card.b3 .blog-icon{background:rgba(122,89,201,.18)}
+  .hero-bg::before{background:radial-gradient(circle,rgba(18,135,232,.08),transparent 68%)}
+  .hero-bg::after{background:radial-gradient(circle,rgba(212,162,62,.07),transparent 68%)}
+  .logo-mark{border-color:var(--gold2)}
 }
 @media(prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
@@ -802,6 +824,7 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
           <div class="case-metric"><div class="big">20+</div><div class="lbl">Hrs/week saved</div></div>
           <div class="case-metric"><div class="big pos">+25%</div><div class="lbl">User adoption</div></div>
           <div class="case-metric"><div class="big">30+</div><div class="lbl">Zaps → native Flows</div></div>
+          <div style="grid-column:1/-1;background:rgba(212,162,62,.08);border:1px solid rgba(212,162,62,.22);border-radius:var(--r);padding:16px 18px;font-size:.92rem;color:#dde6f0;font-style:italic">&ldquo;Drastic improvements&hellip; 10&times; better to work with.&rdquo; <span style="font-style:normal;color:#8b9ab0">— Sean Grabow, Founder</span></div>
         </div>
         <div class="case-narr">
           <div class="case-step problem">
@@ -1066,6 +1089,7 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
       <span class="eyebrow">Credentials</span>
       <h2>Certified &amp; <em>verified</em></h2>
       <p>Four active Salesforce certifications — independently verifiable on Salesforce's credential registry and Trailhead.</p>
+      <p style="margin-top:14px"><a href="https://www.salesforce.com/trailblazer/amrmagdyai" target="_blank" rel="noopener" class="btn-ghost">Verify my credentials on Salesforce <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></p>
     </div>
     <div class="certs-wrap">
       <div class="certs-grid">
@@ -1193,6 +1217,16 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
         <input id="cf-name" name="name" type="text" required placeholder="Your name">
         <label for="cf-email">Email</label>
         <input id="cf-email" name="email" type="email" required placeholder="you@company.com">
+        <div class="cform-row">
+          <div>
+            <label for="cf-company">Company</label>
+            <input id="cf-company" name="company" type="text" placeholder="Your company (optional)" autocomplete="organization">
+          </div>
+          <div>
+            <label for="cf-phone">Phone</label>
+            <input id="cf-phone" name="phone" type="tel" placeholder="Phone (optional)" autocomplete="tel">
+          </div>
+        </div>
         <label for="cf-msg">Message</label>
         <textarea id="cf-msg" name="message" required placeholder="What's going on with your Salesforce setup?"></textarea>
         <button type="submit" class="btn btn-gold btn-mag">
@@ -1222,9 +1256,12 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
       <div class="c">© <span id="footer-year">2026</span> <strong>Amr Magdy</strong> — Salesforce CRM Consultant for Real Estate. All rights reserved.</div>
       <div class="footer-links">
         <a href="blog.html">Blog</a>
+        <a href="salesforce-health-check.html">Free Health Check</a>
+        <a href="salesforce-consultant-uk-estate-agents.html">UK Estate Agents</a>
+        <a href="salesforce-consultant-canada-real-estate.html">Canada</a>
         <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a>
         <a href="mailto:info@AmrMagdy.com">Email</a>
-        <a href="Amr_Magdy_CV.docx" download>Download CV</a>
+        <a href="Amr_Magdy_CV.pdf" download>Download CV (PDF)</a>
       </div>
     </div>
   </div>
@@ -1394,7 +1431,7 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
   function done(){
     if(!status || !form) return;
     status.style.color = '#3fc77a';
-    status.textContent = 'Thanks! Your message is on its way. I\'ll reply soon.';
+    status.innerHTML = 'Thanks! I\'ll personally reply within 24 hours — usually same day. Meanwhile: <a href="blog-crm-roi-real-estate.html" style="color:var(--gold2);text-decoration:underline">is your Salesforce earning its keep? Run this 5-point audit</a>.';
     form.reset();
   }
   if(form && status){
@@ -1402,6 +1439,10 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
       e.preventDefault();
       var fd = new FormData(form);
       var name = fd.get('name'), email = fd.get('email'), msg = fd.get('message');
+      var extra = '';
+      if(fd.get('company')) extra += '\nCompany: '+fd.get('company');
+      if(fd.get('phone')) extra += '\nPhone: '+fd.get('phone');
+      msg = msg + (extra ? '\n'+extra : '');
       status.style.color = '#aebbcd';
       status.textContent = 'Sending…';
       var key = fd.get('access_key');
