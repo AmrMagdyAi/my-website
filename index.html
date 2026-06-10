@@ -9,8 +9,8 @@
 <meta name="author" content="Amr Magdy">
 <link rel="canonical" href="https://amrmagdy.com/">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<meta name="theme-color" content="#f7f4ee" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0b1f3a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f7f4ee" id="theme-color-meta">
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
 <meta name="format-detection" content="telephone=no">
 <meta name="geo.region" content="US">
 <meta name="geo.placename" content="Remote — Serving US, UK, Canada &amp; Worldwide">
@@ -578,25 +578,24 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
   .fc-1{left:8px}.fc-2{right:8px}
 }
 
-@media(prefers-color-scheme:dark){
-  :root{
-    --cream:#0d1b30; --cream2:#0a1626; --paper:#13243d;
-    --ink:#e8edf5; --ink2:#aebbcd; --ink3:#8b9ab0;
-    --gold:#d4a23e;
-    --bd:rgba(255,255,255,.10); --bd2:rgba(255,255,255,.20);
-    --azure-soft:rgba(18,135,232,.16); --gold-soft:rgba(212,162,62,.16); --green-soft:rgba(31,138,76,.18);
-    --sh-sm:0 1px 2px rgba(0,0,0,.25),0 6px 18px rgba(0,0,0,.3);
-    --sh-md:0 16px 40px rgba(0,0,0,.4);
-    --sh-lg:0 34px 80px rgba(0,0,0,.5);
-  }
-  #nav.solid{background:rgba(13,27,48,.85)}
-  #drawer{background:#0d1b30}
-  #mcta{background:rgba(13,27,48,.92)}
-  .blog-card.b3 .blog-icon{background:rgba(122,89,201,.18)}
-  .hero-bg::before{background:radial-gradient(circle,rgba(18,135,232,.08),transparent 68%)}
-  .hero-bg::after{background:radial-gradient(circle,rgba(212,162,62,.07),transparent 68%)}
-  .logo-mark{border-color:var(--gold2)}
+/* dark mode — applied by [data-theme="dark"] on <html> via toggle */
+[data-theme="dark"]{
+  --cream:#0d1b30; --cream2:#0a1626; --paper:#13243d;
+  --ink:#e8edf5; --ink2:#aebbcd; --ink3:#8b9ab0;
+  --gold:#d4a23e;
+  --bd:rgba(255,255,255,.10); --bd2:rgba(255,255,255,.20);
+  --azure-soft:rgba(18,135,232,.16); --gold-soft:rgba(212,162,62,.16); --green-soft:rgba(31,138,76,.18);
+  --sh-sm:0 1px 2px rgba(0,0,0,.25),0 6px 18px rgba(0,0,0,.3);
+  --sh-md:0 16px 40px rgba(0,0,0,.4);
+  --sh-lg:0 34px 80px rgba(0,0,0,.5);
 }
+[data-theme="dark"] #nav.solid{background:rgba(13,27,48,.85)}
+[data-theme="dark"] #drawer{background:#0d1b30}
+[data-theme="dark"] #mcta{background:rgba(13,27,48,.92)}
+[data-theme="dark"] .blog-card.b3 .blog-icon{background:rgba(122,89,201,.18)}
+[data-theme="dark"] .hero-bg::before{background:radial-gradient(circle,rgba(18,135,232,.08),transparent 68%)}
+[data-theme="dark"] .hero-bg::after{background:radial-gradient(circle,rgba(212,162,62,.07),transparent 68%)}
+[data-theme="dark"] .logo-mark{border-color:var(--gold2)}
 @media(prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
   .rv,.rvl,.rvr{opacity:1!important;transform:none!important}
@@ -622,6 +621,10 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
       <a href="#blog-preview">Blog</a>
     </div>
     <div class="nav-cta">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
       <a href="#contact" class="btn btn-primary btn-mag">Book a Free Audit</a>
       <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
         <span></span><span></span><span></span>
@@ -1314,6 +1317,21 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
 </div>
 
 <script>
+/* ── Theme toggle ── */
+(function(){
+  var root = document.documentElement;
+  var saved = localStorage.getItem('theme');
+  if(saved === 'dark') root.setAttribute('data-theme','dark');
+  document.addEventListener('DOMContentLoaded', function(){
+    var btn = document.getElementById('theme-toggle');
+    if(!btn) return;
+    btn.addEventListener('click', function(){
+      var isDark = root.getAttribute('data-theme') === 'dark';
+      if(isDark){ root.removeAttribute('data-theme'); localStorage.setItem('theme','light'); }
+      else{ root.setAttribute('data-theme','dark'); localStorage.setItem('theme','dark'); }
+    });
+  });
+})();
 (function(){
   "use strict";
   var byId = function(id){ return document.getElementById(id); };
