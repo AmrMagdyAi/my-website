@@ -363,8 +363,25 @@ Context: this quote comes from a referral email in which Sean Grabow, founder of
    Tableau dashboards, duplicate detection, marketing ROI tracking.
 
 2. Salesforce CRM Consultant (On-Demand) — Pezon Properties, PA, USA — Apr 2025–Present
-   Ongoing CRM development and financial analytics for real estate acquisition company.
-   Continuing development of cost-per-lead and deal profitability tracking systems.
+   Ongoing CRM development for a real estate acquisition company — 50+ delivered requests across
+   analytics, automation, and process design, including: a full-funnel campaign performance
+   dashboard with 25 metrics (total cost, mail volume, gross/net leads and response rates,
+   opportunity conversion rate, appointment rate, signed agreement rate, closed deal rate,
+   cost per gross lead / net lead / opportunity / appointment / signed agreement / closed deal,
+   gross and net profit per unit, and return multiple — filterable by week, month, quarter);
+   automatic lead source and campaign tagging from call-tracking phone numbers (direct mail,
+   Google Business Profile per city, PPC, web); web-to-direct-mail campaign matching by street
+   address; required-field gates before lead conversion; automated lead status transitions
+   (New→Working on outbound activity, Working→Follow-up after 30 days inactivity); 24-hour
+   stale-lead email escalations; follow-up task automation with overdue notifications;
+   quarterly campaign automation with naming conventions; Google Sheets + Zapier lead import;
+   speed-to-lead, missed-call-to-callback, live answer rate, and text response time reporting;
+   lead age by path stage; duplicate handling across prospect/homeowner records; Do Not
+   Mail/Call/Text compliance; DocuSign integration for agreements of sale; and a rebuilt
+   Transaction Coordination application with conditional stages (cash vs. financed,
+   single-family vs. multi-family logic), a 40+ field property onboarding checklist stage,
+   and required quality-control gates. Full case log published at:
+   https://amrmagdy.com/blog-salesforce-real-estate-acquisition-case-log.html
 
 3. CRM Platform Manager (Part-Time) — Pezon Properties, PA, USA — Oct 2024–Mar 2025
    Built full financial analytics system tracking property expenses, acquisition costs, renovation
