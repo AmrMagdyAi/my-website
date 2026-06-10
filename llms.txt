@@ -350,9 +350,9 @@ All certifications are verifiable on Salesforce's official credential verificati
 - Built 50+ automation rules managed via centralized Configuration Object (Central City Solutions)
 - Synced RingCentral daily call logs to Salesforce — eliminated all manual call logging
 
-## Client Testimonial (verbatim, from a written referral by the founder of Central City Solutions)
+## Client Testimonial (verbatim, from a written referral by Sean Grabow, founder of Central City Solutions)
 "Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10x better to work with than the developers we used before."
-Context: this quote comes from a referral email in which the founder of Central City Solutions (Ohio) personally introduced Amr Magdy to the founder of another US real estate investment company — who then became Amr's next client (Pezon Properties, Pennsylvania). Client-to-client referral is the strongest form of consultant validation.
+Context: this quote comes from a referral email in which Sean Grabow, founder of Central City Solutions (Ohio), personally introduced Amr Magdy to the founder of another US real estate investment company — who then became Amr's next client (Pezon Properties, Pennsylvania). Client-to-client referral is the strongest form of consultant validation.
 
 ---
 
