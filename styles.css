@@ -89,9 +89,10 @@ nav {
 .nav-in {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 12px;
   width: 100%;
 }
+.nav-in .nb { margin-left: auto; }
 .logo {
   font-weight: 700;
   font-size: 1.1rem;
@@ -261,22 +262,21 @@ footer { padding: 38px 0; border-top: 1px solid var(--bd); }
 
 /* ── Dark mode toggle button ── */
 .theme-toggle {
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
   border: 1.5px solid var(--bd2);
-  background: transparent;
+  background: var(--bg2);
   color: var(--txt2);
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
   flex-shrink: 0;
-  transition: border-color .2s, color .2s, background .2s;
-  font-size: 1rem;
-  line-height: 1;
+  padding: 0;
+  transition: border-color .2s, color .2s, transform .2s;
 }
-.theme-toggle:hover { border-color: var(--sf); color: var(--sf); background: var(--azure-soft); }
+.theme-toggle:hover { border-color: var(--gold); color: var(--gold); transform: rotate(12deg); }
+.theme-toggle svg { width: 17px; height: 17px; }
 .theme-toggle .icon-sun  { display: none; }
 .theme-toggle .icon-moon { display: block; }
 [data-theme="dark"] .theme-toggle .icon-sun  { display: block; }
