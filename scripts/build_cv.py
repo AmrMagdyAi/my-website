@@ -154,9 +154,9 @@ for b, badge in [
 ]: bullet(b, badge)
 pdf.ln(1.5)
 
-role("Salesforce CRM Consultant (On-Demand)", "Apr 2025 – Present",
+role("Salesforce CRM Consultant (Post-Implementation)", "Apr 2025 – Jun 2025",
      "Pezon Properties  ·  Remote · PA, USA",
-     "Real estate acquisition company — 50+ delivered requests across analytics, automation, and process design.")
+     "Handover consulting after the main implementation — 50+ delivered requests ensuring the incoming developer had a fully documented, stable platform.")
 for b, badge in [
     ("Built a full-funnel campaign performance dashboard with 25 metrics — gross/net leads and response rates, opportunity, appointment, signed agreement, and closed deal rates, cost-per metric at every funnel stage, net profit per unit, and return multiple — filterable by week, month, and quarter.", None),
     ("Automated lead source and campaign attribution from call-tracking phone numbers across direct mail, Google Business Profile, PPC, and web — plus web-to-direct-mail campaign matching by street address.", None),

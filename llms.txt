@@ -362,9 +362,9 @@ Context: this quote comes from a referral email in which Sean Grabow, founder of
    Configuration Object architecture, RingCentral integration, Zapier migration, LWC components,
    Tableau dashboards, duplicate detection, marketing ROI tracking.
 
-2. Salesforce CRM Consultant (On-Demand) — Pezon Properties, PA, USA — Apr 2025–Present
-   Ongoing CRM development for a real estate acquisition company — 50+ delivered requests across
-   analytics, automation, and process design, including: a full-funnel campaign performance
+2. Salesforce CRM Consultant (Post-Implementation) — Pezon Properties, PA, USA — Apr 2025–Jun 2025
+   Handover consulting after the main implementation, ensuring the incoming developer inherited a
+   fully documented, stable platform. Delivered 50+ scoped requests across analytics, automation,
    dashboard with 25 metrics (total cost, mail volume, gross/net leads and response rates,
    opportunity conversion rate, appointment rate, signed agreement rate, closed deal rate,
    cost per gross lead / net lead / opportunity / appointment / signed agreement / closed deal,
