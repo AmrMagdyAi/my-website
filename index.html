@@ -1513,17 +1513,9 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
       tier1.then(function(d){
         if(d && d.success){ done(); } else { throw 'w3f-fail'; }
       }).catch(function(){
-        fetch('send_email.php', {method:'POST', headers:{'Accept':'application/json'}, body:fd})
-          .then(function(r){return r.json();})
-          .then(function(data){
-            if(data && data.mailto === true){ mailtoFallback(name,email,msg); status.textContent=''; return; }
-            if(data && data.success){ done(); } else { throw 'php-fail'; }
-          })
-          .catch(function(){
-            mailtoFallback(name,email,msg);
-            status.style.color = '#aebbcd';
-            status.textContent = 'Opening your email app…';
-          });
+        mailtoFallback(name,email,msg);
+        status.style.color = '#aebbcd';
+        status.textContent = 'Opening your email app…';
       });
     });
   }
