@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Monday 5: Real Estate Investor &amp; Wholesaler KPIs (Free Framework) | Amr Magdy</title>
+<meta name="description" content="The five numbers a real estate investor or wholesaler should review every Monday: cost per appointment, contracts per campaign, contract to first seller call, booked revenue vs forecast and full ROI. Formulas, what to look for and how to track each in Salesforce.">
+<link rel="canonical" href="https://amrmagdy.com/monday-5-real-estate-kpis.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://amrmagdy.com/monday-5-real-estate-kpis.html">
+<meta property="og:title" content="The Monday 5 — KPIs for real estate investors and wholesalers">
+<meta property="og:description" content="The five numbers a real estate investor or wholesaler should review every Monday: cost per appointment, contracts per campaign, contract to first seller call, booked revenue vs forecast and full ROI. Formulas, what to look for and how to track each in Salesforce.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Amr Magdy">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Monday 5 — KPIs for real estate investors and wholesalers">
+<meta name="twitter:description" content="The five numbers a real estate investor or wholesaler should review every Monday: cost per appointment, contracts per campaign, contract to first seller call, booked revenue vs forecast and full ROI. Formulas, what to look for and how to track each in Salesforce.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1.25rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:26px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.fld label{display:block;font-size:.84rem;font-weight:600;margin:12px 0 6px}
+.fld input{width:100%;border:1.5px solid var(--bd2);border-radius:10px;padding:11px 12px;font:inherit;background:var(--bg);color:var(--txt)}
+.fld input:focus{outline:none;border-color:var(--sf)}
+.fld small{display:block;color:var(--txt3);font-size:.78rem;margin-top:4px}
+.big{font-family:'Fraunces',Georgia,serif;font-size:2.2rem;line-height:1.1;margin:4px 0 2px}
+.kv{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid var(--bd);font-size:.93rem}
+.kv span:last-child{font-variant-numeric:tabular-nums;font-weight:600}
+.neg{color:#c0392b}.pos{color:var(--green)}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.btn-s{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:10px;padding:9px 14px;font:inherit;font-size:.88rem;cursor:pointer;margin-top:14px}
+.sec2{margin-top:44px;max-width:800px}
+.sec2 h2{font-size:1.5rem;margin-bottom:6px}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin-bottom:8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.tools{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px;margin-top:26px}
+.tool{display:block;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);transition:transform .15s,border-color .15s}
+.tool:hover{transform:translateY(-2px);border-color:var(--sf)}
+.tool .tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gold);font-weight:700}
+.tool h3{font-size:1.12rem;margin:6px 0 8px}.tool p{color:var(--txt2);font-size:.92rem;line-height:1.65}
+.m5{counter-reset:m}.m5 .card{position:relative;padding-left:76px}
+.m5 .card::before{counter-increment:m;content:counter(m);position:absolute;left:22px;top:20px;width:38px;height:38px;border-radius:10px;background:var(--navy);color:var(--gold2);display:flex;align-items:center;justify-content:center;font-family:'Fraunces',Georgia,serif;font-size:1.2rem}
+.m5 h3{font-size:1.15rem}.m5 .q{color:var(--txt3);font-style:italic;margin:2px 0 10px}
+.m5 dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:10px}.m5 dd{color:var(--txt2);line-height:1.7}
+.yn{display:flex;gap:8px;margin-top:12px}.yn button{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:999px;padding:6px 16px;font:inherit;font-size:.85rem;cursor:pointer}
+.yn button.on[data-v="1"]{background:var(--green);border-color:var(--green);color:#fff}.yn button.on[data-v="0"]{background:#c0392b;border-color:#c0392b;color:#fff}
+.gl dt{font-weight:700;margin-top:18px;font-size:1.02rem}.gl dd{color:var(--txt2);line-height:1.75;margin-top:4px}
+.gl dd em{color:var(--txt3);font-style:normal;font-size:.9rem}
+.az{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}.az a{border:1px solid var(--bd2);border-radius:8px;padding:4px 9px;font-size:.82rem}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}}
+@media(max-width:760px){.grid2{grid-template-columns:1fr}.m5 .card{padding-left:22px;padding-top:70px}}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "The Monday 5: five numbers a real estate investor should see every Monday", "url": "https://amrmagdy.com/monday-5-real-estate-kpis.html", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/"}, "publisher": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/"}, "datePublished": "2026-10-11", "dateModified": "2026-10-11", "image": "https://amrmagdy.com/imgs/og-card.jpg", "about": [{"@type": "Thing", "name": "Cost per appointment, by campaign"}, {"@type": "Thing", "name": "Contracts per campaign"}, {"@type": "Thing", "name": "Contract to first seller call"}, {"@type": "Thing", "name": "Booked revenue, forecast vs. actual"}, {"@type": "Thing", "name": "ROI that counts the deals you keep"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the most important KPIs for a real estate wholesaling business?", "acceptedAnswer": {"@type": "Answer", "text": "The Monday 5: cost per appointment by campaign, contracts per campaign, time from contract to first seller call, booked revenue forecast vs. actual, and ROI that includes kept deals. Together they show where marketing money works and where deals leak."}}, {"@type": "Question", "name": "Why cost per appointment instead of cost per lead?", "acceptedAnswer": {"@type": "Answer", "text": "Lead counts include wrong numbers, tire-kickers and duplicates. An appointment means a real seller conversation, so cost per appointment is much closer to what a channel actually costs you."}}, {"@type": "Question", "name": "Can I track these without Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, in any CRM that keeps lead source on the record from first contact to closing and logs calls with timestamps. The hard part is usually attribution: making sure the source survives from lead to contract to closed deal."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "The Monday 5", "item": "https://amrmagdy.com/monday-5-real-estate-kpis.html"}]}]}</script>
+</head>
+<body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
+  <a href="resources.html" class="nb">Free tools</a>
+  <a href="index.html#contact" class="nb hide-sm" style="margin-left:0">Book a Free Call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Free framework · 5-minute read · PDF included</span>
+<h1>The Monday 5: <em>five numbers to see before the week starts.</em></h1>
+<p class="lead">Every Monday an investor team decides where money goes. These five numbers turn those decisions from memory into data. Answer the self-check on each card: every "No" is a decision being made without data.</p>
+<div class="card" id="score" aria-live="polite" style="display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap"><div><strong id="sc">0 of 5 answered</strong><div class="note" id="sm" style="margin-top:4px">Tap Yes or No on each number below.</div></div><a class="btn btn-blue" href="assets/Amr%20Magdy%20-%20The%20Monday%205.pdf" download>Download the 1-page PDF</a></div>
+<div class="m5">
+<div class="card" data-i="0"><h3>Cost per appointment, by campaign</h3><p class="q">Which channel is actually worth the money?</p><dl><dt>Formula</dt><dd>Campaign spend ÷ appointments set from that campaign's leads.</dd><dt>Look for</dt><dd>Compare channels side by side (mail, PPC, cold calling, texting). Lead volume alone hides the real price.</dd><dt>In Salesforce</dt><dd>Campaign cost on the campaign, appointments counted from lead and opportunity records by source.</dd></dl>
+<div class="yn" role="group" aria-label="Can you pull this in under a minute?"><span style="font-size:.85rem;color:var(--txt2);align-self:center">Can you pull it in under a minute?</span><button type="button" data-v="1">Yes</button><button type="button" data-v="0">No</button></div></div>
+<div class="card" data-i="1"><h3>Contracts per campaign</h3><p class="q">Where do signed deals really come from?</p><dl><dt>Formula</dt><dd>Signed contracts traced back to the original lead source and campaign.</dd><dt>Look for</dt><dd>Channels with fewer leads but more contracts. Make sure repeat sellers keep their first source.</dd><dt>In Salesforce</dt><dd>Source carried from lead to opportunity to transaction, and locked so it can't be changed by accident.</dd></dl>
+<div class="yn" role="group" aria-label="Can you pull this in under a minute?"><span style="font-size:.85rem;color:var(--txt2);align-self:center">Can you pull it in under a minute?</span><button type="button" data-v="1">Yes</button><button type="button" data-v="0">No</button></div></div>
+<div class="card" data-i="2"><h3>Contract to first seller call</h3><p class="q">Are we keeping deals warm until closing?</p><dl><dt>Formula</dt><dd>Hours between “under contract” and the first logged call to the seller.</dd><dt>Look for</dt><dd>Deals where nobody called the seller for days. That's where cancellations start.</dd><dt>In Salesforce</dt><dd>A date stamp at contract, the first logged call after it, and a scorecard by rep.</dd></dl>
+<div class="yn" role="group" aria-label="Can you pull this in under a minute?"><span style="font-size:.85rem;color:var(--txt2);align-self:center">Can you pull it in under a minute?</span><button type="button" data-v="1">Yes</button><button type="button" data-v="0">No</button></div></div>
+<div class="card" data-i="3"><h3>Booked revenue, forecast vs. actual</h3><p class="q">What did we book, and how close was the forecast?</p><dl><dt>Formula</dt><dd>Expected profit when a deal goes under contract, compared with what it actually closed for.</dd><dt>Look for</dt><dd>A gap that grows over time means underwriting or renegotiation needs attention.</dd><dt>In Salesforce</dt><dd>Booked revenue by week and month, plus the original contract price locked at signing.</dd></dl>
+<div class="yn" role="group" aria-label="Can you pull this in under a minute?"><span style="font-size:.85rem;color:var(--txt2);align-self:center">Can you pull it in under a minute?</span><button type="button" data-v="1">Yes</button><button type="button" data-v="0">No</button></div></div>
+<div class="card" data-i="4"><h3>ROI that counts the deals you keep</h3><p class="q">Is our best channel being undercounted?</p><dl><dt>Formula</dt><dd>(Profit from closed deals + value of kept properties − campaign spend) ÷ campaign spend.</dd><dt>Look for</dt><dd>Rentals and deals closed outside the usual flow. Leave them out and your best channel looks average.</dd><dt>In Salesforce</dt><dd>A flag for kept or off-book deals with a profit value, included in campaign ROI.</dd></dl>
+<div class="yn" role="group" aria-label="Can you pull this in under a minute?"><span style="font-size:.85rem;color:var(--txt2);align-self:center">Can you pull it in under a minute?</span><button type="button" data-v="1">Yes</button><button type="button" data-v="0">No</button></div></div>
+</div>
+<section class="sec2"><h2>Questions</h2>
+<div class="cq"><h3>What are the most important KPIs for a real estate wholesaling business?</h3><p>The Monday 5: cost per appointment by campaign, contracts per campaign, time from contract to first seller call, booked revenue forecast vs. actual, and ROI that includes kept deals. Together they show where marketing money works and where deals leak.</p></div>
+<div class="cq"><h3>Why cost per appointment instead of cost per lead?</h3><p>Lead counts include wrong numbers, tire-kickers and duplicates. An appointment means a real seller conversation, so cost per appointment is much closer to what a channel actually costs you.</p></div>
+<div class="cq"><h3>Can I track these without Salesforce?</h3><p>Yes, in any CRM that keeps lead source on the record from first contact to closing and logs calls with timestamps. The hard part is usually attribution: making sure the source survives from lead to contract to closed deal.</p></div>
+<div class="cq"><h3>Work out your numbers</h3><p><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal by lead source</a> · <a href="missed-call-cost-calculator.html">Missed seller call cost</a> · <a href="wholesaling-crm-glossary.html">Glossary</a></p></div>
+</section>
+<div class="cta"><h2>Want all five on one Salesforce dashboard?</h2><p>A “Monday 5” dashboard spec is part of every CRM Revenue Audit (USD 1,500, 10 working days), along with a findings report, a 30/60/90-day roadmap and three quick fixes done. Or start with a free 30-minute call.</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a></div>
+</div></main>
+
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong> — Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="mailto:info@AmrMagdy.com">Email</a></div>
+</div></div></footer>
+<script>(function(){var a={};document.querySelectorAll('.yn button').forEach(function(b){b.addEventListener('click',function(){var card=b.closest('.card'),i=card.dataset.i;card.querySelectorAll('button').forEach(function(x){x.classList.remove('on')});b.classList.add('on');a[i]=+b.dataset.v;var k=Object.keys(a),y=k.filter(function(j){return a[j]===1}).length;
+document.getElementById('sc').textContent=k.length<5?k.length+' of 5 answered · '+y+' yes':y+' of 5 you can see today';
+document.getElementById('sm').textContent=k.length<5?'Keep going.':(y===5?'All five. Your CRM is doing its job.':(5-y)+' decision'+(5-y>1?'s':'')+' each week without data. Those are the first things to fix.');
+if(k.length===5&&window.gtag)gtag('event','monday5_completed',{score:y});});});})();</script>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+</body>
+</html>

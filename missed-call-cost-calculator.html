@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Missed Seller Call Cost Calculator (Speed to Lead) | Amr Magdy</title>
+<meta name="description" content="Free calculator for real estate investors and wholesalers: turn missed inbound seller calls into estimated lost contracts, lost deals and lost profit per month and per year, from your own numbers.">
+<link rel="canonical" href="https://amrmagdy.com/missed-call-cost-calculator.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://amrmagdy.com/missed-call-cost-calculator.html">
+<meta property="og:title" content="Missed seller call cost calculator — speed to lead">
+<meta property="og:description" content="Free calculator for real estate investors and wholesalers: turn missed inbound seller calls into estimated lost contracts, lost deals and lost profit per month and per year, from your own numbers.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Amr Magdy">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Missed seller call cost calculator — speed to lead">
+<meta name="twitter:description" content="Free calculator for real estate investors and wholesalers: turn missed inbound seller calls into estimated lost contracts, lost deals and lost profit per month and per year, from your own numbers.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1.25rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:26px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.fld label{display:block;font-size:.84rem;font-weight:600;margin:12px 0 6px}
+.fld input{width:100%;border:1.5px solid var(--bd2);border-radius:10px;padding:11px 12px;font:inherit;background:var(--bg);color:var(--txt)}
+.fld input:focus{outline:none;border-color:var(--sf)}
+.fld small{display:block;color:var(--txt3);font-size:.78rem;margin-top:4px}
+.big{font-family:'Fraunces',Georgia,serif;font-size:2.2rem;line-height:1.1;margin:4px 0 2px}
+.kv{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid var(--bd);font-size:.93rem}
+.kv span:last-child{font-variant-numeric:tabular-nums;font-weight:600}
+.neg{color:#c0392b}.pos{color:var(--green)}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.btn-s{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:10px;padding:9px 14px;font:inherit;font-size:.88rem;cursor:pointer;margin-top:14px}
+.sec2{margin-top:44px;max-width:800px}
+.sec2 h2{font-size:1.5rem;margin-bottom:6px}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin-bottom:8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.tools{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px;margin-top:26px}
+.tool{display:block;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);transition:transform .15s,border-color .15s}
+.tool:hover{transform:translateY(-2px);border-color:var(--sf)}
+.tool .tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gold);font-weight:700}
+.tool h3{font-size:1.12rem;margin:6px 0 8px}.tool p{color:var(--txt2);font-size:.92rem;line-height:1.65}
+.m5{counter-reset:m}.m5 .card{position:relative;padding-left:76px}
+.m5 .card::before{counter-increment:m;content:counter(m);position:absolute;left:22px;top:20px;width:38px;height:38px;border-radius:10px;background:var(--navy);color:var(--gold2);display:flex;align-items:center;justify-content:center;font-family:'Fraunces',Georgia,serif;font-size:1.2rem}
+.m5 h3{font-size:1.15rem}.m5 .q{color:var(--txt3);font-style:italic;margin:2px 0 10px}
+.m5 dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:10px}.m5 dd{color:var(--txt2);line-height:1.7}
+.yn{display:flex;gap:8px;margin-top:12px}.yn button{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:999px;padding:6px 16px;font:inherit;font-size:.85rem;cursor:pointer}
+.yn button.on[data-v="1"]{background:var(--green);border-color:var(--green);color:#fff}.yn button.on[data-v="0"]{background:#c0392b;border-color:#c0392b;color:#fff}
+.gl dt{font-weight:700;margin-top:18px;font-size:1.02rem}.gl dd{color:var(--txt2);line-height:1.75;margin-top:4px}
+.gl dd em{color:var(--txt3);font-style:normal;font-size:.9rem}
+.az{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}.az a{border:1px solid var(--bd2);border-radius:8px;padding:4px 9px;font-size:.82rem}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}}
+@media(max-width:760px){.grid2{grid-template-columns:1fr}.m5 .card{padding-left:22px;padding-top:70px}}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "name": "Missed Seller Call Cost Calculator", "url": "https://amrmagdy.com/missed-call-cost-calculator.html", "applicationCategory": "BusinessApplication", "operatingSystem": "Any (browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How is the cost of missed seller calls calculated here?", "acceptedAnswer": {"@type": "Answer", "text": "Missed calls = inbound calls × missed %. Lost leads = missed calls × the share of those callers who never get reached. Lost deals = lost leads × lead-to-contract % × contract-to-close %. Lost profit = lost deals × average profit per deal. Every number comes from your inputs."}}, {"@type": "Question", "name": "What is speed to lead?", "acceptedAnswer": {"@type": "Answer", "text": "The time between a seller reaching out (call, form, text) and a real person on your team responding. A seller who is calling several investors usually talks to whoever answers first."}}, {"@type": "Question", "name": "How do I find my missed-call rate?", "acceptedAnswer": {"@type": "Answer", "text": "From your phone system's call log (RingCentral, CallRail, Aircall and similar): inbound calls to marketing numbers that went to voicemail or were abandoned, divided by all inbound calls in the same period."}}, {"@type": "Question", "name": "What does a missed-call alert look like in a CRM?", "acceptedAnswer": {"@type": "Answer", "text": "When a call to a marketing number is missed, the CRM creates a task on the lead with a due time a few minutes out, assigns it to the next available rep, and alerts them. A report then shows missed calls and how long each took to get a callback."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Missed Call Cost Calculator", "item": "https://amrmagdy.com/missed-call-cost-calculator.html"}]}]}</script>
+</head>
+<body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
+  <a href="resources.html" class="nb">Free tools</a>
+  <a href="index.html#contact" class="nb hide-sm" style="margin-left:0">Book a Free Call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Free tool · no sign-up</span>
+<h1>What do missed seller calls <em>cost you?</em></h1>
+<p class="lead">Use your own numbers from your phone system and CRM. The calculator turns unanswered calls into lost deals and lost profit, per month and per year. Nothing you type leaves your browser.</p>
+<div class="grid2">
+ <div class="card fld">
+  <label for="calls">Inbound seller calls per month</label><input id="calls" type="number" min="0" inputmode="decimal" placeholder="e.g. 300">
+  <label for="miss">% of calls missed (not answered live)</label><input id="miss" type="number" min="0" max="100" inputmode="decimal" placeholder="e.g. 25">
+  <label for="gone">% of missed callers you never reach</label><input id="gone" type="number" min="0" max="100" inputmode="decimal" placeholder="e.g. 40"><small>Your best estimate. Many never pick up a callback.</small>
+  <label for="l2c">Lead → contract %</label><input id="l2c" type="number" min="0" max="100" step="0.1" inputmode="decimal" placeholder="e.g. 3">
+  <label for="c2c">Contract → closed %</label><input id="c2c" type="number" min="0" max="100" inputmode="decimal" placeholder="e.g. 75">
+  <label for="prof">Average profit per closed deal $</label><input id="prof" type="number" min="0" inputmode="decimal" placeholder="e.g. 15000">
+  <button class="btn-s" id="ex" type="button">Load example numbers</button>
+ </div>
+ <div class="card" aria-live="polite">
+  <div style="font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700">Estimated lost profit per year</div>
+  <div class="big neg" id="yr">—</div>
+  <div class="kv"><span>Missed calls / month</span><span id="o1">—</span></div>
+  <div class="kv"><span>Sellers never reached / month</span><span id="o2">—</span></div>
+  <div class="kv"><span>Lost contracts / month</span><span id="o3">—</span></div>
+  <div class="kv"><span>Lost closed deals / month</span><span id="o4">—</span></div>
+  <div class="kv"><span>Lost profit / month</span><span id="o5">—</span></div>
+  <p class="note">An estimate from your inputs, not a promise. Example numbers are made up for illustration.</p>
+ </div>
+</div>
+<section class="sec2"><h2>How the math works</h2>
+<div class="cq"><h3>How is the cost of missed seller calls calculated here?</h3><p>Missed calls = inbound calls × missed %. Lost leads = missed calls × the share of those callers who never get reached. Lost deals = lost leads × lead-to-contract % × contract-to-close %. Lost profit = lost deals × average profit per deal. Every number comes from your inputs.</p></div>
+<div class="cq"><h3>What is speed to lead?</h3><p>The time between a seller reaching out (call, form, text) and a real person on your team responding. A seller who is calling several investors usually talks to whoever answers first.</p></div>
+<div class="cq"><h3>How do I find my missed-call rate?</h3><p>From your phone system's call log (RingCentral, CallRail, Aircall and similar): inbound calls to marketing numbers that went to voicemail or were abandoned, divided by all inbound calls in the same period.</p></div>
+<div class="cq"><h3>What does a missed-call alert look like in a CRM?</h3><p>When a call to a marketing number is missed, the CRM creates a task on the lead with a due time a few minutes out, assigns it to the next available rep, and alerts them. A report then shows missed calls and how long each took to get a callback.</p></div>
+<div class="cq"><h3>Related free tools</h3><p><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal by lead source</a> · <a href="wholesaling-mao-calculator.html">MAO calculator</a> · <a href="monday-5-real-estate-kpis.html">The Monday 5</a></p></div>
+</section>
+<div class="cta"><h2>Want every missed call to become a task in minutes?</h2><p>I build missed-call alerts, shared lead queues and RingCentral call sync in Salesforce for home-buying companies. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a></div>
+</div></main>
+
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong> — Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="mailto:info@AmrMagdy.com">Email</a></div>
+</div></div></footer>
+<script>(function(){var $=function(i){return document.getElementById(i)},n=function(i){var v=parseFloat($(i).value);return isFinite(v)?v:NaN},m=function(x){return '$'+Math.round(x).toLocaleString('en-US')},d=function(x,k){return isFinite(x)?x.toFixed(k):'—'},f=false;
+function c(){var ca=n('calls'),mi=n('miss')/100,g=n('gone')/100,l=n('l2c')/100,cc=n('c2c')/100,p=n('prof');
+var o1=ca*mi,o2=o1*g,o3=o2*l,o4=o3*cc,o5=o4*p;$('o1').textContent=d(o1,0);$('o2').textContent=d(o2,0);$('o3').textContent=d(o3,1);$('o4').textContent=d(o4,2);$('o5').textContent=isFinite(o5)?m(o5):'—';$('yr').textContent=isFinite(o5)?m(o5*12):'—';
+if(!f&&window.gtag&&isFinite(o5)){f=true;gtag('event','calculator_used',{tool:'missed_call'});}}
+document.querySelectorAll('input').forEach(function(i){i.addEventListener('input',c)});
+$('ex').onclick=function(){var v={calls:300,miss:25,gone:40,l2c:3,c2c:75,prof:15000};for(var k in v)$(k).value=v[k];c();};c();})();</script>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+</body>
+</html>

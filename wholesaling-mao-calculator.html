@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wholesaling MAO Calculator (70% Rule, Fee &amp; Spread) | Amr Magdy</title>
+<meta name="description" content="Free MAO calculator for real estate wholesalers: maximum allowable offer from ARV, repair estimate, rule percentage, your assignment fee and buyer costs, plus the spread on your offer.">
+<link rel="canonical" href="https://amrmagdy.com/wholesaling-mao-calculator.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://amrmagdy.com/wholesaling-mao-calculator.html">
+<meta property="og:title" content="Wholesaling MAO calculator — 70% rule, fee and spread">
+<meta property="og:description" content="Free MAO calculator for real estate wholesalers: maximum allowable offer from ARV, repair estimate, rule percentage, your assignment fee and buyer costs, plus the spread on your offer.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Amr Magdy">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Wholesaling MAO calculator — 70% rule, fee and spread">
+<meta name="twitter:description" content="Free MAO calculator for real estate wholesalers: maximum allowable offer from ARV, repair estimate, rule percentage, your assignment fee and buyer costs, plus the spread on your offer.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1.25rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:26px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.fld label{display:block;font-size:.84rem;font-weight:600;margin:12px 0 6px}
+.fld input{width:100%;border:1.5px solid var(--bd2);border-radius:10px;padding:11px 12px;font:inherit;background:var(--bg);color:var(--txt)}
+.fld input:focus{outline:none;border-color:var(--sf)}
+.fld small{display:block;color:var(--txt3);font-size:.78rem;margin-top:4px}
+.big{font-family:'Fraunces',Georgia,serif;font-size:2.2rem;line-height:1.1;margin:4px 0 2px}
+.kv{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid var(--bd);font-size:.93rem}
+.kv span:last-child{font-variant-numeric:tabular-nums;font-weight:600}
+.neg{color:#c0392b}.pos{color:var(--green)}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.btn-s{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:10px;padding:9px 14px;font:inherit;font-size:.88rem;cursor:pointer;margin-top:14px}
+.sec2{margin-top:44px;max-width:800px}
+.sec2 h2{font-size:1.5rem;margin-bottom:6px}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin-bottom:8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.tools{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px;margin-top:26px}
+.tool{display:block;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);transition:transform .15s,border-color .15s}
+.tool:hover{transform:translateY(-2px);border-color:var(--sf)}
+.tool .tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gold);font-weight:700}
+.tool h3{font-size:1.12rem;margin:6px 0 8px}.tool p{color:var(--txt2);font-size:.92rem;line-height:1.65}
+.m5{counter-reset:m}.m5 .card{position:relative;padding-left:76px}
+.m5 .card::before{counter-increment:m;content:counter(m);position:absolute;left:22px;top:20px;width:38px;height:38px;border-radius:10px;background:var(--navy);color:var(--gold2);display:flex;align-items:center;justify-content:center;font-family:'Fraunces',Georgia,serif;font-size:1.2rem}
+.m5 h3{font-size:1.15rem}.m5 .q{color:var(--txt3);font-style:italic;margin:2px 0 10px}
+.m5 dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:10px}.m5 dd{color:var(--txt2);line-height:1.7}
+.yn{display:flex;gap:8px;margin-top:12px}.yn button{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:999px;padding:6px 16px;font:inherit;font-size:.85rem;cursor:pointer}
+.yn button.on[data-v="1"]{background:var(--green);border-color:var(--green);color:#fff}.yn button.on[data-v="0"]{background:#c0392b;border-color:#c0392b;color:#fff}
+.gl dt{font-weight:700;margin-top:18px;font-size:1.02rem}.gl dd{color:var(--txt2);line-height:1.75;margin-top:4px}
+.gl dd em{color:var(--txt3);font-style:normal;font-size:.9rem}
+.az{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}.az a{border:1px solid var(--bd2);border-radius:8px;padding:4px 9px;font-size:.82rem}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}}
+@media(max-width:760px){.grid2{grid-template-columns:1fr}.m5 .card{padding-left:22px;padding-top:70px}}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "name": "Wholesaling MAO Calculator", "url": "https://amrmagdy.com/wholesaling-mao-calculator.html", "applicationCategory": "BusinessApplication", "operatingSystem": "Any (browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is MAO in real estate wholesaling?", "acceptedAnswer": {"@type": "Answer", "text": "MAO (maximum allowable offer) is the highest price you can put a property under contract for and still leave room for your end buyer's profit and your own fee. The common starting formula is ARV × 70% − repair costs − your wholesale fee."}}, {"@type": "Question", "name": "What is the 70% rule?", "acceptedAnswer": {"@type": "Answer", "text": "A rule of thumb used by fix-and-flip buyers: pay no more than 70% of the after-repair value minus repairs. The 30% covers the buyer's holding, selling and financing costs plus profit. Many markets use 65% to 80% depending on price point and competition, so treat it as a dial, not a law."}}, {"@type": "Question", "name": "Should the wholesale fee come out of MAO?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Your end buyer's number is ARV × % − repairs. Your fee sits on top of your contract price, so your own maximum offer is the buyer's number minus your fee."}}, {"@type": "Question", "name": "Where should ARV and repair numbers come from?", "acceptedAnswer": {"@type": "Answer", "text": "ARV from recent sold comps of similar, renovated properties nearby. Repairs from a walkthrough with a contractor or a repair estimate sheet, plus a contingency. The calculator is only as good as these two inputs."}}, {"@type": "Question", "name": "How do teams keep MAO consistent across acquisition reps?", "acceptedAnswer": {"@type": "Answer", "text": "Put underwriting on the deal record in the CRM: ARV, repair estimate, rule percentage and fee as fields, MAO as a formula, and a required check that comps and repairs were reviewed before the deal moves forward."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "MAO Calculator", "item": "https://amrmagdy.com/wholesaling-mao-calculator.html"}]}]}</script>
+</head>
+<body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
+  <a href="resources.html" class="nb">Free tools</a>
+  <a href="index.html#contact" class="nb hide-sm" style="margin-left:0">Book a Free Call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Free tool · no sign-up</span>
+<h1>Wholesaling <em>MAO calculator.</em></h1>
+<p class="lead">Maximum allowable offer from after-repair value, repairs, your assignment fee and your buyer's costs. Change the percentage to match your market. Add your offer price to see the spread.</p>
+<div class="grid2">
+ <div class="card fld">
+  <label for="arv">After-repair value (ARV) $</label><input id="arv" type="number" min="0" inputmode="decimal" value="250000">
+  <label for="pct">Buyer's max % of ARV</label><input id="pct" type="number" min="0" max="100" step="1" inputmode="decimal" value="70"><small>70% is the classic rule. Many markets use 65–80%.</small>
+  <label for="rep">Repair estimate $</label><input id="rep" type="number" min="0" inputmode="decimal" value="40000">
+  <label for="fee">Your wholesale / assignment fee $</label><input id="fee" type="number" min="0" inputmode="decimal" value="10000">
+  <label for="oth">Other buyer costs not in the % (optional) $</label><input id="oth" type="number" min="0" inputmode="decimal" value="0"><small>Only if your buyer prices closing or holding costs separately.</small>
+  <label for="off">Your offer price (optional) $</label><input id="off" type="number" min="0" inputmode="decimal" placeholder="e.g. 120000">
+ </div>
+ <div class="card" aria-live="polite">
+  <div style="font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700">Your maximum offer</div>
+  <div class="big" id="mao">—</div>
+  <div class="kv"><span>ARV × %</span><span id="r1">—</span></div>
+  <div class="kv"><span>− Repairs</span><span id="r2">—</span></div>
+  <div class="kv"><span>− Other buyer costs</span><span id="r3">—</span></div>
+  <div class="kv"><span>= End buyer's max price</span><span id="r4">—</span></div>
+  <div class="kv"><span>− Your fee</span><span id="r5">—</span></div>
+  <div class="kv" id="spreadrow" style="display:none"><span>Room vs. your offer</span><span id="r6">—</span></div>
+  <p class="note" id="msg"></p>
+ </div>
+</div>
+<section class="sec2"><h2>How MAO works</h2>
+<div class="cq"><h3>What is MAO in real estate wholesaling?</h3><p>MAO (maximum allowable offer) is the highest price you can put a property under contract for and still leave room for your end buyer's profit and your own fee. The common starting formula is ARV × 70% − repair costs − your wholesale fee.</p></div>
+<div class="cq"><h3>What is the 70% rule?</h3><p>A rule of thumb used by fix-and-flip buyers: pay no more than 70% of the after-repair value minus repairs. The 30% covers the buyer's holding, selling and financing costs plus profit. Many markets use 65% to 80% depending on price point and competition, so treat it as a dial, not a law.</p></div>
+<div class="cq"><h3>Should the wholesale fee come out of MAO?</h3><p>Yes. Your end buyer's number is ARV × % − repairs. Your fee sits on top of your contract price, so your own maximum offer is the buyer's number minus your fee.</p></div>
+<div class="cq"><h3>Where should ARV and repair numbers come from?</h3><p>ARV from recent sold comps of similar, renovated properties nearby. Repairs from a walkthrough with a contractor or a repair estimate sheet, plus a contingency. The calculator is only as good as these two inputs.</p></div>
+<div class="cq"><h3>How do teams keep MAO consistent across acquisition reps?</h3><p>Put underwriting on the deal record in the CRM: ARV, repair estimate, rule percentage and fee as fields, MAO as a formula, and a required check that comps and repairs were reviewed before the deal moves forward.</p></div>
+<div class="cq"><h3>Related free tools</h3><p><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal by lead source</a> · <a href="missed-call-cost-calculator.html">Missed seller call cost</a> · <a href="monday-5-real-estate-kpis.html">The Monday 5</a></p></div>
+</section>
+<div class="cta"><h2>Want MAO on every deal record, not in a spreadsheet?</h2><p>I build Salesforce for investors and wholesalers with underwriting on the opportunity: ARV, repairs, fee and MAO as fields, and a QC gate before an offer goes out. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a></div>
+</div></main>
+
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong> — Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="mailto:info@AmrMagdy.com">Email</a></div>
+</div></div></footer>
+<script>(function(){var $=function(i){return document.getElementById(i)},n=function(i){var v=parseFloat($(i).value);return isFinite(v)?v:0},m=function(x){return (x<0?'−$':'$')+Math.abs(Math.round(x)).toLocaleString('en-US')},f=false;
+function c(){var a=n('arv'),p=n('pct')/100,r=n('rep'),fe=n('fee'),o=n('oth'),off=parseFloat($('off').value);
+var b=a*p,buyer=b-r-o,mao=buyer-fe;$('r1').textContent=m(b);$('r2').textContent=m(-r);$('r3').textContent=m(-o);$('r4').textContent=m(buyer);$('r5').textContent=m(-fe);
+$('mao').textContent=a>0?m(mao):'—';$('mao').className='big '+(mao<0?'neg':'');
+if(isFinite(off)&&off>0){$('spreadrow').style.display='flex';var s=mao-off;$('r6').textContent=m(s);$('r6').className=s<0?'neg':'pos';$('msg').textContent=s<0?'Your offer is above your maximum. At this price your fee or your buyer\'s margin gets squeezed.':'Your offer leaves '+m(s)+' of room under your maximum.';}else{$('spreadrow').style.display='none';$('msg').textContent=mao<0&&a>0?'Repairs and fee are larger than the buyer\'s number. This deal doesn\'t work at these inputs.':'';}
+if(!f&&window.gtag&&a>0){f=true;gtag('event','calculator_used',{tool:'mao'});}}
+document.querySelectorAll('input').forEach(function(i){i.addEventListener('input',c)});c();})();</script>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+</body>
+</html>

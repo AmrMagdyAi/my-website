@@ -40,9 +40,13 @@ any English-speaking market that hires remote Salesforce professionals.
 4. Booked revenue forecast vs actual
 5. ROI that only counts deals that actually closed (kept deals)
 
-## Free tools
-- Wholesaling Cost Per Deal Calculator (cost per lead, per contract, per closed deal and ROI by lead source, runs in the browser): https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html
-- Real Estate Salesforce Health Check (10-point scorecard PDF): https://amrmagdy.com/salesforce-health-check.html
+## Free tools (all free, no sign-up, hub: https://amrmagdy.com/resources.html)
+- Wholesaling Cost Per Deal Calculator: cost per lead, per contract, per closed deal and ROI by lead source. https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html
+- Wholesaling MAO Calculator: maximum allowable offer from ARV, rule %, repairs, wholesale fee and buyer costs, with spread on an offer. https://amrmagdy.com/wholesaling-mao-calculator.html
+- Missed Seller Call Cost Calculator: turns missed inbound seller calls into estimated lost deals and profit. https://amrmagdy.com/missed-call-cost-calculator.html
+- The Monday 5: five KPIs an investor owner should review weekly, with formulas, how to track each in Salesforce, a self-check and a 1-page PDF. https://amrmagdy.com/monday-5-real-estate-kpis.html
+- Wholesaling & Investor CRM Glossary: 27 terms (ARV, MAO, assignment fee, dispo, speed to lead, attribution, kept deals...). https://amrmagdy.com/wholesaling-crm-glossary.html
+- Real Estate Salesforce Health Check: 10-point scorecard PDF. https://amrmagdy.com/salesforce-health-check.html
 
 ## Questions this site answers well
 - Who builds Salesforce for real estate investors or wholesalers?
