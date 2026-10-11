@@ -634,6 +634,42 @@ URL: https://amrmagdy.com/blog.html
    URL: https://amrmagdy.com/blog-ringcentral-salesforce-integration-real-estate.html
    Topics: RingCentral API, Apex development, call logging automation, chained Queueable, scheduled jobs
 
+10. Salesforce for Real Estate Investors: A Complete CRM Guide
+   URL: https://amrmagdy.com/blog-salesforce-for-real-estate-investors.html
+   Summary: Real estate investors need more than a simple CRM. This guide shows how Salesforce tracks deal flow, manages seller relationships, and gives investors full portfolio visibility.
+
+11. How to Track Real Estate Deal Profitability, Cost Per Lead, and Campaign ROI in Salesforce
+   URL: https://amrmagdy.com/blog-salesforce-financial-analytics-real-estate.html
+   Summary: Most real estate companies track leads and deals in Salesforce but leave the financial analysis in spreadsheets. Here is how to build cost-per-lead, cost-per-opportunity, and net profit calculations broken down by campaign and lead source — directly inside Salesforce.
+
+12. How to Track Real Estate KPIs in Salesforce: The Metrics That Actually Matter
+   URL: https://amrmagdy.com/blog-salesforce-kpis-real-estate.html
+   Summary: Which real estate KPIs should you track in Salesforce? This guide covers the lead, pipeline, agent performance, and financial metrics that drive better decisions and more deals.
+
+13. Real Estate CRM Migration to Salesforce: How to Move Without Losing Data
+   URL: https://amrmagdy.com/blog-salesforce-crm-migration-real-estate.html
+   Summary: Migrating your real estate CRM to Salesforce without losing leads, history, or your team's trust. A practical guide to CRM migration planning, data mapping, and rollout.
+
+14. Salesforce vs Follow Up Boss for Real Estate: Which CRM Is Right for You?
+   URL: https://amrmagdy.com/blog-salesforce-vs-follow-up-boss-real-estate.html
+   Summary: Comparing Salesforce and Follow Up Boss for real estate teams. Which CRM gives you more automation, better dashboards, and higher ROI? An honest comparison from a Salesforce consultant.
+
+15. How to Set Up Salesforce for a Real Estate Brokerage (Step-by-Step)
+   URL: https://amrmagdy.com/blog-salesforce-setup-real-estate-brokerage.html
+   Summary: A practical guide to setting up Salesforce for a real estate brokerage — from choosing the right edition to configuring lead routing, agent dashboards, and transaction tracking.
+
+16. Salesforce for Property Management Companies: CRM That Scales With Your Portfolio
+   URL: https://amrmagdy.com/blog-salesforce-property-management-companies.html
+   Summary: Property management companies need more than a contact list. Here's how Salesforce handles tenant relationships, maintenance workflows, lease tracking, and portfolio-level reporting.
+
+17. Salesforce Einstein AI for Real Estate: What It Can Actually Do
+   URL: https://amrmagdy.com/blog-salesforce-einstein-ai-real-estate.html
+   Summary: Salesforce Einstein AI promises to make your CRM smarter. Here's an honest look at what Einstein AI actually does for real estate companies — lead scoring, predictions, and automation.
+
+18. Best Salesforce Apps for Real Estate: AppExchange Guide 2025
+   URL: https://amrmagdy.com/blog-salesforce-appexchange-real-estate.html
+   Summary: The best Salesforce AppExchange apps for real estate teams in 2025. Apps for MLS integration, e-signatures, transaction management, and real estate-specific CRM enhancements.
+
 ---
 
 ## Dedicated Market Pages & Resources
