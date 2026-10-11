@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wholesaling Cost Per Deal Calculator (Free, by Lead Source) | Amr Magdy</title>
+<meta name="description" content="Free calculator for real estate wholesalers and investors: enter spend, leads, contracts and closings per marketing channel to see cost per lead, cost per contract, cost per deal and ROI by lead source.">
+<link rel="canonical" href="https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html">
+<meta name="robots" content="index, follow">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html">
+<meta property="og:title" content="Wholesaling Cost Per Deal Calculator — by lead source">
+<meta property="og:description" content="Cost per lead, per contract, per closed deal and ROI for each marketing channel. Free, no sign-up.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Amr Magdy">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Wholesaling Cost Per Deal Calculator — by lead source">
+<meta name="twitter:description" content="Cost per lead, per contract, per closed deal and ROI for each marketing channel. Free, no sign-up.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<style>
+.cx{padding:calc(var(--nav) + 56px) 0 70px}
+.cx-w{max-width:1100px;margin:0 auto;padding:0 1.25rem}
+.cx h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.cx h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.cx .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:26px}
+.tbl{width:100%;border-collapse:collapse;font-size:.9rem}
+.tbl th{text-align:left;font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;color:var(--txt3);padding:8px 6px;border-bottom:1px solid var(--bd)}
+.tbl td{padding:6px;border-bottom:1px solid var(--bd)}
+.tbl input{width:100%;min-width:92px;border:1.5px solid var(--bd2);border-radius:10px;padding:9px 10px;font:inherit;background:var(--bg);color:var(--txt)}
+.tbl input:focus{outline:none;border-color:var(--sf)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.res td,.res th{white-space:nowrap}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.best{color:var(--green);font-weight:700} .worst{color:#c0392b;font-weight:700}
+.tot td{font-weight:700}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.acts{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.btn-s{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:10px;padding:9px 14px;font:inherit;font-size:.88rem;cursor:pointer}
+.cq{margin-top:22px} .cq h3{font-size:1.05rem;margin-bottom:6px} .cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:34px}
+.cta h2{color:#fff;font-size:1.35rem;margin-bottom:8px} .cta p{color:#dbe4f0;line-height:1.7} .cta a.btn{margin-top:14px;margin-right:8px}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "name": "Wholesaling Cost Per Deal Calculator", "url": "https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html", "applicationCategory": "BusinessApplication", "operatingSystem": "Any (browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "description": "Free calculator for real estate wholesalers and investors: enter spend, leads, contracts and closings per marketing channel to see cost per lead, cost per contract, cost per deal and ROI by lead source.", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do you calculate cost per deal in wholesaling?", "acceptedAnswer": {"@type": "Answer", "text": "Divide the total marketing spend for a channel by the number of deals that closed from that channel in the same period. Example: $6,000 on direct mail that produced 2 closed deals is a $3,000 cost per deal."}}, {"@type": "Question", "name": "What is the difference between cost per contract and cost per deal?", "acceptedAnswer": {"@type": "Answer", "text": "Cost per contract divides spend by signed purchase contracts. Cost per deal divides spend by closed (funded) deals. The gap between them shows how many contracts fall out before closing."}}, {"@type": "Question", "name": "How do you calculate marketing ROI per lead source?", "acceptedAnswer": {"@type": "Answer", "text": "ROI = (gross profit from closed deals − marketing spend) ÷ marketing spend. A channel with $20,000 of assignment fees on $5,000 of spend has a 300% ROI."}}, {"@type": "Question", "name": "Where should these numbers come from?", "acceptedAnswer": {"@type": "Answer", "text": "From your CRM. Every lead needs a lead source, every contract and closed deal needs to be linked to the original lead, and spend needs to be logged per channel per month. If any link is missing, the numbers are guesses."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Cost Per Deal Calculator", "item": "https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html"}]}]}</script>
+</head>
+<body>
+  <a href="index.html#contact" class="nb">Book a Free Call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+
+<main class="cx"><div class="cx-w">
+  <span class="eyebrow">Free tool · no sign-up · works on your phone</span>
+  <h1>Wholesaling cost per deal, <em>by lead source.</em></h1>
+  <p class="lead">Put in last month's (or last quarter's) numbers for each marketing channel. The calculator shows cost per lead, cost per contract, cost per closed deal and ROI side by side, so you can see which channel is actually paying for itself. Nothing you type leaves your browser.</p>
+
+  <div class="card">
+    <div class="scroll"><table class="tbl" id="inp">
+      <thead><tr><th>Channel</th><th>Spend ($)</th><th>Leads</th><th>Contracts</th><th>Closed deals</th><th>Gross profit ($)</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+    <div class="acts"><button class="btn-s" id="add" type="button">+ Add channel</button><button class="btn-s" id="ex" type="button">Load example numbers</button><button class="btn-s" id="clr" type="button">Clear</button></div>
+  </div>
+
+  <div class="card">
+    <h2 style="font-size:1.2rem;margin-bottom:10px">Results</h2>
+    <div class="scroll"><table class="tbl res" id="out">
+      <thead><tr><th>Channel</th><th class="num">Cost / lead</th><th class="num">Lead → contract</th><th class="num">Cost / contract</th><th class="num">Cost / deal</th><th class="num">ROI</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+    <p class="note" id="sum">Enter spend and closed deals for at least one channel.</p>
+    <p class="note">Gross profit = assignment fees or net profit from the closed deals that came from that channel. Example numbers are made up for illustration only.</p>
+  </div>
+
+  <section style="margin-top:40px;max-width:780px">
+    <h2 style="font-size:1.5rem">How the numbers work</h2>
+<div class="cq"><h3>How do you calculate cost per deal in wholesaling?</h3><p>Divide the total marketing spend for a channel by the number of deals that closed from that channel in the same period. Example: $6,000 on direct mail that produced 2 closed deals is a $3,000 cost per deal.</p></div>
+<div class="cq"><h3>What is the difference between cost per contract and cost per deal?</h3><p>Cost per contract divides spend by signed purchase contracts. Cost per deal divides spend by closed (funded) deals. The gap between them shows how many contracts fall out before closing.</p></div>
+<div class="cq"><h3>How do you calculate marketing ROI per lead source?</h3><p>ROI = (gross profit from closed deals − marketing spend) ÷ marketing spend. A channel with $20,000 of assignment fees on $5,000 of spend has a 300% ROI.</p></div>
+<div class="cq"><h3>Where should these numbers come from?</h3><p>From your CRM. Every lead needs a lead source, every contract and closed deal needs to be linked to the original lead, and spend needs to be logged per channel per month. If any link is missing, the numbers are guesses.</p></div>
+    <div class="cq"><h3>Why most wholesalers can't fill this in</h3><p>The usual gap is attribution: leads come in from mail, PPC, cold calls and texts, but the closed deal is never tied back to the original lead source in the CRM. That's the first thing I check in a <a href="crm-revenue-audit.html">CRM Revenue Audit</a>, and it's item four on the free <a href="salesforce-health-check.html">Salesforce Health Check</a>.</p></div>
+  </section>
+
+  <div class="cta">
+    <h2>Want these numbers live in your CRM every Monday?</h2>
+    <p>I build Salesforce for real estate investors and wholesalers so cost per deal by source updates on its own. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit (USD 1,500, 10 working days).</p>
+    <a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a>
+  </div>
+</div></main>
+
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong> — Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="blog.html">Blog</a><a href="salesforce-health-check.html">Health Check</a><a href="mailto:info@AmrMagdy.com">Email</a></div>
+</div></div></footer>
+
+<script>
+(function(){
+var tb=document.querySelector('#inp tbody'),ob=document.querySelector('#out tbody'),sum=document.getElementById('sum'),fired=false;
+var F=['spend','leads','contracts','deals','profit'];
+function row(v){v=v||{};var tr=document.createElement('tr');tr.innerHTML='<td><input style="min-width:130px" aria-label="Channel" data-k="name" value="'+(v.name||'')+'" placeholder="e.g. Direct mail"></td>'+F.map(function(k){return '<td><input type="number" min="0" inputmode="decimal" aria-label="'+k+'" data-k="'+k+'" value="'+(v[k]!=null?v[k]:'')+'"></td>';}).join('');tb.appendChild(tr);}
+function money(x){return isFinite(x)?'$'+Math.round(x).toLocaleString('en-US'):'—';}
+function pct(x){return isFinite(x)?(x*100).toFixed(x<0.1&&x>0?1:0)+'%':'—';}
+function calc(){
+  var rows=[].map.call(tb.rows,function(tr){var o={};[].forEach.call(tr.querySelectorAll('input'),function(i){o[i.dataset.k]=i.dataset.k==='name'?i.value.trim():parseFloat(i.value);});return o;}).filter(function(o){return o.name||o.spend>0;});
+  var T={name:'All channels',spend:0,leads:0,contracts:0,deals:0,profit:0};
+  rows.forEach(function(o){F.forEach(function(k){T[k]+=(o[k]||0);});});
+  var all=rows.concat(rows.length>1?[T]:[]);
+  var cpds=rows.map(function(o){return o.deals>0?o.spend/o.deals:Infinity;});
+  var fin=cpds.filter(isFinite),best=fin.length>1?Math.min.apply(null,fin):null,worst=fin.length>1?Math.max.apply(null,fin):null;
+  ob.innerHTML=all.map(function(o,i){
+    var cpl=o.spend/o.leads,l2c=o.contracts/o.leads,cpc=o.spend/o.contracts,cpd=o.spend/o.deals,roi=o.spend>0?((o.profit||0)-o.spend)/o.spend:NaN;
+    var cls=(i<rows.length&&cpd===best)?'best':(i<rows.length&&cpd===worst)?'worst':'';
+    return '<tr class="'+(o===T?'tot':'')+'"><td>'+(o.name||'Channel '+(i+1))+'</td><td class="num">'+money(cpl)+'</td><td class="num">'+pct(l2c)+'</td><td class="num">'+money(cpc)+'</td><td class="num '+cls+'">'+money(cpd)+'</td><td class="num">'+pct(roi)+'</td></tr>';
+  }).join('');
+  if(fin.length>1){var b=rows[cpds.indexOf(best)],w=rows[cpds.indexOf(worst)];sum.innerHTML='Cheapest deals: <strong>'+(b.name||'channel')+'</strong> at '+money(best)+' per deal. Most expensive: <strong>'+(w.name||'channel')+'</strong> at '+money(worst)+'.';}
+  var zero=rows.filter(function(o){return o.spend>0&&!(o.deals>0);}).map(function(o){return o.name||'a channel';});if(zero.length)sum.innerHTML+=' <strong>'+zero.join(', ')+'</strong>: money spent, no closed deals yet.';
+  if(fin.length>1){}else if(T.deals>0){sum.textContent='Overall cost per closed deal: '+money(T.spend/T.deals)+'.';}
+  else sum.textContent='Enter spend and closed deals for at least one channel.';
+  if(!fired&&T.spend>0&&window.gtag){fired=true;gtag('event','calculator_used',{tool:'cost_per_deal'});}
+}
+['Direct mail','PPC','Cold calling','SMS'].forEach(function(n){row({name:n});});
+tb.addEventListener('input',calc);
+document.getElementById('add').onclick=function(){row();};
+document.getElementById('clr').onclick=function(){tb.innerHTML='';['Direct mail','PPC','Cold calling','SMS'].forEach(function(n){row({name:n});});calc();};
+document.getElementById('ex').onclick=function(){tb.innerHTML='';[{name:'Direct mail',spend:8000,leads:120,contracts:4,deals:3,profit:39000},{name:'PPC',spend:6000,leads:60,contracts:3,deals:2,profit:30000},{name:'Cold calling',spend:3000,leads:90,contracts:2,deals:1,profit:12000},{name:'SMS',spend:2500,leads:150,contracts:1,deals:0,profit:0}].forEach(row);calc();};
+calc();
+})();
+</script>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+</body>
+</html>

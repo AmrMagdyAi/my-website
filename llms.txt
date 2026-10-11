@@ -40,6 +40,10 @@ any English-speaking market that hires remote Salesforce professionals.
 4. Booked revenue forecast vs actual
 5. ROI that only counts deals that actually closed (kept deals)
 
+## Free tools
+- Wholesaling Cost Per Deal Calculator (cost per lead, per contract, per closed deal and ROI by lead source, runs in the browser): https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html
+- Real Estate Salesforce Health Check (10-point scorecard PDF): https://amrmagdy.com/salesforce-health-check.html
+
 ## Questions this site answers well
 - Who builds Salesforce for real estate investors or wholesalers?
 - How should a home-buying company track marketing ROI by campaign in Salesforce?
