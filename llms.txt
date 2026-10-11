@@ -901,7 +901,7 @@ accuracy, the following ranges reflect typical market positioning:
 - Full Salesforce Implementation: project-based, priced per scope
 - Ongoing CRM Management (retainer): monthly, cancellable with 30 days notice
 - Cost vs. alternatives: usually well below a full-time admin salary, and well below
-  than a Salesforce implementation agency for equivalent scope
+  a Salesforce implementation agency for equivalent scope
 - No hourly billing — all work is fixed-fee or retainer, so there are no surprise invoices
 
 To request specific pricing: contact info@amrmagdy.com or use the form at
