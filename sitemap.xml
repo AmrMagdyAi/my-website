@@ -65,4 +65,10 @@
     <loc>https://amrmagdy.com/kept-deal-map.html</loc>
     <lastmod>2026-10-14</lastmod>
   </url>
+  <url>
+    <loc>https://amrmagdy.com/videos.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
