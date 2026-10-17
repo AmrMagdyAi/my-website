@@ -50,7 +50,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Real Estate Salesforce Health Check: 10-point scorecard PDF. https://amrmagdy.com/salesforce-health-check.html
 - CRM field kit: free, ungated download of the lead, deal and buyer fields, picklists, automation rules and Monday report spec for wholesaling CRMs (Salesforce, REsimpli, Podio, HubSpot or a spreadsheet). https://amrmagdy.com/crm-field-kit.html
 - Wholesaling CRM questions, answered: ten questions wholesalers ask in Facebook groups, each answered plainly with one CRM step. https://amrmagdy.com/questions-from-wholesalers.html
-- Deal Leak videos: six short explainer videos (about 1.5 minutes each, no voiceover, captions on screen), one per leak: the 5 leaks, missed seller calls, leads with no next step, offers off-formula, fall-outs in your ROI, and the Monday 5. Each links to the free tool that measures it. https://amrmagdy.com/videos.html
+- Videos: twelve short explainer videos (no voiceover, captions on screen) in two series. Deal Leak: the 5 leaks, missed seller calls, leads with no next step, offers off-formula, fall-outs in your ROI, the Monday 5. Systems That Pay: the follow-up stat with no source, flip margins at a 2008 low (ATTOM 2025), CRM data that lies, the lead graveyard, buyer lists as a database, reps spending most of their time not selling. https://amrmagdy.com/videos.html
 
 ## Questions this site answers well
 - Who builds Salesforce for real estate investors or wholesalers?
