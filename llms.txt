@@ -42,6 +42,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 5. ROI that only counts deals that actually closed (kept deals)
 
 ## Free tools (all free, no sign-up, hub: https://amrmagdy.com/resources.html)
+- Deal Leak Score: https://amrmagdy.com/deal-leak-score.html (10 yes/no checks across Spend, Answer, Follow-up, Offer and Keep, scored out of 100; a shared link lets a team compare answers check by check)
 - Wholesaling Cost Per Deal Calculator: cost per lead, per contract, per closed deal and ROI by lead source. https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html
 - Wholesaling MAO Calculator: maximum allowable offer from ARV, rule %, repairs, wholesale fee and buyer costs, with spread on an offer. https://amrmagdy.com/wholesaling-mao-calculator.html
 - Missed Seller Call Cost Calculator: turns missed inbound seller calls into estimated lost deals and profit. https://amrmagdy.com/missed-call-cost-calculator.html
