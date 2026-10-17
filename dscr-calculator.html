@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DSCR Calculator for Rental Property Loans (Free)</title>
+<meta name="description" content="Free DSCR calculator for real estate investors: debt service coverage ratio from rent and PITIA, the NOI-based ratio, and the maximum loan at your target DSCR.">
+<link rel="canonical" href="https://amrmagdy.com/dscr-calculator.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://amrmagdy.com/dscr-calculator.html">
+<meta property="og:title" content="DSCR calculator: does the rent cover the loan?">
+<meta property="og:description" content="Free DSCR calculator for real estate investors: debt service coverage ratio from rent and PITIA, the NOI-based ratio, and the maximum loan at your target DSCR.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-dscr-calculator.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Amr Magdy">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DSCR calculator: does the rent cover the loan?">
+<meta name="twitter:description" content="Free DSCR calculator for real estate investors: debt service coverage ratio from rent and PITIA, the NOI-based ratio, and the maximum loan at your target DSCR.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-dscr-calculator.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1.25rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:26px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.fld label{display:block;font-size:.84rem;font-weight:600;margin:12px 0 6px}
+.fld input{width:100%;border:1.5px solid var(--bd2);border-radius:10px;padding:11px 12px;font:inherit;background:var(--bg);color:var(--txt)}
+.fld input:focus{outline:none;border-color:var(--sf)}
+.fld small{display:block;color:var(--txt3);font-size:.78rem;margin-top:4px}
+.big{font-family:'Fraunces',Georgia,serif;font-size:2.2rem;line-height:1.1;margin:4px 0 2px}
+.kv{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid var(--bd);font-size:.93rem}
+.kv span:last-child{font-variant-numeric:tabular-nums;font-weight:600}
+.neg{color:#c0392b}.pos{color:var(--green)}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.btn-s{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:10px;padding:9px 14px;font:inherit;font-size:.88rem;cursor:pointer;margin-top:14px}
+.sec2{margin-top:44px;max-width:800px}
+.sec2 h2{font-size:1.5rem;margin-bottom:6px}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin-bottom:8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.tools{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px;margin-top:26px}
+.tool{display:block;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);transition:transform .15s,border-color .15s}
+.tool:hover{transform:translateY(-2px);border-color:var(--sf)}
+.tool .tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gold);font-weight:700}
+.tool h3{font-size:1.12rem;margin:6px 0 8px}.tool p{color:var(--txt2);font-size:.92rem;line-height:1.65}
+.m5{counter-reset:m}.m5 .card{position:relative;padding-left:76px}
+.m5 .card::before{counter-increment:m;content:counter(m);position:absolute;left:22px;top:20px;width:38px;height:38px;border-radius:10px;background:var(--navy);color:var(--gold2);display:flex;align-items:center;justify-content:center;font-family:'Fraunces',Georgia,serif;font-size:1.2rem}
+.m5 h3{font-size:1.15rem}.m5 .q{color:var(--txt3);font-style:italic;margin:2px 0 10px}
+.m5 dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:10px}.m5 dd{color:var(--txt2);line-height:1.7}
+.yn{display:flex;gap:8px;margin-top:12px}.yn button{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:999px;padding:6px 16px;font:inherit;font-size:.85rem;cursor:pointer}
+.yn button.on[data-v="1"]{background:var(--green);border-color:var(--green);color:#fff}.yn button.on[data-v="0"]{background:#c0392b;border-color:#c0392b;color:#fff}
+.gl dt{font-weight:700;margin-top:18px;font-size:1.02rem}.gl dd{color:var(--txt2);line-height:1.75;margin-top:4px}
+.gl dd em{color:var(--txt3);font-style:normal;font-size:.9rem}
+.az{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}.az a{border:1px solid var(--bd2);border-radius:8px;padding:4px 9px;font-size:.82rem}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}}
+@media(max-width:760px){.grid2{grid-template-columns:1fr}.m5 .card{padding-left:22px;padding-top:70px}}
+
+.fld select{width:100%;border:1.5px solid var(--bd2);border-radius:10px;padding:11px 12px;font:inherit;background:var(--bg);color:var(--txt)}
+.formula{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.86rem;background:var(--bg2);border:1px solid var(--bd);border-radius:12px;padding:14px 16px;line-height:1.8;color:var(--txt);white-space:pre-wrap}
+.embedbox textarea{width:100%;min-height:96px;border:1.5px solid var(--bd2);border-radius:10px;padding:10px;font:12px ui-monospace,Menlo,monospace;background:var(--bg);color:var(--txt)}
+.embed-by{font-size:.8rem;color:var(--txt3);margin-top:14px}
+html.embed nav,html.embed footer,html.embed .mbar,html.embed .sec2,html.embed .cta,html.embed .embedbox,html.embed .eyebrow{display:none!important}
+html.embed .pg{padding-top:12px}
+.mbar{display:none}
+@media(max-width:760px){.mbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:20;justify-content:space-between;align-items:center;gap:10px;background:var(--navy);color:#fff;padding:12px 16px;font-size:.9rem;box-shadow:0 -6px 20px rgba(0,0,0,.15)}.mbar b{font-family:Fraunces,Georgia,serif;font-size:1.3rem;color:var(--gold2)}.mbar a{color:#dbe4f0;font-size:.8rem;text-decoration:underline}footer{padding-bottom:70px}}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');if(location.search.indexOf('embed=1')>-1)document.documentElement.classList.add('embed');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "name": "DSCR Calculator", "url": "https://amrmagdy.com/dscr-calculator.html", "applicationCategory": "FinanceApplication", "operatingSystem": "Any (browser)", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "datePublished": "2026-10-17", "dateModified": "2026-10-17", "description": "Free DSCR calculator for real estate investors: debt service coverage ratio from rent and PITIA, the NOI-based ratio, and the maximum loan at your target DSCR.", "audience": {"@type": "BusinessAudience", "audienceType": "Real estate investors and wholesalers"}, "areaServed": ["United States", "Canada", "United Kingdom", "Europe"], "author": {"@id": "https://amrmagdy.com/#person"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is DSCR in real estate?", "acceptedAnswer": {"@type": "Answer", "text": "The debt service coverage ratio compares a property's rent to its loan payment. A DSCR of 1.25 means the rent is 25% more than the payment. DSCR lenders qualify the property on this ratio instead of the borrower's personal income."}}, {"@type": "Question", "name": "What DSCR do lenders require?", "acceptedAnswer": {"@type": "Answer", "text": "Requirements vary by lender and change with the market. Many DSCR lenders look for at least 1.0 to 1.25, and some offer programs below 1.0 with larger down payments or higher rates. Use the target field to test the number your lender gives you."}}, {"@type": "Question", "name": "Why are there two DSCR numbers?", "acceptedAnswer": {"@type": "Answer", "text": "Most DSCR lenders divide rent by PITIA (principal, interest, taxes, insurance and association dues). Commercial lenders and many investors use net operating income divided by debt service, which also subtracts management, repairs and vacancy. The NOI-based number is stricter and closer to real cash flow."}}, {"@type": "Question", "name": "Does interest-only change DSCR?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. An interest-only payment is smaller, so the ratio is higher. Some lenders qualify interest-only loans on the interest-only payment and others on the fully amortizing one. Try both settings."}}, {"@type": "Question", "name": "How do I keep DSCR visible across deals?", "acceptedAnswer": {"@type": "Answer", "text": "Put rent, taxes, insurance, dues and loan terms on the deal record in your CRM, calculate DSCR as a formula, and block a deal from moving to financing when it is under your lender's minimum."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Free tools", "item": "https://amrmagdy.com/resources.html"}, {"@type": "ListItem", "position": 3, "name": "DSCR Calculator", "item": "https://amrmagdy.com/dscr-calculator.html"}]}]}</script>
+</head>
+<body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
+  <a href="resources.html" class="nb">Free tools</a>
+  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
+  <a href="index.html#contact" class="nb hide-sm" style="margin-left:0">Book a Free Call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Free tool · no sign-up</span>
+<h1>DSCR <em>calculator.</em></h1>
+<p class="lead">Debt service coverage ratio for a rental property loan: monthly rent divided by the full payment (principal, interest, taxes, insurance and association dues). It also shows the stricter NOI-based ratio and the largest loan that still meets your target DSCR. DSCR loans are mainly a US product; the ratio itself works anywhere.</p>
+<div class="grid2">
+ <div class="card fld">
+    <label for="cur">Currency</label><select id="cur"><option value="USD">US dollar ($)</option><option value="CAD">Canadian dollar (CA$)</option><option value="GBP">Pound sterling (£)</option><option value="EUR">Euro (€)</option></select>
+  <label for="rent">Monthly rent <span class="cs">$</span></label><input id="rent" type="number" min="0" inputmode="decimal" value="2400"><small>Lenders usually use the lease or the appraiser&#x27;s market rent.</small>
+  <label for="tax">Monthly property taxes <span class="cs">$</span></label><input id="tax" type="number" min="0" inputmode="decimal" value="300">
+  <label for="ins">Monthly insurance <span class="cs">$</span></label><input id="ins" type="number" min="0" inputmode="decimal" value="120">
+  <label for="hoa">Monthly HOA / association dues <span class="cs">$</span></label><input id="hoa" type="number" min="0" inputmode="decimal" value="0">
+  <label for="opex">Other monthly operating costs (management, repairs, vacancy) <span class="cs">$</span></label><input id="opex" type="number" min="0" inputmode="decimal" value="250"><small>Used only for the NOI-based ratio.</small>
+  <label for="loan">Loan amount <span class="cs">$</span></label><input id="loan" type="number" min="0" inputmode="decimal" value="260000">
+  <label for="rate">Interest rate %</label><input id="rate" type="number" min="0" step="0.01" inputmode="decimal" value="7.25">
+  <label for="term">Term (years)</label><input id="term" type="number" min="0" step="0.01" inputmode="decimal" value="30">
+  <label for="io">Payment type</label><select id="io"><option value="amort" selected>Fully amortizing</option><option value="io">Interest-only</option></select>
+  <label for="target">Target DSCR</label><input id="target" type="number" min="0" step="0.01" inputmode="decimal" value="1.2"><small>Many DSCR lenders look for at least 1.0 to 1.25. Check yours.</small>
+ </div>
+ <div class="card" aria-live="polite" style="align-self:start">
+  <div style="font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700">DSCR (rent ÷ PITIA)</div>
+  <div class="big" id="hl">—</div>
+  <div class="kv"><span>Principal &amp; interest</span><span id="r_pi">—</span></div><div class="kv"><span>PITIA (full payment)</span><span id="r_pitia">—</span></div><div class="kv"><span>Monthly cash flow after PITIA and other costs</span><span id="r_cf">—</span></div><div class="kv"><span>NOI-based DSCR</span><span id="r_noi">—</span></div><div class="kv"><span>Maximum loan at target DSCR</span><span id="r_max">—</span></div>
+  <p class="note" id="msg"></p>
+ </div>
+</div>
+<section class="sec2"><h2>The formula</h2>
+<div class="formula">PITIA = principal &amp; interest + property taxes + insurance + association dues
+DSCR (lender style) = monthly rent ÷ PITIA
+NOI = rent − taxes − insurance − dues − other operating costs
+DSCR (NOI-based) = NOI ÷ principal &amp; interest
+Maximum loan = the loan whose PITIA equals rent ÷ target DSCR</div>
+<h2 style="margin-top:28px">Worked example</h2>
+<p class="note" style="font-size:.98rem">Rent is $2,400 a month. A $260,000 loan at 7.25% over 30 years costs $1,774 in principal and interest. Add $300 of taxes and $120 of insurance and PITIA is $2,194. DSCR is 2400 ÷ 2194 = 1.09.</p>
+<h2 style="margin-top:28px">Questions</h2>
+<div class="cq"><h3>What is DSCR in real estate?</h3><p>The debt service coverage ratio compares a property&#x27;s rent to its loan payment. A DSCR of 1.25 means the rent is 25% more than the payment. DSCR lenders qualify the property on this ratio instead of the borrower&#x27;s personal income.</p></div><div class="cq"><h3>What DSCR do lenders require?</h3><p>Requirements vary by lender and change with the market. Many DSCR lenders look for at least 1.0 to 1.25, and some offer programs below 1.0 with larger down payments or higher rates. Use the target field to test the number your lender gives you.</p></div><div class="cq"><h3>Why are there two DSCR numbers?</h3><p>Most DSCR lenders divide rent by PITIA (principal, interest, taxes, insurance and association dues). Commercial lenders and many investors use net operating income divided by debt service, which also subtracts management, repairs and vacancy. The NOI-based number is stricter and closer to real cash flow.</p></div><div class="cq"><h3>Does interest-only change DSCR?</h3><p>Yes. An interest-only payment is smaller, so the ratio is higher. Some lenders qualify interest-only loans on the interest-only payment and others on the fully amortizing one. Try both settings.</p></div><div class="cq"><h3>How do I keep DSCR visible across deals?</h3><p>Put rent, taxes, insurance, dues and loan terms on the deal record in your CRM, calculate DSCR as a formula, and block a deal from moving to financing when it is under your lender&#x27;s minimum.</p></div>
+<div class="cq"><h3>Related free tools</h3><p><a href="brrrr-calculator.html">BRRRR calculator</a> · <a href="rental-yield-calculator.html">Rental yield &amp; cap rate calculator</a> · <a href="wholesaling-mao-calculator.html">MAO calculator</a> · <a href="resources.html">All free tools</a></p></div>
+<p class="note">Last updated October 2026. For planning only, not financial, tax or legal advice. Check figures with your lender, accountant or lawyer.</p>
+</section>
+<section class="sec2 embedbox"><h2>Add this calculator to your site</h2><p class="note">Free to embed on your blog or investor site. Copy the code below.</p><textarea id="embed-code" readonly aria-label="Embed code"></textarea><button class="btn-s" id="embed-copy" type="button">Copy embed code</button></section>
+<div class="cta"><h2>Want these numbers on every deal in your CRM?</h2><p>I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a></div>
+</div></main>
+<div class="mbar" aria-hidden="true"><span>DSCR (rent ÷ PITIA): <b id="mbar-v">—</b></span><a href="#hl">See details</a></div>
+
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong> — Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="mailto:info@AmrMagdy.com">Email</a></div>
+</div></div></footer>
+<script src="calc.js"></script>
+<script>(function(){var C=window.CALC;function compute(){
+var rent=C.num('rent'),tax=C.num('tax'),ins=C.num('ins'),hoa=C.num('hoa'),opex=C.num('opex'),loan=C.num('loan'),rate=C.num('rate')/100,term=C.num('term'),io=document.getElementById('io').value==='io',t=C.num('target');
+var pi=io?loan*rate/12:C.pmt(loan,rate,term),pitia=pi+tax+ins+hoa,d=pitia>0?rent/pitia:NaN,noi=rent-tax-ins-hoa-opex,dn=pi>0?noi/pi:NaN,cf=rent-pitia-opex;
+var maxPI=t>0?rent/t-tax-ins-hoa:0,maxL=0;if(maxPI>0){if(io)maxL=rate>0?maxPI*12/rate:0;else{var n=term*12,r=rate/12;maxL=r===0?maxPI*n:maxPI*(1-Math.pow(1+r,-n))/r;}}
+C.set('hl',isFinite(d)?d.toFixed(2):'—','big '+(d<1?'neg':(d>=t?'pos':'')));C.set('r_pi',C.money(pi));C.set('r_pitia',C.money(pitia));C.set('r_cf',C.money(cf),cf<0?'neg':'pos');C.set('r_noi',isFinite(dn)?dn.toFixed(2):'—');C.set('r_max',C.money(maxL));
+C.set('msg',!isFinite(d)?'':(d<1?'The rent does not cover the full payment. Most DSCR lenders will need a smaller loan or a higher rent.':(d<t?'Covers the payment, but below your '+t.toFixed(2)+' target. The largest loan that meets the target is '+C.money(maxL)+'.':'Meets your '+t.toFixed(2)+' target with room to spare.')));
+}C.init('dscr',compute);})();</script>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+</body>
+</html>

@@ -13,7 +13,7 @@
 - Phone / WhatsApp: +20 103 327 5250
 - LinkedIn: https://www.linkedin.com/in/amrmagdyai
 - GitHub: amrmagdyai
-- Availability: Fully remote. Focus: US real estate investors, home-buying companies and wholesalers; Gulf (UAE, Saudi Arabia, Qatar, Kuwait) next
+- Availability: Fully remote. Focus: US real estate investors, home-buying companies and wholesalers first; also Canada and Europe (including the UK); Gulf later
 - Time zone coverage: US Eastern & Central business hours; UK afternoon overlap; early morning availability for US West Coast or UK morning calls
 
 ## One-sentence summary
@@ -23,7 +23,7 @@ disappears between the marketing dollar and the kept deal at five points a CRM c
 Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagdy.com/kept-deal-map.html
 
 ## Current focus (October 2026)
-- Who he works with: real estate investors, home-buying companies and wholesalers in the United States, with the Gulf (UAE, Saudi Arabia, Qatar, Kuwait) next.
+- Who he works with: real estate investors, home-buying companies and wholesalers in the United States first, and in Canada and Europe (including the UK).
 - What he builds: the Salesforce system a home-buying company runs on, from marketing campaign to closed deal: campaign ROI by market, speed to lead, missed-call alerts, shared lead queues, underwriting on the opportunity, a transactions board, RingCentral call sync, DocuSign alerts and a no-code rules engine.
 - Proof: for the last two years he has built and run the Salesforce org behind Central City Solutions, a home-buying company in Columbus, Ohio.
 - Working hours: afternoons and evenings Cairo time, which covers US mornings and the full Gulf business day.
@@ -42,6 +42,11 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 5. ROI that only counts deals that actually closed (kept deals)
 
 ## Free tools (all free, no sign-up, hub: https://amrmagdy.com/resources.html)
+- BRRRR Calculator: https://amrmagdy.com/brrrr-calculator.html (Free BRRRR calculator for rental investors in the US and Canada: cash left in the deal after the refinance, monthly cash flow, cash-on-cash return and equity.)
+- Rental Yield & Cap Rate Calculator: https://amrmagdy.com/rental-yield-calculator.html (Free rental yield calculator: gross yield, net yield, cap rate, cash flow and cash-on-cash return for buy-to-let and rental property in the US, Canada, UK and Europe.)
+- DSCR Calculator: https://amrmagdy.com/dscr-calculator.html (Free DSCR calculator for real estate investors: debt service coverage ratio from rent and PITIA, the NOI-based ratio, and the maximum loan at your target DSCR.)
+- Assignment vs Double Close Calculator: https://amrmagdy.com/assignment-vs-double-close-calculator.html (Compare your net profit from assigning a wholesale contract vs a double close, including both sets of closing costs and transactional funding fees.)
+- Acquisitions Team Capacity Calculator: https://amrmagdy.com/acquisitions-team-capacity-calculator.html (How many acquisition reps do you need for your lead volume? Free calculator: hours of calling, follow-up and offers per month vs what your team can cover.)
 - Deal Leak Score: https://amrmagdy.com/deal-leak-score.html (10 yes/no checks across Spend, Answer, Follow-up, Offer and Keep, scored out of 100; a shared link lets a team compare answers check by check)
 - Wholesaling Cost Per Deal Calculator: cost per lead, per contract, per closed deal and ROI by lead source. https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html
 - Wholesaling MAO Calculator: maximum allowable offer from ARV, rule %, repairs, wholesale fee and buyer costs, with spread on an offer. https://amrmagdy.com/wholesaling-mao-calculator.html
@@ -290,7 +295,7 @@ adoption metrics, and license ROI, then delivers a prioritized roadmap of highes
 ### 2. Full Salesforce Implementation
 End-to-end build of a real estate CRM: architecture design, automated lead routing (speed-to-lead),
 property pipeline and acquisition workflows, Salesforce + Tableau dashboards, Zapier/API integrations,
-and hands-on agent adoption training.
+and hands-on team adoption training.
 - Best for: companies that need the system built or rebuilt correctly the first time
 - Format: project-based pricing, scoped after discovery and audit
 - Deliverable: working CRM system + trained team + documentation
@@ -334,7 +339,7 @@ issue resolution, monthly optimization reports, and continuous team training.
 All certifications are verifiable on Salesforce's official credential verification portal.
 
 ## Trailhead Achievement (Salesforce Learning Platform)
-- Rank: Double Star Ranger (highest available tier globally)
+- Rank: Double Star Ranger
 - Points: 130,000+
 - Badges: 210+
 - Superbadges: 20 (hands-on, scenario-based certifications requiring real Salesforce org work)
@@ -488,7 +493,7 @@ implementation with weekly progress updates. Quick wins are typically visible wi
 weeks of an engagement.
 
 Q: What Salesforce certifications does Amr Magdy hold?
-A: Four active Salesforce certifications: Certified Administrator (Mar 2023), Certified Platform
+A: Salesforce certifications: Certified Administrator (Mar 2023), Certified Platform
 App Builder (Apr 2023), Certified Associate (Nov 2023), and Certified AI Associate (Nov 2023). He
 is also a Trailhead Double Star Ranger: 20 superbadges, 210+ badges, 130,000+ points.
 

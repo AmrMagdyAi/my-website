@@ -68,7 +68,7 @@ A review of the CRM you already have: campaign ROI, speed to lead, stale offers,
 - Fee credited toward the build
 
 #### Full Implementation
-End-to-end build: architecture, automated lead routing, acquisition pipeline, Salesforce + Tableau dashboards, Zapier/API integrations, and hands-on agent adoption training.
+End-to-end build: architecture, automated lead routing, acquisition pipeline, Salesforce + Tableau dashboards, Zapier/API integrations, and hands-on team adoption training.
 - Speed-to-lead routing & pipeline
 - Salesforce + Tableau dashboards
 - Integrations + adoption training
@@ -132,7 +132,7 @@ A free 30-minute conversation to understand your goals, team, and pain points �
 A full org audit of automation, data quality, adoption, and license ROI, delivered as a prioritized improvement plan.
 
 #### Build & Train
-Architecture, automation, dashboards, and integrations — paired with hands-on agent training so it gets used.
+Architecture, automation, dashboards, and integrations — paired with hands-on team training so it gets used.
 
 #### Optimize & Support
 Ongoing monitoring, refinement, new capabilities, and weekly updates — keeping the CRM delivering ROI.
@@ -167,7 +167,7 @@ Platform engineering, integrations, and real-estate-specific systems — built e
 #### Real Estate Specializations
 
 ### Certified & verified
-Four active Salesforce certifications — independently verifiable on Salesforce's credential registry and Trailhead.
+Salesforce certifications, independently verifiable on Salesforce's credential registry and Trailhead.
 Verify my credentials on Salesforce
 
 #### Certified Administrator
@@ -179,7 +179,7 @@ Verify my credentials on Salesforce
 #### Certified AI Associate
 
 #### Trailhead Double Star Ranger
-The highest available Trailhead tier — earned through hands-on, scenario-based superbadges, not just quizzes.
+A Trailhead rank earned through hands-on, scenario-based superbadges, not just quizzes.
 
 ### Run your numbers before we ever talk
 Calculators and a weekly KPI framework for investors and wholesalers. No sign-up; nothing you type leaves your browser.
@@ -204,7 +204,7 @@ All free tools & the glossary
 Field-tested guides on lead routing, automation, and architecture for real estate teams.
 
 #### Salesforce Lead Routing for Real Estate: Speed to Lead Changes Everything
-Assignment rules, round-robin routing, Zapier for external sources, and a notification layer that gets agents to leads first.
+Assignment rules, round-robin routing, Zapier for external sources, and a notification layer that gets your reps to sellers first.
 
 #### 5 Salesforce Automations Every Real Estate Team Needs
 Lead assignment, follow-up automation, property status workflows, reporting, and stale-lead escalation that runs itself.
@@ -851,7 +851,7 @@ Salesforce is not cheap. Enterprise licenses, professional services, training �
 Run a report on your Lead and Contact records: what percentage have a valid email, a phone number, a lead source, and a last activity date within 30 days? If more than 20% of records are missing critical fields, your data quality is undermining every decision made from Salesforce.
 
 #### 2. Automation Utilization
-Go to Setup > Flows and count active Flows. A real estate company of 10+ agents should have at minimum: lead assignment, follow-up task creation, property status notifications, and stale lead escalation. Fewer than 4 active Flows means agents are manually doing what the platform can do automatically.
+Go to Setup > Flows and count active Flows. A real estate company with 10+ people working leads should have at minimum: lead assignment, follow-up task creation, property status notifications, and stale lead escalation. Fewer than 4 active Flows means agents are manually doing what the platform can do automatically.
 The most common audit finding: companies have 0-2 active Flows and agents are spending 30%+ of their working time on tasks that should be automated.
 
 #### 3. Dashboard Usage
@@ -1967,7 +1967,7 @@ Canadian Eastern and Central time zones align exactly with my standard working h
 A fractional retainer usually costs well below a full-time local Salesforce admin or a local consultancy, and comes with real-estate-specific expertise from day one.
 
 #### Can you migrate us from our current CRM?
-Yes — I've migrated real estate companies from spreadsheet chaos, legacy CRMs, and Zapier-stitched systems into clean Salesforce builds without losing historical data. Parallel running and agent training are part of the plan.
+Yes — I've migrated real estate companies from spreadsheet chaos, legacy CRMs, and Zapier-stitched systems into clean Salesforce builds without losing historical data. Parallel running and team training are part of the plan.
 
 #### How do we start?
 A free 30-minute discovery call, then a fixed-fee audit of your org with a prioritized roadmap. Build typically starts in week three.
@@ -1987,7 +1987,7 @@ If the source is lost at contract, every ROI number after that is a guess. Field
 You can see cost per kept deal by campaign without opening a spreadsheet.
 Cost per lead rewards cheap leads. Cost per kept deal shows what actually paid. Cost per deal calculator →
 A missed seller call creates a task or alert for a named person within 5 minutes.
-A seller who reaches voicemail usually calls the next number on the list. Missed call cost calculator →
+A seller who reaches voicemail can simply call the next number on the list. Missed call cost calculator →
 You know last week's answer rate on your marketing phone lines.
 If nobody measures it, nobody owns it. The Monday 5 →
 Every open lead has a next task with a due date.
@@ -2017,3 +2017,143 @@ Related
 The Kept-Deal Map · CRM field kit · Deal Leak videos · All free tools
 Want each leak sized from your own data?
 The CRM Revenue Audit (USD 1,500, 10 working days) goes through your CRM and call data leak point by leak point and gives you a prioritized fix list. Or start with a free 30-minute call.
+
+
+---
+## BRRRR Calculator: Cash Left In, Cash Flow & ROI (Free)
+URL: https://amrmagdy.com/brrrr-calculator.html
+
+BRRRR calculator.
+Buy, rehab, rent, refinance, repeat. Enter the purchase, rehab and refinance terms to see how much of your cash stays in the deal, the new loan payment, monthly cash flow and your cash-on-cash return. Built for real estate investors in the United States, Canada, the UK and Europe. Pick your currency; the math is the same everywhere.
+The formula
+Total project cost = purchase + rehab + closing + holding + refinance costs New loan = ARV × refinance LTV Cash left in the deal = total project cost − new loan Monthly cash flow = rent − operating costs − new loan payment Cash-on-cash return = (monthly cash flow × 12) ÷ cash left in the deal
+Worked example
+Buy at $120,000, spend $35,000 on rehab, $3,000 closing and $4,000 holding. The house appraises at $210,000 and the lender refinances at 75%: a $157,500 loan. With $4,000 of refinance costs, the whole project costs $166,000, so $8,500 of your cash stays in. At 7.5% over 30 years the payment is $1,101 a month. Rent of $1,850 minus $550 of costs and the payment leaves $199 a month, a 28.1% cash-on-cash return.
+Questions
+What is the BRRRR method?
+BRRRR stands for buy, rehab, rent, refinance, repeat. You buy a property below its after-repair value, renovate it, rent it out, then refinance at the new appraised value to pull your cash back out and use it on the next deal.
+What does "cash left in the deal" mean?
+It is the money you still have tied up after the refinance: everything you spent to buy, fix, hold and refinance the property, minus the new loan. A perfect BRRRR leaves zero or less, which means the refinance paid you back in full.
+What loan-to-value do lenders use for a BRRRR refinance?
+For investment properties, cash-out refinance lenders commonly lend around 70% to 80% of the appraised value. In Canada, conventional rental refinances are often capped at 80%. Check current terms with your lender, since they change with the market.
+Is there a waiting period before refinancing?
+Many lenders apply a seasoning period, often around six months of ownership, before they lend on the new appraised value instead of the purchase price. Some DSCR and portfolio lenders are more flexible. Confirm with your lender before you buy.
+How do I track BRRRR deals across a portfolio?
+Keep purchase, rehab, appraisal, refinance and rent figures as fields on each property record in your CRM, with cash left in and cash-on-cash as formulas. Then a portfolio report shows which deals recycled your capital and which did not.
+Related free tools
+Rental yield & cap rate calculator · DSCR calculator · MAO calculator · All free tools
+Last updated October 2026. For planning only, not financial, tax or legal advice. Check figures with your lender, accountant or lawyer.
+Want these numbers on every deal in your CRM?
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+
+
+---
+## Rental Yield & Cap Rate Calculator (USD, CAD, GBP, EUR)
+URL: https://amrmagdy.com/rental-yield-calculator.html
+
+Rental yield & cap rate calculator.
+Gross yield, net yield, cap rate and cash-on-cash return for any rental or buy-to-let property. Include purchase costs such as closing costs, stamp duty or transfer tax as one figure. Built for real estate investors in the United States, Canada, the UK and Europe. Pick your currency; the math is the same everywhere.
+The formula
+Gross yield = annual rent ÷ purchase price Net operating income (NOI) = annual rent × (1 − vacancy) − running costs Net yield = NOI ÷ (price + purchase costs + renovation) Cap rate = NOI ÷ purchase price Cash-on-cash = (NOI − annual mortgage payments) ÷ cash invested
+Worked example
+A $250,000 property with $10,000 of purchase costs rents for $1,750 a month. Gross yield is 8.40%. Allow 5% for vacancy and $4,500 a year of running costs and the net operating income is $15,450, a 5.94% net yield and a 6.18% cap rate. With a $187,500 repayment mortgage at 5.5% over 25 years ($13,817 a year), cash flow is $1,633 a year on $72,500 invested.
+Questions
+What is the difference between gross and net rental yield?
+Gross yield is the annual rent divided by the purchase price, before any costs. Net yield subtracts running costs and vacancy, and divides by everything you paid including purchase costs and renovation. Net yield is the one to compare properties with.
+Is cap rate the same as net yield?
+Close, but not the same. Cap rate is net operating income divided by the purchase price only. Net yield in this calculator divides by price plus purchase costs and renovation, so it is usually a little lower. US investors tend to quote cap rate; UK and European investors tend to quote yield.
+What is a good rental yield?
+There is no single number. Yields depend on the country, city, property type and interest rates. Compare a property against similar rentals in the same area, and check that the cash flow is positive after the mortgage.
+Should I include stamp duty or transfer tax?
+Yes, in purchase costs. Stamp duty in the UK, land transfer tax in Canada, transfer tax in the US and registration or transfer taxes across Europe all add to what you paid, so they lower your net yield. Rates and surcharges for additional properties vary; check the current rules where you buy.
+How do I track yield across a portfolio?
+Store rent, running costs, purchase costs and loan terms as fields on each property record in your CRM, with yield and cash flow as formulas. A portfolio report then ranks properties by net yield every month.
+Related free tools
+BRRRR calculator · DSCR calculator · Cost per deal by lead source · All free tools
+Last updated October 2026. For planning only, not financial, tax or legal advice. Check figures with your lender, accountant or lawyer.
+Want these numbers on every deal in your CRM?
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+
+
+---
+## DSCR Calculator for Rental Property Loans (Free)
+URL: https://amrmagdy.com/dscr-calculator.html
+
+DSCR calculator.
+Debt service coverage ratio for a rental property loan: monthly rent divided by the full payment (principal, interest, taxes, insurance and association dues). It also shows the stricter NOI-based ratio and the largest loan that still meets your target DSCR. DSCR loans are mainly a US product; the ratio itself works anywhere.
+The formula
+PITIA = principal & interest + property taxes + insurance + association dues DSCR (lender style) = monthly rent ÷ PITIA NOI = rent − taxes − insurance − dues − other operating costs DSCR (NOI-based) = NOI ÷ principal & interest Maximum loan = the loan whose PITIA equals rent ÷ target DSCR
+Worked example
+Rent is $2,400 a month. A $260,000 loan at 7.25% over 30 years costs $1,774 in principal and interest. Add $300 of taxes and $120 of insurance and PITIA is $2,194. DSCR is 2400 ÷ 2194 = 1.09.
+Questions
+What is DSCR in real estate?
+The debt service coverage ratio compares a property's rent to its loan payment. A DSCR of 1.25 means the rent is 25% more than the payment. DSCR lenders qualify the property on this ratio instead of the borrower's personal income.
+What DSCR do lenders require?
+Requirements vary by lender and change with the market. Many DSCR lenders look for at least 1.0 to 1.25, and some offer programs below 1.0 with larger down payments or higher rates. Use the target field to test the number your lender gives you.
+Why are there two DSCR numbers?
+Most DSCR lenders divide rent by PITIA (principal, interest, taxes, insurance and association dues). Commercial lenders and many investors use net operating income divided by debt service, which also subtracts management, repairs and vacancy. The NOI-based number is stricter and closer to real cash flow.
+Does interest-only change DSCR?
+Yes. An interest-only payment is smaller, so the ratio is higher. Some lenders qualify interest-only loans on the interest-only payment and others on the fully amortizing one. Try both settings.
+How do I keep DSCR visible across deals?
+Put rent, taxes, insurance, dues and loan terms on the deal record in your CRM, calculate DSCR as a formula, and block a deal from moving to financing when it is under your lender's minimum.
+Related free tools
+BRRRR calculator · Rental yield & cap rate calculator · MAO calculator · All free tools
+Last updated October 2026. For planning only, not financial, tax or legal advice. Check figures with your lender, accountant or lawyer.
+Want these numbers on every deal in your CRM?
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+
+
+---
+## Assignment vs Double Close Calculator for Wholesalers
+URL: https://amrmagdy.com/assignment-vs-double-close-calculator.html
+
+Assignment vs double close calculator.
+Should you assign the contract or double close? Enter your contract price, the end buyer's price and your costs for each route to see what you actually keep, and how big the spread has to be before a double close is worth it.
+The formula
+Spread = end buyer's price − your contract price Assignment: you keep = spread − assignment costs Double close: you keep = spread − purchase closing costs − resale closing costs − transactional funding Break-even: a double close only pays off when you could not assign, or when assigning would cost you the deal
+Worked example
+You have a house under contract at $120,000 and a buyer at $140,000: a $20,000 spread. Assigning costs $500, so you keep $19,500. A double close adds $2,500 and $2,500 of closing costs plus 1.5% transactional funding ($1,800), so you keep $13,200, which is $6,300 less.
+Questions
+What is the difference between an assignment and a double close?
+With an assignment you sell your rights in the purchase contract to the end buyer for a fee, and there is one closing. With a double close you actually buy the property and resell it, usually the same day, so there are two closings and two sets of costs.
+When is a double close better?
+When the contract cannot be assigned, when the seller or buyer would object to the size of the fee, or when a lender or the end buyer's financing does not allow assignments. It costs more, so it is a tool for protecting the deal, not for raising the profit.
+What is transactional funding?
+A short-term loan that funds your purchase in a double close and is repaid from the end buyer's funds the same day. Lenders usually charge a percentage of the purchase price, sometimes with a minimum fee. Get a quote before you count on it.
+Is wholesaling by assignment legal everywhere?
+Rules differ by US state and change over time. Several states now require disclosure, a license or registration for certain wholesaling activity. Check the current rules in your state, and in Canada check your provincial regulator, before you assign a contract.
+How do I track fees by exit route?
+Record the exit type (assignment or double close), the spread and every cost on the deal record in your CRM. Then you can report net fee per deal by exit route and by lead source, not just the headline number.
+Related free tools
+MAO calculator · Cost per deal by lead source · Deal Leak Score · All free tools
+Last updated October 2026. For planning only, not financial, tax or legal advice. Check figures with your lender, accountant or lawyer.
+Want these numbers on every deal in your CRM?
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+
+
+---
+## Acquisitions Team Capacity Calculator for Wholesalers
+URL: https://amrmagdy.com/acquisitions-team-capacity-calculator.html
+
+How many acquisition reps do you need?
+Add up the hours your seller leads actually need each month (first calls, follow-up and offers) and compare them with what your team can cover. When the hours needed are higher than the hours available, leads go uncalled, whatever your CRM says.
+The formula
+Hours needed = (leads × first-conversation rate × minutes per first conversation + leads × follow-up touches × minutes per touch + offers × minutes per offer) ÷ 60 Hours per rep = productive hours per day × working days Reps needed = hours needed ÷ hours per rep
+Worked example
+300 new leads a month at 15 minutes for the first conversation, 4 follow-up touches of 4 minutes each, and 40 offers at 45 minutes need about 185 hours a month. A rep with 5 productive hours over 21 days covers 105 hours, so this volume needs about 1.8 reps.
+Questions
+How many leads can one acquisition rep handle?
+It depends on how much time each lead takes. A rep with 5 productive hours a day over 21 working days has about 105 hours a month. Divide that by the minutes each lead needs across first contact, follow-up and offers. Use the calculator with your own minutes.
+Why count follow-up touches?
+Follow-up is the work that gets dropped first when a team is over capacity, and it is often where the deals are. Counting it shows the real load, and shows how many hours automated reminders and texts could give back.
+What are productive hours?
+Time a rep spends talking to sellers or working leads, not total hours at work. Meetings, admin and breaks come out. Most teams overestimate this number, so measure it from call logs if you can.
+Can a CRM reduce the hours needed?
+It can remove the hours that do not need a person: logging calls, creating next tasks, sending scheduled texts and reminders, and routing missed calls. It cannot replace the conversations themselves.
+How do I measure the inputs from my own data?
+Pull talk time per call and touches per lead from your phone system and CRM for the last 30 days. If those numbers are not available, that gap is the first thing to fix.
+Related free tools
+Missed seller call cost · Deal Leak Score · The Monday 5 · All free tools
+Last updated October 2026. For planning only, not financial, tax or legal advice. Check figures with your lender, accountant or lawyer.
+Want these numbers on every deal in your CRM?
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
