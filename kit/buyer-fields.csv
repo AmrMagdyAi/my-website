@@ -1,0 +1,11 @@
+﻿Field name,API-style name,Type,Picklist values,Required when,Why it matters
+Zips,Zips__c,Long text (comma-separated) or multi-select,,Before the buyer gets deal blasts,Lets you send each deal only to buyers who buy in that zip.
+Max Price,Max_Price__c,Currency,,Before the buyer gets deal blasts,"Filters out buyers who can't pay your price, so the list stays short and relevant."
+Rehab Level,Rehab_Level__c,Multi-select picklist,Light; Medium; Heavy,Before the buyer gets deal blasts,"A buyer who only wants light rehabs ignores a full gut, and the reverse."
+Closing Speed (days),Closing_Speed_Days__c,Number,,Optional,"When an inspection period is short, you want the buyers who actually close fast."
+Last Bought Date,Last_Bought_Date__c,Date,,Updated when the buyer closes one of your deals (or from public records),Separates active buyers from names on a list.
+Proof of Funds Date,Proof_of_Funds_Date__c,Date,,When proof of funds is received,Old proof of funds is a warning sign. A date lets you see who needs to send fresh proof.
+Deals Sent,Deals_Sent__c,Number (auto),,Counted from deal blasts sent to this buyer,How many deals this buyer has seen from you.
+Replies,Replies__c,Number (auto),,"Counted from replies, calls or offers back","Engagement you can rank buyers by, instead of guessing who is serious."
+Reply Rate,Reply_Rate__c,Formula (percent),,Calculated: Replies ÷ Deals Sent,Buyers who never reply can be moved off the main list.
+Last Reply Date,Last_Reply_Date__c,Date (auto),,Stamped on each reply,Shows when a buyer went quiet.

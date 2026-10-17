@@ -1,0 +1,24 @@
+﻿Field name,API-style name,Type,Picklist values,Required when,Why it matters
+Lead Source,Lead_Source__c,"Picklist (copied from lead, locked)",Same values as the lead,Copied when the deal is created; not editable after,Keeps attribution intact from first call to closing so contracts and fees count for the right channel.
+Campaign,Campaign__c,"Lookup to Campaign (copied from lead, locked)",,Copied when the deal is created; not editable after,Contracts per campaign and ROI by campaign both read this field.
+Deal Status,Deal_Status__c,Picklist,Underwriting; Offer Sent; Under Contract; Assigned; Closed; Fell Out,Always,Separates deals that are booked from deals that are actually kept.
+ARV,ARV__c,Currency,,Before Deal Status can move to Offer Sent,After-repair value from comps. Everything in MAO starts here.
+Your Repair Estimate,Your_Repair_Estimate__c,Currency,,Before Deal Status can move to Offer Sent,"Your team's repair number, the one MAO uses."
+Buyer's Repair Estimate,Buyers_Repair_Estimate__c,Currency,,When a buyer walks the property (optional),What the end buyer thinks repairs cost. Comparing it with yours shows whether your estimates run low.
+Estimate Variance,Estimate_Variance__c,Formula (currency),,Calculated: Buyer's Repair Estimate − Your Repair Estimate,A gap that keeps growing in one direction means your offers are built on the wrong repair numbers.
+MAO %,MAO_Percent__c,Percent,"Default 70% (markets vary, often 65–80%)",Before Deal Status can move to Offer Sent,"The rule percentage, stored on the deal so every rep uses the same one."
+Assignment Fee,Assignment_Fee__c,Currency,,Before Deal Status can move to Offer Sent,"The target fee you plan to earn, built into MAO instead of hoped for later."
+MAO,MAO__c,Formula (currency),,Calculated: ARV × MAO % − Your Repair Estimate − Assignment Fee,"One maximum allowable offer per deal, calculated the same way for everyone."
+Offer Amount,Offer_Amount__c,Currency,,Before Deal Status can move to Offer Sent,The number actually offered to the seller.
+Offer Above MAO,Offer_Above_MAO__c,Formula (checkbox),,Calculated: TRUE when Offer Amount > MAO,Flags offers that need a second look before they go out (see automation-rules.md).
+Manager Approved,Manager_Approved__c,Checkbox,,"When Offer Above MAO is TRUE, before Offer Sent",Records that someone other than the rep signed off on an above-MAO offer.
+Contract Signed Date,Contract_Signed_Date__c,Date/Time (auto),,Stamped when Deal Status changes to Under Contract,Start of the clock for days to assign and for contract to first seller call.
+First Seller Call After Contract,First_Seller_Call_After_Contract__c,Date/Time (auto),,Stamped by the first logged call to the seller after Contract Signed Date,Shows whether anyone kept the seller warm after signing.
+Hours Contract to First Seller Call,Hours_Contract_to_First_Call__c,Formula (number),,Calculated: (First Seller Call After Contract − Contract Signed Date) in hours,One of the Monday 5. Long silences after signing are where cancellations start.
+Assigned Date,Assigned_Date__c,Date,,When Deal Status changes to Assigned,The day an end buyer signed the assignment.
+Days to Assign,Days_to_Assign__c,Formula (number),,Calculated: Assigned Date − Contract Signed Date,How long dispo takes. Slow assignment eats into inspection periods and raises fall-out risk.
+Closed Date,Closed_Date__c,Date,,When Deal Status changes to Closed,The day the fee was actually paid.
+Booked Fee,Booked_Fee__c,Currency,,When Deal Status changes to Under Contract; locked after,The fee you expected at signing. This is the forecast.
+Kept Fee,Kept_Fee__c,Currency,,When Deal Status changes to Closed (0 if Fell Out),"The fee actually received. ROI should be counted on this, not on Booked Fee."
+Kept Property Value,Kept_Property_Value__c,Currency,,When you keep the property (for example as a rental) instead of assigning it,Deals you keep still came from a campaign. Leaving them out undercounts that campaign's ROI.
+Fall-out Reason,Fall_out_Reason__c,Picklist,Seller backed out; Title issue; No buyer found; Buyer backed out; Inspection or repairs; Renegotiated; Other,"When Deal Status = Fell Out, or when Kept Fee is lower than Booked Fee","Tells you whether fall-outs come from underwriting, dispo or the seller relationship."

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Wholesaling CRM Field Kit (Fields, Picklists, Rules) | Amr Magdy</title>
+<meta name="description" content="A free, ungated kit for wholesalers and home-buying teams: the lead, deal and buyer fields, picklists, automation rules and Monday report spec that stop deals leaking. Works in Salesforce, REsimpli, Podio, HubSpot or a spreadsheet.">
+<link rel="canonical" href="https://amrmagdy.com/crm-field-kit.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://amrmagdy.com/crm-field-kit.html">
+<meta property="og:title" content="Free wholesaling CRM field kit">
+<meta property="og:description" content="A free, ungated kit for wholesalers and home-buying teams: the lead, deal and buyer fields, picklists, automation rules and Monday report spec that stop deals leaking. Works in Salesforce, REsimpli, Podio, HubSpot or a spreadsheet.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Amr Magdy">
+<meta property="article:modified_time" content="2026-10-17">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Free wholesaling CRM field kit">
+<meta name="twitter:description" content="A free, ungated kit for wholesalers and home-buying teams: the lead, deal and buyer fields, picklists, automation rules and Monday report spec that stop deals leaking. Works in Salesforce, REsimpli, Podio, HubSpot or a spreadsheet.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1.25rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:26px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.fld label{display:block;font-size:.84rem;font-weight:600;margin:12px 0 6px}
+.fld input{width:100%;border:1.5px solid var(--bd2);border-radius:10px;padding:11px 12px;font:inherit;background:var(--bg);color:var(--txt)}
+.fld input:focus{outline:none;border-color:var(--sf)}
+.fld small{display:block;color:var(--txt3);font-size:.78rem;margin-top:4px}
+.big{font-family:'Fraunces',Georgia,serif;font-size:2.2rem;line-height:1.1;margin:4px 0 2px}
+.kv{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid var(--bd);font-size:.93rem}
+.kv span:last-child{font-variant-numeric:tabular-nums;font-weight:600}
+.neg{color:#c0392b}.pos{color:var(--green)}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.btn-s{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:10px;padding:9px 14px;font:inherit;font-size:.88rem;cursor:pointer;margin-top:14px}
+.sec2{margin-top:44px;max-width:800px}
+.sec2 h2{font-size:1.5rem;margin-bottom:6px}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin-bottom:8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.tools{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px;margin-top:26px}
+.tool{display:block;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);transition:transform .15s,border-color .15s}
+.tool:hover{transform:translateY(-2px);border-color:var(--sf)}
+.tool .tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gold);font-weight:700}
+.tool h3{font-size:1.12rem;margin:6px 0 8px}.tool p{color:var(--txt2);font-size:.92rem;line-height:1.65}
+.m5{counter-reset:m}.m5 .card{position:relative;padding-left:76px}
+.m5 .card::before{counter-increment:m;content:counter(m);position:absolute;left:22px;top:20px;width:38px;height:38px;border-radius:10px;background:var(--navy);color:var(--gold2);display:flex;align-items:center;justify-content:center;font-family:'Fraunces',Georgia,serif;font-size:1.2rem}
+.m5 h3{font-size:1.15rem}.m5 .q{color:var(--txt3);font-style:italic;margin:2px 0 10px}
+.m5 dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:10px}.m5 dd{color:var(--txt2);line-height:1.7}
+.yn{display:flex;gap:8px;margin-top:12px}.yn button{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:999px;padding:6px 16px;font:inherit;font-size:.85rem;cursor:pointer}
+.yn button.on[data-v="1"]{background:var(--green);border-color:var(--green);color:#fff}.yn button.on[data-v="0"]{background:#c0392b;border-color:#c0392b;color:#fff}
+.gl dt{font-weight:700;margin-top:18px;font-size:1.02rem}.gl dd{color:var(--txt2);line-height:1.75;margin-top:4px}
+.gl dd em{color:var(--txt3);font-style:normal;font-size:.9rem}
+.az{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}.az a{border:1px solid var(--bd2);border-radius:8px;padding:4px 9px;font-size:.82rem}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}}
+@media(max-width:760px){.grid2{grid-template-columns:1fr}.m5 .card{padding-left:22px;padding-top:70px}}
+.toc{margin:22px 0 0;padding:18px 22px;max-width:800px}
+.toc ol{margin:8px 0 0 1.2rem;color:var(--txt2);line-height:1.9}
+.toc h2{font-size:1.05rem;margin:0}
+.qa{max-width:800px}
+.qa .card{scroll-margin-top:calc(var(--nav) + 16px)}
+.qa h2{font-size:1.25rem;line-height:1.3;margin:0 0 10px}
+.qa p{color:var(--txt2);line-height:1.75}
+.qa .do{margin-top:12px;padding:12px 14px;border-left:3px solid var(--gold);background:var(--bg);border-radius:0 10px 10px 0;color:var(--txt)}
+.qa .do strong{color:var(--txt)}
+.qa .lk{margin-top:12px;font-size:.9rem;font-weight:600}
+.qa .lk a{margin-right:14px;display:inline-block}
+.soft{margin-top:40px;max-width:800px;color:var(--txt2);line-height:1.7}
+.kit{max-width:860px}.kit .card{margin-top:22px}
+.kit h2{font-size:1.25rem;margin:0 0 8px}.kit p{color:var(--txt2);line-height:1.75}
+.tw{overflow-x:auto;margin-top:12px;border:1px solid var(--bd);border-radius:10px}
+.tw table{border-collapse:collapse;width:100%;font-size:.86rem}
+.tw th,.tw td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--bd);vertical-align:top}
+.tw th{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--txt3);background:var(--bg)}
+.tw td:first-child{font-weight:600;white-space:nowrap}
+@media(max-width:620px){.tw table{min-width:640px}.tw td:last-child{min-width:220px}}
+.dl{display:inline-block;margin-top:14px;background:var(--navy);color:#fff!important;border-radius:999px;padding:9px 18px;font-weight:700;font-size:.9rem}
+.kit .lk{margin-top:10px;font-size:.9rem;font-weight:600}.kit .lk a{margin-right:14px;display:inline-block}
+.kit ul{margin:10px 0 0 1.2rem;color:var(--txt2);line-height:1.8}
+.faq dt{font-weight:700;margin-top:16px}.faq dd{color:var(--txt2);line-height:1.75;margin-top:4px}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://amrmagdy.com/crm-field-kit.html#page", "name": "The wholesaling CRM field kit", "url": "https://amrmagdy.com/crm-field-kit.html", "description": "A free, ungated kit for wholesalers and home-buying teams: the lead, deal and buyer fields, picklists, automation rules and Monday report spec that stop deals leaking. Works in Salesforce, REsimpli, Podio, HubSpot or a spreadsheet.", "inLanguage": "en", "datePublished": "2026-10-17", "dateModified": "2026-10-17", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isAccessibleForFree": true}, {"@type": "FAQPage", "@id": "https://amrmagdy.com/crm-field-kit.html#faq", "mainEntity": [{"@type": "Question", "name": "Is it really free? Do I need to give my email?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, it's free and there's no form. Download the files, copy them, change them. Credit is nice but not required."}}, {"@type": "Question", "name": "Does it only work in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "No. Every field and rule has a plain-English version for any CRM, including REsimpli, Podio, HubSpot or a spreadsheet. Where Salesforce needs something specific, there's a one-line Salesforce hint."}}, {"@type": "Question", "name": "Where should I start if I can only do one thing?", "acceptedAnswer": {"@type": "Answer", "text": "Make Lead Source required before a lead leaves New, and make Next Task Date required on every open lead. Those two fields fix the most common leaks: not knowing which marketing pays, and leads nobody follows up."}}, {"@type": "Question", "name": "Why these fields and not others?", "acceptedAnswer": {"@type": "Answer", "text": "Each one exists so a specific weekly number can be counted: cost per appointment by campaign, contracts per campaign, time from contract to first seller call, booked versus closed revenue, and ROI on kept deals."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://amrmagdy.com/resources.html"}, {"@type": "ListItem", "position": 3, "name": "CRM field kit", "item": "https://amrmagdy.com/crm-field-kit.html"}]}]}</script>
+</head>
+<body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
+  <a href="resources.html" class="nb">Free tools</a>
+  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
+  <a href="index.html#contact" class="nb hide-sm" style="margin-left:0">Book a Free Call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Free download · no email needed</span>
+<h1>The wholesaling CRM <em>field kit.</em></h1>
+<p class="lead">The fields, picklists, automation rules and Monday report that keep deals from leaking between the marketing dollar and the closed deal. Copy them into Salesforce, REsimpli, Podio, HubSpot or a spreadsheet. Free to use and change.</p>
+<section class="kit">
+<article class="card" id="lead-fields"><h2>1. Lead fields (13)</h2>
+<p>Where each lead came from, what happens next and how fast you reached the seller. The two that matter most: Lead Source required before a lead leaves New, and Next Task Date required on every open lead.</p>
+<div class="tw"><table><thead><tr><th>Field name</th><th>Type</th><th>Required when</th><th>Why it matters</th></tr></thead><tbody><tr><td>Lead Source</td><td>Picklist</td><td>Before Status can leave New</td><td>Without it, no report can tie a contract or a closed deal back to the channel that paid for it.</td></tr><tr><td>Campaign</td><td>Lookup to Campaign (or text)</td><td>Before Status can leave New, when Lead Source is a paid channel</td><td>Lead Source says which channel; Campaign says which mailer, list or ad. Spend is entered on the campaign, so cost per appointment and ROI need this link.</td></tr><tr><td>Market</td><td>Picklist</td><td>Always</td><td>Lets you compare channels and reps market by market instead of mixing a strong market with a weak one.</td></tr><tr><td>Status</td><td>Picklist</td><td>Always</td><td>One shared list of stages, so a report can count how many leads sit at each step and how long they stay there.</td></tr><tr><td>Next Task Date</td><td>Date</td><td>While the lead is open (Status is not Dead or Under Contract)</td><td>An open lead with no next date is a lead nobody is working. This field makes the gap visible and lets you block it.</td></tr><tr><td>Touch Count</td><td>Number (auto)</td><td>Never entered by hand; counted from logged calls, texts and emails to the seller</td><td>Shows how much follow-up a lead actually got before it was marked Dead or went under contract.</td></tr></tbody></table></div><a class="dl" href="kit/lead-fields.csv" download>Download lead-fields.csv</a>
+<p class="lk"><a href="videos.html#deal-leak-3">Video: Leads with no next step &rarr;</a><a href="videos.html#deal-leak-2">Video: Missed seller calls &rarr;</a></p></article>
+<article class="card" id="deal-fields"><h2>2. Deal fields (23)</h2>
+<p>Underwriting on the deal itself: MAO as a formula, your repair estimate next to the buyer's, and booked fees kept separate from the fees you actually receive.</p>
+<div class="tw"><table><thead><tr><th>Field name</th><th>Type</th><th>Required when</th><th>Why it matters</th></tr></thead><tbody><tr><td>Lead Source</td><td>Picklist (copied from lead, locked)</td><td>Copied when the deal is created; not editable after</td><td>Keeps attribution intact from first call to closing so contracts and fees count for the right channel.</td></tr><tr><td>Campaign</td><td>Lookup to Campaign (copied from lead, locked)</td><td>Copied when the deal is created; not editable after</td><td>Contracts per campaign and ROI by campaign both read this field.</td></tr><tr><td>Deal Status</td><td>Picklist</td><td>Always</td><td>Separates deals that are booked from deals that are actually kept.</td></tr><tr><td>ARV</td><td>Currency</td><td>Before Deal Status can move to Offer Sent</td><td>After-repair value from comps. Everything in MAO starts here.</td></tr><tr><td>Your Repair Estimate</td><td>Currency</td><td>Before Deal Status can move to Offer Sent</td><td>Your team&#x27;s repair number, the one MAO uses.</td></tr><tr><td>Buyer&#x27;s Repair Estimate</td><td>Currency</td><td>When a buyer walks the property (optional)</td><td>What the end buyer thinks repairs cost. Comparing it with yours shows whether your estimates run low.</td></tr></tbody></table></div><a class="dl" href="kit/deal-fields.csv" download>Download deal-fields.csv</a>
+<p class="lk"><a href="videos.html#deal-leak-4">Video: Offers off-formula &rarr;</a><a href="wholesaling-mao-calculator.html">MAO calculator &rarr;</a></p></article>
+<article class="card" id="buyer-fields"><h2>3. Buyer fields (10)</h2>
+<p>Turn the buyer list into a database, so each deal goes to the buyers who actually buy that kind of house first.</p>
+<div class="tw"><table><thead><tr><th>Field name</th><th>Type</th><th>Required when</th><th>Why it matters</th></tr></thead><tbody><tr><td>Zips</td><td>Long text (comma-separated) or multi-select</td><td>Before the buyer gets deal blasts</td><td>Lets you send each deal only to buyers who buy in that zip.</td></tr><tr><td>Max Price</td><td>Currency</td><td>Before the buyer gets deal blasts</td><td>Filters out buyers who can&#x27;t pay your price, so the list stays short and relevant.</td></tr><tr><td>Rehab Level</td><td>Multi-select picklist</td><td>Before the buyer gets deal blasts</td><td>A buyer who only wants light rehabs ignores a full gut, and the reverse.</td></tr><tr><td>Closing Speed (days)</td><td>Number</td><td>Optional</td><td>When an inspection period is short, you want the buyers who actually close fast.</td></tr><tr><td>Last Bought Date</td><td>Date</td><td>Updated when the buyer closes one of your deals (or from public records)</td><td>Separates active buyers from names on a list.</td></tr></tbody></table></div><a class="dl" href="kit/buyer-fields.csv" download>Download buyer-fields.csv</a>
+<p class="lk"><a href="wholesaling-crm-glossary.html">Wholesaling CRM glossary &rarr;</a></p></article>
+<article class="card" id="automation-rules"><h2>4. Automation rules (10)</h2>
+<p>Plain-English rules that keep the fields filled in and honest, each with a Salesforce hint and an any-CRM hint.</p>
+<ul><li>No lead leaves New without a source</li><li>Every logged touch counts, and the first one is stamped</li><li>A missed seller call becomes a callback task in 5 minutes</li><li>No open lead without a next date</li><li>Dead needs a reason</li><li>Dead Reason sets the revisit date</li><li>Offers above MAO need a second pair of eyes</li><li>Signing a contract stamps the numbers that matter later</li><li>A fall-out zeroes the fee and records why</li><li>Every Monday, list the hot leads nobody touched</li></ul>
+<a class="dl" href="kit/automation-rules.md" download>Download automation-rules.md</a></article>
+<article class="card" id="monday-5"><h2>5. Monday report spec</h2>
+<p>The five numbers to look at every Monday and the exact fields each one reads from.</p>
+<ul><li>Cost per appointment, by campaign</li><li>Contracts per campaign</li><li>Contract to first seller call</li><li>Booked revenue, forecast vs. actual</li><li>ROI that counts the deals you keep</li></ul>
+<a class="dl" href="kit/monday-5-report-spec.md" download>Download monday-5-report-spec.md</a>
+<p class="lk"><a href="monday-5-real-estate-kpis.html">The Monday 5 &rarr;</a><a href="kept-deal-map.html">The Kept-Deal Map &rarr;</a></p></article>
+<article class="card faq" id="faq"><h2>Questions</h2><dl><dt>Is it really free? Do I need to give my email?</dt><dd>Yes, it&#x27;s free and there&#x27;s no form. Download the files, copy them, change them. Credit is nice but not required.</dd><dt>Does it only work in Salesforce?</dt><dd>No. Every field and rule has a plain-English version for any CRM, including REsimpli, Podio, HubSpot or a spreadsheet. Where Salesforce needs something specific, there&#x27;s a one-line Salesforce hint.</dd><dt>Where should I start if I can only do one thing?</dt><dd>Make Lead Source required before a lead leaves New, and make Next Task Date required on every open lead. Those two fields fix the most common leaks: not knowing which marketing pays, and leads nobody follows up.</dd><dt>Why these fields and not others?</dt><dd>Each one exists so a specific weekly number can be counted: cost per appointment by campaign, contracts per campaign, time from contract to first seller call, booked versus closed revenue, and ROI on kept deals.</dd></dl></article>
+</section>
+<p class="soft">If you'd rather have it set up and tested in your own CRM, <a href="crm-revenue-audit.html">here's what the audit covers</a>.</p>
+</div></main>
+
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong> — Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="crm-field-kit.html">Field kit</a><a href="questions-from-wholesalers.html">Questions</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="mailto:info@AmrMagdy.com">Email</a></div>
+</div></div></footer>
+
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+</body>
+</html>
