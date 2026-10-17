@@ -1,75 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://amrmagdy.com/</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://amrmagdy.com/blog.html</loc><lastmod>2026-10-11</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-vs-follow-up-boss-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-for-real-estate-investors.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-setup-real-estate-brokerage.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-einstein-ai-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-property-management-companies.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-crm-migration-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-automations-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-adoption-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-kpis-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-crm-roi-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-zapier-salesforce-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-appexchange-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://amrmagdy.com/blog-ringcentral-salesforce-integration-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-financial-analytics-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.87</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-real-estate-acquisition-case-log.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.87</priority></url>
-  <url><loc>https://amrmagdy.com/salesforce-consultant-uk-estate-agents.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://amrmagdy.com/salesforce-consultant-canada-real-estate.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://amrmagdy.com/crm-revenue-audit.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://amrmagdy.com/salesforce-health-check.html</loc><lastmod>2026-10-11</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url><loc>https://amrmagdy.com/</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://amrmagdy.com/blog.html</loc><lastmod>2026-10-17</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-vs-follow-up-boss-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-for-real-estate-investors.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-setup-real-estate-brokerage.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-einstein-ai-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-property-management-companies.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-crm-migration-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-automations-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-adoption-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-kpis-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-crm-roi-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-zapier-salesforce-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-appexchange-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://amrmagdy.com/blog-ringcentral-salesforce-integration-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-financial-analytics-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.87</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-real-estate-acquisition-case-log.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.87</priority></url>
+  <url><loc>https://amrmagdy.com/salesforce-consultant-uk-estate-agents.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://amrmagdy.com/salesforce-consultant-canada-real-estate.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://amrmagdy.com/crm-revenue-audit.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://amrmagdy.com/salesforce-health-check.html</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url>
     <loc>https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://amrmagdy.com/resources.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://amrmagdy.com/wholesaling-mao-calculator.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://amrmagdy.com/missed-call-cost-calculator.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://amrmagdy.com/monday-5-real-estate-kpis.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://amrmagdy.com/wholesaling-crm-glossary.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://amrmagdy.com/kept-deal-map.html</loc>
-    <lastmod>2026-10-14</lastmod>
+    <lastmod>2026-10-17</lastmod>
   </url>
   <url>
     <loc>https://amrmagdy.com/videos.html</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://amrmagdy.com/videos/deal-leak-1.jpg</video:thumbnail_loc>
+      <video:title>Deal Leak 1: The 5 leaks</video:title>
+      <video:description>The five points where money leaks between the marketing dollar and the kept deal: spend, answer, follow-up, offer and keep.</video:description>
+      <video:content_loc>https://amrmagdy.com/videos/deal-leak-1.mp4</video:content_loc>
+      <video:duration>105</video:duration>
+      <video:publication_date>2026-10-16</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://amrmagdy.com/videos/deal-leak-2.jpg</video:thumbnail_loc>
+      <video:title>Deal Leak 2: Missed seller calls</video:title>
+      <video:description>Calls to marketing numbers that nobody answers, and the callback task that makes sure each one gets returned.</video:description>
+      <video:content_loc>https://amrmagdy.com/videos/deal-leak-2.mp4</video:content_loc>
+      <video:duration>96</video:duration>
+      <video:publication_date>2026-10-16</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://amrmagdy.com/videos/deal-leak-3.jpg</video:thumbnail_loc>
+      <video:title>Deal Leak 3: Leads with no next step</video:title>
+      <video:description>Leads without a next task quietly die. The fix is a rule that no open lead sits without one.</video:description>
+      <video:content_loc>https://amrmagdy.com/videos/deal-leak-3.mp4</video:content_loc>
+      <video:duration>90</video:duration>
+      <video:publication_date>2026-10-16</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://amrmagdy.com/videos/deal-leak-4.jpg</video:thumbnail_loc>
+      <video:title>Deal Leak 4: Offers off-formula</video:title>
+      <video:description>Offers made from each rep's own spreadsheet, and moving MAO onto the deal record with a review step.</video:description>
+      <video:content_loc>https://amrmagdy.com/videos/deal-leak-4.mp4</video:content_loc>
+      <video:duration>88</video:duration>
+      <video:publication_date>2026-10-16</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://amrmagdy.com/videos/deal-leak-5.jpg</video:thumbnail_loc>
+      <video:title>Deal Leak 5: Fall-outs in your ROI</video:title>
+      <video:description>Cancelled and renegotiated contracts that stay in the numbers, and ROI counted on kept deals only.</video:description>
+      <video:content_loc>https://amrmagdy.com/videos/deal-leak-5.mp4</video:content_loc>
+      <video:duration>84</video:duration>
+      <video:publication_date>2026-10-16</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://amrmagdy.com/videos/deal-leak-6.jpg</video:thumbnail_loc>
+      <video:title>Deal Leak 6: The Monday 5</video:title>
+      <video:description>The five numbers an investor owner should see every Monday, and where each one comes from in the CRM.</video:description>
+      <video:content_loc>https://amrmagdy.com/videos/deal-leak-6.mp4</video:content_loc>
+      <video:duration>83</video:duration>
+      <video:publication_date>2026-10-16</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://amrmagdy.com/videos/systems-that-pay-1.jpg</video:thumbnail_loc>
+      <video:title>Systems That Pay 1: The follow-up stat is fake</video:title>
+      <video:description>The "80% close after the 5th follow-up" stat has no source. What real data says, and how to count your own touches before contract.</video:description>
+      <video:content_loc>https://amrmagdy.com/videos/systems-that-pay-1.mp4</video:content_loc>
+      <video:duration>129</video:duration>
+      <video:publication_date>2026-10-17</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://amrmagdy.com/videos/systems-that-pay-2.jpg</video:thumbnail_loc>
+      <video:title>Systems That Pay 2: Flip margins hit a 2008 low</video:title>
+      <video:description>ATTOM's 2025 report puts flip ROI at 25.5%, the lowest since 2008. Track your repair estimate against the buyer's and feed the gap into MAO.</video:description>
+      <video:content_loc>https://amrmagdy.com/videos/systems-that-pay-2.mp4</video:content_loc>
+      <video:duration>112</video:duration>
+      <video:publication_date>2026-10-17</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://amrmagdy.com/videos/systems-that-pay-3.jpg</video:thumbnail_loc>
+      <video:title>Systems That Pay 3: Your CRM is lying to you</video:title>
+      <video:description>Duplicate sellers, "hot" leads nobody touched in a month, and blank lead source. Two small rules that make the reports honest again.</video:description>
+      <video:content_loc>https://amrmagdy.com/videos/systems-that-pay-3.mp4</video:content_loc>
+      <video:duration>158</video:duration>
+      <video:publication_date>2026-10-17</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://amrmagdy.com/videos/systems-that-pay-4.jpg</video:thumbnail_loc>
+      <video:title>Systems That Pay 4: The lead graveyard</video:title>
+      <video:description>Dead is not a reason. A required dead reason and a revisit date turn old leads into a Monday call list.</video:description>
+      <video:content_loc>https://amrmagdy.com/videos/systems-that-pay-4.mp4</video:content_loc>
+      <video:duration>126</video:duration>
+      <video:publication_date>2026-10-17</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://amrmagdy.com/videos/systems-that-pay-5.jpg</video:thumbnail_loc>
+      <video:title>Systems That Pay 5: Your buyer list is a database</video:title>
+      <video:description>Tag every buyer once, by zip, price, rehab level and proof of funds, so each deal goes to the right 10 first.</video:description>
+      <video:content_loc>https://amrmagdy.com/videos/systems-that-pay-5.mp4</video:content_loc>
+      <video:duration>113</video:duration>
+      <video:publication_date>2026-10-17</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://amrmagdy.com/videos/systems-that-pay-6.jpg</video:thumbnail_loc>
+      <video:title>Systems That Pay 6: Your acquisitions rep isn't selling</video:title>
+      <video:description>Salesforce's 2024 survey: sales reps spend 70% of their time on non-selling tasks. Time one rep for a day and automate the top three.</video:description>
+      <video:content_loc>https://amrmagdy.com/videos/systems-that-pay-6.mp4</video:content_loc>
+      <video:duration>112</video:duration>
+      <video:publication_date>2026-10-17</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://amrmagdy.com/crm-field-kit.html</loc>

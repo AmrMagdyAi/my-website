@@ -1,7 +1,8 @@
 # Amr Magdy — Salesforce for Real Estate Investors and Wholesalers
 > AI-readable profile for generative search engines (llms.txt standard)
 > Source: https://amrmagdy.com
-> Last updated: 2026-10-14
+> Last updated: 2026-10-17
+> Full text of key pages: https://amrmagdy.com/llms-full.txt
 
 ## Identity
 - Full name: Amr Magdy Abd El-Fattah
