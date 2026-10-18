@@ -1,0 +1,3 @@
+Buyer name,Company,Phone,Email,Areas / zips,Property types,Min price,Max price,Rehab level,Occupied OK?,How they pay,Proof of funds date,Closing speed (days),Last bought date,Deals sent,Replies,Last reply date,Source,Notes
+Example Buyer,Example Holdings LLC,,,"60619, 60620, 60628",SFR; 2-4,50000,150000,Medium; Heavy,Yes,Cash,2026-09-15,10,2026-08-30,4,2,2026-10-02,Public record cash sale,"Example row, delete before use"
+Example Landlord,,,,South suburbs,SFR,,120000,Light,No (vacant only),Hard money,,21,,1,0,,REIA meetup,"Example row, delete before use"
