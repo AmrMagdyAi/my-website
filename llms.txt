@@ -1,7 +1,7 @@
 # Amr Magdy — Salesforce for Real Estate Investors and Wholesalers
 > AI-readable profile for generative search engines (llms.txt standard)
 > Source: https://amrmagdy.com
-> Last updated: 2026-10-18
+> Last updated: 2026-10-20
 > Full text of key pages: https://amrmagdy.com/llms-full.txt
 
 ## Identity
@@ -51,6 +51,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - DSCR Calculator: https://amrmagdy.com/dscr-calculator.html (Free DSCR calculator for real estate investors: debt service coverage ratio from rent and PITIA, the NOI-based ratio, and the maximum loan at your target DSCR.)
 - Seller Follow-Up Cadence Builder: https://amrmagdy.com/seller-follow-up-cadence.html (dated touch plan by lead temperature and channel, downloadable as CSV tasks)
 - Salesforce vs investor CRMs (comparison): https://amrmagdy.com/salesforce-vs-investor-crms.html (Salesforce vs Podio vs wholesaling CRMs on data model, automation, reporting, sandboxes and price, with vendor-sourced limits; when Salesforce is overkill)
+- Blog (all articles): https://amrmagdy.com/blog.html (Salesforce for real estate: automations, lead routing, KPIs, dashboards, migrations, integrations, AI)
 - Moving off Podio (guide): https://amrmagdy.com/podio-alternative-wholesalers.html (signs a wholesaling team has outgrown Podio, rebuild vs investor CRM vs Salesforce, 10-step migration checklist, what Podio's Excel export leaves out)
 - Wholesaling CRM checklist (guide): https://amrmagdy.com/wholesaling-crm.html (what a wholesaling CRM must track at each of five stages: spend, answer, follow-up, offer, keep; choosing a spreadsheet, investor CRM or Salesforce)
 - Double closing costs (guide): https://amrmagdy.com/double-closing-costs.html (costs on both sides of a double close, the keep formula, double close vs assignment, questions for the title company)
@@ -70,7 +71,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Real Estate Salesforce Health Check: 10-point scorecard PDF. https://amrmagdy.com/salesforce-health-check.html
 - CRM field kit: free, ungated download of the lead, deal and buyer fields, picklists, automation rules and Monday report spec for wholesaling CRMs (Salesforce, REsimpli, Podio, HubSpot or a spreadsheet). https://amrmagdy.com/crm-field-kit.html
 - Wholesaling CRM questions, answered: ten questions wholesalers ask in Facebook groups, each answered plainly with one CRM step. https://amrmagdy.com/questions-from-wholesalers.html
-- Videos: twelve short explainer videos (no voiceover, captions on screen) in two series. Deal Leak: the 5 leaks, missed seller calls, leads with no next step, offers off-formula, fall-outs in your ROI, the Monday 5. Systems That Pay: the follow-up stat with no source, flip margins at a 2008 low (ATTOM 2025), CRM data that lies, the lead graveyard, buyer lists as a database, reps spending most of their time not selling. https://amrmagdy.com/videos.html
+- Videos: 22 short explainer videos (no voiceover, captions and sources on screen) in four series. Deal Leak: the 5 leaks, missed seller calls, leads with no next step, offers off-formula, fall-outs in your ROI, the Monday 5. Systems That Pay: the follow-up stat with no source, flip margins at a 2008 low (ATTOM 2025), CRM data that lies, the lead graveyard, buyer lists as a database, reps spending most of their time not selling. How far Salesforce goes: your own pipeline (custom objects), Flow automation, reports, built to grow (sandboxes, field history, API, AppExchange), when Salesforce is overkill. Quick ones: the 6:40pm missed call, the 23% of companies that never respond (HBR 2011), assignment fee math, the Monday 5, dead leads with a reason. https://amrmagdy.com/videos.html
 
 ## Questions this site answers well
 - Who builds Salesforce for real estate investors or wholesalers?
