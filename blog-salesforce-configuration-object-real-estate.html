@@ -7,12 +7,12 @@
 <script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');});</script>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
-<title>Manage 50+ Salesforce Automations Without Code</title>
-<meta name="description" content="A Configuration Object that lets non-technical users control Salesforce tasks, Slack messages, emails and SMS without a developer. Built for real estate.">
+<title>Manage 50+ Salesforce Automations Without a Developer</title>
+<meta name="description" content="One settings record lets ops staff switch Salesforce tasks, Slack alerts, emails and texts on or off without code. The real estate build, step by step.">
 <link rel="canonical" href="https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html">
 <link rel="icon" href="imgs/fav.svg" type="image/svg+xml">
 <meta name="theme-color" content="#f7f4ee">
-<meta property="og:title" content="The Salesforce Configuration Object: How to Manage 50+ Automations Without Touching Code">
+<meta property="og:title" content="Manage 50+ Salesforce Automations Without a Developer">
 <meta property="og:description" content="How I built a centralized Configuration Object for a real estate company that lets non-technical users control all Salesforce automations — tasks, Slack messages, emails, and SMS — without any developer involvement.">
 <meta property="og:url" content="https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html">
 <meta property="og:type" content="article">
@@ -22,7 +22,7 @@
 <meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
 <meta property="og:site_name" content="Amr Magdy">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="The Salesforce Configuration Object: How to Manage 50+ Automations Without Touching Code">
+<meta name="twitter:title" content="Manage 50+ Salesforce Automations Without a Developer">
 <meta name="twitter:description" content="How I built a centralized Configuration Object for a real estate company that lets non-technical users control all Salesforce automations — tasks, Slack messages, emails, and SMS — without any developer involvement.">
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "The Salesforce Configuration Object: How to Manage 50+ Automations Without Touching Code", "description": "How I built a centralized Configuration Object for a real estate company that lets non-technical users control all Salesforce automations — tasks, Slack messages, emails, and SMS — without any developer involvement.", "url": "https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html", "datePublished": "2025-06-08", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "publisher": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "image": "https://amrmagdy.com/imgs/AmrMagdyPic.webp", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html"}, "keywords": "Salesforce configuration object real estate, Salesforce automation without code, CRM automation real estate, Salesforce Flow Builder real estate", "wordCount": 1600, "articleSection": "Case Studies", "dateModified": "2026-10-11"}</script>
@@ -153,6 +153,19 @@ String message = MergeFieldReplacer.resolve(
 <a href="index.html#contact" class="btn btn-blue">Book Free Audit &#x2192;</a></div></div></section>
 <section class="rel"><div class="wrap"><h2>More Articles</h2><div class="rel-g"><a href="blog-salesforce-crm-migration-real-estate.html" class="rc"><h4>Real Estate CRM Migration to Salesforce: How to Move Without Losing Data</h4><p>4 min read</p></a><a href="blog-salesforce-einstein-ai-real-estate.html" class="rc"><h4>Salesforce Einstein AI for Real Estate: What It Can Actually Do</h4><p>4 min read</p></a><a href="blog-salesforce-property-management-companies.html" class="rc"><h4>Salesforce for Property Management Companies: CRM That Scales With Your Portfolio</h4><p>4 min read</p></a></div></div></section>
 <section class="rel"><div class="wrap"><h2>Free for investors and wholesalers</h2><div class="rel-g"><a href="crm-field-kit.html" class="rc"><h4>The CRM field kit</h4><p>Lead, deal and buyer fields, automation rules and the Monday report spec</p></a><a href="questions-from-wholesalers.html" class="rc"><h4>Wholesaling CRM questions</h4><p>Real questions from wholesaling groups, answered plainly</p></a><a href="videos.html" class="rc"><h4>Videos: Deal Leak</h4><p>Short videos on where deals leak and how to fix each point</p></a></div></div></section>
+<!-- ask-cta:start -->
+<section class="ask-cta" aria-label="Ask a question" style="max-width:860px;margin:44px auto 0;padding:0 20px">
+<div style="background:#0b1f3a;color:#fff;border-radius:16px;padding:26px 26px 24px;border-top:4px solid #d4a23e">
+<p style="margin:0 0 6px;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#d4a23e;font-weight:700">Found this useful?</p>
+<h2 style="margin:0 0 8px;color:#fff;font-size:1.45rem;line-height:1.25">Ask me how this would work in your CRM.</h2>
+<p style="margin:0 0 18px;color:#c9d4e3;line-height:1.55">Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.</p>
+<div style="display:flex;flex-wrap:wrap;gap:10px">
+<a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20The%20Salesforce%20Configuration%20Object%3A%20How%20to%20Manage%2050%2B%20Automations...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog-salesforce-configuration-object-real-estate.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="background:#d4a23e;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">Email a question</a>
+<a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22The%20Salesforce%20Configuration%20Object%3A%20How%20to%20Manage%2050%2B%20Automations...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="background:#fff;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">WhatsApp</a>
+<a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="background:transparent;color:#fff;font-weight:700;text-decoration:none;padding:10px 17px;border-radius:999px;border:1.5px solid #5d7393">Message on LinkedIn</a>
+<a href="index.html#contact" onclick="if(window.gtag)gtag('event','contact_click',{method:'call_request',page_path:location.pathname})" style="background:transparent;color:#fff;font-weight:700;text-decoration:none;padding:10px 17px;border-radius:999px;border:1.5px solid #5d7393">Request a free call</a>
+</div></div></section>
+<!-- ask-cta:end -->
 <section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
 <img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
 <div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="index.html#about">Amr Magdy</a></p>

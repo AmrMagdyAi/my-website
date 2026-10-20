@@ -7,12 +7,12 @@
 <script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');});</script>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
-<title>Set Up Salesforce for a Real Estate Brokerage</title>
-<meta name="description" content="A step-by-step guide to setting up Salesforce for a brokerage: choosing the edition, lead routing, agent dashboards and transaction tracking.">
+<title>Salesforce for Real Estate Brokers: Setup Guide</title>
+<meta name="description" content="How to set up Salesforce for a real estate brokerage: which edition, lead routing to agents, agent dashboards and transaction tracking, step by step.">
 <link rel="canonical" href="https://amrmagdy.com/blog-salesforce-setup-real-estate-brokerage.html">
 <link rel="icon" href="imgs/fav.svg" type="image/svg+xml">
 <meta name="theme-color" content="#f7f4ee">
-<meta property="og:title" content="How to Set Up Salesforce for a Real Estate Brokerage (Step-by-Step)">
+<meta property="og:title" content="Salesforce for Real Estate Brokers: Setup Guide">
 <meta property="og:description" content="A practical guide to setting up Salesforce for a real estate brokerage — from choosing the right edition to configuring lead routing, agent dashboards, and transaction tracking.">
 <meta property="og:url" content="https://amrmagdy.com/blog-salesforce-setup-real-estate-brokerage.html">
 <meta property="og:type" content="article">
@@ -22,7 +22,7 @@
 <meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
 <meta property="og:site_name" content="Amr Magdy">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="How to Set Up Salesforce for a Real Estate Brokerage (Step-by-Step)">
+<meta name="twitter:title" content="Salesforce for Real Estate Brokers: Setup Guide">
 <meta name="twitter:description" content="A practical guide to setting up Salesforce for a real estate brokerage — from choosing the right edition to configuring lead routing, agent dashboards, and transaction tracking.">
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "How to Set Up Salesforce for a Real Estate Brokerage (Step-by-Step)", "description": "A practical guide to setting up Salesforce for a real estate brokerage — from choosing the right edition to configuring lead routing, agent dashboards, and transaction tracking.", "url": "https://amrmagdy.com/blog-salesforce-setup-real-estate-brokerage.html", "datePublished": "2025-05-20", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "publisher": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "image": "https://amrmagdy.com/imgs/AmrMagdyPic.webp", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://amrmagdy.com/blog-salesforce-setup-real-estate-brokerage.html"}, "keywords": "Salesforce setup real estate brokerage, Salesforce for brokerages, how to set up Salesforce real estate, real estate brokerage CRM", "wordCount": 1400, "articleSection": "How-To Guides", "dateModified": "2026-10-11"}</script>
@@ -136,6 +136,19 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 <a href="index.html#contact" class="btn btn-blue">Request a Free Call &#x2192;</a></div></div></section>
 <section class="rel"><div class="wrap"><h2>More Articles</h2><div class="rel-g"><a href="blog-salesforce-vs-follow-up-boss-real-estate.html" class="rc"><h4>Salesforce vs Follow Up Boss for Real Estate: Which CRM Is Right for You?</h4><p>4 min read</p></a><a href="blog-zapier-salesforce-real-estate.html" class="rc"><h4>Connecting Salesforce to Your Real Estate Stack with Zapier</h4><p>4 min read</p></a><a href="blog-salesforce-appexchange-real-estate.html" class="rc"><h4>Best Salesforce Apps for Real Estate: AppExchange Guide 2025</h4><p>4 min read</p></a></div></div></section>
 <section class="rel"><div class="wrap"><h2>Free for investors and wholesalers</h2><div class="rel-g"><a href="crm-field-kit.html" class="rc"><h4>The CRM field kit</h4><p>Lead, deal and buyer fields, automation rules and the Monday report spec</p></a><a href="questions-from-wholesalers.html" class="rc"><h4>Wholesaling CRM questions</h4><p>Real questions from wholesaling groups, answered plainly</p></a><a href="videos.html" class="rc"><h4>Videos: Deal Leak</h4><p>Short videos on where deals leak and how to fix each point</p></a></div></div></section>
+<!-- ask-cta:start -->
+<section class="ask-cta" aria-label="Ask a question" style="max-width:860px;margin:44px auto 0;padding:0 20px">
+<div style="background:#0b1f3a;color:#fff;border-radius:16px;padding:26px 26px 24px;border-top:4px solid #d4a23e">
+<p style="margin:0 0 6px;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#d4a23e;font-weight:700">Found this useful?</p>
+<h2 style="margin:0 0 8px;color:#fff;font-size:1.45rem;line-height:1.25">Ask me how this would work in your CRM.</h2>
+<p style="margin:0 0 18px;color:#c9d4e3;line-height:1.55">Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.</p>
+<div style="display:flex;flex-wrap:wrap;gap:10px">
+<a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20How%20to%20Set%20Up%20Salesforce%20for%20a%20Real%20Estate%20Brokerage%20%28Step-by-Step%29&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog-salesforce-setup-real-estate-brokerage.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="background:#d4a23e;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">Email a question</a>
+<a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22How%20to%20Set%20Up%20Salesforce%20for%20a%20Real%20Estate%20Brokerage%20%28Step-by-Step%29%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="background:#fff;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">WhatsApp</a>
+<a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="background:transparent;color:#fff;font-weight:700;text-decoration:none;padding:10px 17px;border-radius:999px;border:1.5px solid #5d7393">Message on LinkedIn</a>
+<a href="index.html#contact" onclick="if(window.gtag)gtag('event','contact_click',{method:'call_request',page_path:location.pathname})" style="background:transparent;color:#fff;font-weight:700;text-decoration:none;padding:10px 17px;border-radius:999px;border:1.5px solid #5d7393">Request a free call</a>
+</div></div></section>
+<!-- ask-cta:end -->
 <section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
 <img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
 <div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="index.html#about">Amr Magdy</a></p>
