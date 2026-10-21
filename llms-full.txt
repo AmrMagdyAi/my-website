@@ -404,6 +404,8 @@ Wholesaling CRM questions
 Real questions from wholesaling groups, answered plainly
 Videos: Deal Leak
 Short videos on where deals leak and how to fix each point
+Related guides
+Dialers in Salesforce (Open CTI ends 2028) · Texting sellers from Salesforce
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
@@ -496,6 +498,8 @@ Wholesaling CRM questions
 Real questions from wholesaling groups, answered plainly
 Videos: Deal Leak
 Short videos on where deals leak and how to fix each point
+Related guides
+Salesforce integrations for investors · DocuSign + Salesforce
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
@@ -544,6 +548,8 @@ Wholesaling CRM questions
 Real questions from wholesaling groups, answered plainly
 Videos: Deal Leak
 Short videos on where deals leak and how to fix each point
+Related guides
+37 Salesforce features for investors
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
@@ -793,6 +799,8 @@ Wholesaling CRM questions
 Real questions from wholesaling groups, answered plainly
 Videos: Deal Leak
 Short videos on where deals leak and how to fix each point
+Related guides
+QuickBooks + Salesforce
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
@@ -861,6 +869,8 @@ Wholesaling CRM questions
 Real questions from wholesaling groups, answered plainly
 Videos: Deal Leak
 Short videos on where deals leak and how to fix each point
+Related guides
+37 Salesforce features for investors · Salesforce integrations for investors · Which Salesforce edition
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
@@ -960,6 +970,8 @@ Wholesaling CRM questions
 Real questions from wholesaling groups, answered plainly
 Videos: Deal Leak
 Short videos on where deals leak and how to fix each point
+Related guides
+Dialers in Salesforce
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
@@ -1285,6 +1297,8 @@ Wholesaling CRM questions
 Real questions from wholesaling groups, answered plainly
 Videos: Deal Leak
 Short videos on where deals leak and how to fix each point
+Related guides
+Native integration or Zapier? · Lead sources into Salesforce
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
@@ -1672,7 +1686,7 @@ Required lead source, a next follow-up date on every open lead, a missed call cr
 Is Salesforce too much for a new wholesaler?
 Usually yes. Start with a spreadsheet or an investor CRM. Salesforce makes sense once you have several people, markets or reporting needs your tool cannot handle.
 Related
-Speed to lead & follow-up statistics · Wholesaling CRM checklist · Salesforce vs investor CRMs · Follow-up cadence builder · Missed call cost · All free tools
+Real estate CRM guide · Speed to lead & follow-up statistics · Wholesaling CRM checklist · Salesforce vs investor CRMs · Follow-up cadence builder · Missed call cost · All free tools
 Last updated October 2026.
 Want this built into your CRM?
 I build Salesforce for real estate investors and wholesalers, and the same rules work in any CRM. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -2045,6 +2059,135 @@ Last updated October 17, 2026. More free tools: all free tools · wholesaling CR
 If you want someone to look at your CRM with you, here's what the audit covers .
 
 ---
+## Real Estate CRM for Investors: The Complete Guide (2026)
+URL: https://amrmagdy.com/real-estate-crm-guide.html
+
+Real estate CRM for investors: the complete guide.
+A real estate CRM for investors is the system that tracks every seller, property, offer and buyer and makes sure no lead is forgotten. This guide covers how to choose one, the records and stages it needs, what to automate and connect, the numbers to review weekly, compliance, and a 30-day setup plan, with links to every free tool on this site.
+A real estate CRM is the system that holds every seller, property, offer and buyer, and makes sure no lead is forgotten . For investors it replaces sticky notes, spreadsheets and memory.
+The parts that matter: a data model built around properties, pipeline stages with rules, automation for follow-up, integrations with your phone and lead sources, and five numbers you review every week.
+This guide links every free tool, checklist and deep dive on this site, so you can build or fix your CRM in order.
+Contents: What it is Do you need one Types Data model Stages Automation Follow-up Integrations Reports Compliance 30-day setup Mistakes Toolkit
+What is a real estate CRM?
+A CRM (customer relationship management system) is a database plus rules. For a real estate investor, the database holds sellers, properties, offers, contracts and buyers; the rules decide who calls a lead, when, and what must be captured before a lead moves forward. A real estate agent CRM is built around buyers and listings; an investor CRM is built around motivated sellers, offers and dispositions. That difference is why generic advice often doesn’t fit wholesalers.
+When does an investor need a CRM?
+When a lead can be forgotten and nobody notices. In practice: more than one person talks to sellers, follow-ups depend on memory, or you can’t say which list paid for your last deal. The 7-sign checklist walks through it, including what a spreadsheet still does well.
+What kinds of real estate CRMs are there?
+Type | Good at | Watch for
+Investor-specific CRMs | Ready on day one: seller fields, stages, often calling and texting built in | Limits on custom data and reports as you grow
+General CRMs (HubSpot, Pipedrive and similar) | Clean pipelines, email, easy start | Built for B2B sales; property and offer tracking is on you
+Salesforce | Your own data model, deep automation, any report, large integration ecosystem | Needs setup; edition decides what’s possible
+Podio and no-code tools | Flexible and cheap to start | Becomes hard to maintain; see moving off Podio
+Side-by-side with sources: Salesforce vs investor CRMs · Salesforce vs Follow Up Boss · wholesaling CRM .
+What records and fields should a real estate CRM have?
+Record | One per | Must-have fields
+Lead / Seller | Person who might sell | Lead source (picklist), phone, motivation, timeline, consent and opt-out, next follow-up date, owner
+Property | Address | Address, type, beds/baths, condition, ARV, repair estimate, occupancy, list/owner status
+Deal (Opportunity) | Property you’re working to contract | Stage, offer amount, MAO, contract price, closing date, exit type, dead reason
+Offer | Each offer made | Amount, date, rep, status (so offers made vs signed is reportable)
+Buyer | Cash buyer or fund | Buy box (zips, price range, property types), proof of funds, last deal
+Campaign | List, mailer, PPC or channel | Spend, dates, channel, so cost per lead and per deal compute
+Activities | Call, text, email, task | Outcome (picklist), attempt number, recording link
+The full field list with picklist values is in the free CRM field kit . Definitions of every term: wholesaling CRM glossary .
+What pipeline stages should a wholesaler use?
+Stage | Enters when | Can’t leave without
+New | Lead created | First contact attempt logged
+Contacted | Talked to the seller | Timeline, reason, condition, next follow-up date
+Appointment | Walkthrough or call booked | Date, address confirmed, decision makers known
+Offer made | Offer sent | Offer amount, MAO, offer date
+Under contract | Seller signed | Contract price, signed contract on file, closing date, title company
+Marketing to buyers | Dispo started | Assignment ask, buyers sent
+Assigned / Closed | Buyer signed or closed | Buyer, assignment price, fee, exit type
+Dead | Any stage | Dead reason (picklist) and a re-contact date if it’s “not now”
+Rules like “can’t leave without” are validation rules in Salesforce; most investor CRMs support required fields per stage too. See data quality features .
+What should a real estate CRM automate?
+New lead → assigned owner and a call task due within minutes. Contacting within an hour made firms nearly 7× as likely to qualify a lead .
+Missed inbound call → callback task plus a text, if you have consent. Only 2% of unanswered callers leave a voicemail .
+No activity in 7 days → follow-up task for the owner.
+“Not now” → re-contact date and a long-term cadence, not a dead lead.
+Under contract → title task, dispo alert and buyer list match.
+Offer above MAO → manager approval.
+Duplicate lead → alert and merge, keeping the first source.
+Monday → the five KPI numbers emailed to the owner.
+Examples in Salesforce: 5 automations every real estate team needs .
+How much follow-up does a seller lead need?
+More than most teams give it. 93% of converted leads were reached by the sixth call attempt in Velocify’s 2012 data, yet half of leads in the same research were never called a second time. Build the cadence into the CRM so it doesn’t depend on memory: follow-up cadence builder · speed to lead guide · all 62 statistics .
+What should a real estate CRM connect to?
+Tool | Why connect it | Guide
+Phone / dialer | Every call and outcome on the lead | Dialers
+Texting | Texts in the same timeline; opt-outs respected | Texting and 10DLC
+Lead sources | Source on every lead, through to the deal | Lead sources
+E-signature | Contracts on the deal | DocuSign
+Accounting | Fees invoiced and collected, reportable | QuickBooks
+Everything else | Email, files, Slack, maps, scheduling | All integrations
+Which numbers should an investor review every week?
+Five is enough to run the business: new leads by source, speed to first contact, offers made, contracts signed, and cost per kept deal. Fall-outs come out of the count. Details and formulas: the Monday 5 · KPIs in Salesforce · pipeline dashboard · kept deal map .
+Calculators: cost per deal · MAO · deal analyzer · team capacity · missed call cost .
+What compliance rules affect an investor’s CRM?
+Texting: app-to-person texts over 10DLC numbers in the US require brand and campaign registration, per Twilio. CTIA’s guidance calls for express written consent for marketing texts and advises against rented, sold or shared lists. Store consent and opt-out on the lead. Texting guide
+Calling: keep DNC flags from your list or skip-tracing provider on the record, and make every dialer respect them.
+Platform changes: Salesforce’s Open CTI, used by many dialers, reaches end of life on February 28, 2028. Dialer guide
+This is not legal advice; state wholesaling and telemarketing rules vary.
+How do you set up a real estate CRM in 30 days?
+Week 1: Decide the model
+Write your stages on one page, with the fields required to leave each one. Pick lead source values. Decide who owns which leads.
+Week 2: Build and import
+Create fields, stages and rules. Clean and import one list first; the Data Import Wizard handles up to 50,000 records at a time in Salesforce. Check duplicates before the rest.
+Week 3: Connect and automate
+Phone and texting first, then web forms and lead sources. Turn on the new-lead task, missed-call task and no-activity sweep.
+Week 4: Train and measure
+Train on the five things each role does daily. Start the Monday review with the five numbers. Fix the field people skip most. See getting your team to use it .
+Moving from another system: CRM migration · Podio migration checklist · replacing Zapier chains .
+What are the most common real estate CRM mistakes?
+Mistake | Fix
+Lead source typed as free text | One picklist, set automatically
+Leads with no next step | Every open lead has a task with a due date
+“Dead” used for “not now” | A not-now status with a re-contact date
+Source lost when the lead becomes a deal | Map the source to the deal and keep it to close
+Each rep with their own offer math | One MAO formula on the deal
+Fall-outs counted as wins | Cancelled contracts out of campaign ROI
+Calls logged in the dialer only | Outcome fields on the Salesforce record
+Building everything before anyone uses it | Launch the core in 30 days, then add
+Score your own setup in two minutes: Deal Leak Score .
+Every free tool and guide on this site
+Area | Tools and guides
+Choose | Do I need a CRM? · Salesforce vs investor CRMs · Is Salesforce worth it? · Which Salesforce edition?
+Build | CRM field kit · 37 Salesforce features · configuration object · cold caller handoff
+Connect | Integrations hub · AppExchange apps · Zapier · RingCentral
+Respond | Speed to lead · Statistics · Follow-up cadence · Lead routing
+Deal math | MAO · Assignment fee · Assignment vs double close · Double closing costs · Cash buyers list
+Rentals | BRRRR · DSCR · Rental yield · Property management
+Measure | Monday 5 · Deal Leak Score · CRM ROI · Salesforce health check
+Outside the US | Canada · UK
+Questions
+What is the best CRM for real estate investors?
+It depends on team size and how custom your process is. Investor-specific CRMs are fastest to start; Salesforce fits teams that need their own data model, deep automation and custom reports. Compare on data model, follow-up automation, phone integration and reporting, not feature counts.
+What should a real estate investor CRM track?
+Sellers with lead source and next follow-up date, properties, every offer, contracts, buyers with buy boxes, campaigns with spend, and every call and text with an outcome.
+How is an investor CRM different from a realtor CRM?
+A realtor CRM centers on buyers, listings and the sphere of influence. An investor CRM centers on motivated sellers, offers, contracts, dispositions to cash buyers and cost per deal by lead source.
+How long does it take to set up a real estate CRM?
+A usable core (stages, required fields, lead sources, phone logging and the key automations) can be live in about 30 days. Reports and extra integrations come after the team is using it.
+Can a CRM help with speed to lead?
+Yes. Automatic assignment and a task due within minutes for every new lead, plus a callback task for missed calls, make response time a process instead of a habit.
+Sources
+Harvard Business Review: The Short Life of Online Sales Leads (2011)
+Validity: The State of CRM Data Management in 2025
+Salesforce: State of Sales report announcement (Feb 2026)
+ATTOM: Q2 2026 U.S. Home Flipping Report
+BatchData: Investor Pulse Q2 2026
+Twilio: A2P 10DLC
+CTIA Messaging Principles and Best Practices (2023)
+Salesforce Help: Open CTI end of life
+Salesforce Help: Data Import Wizard limits
+Related
+Salesforce features · Integrations · Statistics · All free tools
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want this built for your team?
+I build Salesforce for real estate investors and wholesalers: the data model, stages, automation, integrations and Monday numbers in this guide, set up around your process. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
 ## Speed to Lead & Follow-Up Statistics for Investors (2026)
 URL: https://amrmagdy.com/real-estate-lead-response-statistics.html
 
@@ -2165,7 +2308,7 @@ Every statistic was read on the linked page in October 2026. Where the original 
 Cite this page
 Amr Magdy, “Speed to Lead & Follow-Up Statistics for Real Estate Investors (2026),” amrmagdy.com, October 2026, https://amrmagdy.com/real-estate-lead-response-statistics.html
 Related
-Speed to lead guide · Missed call cost calculator · Follow-up cadence builder · Cold caller handoff checklist · All free tools
+Real estate CRM guide · Speed to lead guide · Missed call cost calculator · Follow-up cadence builder · Cold caller handoff checklist · All free tools
 Want your own speed-to-lead number?
 I build Salesforce for real estate investors and wholesalers with lead response time, follow-up attempts and missed calls measured automatically. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
@@ -2210,6 +2353,26 @@ URL: https://amrmagdy.com/resources.html
 
 Free tools for real estate investors & wholesalers.
 Calculators, a weekly KPI framework and a glossary I built from working inside a home-buying company's Salesforce. Use them on your own numbers in US dollars, Canadian dollars, pounds or euros; nothing you type into a calculator leaves your browser.
+Real estate CRM and Salesforce guides
+How to choose, build and connect a CRM for investing, with every fact linked to its source.
+Real estate CRM: the complete guide
+Data model, stages, automation, integrations, KPIs, compliance and a 30-day setup plan, with every tool linked.
+37 Salesforce features for investors
+Custom objects, Flow, validation rules, routing, reports, mobile, portals and AI, with limits by edition.
+Salesforce integrations for investors
+DocuSign, QuickBooks, dialers, texting, Facebook and Google Ads, PropStream, Slack: what each syncs and needs.
+Which Salesforce edition do investors need?
+Starter vs Professional vs Enterprise vs Unlimited by custom objects, flows and API access. No list prices.
+DocuSign + Salesforce
+Purchase and assignment contracts sent, signed and filed from the deal.
+QuickBooks + Salesforce
+Assignment fees invoiced from the deal; paid status and cost per deal in reports.
+Dialers in Salesforce (Open CTI ends 2028)
+RingCentral, Aircall, Dialpad, Twilio: editions, call logging and the 2028 deadline.
+Texting sellers from Salesforce
+10DLC registration, CTIA consent guidance, opt-outs and the tools that log texts.
+Every lead source into Salesforce
+Web-to-Lead, Facebook lead ads, Google Ads conversion import, CallRail and lists.
 Wholesaling and acquisitions
 Underwrite offers, price your exits and see what each lead source really costs.
 Deal Leak Score
@@ -2353,6 +2516,365 @@ Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 
 ---
+## Salesforce Dialers for Real Estate: Open CTI Ends 2028
+URL: https://amrmagdy.com/salesforce-dialer-real-estate.html
+
+Dialers in Salesforce for real estate teams.
+RingCentral, Aircall, Dialpad and Twilio all log calls into Salesforce, but Salesforce’s Open CTI, which many of them use, reaches end of life on February 28, 2028. Here’s how each dialer connects, which edition it needs, what a wholesaling team should log, and how to plan for 2028.
+Salesforce says Open CTI reaches end of life on February 28, 2028, and existing implementations stop working after that. Salesforce Voice is the recommended replacement. source
+Many dialer integrations use Open CTI; Twilio Flex’s docs say its Salesforce integration will stop working after that date. source
+Edition matters: RingCentral supports Professional and above; Aircall and Dialpad require Enterprise or Unlimited. RingCentral · Aircall · Dialpad
+The last two numbers are from my speed to lead statistics page , with sources.
+How do the main dialers connect to Salesforce?
+Dialer | What it does in Salesforce | Salesforce edition | Other requirements
+RingCentral for Salesforce | Click to dial and click to text, automatic call and message logging, screen pops, voicemail, in-app calling | Professional and above | RingCentral Advanced or Ultra; admin install
+Aircall | Calls in and out from Salesforce; logs details, tags and recordings; works across leads, contacts and accounts | Enterprise or Unlimited | Aircall Professional plan; same email in both systems
+Dialpad | CTI, power dialer, call logging; SMS logged as completed tasks on the contact (not opportunities) | Enterprise or Unlimited, API enabled | Dialpad Connect, Support or Sell license
+Twilio Flex | Agent UI inside Salesforce; click to dial, screen pop, activity logging | Not stated | Flex account; subject to the Open CTI retirement
+Salesforce Voice | Native telephony with Amazon Connect; Salesforce’s recommended Open CTI replacement | Licensed separately | —
+Sources: RingCentral · RingCentral FAQ · Aircall · Dialpad · Dialpad SMS logging · Twilio Flex · Salesforce Voice
+What does the Open CTI retirement mean for an investor?
+If your dialer shows inside Salesforce today, it probably runs on Open CTI. Nothing breaks before February 28, 2028, but anything you build now should have a path past it. Dialpad, for example, says Dialpad for Salesforce is not being retired and lists Salesforce Voice or Dialpad Everywhere as options. source
+Ask your dialer vendor, in writing, what their post-2028 Salesforce integration is.
+Keep call outcomes in your own Salesforce fields, not only in the vendor’s objects, so reports survive a switch.
+If you’re choosing a dialer now, weigh the vendor’s 2028 plan as much as today’s features.
+What should a dialer integration log for a wholesaling team?
+Field | Why
+Call outcome (picklist) | Contact rate and conversion by list; see the handoff checklist
+Call direction and duration | Separates inbound sellers from outbound dials
+Recording link | Coaching and dispute checks
+Missed inbound call → task | Only 2% of unanswered callers leave a voicemail; the task is the callback. See the missed call calculator
+Attempt number | Follow-up cadence reporting; most leads get one or two attempts
+Recorded calls can also feed Einstein Conversation Insights, which lists RingCentral, Dialpad and Aircall among its voice connectors. source
+Questions
+Is Salesforce Open CTI being retired?
+Yes. Salesforce Help says Open CTI reaches end of life on February 28, 2028, existing implementations stop working after that, and Salesforce Voice is the recommended replacement.
+Which dialer works with Salesforce Professional Edition?
+RingCentral lists Professional and above. Aircall and Dialpad require Enterprise or Unlimited.
+Can Salesforce log texts from my dialer?
+Some dialers do. Dialpad logs SMS as completed tasks on the contact’s activity history, but not on opportunities and not from shared lines. RingCentral logs calls and messages.
+What is the best dialer for wholesalers using Salesforce?
+It depends on your edition and volume. Check the Salesforce edition each vendor requires, how calls are logged, and the vendor’s plan after Open CTI ends in 2028.
+Sources
+Salesforce Help: Open CTI end of life
+Twilio: Flex and Salesforce
+RingCentral for Salesforce
+RingCentral: App for Salesforce FAQ
+Aircall: Salesforce integration
+Dialpad: Install Dialpad for Salesforce
+Dialpad: SMS logging in Salesforce
+Dialpad: Open CTI deprecation FAQ
+Salesforce Developers: Salesforce Voice
+Salesforce Help: Einstein Conversation Insights
+Related
+All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · RingCentral call sync with Apex · Texting sellers from Salesforce
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want every call on the lead?
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## DocuSign + Salesforce for Real Estate Investors
+URL: https://amrmagdy.com/salesforce-docusign-real-estate.html
+
+DocuSign + Salesforce for real estate investors.
+DocuSign connects to Salesforce through Docusign’s own AppExchange package : you send purchase and assignment contracts from the deal record, templates fill themselves from Salesforce fields, and signed documents come back to the record. Here’s what it does, what it needs and how I set it up for wholesalers.
+Docusign builds Docusign eSignature for Salesforce , an AppExchange package that sends agreements from Salesforce records and writes signed documents and signer data back. source
+Templates pull record fields through merge fields, so seller name, property address and price fill themselves. source
+Salesforce lists it as working with Professional, Enterprise, Unlimited, Developer, Starter and Performance. It needs a separate Docusign subscription. source
+What does DocuSign do inside Salesforce?
+Capability | What Docusign’s listing says | What I use it for in wholesaling
+Send from a record | Send agreements to Salesforce contacts or any email, with messages, reminders and authentication | Purchase agreement to the seller from the deal, not from someone’s inbox
+Templates with merge fields | “Create agreements from Docusign templates that use Salesforce data through merge fields” | Seller name, address, price and closing date typed once in Salesforce, never retyped in a PDF
+Write-back | “Signed documents and signer-provided data are written back to Salesforce” | The signed contract lives on the deal; title, dispo and the owner all see the same file
+Mobile | Mobile-responsive signing and Salesforce mobile support | Sellers sign on a phone at the kitchen table
+Setup | “Clicks-not-code”; the package’s tabs and objects don’t count against org limits | No custom code needed for the basic flow
+Sources: AppExchange listing · Salesforce integration page . Docusign also sells Gen for Salesforce (documents generated from Salesforce data) and CLM for Salesforce (contract templates and workflows). source
+What does a contract flow look like for a wholesaler?
+1. Offer accepted
+The acquisitions rep clicks Send with Docusign on the deal. The purchase agreement template fills from the deal: seller, address, price, earnest money, closing date.
+2. Seller signs
+The signed PDF and signer data come back to the deal. I key a Flow on that write-back to move the stage to Under Contract and create the title-company task.
+3. Dispo assigns
+The assignment contract template goes to the end buyer from the same deal, with the assignment price and fee filled in.
+4. Everything in one place
+Both signed contracts sit on the deal. When a closing gets delayed or a buyer backs out, nobody has to search email for “the latest version”.
+Before you build this, make sure the fields exist: contract price, assignment price, assignment fee , closing date, title company. Those are what the templates merge.
+What should you check before installing?
+A Docusign plan with the Salesforce integration. The AppExchange listing shows a published price of “starts at $30 per user per month” and a 30-day free trial (as of October 2026). source
+Your contract templates reviewed by your attorney for each state you buy in. The integration fills fields; it doesn’t make a contract valid.
+Which record you send from. I send from the deal (Opportunity or a custom Deal object), not the lead, so every contract stays with the property.
+Docusign’s status-object details. I couldn’t read Docusign’s admin guide pages (they only load with JavaScript), so confirm the exact objects in the admin guide before building reports on them.
+Questions
+Can I send a purchase agreement from Salesforce with DocuSign?
+Yes. With Docusign eSignature for Salesforce installed, you send agreements from a record using a Docusign template whose merge fields pull data from Salesforce, and the signed document is written back to Salesforce.
+Does DocuSign for Salesforce work on Professional Edition?
+Salesforce lists Docusign as working with Professional, Enterprise, Unlimited, Developer, Starter and Performance editions.
+Can a signed DocuSign contract update the deal stage?
+The package writes signed documents and signer data back to Salesforce. A record-triggered Flow can react to that write-back and move the stage. Confirm which object changes in Docusign’s admin guide before you build it.
+Do I need a separate DocuSign subscription?
+Yes. The integration requires a Docusign plan; the AppExchange listing shows pricing and a 30-day free trial.
+Sources
+AppExchange: Docusign eSignature for Salesforce
+Salesforce: Docusign integration with Salesforce
+Docusign: Salesforce integrations (Gen, CLM)
+Related
+All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Assignment fee guide · QuickBooks + Salesforce
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want contracts on every deal, automatically?
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Which Salesforce Edition Do Real Estate Investors Need?
+URL: https://amrmagdy.com/salesforce-edition-real-estate-investors.html
+
+Which Salesforce edition do real estate investors need?
+Most real estate investing teams need Salesforce Enterprise , because it allows 200 custom objects for properties, offers and buyers, 2,000 active flows and API access for integrations. Professional can work for small teams that fit in 5 flows; Starter can’t hold property records at all. Here’s the comparison, from Salesforce’s own limits pages.
+Starter allows 0 custom objects, so it can’t hold Property, Offer or Buyer records. Fine for a solo investor tracking contacts; not a wholesaling system. source
+Professional / Pro Suite allows 50 custom objects but only 5 flows, and API access is an add-on, which many integrations need. source · source
+Enterprise is where most growing investor teams land: 200 custom objects, 2,000 active flows, API included, approvals and joined reports. source
+Don’t compare on list price. Most businesses get a discount from a Salesforce account executive based on the business and number of users.
+What can each Salesforce edition do for an investor?
+ | Starter | Professional / Pro Suite | Enterprise | Unlimited
+Custom objects (Property, Offer, Buyer) | 0 | 50 | 200 | 2,000
+Custom fields per object | 25 | 100 | 500 | 800
+Flows | Not listed | 5 | 4,000 (2,000 active) | 4,000 (2,000 active)
+Active validation rules per object | 20 | 20 | 100 | 500
+API access (needed by many integrations) | Not stated | Add-on | Included | Included
+Flow Approval Processes | — | — | Yes | Yes
+Joined reports | — | — | Yes | Yes
+Custom report types | — | 50 | 300 | 2,000
+Sales Engagement cadences | — | Extra cost | Extra cost | Included
+Experience Cloud portals | — | — | Yes, licenses extra | Yes, licenses extra
+Data Loader | — | Via API add-on | Yes | Yes
+Sources: Starter · Pro Suite · Professional · Enterprise · Unlimited · API · API by edition · approvals · reports · Sales Engagement · Experience Cloud · import tools . Pro Suite and Professional allocations match on the pages read.
+Which edition fits which investor?
+Solo investor, a few deals a year
+You may not need Salesforce at all. If you do, the question is whether you need Property and Offer records; if yes, Starter won’t do it. See do I need a CRM yet? and when Salesforce is overkill .
+Small team, one market, few integrations
+Professional or Pro Suite can work if 5 flows cover your automation and your phone and e-signature tools support it (DocuSign and RingCentral list Professional). Count your flows before you buy.
+Team with acquisitions, dispo and VAs, several lead sources
+Enterprise. You’ll want more than 5 flows within months, approvals for offers above MAO, joined reports, and API access for CallRail, Google Ads conversion import, Calendly or Aircall, which require it or Enterprise outright. CallRail · Calendly
+Multiple markets or a fund with investor reporting
+Enterprise or Unlimited, depending on volume, sandbox needs and whether Sales Engagement cadences are worth having included.
+Why do Salesforce edition names keep changing?
+Salesforce repackages often. In June 2025, Agentforce 1 editions replaced Einstein 1 editions. source Names may have changed again since this page was written, so map your needs to the limits above (custom objects, flows, API access) and ask your account executive which current edition delivers them.
+What does Salesforce cost for an investor?
+I don’t publish list prices, because most businesses don’t pay them. After a conversation with a Salesforce account executive, many get a discount based on the business and the number of users. Get a quote for your exact user count and edition, then add the setup cost, before you compare with an investor CRM.
+Questions
+Which Salesforce edition is best for wholesalers?
+Most wholesaling teams with several roles and lead sources fit Enterprise: 200 custom objects, 2,000 active flows and API access included. Professional can work for small teams if 5 flows and its integrations are enough.
+Can Salesforce Starter track properties?
+Not as separate records. Starter allows 0 custom objects, so you can’t add Property, Offer or Buyer objects.
+Does Salesforce Professional include API access?
+No. Salesforce says Professional can add API access as an add-on; it’s included by default in Enterprise, Unlimited, Performance and Developer.
+How many flows does Professional Edition allow?
+Salesforce’s allocation page for Professional lists 5 flows, versus 4,000 total and 2,000 active in Enterprise and Unlimited.
+Do investors pay Salesforce list price?
+Most businesses don’t. A Salesforce account executive can offer a discount based on the business and number of users, so get a quote before comparing.
+Sources
+Salesforce Help: Starter allocations
+Salesforce Help: Pro Suite allocations
+Salesforce Help: Professional allocations
+Salesforce Help: Enterprise allocations
+Salesforce Help: Unlimited allocations
+Salesforce Developers: API supported editions
+Salesforce Help: API access by edition
+Salesforce Help: Flow Approval Processes editions
+Salesforce Help: reports and dashboards limits
+Salesforce Help: Sales Engagement
+Salesforce Help: Experience Cloud license types
+Salesforce Help: which data import tool
+Salesforce News: Agentforce 1 editions (June 2025)
+Calendly: Salesforce requirements
+CallRail: Salesforce integration
+Related
+Salesforce features for investors · Integrations · Salesforce vs investor CRMs · Is Salesforce worth it? · Real estate CRM guide
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Not sure which edition you need?
+Tell me your team, lead sources and tools, and I’ll tell you which edition fits and what to ask your Salesforce account executive. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Salesforce Features for Real Estate Investors (2026)
+URL: https://amrmagdy.com/salesforce-features-real-estate.html
+
+Salesforce features that matter for real estate investors.
+For real estate investors, the Salesforce features that pay off are custom objects, Flow automation, validation rules, lead routing and reporting : they turn a contact list into a system that tracks every property, offer and buyer. Below are 37 features, what each does for a wholesaling or investing team, and the edition limits that decide whether you can use it.
+The Salesforce features that matter most to investors aren’t the AI headlines. They’re custom objects (Property, Offer, Buyer), Flow automation, validation rules , assignment rules and reports .
+Starter allows 0 custom objects , so it can’t hold a Property or Offer object. Professional allows 50 and only 5 flows; Enterprise allows 200 objects and 2,000 active flows. source · source · source
+Each feature below has what it does, how a wholesaling or investing team uses it, and the edition or limit to know, linked to Salesforce’s own documentation.
+Jump to: Data model Automation Routing Data quality Reporting Outreach Mobile Portals AI Security Import By edition
+Can Salesforce model properties, offers and buyers?
+Yes, with custom objects and relationships. This is the biggest difference from most investor CRMs, which give you a fixed lead-and-deal structure.
+Custom objects
+What it does: Your own record types with their own fields, layouts and reports. In real estate: A Property object (one record per address, however many times it’s marketed), an Offer object (every offer, not just the last one), a Buyer object with buy box fields. Edition / limit: Starter 0, Pro Suite and Professional 50, Enterprise 200, Unlimited 2,000. Custom fields per object: 25 / 100 / 100 / 500 / 800. source
+Lookup and master-detail relationships
+What it does: Link records. Master-detail deletes children with the parent and allows roll-ups; lookup doesn’t. In real estate: Offers as master-detail children of a Property, so “number of offers” and “highest offer” roll up. Seller as a lookup, because one seller can own several properties. Edition / limit: 2 master-detail and 40 total relationships per object. source
+Junction objects
+What it does: A many-to-many link built from two master-detail relationships. In real estate: Property ↔ Buyer: which buyers were sent which deal, who viewed it, who offered. That’s your dispo history. Edition / limit: Can carry roll-ups to both parents. source
+Roll-up summary fields
+What it does: Count, sum, min or max of child records on the parent. In real estate: Offers per property, total assignment fees per lead source, deals per buyer. Edition / limit: 25 per object by default, up to 40 via Support. source
+Formula fields
+What it does: Read-only fields calculated from other fields. In real estate: MAO = ARV × 70% − repairs. Assignment fee = buyer price − contract price. Days since last contact. Edition / limit: All editions; up to 3,900 characters. source · see the MAO calculator
+What can Salesforce automate for a real estate team?
+Flow (record-triggered)
+What it does: Runs when a record is created, updated or deleted. In real estate: New lead → task for the assigned rep due in 5 minutes. Missed call → callback task. Stage = Under Contract → post to the dispo channel. Edition / limit: Professional and Pro Suite: 5 flows. Enterprise and Unlimited: 4,000 total, 2,000 active. source · Professional · Enterprise
+Flow (schedule-triggered)
+What it does: Runs at a set time and frequency on a batch of records. In real estate: Every morning: leads with no activity in 7 days get a follow-up task. Every Monday: stale offers flagged. Edition / limit: Same flow allocation as above. source
+Screen flows
+What it does: Guided forms with steps and logic. In real estate: A seller intake script that asks timeline, condition and reason, and only shows the asking-price question when the lead is hot. See the cold caller handoff checklist . Edition / limit: Same flow allocation. source
+Flow Approval Processes
+What it does: Multistep approvals where each step assigns a work item to a user, group or queue. In real estate: Offers above MAO, or above a dollar threshold, need the acquisitions manager’s approval before they go out. Edition / limit: Enterprise, Performance, Unlimited and Developer; Lightning only. Salesforce calls it the modern alternative to classic approval processes. source · editions
+More examples: 5 Salesforce automations every real estate team needs .
+How does Salesforce assign leads to the right rep?
+Lead assignment rules
+What it does: Ordered rule entries; the first match assigns the lead to a user or queue. In real estate: Leads from a market or zip code go to that market’s acquisitions rep; PPC leads go to the senior closer. Edition / limit: Up to 25 criteria per entry. source
+Round robin
+What it does: Salesforce’s documented method uses an autonumber field, a MOD formula and one assignment entry per rep. In real estate: Even split of inbound leads across 3 reps. Change the divisor when a rep joins or leaves. Edition / limit: Method from Salesforce Help. source
+Queues
+What it does: Shared buckets that team members claim records from. In real estate: A “Hot seller callbacks” queue anyone on the team can claim from when the owner is on another call. Edition / limit: No limit on the number of queues. source
+Full setup: Salesforce lead and call routing for real estate teams .
+How do you keep CRM data clean?
+Validation rules
+What it does: Block a save when the data breaks a rule you define, with your error message. In real estate: A warm or hot lead can’t be saved without timeline, reason and condition. A deal can’t move to Under Contract without a contract price. Edition / limit: Active rules per object: Professional 20, Enterprise 100, Unlimited 500. source · allocations
+Four ways to require a field
+What it does: Field-level (enforced everywhere, including imports), page layout (screen only), validation rule (conditional, everywhere), Dynamic Forms (that page only). In real estate: Use a validation rule for “required at this stage”. Use field-level only for fields every record has from day one, or imports will fail. Edition / limit: Salesforce Help comparison. source
+Dynamic Forms
+What it does: Show or hide fields based on record data, user or device. In real estate: Show the assignment fields only when exit type = assignment; show double close costs only for double closes. Edition / limit: Group, Essentials, Professional and up. source
+Duplicate and matching rules
+What it does: Block or alert when a new record matches an existing one. In real estate: The same seller arrives from a mailer, a web form and a list import. Match on phone and property address. Edition / limit: Up to 5 active duplicate rules per object. source
+Path
+What it does: A stage bar with key fields and guidance per stage. In real estate: Lead → Appointment → Offer → Under Contract → Assigned / Closed, with what the rep must capture at each step. Edition / limit: Up to 5 key fields and 1,000 characters of guidance per step. source
+Kanban view
+What it does: Drag-and-drop board of a list view, grouped and totaled. In real estate: Dispo pipeline by stage, summarized by expected assignment fee. Edition / limit: Essentials, Group, Professional and up; Lightning only. source
+Field history tracking
+What it does: Records old value, new value, who and when. In real estate: See who changed the lead source or the stage, and when. (Currency fields aren’t supported, so price changes need another approach.) Edition / limit: 20 fields per object; 18 months in the UI and 24 via the API without Field Audit Trail. source · retention
+What reports can Salesforce build for investors?
+Custom report types
+What it does: Define which objects and fields a report can use. In real estate: Lead source → deal → assignment fee in one report, which is how you get cost per deal by source . Edition / limit: Professional 50, Enterprise 300, Unlimited 2,000. source
+Joined reports and cross filters
+What it does: Several report blocks side by side; filters like “leads without activities”. In real estate: Leads with no call in 7 days. Offers made vs contracts signed by rep, side by side. Edition / limit: Joined reports: Enterprise and up, 5 blocks. Cross filters: 3 per report. source
+Reporting snapshots
+What it does: Save report results to a custom object on a schedule. In real estate: Pipeline value every Monday, so you can chart the trend, not just today’s number. Pairs with the Monday 5 KPIs . Edition / limit: Professional and up; Professional allows 200. source
+Dashboard subscriptions
+What it does: Dashboards emailed on a schedule. In real estate: The owner gets the weekly numbers in their inbox without logging in. Edition / limit: Up to 500 recipients per subscription. source
+Examples: pipeline dashboard · real estate KPIs in Salesforce .
+Can Salesforce handle follow-up and email?
+Web-to-Lead and auto-response rules
+What it does: A website form creates a lead; an automatic email replies. In real estate: The “sell your house” form creates a lead with its campaign, and the seller gets a confirmation instantly. Edition / limit: 500 leads per 24 hours; one active lead auto-response rule. source · auto-response
+List Email
+What it does: Send a template to up to 200 leads or contacts at once. In real estate: A new-deal email to buyers in one zip code. Edition / limit: Counts toward the mass email limit, typically 5,000 recipients a day. source
+Sales Engagement cadences
+What it does: Sequences of calls, emails and tasks that appear in a rep’s work queue. In real estate: A seller follow-up cadence that runs for months, not days. Edition / limit: Included in Unlimited; extra cost in Professional and Enterprise. source
+Einstein Activity Capture
+What it does: Syncs email and calendar activity from Gmail or Microsoft to Salesforce. In real estate: Every email with a title company or buyer shows on the record. Edition / limit: Standard version in Starter through Enterprise; 6 months of activity stored. source
+Does the Salesforce mobile app work in the field?
+Offline and Offline Edit
+What it does: Caches recent records and lets users create and edit offline; changes sync later. In real estate: Walkthrough notes in a basement with no signal; driving for dollars in rural areas. Edition / limit: Caches 30 recent records for each of 5 recent objects by default. source
+Business card scan
+What it does: Create contacts by scanning a card. In real estate: Meeting buyers and agents at a REIA meetup. Edition / limit: All editions except Database.com. source
+Can buyers or partners log in?
+Experience Cloud
+What it does: External sites with Salesforce data and logins. In real estate: A cash buyer portal that shows available deals; a JV or bird-dog portal for submitting leads. Edition / limit: Enterprise and up; licenses bought separately. Partner Community is the license for lead and opportunity portals. source
+What AI does Salesforce offer in 2026?
+Agentforce sales agents
+What it does: Agents for prospecting, lead engagement, pipeline management and coaching. In real estate: Agentforce Engagement can email-nurture cold seller leads; check consent and tone before you let anything write to sellers. Edition / limit: Usage-based credits; Agentforce Engagement needs Enterprise or higher. source
+Einstein Conversation Insights
+What it does: Analyzes recorded calls for keywords, mentions and next steps. In real estate: Flag calls where sellers mention foreclosure, probate or a deadline. Edition / limit: Listed for Starter through Agentforce 1 Sales; connectors include RingCentral, Dialpad and Aircall. source
+More: Salesforce AI for real estate .
+How do you control who sees what?
+Permission sets
+What it does: Add permissions on top of a profile; Salesforce’s recommended approach. In real estate: VAs can create leads but not see deal financials; dispo sees buyers but not seller notes. Edition / limit: All main editions. source
+Sharing rules and field-level security
+What it does: Open record access beyond defaults; hide specific fields. In real estate: Market teams see their own market; only owners see assignment fee fields. Edition / limit: Sharing rules: Professional and up, 300 per object. FLS: Professional and up. source · FLS
+Multi-factor authentication
+What it does: Required for all employee logins. In real estate: Matters when VAs log in from other countries. Plan it into onboarding. Edition / limit: Production enforcement rolled out July 20 to September 3, 2026. source
+How do you get lists into Salesforce?
+Data Import Wizard
+What it does: Browser-based import for leads, contacts, accounts and custom objects. In real estate: A county list or a skip-traced list from PropStream. Edition / limit: Up to 50,000 records at a time; all editions except Personal and Database.com. source · tool comparison
+Data Loader
+What it does: Desktop tool for large imports, updates and exports. In real estate: Lists over 50,000 rows, or a full migration from Podio or another CRM. Edition / limit: Enterprise and up by default; uses the API, which is an add-on for Professional. source · API editions
+Moving from another CRM: Salesforce CRM migration for real estate · moving off Podio .
+Which features are in which edition?
+Feature | Starter | Professional | Enterprise | Unlimited
+Custom objects | 0 | 50 | 200 | 2,000
+Custom fields per object | 25 | 100 | 500 | 800
+Flows (active) | Not listed | 5 | 2,000 | 2,000
+Active validation rules per object | 20 | 20 | 100 | 500
+Flow Approval Processes | — | — | Yes | Yes
+Joined reports | — | — | Yes | Yes
+API access | Not stated | Add-on | Included | Included
+Sales Engagement | — | Extra cost | Extra cost | Included
+Sources: Starter · Professional · Enterprise · Unlimited · approvals · reports · API · Sales Engagement . Salesforce renames and repackages editions often. Most businesses don’t pay list price: a Salesforce account executive can discount based on your business and number of users, so get a quote before comparing. Full breakdown: which Salesforce edition investors need .
+Questions
+What Salesforce features are most useful for real estate investors?
+Custom objects for properties, offers and buyers; Flow for follow-up and missed-call tasks; validation rules so warm leads can’t be saved without key details; lead assignment rules; and reports that tie lead source to closed deals.
+Can Salesforce calculate MAO?
+Yes. A formula field can calculate MAO from ARV, your percentage and repair costs on every deal, so every rep uses the same math.
+Is Salesforce Starter enough for a wholesaler?
+Usually not. Starter allows 0 custom objects, so you can’t add Property, Offer or Buyer objects, and Salesforce doesn’t state API access for it on its pages.
+How many flows does Salesforce Professional allow?
+Salesforce’s Professional Edition allocation page lists 5 flows. Enterprise and Unlimited allow 4,000 total and 2,000 active.
+Can I track who changed a lead’s stage in Salesforce?
+Yes. Field history tracking records the old value, new value, user and time for up to 20 fields per object, kept 18 months in the interface without Field Audit Trail.
+Does Salesforce work offline for driving for dollars?
+The mobile app caches recent records and Offline Edit lets users create and edit records offline, syncing when the device reconnects.
+Sources
+Salesforce Help: Flow types
+Salesforce Help: Professional Edition allocations
+Salesforce Help: Enterprise Edition allocations
+Salesforce Help: Unlimited Edition allocations
+Salesforce Help: Starter allocations
+Salesforce Help: Pro Suite allocations
+Salesforce Help: Flow Approval Processes
+Salesforce Help: Flow Approval Processes editions
+Salesforce Help: lead assignment rules
+Salesforce Help: round-robin lead assignment
+Salesforce Help: queues
+Salesforce Help: validation rules
+Salesforce Help: ways to make a field required
+Salesforce Help: Dynamic Forms
+Salesforce Help: Path
+Salesforce Help: Kanban view
+Salesforce Help: duplicate rules
+Salesforce Help: reports and dashboards limits
+Salesforce Help: reporting snapshots
+Salesforce Help: field history tracking
+Salesforce: field history retention (PDF)
+Salesforce Help: how many leads Web-to-Lead captures
+Salesforce Help: auto-response rules
+Salesforce Help: List Email
+Salesforce Help: Sales Engagement
+Salesforce Help: Einstein Activity Capture Standard
+Salesforce Help: mobile app offline
+Salesforce Help: mobile enhanced contacts
+Salesforce Help: Experience Cloud license types
+Salesforce Help: custom field allocations
+Salesforce Help: roll-up summary field limit
+Salesforce Help: relationship considerations
+Salesforce Help: formulas
+Salesforce Help: Sales Cloud agents
+Salesforce Help: Einstein Conversation Insights
+Salesforce Help: permission sets
+Salesforce Help: sharing rules
+Salesforce Help: field-level security
+Salesforce Help: MFA enforcement
+Salesforce Help: Data Import Wizard limits
+Salesforce Help: which data import tool
+Salesforce: Salesforce Maps
+Salesforce Help: Salesforce Channels in Slack
+Salesforce Help: Slack actions in Flow
+Salesforce Developers: API supported editions
+Related
+Salesforce integrations for investors · Which edition you need · Salesforce vs investor CRMs · Is Salesforce worth it for investors? · Real estate CRM guide · CRM glossary
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want these features set up around your process?
+I build Salesforce for real estate investors and wholesalers: Property, Offer and Buyer objects, follow-up automation, routing and the reports your Monday meeting needs. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
 ## Free Real Estate Salesforce Health Check (10 Points)
 URL: https://amrmagdy.com/salesforce-health-check.html
 
@@ -2367,6 +2889,304 @@ Deal profitability: can you see net profit per deal in real time?
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
+
+---
+## Salesforce Integrations for Real Estate Investors (2026)
+URL: https://amrmagdy.com/salesforce-integrations-real-estate.html
+
+Salesforce integrations for real estate investors.
+Salesforce connects to almost every tool investors use , including DocuSign, QuickBooks, RingCentral, Gmail, Facebook lead ads, Google Ads and Slack, through AppExchange packages, the API or tools like Zapier. Below: what each connection syncs, which edition it needs, and what it changes for a wholesaling team.
+Most investor tools connect to Salesforce through an AppExchange package or the API. The API is on by default only in Enterprise, Unlimited, Performance and Developer ; Professional needs an add-on. Check this first. source
+The connections that change results most for wholesalers: phone and text logging , lead source capture , e-signature on the deal and accounting for assignment fees .
+Open CTI, which many dialers use inside Salesforce, reaches end of life on February 28, 2028. Ask any dialer vendor what their plan is. source
+Zapier and Make are fine for one-way hops. For two-way sync (accounting) or in-app features (click to dial, signing), use a native package.
+Jump to: The matrix Before you connect Tool by tool Native or Zapier What to connect first Questions
+Which tools connect to Salesforce, and what changes when they do?
+One row per tool category an investor or wholesaling team typically runs. The “what changes” column is what I set up for real estate teams; the rest is from each vendor’s own documentation, linked under Sources.
+Category | Connector (who builds it) | What syncs | Edition or requirement | What changes for a wholesaler | Deep dive
+E-signature | Docusign eSignature for Salesforce (by Docusign) | Send from the record with fields merged into a template; signed PDF and signer data written back | Works on Professional and up, per Salesforce | Purchase and assignment contracts live on the deal; a signed contract can move the stage | DocuSign guide
+Accounting | Breadwinner, DBSync or Workato (third party) | Invoices, payments and customers; direction depends on the connector | Ask the vendor; most connectors need API access | Assignment fees invoiced from the deal; paid status visible in Salesforce | QuickBooks guide
+Email and calendar | Gmail and Outlook integration, Einstein Activity Capture (by Salesforce) | Side panel logging; automatic contact and event sync | EAC Standard in Starter through Enterprise | Buyer and title emails land on the right record without copy-paste | —
+Phone / dialer | RingCentral, Aircall, Dialpad, Twilio Flex, Salesforce Voice | Click to dial, screen pop, call logging, recordings | RingCentral: Professional+. Aircall and Dialpad: Enterprise or Unlimited | Calls per rep and contact rate per list without manual notes | Dialer guide
+Texting | Dialpad or RingCentral SMS, SMS-Magic, Twilio for Salesforce (beta), Salesforce Messaging | Texts logged to the lead; opt-outs tracked | 10DLC registration required for app-to-person texting in the US | Seller texts in the same timeline as calls; STOP respected | Texting guide
+Lead sources | Web-to-Lead, Lead Capture for Facebook, Google Ads Conversion Import, CallRail | New leads in; for Google Ads, contract stages back out as conversions | Web-to-Lead: 500 leads/day. Google Ads and CallRail need API access | Every lead has a source; ads optimize for contracts, not form fills | Lead sources guide
+List data / skip tracing | PropStream export, BatchData API, BatchLeads via Zapier | Spreadsheet import, or custom API calls | No native Salesforce connector found for PropStream or BatchData | Skip-trace results and DNC flags written to the lead | —
+Files | Files Connect (Google Drive, OneDrive, Box), Box for Salesforce | External files browsed and shared from Salesforce | Google Drive source: Professional and up | One folder per deal: photos, repair estimate, title, contracts | —
+Team chat | Salesforce for Slack apps, Slack actions in Flow | Record alerts in channels; approvals in Slack | Salesforce Channels: Starter and up | #dispo gets the deal the minute it goes under contract | —
+Scheduling | Calendly package (by Calendly) | Bookings create or update leads and events | Enterprise or higher, per Calendly | Walkthrough bookings land on the seller lead | —
+Maps | Salesforce Maps (add-on), Geopointe (Ascent Cloud) | Leads and deals on a map; routes; radius search | Add-on; bundled in Agentforce 1 Sales | Driving-for-dollars routes from your own lead data | —
+Email marketing | Account Engagement (Pardot); Mailchimp via Beaufort 12 | Two-way sync of prospects and email activity | Account Engagement: Professional and up | New-deal emails to buyers segmented by buy box; engagement on the contact | —
+Glue | Zapier, Make, Workato | Trigger in one app, action in another | Zapier Salesforce is a premium app; API limits apply | Connects tools that have no native connector | Zapier guide
+What do you need before connecting anything?
+1. API access
+Salesforce says API access is enabled by default in Enterprise, Performance, Unlimited and Developer, and that Professional can add it as an add-on. CallRail, Calendly, Dialpad, Aircall and Google Ads all depend on it, and Calendly says Group and Professional editions “cause errors.” source · Calendly
+2. A dedicated integration user
+Each connection should log in as its own user with only the permissions it needs, so you can see what it changed and switch it off without breaking anything else. Salesforce offers an API-only Integration user license for system-to-system connections. source
+3. Fields that the integration writes to
+Decide where each value lands before you install: call outcome, lead source, GCLID, contract status, invoice status. If the field doesn’t exist, the data ends up in a note nobody reports on. The CRM field kit has the core list.
+4. A test in a sandbox (when the connector supports it)
+Google’s Salesforce conversion import does not support sandboxes, so test that one with a single campaign in production. source
+5. Token limits
+Zapier notes that Salesforce allows 5 access tokens per account across third-party apps, and a sixth silently revokes the oldest. Another reason to give each integration its own user. source
+Tool by tool: what each integration does for an investor
+DocuSign: contracts signed from the deal
+Docusign’s own package sends agreements from Salesforce using templates that pull record fields through merge fields, and writes signed documents and signer data back to Salesforce. Salesforce lists it as working with Professional, Enterprise, Unlimited, Developer, Starter and Performance. For a wholesaler that means the purchase agreement and the assignment contract go out from the same deal record, and the signed copies stay there. source · Full DocuSign guide
+QuickBooks: assignment fees you can report on
+There’s no Salesforce-built QuickBooks connector; the common options are Breadwinner and DBSync (packages) or Workato (integration platform). Breadwinner creates invoices from Opportunities, Accounts or custom objects and tracks paid, overdue and due status. DBSync maps Opportunity to Invoice, Sales Receipt or Credit Memo. Breadwinner · DBSync · Full QuickBooks guide
+Gmail and Outlook: no more copy-pasting emails
+Salesforce’s Gmail and Outlook integrations add a side panel to log emails and create records. Einstein Activity Capture syncs contacts and events automatically. Salesforce for Outlook, the old desktop plug-in, retires in December 2027. source
+Dialers: every call on the lead
+RingCentral supports Professional and above; Aircall and Dialpad require Enterprise or Unlimited. All log calls to Salesforce records. Most use Open CTI, which ends February 28, 2028, with Salesforce Voice as the recommended replacement. RingCentral · Aircall · Dialpad · Full dialer guide
+Texting: compliant before it’s fast
+Twilio states that anyone sending app-to-person texts over a 10DLC number to the US must register for A2P 10DLC. Salesforce’s own messaging retired its standard SMS channels on February 14, 2026, and US long code registration takes 1–4 weeks. Twilio · Salesforce · Full texting guide
+Lead sources: every lead tagged where it came from
+Web-to-Lead takes up to 500 leads a day from your website. Lead Capture imports Facebook lead forms (Professional and up). Google’s Conversion Import for Salesforce sends stage changes back to Google Ads, so ads optimize toward contracts. CallRail sends call data only; texts and form fills don’t reach Salesforce. Web-to-Lead · Facebook · Google Ads · CallRail · Full lead sources guide
+PropStream and BatchData: lists and skip tracing
+PropStream exports lead lists as a spreadsheet; I found no Salesforce integration on its pages. BatchData offers a skip tracing API that returns phones flagged mobile or landline, plus DNC and TCPA litigator checks, but no Salesforce connector, so connecting it is a custom callout or middleware job. PropStream · BatchData
+Google Drive, OneDrive and Box: one folder per deal
+Salesforce Files Connect lets users browse and share files from Google Drive, SharePoint/OneDrive and Box inside Salesforce. Box for Salesforce adds a Box folder on each record. Files Connect · Box
+Slack: the team hears about contracts instantly
+Salesforce builds the current Slack apps, including Sales Cloud for Slack, Approvals in Slack and Flow actions that post to channels. source
+Calendly: walkthroughs booked onto the lead
+The Calendly package creates or updates Salesforce records when someone books; if it can’t match an email it creates a new lead. It requires Enterprise or higher and a Calendly Teams plan or above. source
+Salesforce Maps: driving for dollars from your own data
+Plots records on a map with routes, territories and nearby search. It’s an add-on, bundled in Agentforce 1 Sales. source
+Email marketing: buyer blasts that report back
+Account Engagement syncs with Professional and higher every 2–4 minutes. Mailchimp’s current Salesforce integration is built by Beaufort 12. Account Engagement · Mailchimp
+Native package or Zapier?
+Need | Use | Why
+Click to dial, embedded signing, a panel on the record | Native package | Zapier and Make don’t add anything inside the Salesforce screen
+Two-way sync (invoices and payments) | Native package or Workato | Conflict handling and status updates both ways
+“When a lead is tagged in tool X, create it in Salesforce” | Zapier or Make | Fast to set up for one-way hops
+Near-instant reaction | Native package, or a Salesforce outbound message | Most Zapier Salesforce triggers are polling; the instant one is New Outbound Message
+Zapier lists Salesforce as a premium app and says Salesforce API limits apply to every task. source · common problems
+What should a wholesaling team connect first?
+1. Phone and text
+Most seller conversations happen here. If calls and texts aren’t on the lead, nothing downstream (follow-up, reporting, coaching) works.
+2. Lead sources
+Web forms, Facebook, PPC and call tracking, each tagged with a source. Without this you can’t compute cost per deal .
+3. E-signature
+Contracts on the deal, and a signed contract moving the stage.
+4. Accounting
+Once deals close regularly: assignment fees invoiced from the deal, so reports show realized revenue.
+5. Everything else
+Slack alerts, maps, buyer email, scheduling. Useful, but they don’t fix a leak by themselves.
+Questions
+Does Salesforce integrate with DocuSign?
+Yes. Docusign publishes Docusign eSignature for Salesforce on AppExchange. It sends agreements from Salesforce records using templates with merge fields and writes signed documents back. It needs a separate Docusign subscription.
+Does Salesforce integrate with QuickBooks?
+Yes, through third-party connectors such as Breadwinner, DBSync or Workato, or through Zapier. They sync invoices, payments and customers between QuickBooks Online and Salesforce.
+Which Salesforce edition do I need for integrations?
+Many connectors need API access, which is included in Enterprise, Unlimited, Performance and Developer, and is an add-on for Professional. Some, such as DocuSign and RingCentral, also work on Professional. Check each vendor’s requirements.
+Can I connect PropStream to Salesforce?
+I found no native PropStream integration with Salesforce. PropStream exports lists as spreadsheets, which you can import with the Data Import Wizard (up to 50,000 records at a time) or Data Loader.
+What is happening to Open CTI?
+Salesforce says Open CTI reaches end of life on February 28, 2028, and existing implementations stop working after that. Salesforce Voice is the recommended replacement. Dialer vendors that use Open CTI need a new path.
+Is Zapier enough to connect my real estate tools to Salesforce?
+For simple one-way steps, often yes. For two-way sync, in-app features like click to dial, or near-instant updates, a native package is usually the better fit.
+Sources
+Salesforce Developers: REST API supported editions
+AppExchange: Docusign eSignature for Salesforce
+Salesforce: Docusign integration with Salesforce
+Breadwinner: QuickBooks Salesforce integration
+DBSync: Salesforce–QuickBooks Online integration
+Workato: QuickBooks + Salesforce
+Trailhead: Email and calendar integration tools
+Salesforce Help: Open CTI end of life
+RingCentral for Salesforce
+Aircall: Salesforce integration
+Dialpad: Install Dialpad for Salesforce
+Twilio: A2P 10DLC
+Salesforce Help: text messaging considerations
+Salesforce Help: import Facebook leads into Sales Cloud
+Google Ads Help: Conversion Import for Salesforce
+CallRail: Salesforce integration
+Salesforce Help: set up Web-to-Lead
+PropStream: export a lead list
+BatchData: skip tracing API
+Salesforce Help: Files Connect
+Box: Box for Salesforce
+Salesforce Help: Salesforce for Slack apps
+Calendly: integrate with Salesforce
+Salesforce: mapping software (Salesforce Maps)
+Salesforce Help: Account Engagement connector
+Mailchimp: Salesforce integration
+Zapier: get started with Salesforce
+Zapier: common problems with Salesforce
+Salesforce News: AppExchange in the IDC MarketScape (Feb 2026)
+Salesforce: MuleSoft 2025 Connectivity Benchmark
+Related
+Salesforce features for investors · DocuSign · QuickBooks · Dialers · Texting · Lead sources · Real estate CRM guide
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want your tools connected to one source of truth?
+I connect Salesforce to the phone, text, e-signature, accounting and lead-source tools real estate investors already use, with every call, contract and fee on the right record. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Get Every Real Estate Lead Source into Salesforce
+URL: https://amrmagdy.com/salesforce-lead-sources-real-estate.html
+
+Every lead source into Salesforce, tagged.
+Real estate investors get leads into Salesforce through Web-to-Lead for website forms, Lead Capture for Facebook lead ads, CallRail for calls, and imports for lists . Google Ads can then learn from which leads became contracts. Here’s each route, what it needs, and the rules that keep the source on the record to the closed deal.
+Web-to-Lead turns your website form into Salesforce leads, up to 500 a day. source
+Lead Capture imports Facebook lead forms into Sales Cloud (Professional and up). source
+Google Ads Conversion Import for Salesforce sends contract stages back to Google Ads, so ads learn which clicks became contracts. source
+CallRail sends call data only; texts and form submissions don’t report to Salesforce. source
+How does each lead source get into Salesforce?
+Source | Route | What lands in Salesforce | Requirement
+Website form | Web-to-Lead | A lead, optionally tied to a campaign; auto-response email | 500 leads per day; reCAPTCHA on by default
+Facebook lead ads | Salesforce Lead Capture; or Meta’s partner integrations, webhooks or Zapier | A lead mapped from the lead form fields | Professional, Enterprise, Unlimited or Developer; admin on the Facebook Page
+Google Ads | Web-to-Lead with a hidden GCLID field, then Conversion Import for Salesforce | The lead with its GCLID; later, stage changes go back to Google Ads | API enabled; GCLID field on Lead and Opportunity; field history on status/stage
+Call tracking | CallRail integration | Calls with source, campaign, keywords, UTM, GCLID, recording, transcript; new leads when no match | REST API access
+Lists (PropStream, county) | Spreadsheet → Data Import Wizard or Data Loader | Leads with list name as source | Wizard: 50,000 rows at a time
+Sources: Web-to-Lead · Facebook import · Lead Capture requirements · Meta · Google Ads · setup · CallRail · CallRail fields · PropStream
+Why connect Google Ads to Salesforce?
+Without it, Google Ads optimizes toward form fills, and a tire-kicker counts the same as a motivated seller. With Conversion Import, you send “Under Contract” or “Closed” stage changes back as conversions, so bidding favors the keywords that produce contracts. Google’s requirements: the API enabled, a 255-character GCLID field on Lead and Opportunity mapped on conversion, field history tracking on lead status or opportunity stage, auto-tagging, and a hidden GCLID field on your form. Clicks older than 90 days aren’t imported, and the legacy integration lost support on May 31, 2025. source · legacy
+What rules keep lead sources clean?
+One picklist, set automatically
+Lead source is a picklist, set by the form, the integration or the import, never typed. Free text breaks every report.
+Source survives conversion
+Map lead source and GCLID from Lead to the deal. If the source is lost at contract, cost per deal becomes a guess.
+Duplicates merge, sources don’t vanish
+The same seller from a mailer and a web form: keep the first source, record the second touch. Duplicate rules can alert or block.
+Every new lead gets a task
+A Flow assigns and creates a call task within minutes; see the speed to lead guide .
+Questions
+How do I get Facebook leads into Salesforce?
+Salesforce Lead Capture can import Facebook lead forms into Sales Cloud on Professional, Enterprise, Unlimited and Developer editions. Meta also documents partner CRM integrations, webhooks and its Graph API.
+Can Google Ads optimize for signed contracts from Salesforce?
+Yes. Google Ads Conversion Import for Salesforce imports lead status or opportunity stage changes as conversions. It needs a GCLID field, field history tracking and API access.
+Does CallRail send texts to Salesforce?
+No. CallRail says text messages and form submissions don’t report to Salesforce; only call data does.
+How many leads can Web-to-Lead capture?
+Salesforce Help says up to 500 leads per 24 hours. Extra requests wait in a pending queue and you can ask Support for an increase.
+Sources
+Salesforce Help: set up Web-to-Lead
+Salesforce Help: import Facebook leads into Sales Cloud
+Salesforce Help: Lead Capture requirements
+Meta for Developers: connecting your CRM with Lead Ads
+Google Ads Help: Conversion Import for Salesforce
+Google Ads Help: set up Salesforce conversion import
+Google Ads Help: legacy Salesforce integration
+CallRail: Salesforce integration
+CallRail: fields sent to Salesforce
+PropStream: export a lead list
+Related
+All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Cost per deal calculator · Kept deal map
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want every lead tagged from click to close?
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## QuickBooks + Salesforce for Real Estate Investors
+URL: https://amrmagdy.com/salesforce-quickbooks-real-estate.html
+
+QuickBooks + Salesforce for real estate investors.
+QuickBooks Online connects to Salesforce through third-party connectors like Breadwinner, DBSync or Workato , which sync invoices, payments and customers. For investors, the payoff is assignment fees invoiced from the deal and paid status in Salesforce reports, so you see realized revenue and cost per deal by lead source.
+Salesforce doesn’t build a QuickBooks connector. The common routes are Breadwinner and DBSync (packages) or Workato and Zapier (integration platforms). Breadwinner · DBSync · Workato
+For investors the point is realized revenue on the deal : the assignment fee invoiced from Salesforce, and paid status visible in Salesforce reports.
+Mapping fees and marketing costs is a design decision. No connector does it out of the box.
+Which QuickBooks connectors work with Salesforce?
+Connector | Type | What syncs (per the vendor) | Notes
+Breadwinner for QuickBooks | AppExchange package (third party) | Two-way sync of invoices and customers; invoice status (paid, overdue, due); payments; bills and purchase orders. Invoices can be created from Opportunities, Accounts, Orders or custom objects. | QuickBooks Online. One vendor screen calls QuickBooks data “read-only inside Salesforce”, so confirm direction per object.
+DBSync | Package plus scheduler (third party) | Accounts/Contacts ↔ Customers, Products ↔ Items, Opportunity ↔ Invoice, Sales Receipt or Credit Memo; history migration | Sync by buttons or schedule. Opportunities need an Account and Standard Price Book products.
+Workato | Integration platform | QuickBooks Online: 27 triggers, 87 actions. Salesforce: 16 triggers, 36 actions. | Most flexible; you design each recipe.
+Zapier / Make | Integration platform | One-way “when X, do Y” steps | Good for simple hops; weaker for two-way accounting sync.
+Sources: Breadwinner · DBSync · Workato . None of these pages states a minimum Salesforce edition; ask the vendor, and expect API access to matter. API editions
+What should an investor track across Salesforce and QuickBooks?
+Number | Lives in | Why it matters
+Contract price, assignment price, assignment fee | Salesforce (deal) | The fee is a formula on the deal, so every report uses the same math
+Invoice for the fee, paid date | QuickBooks, status synced to Salesforce | Separates fees you expect from fees you collected
+Marketing spend by campaign | QuickBooks bills, totals pushed to Salesforce campaigns | Lets Salesforce compute cost per deal by source
+Closing costs on double closes | Salesforce (deal) | What you actually kept; see double closing costs
+Cancelled or renegotiated contracts | Salesforce (deal) | Fall-outs come out of campaign ROI
+What does the flow look like for a wholesaler?
+1. Deal closes in Salesforce
+Stage moves to Closed. The assignment fee is already on the deal as a formula.
+2. Invoice created
+The connector creates a QuickBooks invoice to the end buyer or title company for the fee, from the deal.
+3. Payment comes back
+When QuickBooks shows it paid, the status updates on the deal. A “Closed – Paid” report shows realized fees by month and by lead source.
+4. Spend meets revenue
+Monthly marketing totals by campaign (mailers, PPC, skip tracing) land on Salesforce campaigns, and cost per deal becomes a report instead of a spreadsheet.
+Questions
+Does Salesforce integrate with QuickBooks Online?
+Yes, through third-party connectors such as Breadwinner and DBSync, integration platforms such as Workato, or Zapier. Salesforce doesn’t publish its own QuickBooks connector.
+Can Salesforce create QuickBooks invoices from a deal?
+Breadwinner says invoices can be created from Opportunities, Accounts, Orders or custom objects, and DBSync maps Opportunities to invoices, sales receipts or credit memos.
+Should my accountant work in Salesforce?
+No. Keep the books in QuickBooks. Sync only what Salesforce needs for reporting: invoice status, paid date and campaign spend totals.
+Can I see profit per lead source in Salesforce?
+Yes, if assignment fees live on the deal, the deal keeps its lead source, and marketing spend is recorded on campaigns. Then a report can show fees and cost per deal by source.
+Sources
+Breadwinner: QuickBooks Salesforce integration
+DBSync: Salesforce–QuickBooks Online integration
+Workato: QuickBooks + Salesforce
+Zapier: get started with Salesforce
+Salesforce Developers: REST API supported editions
+Related
+All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Cost per deal calculator · Financial analytics in Salesforce
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want fees and spend in one report?
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Texting Sellers from Salesforce: 10DLC and Consent
+URL: https://amrmagdy.com/salesforce-texting-real-estate.html
+
+Texting sellers from Salesforce: 10DLC, consent and tools.
+To text sellers from Salesforce in the US, you need a texting tool that logs to Salesforce, a registered 10DLC brand and campaign, and consent and opt-out fields every tool respects. Here are the tools, the registration steps, what CTIA’s guidelines say about lists, and how I set up the fields. This is not legal advice.
+Twilio: “Anyone sending SMS/MMS messages over a 10DLC number from an application to the US must register for A2P 10DLC.” Registration has a brand and a campaign. source
+CTIA’s guidelines say marketing texts need express written consent and senders “should not use rented, sold, or shared lists.” That matters for skip-traced lists. source
+Salesforce retired its standard SMS channels on February 14, 2026; US long code registration takes 1–4 weeks. source
+How can you text sellers from Salesforce?
+Option | Built by | What it does | Watch out for
+Dialpad or RingCentral | Dialer vendor | Texts from the dialer, logged to Salesforce | Dialpad logs SMS to the contact, not opportunities or shared lines
+SMS-Magic Converse | SMS-Magic | Salesforce-native SMS, MMS, WhatsApp; templates, keyword auto-replies, campaigns, opt-in/opt-out tracking | Confirm current product naming with the vendor
+Twilio for Salesforce | Twilio | 1:1 and bulk SMS from records; inbox component | Public beta, not covered by a Twilio SLA
+Salesforce Messaging (enhanced SMS) | Salesforce | Native SMS channel in Service Cloud messaging | Standard channels retired Feb 14, 2026; registration takes 1–4 weeks
+Sources: Dialpad · RingCentral · SMS-Magic · Twilio for Salesforce · Salesforce
+What is 10DLC and do investors need it?
+10DLC is the US system for business texting from regular 10-digit numbers. Twilio says anyone sending app-to-person texts over a 10DLC number to the US must register, including individuals. You register a brand (who is sending; standard brands need a business tax ID) and a campaign (the use case and your opt-in, opt-out and help messages). Registered traffic gets less filtering and more throughput. source
+The Campaign Registry runs the registry behind it; brands register through a provider such as Twilio, not directly. source
+What do the industry rules say about texting lists?
+CTIA guidance (May 2023) | What it means for a wholesaler
+Marketing messages need express written consent | A seller who filled out your form and agreed to texts is different from a number on a list
+Honor STOP and plain-language opt-outs, one confirmation, then nothing | Opt-out must be a field in Salesforce that every texting tool respects
+Don’t use rented, sold or shared lists | Bulk-texting a purchased or skip-traced list conflicts with this guidance
+CTIA’s document is voluntary industry guidance and doesn’t cover the TCPA itself. Talk to a lawyer before you text lists. source
+How should Salesforce store texting data?
+Consent: a checkbox plus date and source (“web form, October 2026”). No consent, no marketing texts.
+Opt-out: one field every tool checks before sending, set automatically when someone replies STOP.
+Every text on the timeline: calls and texts in one history, so the next rep sees the whole conversation.
+DNC and litigator flags from your skip-tracing provider, if it returns them. BatchData’s API returns DNC and TCPA litigator checks. source
+Questions
+Do I need 10DLC registration to text sellers?
+Twilio says anyone sending app-to-person SMS over a 10DLC number to the US must register for A2P 10DLC. Toll-free numbers and short codes are separate systems.
+Can I text a skip-traced list from Salesforce?
+CTIA’s guidelines call for express written consent for marketing texts and say senders should not use rented, sold or shared lists. Get legal advice on the TCPA before texting lists.
+What happened to Salesforce’s standard SMS channels?
+Salesforce retired standard SMS channels on February 14, 2026. New channels are enhanced, and US long code registration takes 1–4 weeks.
+Can texts and calls show in one Salesforce timeline?
+Yes, if your dialer or texting tool logs both to the same record. Dialpad logs SMS as completed tasks on the contact; RingCentral logs calls and messages.
+Sources
+Twilio: A2P 10DLC
+The Campaign Registry
+CTIA Messaging Principles and Best Practices (May 2023, PDF)
+Salesforce Help: text messaging considerations
+Dialpad: SMS logging in Salesforce
+RingCentral for Salesforce
+SMS-Magic
+Twilio: Twilio for Salesforce
+BatchData: skip tracing API
+Related
+All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Dialers in Salesforce · Seller follow-up cadence
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want texting that’s logged and compliant by design?
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce vs Investor CRMs (Podio, REsimpli and Others)
@@ -2412,7 +3232,7 @@ Write your stages from new lead to closed on paper, list the five reports you wa
 Watch the short versions
 Five short videos cover each section of this page: how far Salesforce goes .
 Related
-Do I need a CRM yet? · Moving off Podio · Wholesaling CRM checklist · Salesforce vs Follow Up Boss · Salesforce for real estate investors · All free tools
+Salesforce features for investors · Which Salesforce edition · Do I need a CRM yet? · Moving off Podio · Wholesaling CRM checklist · Salesforce vs Follow Up Boss · Salesforce for real estate investors · All free tools
 Last updated October 2026. Salesforce, Podio and REsimpli are trademarks of their owners; this page is independent. I build Salesforce for real estate investors, so I'm not neutral, and I've tried to keep every claim to what the vendors publish.
 Not sure which side you're on?
 I build Salesforce for real estate investors and wholesalers. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500), which shows what your current CRM is costing you in lost deals.
@@ -2493,7 +3313,7 @@ Add two date-time fields to the lead: when the lead came in and when the first r
 Why do missed calls matter so much?
 A missed inbound call is a seller who already chose to call you. If nobody calls back fast, they talk to the next investor on their list, and the lead never shows up in your CRM at all, so your reports cannot see the loss.
 Related free tools
-Speed to lead & follow-up statistics · Cold caller handoff checklist · Missed seller call cost · Acquisitions team capacity · Deal Leak Score · The Monday 5 · Follow-up cadence builder · All free tools
+Lead sources into Salesforce · Speed to lead & follow-up statistics · Cold caller handoff checklist · Missed seller call cost · Acquisitions team capacity · Deal Leak Score · The Monday 5 · Follow-up cadence builder · All free tools
 Last updated October 2026.
 Want missed calls and speed to lead tracked automatically?
 I build Salesforce for real estate investors and wholesalers: missed-call tasks, routing to the next available rep, escalation and a Monday report. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -2598,7 +3418,7 @@ Rules on wholesaling, assignment and disclosure vary by state and change over ti
 What should my CRM track about fees?
 The fee on every closed deal, the fee you planned when you went under contract, the lead source and the campaign. That shows which sources produce the deals with the biggest fees and how often fees get cut before closing.
 Related free tools
-Wholesale deal analyzer · Assignment vs double close · MAO calculator · Cash buyers list template · Double closing costs · All free tools
+DocuSign contracts from the deal · Invoicing fees with QuickBooks · Wholesale deal analyzer · Assignment vs double close · MAO calculator · Cash buyers list template · Double closing costs · All free tools
 Last updated October 2026. Not legal or tax advice. Oklahoma law source: press release on SB 1075 .
 Want every fee tracked by source?
 I build Salesforce for real estate investors and wholesalers: deal records with planned and closed fees, assignment or double close, and a report of what each lead source actually earns. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -2727,6 +3547,62 @@ Transaction coordinator (TC)
 The person who manages a deal from signed contract to closing: title, documents, deadlines and communication. In a CRM: A transactions board with stages and required checklist items.
 Underwriting
 Checking a deal's numbers (ARV, repairs, MAO, exit strategy) before making or accepting an offer. In a CRM: Underwriting fields and a QC gate on the opportunity.
+CRM and Salesforce terms
+The technical words that come up when you set up or connect a real estate CRM, each linked to the guide that goes deeper.
+A2P 10DLC
+US registration system for business texts sent from regular 10-digit numbers. Senders register a brand and a campaign through their texting provider. Texting guide →
+API access
+Permission for other software to read and write Salesforce data. Included in Enterprise and Unlimited; an add-on for Professional. Many integrations need it. Edition guide →
+AppExchange
+Salesforce’s marketplace of installable apps and integrations, such as DocuSign or dialer packages. Integrations →
+Approval process
+A rule that routes a record to a manager before it can move on, for example an offer above MAO. Automation features →
+Assignment rule
+Ordered rules that set a new lead’s owner automatically, by market, source or rotation. Lead routing →
+Buy box
+A cash buyer’s criteria: zip codes, price range, property types and condition. Stored on the buyer record so deals can be matched. Cash buyers list →
+Custom object
+A record type you define yourself in Salesforce, such as Property, Offer or Buyer. Data model →
+Dead reason
+A required picklist explaining why a lead or deal died, so you can tell bad leads from bad follow-up. Field kit →
+Duplicate rule
+A rule that alerts or blocks when a new record matches an existing one, like the same seller from two lead sources. Data quality →
+Express written consent
+Documented permission to send marketing texts. CTIA’s messaging guidance calls for it before promotional texts. Texting guide →
+Field history tracking
+Salesforce’s log of old value, new value, who and when for chosen fields, such as stage or lead source. Data quality →
+Flow
+Salesforce’s automation tool. Runs when records change, on a schedule, or as guided screens. Automations →
+GCLID
+Google Click ID. Stored on the lead so Google Ads can learn which clicks became contracts. Lead sources →
+Integration user
+A dedicated Salesforce login for one integration, with only the permissions it needs. Before you connect →
+Junction object
+A record linking two others many-to-many, such as which buyers were sent which property. Data model →
+Lead source
+Where a lead came from: list, mailer, PPC, referral. Should be a picklist set automatically and kept to the closed deal. Lead sources →
+Open CTI
+The Salesforce framework many dialers use to show inside Salesforce. Salesforce says it reaches end of life on February 28, 2028. Dialer guide →
+Opt-out
+A seller’s request to stop texts or calls (for example replying STOP). Stored on the record and respected by every tool. Texting guide →
+Path
+A stage bar on a Salesforce record with key fields and guidance for each stage. Data quality →
+Permission set
+A bundle of Salesforce permissions added to a user, for example letting VAs create leads without seeing deal financials. Security →
+Picklist
+A field with fixed choices. Used for lead source, call outcome and dead reason so reports work. Field kit →
+Queue
+A shared bucket of records that team members claim from, such as hot seller callbacks. Routing →
+Reporting snapshot
+A saved copy of a report’s results on a schedule, so you can chart trends like weekly pipeline value. Monday 5 →
+Roll-up summary field
+A field on a parent record that counts or sums its children, such as offers per property. Data model →
+Sandbox
+A copy of your Salesforce org for testing changes before they reach the team. Health check →
+Validation rule
+A rule that blocks saving a record until required data is entered, such as timeline and reason on a warm lead. Handoff checklist →
+Web-to-Lead
+Salesforce’s built-in way to turn website form submissions into leads, up to 500 a day. Lead sources →
 Put the terms to work
 MAO calculator · Cost per deal calculator · Missed call cost · The Monday 5
 Want these numbers tracked, not just defined?
@@ -2771,7 +3647,7 @@ Investor CRMs come set up for wholesaling and are quicker to start. Salesforce t
 How do I check my current CRM?
 Go stage by stage through the checklist on this page and mark each line yes or no. The free Deal Leak Score does the same in ten questions and gives a score out of 100.
 Related free tools
-Do I need a CRM yet? · CRM field kit · Deal Leak Score · Speed to lead · Follow-up cadence builder · Wholesaling CRM glossary · Moving off Podio · All free tools
+Real estate CRM guide · Do I need a CRM yet? · CRM field kit · Deal Leak Score · Speed to lead · Follow-up cadence builder · Wholesaling CRM glossary · Moving off Podio · All free tools
 Last updated October 2026.
 Want this checklist built into your CRM?
 I build Salesforce for real estate investors and wholesalers: every stage above, with the fields, automations and Monday report. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
