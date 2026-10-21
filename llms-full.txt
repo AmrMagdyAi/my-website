@@ -710,6 +710,8 @@ Wholesaling CRM questions
 Real questions from wholesaling groups, answered plainly
 Videos: Deal Leak
 Short videos on where deals leak and how to fix each point
+Related guides
+Salesforce AI and Agentforce (2026)
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
@@ -927,6 +929,8 @@ Wholesaling CRM questions
 Real questions from wholesaling groups, answered plainly
 Videos: Deal Leak
 Short videos on where deals leak and how to fix each point
+Related guides
+20 report recipes
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
@@ -2185,6 +2189,7 @@ Everything else | Email, files, Slack, maps, scheduling | All integrations
 Which numbers should an investor review every week?
 Five is enough to run the business: new leads by source, speed to first contact, offers made, contracts signed, and cost per kept deal. Fall-outs come out of the count. Details and formulas: the Monday 5 · KPIs in Salesforce · pipeline dashboard · kept deal map .
 Calculators: cost per deal · MAO · deal analyzer · team capacity · missed call cost .
+AI on top of the CRM: Salesforce AI and Agentforce for investors .
 What compliance rules affect an investor’s CRM?
 Texting: app-to-person texts over 10DLC numbers in the US require brand and campaign registration, per Twilio. CTIA’s guidance calls for express written consent for marketing texts and advises against rented, sold or shared lists. Store consent and opt-out on the lead. Texting guide
 Calling: keep DNC flags from your list or skip-tracing provider on the record, and make every dialer respect them.
@@ -2213,14 +2218,14 @@ Building everything before anyone uses it | Launch the core in 30 days, then add
 Score your own setup in two minutes: Deal Leak Score .
 Every free tool and guide on this site
 Area | Tools and guides
-Choose | Do I need a CRM? · Salesforce vs investor CRMs · Is Salesforce worth it? · Which Salesforce edition?
+Choose | Do I need a CRM? · Salesforce vs investor CRMs · Is Salesforce worth it? · Which Salesforce edition? · Edition picker tool
 Run the team | Dispositions · Driving for dollars · VA access · 15 automation recipes
 Build | CRM field kit · 37 Salesforce features · configuration object · cold caller handoff
 Connect | Integrations hub · AppExchange apps · Zapier · RingCentral
 Respond | Speed to lead · Statistics · Follow-up cadence · Lead routing
 Deal math | MAO · Assignment fee · Assignment vs double close · Double closing costs · Cash buyers list
 Rentals | BRRRR · DSCR · Rental yield · Property management
-Measure | Monday 5 · Deal Leak Score · CRM ROI · Salesforce health check
+Measure | 20 report recipes · Monday 5 · Deal Leak Score · CRM ROI · Salesforce health check
 Outside the US | Canada · UK
 Questions
 What is the best CRM for real estate investors?
@@ -2426,6 +2431,12 @@ Salesforce integrations for investors
 DocuSign, QuickBooks, dialers, texting, Facebook and Google Ads, PropStream, Slack: what each syncs and needs.
 Which Salesforce edition do investors need?
 Starter vs Professional vs Enterprise vs Unlimited by custom objects, flows and API access. No list prices.
+Salesforce edition picker
+Nine questions about your team and tools, and the Salesforce edition to start from, with reasons. No list prices.
+20 Salesforce reports for wholesalers
+Report type, filter, grouping and measure for leads, speed to lead, offers, cost per deal and dispo.
+Salesforce AI and Agentforce for investors
+Agentforce agents, Conversation Insights and Lead Scoring: what each does for investors and what it needs.
 15 automation recipes for wholesalers
 Trigger → action for speed to lead, missed calls, follow-up, offers, contracts and dispo, in build order.
 Wholesale dispositions in Salesforce
@@ -2510,6 +2521,66 @@ Guides
 Salesforce for real estate investors · Cost per lead, deal profitability and campaign ROI in Salesforce · Lead routing and speed to lead · 50+ real requests from an acquisition company · All articles
 Rather have it built into your CRM?
 Every tool here is something I build as live reporting in Salesforce for investors and wholesalers. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit (USD 1,500, 10 working days).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Salesforce AI & Agentforce for Real Estate Investors
+URL: https://amrmagdy.com/salesforce-ai-agentforce-real-estate.html
+
+Salesforce AI and Agentforce for real estate investors.
+Salesforce’s 2026 AI for sales is Agentforce, plus Einstein features like Conversation Insights and Lead Scoring. For real estate investors, the useful parts today are call analysis and activity capture on data you already have; agents that write to sellers need consent rules first. Here’s what each feature does, where it’s available and how to get your CRM ready.
+Salesforce’s 2026 sales AI is Agentforce : agents for prospecting, lead engagement, pipeline management and coaching. They consume usage-based credits, and Salesforce says to confirm licensing with your account team. source
+For investors, the most practical AI is not an agent writing to sellers. It’s call analysis (Einstein Conversation Insights) and activity capture , which work on data you already have. source · EAC
+AI on top of messy data repeats the mess. Fix lead source, call outcomes and stages first.
+What AI does Salesforce Sales Cloud offer in 2026?
+Feature | What it does | Availability (per Salesforce Help)
+Agentforce Prospecting | Builds a prioritized list of contacts and accounts for reps | Usage-based credits; confirm with account team
+Agentforce Engagement (formerly Lead Nurturing) | Web chat to leads and email nurturing via Outlook or Gmail | Enterprise, Performance or Unlimited with Sales and Einstein for Sales
+Agentforce Sales Management | Pipeline and account management assistance | Usage-based credits
+Agentforce Sales Coach | Real-time feedback and role-play | Usage-based credits
+Einstein Conversation Insights | Analyzes recorded calls for keywords, mentions and next steps; connectors include RingCentral, Dialpad and Aircall | Starter, Pro, Enterprise, Performance, Unlimited, Agentforce 1 Sales
+Einstein Lead Scoring | Scores leads from your past conversions, refreshed every 10 days | Needs Sales Cloud Einstein
+Einstein Activity Capture | Syncs email and calendar activity to Salesforce | Standard in Starter through Enterprise
+Sources: Sales Cloud agents · Agentforce Engagement · Conversation Insights · Lead Scoring · Activity Capture . In June 2025, Agentforce 1 editions replaced Einstein 1 editions. source
+Which AI uses actually help a wholesaling team?
+Call review at scale
+Conversation Insights can flag calls where sellers mention keywords you choose, like foreclosure, probate, divorce or a deadline. A manager reviews the flagged calls instead of random ones.
+Lead scoring, once you have history
+Einstein Lead Scoring learns from your past converted leads. A team with few closed deals gets a weak model; Salesforce uses a global model when you lack data. source
+Summaries for the handoff
+Summaries of long seller conversations help acquisitions pick up where the caller left off. The structured fields (timeline, reason, condition) still matter more; see the handoff checklist .
+Careful with agents that write to sellers
+An agent emailing or texting sellers is still marketing outreach. Consent, opt-outs and tone apply, and CTIA’s guidance calls for express written consent for marketing texts. source See the texting guide .
+Is your CRM ready for AI?
+Check | Why
+Lead source is a picklist, set automatically | Scoring and attribution learn from it
+Calls are recorded and logged to the lead | Conversation analysis needs the recordings on the record
+Stages have entry rules | Otherwise the model learns from inconsistent stages
+Dead reasons are required | So the model can tell bad leads from bad follow-up
+Enough closed deals | Scoring from your own history needs history
+Score your setup in two minutes with the Deal Leak Score . More: Salesforce AI for real estate .
+Questions
+What is Agentforce in Salesforce?
+Agentforce is Salesforce’s family of AI agents. In Sales Cloud they include Prospecting, Engagement (lead nurturing), Sales Management and Sales Coach, billed with usage-based credits.
+Can Salesforce AI analyze my acquisition calls?
+Einstein Conversation Insights analyzes recorded calls for keywords and next steps, with voice connectors including RingCentral, Dialpad and Aircall.
+Should an AI agent text or email my sellers?
+Only with consent and opt-outs in place. Marketing messages to sellers are still marketing, and CTIA’s guidance calls for express written consent for marketing texts.
+Do I need clean data before using Salesforce AI?
+Yes. Scoring and analysis learn from your fields; free-text lead sources, unlogged calls and inconsistent stages produce unreliable results.
+Sources
+Salesforce Help: Sales Cloud agents
+Salesforce Help: Agentforce Engagement
+Salesforce Help: Einstein Conversation Insights
+Salesforce Help: Einstein Lead Scoring
+Salesforce Help: Einstein Activity Capture Standard
+Salesforce News: Agentforce 1 editions (June 2025)
+CTIA Messaging Principles and Best Practices (2023)
+Related
+Real estate CRM guide · Salesforce features · Integrations · Salesforce Einstein AI for real estate · Deal Leak Score
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want AI on a CRM you can trust?
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2835,6 +2906,47 @@ I build Salesforce for real estate investors and wholesalers and connect it to t
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
+## Salesforce Edition Picker for Real Estate Investors
+URL: https://amrmagdy.com/salesforce-edition-picker.html
+
+Salesforce edition picker.
+Answer nine questions about your team and tools, and the picker shows which Salesforce edition to start from , why, and what to ask your Salesforce account executive. It uses Salesforce’s published limits and shows no list prices. Nothing you enter leaves your browser.
+How the picker decides
+If you need… | Minimum edition | Source
+Property, Offer or Buyer objects | Professional (Starter allows 0 custom objects) | Starter limits
+More than 5 automations | Enterprise (Professional allows 5 flows) | Professional limits · Enterprise
+API-based integrations | Enterprise, or Professional with API add-on | API editions · Calendly · Aircall · CallRail · Google Ads
+Offer approvals | Enterprise | Flow approvals
+Joined reports | Enterprise | joined reports
+Built-in cadences | Included in Unlimited; extra cost below | Salesforce Help, Sales Engagement
+Some integrations work on Professional: Salesforce lists DocuSign for Professional and up, and RingCentral supports Professional and above. DocuSign · RingCentral The full comparison is in which Salesforce edition investors need .
+Questions
+Which Salesforce edition do I need as a wholesaler?
+If you need Property, Offer or Buyer records, more than 5 automations, or API integrations like CallRail or Google Ads conversion import, start from Enterprise. Small teams with few automations can start on Professional.
+Does this tool show Salesforce prices?
+No. Most businesses get a discount from a Salesforce account executive based on the business and number of users, so the tool gives you questions to ask instead of list prices.
+Sources
+Salesforce Help: Starter allocations
+Salesforce Help: Professional allocations
+Salesforce Help: Enterprise allocations
+Salesforce Help: Unlimited allocations
+Salesforce Developers: API supported editions
+Salesforce Help: Flow Approval Processes editions
+Salesforce Help: joined reports
+Calendly: Salesforce requirements
+Aircall: Salesforce integration
+CallRail: Salesforce integration
+Google Ads Help: Salesforce conversion import setup
+Salesforce: Docusign integration
+RingCentral: App for Salesforce FAQ
+Related
+Real estate CRM guide · Salesforce features · Integrations · Which edition: full guide · Salesforce vs investor CRMs
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want a second opinion before you sign?
+Send me your team, lead sources and tools and I’ll tell you which edition fits and what to ask for. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
 ## Which Salesforce Edition Do Real Estate Investors Need?
 URL: https://amrmagdy.com/salesforce-edition-real-estate-investors.html
 
@@ -2869,6 +2981,7 @@ Multiple markets or a fund with investor reporting
 Enterprise or Unlimited, depending on volume, sandbox needs and whether Sales Engagement cadences are worth having included.
 Why do Salesforce edition names keep changing?
 Salesforce repackages often. In June 2025, Agentforce 1 editions replaced Einstein 1 editions. source Third-party reports say Salesforce introduced Core, Advanced and Max editions in September 2026, with existing customers keeping their edition; I couldn’t read Salesforce’s own announcement. Either way, map your needs to the limits above (custom objects, flows, API access) and ask your account executive which current edition delivers them.
+Not sure? Answer nine questions in the free edition picker .
 What does Salesforce cost for an investor?
 I don’t publish list prices, because most businesses don’t pay them. After a conversation with a Salesforce account executive, many get a discount based on the business and the number of users. Get a quote for your exact user count and edition, then add the setup cost, before you compare with an investor CRM.
 Questions
@@ -2969,7 +3082,7 @@ Reporting snapshots
 What it does: Save report results to a custom object on a schedule. In real estate: Pipeline value every Monday, so you can chart the trend, not just today’s number. Pairs with the Monday 5 KPIs . Edition / limit: Professional and up; Professional allows 200. source
 Dashboard subscriptions
 What it does: Dashboards emailed on a schedule. In real estate: The owner gets the weekly numbers in their inbox without logging in. Edition / limit: Up to 500 recipients per subscription. source
-Examples: pipeline dashboard · real estate KPIs in Salesforce .
+Examples: 20 report recipes · pipeline dashboard · real estate KPIs in Salesforce .
 Can Salesforce handle follow-up and email?
 Web-to-Lead and auto-response rules
 What it does: A website form creates a lead; an automatic email replies. In real estate: The “sell your house” form creates a lead with its campaign, and the seller gets a confirmation instantly. Edition / limit: 500 leads per 24 hours; one active lead auto-response rule. source · auto-response
@@ -2994,7 +3107,7 @@ Agentforce sales agents
 What it does: Agents for prospecting, lead engagement, pipeline management and coaching. In real estate: Agentforce Engagement can email-nurture cold seller leads; check consent and tone before you let anything write to sellers. Edition / limit: Usage-based credits; Agentforce Engagement needs Enterprise, Performance or Unlimited with Sales and Einstein for Sales. source
 Einstein Conversation Insights
 What it does: Analyzes recorded calls for keywords, mentions and next steps. In real estate: Flag calls where sellers mention foreclosure, probate or a deadline. Edition / limit: Listed for Starter, Pro, Enterprise, Performance, Unlimited and Agentforce 1 Sales; connectors include RingCentral, Dialpad and Aircall. source
-More: Salesforce AI for real estate .
+More: Salesforce AI and Agentforce for investors · Salesforce AI for real estate .
 How do you control who sees what?
 Permission sets
 What it does: Add permissions on top of a profile; Salesforce’s recommended approach. In real estate: VAs can create leads but not see deal financials; dispo sees buyers but not seller notes. Edition / limit: All main editions. source
@@ -3019,7 +3132,7 @@ Flow Approval Processes | — | — | Yes | Yes
 Joined reports | — | — | Yes | Yes
 API access | Not stated | Add-on | Included | Included
 Sales Engagement | — | Extra cost | Extra cost | Included
-Sources: Starter · Professional · Enterprise · Unlimited · approvals · reports · API · Sales Engagement . Salesforce renames and repackages editions often. Most businesses don’t pay list price: a Salesforce account executive can discount based on your business and number of users, so get a quote before comparing. Full breakdown: which Salesforce edition investors need .
+Sources: Starter · Professional · Enterprise · Unlimited · approvals · reports · API · Sales Engagement . Salesforce renames and repackages editions often. Most businesses don’t pay list price: a Salesforce account executive can discount based on your business and number of users, so get a quote before comparing. Full breakdown: which Salesforce edition investors need , or try the edition picker .
 Questions
 What Salesforce features are most useful for real estate investors?
 Custom objects for properties, offers and buyers; Flow for follow-up and missed-call tasks; validation rules so warm leads can’t be saved without key details; lead assignment rules; and reports that tie lead source to closed deals.
@@ -3345,6 +3458,75 @@ I build Salesforce for real estate investors and wholesalers and connect it to t
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
+## 20 Salesforce Reports for Wholesalers (Recipes)
+URL: https://amrmagdy.com/salesforce-reports-wholesalers.html
+
+20 Salesforce reports for a wholesaling team.
+The Salesforce reports that matter most to wholesalers show where leads come from, how fast they’re called, which offers become contracts, and what each source costs per closed deal. Here are 20 report recipes written as report type, filter, grouping and measure, the limits to know, and which five belong on the Monday dashboard.
+These are 20 reports a wholesaling team can build in Salesforce, written as report type → filter → group by → measure , so you or your admin can build them in an afternoon.
+Three features make them possible: custom report types (Property, Offer, Buyer), cross filters (“leads without activities”) and reporting snapshots (trends over time). source · snapshots
+Most need fields that exist and are filled in: lead source as a picklist, call outcome, MAO, contract and assignment price, dead reason. Start with the CRM field kit .
+20 reports for a wholesaling team
+Report | Report type | Filter | Group by | Measure | Answers
+Leads by source this month | Leads | Created date = this month | Lead source | Count | Monday 5
+Speed to first contact | Leads with activities | Created last 30 days | Owner | Average minutes from created to first call (formula field) | Speed to lead
+Leads with no activity in 7 days | Leads with or without activities (cross filter: without activities in 7 days) | Status not dead | Owner | Count | Follow-up
+Missed inbound calls and callback time | Tasks / call logs | Direction inbound, outcome missed, last 7 days | Day, campaign | Count; avg callback minutes | Missed calls
+Call outcomes by caller | Tasks | Type = call, last 7 days | Caller, outcome | Count | Coaching
+Contact rate by list | Leads with activities | Source = list | List name | Contacted ÷ dialed (summary formula) | Lists
+Appointments by campaign | Opportunities or events | Created this month | Campaign | Count; cost per appointment | Monday 5
+Offers made vs contracts signed | Offers with deals (custom report type) | Offer date this month | Rep | Offers; contracts; ratio | Offer discipline
+Offers above MAO | Offers | Offer amount > MAO (formula flag) | Rep | Count | Offer discipline
+Pipeline by stage | Opportunities | Open | Stage | Count; expected fee | Pipeline
+Days in stage | Opportunities with field history | Open | Stage | Average days (from stage history) | Bottlenecks
+Contract to first TC call | Opportunities with activities | Under contract this month | TC | Average hours | Closing
+Cost per closed deal by source | Campaigns with opportunities | Closed this quarter, fall-outs excluded | Lead source | Spend ÷ closed deals | Cost per deal
+Booked vs realized fees | Opportunities | Closed this quarter | Month | Expected fee; actual fee; difference | Revenue
+Fall-outs by reason | Opportunities | Stage = cancelled | Dead reason, source | Count | Honest ROI
+Dead leads with re-contact date this week | Leads | Status = not now, re-contact date = this week | Owner | Count | Long follow-up
+Days from contract to assignment | Opportunities | Assigned this quarter | Dispo rep | Average days | Dispo
+Buyers who closed in 12 months | Buyers with deals (custom report type) | Closed in last 12 months | Buyer | Deals; total paid | Buyer list
+Who changed lead source | Lead history | Field = lead source | User | Count | Data trust
+Weekly pipeline trend | Reporting snapshot object | Last 12 weeks | Week | Pipeline value | Trend
+What Salesforce report limits should you know?
+Item | Limit
+Rows shown in a report | 2,000 in the interface; export for more
+Custom report types | Professional 50, Enterprise 300, Unlimited 2,000
+Objects in one custom report type | Up to 60 object references, 1,000 fields
+Joined reports | Enterprise and up, up to 5 blocks
+Cross filters | Up to 3 per report
+Dashboard components | Up to 25 per dashboard
+Reporting snapshots | Professional and up; 200 in Professional
+Field history | 20 fields per object, 18 months in the interface
+Sources: limits · report types · joined reports · snapshots · field history
+Which reports belong on the Monday dashboard?
+Five, not twenty: leads by source, speed to first contact, offers vs contracts, cost per closed deal by source, and pipeline by stage. Everything else is for drilling in when a number moves. The reasoning and formulas are in the Monday 5 ; layout ideas in the pipeline dashboard guide .
+Why do CRM reports get ignored?
+Usually because nobody trusts the data. In Validity’s 2025 survey of 602 CRM users, 76% said less than half of their CRM data is accurate and complete. source The fix is upstream: picklists instead of free text, validation rules at each stage, lead source locked after creation, and a “who changed it” report so problems are visible.
+Questions
+What reports should a wholesaler run in Salesforce?
+Start with leads by source, speed to first contact, leads with no activity in 7 days, offers vs contracts by rep, cost per closed deal by source and pipeline by stage.
+How do I report on leads with no activity in Salesforce?
+Use a cross filter: leads without activities, with a date condition such as the last 7 days. Salesforce allows up to 3 cross filters per report.
+Can Salesforce show trends over time?
+Yes. Reporting snapshots save a report’s results to a custom object on a schedule, so you can chart weekly pipeline or lead counts.
+Why can I only see 2,000 rows in a Salesforce report?
+The report interface shows up to 2,000 rows. Export the report to see all rows, or summarize with groupings.
+Sources
+Salesforce Help: reports and dashboards limits
+Salesforce Help: custom report type guidelines
+Salesforce Help: joined reports
+Salesforce Help: reporting snapshots
+Salesforce Help: field history tracking
+Validity: The State of CRM Data Management in 2025
+Related
+Real estate CRM guide · Salesforce features · Integrations · 15 automation recipes · The Monday 5
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want these reports built on clean data?
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
 ## Texting Sellers from Salesforce: 10DLC and Consent
 URL: https://amrmagdy.com/salesforce-texting-real-estate.html
 
@@ -3507,7 +3689,7 @@ Write your stages from new lead to closed on paper, list the five reports you wa
 Watch the short versions
 Five short videos cover each section of this page: how far Salesforce goes .
 Related
-Salesforce features for investors · Which Salesforce edition · Do I need a CRM yet? · Moving off Podio · Wholesaling CRM checklist · Salesforce vs Follow Up Boss · Salesforce for real estate investors · All free tools
+Edition picker tool · Salesforce features for investors · Which Salesforce edition · Do I need a CRM yet? · Moving off Podio · Wholesaling CRM checklist · Salesforce vs Follow Up Boss · Salesforce for real estate investors · All free tools
 Last updated October 2026. Salesforce, Podio and REsimpli are trademarks of their owners; this page is independent. I build Salesforce for real estate investors, so I'm not neutral, and I've tried to keep every claim to what the vendors publish.
 Not sure which side you're on?
 I build Salesforce for real estate investors and wholesalers. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500), which shows what your current CRM is costing you in lost deals.
