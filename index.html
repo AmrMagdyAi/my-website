@@ -67,7 +67,7 @@
       "contactPoint": { "@type": "ContactPoint", "contactType": "customer service", "email": "info@AmrMagdy.com", "telephone": "+201033275250", "availableLanguage": ["English", "Arabic"] },
       "knowsLanguage": ["en", "ar"],
       "workLocation": { "@type": "VirtualLocation", "name": "Remote — US, UK, Canada, Worldwide" },
-      "knowsAbout": ["Salesforce", "Salesforce CRM", "Real Estate CRM", "Lead Routing Automation", "Speed to Lead", "Salesforce Flow Builder", "Apex", "Lightning Web Components", "Property Acquisition Pipeline", "Tableau Dashboards", "Zapier Integration", "RingCentral Integration", "Salesforce Marketing Cloud", "CRM User Adoption", "Salesforce Administration", "Salesforce AI"],
+      "knowsAbout": ["Salesforce", "Salesforce CRM", "Real Estate CRM", "Lead Routing Automation", "Speed to Lead", "Salesforce Flow Builder", "Apex", "Lightning Web Components", "Property Acquisition Pipeline", "Tableau Dashboards", "Zapier Integration", "RingCentral Integration", "Salesforce Marketing Cloud", "CRM User Adoption", "Salesforce Administration", "Salesforce AI", "Real Estate Wholesaling CRM", "Wholesale Dispositions", "DocuSign Salesforce Integration", "QuickBooks Salesforce Integration", "Salesforce Reports and Dashboards", "Agentforce", "A2P 10DLC Texting Compliance", "Salesforce Edition Selection"],
       "award": "Salesforce Trailhead Double Star Ranger (20 Superbadges, 210+ badges, 130,000+ points)",
       "nationality": { "@type": "Country", "name": "Egypt" },
       "alumniOf": { "@type": "CollegeOrUniversity", "name": "Cairo University, Faculty of Commerce" },
@@ -155,10 +155,10 @@
 :root{
   --navy:#0b1f3a; --navy2:#102845; --navy3:#1a3556;
   --cream:#f7f4ee; --cream2:#efe9df; --paper:#ffffff;
-  --ink:#13243d; --ink2:#475569; --ink3:#7d8aa0;
+  --ink:#13243d; --ink2:#475569; --ink3:#5f6d83;
   --azure:#0b6bce; --azure2:#1287e8; --azure-soft:#e4f0fc;
-  --gold:#b8862f; --gold2:#d4a23e; --gold-soft:#f6edd9;
-  --green:#1f8a4c; --green-soft:#e3f3e9;
+  --gold:#7d5a12; --gold2:#d4a23e; --gold-soft:#f6edd9;
+  --green:#17703d; --green-soft:#e3f3e9;
   --rose:#c0432f;
   --bd:rgba(19,36,61,.10); --bd2:rgba(19,36,61,.18);
   --bdl:rgba(255,255,255,.12); --bdl2:rgba(255,255,255,.22);
@@ -474,7 +474,7 @@ section{position:relative}
 
 /* BLOG */
 html,body{overflow-x:clip}
-.ft-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.ft-card{display:block;background:var(--paper);border:1px solid var(--bd);border-radius:var(--rl);box-shadow:var(--sh-sm);padding:24px;transition:transform .3s,border-color .3s}.ft-card:hover{transform:translateY(-3px);border-color:var(--gold2)}.ft-tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--gold2);font-weight:700}.ft-card h3{font-size:1.08rem;margin:8px 0}.ft-card p{color:var(--ink2);font-size:.92rem;line-height:1.6}@media(max-width:980px){.ft-grid{grid-template-columns:1fr 1fr}}@media(max-width:600px){.ft-grid{grid-template-columns:1fr}}
+.ft-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.ft-card{display:block;background:var(--paper);border:1px solid var(--bd);border-radius:var(--rl);box-shadow:var(--sh-sm);padding:24px;transition:transform .3s,border-color .3s}.ft-card:hover{transform:translateY(-3px);border-color:var(--gold2)}.ft-tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--gold);font-weight:700}.ft-card h3{font-size:1.08rem;margin:8px 0}.ft-card p{color:var(--ink2);font-size:.92rem;line-height:1.6}@media(max-width:980px){.ft-grid{grid-template-columns:1fr 1fr}}@media(max-width:600px){.ft-grid{grid-template-columns:1fr}}
 .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .blog-card{display:flex;flex-direction:column;overflow:hidden;background:var(--paper);border:1px solid var(--bd);border-radius:var(--rl);box-shadow:var(--sh-sm);transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .35s}
 .blog-card:hover{transform:translateY(-6px);box-shadow:var(--sh-md);border-color:var(--bd2)}
@@ -614,6 +614,7 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
 [data-theme="dark"] .theme-toggle{background:#13243d}
 [data-theme="dark"] .navy{background:#081326}
 [data-theme="dark"] .cream2{background:var(--cream2)}
+
 @media(prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
   .rv,.rvl,.rvr{opacity:1!important;transform:none!important}
@@ -633,7 +634,7 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
 
 <nav id="nav" aria-label="Primary">
   <div class="wrap">
-    <a href="#hero" class="logo" aria-label="Amr Magdy home">
+    <a href="#hero" class="logo">
       <span class="logo-mark" aria-hidden="true">A</span>
       <span>Amr Magdy<span class="sub">Salesforce · Real Estate</span></span>
     </a>
@@ -659,7 +660,7 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
 </nav>
 
 <div id="drawer-overlay"></div>
-<aside id="drawer" aria-label="Mobile menu" aria-hidden="true">
+<aside id="drawer" aria-label="Mobile menu" aria-hidden="true" inert>
   <div class="drawer-top">
     <span class="logo"><span class="logo-mark" aria-hidden="true">A</span>Amr Magdy</span>
     <button class="drawer-close" id="drawer-close" aria-label="Close menu">
@@ -1208,6 +1209,21 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
       <a class="ft-card rv" href="kept-deal-map.html"><span class="ft-tag">Framework</span><h3>The Kept-Deal Map</h3><p>Five places deals leak between the marketing dollar and the closing.</p></a>
       <a class="ft-card rv" href="monday-5-real-estate-kpis.html"><span class="ft-tag">Framework</span><h3>The Monday 5</h3><p>Five numbers to see every Monday, with a 30-second self-check.</p></a>
     </div>
+    <div class="sec-head center rv" style="margin-top:56px">
+      <span class="eyebrow">Salesforce for real estate: guides</span>
+      <h2>Everything about a <em>real estate CRM</em>, sourced</h2>
+      <p>Every number links to Salesforce’s own documentation or the original study.</p>
+    </div>
+    <div class="ft-grid">
+      <a class="ft-card rv" href="real-estate-crm-guide.html"><span class="ft-tag">Guide</span><h3>Real estate CRM: the complete guide</h3><p>Data model, stages, automation, integrations, KPIs and a 30-day setup plan.</p></a>
+      <a class="ft-card rv" href="salesforce-features-real-estate.html"><span class="ft-tag">Features</span><h3>37 Salesforce features for investors</h3><p>What each one does for a wholesaling team, with limits by edition.</p></a>
+      <a class="ft-card rv" href="salesforce-integrations-real-estate.html"><span class="ft-tag">Integrations</span><h3>Salesforce integrations</h3><p>DocuSign, QuickBooks, dialers, texting, Google Ads and more.</p></a>
+      <a class="ft-card rv" href="real-estate-lead-response-statistics.html"><span class="ft-tag">Data</span><h3>Speed to lead statistics</h3><p>62 verified numbers, each linked to its source, plus 8 myths.</p></a>
+      <a class="ft-card rv" href="salesforce-edition-picker.html"><span class="ft-tag">Tool</span><h3>Salesforce edition picker</h3><p>Nine questions, the edition to start from, and what to ask your AE.</p></a>
+      <a class="ft-card rv" href="salesforce-automation-recipes-wholesalers.html"><span class="ft-tag">Recipes</span><h3>15 automation recipes</h3><p>Trigger → action for speed to lead, follow-up, offers and dispo.</p></a>
+      <a class="ft-card rv" href="salesforce-reports-wholesalers.html"><span class="ft-tag">Recipes</span><h3>20 report recipes</h3><p>Report type, filter, grouping and measure for every Monday question.</p></a>
+      <a class="ft-card rv" href="salesforce-vs-investor-crms.html"><span class="ft-tag">Compare</span><h3>Salesforce vs investor CRMs</h3><p>The honest version, including when Salesforce is overkill.</p></a>
+    </div>
     <p style="text-align:center;margin-top:22px"><a href="resources.html" class="btn btn-primary">All free tools &amp; the glossary</a></p>
   </div>
 </section>
@@ -1449,8 +1465,8 @@ footer{padding:48px 0;background:var(--navy2);border-top:1px solid var(--bdl);po
   var drawer = byId('drawer');
   var overlay = byId('drawer-overlay');
   var dclose = byId('drawer-close');
-  function openDrawer(){ if(!drawer) return; drawer.classList.add('open'); if(overlay) overlay.classList.add('open'); if(burger) burger.setAttribute('aria-expanded','true'); drawer.setAttribute('aria-hidden','false'); }
-  function closeDrawer(){ if(!drawer) return; drawer.classList.remove('open'); if(overlay) overlay.classList.remove('open'); if(burger) burger.setAttribute('aria-expanded','false'); drawer.setAttribute('aria-hidden','true'); }
+  function openDrawer(){ if(!drawer) return; drawer.classList.add('open'); if(overlay) overlay.classList.add('open'); if(burger) burger.setAttribute('aria-expanded','true'); drawer.setAttribute('aria-hidden','false'); drawer.removeAttribute('inert'); }
+  function closeDrawer(){ if(!drawer) return; drawer.classList.remove('open'); if(overlay) overlay.classList.remove('open'); if(burger) burger.setAttribute('aria-expanded','false'); drawer.setAttribute('aria-hidden','true'); drawer.setAttribute('inert',''); }
   if(burger) burger.addEventListener('click', openDrawer);
   if(dclose) dclose.addEventListener('click', closeDrawer);
   if(overlay) overlay.addEventListener('click', closeDrawer);

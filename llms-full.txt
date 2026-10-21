@@ -165,6 +165,24 @@ The Kept-Deal Map
 Five places deals leak between the marketing dollar and the closing.
 The Monday 5
 Five numbers to see every Monday, with a 30-second self-check.
+Everything about a real estate CRM , sourced
+Every number links to Salesforce’s own documentation or the original study.
+Real estate CRM: the complete guide
+Data model, stages, automation, integrations, KPIs and a 30-day setup plan.
+37 Salesforce features for investors
+What each one does for a wholesaling team, with limits by edition.
+Salesforce integrations
+DocuSign, QuickBooks, dialers, texting, Google Ads and more.
+Speed to lead statistics
+62 verified numbers, each linked to its source, plus 8 myths.
+Salesforce edition picker
+Nine questions, the edition to start from, and what to ask your AE.
+15 automation recipes
+Trigger → action for speed to lead, follow-up, offers and dispo.
+20 report recipes
+Report type, filter, grouping and measure for every Monday question.
+Salesforce vs investor CRMs
+The honest version, including when Salesforce is overkill.
 All free tools & the glossary
 Practical Salesforce playbooks
 Field-tested guides on lead routing, automation, and architecture for real estate teams.
@@ -672,6 +690,7 @@ Amr builds Salesforce for US real estate investors and wholesalers. At Central C
 URL: https://amrmagdy.com/blog-salesforce-einstein-ai-real-estate.html
 
 Salesforce Einstein AI for Real Estate: What It Can Actually Do
+Updated October 2026: Salesforce now sells its sales AI as Agentforce. For current product names and edition availability, see Salesforce AI and Agentforce for real estate investors (2026) .
 Salesforce Einstein AI gets mentioned in a lot of sales decks. The reality of what it does — and what it actually requires to work well — is more nuanced. Here's an honest breakdown of the Einstein features most relevant to real estate, and what you can realistically expect from each one.
 Einstein Lead Scoring
 Einstein analyzes your historical lead data — specifically, which leads converted and which didn't — and builds a predictive model that scores new incoming leads on their likelihood to convert. Scores range from 1 to 99. A score of 85 means Einstein predicts this lead has an 85% probability of converting based on patterns in your historical data.
@@ -1988,6 +2007,8 @@ Can I track these without Salesforce?
 Yes, in any CRM that keeps lead source on the record from first contact to closing and logs calls with timestamps. The hard part is usually attribution: making sure the source survives from lead to contract to closed deal.
 Work out your numbers
 Cost per deal by lead source · Missed seller call cost · Glossary
+Build it in Salesforce
+20 report recipes for wholesalers · 15 automation recipes
 Want all five on one Salesforce dashboard?
 A “Monday 5” dashboard spec is part of every CRM Revenue Audit (USD 1,500, 10 working days), along with a findings report, a 30/60/90-day roadmap and three quick fixes done. Or start with a free 30-minute call.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
@@ -3204,13 +3225,18 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-health-check.html
 
 Is your Salesforce a weapon — or just a bill?
-The Real Estate Salesforce Health Check is a 10-point scorecard I use at the start of every engagement. Answer ten yes/no questions and you'll know exactly where your CRM is leaking deals, hours, and money.
-Speed-to-lead: does every lead reach an agent in under 5 minutes?
-Adoption: do 80%+ of your agents actually work in the CRM?
-Automation health: native Flows or a tangle of fragile Zaps?
-Campaign ROI: do you know your cost-per-deal by channel?
-Deal profitability: can you see net profit per deal in real time?
-…plus five more, with a scoring guide for what to fix first.
+The Real Estate Salesforce Health Check is a 10-point scorecard I use at the start of every engagement. Answer the ten yes/no questions below and you'll know exactly where your CRM is leaking deals, hours, and money.
+Speed to lead: Does every new lead reach a rep within 5 minutes, automatically, at any hour? Fix: speed to lead guide →
+Lead routing: Are leads assigned by rules (round robin, market, source) instead of someone forwarding emails? Fix: lead routing →
+Pipeline truth: Can leadership see an accurate pipeline without asking anyone to update a spreadsheet? Fix: pipeline dashboard →
+Adoption: Does almost everyone log calls, notes and stage changes in Salesforce, not in their phones? Fix: adoption fixes →
+Automation health: Do your automations run on native Salesforce Flow rather than a tangle of third-party zaps? Fix: 15 automation recipes →
+Call logging: Are calls logged automatically from your phone system, with no manual entry? Fix: dialers in Salesforce →
+Campaign ROI: Do you know cost per lead and cost per closed deal for every channel? Fix: cost per deal calculator →
+Deal profitability: Can you see net profit per deal, including all costs, inside the CRM? Fix: deal profit in Salesforce →
+Duplicates and data: Is duplicate detection automated, and do you trust the data enough to decide from it? Fix: data quality features →
+Stale leads: Does the system escalate leads nobody has touched in 48 hours? Fix: report recipes →
+Score: 9–10, your CRM is working for you. 6–8, solid but hours and deals are slipping. 0–5, it costs more than it returns, and every point is fixable. The PDF version is below for printing or sharing with your team.
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
