@@ -1,7 +1,7 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-10-20
+> Generated: 2026-10-21
 
 
 ---
@@ -833,14 +833,14 @@ Is Salesforce worth it for investors?
 Short answer: it depends on your team, not your deal count alone. Salesforce pays off when the cost of what you can't see (which list makes money, which leads die in follow-up, which rep's offers run over MAO) is bigger than the cost of the system.
 Stay with an investor CRM if you're solo or a small team doing a few deals a month and the built-in pipeline fits how you work.
 Salesforce makes sense when you run several teams or markets, need reports your tool can't build, or your process doesn't fit a fixed pipeline.
-What Salesforce costs in 2026
-On the Sales Cloud pricing page (accessed October 20, 2026), Pro Suite is USD 100 and Core is USD 195 per user per month, billed annually. A five-person team on Pro Suite is USD 500 a month, or USD 6,000 a year in licenses, before setup. Compare that with what one lost deal is worth to you, and run your own numbers in the cost per deal calculator .
+What Salesforce costs
+Salesforce publishes per-user monthly list prices on its pricing page , but most businesses don’t pay list . Talk to a Salesforce account executive first: many teams are offered a discount based on the business and the number of users. Then weigh the quote against what one lost deal is worth to you, using the cost per deal calculator .
 For a side-by-side on data model, automation, reporting and price, see Salesforce vs investor CRMs . Leaving Podio? Start with the 10-step migration checklist .
 Questions investors ask
 Is Salesforce worth it for a real estate investor?
 It is worth it when you run several teams or markets, need reports your current tool cannot build, or your process does not fit a fixed pipeline. A solo investor or small team doing a few deals a month is usually better served by an investor CRM like REsimpli or a clean Podio setup.
-How much does Salesforce cost for an investor team in 2026?
-On the Sales Cloud pricing page (accessed October 20, 2026), Pro Suite is USD 100 per user per month and Core is USD 195, both billed annually. A five-person team on Pro Suite is USD 500 a month, or USD 6,000 a year in licenses, before setup.
+How much does Salesforce cost for an investor team?
+It depends on the edition and the number of users. Salesforce lists per-user monthly prices, but most businesses get a quote with a discount after talking to a Salesforce account executive, based on the business and the number of users. Ask for a quote before comparing tools.
 Can I move from Podio or REsimpli to Salesforce without losing my leads?
 Yes, if you plan it: map every field first, keep lead source and created date on every record, merge duplicate sellers, and test 50 records before moving the rest. Podio's Excel export leaves out comments, files and tasks, so plan for those separately.
 Do I need a developer for Salesforce?
@@ -2254,7 +2254,7 @@ Automation | Flow: record-triggered, scheduled, screen and approval flows, built
 Reporting | Any field is reportable; joined reports (Enterprise and up) and reporting snapshots for trends ( source , source ). | Ask for a demo of the exact reports you need. | Ask for a demo of the exact reports you need.
 Test changes before going live | Sandboxes: copies of your org for testing ( source ). | Not checked. | Not checked.
 Calling and texting | Through AppExchange apps and integrations. | Not checked. | Often built in; REsimpli plans differ by calling and SMS minutes ( source ).
-Price | Pro Suite USD 100, Core USD 195 per user per month, billed annually, plus setup ( source ). | See the vendor's pricing page. | See the vendor's pricing page.
+Price | Per-user monthly list prices, but most businesses get a discount from a Salesforce account executive based on the business and number of users. Plus setup. | See the vendor's pricing page. | See the vendor's pricing page.
 Checked October 20, 2026 against each vendor's own pages. "Not checked" means I could not confirm it from an official page. Products change, so confirm in a demo.
 How far Salesforce goes
 Your process, not a fixed pipeline
@@ -2269,12 +2269,12 @@ When Salesforce is overkill
 Stay with an investor CRM if
 You're solo or a small team doing a few deals a month, and the built-in pipeline fits how you work.
 Salesforce makes sense when
-You run several teams or markets, you need reports your tool can't build, or your process doesn't fit their pipeline. It should pay for itself in deals you keep.
+You run several teams or markets, you need reports your tool can't build, or your process doesn't fit their pipeline. It should pay for itself in deals you keep, so get a quote first: most businesses are offered a discount on list price.
 Questions
 Is Salesforce better than an investor CRM?
 Not for everyone. An investor CRM is built for wholesaling out of the box and is quicker to start. Salesforce fits when you have several teams or markets, need reports your current tool cannot build, or your process does not fit a fixed pipeline. I build on Salesforce, so weigh my view with that in mind.
 How much does Salesforce cost for a small investor team?
-On the Sales Cloud pricing page (accessed October 20, 2026), Pro Suite is USD 100 per user per month and Core is USD 195, both billed annually. Setup is extra, whether you do it yourself or hire someone.
+Salesforce lists per-user monthly prices on its pricing page, but most businesses don't pay list. Talk to a Salesforce account executive: many teams are offered a discount based on the business and the number of users. Setup is extra, whether you do it yourself or hire someone.
 Can Salesforce do what Podio does?
 Podio lets you build custom apps from its field types and link apps with relationship fields. Salesforce does the same with custom objects and lookup fields, and adds built-in Flow automation, joined reports, reporting snapshots and sandboxes for testing changes.
 Do I need a developer to run Salesforce?
@@ -2416,7 +2416,7 @@ Cost per closed deal by source, offers over MAO by rep, and two report tools mos
 Built to grow
 Sandboxes to test changes, field history, access by team and market, the API allowance and AppExchange, with sources on screen.
 When Salesforce is overkill
-The honest version: who should stay with an investor CRM, when Salesforce starts to make sense, and current Sales Cloud pricing.
+The honest version: who should stay with an investor CRM, when Salesforce starts to make sense, and why you should get a quote before comparing prices.
 Quick ones
 Five sub-minute videos: the missed 6:40pm call, the 23% that never respond, assignment fee math, the Monday 5, and dead leads that are not dead.
 The 6:40pm call
