@@ -204,7 +204,7 @@ It can remove the hours that do not need a person: logging calls, creating next 
 How do I measure the inputs from my own data?
 Pull talk time per call and touches per lead from your phone system and CRM for the last 30 days. If those numbers are not available, that gap is the first thing to fix.
 Related free tools
-Cold caller handoff checklist · Missed seller call cost · Deal Leak Score · The Monday 5 · All free tools
+Salesforce access for VAs · Cold caller handoff checklist · Missed seller call cost · Deal Leak Score · The Monday 5 · All free tools
 Last updated October 2026. For planning only, not financial, tax or legal advice. Check figures with your lender, accountant or lawyer.
 Add this calculator to your site
 Free to embed on your blog or investor site. Copy the code below.
@@ -549,7 +549,7 @@ Real questions from wholesaling groups, answered plainly
 Videos: Deal Leak
 Short videos on where deals leak and how to fix each point
 Related guides
-37 Salesforce features for investors
+15 automation recipes for wholesalers · 37 Salesforce features for investors
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
@@ -1423,7 +1423,7 @@ Merge duplicates by phone and email, ask for fresh proof of funds when the date 
 Can I use this in a CRM?
 Yes. Each column becomes a field on a contact or buyer record. The free CRM field kit has the same buyer fields with picklist values and automation rules for Salesforce, REsimpli, Podio, HubSpot or a spreadsheet.
 Related free tools
-CRM field kit · Wholesale deal analyzer · MAO calculator · Assignment vs double close · All free tools
+Dispositions in Salesforce · CRM field kit · Wholesale deal analyzer · MAO calculator · Assignment vs double close · All free tools
 Last updated October 2026. The example rows in the CSV are made up; delete them before use.
 Want deals matched to buyers automatically?
 I build Salesforce for real estate investors and wholesalers: buyer records with buy boxes, deal-to-buyer matching, send and reply tracking, and a report of which buyers actually close. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -1465,7 +1465,7 @@ Once a week, compare each caller's Warm and Hot leads with what acquisitions fou
 Can a CRM block incomplete handoffs?
 Yes. Most CRMs, including Salesforce, can require fields before a status changes, so a lead cannot be marked Hot until the key questions are answered.
 Related
-Speed to lead & follow-up statistics · Speed to lead · Acquisitions team capacity calculator · CRM field kit · Wholesaling CRM checklist · All free tools
+Salesforce access for VAs · 15 automation recipes · Speed to lead & follow-up statistics · Speed to lead · Acquisitions team capacity calculator · CRM field kit · Wholesaling CRM checklist · All free tools
 Last updated October 2026.
 Want this built into your CRM?
 I build Salesforce for real estate investors and wholesalers, and the same rules work in any CRM. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -1734,6 +1734,68 @@ Assignment vs double close · Assignment fee guide · Wholesale deal analyzer ·
 Last updated October 2026. Not legal or tax advice.
 Want every deal's real profit in one report?
 I build Salesforce for real estate investors and wholesalers: exit type on every deal, both sets of closing costs, and a report of what each lead source actually earns. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Driving for Dollars with Salesforce: Mobile & Maps
+URL: https://amrmagdy.com/driving-for-dollars-salesforce.html
+
+Driving for dollars with Salesforce.
+You can run driving for dollars from the Salesforce mobile app, which works offline and syncs later, and add Salesforce Maps or a partner app like Geopointe for routes. Here’s what to capture on each property, what the mobile app and map tools do, and what happens after the drive so the house becomes a lead you can measure.
+Driving for dollars works in Salesforce with the mobile app: it caches recent records, and Offline Edit lets you create and edit records with no signal , syncing later. source
+For routes and map views you need an add-on: Salesforce Maps (routes, territories, nearby search) or a partner app like Geopointe. source · Geopointe
+The rule that matters: one Property record per address, checked for duplicates, so a house you drive past twice isn’t two leads.
+What should a driving-for-dollars record capture?
+Field | Type | Why
+Address | Address fields | The match key for duplicates and mapping
+Distress signs | Multi-select picklist (overgrown, boarded, tarp, code notice, mail piling up, vacant) | Lets you filter and score; free text can’t be filtered
+Occupancy guess | Picklist | Changes the outreach
+Photo | File on the record | Proof for the acquisitions call
+Driver and date | Lookup and date | Which driver’s routes produce deals
+Lead source | Picklist = Driving for dollars | So cost per deal works for this channel too
+What does the Salesforce mobile app do in the field?
+Offline caching and Offline Edit
+By default the app caches up to 30 recent records for each of your 5 most recent objects. With Offline Edit, users create, edit and delete records offline, and changes sync when the device reconnects. source
+Quick create actions
+Mobile smart actions give one-tap create on leads and other core objects; a custom action can open a short “new property” form with only the fields above. source
+Business card scan
+Meeting a neighbour, contractor or agent on the street? The app can scan a business card into a contact. source
+Do you need Salesforce Maps for driving for dollars?
+Option | What it does | Note
+Salesforce Maps | Records on a map, route optimization, territory planning, nearby prospecting, external property data via connectors | Add-on; bundled in Agentforce 1 Sales. Maps Advanced plans routes up to 4 months out
+Geopointe (Ascent Cloud) | Maps leads and deals, radius search, optimized routes, mobile check-ins with notes, territories | AppExchange partner app
+No map add-on | Export addresses to a route app; capture in the mobile app | Fine to start
+Sources: Salesforce Maps · Trailhead · Geopointe
+What happens after the drive?
+1. Deduplicate
+Duplicate rules alert or block when a new record matches an existing address. Up to 5 active duplicate rules per object. source
+2. Skip trace
+Send the address to your skip tracing provider and write phones and DNC flags back. BatchData’s API, for example, returns phones flagged mobile or landline with DNC and TCPA litigator checks; there’s no native Salesforce connector, so this is middleware or a custom callout. source
+3. Outreach with consent rules
+Calling and texting rules apply to these numbers too. See the texting guide .
+4. Score the driver, not just the house
+Report deals and contracts by driver and route. That tells you which areas to drive again.
+Questions
+Can I use Salesforce offline while driving for dollars?
+Yes. The mobile app caches recent records, and Offline Edit lets you create, edit and delete records offline; changes sync when you reconnect.
+Does Salesforce have route planning?
+Salesforce Maps, an add-on, offers route optimization, territory planning and nearby search. Partner apps such as Geopointe also do routing.
+How do I avoid duplicate properties from driving for dollars?
+Keep one Property record per address and turn on duplicate rules matching on the address, so a second visit updates the record instead of creating a new lead.
+Sources
+Salesforce Help: mobile app offline
+Salesforce Help: mobile smart actions
+Salesforce Help: mobile enhanced contacts
+Salesforce: Salesforce Maps
+Trailhead: Salesforce Maps basics
+Ascent Cloud: Geopointe
+Salesforce Help: duplicate rules
+BatchData: skip tracing API
+Related
+Real estate CRM guide · Salesforce features · Integrations · Lead sources into Salesforce · CRM field kit
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want field leads that become measurable deals?
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2109,7 +2171,7 @@ Under contract → title task, dispo alert and buyer list match.
 Offer above MAO → manager approval.
 Duplicate lead → alert and merge, keeping the first source.
 Monday → the five KPI numbers emailed to the owner.
-Examples in Salesforce: 5 automations every real estate team needs .
+Examples in Salesforce: 15 automation recipes for wholesalers · 5 automations every real estate team needs .
 How much follow-up does a seller lead need?
 More than most teams give it. 93% of converted leads were reached by the sixth call attempt in Velocify’s 2012 data, yet half of leads in the same research were never called a second time. Build the cadence into the CRM so it doesn’t depend on memory: follow-up cadence builder · speed to lead guide · all 62 statistics .
 What should a real estate CRM connect to?
@@ -2152,6 +2214,7 @@ Score your own setup in two minutes: Deal Leak Score .
 Every free tool and guide on this site
 Area | Tools and guides
 Choose | Do I need a CRM? · Salesforce vs investor CRMs · Is Salesforce worth it? · Which Salesforce edition?
+Run the team | Dispositions · Driving for dollars · VA access · 15 automation recipes
 Build | CRM field kit · 37 Salesforce features · configuration object · cold caller handoff
 Connect | Integrations hub · AppExchange apps · Zapier · RingCentral
 Respond | Speed to lead · Statistics · Follow-up cadence · Lead routing
@@ -2363,6 +2426,14 @@ Salesforce integrations for investors
 DocuSign, QuickBooks, dialers, texting, Facebook and Google Ads, PropStream, Slack: what each syncs and needs.
 Which Salesforce edition do investors need?
 Starter vs Professional vs Enterprise vs Unlimited by custom objects, flows and API access. No list prices.
+15 automation recipes for wholesalers
+Trigger → action for speed to lead, missed calls, follow-up, offers, contracts and dispo, in build order.
+Wholesale dispositions in Salesforce
+Buyers with a buy box, which buyer saw which deal, deal blasts and dispo numbers.
+Driving for dollars with Salesforce
+Mobile capture offline, routes with Salesforce Maps or Geopointe, and what happens after the drive.
+Salesforce access for VAs and cold callers
+Permission sets, sharing, field-level security, MFA and an onboarding and offboarding checklist.
 DocuSign + Salesforce
 Purchase and assignment contracts sent, signed and filed from the deal.
 QuickBooks + Salesforce
@@ -2439,6 +2510,73 @@ Guides
 Salesforce for real estate investors · Cost per lead, deal profitability and campaign ROI in Salesforce · Lead routing and speed to lead · 50+ real requests from an acquisition company · All articles
 Rather have it built into your CRM?
 Every tool here is something I build as live reporting in Salesforce for investors and wholesalers. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit (USD 1,500, 10 working days).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## 15 Salesforce Automations for Wholesalers (Recipes)
+URL: https://amrmagdy.com/salesforce-automation-recipes-wholesalers.html
+
+15 automation recipes for a wholesaling CRM.
+The automations that pay off first in a wholesaling CRM are a call task for every new lead, a callback for every missed call, required fields before a lead is passed, and long follow-up for “not now” leads. Here are 15 recipes written as trigger → action, which Salesforce tool to use for each, and the order to build them.
+These are the automations I’d build first for a wholesaling team, written as trigger → action so you can hand them to whoever builds your CRM.
+Count them before you pick an edition: Salesforce Professional allows 5 flows; Enterprise allows 2,000 active. source · source
+Several are better as validation rules, approval processes or dashboard subscriptions than as flows.
+15 automations for a wholesaling CRM
+Automation | Trigger | Action | Fixes | Salesforce tool
+New lead → owner and call task | Lead created | Assign by market or round robin; create call task due in 5 minutes; alert owner | Speed to lead | Record-triggered
+Missed inbound call → callback | Call logged with outcome = missed, direction = inbound | Task due in 10 minutes for lead owner; if consented, send text | Missed calls | Record-triggered on Task
+No activity in 7 days | Daily at 7am: open leads with last activity > 7 days | Follow-up task for owner; after 3 sweeps, flag for manager | Follow-up | Schedule-triggered
+“Not now” → re-contact date | Status changes to Not now | Require re-contact date; create task on that date; enroll in long cadence | Long follow-up | Record-triggered
+Warm/hot handoff check | Status changes to Warm or Hot | Block save without timeline, reason, condition, callback time (validation rule); task for acquisitions due same day / within 1 hour | Handoff | Validation rule + record-triggered
+Offer above MAO → approval | Offer amount > MAO on the deal | Route to acquisitions manager for approval before status can be Sent | Offer discipline | Flow Approval Process
+Offer expires | Daily: offers sent > 5 days with no response | Task to follow up; mark expired after 14 days | Offers | Schedule-triggered
+Signed contract → under contract | Signed document written back by e-signature tool | Stage = Under contract; task for TC; post to #dispo | Contract to dispo | Record-triggered
+Under contract → buyer match | Stage = Under contract | Create Deal Sent records for top 10 matching buyers; task for dispo | Dispo speed | Record-triggered
+Closing date in 3 days | Daily: deals closing in 3 days | Checklist task for TC (title, funds, buyer confirmation) | Closing | Schedule-triggered
+Deal dies → reason and source kept | Stage = Dead | Require dead reason; if “not now”, create re-contact date | Clean ROI | Validation rule + record-triggered
+Fall-out → out of ROI | Contract cancelled | Uncheck “counts in ROI”; notify owner; reopen lead with reason | Honest reporting | Record-triggered
+Duplicate seller → merge task | Duplicate rule alert on new lead | Task to merge; keep first lead source | Data quality | Duplicate rule + task
+Proof of funds stale | Daily: buyers with POF date > 90 days | Task to request a new POF | Dispo | Schedule-triggered
+Monday numbers | Monday 7am | Dashboard emailed to owner and managers | Weekly review | Dashboard subscription
+Flow, validation rule or approval: which tool for which job?
+Job | Tool | Why
+Stop bad data being saved | Validation rule | Enforced everywhere, including imports and integrations
+React to a change | Record-triggered flow | Runs when a record is created, updated or deleted
+Sweep records on a timetable | Schedule-triggered flow | Runs at set times on batches of records
+Guide a rep through a script | Screen flow | Shows only the questions that apply
+Manager sign-off | Flow Approval Process | Multistep approvals with work items; Enterprise and up
+Sources: Flow types · Flow Approval Processes .
+Which automations should you build first?
+Week 1
+New lead task, missed call callback, warm/hot validation. These protect the leads you already pay for. See speed to lead and the handoff checklist .
+Week 2
+No activity sweep, not-now re-contact, dead reason. These protect the long follow-up where most conversions happen .
+Week 3
+Contract to dispo, buyer match, closing checklist. These shorten days to assignment.
+Week 4
+Offer approvals, fall-outs out of ROI, Monday dashboard. These make the numbers honest.
+What goes wrong with CRM automation?
+Building automations before the fields are clean: a flow that reads a free-text lead source does nothing useful.
+Too many alerts: if every change pings someone, people mute them. Alert on exceptions only.
+No owner: every automation should have a person who gets told when it fails.
+Overlapping tools: a Zapier chain and a flow both creating tasks doubles the work. See replacing Zapier chains .
+Questions
+What should a wholesaler automate first in a CRM?
+The new-lead call task, a callback task for missed calls, and required fields before a lead is marked warm or hot. They protect leads you already paid for.
+How many flows can Salesforce Professional run?
+Salesforce’s Professional Edition allocation page lists 5 flows. Enterprise and Unlimited allow 4,000 total and 2,000 active.
+Should required fields be a flow or a validation rule?
+A validation rule. It blocks the save everywhere, including imports and integrations, and can be conditional on stage or status.
+Sources
+Salesforce Help: Flow types
+Salesforce Help: Professional Edition allocations
+Salesforce Help: Enterprise Edition allocations
+Salesforce Help: Flow Approval Processes
+Related
+Real estate CRM guide · Salesforce features · Integrations · 5 automations every real estate team needs · Follow-up cadence builder
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want these automations built and tested?
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2571,6 +2709,77 @@ All Salesforce integrations for investors · Salesforce features for investors �
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want every call on the lead?
 I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Wholesale Dispositions in Salesforce: Buyers & Deals
+URL: https://amrmagdy.com/salesforce-dispositions-real-estate.html
+
+Wholesale dispositions in Salesforce.
+A dispo system in Salesforce has three parts: buyer records with a structured buy box, a record of every deal sent to every buyer, and a fast way to send new contracts to the best-matched buyers first. Here’s the data model, matching rules, sending options, automations and the numbers that show whether your buyer list is real.
+Dispo in a CRM means three things: buyers with a buy box , a record of which buyers saw which deal , and a fast way to send a new deal to the right buyers first .
+In Salesforce that’s a Buyer record, a junction object between Property and Buyer, and List Email or an email tool. List Email sends to up to 200 leads or contacts at once. source
+The payoff: when a contract is signed, the 10 buyers most likely to close get it in minutes, and you can see who actually buys.
+What records does a dispo system need?
+Record | Key fields | Why
+Buyer (Contact or custom object) | Zips or counties, min/max price, property types, rehab level, financing (cash or hard money), proof of funds date, last purchase date | Matching a deal to the buy box
+Property / Deal | Address, ARV, repairs, contract price, assignment ask, access instructions, photos folder | What you’re selling
+Deal Sent (junction: Property ↔ Buyer) | Date sent, opened or viewed, interested, offer amount, outcome | Who saw what, who offered, who closes
+The junction record is the part most teams skip. In Salesforce it’s two master-detail relationships, and it can roll up to both sides: offers per deal and deals sent per buyer. source · roll-up limits
+How do you match a deal to the right buyers?
+Start with the buy box
+A list view or report filtered by the deal’s zip, price band and property type gives the candidate buyers. Keep the buy box as picklists and numbers, not a notes field, or the filter can’t work.
+Rank by behaviour, not list size
+Sort candidates by deals closed in the last 12 months, then by offers made. A roll-up on the buyer record makes this one column.
+Send to the top 10 first
+Give your best buyers a head start, then widen. The Deal Sent records show who had the chance, which settles “I never got that one.”
+How do you send deals to buyers from Salesforce?
+Option | Good for | Limit or note
+List Email | Up to 200 buyers at a time from a list view | Counts toward the mass email limit, typically 5,000 recipients a day
+Mailchimp (Beaufort 12 integration) | Designed deal emails to segmented buyer audiences | Third-party integration; email activity shows on Salesforce records
+Account Engagement | Larger lists, scoring and automation | Syncs with Professional and higher every 2–4 minutes
+Text | Buyers who agreed to texts | See the texting and 10DLC guide
+Sources: List Email · Mailchimp · Account Engagement
+Should buyers get a portal?
+A buyer portal lets buyers log in and see available deals, request access and submit offers. In Salesforce that’s Experience Cloud, which needs Enterprise or higher and licenses bought separately. For most wholesalers, a good email and a deal page per property is enough until volume justifies it. source
+What should dispo automate?
+Under contract → post to the #dispo Slack channel with address, ARV and assignment ask. Flow has a Send Message to Slack action. source
+Under contract → create the deal folder (Box for Salesforce puts a folder on each record). source
+Buyer offer received → task for the dispo rep and update the Deal Sent record.
+No buyer interest in 72 hours → task to re-price or widen the list.
+Proof of funds older than 90 days → task to request a new one.
+Which dispo numbers matter?
+Number | Tells you
+Days from contract to assignment | Whether your buyer list is deep enough
+Buyers who closed in the last 12 months | Your real buyer list (often a small fraction of the total)
+Offers per deal sent | Pricing and deal quality
+Assignment fee vs ask | How much you give up to close
+Fall-outs by buyer | Who to stop sending deals to first
+A Kanban view of the dispo pipeline, summarized by expected fee, gives the team a daily board. source Free template: cash buyers list .
+Questions
+How do wholesalers track cash buyers in a CRM?
+Store each buyer with a structured buy box (areas, price range, property types, rehab level, financing, proof of funds date) and log every deal sent to them, so you can filter matching buyers and see who actually buys.
+Can Salesforce send a new deal to my buyers list?
+Yes. List Email sends a template to up to 200 contacts or leads at a time from a list view. For larger lists or designed emails, use an email tool connected to Salesforce.
+Do I need a buyer portal?
+Usually not at first. Salesforce portals use Experience Cloud, which needs Enterprise or higher and separate licenses. Email plus a deal page works for most wholesalers.
+What is a buy box?
+A buyer’s criteria for deals: locations, price range, property types, condition and how they fund purchases.
+Sources
+Salesforce Help: relationship considerations
+Salesforce Help: roll-up summary field limit
+Salesforce Help: List Email
+Mailchimp: Salesforce integration
+Salesforce Help: Account Engagement connector
+Salesforce Help: Experience Cloud license types
+Salesforce Help: Slack actions in Flow
+Box: Box for Salesforce
+Salesforce Help: Kanban view
+Related
+Real estate CRM guide · Salesforce features · Integrations · Cash buyers list template · Assignment fee guide
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want dispo that sends the right deal to the right buyer?
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2727,7 +2936,7 @@ Screen flows
 What it does: Guided forms with steps and logic. In real estate: A seller intake script that asks timeline, condition and reason, and only shows the asking-price question when the lead is hot. See the cold caller handoff checklist . Edition / limit: Same flow allocation. source
 Flow Approval Processes
 What it does: Multistep approvals where each step assigns a work item to a user, group or queue. In real estate: Offers above MAO, or above a dollar threshold, need the acquisitions manager’s approval before they go out. Edition / limit: Enterprise, Performance, Unlimited and Developer; Lightning only. Salesforce calls it the modern alternative to classic approval processes. source · editions
-More examples: 5 Salesforce automations every real estate team needs .
+More examples: 15 automation recipes for wholesalers · 5 Salesforce automations every real estate team needs .
 How does Salesforce assign leads to the right rep?
 Lead assignment rules
 What it does: Ordered rule entries; the first match assigns the lead to a user or queue. In real estate: Leads from a market or zip code go to that market’s acquisitions rep; PPC leads go to the senior closer. Edition / limit: Up to 25 criteria per entry. source
@@ -2775,9 +2984,11 @@ Offline and Offline Edit
 What it does: Caches recent records and lets users create and edit offline; changes sync later. In real estate: Walkthrough notes in a basement with no signal; driving for dollars in rural areas. Edition / limit: Caches 30 recent records for each of 5 recent objects by default. source
 Business card scan
 What it does: Create contacts by scanning a card. In real estate: Meeting buyers and agents at a REIA meetup. Edition / limit: All editions except Database.com. source
+Field workflow: driving for dollars with Salesforce .
 Can buyers or partners log in?
 Experience Cloud
 What it does: External sites with Salesforce data and logins. In real estate: A cash buyer portal that shows available deals; a JV or bird-dog portal for submitting leads. Edition / limit: Enterprise and up; licenses bought separately. Partner Community is the license for lead and opportunity portals. source
+Buyer side: wholesale dispositions in Salesforce .
 What AI does Salesforce offer in 2026?
 Agentforce sales agents
 What it does: Agents for prospecting, lead engagement, pipeline management and coaching. In real estate: Agentforce Engagement can email-nurture cold seller leads; check consent and tone before you let anything write to sellers. Edition / limit: Usage-based credits; Agentforce Engagement needs Enterprise, Performance or Unlimited with Sales and Einstein for Sales. source
@@ -2791,6 +3002,7 @@ Sharing rules and field-level security
 What it does: Open record access beyond defaults; hide specific fields. In real estate: Market teams see their own market; only owners see assignment fee fields. Edition / limit: Sharing rules: Professional and up, 300 per object. FLS: Professional and up. source · FLS
 Multi-factor authentication
 What it does: Required for all employee logins. In real estate: Matters when VAs log in from other countries. Plan it into onboarding. Edition / limit: Production enforcement rolled out July 20 to September 3, 2026. source
+Role-by-role setup: Salesforce access for VAs and cold callers .
 How do you get lists into Salesforce?
 Data Import Wizard
 What it does: Browser-based import for leads, contacts, accounts and custom objects. In real estate: A county list or a skip-traced list from PropStream. Edition / limit: Up to 50,000 records at a time; all editions except Personal and Database.com. source · tool comparison
@@ -3072,7 +3284,7 @@ CallRail: Salesforce integration
 CallRail: fields sent to Salesforce
 PropStream: export a lead list
 Related
-All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Cost per deal calculator · Kept deal map
+All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Cost per deal calculator · Kept deal map · Driving for dollars
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want every lead tagged from click to close?
 I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -3189,6 +3401,69 @@ I build Salesforce for real estate investors and wholesalers and connect it to t
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
+## Salesforce Access for VAs and Cold Callers
+URL: https://amrmagdy.com/salesforce-va-access-real-estate.html
+
+Salesforce access for VAs and cold callers.
+Real estate teams can give VAs and cold callers exactly the Salesforce access they need with profiles, permission sets, sharing rules and field-level security, and protect the lead list by removing export rights. Here’s what each role should see, which features do it, and a VA onboarding and offboarding checklist.
+Most investor teams have VAs and cold callers, often in other countries. Salesforce lets you give them exactly the access they need: permission sets , sharing rules and field-level security . permission sets
+Salesforce enforces multi-factor authentication for all employee logins; production enforcement rolled out July 20 to September 3, 2026. Plan it into VA onboarding. source
+Field history tracking shows who changed what, for up to 20 fields per object. source
+What should each role see?
+Role | Can | Can’t
+Cold caller / VA | Create and edit leads in their queue; log calls; set outcome and next date | See deal financials, buyer list, exports, other markets
+Acquisitions rep | Own leads and deals; make offers; send contracts | Change lead source after creation; delete records
+Dispo rep | See under-contract deals and buyers; send deals; log buyer offers | See seller notes beyond what’s needed
+Transaction coordinator | Closing tasks, documents, dates | Edit offer or assignment amounts
+Owner / manager | Everything, including reports and fees | —
+Which Salesforce security features do this?
+Feature | What it does | Edition / limit
+Profiles | Default settings for each user; one profile per user | Custom profiles in Professional and up
+Permission sets and groups | Add permissions on top of a profile; Salesforce’s recommended approach | All main editions
+Sharing rules | Open record access beyond org-wide defaults, by owner or criteria | Professional and up; up to 300 per object
+Field-level security | Hide or make read-only specific fields, across UI, reports and API | Professional and up
+Login IP ranges | Deny logins from outside set ranges | Per profile in Enterprise and up; Professional needs an add-on for per-profile ranges
+MFA | Second factor for every employee login; phishing-resistant for admins | Enforced in 2026
+Field history tracking | Who changed a field, from what, to what, when | 20 fields per object; 18 months in the UI
+Sources: profiles · permission sets · sharing rules · field-level security · login IP ranges · MFA · field history
+A VA onboarding and offboarding checklist
+Before day one
+Create the user with the caller profile and permission set; add to the right queue; confirm MFA method; share the call script and the handoff rules .
+First week
+Review their call outcomes daily; check the fields they skip; fix the layout before blaming the person.
+Ongoing
+Weekly calibration: compare their warm and hot leads with what acquisitions found.
+Offboarding (same day)
+Freeze then deactivate the user; reassign open leads and tasks to the queue; revoke integrations or dialer seats tied to them.
+How do you protect your lead list?
+Remove the export permission from caller and VA profiles; only owners export.
+Give VAs list views, not report builder access, if they don’t need it.
+Track changes to lead source, phone and owner with field history.
+Keep integration users separate from people, so a departing VA can’t take an API connection with them. API access itself is included in Enterprise and an add-on for Professional. source
+Questions
+How do I give a VA limited access in Salesforce?
+Give them a restricted profile plus a permission set with only what they need, hide sensitive fields with field-level security, and use queues and sharing rules so they see only their leads.
+Does Salesforce require MFA for VAs?
+Salesforce enforces multi-factor authentication for all employee logins, with production enforcement rolled out from July 20 to September 3, 2026.
+Can I stop VAs exporting my leads?
+Yes. Export is a permission; leave it off caller and VA profiles and permission sets so only owners can export.
+Sources
+Salesforce Help: user profiles
+Salesforce Help: permission sets
+Salesforce Help: sharing rules
+Salesforce Help: field-level security
+Salesforce Help: login IP ranges
+Salesforce Help: MFA enforcement
+Salesforce Help: field history tracking
+Salesforce Developers: API supported editions
+Related
+Real estate CRM guide · Salesforce features · Integrations · Cold caller handoff checklist · Team capacity calculator
+Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
+Want your team’s access set up right?
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
 ## Salesforce vs Investor CRMs (Podio, REsimpli and Others)
 URL: https://amrmagdy.com/salesforce-vs-investor-crms.html
 
@@ -3267,7 +3542,7 @@ Rules on texts and calls to consumers vary by country and US state, and several 
 How do I load the plan into my CRM?
 Download the CSV and import it as tasks, or create the same steps as an automated cadence in your CRM. Most CRMs, including Salesforce, can create the next task automatically when the last one is completed.
 Related free tools
-Speed to lead & follow-up statistics · Speed to lead guide · Missed seller call cost · Acquisitions team capacity · CRM field kit · All free tools
+15 automation recipes · Speed to lead & follow-up statistics · Speed to lead guide · Missed seller call cost · Acquisitions team capacity · CRM field kit · All free tools
 Last updated October 2026. A planning template, not legal advice. Nothing you enter leaves your browser.
 Want the next task created automatically?
 I build Salesforce for real estate investors and wholesalers: required next touch dates, cadences that restart when a lead's temperature changes, dead-lead reasons with revisit dates, and a Monday report of leads with no next step. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
