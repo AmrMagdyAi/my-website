@@ -2534,7 +2534,7 @@ Twilio Flex | Agent UI inside Salesforce; click to dial, screen pop, activity lo
 Salesforce Voice | Native telephony with Amazon Connect; Salesforce’s recommended Open CTI replacement | Licensed separately | —
 Sources: RingCentral · RingCentral FAQ · Aircall · Dialpad · Dialpad SMS logging · Twilio Flex · Salesforce Voice
 What does the Open CTI retirement mean for an investor?
-If your dialer shows inside Salesforce today, it probably runs on Open CTI. Nothing breaks before February 28, 2028, but anything you build now should have a path past it. Dialpad, for example, says Dialpad for Salesforce is not being retired and lists Salesforce Voice or Dialpad Everywhere as options. source
+If your dialer runs inside Salesforce today, ask the vendor whether it uses Open CTI. Nothing breaks before February 28, 2028, but anything you build now should have a path past it. Dialpad, for example, says Dialpad for Salesforce is not being retired and lists Salesforce Voice or Dialpad Everywhere as options. source
 Ask your dialer vendor, in writing, what their post-2028 Salesforce integration is.
 Keep call outcomes in your own Salesforce fields, not only in the vendor’s objects, so reports survive a switch.
 If you’re choosing a dialer now, weigh the vendor’s 2028 plan as much as today’s features.
@@ -2544,7 +2544,7 @@ Call outcome (picklist) | Contact rate and conversion by list; see the handoff c
 Call direction and duration | Separates inbound sellers from outbound dials
 Recording link | Coaching and dispute checks
 Missed inbound call → task | Only 2% of unanswered callers leave a voicemail; the task is the callback. See the missed call calculator
-Attempt number | Follow-up cadence reporting; most leads get one or two attempts
+Attempt number | Follow-up cadence reporting; the median web lead got one contact attempt (InsideSales, 2014)
 Recorded calls can also feed Einstein Conversation Insights, which lists RingCentral, Dialpad and Aircall among its voice connectors. source
 Questions
 Is Salesforce Open CTI being retired?
@@ -2632,7 +2632,7 @@ URL: https://amrmagdy.com/salesforce-edition-real-estate-investors.html
 Which Salesforce edition do real estate investors need?
 Most real estate investing teams need Salesforce Enterprise , because it allows 200 custom objects for properties, offers and buyers, 2,000 active flows and API access for integrations. Professional can work for small teams that fit in 5 flows; Starter can’t hold property records at all. Here’s the comparison, from Salesforce’s own limits pages.
 Starter allows 0 custom objects, so it can’t hold Property, Offer or Buyer records. Fine for a solo investor tracking contacts; not a wholesaling system. source
-Professional / Pro Suite allows 50 custom objects but only 5 flows, and API access is an add-on, which many integrations need. source · source
+Professional / Pro Suite allows 50 custom objects but only 5 flows, and API access is an add-on for Professional (and shown as an add-on for Pro Suite on Salesforce’s pricing page), which many integrations need. source · source
 Enterprise is where most growing investor teams land: 200 custom objects, 2,000 active flows, API included, approvals and joined reports. source
 Don’t compare on list price. Most businesses get a discount from a Salesforce account executive based on the business and number of users.
 What can each Salesforce edition do for an investor?
@@ -2659,7 +2659,7 @@ Enterprise. You’ll want more than 5 flows within months, approvals for offers 
 Multiple markets or a fund with investor reporting
 Enterprise or Unlimited, depending on volume, sandbox needs and whether Sales Engagement cadences are worth having included.
 Why do Salesforce edition names keep changing?
-Salesforce repackages often. In June 2025, Agentforce 1 editions replaced Einstein 1 editions. source Names may have changed again since this page was written, so map your needs to the limits above (custom objects, flows, API access) and ask your account executive which current edition delivers them.
+Salesforce repackages often. In June 2025, Agentforce 1 editions replaced Einstein 1 editions. source Third-party reports say Salesforce introduced Core, Advanced and Max editions in September 2026, with existing customers keeping their edition; I couldn’t read Salesforce’s own announcement. Either way, map your needs to the limits above (custom objects, flows, API access) and ask your account executive which current edition delivers them.
 What does Salesforce cost for an investor?
 I don’t publish list prices, because most businesses don’t pay them. After a conversation with a Salesforce account executive, many get a discount based on the business and the number of users. Get a quote for your exact user count and edition, then add the setup cost, before you compare with an investor CRM.
 Questions
@@ -2780,9 +2780,9 @@ Experience Cloud
 What it does: External sites with Salesforce data and logins. In real estate: A cash buyer portal that shows available deals; a JV or bird-dog portal for submitting leads. Edition / limit: Enterprise and up; licenses bought separately. Partner Community is the license for lead and opportunity portals. source
 What AI does Salesforce offer in 2026?
 Agentforce sales agents
-What it does: Agents for prospecting, lead engagement, pipeline management and coaching. In real estate: Agentforce Engagement can email-nurture cold seller leads; check consent and tone before you let anything write to sellers. Edition / limit: Usage-based credits; Agentforce Engagement needs Enterprise or higher. source
+What it does: Agents for prospecting, lead engagement, pipeline management and coaching. In real estate: Agentforce Engagement can email-nurture cold seller leads; check consent and tone before you let anything write to sellers. Edition / limit: Usage-based credits; Agentforce Engagement needs Enterprise, Performance or Unlimited with Sales and Einstein for Sales. source
 Einstein Conversation Insights
-What it does: Analyzes recorded calls for keywords, mentions and next steps. In real estate: Flag calls where sellers mention foreclosure, probate or a deadline. Edition / limit: Listed for Starter through Agentforce 1 Sales; connectors include RingCentral, Dialpad and Aircall. source
+What it does: Analyzes recorded calls for keywords, mentions and next steps. In real estate: Flag calls where sellers mention foreclosure, probate or a deadline. Edition / limit: Listed for Starter, Pro, Enterprise, Performance, Unlimited and Agentforce 1 Sales; connectors include RingCentral, Dialpad and Aircall. source
 More: Salesforce AI for real estate .
 How do you control who sees what?
 Permission sets
@@ -2905,7 +2905,7 @@ Which tools connect to Salesforce, and what changes when they do?
 One row per tool category an investor or wholesaling team typically runs. The “what changes” column is what I set up for real estate teams; the rest is from each vendor’s own documentation, linked under Sources.
 Category | Connector (who builds it) | What syncs | Edition or requirement | What changes for a wholesaler | Deep dive
 E-signature | Docusign eSignature for Salesforce (by Docusign) | Send from the record with fields merged into a template; signed PDF and signer data written back | Works on Professional and up, per Salesforce | Purchase and assignment contracts live on the deal; a signed contract can move the stage | DocuSign guide
-Accounting | Breadwinner, DBSync or Workato (third party) | Invoices, payments and customers; direction depends on the connector | Ask the vendor; most connectors need API access | Assignment fees invoiced from the deal; paid status visible in Salesforce | QuickBooks guide
+Accounting | Breadwinner, DBSync or Workato (third party) | Invoices, payments and customers; direction depends on the connector | Ask the vendor; API access is likely to matter | Assignment fees invoiced from the deal; paid status visible in Salesforce | QuickBooks guide
 Email and calendar | Gmail and Outlook integration, Einstein Activity Capture (by Salesforce) | Side panel logging; automatic contact and event sync | EAC Standard in Starter through Enterprise | Buyer and title emails land on the right record without copy-paste | —
 Phone / dialer | RingCentral, Aircall, Dialpad, Twilio Flex, Salesforce Voice | Click to dial, screen pop, call logging, recordings | RingCentral: Professional+. Aircall and Dialpad: Enterprise or Unlimited | Calls per rep and contact rate per list without manual notes | Dialer guide
 Texting | Dialpad or RingCentral SMS, SMS-Magic, Twilio for Salesforce (beta), Salesforce Messaging | Texts logged to the lead; opt-outs tracked | 10DLC registration required for app-to-person texting in the US | Seller texts in the same timeline as calls; STOP respected | Texting guide
@@ -2932,11 +2932,11 @@ Tool by tool: what each integration does for an investor
 DocuSign: contracts signed from the deal
 Docusign’s own package sends agreements from Salesforce using templates that pull record fields through merge fields, and writes signed documents and signer data back to Salesforce. Salesforce lists it as working with Professional, Enterprise, Unlimited, Developer, Starter and Performance. For a wholesaler that means the purchase agreement and the assignment contract go out from the same deal record, and the signed copies stay there. source · Full DocuSign guide
 QuickBooks: assignment fees you can report on
-There’s no Salesforce-built QuickBooks connector; the common options are Breadwinner and DBSync (packages) or Workato (integration platform). Breadwinner creates invoices from Opportunities, Accounts or custom objects and tracks paid, overdue and due status. DBSync maps Opportunity to Invoice, Sales Receipt or Credit Memo. Breadwinner · DBSync · Full QuickBooks guide
+The common QuickBooks connectors are third party: Breadwinner and DBSync (packages) or Workato (integration platform). Breadwinner creates invoices from Opportunities, Accounts or custom objects and tracks paid, overdue and due status. DBSync maps Opportunity to Invoice, Sales Receipt or Credit Memo. Breadwinner · DBSync · Full QuickBooks guide
 Gmail and Outlook: no more copy-pasting emails
 Salesforce’s Gmail and Outlook integrations add a side panel to log emails and create records. Einstein Activity Capture syncs contacts and events automatically. Salesforce for Outlook, the old desktop plug-in, retires in December 2027. source
 Dialers: every call on the lead
-RingCentral supports Professional and above; Aircall and Dialpad require Enterprise or Unlimited. All log calls to Salesforce records. Most use Open CTI, which ends February 28, 2028, with Salesforce Voice as the recommended replacement. RingCentral · Aircall · Dialpad · Full dialer guide
+RingCentral supports Professional and above; Aircall and Dialpad require Enterprise or Unlimited. All log calls to Salesforce records. Several, including RingCentral and Twilio Flex, use Open CTI, which ends February 28, 2028, with Salesforce Voice as the recommended replacement. RingCentral · Aircall · Dialpad · Full dialer guide
 Texting: compliant before it’s fast
 Twilio states that anyone sending app-to-person texts over a 10DLC number to the US must register for A2P 10DLC. Salesforce’s own messaging retired its standard SMS channels on February 14, 2026, and US long code registration takes 1–4 weeks. Twilio · Salesforce · Full texting guide
 Lead sources: every lead tagged where it came from
@@ -2959,7 +2959,7 @@ Click to dial, embedded signing, a panel on the record | Native package | Zapier
 Two-way sync (invoices and payments) | Native package or Workato | Conflict handling and status updates both ways
 “When a lead is tagged in tool X, create it in Salesforce” | Zapier or Make | Fast to set up for one-way hops
 Near-instant reaction | Native package, or a Salesforce outbound message | Most Zapier Salesforce triggers are polling; the instant one is New Outbound Message
-Zapier lists Salesforce as a premium app and says Salesforce API limits apply to every task. source · common problems
+Zapier lists Salesforce as a premium app and says Salesforce API limits apply. source · common problems
 What should a wholesaling team connect first?
 1. Phone and text
 Most seller conversations happen here. If calls and texts aren’t on the lead, nothing downstream (follow-up, reporting, coaching) works.
@@ -2975,7 +2975,7 @@ Questions
 Does Salesforce integrate with DocuSign?
 Yes. Docusign publishes Docusign eSignature for Salesforce on AppExchange. It sends agreements from Salesforce records using templates with merge fields and writes signed documents back. It needs a separate Docusign subscription.
 Does Salesforce integrate with QuickBooks?
-Yes, through third-party connectors such as Breadwinner, DBSync or Workato, or through Zapier. They sync invoices, payments and customers between QuickBooks Online and Salesforce.
+Yes, commonly through third-party connectors such as Breadwinner, DBSync or Workato, or through Zapier. They sync invoices, payments and customers between QuickBooks Online and Salesforce.
 Which Salesforce edition do I need for integrations?
 Many connectors need API access, which is included in Enterprise, Unlimited, Performance and Developer, and is an add-on for Professional. Some, such as DocuSign and RingCentral, also work on Professional. Check each vendor’s requirements.
 Can I connect PropStream to Salesforce?
@@ -3084,7 +3084,7 @@ URL: https://amrmagdy.com/salesforce-quickbooks-real-estate.html
 
 QuickBooks + Salesforce for real estate investors.
 QuickBooks Online connects to Salesforce through third-party connectors like Breadwinner, DBSync or Workato , which sync invoices, payments and customers. For investors, the payoff is assignment fees invoiced from the deal and paid status in Salesforce reports, so you see realized revenue and cost per deal by lead source.
-Salesforce doesn’t build a QuickBooks connector. The common routes are Breadwinner and DBSync (packages) or Workato and Zapier (integration platforms). Breadwinner · DBSync · Workato
+The common QuickBooks connectors are third party: Breadwinner and DBSync (packages) or Workato and Zapier (integration platforms). Breadwinner · DBSync · Workato
 For investors the point is realized revenue on the deal : the assignment fee invoiced from Salesforce, and paid status visible in Salesforce reports.
 Mapping fees and marketing costs is a design decision. No connector does it out of the box.
 Which QuickBooks connectors work with Salesforce?
@@ -3112,7 +3112,7 @@ When QuickBooks shows it paid, the status updates on the deal. A “Closed – P
 Monthly marketing totals by campaign (mailers, PPC, skip tracing) land on Salesforce campaigns, and cost per deal becomes a report instead of a spreadsheet.
 Questions
 Does Salesforce integrate with QuickBooks Online?
-Yes, through third-party connectors such as Breadwinner and DBSync, integration platforms such as Workato, or Zapier. Salesforce doesn’t publish its own QuickBooks connector.
+Yes. The common routes are third-party connectors such as Breadwinner and DBSync, integration platforms such as Workato, or Zapier.
 Can Salesforce create QuickBooks invoices from a deal?
 Breadwinner says invoices can be created from Opportunities, Accounts, Orders or custom objects, and DBSync maps Opportunities to invoices, sales receipts or credit memos.
 Should my accountant work in Salesforce?
@@ -3156,7 +3156,7 @@ CTIA guidance (May 2023) | What it means for a wholesaler
 Marketing messages need express written consent | A seller who filled out your form and agreed to texts is different from a number on a list
 Honor STOP and plain-language opt-outs, one confirmation, then nothing | Opt-out must be a field in Salesforce that every texting tool respects
 Don’t use rented, sold or shared lists | Bulk-texting a purchased or skip-traced list conflicts with this guidance
-CTIA’s document is voluntary industry guidance and doesn’t cover the TCPA itself. Talk to a lawyer before you text lists. source
+CTIA’s document is voluntary industry guidance, not a substitute for TCPA advice. Talk to a lawyer before you text lists. source
 How should Salesforce store texting data?
 Consent: a checkbox plus date and source (“web form, October 2026”). No consent, no marketing texts.
 Opt-out: one field every tool checks before sending, set automatically when someone replies STOP.
