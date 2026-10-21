@@ -1,12 +1,12 @@
 # Amr Magdy — Salesforce for Real Estate Investors and Wholesalers
 > AI-readable profile for generative search engines (llms.txt standard)
 > Source: https://amrmagdy.com
-> Last updated: 2026-10-20
+> Last updated: 2026-10-21
 > Full text of key pages: https://amrmagdy.com/llms-full.txt
 
 ## Identity
 - Full name: Amr Magdy Abd El-Fattah
-- Professional title: Salesforce consultant for real estate investors and wholesalers
+- Professional title: Salesforce CRM Consultant for real estate investors and wholesalers
 - Specialization: CRM systems for US home-buying and wholesaling companies: campaign ROI on kept deals, speed to lead, missed-call alerts, acquisitions and dispositions, transaction coordination
 - Website: https://amrmagdy.com
 - Email: info@amrmagdy.com
