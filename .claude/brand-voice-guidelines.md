@@ -80,7 +80,7 @@ The biggest rule is that nothing should read as AI-polished. Amr said it directl
 - Title is "Salesforce CRM Consultant". Never "4x certified" or "certified architect".
 - Never invent clients, results, quotes or stories. Made-up example numbers are labeled as made-up.
 - Never mention Left Main REI. Never contact Sean Grabow.
-- No hashtags, no emojis, no "DM me", no "comment X for the guide" in new posts.
+- No hashtags or emojis in new posts (recommended; Amr used them in older posts).
 - Never deny using AI if asked.
 
 ## Examples
