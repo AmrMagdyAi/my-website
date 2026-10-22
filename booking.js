@@ -1,6 +1,6 @@
 /* Direct booking and deposit links for amrmagdy.com. Set the two URLs below; leave one empty and the site falls back to the contact form. */
 (function(){
-var BOOK_URL='';     // Calendly / Cal.com link for the free 30-minute call
+var BOOK_URL='https://calendly.com/amr-magdy-crm/30min';     // Calendly / Cal.com link for the free 30-minute call
 var DEPOSIT_URL='';  // $750 CRM Revenue Audit deposit payment link
 window.AMR_LINKS={book:BOOK_URL,deposit:DEPOSIT_URL};
 var CALL=/free (30-minute )?call|book free audit/i;
