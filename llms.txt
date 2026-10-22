@@ -12,11 +12,14 @@
 - Email: info@amrmagdy.com
 - Phone / WhatsApp: +20 103 327 5250
 - LinkedIn: https://www.linkedin.com/in/amrmagdyai
-- GitHub: amrmagdyai
+- GitHub: https://github.com/AmrMagdyAi
 - YouTube: https://www.youtube.com/@AmrMagdyCRM
 - BiggerPockets: https://www.biggerpockets.com/users/amrm14
 - Crunchbase: https://www.crunchbase.com/organization/amr-magdy-crm-consulting
 - Contra: https://contra.com/amr_magdy_0njzaiic
+- Quora: https://www.quora.com/profile/Amr-Magdy-170-1
+- Product Hunt: https://www.producthunt.com/@amr_magdy_
+- Salesforce Trailblazer: https://www.salesforce.com/trailblazer/amrmagdyai
 - Availability: Fully remote. Focus: US real estate investors, home-buying companies and wholesalers first; also Canada and Europe (including the UK); Gulf later
 - Time zone coverage: US Eastern & Central business hours; UK afternoon overlap; early morning availability for US West Coast or UK morning calls
 
@@ -51,6 +54,9 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Salesforce integrations for investors: https://amrmagdy.com/salesforce-integrations-real-estate.html (Salesforce integrations for real estate investors (13 tool categories: DocuSign, QuickBooks, Gmail/Outlook, RingCentral/Aircall/Dialpad, texting, Web-to-Lead, Facebook Lead Capture, Google Ads conversion import, CallRail, PropStream, BatchData, Box/Drive, Slack, Calendly, Salesforce Maps, Mailchimp, Zapier; API edition requirements; Open CTI end of life Feb 28, 2028))
 - Which Salesforce edition do investors need?: https://amrmagdy.com/salesforce-edition-real-estate-investors.html (Which Salesforce edition real estate investors need (custom objects 0/50/200/2,000, flows, API access, approvals, joined reports by edition; no list prices, most businesses get a discount from an account executive))
 - Salesforce edition picker: https://amrmagdy.com/salesforce-edition-picker.html (Salesforce edition picker for real estate investors (free tool: users, automations, custom objects, API integrations, big imports, approvals, joined reports, portals, cadences → minimum edition and questions for the account executive))
+- Best CRM for wholesalers (2026): https://amrmagdy.com/best-crm-for-wholesalers.html (11 CRMs for wholesalers compared on dialer, texting, skip tracing, buyers, custom records and published price (Oct 2026), each linked to the vendor; Salesforce prices not listed)
+- Salesforce vs REsimpli: https://amrmagdy.com/salesforce-vs-resimpli.html (Salesforce vs REsimpli for wholesalers: dialer, texting, skip tracing, custom records, reports, published REsimpli price, where each wins)
+- Salesforce vs GoHighLevel: https://amrmagdy.com/salesforce-vs-gohighlevel.html (Salesforce vs GoHighLevel for investors: marketing platform vs CRM platform, usage fees, custom records, reports, running both)
 - 20 Salesforce reports for wholesalers: https://amrmagdy.com/salesforce-reports-wholesalers.html (20 Salesforce report recipes for wholesalers (report type, filter, group by, measure; report limits; Monday dashboard))
 - Salesforce AI and Agentforce for investors: https://amrmagdy.com/salesforce-ai-agentforce-real-estate.html (Salesforce AI and Agentforce for real estate investors (Agentforce Prospecting, Engagement, Sales Management, Sales Coach; Einstein Conversation Insights; Lead Scoring; Activity Capture; AI readiness checks))
 - 15 automation recipes for wholesalers: https://amrmagdy.com/salesforce-automation-recipes-wholesalers.html (15 Salesforce automation recipes for wholesalers (trigger, action, tool: record-triggered flow, schedule-triggered flow, validation rule, Flow Approval Process, dashboard subscription; build order))
