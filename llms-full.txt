@@ -1693,7 +1693,7 @@ URL: https://amrmagdy.com/crm-revenue-audit.html
 
 Find out where your CRM is losing deals , before you buy more leads.
 Most investor teams don’t have a lead problem. They have a few quiet leaks: a missed call nobody saw, an offer that went cold, a campaign that gets credit for someone else’s deal.
-In ten working days I go through your CRM the way I’d go through my own: every number you rely on on Monday morning, every automation that’s supposed to fire, every place a seller can slip through. You get a plain-English report of what I found, what it’s costing you, and what to fix first.
+I go through your CRM the way I’d go through my own: every number you rely on on Monday morning, every automation that’s supposed to fire, every place a seller can slip through. You get a plain-English report of what I found, what it’s costing you, and what to fix first.
 Kick-off call and a 60-minute findings walkthrough
 Written report: every finding, its cost and the fix
 Prioritised 30 / 60 / 90-day roadmap
@@ -1728,7 +1728,7 @@ Your Monday 5 dashboard spec
 The five numbers an owner should see every Monday, defined field by field for your org, ready to build.
 Three quick fixes, done
 Small things I can fix safely during the audit, like a broken alert or a report filter, so you see results before the walkthrough.
-Ten working days, two calls
+Five steps, two calls
 Kick-off call (45 min). You walk me through how a deal moves through your team and what’s bugging you. You give me a read-only login (I’ll send simple steps).
 The review. I work through the five areas in your org. If I find something urgent, like an automation that’s silently failing, I tell you the same day.
 Report delivered. You get the written report, the roadmap and the dashboard spec a day before we meet, so you can read them first.
@@ -1800,7 +1800,7 @@ No. Every check can be set up in any investor CRM. The score measures the proces
 Related
 The Kept-Deal Map · CRM field kit · Deal Leak videos · All free tools
 Want each leak sized from your own data?
-The CRM Revenue Audit (USD 1,500, 10 working days) goes through your CRM and call data leak point by leak point and gives you a prioritized fix list. Or start with a free 30-minute call.
+The CRM Revenue Audit (USD 1,500, fixed price) goes through your CRM and call data leak point by leak point and gives you a prioritized fix list. Or start with a free 30-minute call.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 See also: the wholesaling CRM checklist , stage by stage.
 
@@ -2047,12 +2047,12 @@ The best-known study (InsideSales.com with MIT's Dr. James Oldroyd, 2007, about 
 Do I need Salesforce to close these leaks?
 No. Any CRM can close most of them if lead source carries through to closing, every lead has a next task, underwriting lives on the deal, and ROI is calculated on kept deals. Salesforce makes sense when you run several markets, teams or channels and have outgrown simpler investor CRMs.
 What does the CRM Revenue Audit do with this map?
-The audit (USD 1,500, 10 working days) goes through your CRM and phone data leak point by leak point, sizes each leak from your own numbers, and gives you a prioritized fix list. You can implement it yourself or with me.
+The audit (USD 1,500, fixed price) goes through your CRM and phone data leak point by leak point, sizes each leak from your own numbers, and gives you a prioritized fix list. You can implement it yourself or with me.
 Related
 All free tools · Wholesaling CRM glossary · CRM Revenue Audit
 Last updated October 2026.
 Want the leaks sized from your own data?
-The CRM Revenue Audit (USD 1,500, 10 working days) goes leak point by leak point through your CRM and call data and gives you a prioritized fix list. Or start with a free 30-minute call.
+The CRM Revenue Audit (USD 1,500, fixed price) goes leak point by leak point through your CRM and call data and gives you a prioritized fix list. Or start with a free 30-minute call.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2135,7 +2135,7 @@ Cost per deal by lead source · Missed seller call cost · Glossary
 Build it in Salesforce
 20 report recipes for wholesalers · 15 automation recipes
 Want all five on one Salesforce dashboard?
-A “Monday 5” dashboard spec is part of every CRM Revenue Audit (USD 1,500, 10 working days), along with a findings report, a 30/60/90-day roadmap and three quick fixes done. Or start with a free 30-minute call.
+A “Monday 5” dashboard spec is part of every CRM Revenue Audit (USD 1,500, fixed price), along with a findings report, a 30/60/90-day roadmap and three quick fixes done. Or start with a free 30-minute call.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2672,7 +2672,7 @@ A 10-point scorecard for a real estate Salesforce org: speed to lead, adoption, 
 Guides
 Salesforce for real estate investors · Cost per lead, deal profitability and campaign ROI in Salesforce · Lead routing and speed to lead · 50+ real requests from an acquisition company · All articles
 Rather have it built into your CRM?
-Every tool here is something I build as live reporting in Salesforce for investors and wholesalers. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit (USD 1,500, 10 working days).
+Every tool here is something I build as live reporting in Salesforce for investors and wholesalers. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit (USD 1,500).
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -4117,7 +4117,7 @@ Require a reason when a lead goes dead, and put "price too far" and "not ready" 
 Related
 The Kept-Deal Map · All free tools · Wholesaling CRM glossary · CRM Revenue Audit
 Want the leaks sized from your own data?
-The CRM Revenue Audit (USD 1,500, 10 working days) goes leak point by leak point through your CRM and call data and gives you a prioritized fix list. Or start with a free 30-minute call.
+The CRM Revenue Audit (USD 1,500, fixed price) goes leak point by leak point through your CRM and call data and gives you a prioritized fix list. Or start with a free 30-minute call.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -4219,7 +4219,7 @@ From your CRM. Every lead needs a lead source, every contract and closed deal ne
 Why most wholesalers can't fill this in
 The usual gap is attribution: leads come in from mail, PPC, cold calls and texts, but the closed deal is never tied back to the original lead source in the CRM. That's the first thing I check in a CRM Revenue Audit , and it's item four on the free Salesforce Health Check .
 Want these numbers live in your CRM every Monday?
-I build Salesforce for real estate investors and wholesalers so cost per deal by source updates on its own. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit (USD 1,500, 10 working days).
+I build Salesforce for real estate investors and wholesalers so cost per deal by source updates on its own. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit (USD 1,500).
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
