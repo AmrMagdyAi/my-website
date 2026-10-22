@@ -153,7 +153,8 @@
         <li>Full fee credited if you hire me for the build within 60 days</li>
       </ul>
       <a href="#request" class="btn btn-gold">Request the audit &rarr;</a>
-      <p class="fine">Not sure yet? <a href="index.html#contact" style="color:var(--gold2);text-decoration:underline">Request a free 30-minute call</a> first.</p>
+      <p class="fine" data-deposit-only style="display:none">Ready to start? <a href="#request" data-deposit style="color:var(--gold2);text-decoration:underline;font-weight:600">Pay the $750 deposit</a> to lock your start date.</p>
+      <p class="fine">Not sure yet? <a href="index.html#contact" style="color:var(--gold2);text-decoration:underline">Book a free 30-minute call</a> first.</p>
     </aside>
   </div>
 
@@ -277,6 +278,8 @@
         <span class="eyebrow" style="color:var(--gold2)">Request the audit</span>
         <h2>Tell me a bit about <em>your team</em></h2>
         <p>I&rsquo;ll reply within one working day with a couple of questions and a start date. I take on a small number of audits each month so each one gets proper attention.</p>
+        <p data-book-only style="display:none;margin-top:14px"><a href="#request" data-book style="color:var(--gold2);text-decoration:underline;font-weight:600">Skip the form and book a 30-minute call &rarr;</a></p>
+        <p data-deposit-only style="display:none;margin-top:14px">Already decided? <a href="#request" data-deposit style="color:var(--gold2);text-decoration:underline;font-weight:600">Pay the $750 deposit</a> and I&rsquo;ll reply with your start date and kick-off time.</p>
         <p style="margin-top:14px">Prefer email? <a href="mailto:info@AmrMagdy.com?subject=CRM%20Revenue%20Audit" style="color:var(--gold2);text-decoration:underline">info@AmrMagdy.com</a></p>
       </div>
       <form id="ra-form">
@@ -326,7 +329,7 @@
     status.style.color='#475569';status.textContent='Sending…';
     fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)})
       .then(function(r){return r.json();})
-      .then(function(d){if(d&&d.success){status.style.color='#1f8a4c';status.textContent='Thanks, got it. I\'ll reply within one working day.';form.reset();}else{throw 0;}})
+      .then(function(d){if(d&&d.success){var L=window.AMR_LINKS||{},x=[];if(L.book)x.push('<a href="'+L.book+'" target="_blank" rel="noopener" style="text-decoration:underline;font-weight:600">book your kick-off call now</a>');if(L.deposit)x.push('<a href="'+L.deposit+'" target="_blank" rel="noopener" style="text-decoration:underline;font-weight:600">pay the $750 deposit</a> to lock your start date');status.style.color='#1f8a4c';status.innerHTML='Thanks, got it. I\'ll reply within one working day.'+(x.length?' Want to move faster? You can '+x.join(', or ')+'.':'');form.reset();}else{throw 0;}})
       .catch(function(){status.style.color='#b42318';status.innerHTML='That didn\'t go through. Please email <a href="mailto:info@AmrMagdy.com?subject=CRM%20Revenue%20Audit" style="text-decoration:underline">info@AmrMagdy.com</a>.';});
   });
 })();
@@ -334,5 +337,6 @@
 <script>
 (function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
 </script>
+<script src="booking.js" defer></script>
 </body>
 </html>

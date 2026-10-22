@@ -162,5 +162,6 @@ cs.forEach(function(c){var i=c.getAttribute('data-leak');c.querySelectorAll('but
 <script>/* click-to-play: poster shows title and length until played */
 document.querySelectorAll('video.vp').forEach(function(v){function go(){if(v.controls)return;v.controls=true;v.removeAttribute('tabindex');v.play();}
 v.addEventListener('click',go);v.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});});</script>
+<script src="booking.js" defer></script>
 </body>
 </html>
