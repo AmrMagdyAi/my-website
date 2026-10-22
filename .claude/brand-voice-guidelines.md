@@ -2,13 +2,13 @@
 
 ## Generation Metadata
 - Created: 2026-10-22
-- Version: 1
+- Version: 2 (Oct 22: normal capitalization everywhere)
 - Sources: Amr's approved LinkedIn posts (Oct 19 approval pack, Posts 1–10 and Oct 21 rewrites), approved carousel captions, approved outreach messages (Leon, Steve), his explicit feedback in chat (Oct 16–22), published site copy
 - Documents processed: 6 · Conversations analyzed: 1 (working chat with Amr)
 - Overall confidence: High for social and outreach voice, Medium for long-form site copy
 
 ## Executive Summary
-Amr writes like an operator talking to another operator: lowercase, short lines, plain words, a little rough around the edges. He sounds like someone who has sat inside a home-buying company's CRM, not like a marketer or a consultant deck. The point is usually one practical fix and one honest question at the end.
+Amr writes like an operator talking to another operator: short lines, plain words, normal capitalization, a little rough around the edges. He sounds like someone who has sat inside a home-buying company's CRM, not like a marketer or a consultant deck. The point is usually one practical fix and one honest question at the end.
 
 The biggest rule is that nothing should read as AI-polished. Amr said it directly: "don't polish things too much so it doesn't look AI generated." One number at most, sources mentioned in passing, no tidy three-part structures, no perfect closing lines.
 
@@ -19,14 +19,14 @@ The biggest rule is that nothing should read as AI-polished. Amr said it directl
 | **Plainspoken** — short sentences, everyday words | **Corporate** — "leverage", "unlock", "transform", "seamless" |
 | **Operator-honest** — says when Salesforce is overkill, admits the boring fix | **Salesy** — no pitch in posts, comments or first messages |
 | **Specific** — one concrete example: the 6:40pm call, the lead with no next task | **Stat-stacked** — no strings of percentages, author lists, sample sizes |
-| **A bit unfinished** — lowercase, no forced conclusion, ends on a real question | **Polished / AI-sounding** — no "myth vs reality", no em-dash rhythm, no perfect triads |
+| **A bit unfinished** — no forced conclusion, ends on a real question | **Polished / AI-sounding** — no "myth vs reality", no em-dash rhythm, no perfect triads |
 | **Modest about credentials** — "Salesforce CRM Consultant", lets the work speak | **Credential-heavy** — never "4x certified", "certified architect", "expert" |
 | **Accurate** — never invents clients, results, quotes or stories | **Hype** — no "10x", "skyrocket", no made-up wins |
 
 ### Voice Attributes Detail
 
 #### Plainspoken
-- How it shows up: lowercase, contractions, fragments are fine ("the marketing worked. the phone just didn't.")
+- How it shows up: contractions and fragments are fine ("The marketing worked. The phone just didn't.")
 - Avoid: jargon unless the audience uses it (MAO, ARV, dispo are fine; "synergy" is not)
 - Evidence: Posts 1, 3, 8 approved as written
 - Confidence: High
@@ -75,7 +75,7 @@ The biggest rule is that nothing should read as AI-polished. Amr said it directl
 | Email to a prospect | Medium | Medium | Medium | short, specific to their setup, one clear next step |
 
 ## Hard Rules (apply everywhere)
-- Lowercase and casual on social; at most one number per post or comment; mention sources in passing ("hbr tested this back in 2011"), never author lists or sample sizes.
+- Normal capitalization everywhere (Amr, Oct 22): sentence case on social, email and the website. Casual and short on social; at most one number per post or comment; mention sources in passing ("hbr tested this back in 2011"), never author lists or sample sizes.
 - No Salesforce list prices.
 - Title is "Salesforce CRM Consultant". Never "4x certified" or "certified architect".
 - Never invent clients, results, quotes or stories. Made-up example numbers are labeled as made-up.
@@ -93,6 +93,6 @@ Approved (on voice):
 Rejected (off voice, too polished):
 > 23% of companies never called the lead back. at all. that's from an hbr study (2011, oldroyd, mcelheran, elkington). they audited 2,241 companies...
 
-## Open Questions
-1. **Long-form site copy voice**: site guides are sentence case and more formal than social. Recommendation: keep sentence case and sourced numbers on the website (search engines and AI cite them), but keep the plain, honest phrasing. Need from Amr: confirm.
-2. **Capital letters in emails to prospects**: recommendation: normal capitalization in email, lowercase on social. Need from Amr: confirm.
+## Decisions (Oct 22, 2026)
+1. Website keeps sourced numbers in guides; social and comments stay at one number max.
+2. Normal capitalization on social posts, comments, DMs and emails. The earlier lowercase style is retired.
