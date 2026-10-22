@@ -86,9 +86,9 @@ The biggest rule is that nothing should read as AI-polished. Amr said it directl
 ## Examples
 
 Approved (on voice):
-> most teams think they call new leads back fast. most have never checked
+> Most teams think they call new leads back fast. Most have never checked.
 > ...
-> do you know yours or is it a guess
+> Do you know yours, or is it a guess?
 
 Rejected (off voice, too polished):
 > 23% of companies never called the lead back. at all. that's from an hbr study (2011, oldroyd, mcelheran, elkington). they audited 2,241 companies...
