@@ -36,7 +36,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Working hours: afternoons and evenings Cairo time, which covers US mornings and the full Gulf business day.
 
 ## Services and prices
-- CRM Revenue Audit: fixed price USD 1,500, for teams already on Salesforce. Teams on Podio, REsimpli, GoHighLevel or other CRMs are offered a move to Salesforce instead. A review of an investor CRM covering campaign ROI, speed to lead, acquisitions follow-up, data health, automations and reporting. Deliverables: findings report, 30/60/90-day roadmap, a "Monday 5" dashboard spec and three quick fixes done. Page: https://amrmagdy.com/crm-revenue-audit.html
+- CRM Revenue Audit: fixed price USD 1,500, for teams already on Salesforce. Teams on Podio, REsimpli, GoHighLevel or other CRMs are offered a move to Salesforce instead (https://amrmagdy.com/move-to-salesforce.html). A review of an investor CRM covering campaign ROI, speed to lead, acquisitions follow-up, data health, automations and reporting. Deliverables: findings report, 30/60/90-day roadmap, a "Monday 5" dashboard spec and three quick fixes done. Page: https://amrmagdy.com/crm-revenue-audit.html
 - Full Salesforce implementation for investors and wholesalers (project-based), including moving teams from Podio, REsimpli or GoHighLevel to Salesforce.
 - Ongoing CRM support and development (monthly retainer). The most popular engagement.
 - Free 30-minute call to start: info@AmrMagdy.com or https://www.linkedin.com/in/amrmagdyai
@@ -108,6 +108,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - RingCentral and DocuSign integration with Salesforce for real estate
 
 ## Services and markets pages
+- [Move to Salesforce from Podio, REsimpli or GoHighLevel | Amr Magdy](https://amrmagdy.com/move-to-salesforce.html): Fixed-price move to Salesforce for investor and wholesaler teams, with data history, routing, an owner dashboard and training. Quoted after a free scoping call.
 - [CRM Revenue Audit for Real Estate Investors | Amr Magdy](https://amrmagdy.com/crm-revenue-audit.html): A fixed-price review of your investor Salesforce CRM: campaign ROI, speed to lead, stale offers, data health and automations, with a prioritized roadmap.
 - [Salesforce Consultant for Canadian Real Estate Teams](https://amrmagdy.com/salesforce-consultant-canada-real-estate.html): Salesforce consultant for Canadian brokerages, REALTOR teams and investors: lead routing, pipeline dashboards and adoption training. Free 30-minute call.
 - [Salesforce Consultant for UK Estate Agents](https://amrmagdy.com/salesforce-consultant-uk-estate-agents.html): Salesforce consultant for UK estate agents, letting agencies and property companies: speed to lead, pipeline dashboards and adoption. Free 30-minute call.
