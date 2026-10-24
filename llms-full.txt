@@ -1304,7 +1304,7 @@ URL: https://amrmagdy.com/blog-salesforce-setup-real-estate-brokerage.html
 How to Set Up Salesforce for a Real Estate Brokerage (Step-by-Step)
 Setting up Salesforce for a real estate brokerage is not the same as setting up a generic sales CRM. The objects are different, the workflows are different, and the way agents think about their work is different. This guide walks through the steps from initial setup to a fully operational brokerage CRM.
 Step 1: Choose the Right Salesforce Edition
-Most real estate brokerages start with Salesforce Professional ($80/user/month) or Enterprise ($165/user/month). Professional covers lead management, basic automation, and standard reports. Enterprise adds Flow Builder's full capability, advanced forecasting, and API access for integrations.
+Most real estate brokerages start with Salesforce Professional or Enterprise. Pricing depends on the edition and the number of users, and businesses can often get a discount through their Salesforce account manager. Professional covers lead management, basic automation, and standard reports. Enterprise adds Flow Builder's full capability, advanced forecasting, and API access for integrations.
 The recommendation: Enterprise for any brokerage planning serious automation or Zapier integration. Professional's Flow restrictions will frustrate you within 6 months.
 Step 2: Configure Your Core Objects
 Leads — Inbound Buyer and Seller Prospects
@@ -1364,7 +1364,7 @@ Automation depth | Good for basic workflows | Unlimited with Flow Builder
 Reporting & dashboards | Standard reports | Advanced with Tableau integration
 Customization | Limited to platform | Fully customizable objects & fields
 Scalability | Good for <50 agents | Enterprise-grade, unlimited scale
-Cost (per seat) | Lower ($69–$500/mo flat) | Higher ($150+ per user/mo)
+Cost (per seat) | Lower ($69 to $500/mo flat) | Higher (depends on edition and users; discounts often available through your Salesforce account manager)
 Integration ecosystem | Real estate focused | 5,000+ integrations via AppExchange
 AI and predictive tools | Basic | Einstein AI, predictive scoring
 Support for multiple business lines | Residential only | Any property type or vertical

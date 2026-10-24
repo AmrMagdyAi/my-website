@@ -68,7 +68,7 @@
 .gl dd em{color:var(--txt3);font-style:normal;font-size:.9rem}
 .az{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}.az a{border:1px solid var(--bd2);border-radius:8px;padding:4px 9px;font-size:.82rem}
 nav .nb,.logo{white-space:nowrap}
-@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}nav .nb.nb-call{margin-left:auto!important}}
 @media(max-width:760px){.grid2{grid-template-columns:1fr}.m5 .card{padding-left:22px;padding-top:70px}}
 
 .fld select{width:100%;border:1.5px solid var(--bd2);border-radius:10px;padding:11px 12px;font:inherit;background:var(--bg);color:var(--txt)}
@@ -86,9 +86,9 @@ html.embed .pg{padding-top:12px}
 <body>
 <nav><div class="wrap-wide"><div class="nav-in">
   <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
-  <a href="resources.html" class="nb">Free tools</a>
+  <a href="resources.html" class="nb hide-sm">Free tools</a>
   <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
-  <a href="index.html#contact" class="nb hide-sm" style="margin-left:0">Request a Free Call</a>
+  <a href="index.html#contact" class="nb nb-call" style="margin-left:0">Book a free call</a>
 <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
 </div></div></nav>
 
@@ -135,7 +135,7 @@ ids.forEach(function(i){var e=document.getElementById(i);e.addEventListener('inp
 <p class="note">Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.</p>
 </section>
 <div class="cta"><h2>Want a second opinion before you sign?</h2><p>Send me your team, lead sources and tools and I’ll tell you which edition fits and what to ask for. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).</p>
-<a href="index.html#contact" class="btn btn-gold">Request a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Salesforce%20edition%20picker&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/salesforce-edition-picker.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Salesforce%20edition%20picker%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+<a href="index.html#contact" class="btn btn-gold">Book a free 30-minute call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><p style="margin:14px 0 0;font-size:.95rem;color:#c9d4e3">Already on Salesforce? <a href="sample-audit-report.html" style="color:#d4a23e;font-weight:700;text-decoration:underline">See a sample audit report</a>. On Podio, REsimpli or GoHighLevel? <a href="move-to-salesforce.html" style="color:#d4a23e;font-weight:700;text-decoration:underline">See how a move to Salesforce works</a>.</p><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Salesforce%20edition%20picker&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/salesforce-edition-picker.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Salesforce%20edition%20picker%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
 </div></main>
 
 
@@ -144,7 +144,7 @@ ids.forEach(function(i){var e=document.getElementById(i);e.addEventListener('inp
 
 
 <footer><div class="wrap-wide"><div class="fi">
-  <div>© 2026 <strong>Amr Magdy</strong> — Salesforce for real estate investors and wholesalers.</div>
+  <div>© 2026 <strong>Amr Magdy</strong> &middot; Salesforce for real estate investors and wholesalers.</div>
   <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="mailto:info@AmrMagdy.com">Email</a></div>
 </div></div></footer>
 <script>

@@ -15,17 +15,18 @@
 <meta name="theme-color" content="#f7f4ee">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://amrmagdy.com/sample-audit-report.html">
-<meta property="og:title" content="CRM Revenue Audit for Real Estate Investors">
-<meta property="og:description" content="One fixed price. Find out where your CRM is losing sellers, money and hours, and what to fix first.">
+<meta property="og:title" content="Sample CRM Revenue Audit report">
+<meta property="og:description" content="See the report before you buy: findings ranked by impact, a 30/60/90 roadmap and the quick fixes, for a made-up home-buying company on Salesforce.">
 <meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
 <meta property="og:site_name" content="Amr Magdy">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="CRM Revenue Audit for Real Estate Investors">
-<meta name="twitter:description" content="One fixed price. Find out where your CRM is losing sellers, money and hours, and what to fix first.">
+<meta name="twitter:title" content="Sample CRM Revenue Audit report">
+<meta name="twitter:description" content="See the report before you buy: findings ranked by impact, a 30/60/90 roadmap and the quick fixes, for a made-up home-buying company on Salesforce.">
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://amrmagdy.com/sample-audit-report.html#page", "url": "https://amrmagdy.com/sample-audit-report.html", "name": "Sample Salesforce audit report for a home-buying company", "description": "A sample of the CRM Revenue Audit report for a made-up home-buying company on Salesforce: findings, a 30/60/90 roadmap, the Monday 5 dashboard spec and the quick fixes.", "inLanguage": "en", "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "about": {"@type": "Service", "name": "CRM Revenue Audit", "url": "https://amrmagdy.com/crm-revenue-audit.html"}, "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com"}, "breadcrumb": {"@id": "https://amrmagdy.com/sample-audit-report.html#breadcrumb"}}, {"@type": "BreadcrumbList", "@id": "https://amrmagdy.com/sample-audit-report.html#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "CRM Revenue Audit", "item": "https://amrmagdy.com/crm-revenue-audit.html"}, {"@type": "ListItem", "position": 3, "name": "Sample report", "item": "https://amrmagdy.com/sample-audit-report.html"}]}]}</script>
 <link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -130,25 +131,30 @@
 </div></div></nav>
 <main class="tm">
   <span class="eyebrow">CRM Revenue Audit &middot; sample report</span>
-  <h1>What the report looks like</h1>
+  <h1>Sample Salesforce audit report for a home-buying company</h1>
   <p class="sub">This is a shortened sample for a made-up company, &ldquo;Example Home Buyers&rdquo;, so you can see the format before you buy. It isn&rsquo;t a real client and there are no real numbers in it. A real report covers your org, uses your data and runs much longer.</p>
+  <p style="margin:10px 0 0"><strong>$1,500 fixed</strong>, for teams already on Salesforce.</p>
+  <div class="cta" style="margin:14px 0 8px">
+    <a href="crm-revenue-audit.html#request" class="btn btn-gold">Request the audit &rarr;</a>
+    <a href="index.html#contact" data-book class="btn">Book a free 30-minute call</a>
+  </div>
   <div class="note"><p><strong>The company in this sample:</strong> a home-buying team in two markets with 6 Salesforce users, acquisitions reps, a lead manager, a dispo lead and a transaction coordinator. Leads come from mail, PPC, cold calling and texting.</p></div>
 
   <h2>1. Summary for the owner</h2>
   <p>The org is in decent shape for day-to-day work. The money leaks sit in three places: missed calls on marketing numbers that nobody gets alerted on, offers that go quiet because nobody owns the next step, and campaign ROI that counts contracts instead of deals that closed. Fixing those three comes first.</p>
 
   <h2>2. Findings</h2>
-  <p>Every finding says where it is, why it matters and how big the fix is.</p>
+  <p>Every finding says where it is, why it matters, how much it matters and how big the fix is.</p>
   <div class="tw"><table>
-    <tr><th>#</th><th>Finding</th><th>Where</th><th>Why it matters</th><th>Fix size</th></tr>
-    <tr><td>1</td><td>The missed-call alert flow has been failing silently since a field was renamed</td><td>Flow &ldquo;Missed Call Alert&rdquo;, phone integration</td><td>Sellers who call after hours get no callback</td><td><span class="tag">Small</span></td></tr>
-    <tr><td>2</td><td>Offers sent with no follow-up task and no owner for the next step</td><td>Opportunity, stage &ldquo;Offer Made&rdquo;</td><td>Offers go cold while the seller shops other buyers</td><td><span class="tag">Small</span></td></tr>
-    <tr><td>3</td><td>Lead Source is a free-text field with many spellings of the same source</td><td>Lead and Opportunity</td><td>Campaign reports split one source into several rows</td><td><span class="tag">Medium</span></td></tr>
-    <tr><td>4</td><td>Campaign ROI counts signed contracts, including ones that fell out</td><td>Campaign reports and dashboard</td><td>Spend goes to sources that look good but don&rsquo;t close</td><td><span class="tag">Medium</span></td></tr>
-    <tr><td>5</td><td>No duplicate rule on seller phone number</td><td>Duplicate and matching rules</td><td>Two reps call the same seller with two different offers</td><td><span class="tag">Small</span></td></tr>
-    <tr><td>6</td><td>Dead and lost deals have no required reason</td><td>Opportunity close</td><td>No way to see why deals are lost, by rep or by market</td><td><span class="tag">Small</span></td></tr>
-    <tr><td>7</td><td>Three old automations still run on the same field and fight each other</td><td>Process Builder and Flow</td><td>Status changes back after a rep updates it</td><td><span class="tag">Medium</span></td></tr>
-    <tr><td>8</td><td>The owner dashboard runs on reports nobody has checked in months</td><td>Home dashboard</td><td>Monday decisions get made on wrong numbers</td><td><span class="tag">Medium</span></td></tr>
+    <tr><th>#</th><th>Finding</th><th>Where</th><th>Why it matters</th><th>Impact</th><th>Fix size</th></tr>
+    <tr><td>1</td><td>The missed-call alert flow has been failing silently since a field was renamed</td><td>Flow &ldquo;Missed Call Alert&rdquo;, phone integration</td><td>Sellers who call after hours get no callback</td><td><span class="tag">High</span></td><td><span class="tag">Small</span></td></tr>
+    <tr><td>2</td><td>Offers sent with no follow-up task and no owner for the next step</td><td>Opportunity, stage &ldquo;Offer Made&rdquo;</td><td>Offers go cold while the seller shops other buyers</td><td><span class="tag">High</span></td><td><span class="tag">Small</span></td></tr>
+    <tr><td>3</td><td>Lead Source is a free-text field with many spellings of the same source</td><td>Lead and Opportunity</td><td>Campaign reports split one source into several rows</td><td><span class="tag">Medium</span></td><td><span class="tag">Medium</span></td></tr>
+    <tr><td>4</td><td>Campaign ROI counts signed contracts, including ones that fell out</td><td>Campaign reports and dashboard</td><td>Spend goes to sources that look good but don&rsquo;t close</td><td><span class="tag">High</span></td><td><span class="tag">Medium</span></td></tr>
+    <tr><td>5</td><td>No duplicate rule on seller phone number</td><td>Duplicate and matching rules</td><td>Two reps call the same seller with two different offers</td><td><span class="tag">Medium</span></td><td><span class="tag">Small</span></td></tr>
+    <tr><td>6</td><td>Dead and lost deals have no required reason</td><td>Opportunity close</td><td>No way to see why deals are lost, by rep or by market</td><td><span class="tag">Low</span></td><td><span class="tag">Small</span></td></tr>
+    <tr><td>7</td><td>Three old automations still run on the same field and fight each other</td><td>Process Builder and Flow</td><td>Status changes back after a rep updates it</td><td><span class="tag">Medium</span></td><td><span class="tag">Medium</span></td></tr>
+    <tr><td>8</td><td>The owner dashboard runs on reports nobody has checked in months</td><td>Home dashboard</td><td>Monday decisions get made on wrong numbers</td><td><span class="tag">Medium</span></td><td><span class="tag">Medium</span></td></tr>
   </table></div>
 
   <h2>3. The 30 / 60 / 90 roadmap</h2>
@@ -179,13 +185,14 @@
   <h2>6. The walkthrough</h2>
   <p>A recorded call where I go through every finding with you and your team, answer questions and agree the order of the fixes.</p>
 
+  <p>If the report doesn&rsquo;t give you at least five specific, fixable issues worth more than the fee, you get the fee back.</p>
   <div class="cta">
     <a href="crm-revenue-audit.html#request" class="btn btn-gold">Request the audit &rarr;</a>
     <a href="index.html#contact" data-book class="btn">Book a free 30-minute call</a>
   </div>
 </main>
 <footer><div class="wrap-wide"><div class="fi">
-  <div>© 2026 <strong>Amr Magdy</strong> — Salesforce CRM Consultant for Real Estate Investors.</div>
+  <div>© 2026 <strong>Amr Magdy</strong> &middot; Salesforce CRM Consultant for Real Estate Investors.</div>
   <div class="fl"><a href="index.html">Home</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="wholesaling-cost-per-deal-calculator.html">Cost Per Deal Calculator</a><a href="mailto:info@AmrMagdy.com">Email</a><a href="resources.html">Free tools</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a></div>
 </div></div></footer>
 <script>
