@@ -127,7 +127,7 @@ pdf.set_y(maxy + 1)
 section("Professional Experience")
 
 role("Salesforce CRM Consultant", "Jun 2024 – Present",
-     "Central City Solutions  ·  Remote · Columbus, OH, USA",
+     "Two-market home-buying company  ·  Remote · Ohio, USA",
      "Real estate acquisition company — full-cycle CRM design, Apex development, LWC customization, and multi-system integration.")
 for b, badge in [
     ("Built a centralized Configuration Object that runs the automation rules (Slack, email, SMS, tasks) — non-technical users add and disable automations without developer involvement.", None),
