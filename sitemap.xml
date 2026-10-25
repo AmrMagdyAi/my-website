@@ -52,10 +52,10 @@
   <url><loc>https://amrmagdy.com/blog-salesforce-property-management-companies.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://amrmagdy.com/blog-salesforce-crm-migration-real-estate.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://amrmagdy.com/blog-salesforce-automations-real-estate.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://amrmagdy.com/blog-salesforce-adoption-real-estate.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://amrmagdy.com/blog-salesforce-kpis-real-estate.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/blog-salesforce-kpis-real-estate.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://amrmagdy.com/blog-crm-roi-real-estate.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://amrmagdy.com/blog-zapier-salesforce-real-estate.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://amrmagdy.com/blog-salesforce-appexchange-real-estate.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -64,8 +64,8 @@
   <url><loc>https://amrmagdy.com/blog-ringcentral-salesforce-integration-real-estate.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://amrmagdy.com/blog-salesforce-financial-analytics-real-estate.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.87</priority></url>
   <url><loc>https://amrmagdy.com/blog-salesforce-real-estate-acquisition-case-log.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.87</priority></url>
-  <url><loc>https://amrmagdy.com/salesforce-consultant-uk-estate-agents.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://amrmagdy.com/salesforce-consultant-canada-real-estate.html</loc><lastmod>2026-10-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://amrmagdy.com/salesforce-consultant-uk-estate-agents.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://amrmagdy.com/salesforce-consultant-canada-real-estate.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://amrmagdy.com/move-to-salesforce.html</loc><lastmod>2026-10-23</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://amrmagdy.com/crm-revenue-audit.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://amrmagdy.com/sample-audit-report.html</loc><lastmod>2026-10-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -307,4 +307,19 @@
   <url><loc>https://amrmagdy.com/salesforce-admin-real-estate-investors.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://amrmagdy.com/salesforce-transaction-coordination-real-estate.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://amrmagdy.com/salesforce-private-lenders-dscr.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/salesforce-real-estate-faq.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://amrmagdy.com/investor-crm-audit-checklist.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://amrmagdy.com/salesforce-admin-left.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/hire-salesforce-admin-real-estate.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/hire-salesforce-consultant-real-estate.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/podio-automation-limit.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/new-market-crm-checklist.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/salesforce-duplicate-sellers.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/salesforce-automation-monitoring.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/real-estate-lead-attribution.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/wholesaling-team-roles-crm.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/salesforce-vs-hubspot-real-estate-investors.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/missed-call-alerts-salesforce.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://amrmagdy.com/add-acquisitions-reps-crm.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
