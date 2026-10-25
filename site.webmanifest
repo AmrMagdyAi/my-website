@@ -1,12 +1,12 @@
 {
-  "name": "Amr Magdy — Salesforce CRM Consultant for Real Estate",
+  "name": "Amr Magdy, Salesforce CRM Consultant for Real Estate",
   "short_name": "Amr Magdy",
   "description": "Salesforce CRM consultant for real estate investors and wholesalers in the US, Canada and Europe. Lead routing, dashboards, automation, and adoption training. Remote, available now.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#f7f4ee",
-  "theme_color": "#0b1f3a",
+  "background_color": "#f7f4ef",
+  "theme_color": "#f7f4ef",
   "lang": "en-US",
   "categories": [
     "business",
@@ -21,8 +21,14 @@
       "purpose": "any"
     },
     {
+      "src": "imgs/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
       "src": "imgs/AmrMagdyPic.webp",
-      "sizes": "800x1000",
+      "sizes": "400x400",
       "type": "image/webp",
       "purpose": "any"
     }

@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-66PK4JKWSF',{page_location:location.href.replace(/\/index\.html(?=[?#]|$)/,'/')});</script>
 <script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'',s=a.closest('#nav,.mcta,.switchbar,footer,header,section'),p={position:s?(s.id||s.className.split(' ')[0]||s.tagName.toLowerCase()):''};if(h.indexOf('wa.me')>-1){p.method='whatsapp';gtag('event','generate_lead',p);}else if(h.indexOf('mailto:')===0){p.method='email';gtag('event','generate_lead',p);}else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click',p);else if(h==='#request')gtag('event','cta_request_click',p);else if(h.indexOf('crm-revenue-audit')>-1&&h.indexOf('terms')<0)gtag('event','cta_audit_click',p);else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click',p);});</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <script>(function(r){r.className=r.className.replace('no-js','js');try{if(localStorage.getItem('theme')==='dark')r.setAttribute('data-theme','dark');}catch(e){}})(document.documentElement);</script>
 <title>Amr Magdy | Salesforce CRM Consultant for Real Estate Investors</title>
-<meta name="description" content="Salesforce CRM Consultant for US real estate investors and wholesalers: campaign ROI, speed to lead, acquisitions and dispositions in one CRM. Fixed-price $1,500 CRM Revenue Audit.">
+<meta name="description" content="Amr Magdy, Salesforce CRM Consultant for US real estate investors and wholesalers: campaign ROI, speed to lead and follow-up in one CRM. Fixed-price $1,500 audit.">
 <meta name="author" content="Amr Magdy">
 <link rel="canonical" href="https://amrmagdy.com/">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -33,7 +33,7 @@
 <meta name="twitter:image:alt" content="Monday, 8am. Do you know what last month's mail actually bought? Amr Magdy, Salesforce CRM Consultant">
 
 <link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
-<link rel="apple-touch-icon" href="imgs/AmrMagdyPic.webp">
+<link rel="apple-touch-icon" href="imgs/apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
 <link rel="preload" href="assets/fonts/dm-serif-display-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/dm-serif-display-italic-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -58,14 +58,12 @@
       "sameAs": [
         "https://www.linkedin.com/in/amrmagdyai/",
         "https://www.salesforce.com/trailblazer/amrmagdyai",
-        "https://amrmagdy.com/",
         "https://github.com/AmrMagdyAi",
         "https://www.youtube.com/@AmrMagdyCRM",
         "https://www.biggerpockets.com/users/amrm14",
         "https://www.quora.com/profile/Amr-Magdy-170-1",
         "https://contra.com/amr_magdy_0njzaiic",
-        "https://www.producthunt.com/@amr_magdy_",
-        "https://www.crunchbase.com/organization/amr-magdy-crm-consulting"
+        "https://www.producthunt.com/@amr_magdy_"
       ],
       "contactPoint": {
         "@type": "ContactPoint",
@@ -82,8 +80,8 @@
         "ar"
       ],
       "workLocation": {
-        "@type": "VirtualLocation",
-        "name": "Remote: US, UK, Canada, Worldwide"
+        "@type": "Place",
+        "name": "Cairo, Egypt"
       },
       "knowsAbout": [
         "Salesforce",
@@ -173,14 +171,14 @@
       }
     },
     {
-      "@type": "ProfessionalService",
+      "@type": "Organization",
       "@id": "https://amrmagdy.com/#service",
       "name": "Amr Magdy CRM Consulting",
       "sameAs": [
         "https://www.crunchbase.com/organization/amr-magdy-crm-consulting"
       ],
       "description": "Salesforce consulting for real estate investors, wholesalers and home-buying companies: a fixed-price CRM Revenue Audit, full implementation or a move to Salesforce, and ongoing support and development.",
-      "provider": {
+      "founder": {
         "@id": "https://amrmagdy.com/#person"
       },
       "image": "https://amrmagdy.com/imgs/og-home.jpg",
@@ -196,11 +194,6 @@
         "Qatar",
         "Kuwait"
       ],
-      "availableChannel": {
-        "@type": "ServiceChannel",
-        "serviceType": "Remote",
-        "serviceUrl": "https://amrmagdy.com/#contact"
-      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Salesforce consulting for real estate investor teams",
@@ -344,17 +337,6 @@
           }
         }
       ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://amrmagdy.com/"
-        }
-      ]
     }
   ]
 }
@@ -364,7 +346,7 @@
 <a class="skip" href="#main">Skip to main content</a>
 
 <header class="top"><div class="wrap">
-  <a class="brand" href="index.html"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
+  <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
   <nav class="nav" id="nav" aria-label="Main">
     <a href="about.html">About</a>
     <a href="#services">Services</a>
@@ -379,7 +361,7 @@
       <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
     </button>
     <a class="btn sm ghost" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a>
-    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="nav"><span class="bars" aria-hidden="true"></span><span class="txt">Menu</span></button>
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span class="bars" aria-hidden="true"></span><span class="txt">Menu</span></button>
   </div>
 </div></header>
 
@@ -474,6 +456,24 @@
         <figcaption>The 5 leaks<span>1 minute 45 seconds</span></figcaption>
       </figure>
     </div>
+    <details class="vt">
+      <summary>Read both videos as text</summary>
+      <div class="vt-body">
+        <h4>The 6:40pm call</h4>
+        <p>On-screen text and sound effects, no voice. A normal Tuesday. A seller calls at 6:40pm and nobody answers. Then what usually happens: at 6:41pm the voicemail lands in a shared inbox. The next day someone calls back at 10am and gets no answer. From day 2 to day 7 the status still says “new”. By then he called someone else. No one's fault: there's no system.</p>
+        <p>The fix is two rules. When a call is missed, a callback task is created and the seller gets a text. When a lead sits untouched for an hour, someone gets pinged. Nobody has to remember. How many did you miss last week? See what they cost you with the <a class="tlink" href="missed-call-cost-calculator.html">missed-call cost calculator</a>.</p>
+        <h4>The 5 leaks</h4>
+        <p>On-screen text and sound effects, no voice. You don't have a lead problem. You have a leak problem, and there are 5 of them: 5 places money leaks out between the marketing dollar and the kept deal.</p>
+        <ol>
+          <li><b>Spend.</b> The lead source report tracks leads by source, but contracts by source and cost per deal are question marks. Nobody knows. The fix: the lead source follows the deal all the way to closing.</li>
+          <li><b>Answer.</b> Two missed seller calls, at 6:42pm and 7:15pm. A callback task due in 5 minutes is created and assigned to the next rep. Replying within an hour makes you about 7 times likelier to qualify the lead (Harvard Business Review, 2011).</li>
+          <li><b>Follow-up.</b> Of five open leads, only two have a next step: a call on Tuesday and an offer on Friday. How many of yours have none? The fix: no open lead without a next task.</li>
+          <li><b>Offer.</b> Three reps offer $118k, $131k and $142k on the same house. On the example deal, ARV $250,000 × 70% is $175,000, minus $40,000 of repairs and a $10,000 fee, so the max offer is $125,000 and two of the three offers are over it. The fix: MAO lives on the deal as a formula, not in someone's head.</li>
+          <li><b>Keep.</b> Ten contracts signed this month and three fell out, so you kept 7, not 10, and ROI is overstated by 43%. The fix: ROI counts kept deals only.</li>
+        </ol>
+        <p>Which one is yours? Score yours in 30 seconds, free, with the <a class="tlink" href="kept-deal-map.html">kept-deal map</a>.</p>
+      </div>
+    </details>
     <a class="tlink" href="videos.html">All 22 short videos</a>
   </div>
 </div></section>
@@ -679,7 +679,7 @@
     <p class="intro">A line or two about your team and your CRM is plenty.</p>
     <input type="hidden" name="access_key" value="b17e278f-b185-498c-8f7a-c861629f6a3c">
     <input type="hidden" name="subject" value="Website message from amrmagdy.com">
-    <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <input type="checkbox" name="botcheck" class="hp" tabindex="-1" aria-hidden="true">
     <div class="hp" aria-hidden="true"><label for="cf-website">Website</label><input id="cf-website" type="text" name="website" tabindex="-1" autocomplete="off"></div>
     <div class="field"><label for="cf-name">Name</label><input id="cf-name" name="name" type="text" required autocomplete="name"></div>
     <div class="field"><label for="cf-email">Email</label><input id="cf-email" name="email" type="email" required autocomplete="email" inputmode="email"></div>

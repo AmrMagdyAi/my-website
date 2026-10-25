@@ -38,6 +38,18 @@ Watch
 The Monday without a system, in two short videos
 The 6:40pm call 43 seconds
 The 5 leaks 1 minute 45 seconds
+Read both videos as text
+The 6:40pm call
+On-screen text and sound effects, no voice. A normal Tuesday. A seller calls at 6:40pm and nobody answers. Then what usually happens: at 6:41pm the voicemail lands in a shared inbox. The next day someone calls back at 10am and gets no answer. From day 2 to day 7 the status still says “new”. By then he called someone else. No one's fault: there's no system.
+The fix is two rules. When a call is missed, a callback task is created and the seller gets a text. When a lead sits untouched for an hour, someone gets pinged. Nobody has to remember. How many did you miss last week? See what they cost you with the missed-call cost calculator .
+The 5 leaks
+On-screen text and sound effects, no voice. You don't have a lead problem. You have a leak problem, and there are 5 of them: 5 places money leaks out between the marketing dollar and the kept deal.
+Spend. The lead source report tracks leads by source, but contracts by source and cost per deal are question marks. Nobody knows. The fix: the lead source follows the deal all the way to closing.
+Answer. Two missed seller calls, at 6:42pm and 7:15pm. A callback task due in 5 minutes is created and assigned to the next rep. Replying within an hour makes you about 7 times likelier to qualify the lead (Harvard Business Review, 2011).
+Follow-up. Of five open leads, only two have a next step: a call on Tuesday and an offer on Friday. How many of yours have none? The fix: no open lead without a next task.
+Offer. Three reps offer $118k, $131k and $142k on the same house. On the example deal, ARV $250,000 × 70% is $175,000, minus $40,000 of repairs and a $10,000 fee, so the max offer is $125,000 and two of the three offers are over it. The fix: MAO lives on the deal as a formula, not in someone's head.
+Keep. Ten contracts signed this month and three fell out, so you kept 7, not 10, and ROI is overstated by 43%. The fix: ROI counts kept deals only.
+Which one is yours? Score yours in 30 seconds, free, with the kept-deal map .
 How you get to the Monday with a system
 Three ways to work together
 On Salesforce? Start with the audit. Not sure what you need? The free call is where we work it out.
@@ -229,7 +241,7 @@ About
 Amr Magdy , Salesforce CRM Consultant for real estate investor teams
 I run the Salesforce behind a home-buying company in Ohio, and I build the same system for other US real estate investors and wholesalers. Missed calls turn into callbacks, follow-up stops when the seller replies, and the marketing numbers get checked against the books.
 Before Salesforce I spent eight years as an Adobe Certified Instructor and taught 8,000+ students, rated 4.9/5, so every build comes with training your team will actually use.
-I work from Cairo, Egypt, in your morning, in English or Arabic.
+I work from Cairo, Egypt, in US mornings and UK afternoons, in English or Arabic.
 How I work
 Three things matter to any team that runs on leads
 Nothing falls through
@@ -1402,6 +1414,7 @@ URL: https://amrmagdy.com/blog-salesforce-setup-real-estate-brokerage.html
 
 How to Set Up Salesforce for a Real Estate Brokerage (Step-by-Step)
 Setting up Salesforce for a real estate brokerage is not the same as setting up a generic sales CRM. The objects are different, the workflows are different, and the way agents think about their work is different. This guide walks through the steps from initial setup to a fully operational brokerage CRM.
+If you run a home-buying or wholesaling company, this guide isn't the best fit. Start with Salesforce for real estate investors and home-buying companies instead.
 Step 1: Choose the Right Salesforce Edition
 Most real estate brokerages start with Salesforce Professional or Enterprise . Pricing depends on the edition and the number of users, and businesses can often get a discount through their Salesforce account manager. Professional covers lead management, basic automation, and standard reports. Enterprise adds Flow Builder's full capability, advanced forecasting, and API access for integrations.
 The recommendation: Enterprise for any brokerage planning serious automation or Zapier integration. Professional's Flow restrictions will frustrate you within 6 months.
