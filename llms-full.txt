@@ -213,7 +213,7 @@ With an agency, your project often goes through a project manager to a consultan
 What access do you need, and is our data safe?
 For the audit, a read-only Salesforce user covers most of the review. You create the user, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first.
 What have you actually built?
-For two years I've been the Salesforce person at Central City Solutions, a home-buying company in Columbus and Cincinnati, Ohio: campaign ROI by market checked against the books, missed-call alerts on every marketing number, follow-up that stops when a seller replies, a Transactions Board for every file under contract, and settings ops can change without a developer. At Pezon Properties in Pennsylvania I delivered 50+ requests, including a campaign ROI dashboard with 25 funnel metrics and a rebuilt transaction coordination app.
+For two years I've run Salesforce for Central City Solutions, a home-buying company in Columbus and Cincinnati, Ohio: campaign ROI by market checked against the books, missed-call alerts on every marketing number, follow-up that stops when a seller replies, a Transactions Board for every file under contract, and settings ops can change without a developer. At Pezon Properties in Pennsylvania I delivered 50+ requests, including a campaign ROI dashboard with 25 funnel metrics and a rebuilt transaction coordination app.
 Do you work with teams outside the US?
 Yes. Investors in Canada, the UK and Europe get the same offer and the same terms, and their working hours overlap with mine. See Salesforce for Canadian investors and Salesforce for UK property investors .
 Do you train the team too?
