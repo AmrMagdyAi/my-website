@@ -54,7 +54,7 @@ Run every number for last week and for the last 13 weeks, so one odd week doesn'
 
 **Report:** Average Hours Contract to First Seller Call by owner, plus a list of deals under contract where First Seller Call After Contract is still empty. Pick the hour threshold that fits your team.
 
-## 4. Booked revenue, forecast vs. actual
+## 4. Booked vs. kept profit
 
 **Question:** What did we book, and how close was the forecast?
 
@@ -65,14 +65,14 @@ Run every number for last week and for the last 13 weeks, so one odd week doesn'
 
 **Report:** Two parts. (a) Booked Fee on contracts signed this week. (b) For deals that closed or fell out in the period: Booked Fee vs. Kept Fee, with the gap broken down by Fall-out Reason.
 
-## 5. ROI that counts the deals you keep
+## 5. Campaign ROI, including the houses you keep
 
 **Question:** Is our best channel being undercounted?
 
-**Formula:** (Sum of Kept Fee + sum of Kept Property Value − campaign spend) ÷ campaign spend, by campaign.
+**Formula:** (Sum of Kept Fee + sum of Kept House Equity − campaign spend) ÷ campaign spend, by campaign. Kept House Equity is after-repair value minus all-in cost, so a house you keep counts what it added, not its full price.
 
 **Reads from:**
-- Deal: Campaign, Kept Fee, Kept Property Value, Closed Date
+- Deal: Campaign, Kept Fee, Kept House Equity, Closed Date
 - Campaign: Spend (Actual Cost)
 
 **Report:** By campaign, over the last 13 weeks or longer (deals take weeks to close, so a one-week ROI is noise). Uses Kept Fee, never Booked Fee, so cancelled and renegotiated contracts don't inflate the result.
