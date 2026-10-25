@@ -209,9 +209,9 @@ The CRM Revenue Audit is $1,500, fixed, and the full fee comes off the build if 
 You're in Cairo. How does that work?
 I work Cairo afternoons and evenings, which is the US morning and the UK afternoon. That's how I've worked with a home-buying company in Ohio for two years. Calls are booked at a time that suits you.
 You're one person. Why not an agency?
-With an agency, your project often goes through a project manager to a consultant who may never have worked in real estate. With me, the person who answers your message is the person who builds it. The honest trade-off: I'm one specialist, not a ten-person team, so I take on a small number of clients at a time.
+With an agency, your project often goes through a project manager to a consultant who may never have worked in real estate. With me, the person who answers your message is the person who builds it. The honest trade-off: I'm one specialist, not a ten-person team, so I take on a small number of clients at a time. Everything I build lives in your org and belongs to you, and I write down how each piece works so another admin could take it over.
 What access do you need, and is our data safe?
-For the audit, a read-only Salesforce user covers most of the review. You create the user, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first.
+For the audit, a read-only Salesforce user covers most of the review. You create the user, so you can see what it does and switch it off at any time. It does use one of your Salesforce licenses; if none is spare, we can free one or do the review on screen shares instead. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first. Your data stays in your org, and I'm happy to sign your NDA before I log in.
 What have you actually built?
 For two years I've run Salesforce for Central City Solutions, a home-buying company in Columbus and Cincinnati, Ohio: campaign ROI by market checked against the books, missed-call alerts on every marketing number, follow-up that stops when a seller replies, a Transactions Board for every file under contract, and settings ops can change without a developer. At Pezon Properties in Pennsylvania I delivered 50+ requests, including a campaign ROI dashboard with 25 funnel metrics and a rebuilt transaction coordination app.
 Do you work with teams outside the US?
@@ -2077,7 +2077,7 @@ If the report doesn’t give you at least five specific, fixable issues worth mo
 Founding clients
 The first three audit clients get a direct WhatsApp line to me during the audit and for 30 days after the walkthrough. In return I ask for a short case study, written with you and published only with your OK.
 Access and your data
-I work from a read-only user and change nothing without your OK. Your data stays in your org. I don’t copy it out except what the report needs, and I keep it confidential. Remove my login any time after the walkthrough.
+I work from a read-only user and change nothing without your OK. The user only gets edit access while I make the quick fixes you approve. It uses one of your Salesforce licenses; if none is spare, we free one together or do the review on screen shares with whoever runs Salesforce on your side. Your data stays in your org. I don’t copy it out except what the report needs, and I keep it confidential. I’m happy to sign your NDA before I log in. Remove my login any time after the walkthrough.
 Urgent findings
 If I find something actively losing leads, like an alert that silently stopped, I tell you the same day.
 Agreeing
@@ -2189,7 +2189,9 @@ Paying
 Questions
 Before you ask
 What access do you need?
-A read-only Salesforce user covers most of the review. You create it, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first.
+A read-only Salesforce user covers most of the review, and I ask before I need anything else. You create it, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK. The quick fixes (up to 3) are each agreed with you first, and the user only gets edit access while I make them. Your data stays in your org, and I'm happy to sign your NDA before I log in.
+Does that login use one of our paid Salesforce licenses?
+Yes. Every Salesforce login uses a license, even a read-only one. If you have a spare license, we use it. If not, a former employee's user can often be deactivated to free one. We check together first that nothing still runs under their name, because deactivating a user too early can break things. If neither works, we do the review on screen shares with whoever runs Salesforce on your side. It takes more of their time, and nothing else about the audit changes.
 How long does it take?
 We set the walkthrough date together on the kick-off call, so you know the finish date before the review starts. In between: my review, up to 3 agreed quick fixes, and the report, which reaches you before the walkthrough. Your part is about two hours in total.
 Do we have to hire you for the fixes?
