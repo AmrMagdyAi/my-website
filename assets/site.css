@@ -270,6 +270,7 @@ body.with .mk::after{opacity:1;transform:rotate(45deg) scale(1)}
 .pair{display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px 20px 22px;transition:border-color .4s}
 body.with .pair{border-color:var(--teal-line)}
 .pair header{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.pair header .chip{flex:none}
 .pair h3{font-size:1.3rem}
 .pair>.flip{margin-top:16px}
 .pair .lab{margin-top:14px}
