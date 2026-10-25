@@ -125,6 +125,7 @@
     status.innerHTML = 'Downloading… If it doesn\'t start, <a href="salesforce-health-check.pdf" download>click here</a>.';
     var a = document.createElement('a');
     a.href = 'salesforce-health-check.pdf'; a.download = 'Real-Estate-Salesforce-Health-Check.pdf';
+    a.addEventListener('click', function(ev){ ev.stopPropagation(); });
     document.body.appendChild(a); a.click(); a.remove();
   }
   form.addEventListener('submit', function(e){
@@ -133,7 +134,10 @@
     status.textContent = 'One second…';
     fetch('https://api.web3forms.com/submit', {method:'POST', headers:{'Accept':'application/json'}, body:new FormData(form)})
       .then(function(r){ return r.json(); })
-      .then(function(){ release(); })
+      .then(function(d){
+        if(d && d.success && window.gtag) gtag('event','generate_lead',{method:'form',form:'health_check',page_path:location.pathname});
+        release();
+      })
       .catch(function(){ release(); });
   });
 })();
