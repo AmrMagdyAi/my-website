@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <rect x="2.5" y="2.5" width="95" height="95" rx="21" fill="#13294b" stroke="#d4a23e" stroke-width="5"/>
-  <text
-    x="50"
-    y="71"
-    text-anchor="middle"
-    font-family="Georgia, 'Times New Roman', serif"
-    font-size="60"
-    font-weight="400"
-    font-style="normal"
-    fill="#d4a23e"
-    letter-spacing="-2">A</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.0 512.0" width="512" height="512" role="img" aria-label="Amr Magdy"><title>Amr Magdy</title><style>.t{fill:#22201d}.g{fill:#f7f4ef}@media (prefers-color-scheme:dark){.t{fill:#f1ece5}.g{fill:#22201d}}</style><defs><clipPath id="t"><rect width="512" height="512" rx="112"/></clipPath></defs><g clip-path="url(#t)"><rect class="t" width="512" height="512"/><rect y="468" width="256.0" height="44" fill="#9b5d5d"/><rect x="256.0" y="468" width="256.0" height="44" fill="#0f766e"/></g><path class="g" transform="translate(133.45 353.78)" d="M3.04 0.0V-3.8L12.54 -7.22Q20.14 -10.26 24.32 -14.62Q28.5 -19.0 31.16 -26.98L109.44 -251.56H141.74L218.88 -25.46Q221.92 -17.1 225.72 -12.73Q229.52 -8.36 237.5 -5.32L242.06 -3.8V0.0H145.54V-3.8L151.24 -5.7Q159.22 -8.74 160.93 -14.25Q162.64 -19.76 160.36 -27.36L142.5 -82.08H58.14L39.9 -28.5Q37.24 -20.14 38.19 -15.2Q39.14 -10.26 47.12 -7.22L55.48 -3.8V0.0ZM60.8 -89.68H140.22L101.84 -207.86Z"/></svg>
