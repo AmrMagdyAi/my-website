@@ -4,7 +4,7 @@ import glob, html, os, re, urllib.parse
 os.chdir(os.path.join(os.path.dirname(__file__), '..'))
 START, END = '<!-- ask-cta:start -->', '<!-- ask-cta:end -->'
 ISTART, IEND = '<!-- ask-inline:start -->', '<!-- ask-inline:end -->'
-SKIP = {'index.html', '404.html'}
+SKIP = {'index.html', '404.html', 'crm-revenue-audit.html'}
 
 def block(page, h1):
     topic = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', h1))).strip().rstrip('.')

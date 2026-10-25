@@ -8,195 +8,215 @@
 ## Salesforce Consultant for Real Estate Investors and Wholesalers
 URL: https://amrmagdy.com/
 
-You're paying for Salesforce. I make it pay you back.
-I'm Amr Magdy, a Salesforce consultant for real estate investors and wholesalers . I build the system your team runs on, from the first call on a marketing number to the closing, and the reports that show which marketing dollars bring deals .
-One fixed price, for teams already on Salesforce ( see a sample report ). On Podio, REsimpli or GoHighLevel? I’ll move you to Salesforce , starting with a free call.
-Your Deal Leak Score
-Ten yes/no checks, scored out of 100. Send it to your acquisitions manager and see where your answers differ.
-The CRM field kit
-Every lead, deal and buyer field, the automation rules and the Monday report spec. Copy it into any CRM.
-Where deals leak
-Missed calls, leads with no next step, offers off-formula, dead leads, buyer lists and more, each with the fix.
-Wholesaling CRM questions
-Real questions from wholesaling groups, answered plainly with one step to set up in your CRM.
-The CRM is in place. The results aren't.
-Reps work out of spreadsheets and their phones, so the CRM never tells the full story.
-A seller calls your mailer number, nobody picks up, and the next investor calls them back first.
-Nobody can say which marketing dollars are working, so budget follows lead volume, not return.
-Brittle Zaps and one-off flows break quietly, and nobody notices until a deal slips.
-One system from first call to closing , with numbers leadership can trust.
-I build Salesforce around how an investment company actually works: marketing, acquisitions, transaction coordination, dispositions and rehab. Then I train the team until it's second nature.
-Missed-call alerts and shared queues, so every seller gets a callback
-Campaign ROI and booked-revenue dashboards leadership relies on
-Brittle Zaps replaced with native, reliable Flows
-Hands-on adoption training until it sticks
-What’s running at Central City today.
-Reports and dashboards built so leadership can answer “which dollars are working?” in seconds, with only kept deals counted in the return.
-The whole deal, in one system
-From the first ring of a marketing number to the closing, each part of the business gets its own tools and its own numbers.
-Know which dollars are working
-Campaign ROI by market and channel: leads, appointments, contracts, cost per appointment and profit, with the deals you keep counted in the return.
-Every seller gets a callback
-Missed-call alerts read from live campaign data, shared queues the whole team works from, and SMS follow-up that stops the moment a seller replies.
-Offers that don’t go quiet
-Underwriting on the opportunity (ARV, MAO, rehab estimate), offer deadlines, stale-offer reviews and same-day reminders after every appointment.
-Every file on one board
-A live Transactions Board, step-by-step prompts for title, keys and affidavits, and a scorecard for how fast the seller hears from you after signing.
-Your buyer list as an asset
-Round-robin assignment, automatic VIP buyer tiers from repeat purchases, preferred zip codes and a structured buyer call list for every deal.
-One record, every tool
-RingCentral calls and recordings synced daily, DocuSign alerts on unsigned contracts, QuickBooks, Slack, and a no-code rules engine your ops team can change.
+Same Monday, two ways
+For home buyers, wholesalers and investor teams of 10 to 50
+Monday, 8am. Do you know what last month's mail actually bought?
+At most investor teams the honest answer is “I think it's working.” I'm Amr Magdy, a Salesforce CRM Consultant . Flip the switch to see the same Monday with the system I build.
+With the right Salesforce setup, the answer is on one screen before your first call. I'm Amr Magdy, a Salesforce CRM Consultant , and this is the Monday I build for owners and ops leads.
+The audit is for teams already on Salesforce. On Podio, REsimpli, GoHighLevel or spreadsheets, the first step is a move to Salesforce , and the free call is where we plan it.
+Monday morning
+8:00 Your numbers Three spreadsheets and a dashboard nobody trusts. Best guess: “I think the mail is working.” The Monday 5 is in your inbox: cost per contract by channel, last month's mail included.
+8:15 Weekend calls A seller called the mailer number Friday at 6:40pm. Voicemail. Nobody heard it. Friday's 6:40pm call set off an alert and a callback task. A rep called back that night.
+8:40 Offers An offer went out last week and went quiet. Nobody noticed, so nobody followed up. Offers with no activity are on one list, each with an owner and a due date.
+9:00 Texts A seller who replied on Saturday still gets this morning's follow-up text. Cadences stopped when sellers replied. Nobody texts a seller who already answered.
+9:20 Automations A Zap stopped firing two weeks ago. You hear about it today, from a rep. The Zaps are native Flows now. If one stops firing, you know within a day.
+9:45 A change You need a new lead source set up. That's a developer ticket and a week. The new lead source goes live this week. Ops turned on its alerts, no developer.
+10am: money spent, sellers missed, and nobody sure why.
+10am: you know what the mail bought, and every seller has an owner.
+Who this is for
+Owners and ops leads at investor teams of 10 to 50
+Home buyers, wholesalers and investor teams spending real money on seller leads. Most call me at one of three moments.
+About to hire a Salesforce admin See how much work there really is before you add a salary.
+Adding acquisitions reps Close the leaks before more leads run through them.
+Opening a new market or channel Track return by market from the first mailer.
+Watch
+The Monday without a system, in two short videos
+The 6:40pm call 43 seconds
+The 5 leaks 1 minute 45 seconds
+How you get to the second Monday
 Three ways to work together
-The CRM Revenue Audit is the place to start. Not sure yet? A free 30-minute call works too.
+On Salesforce? Start with the audit. Not sure what you need? The free call is where we work it out.
 CRM Revenue Audit
-A review of the CRM you already have: campaign ROI, speed to lead, stale offers, data health and automations. You get a written report of what’s leaking, what it costs and what to fix first.
-Findings report + 30/60/90 roadmap
+$1,500 Fixed price · teams already on Salesforce
+I go through your org with the checklist from two years of running an investor team's Salesforce. You get every leak in writing, what it's likely costing you and what to fix first.
+Findings report and 30 / 60 / 90 fix plan
 “Monday 5” owner dashboard spec
-Fee credited toward the build
+Fee credited if you build within 30 days
+Money back if it doesn't find 5 fixable issues
+Without You guess which leaks cost the most, and fix whatever is loudest.
+With You know which leaks cost the most, and the order to fix them.
 Full Implementation
-End-to-end build, or a move to Salesforce from Podio, REsimpli or GoHighLevel: architecture, automated lead routing, acquisition pipeline, Salesforce + Tableau dashboards, Zapier/API integrations, and hands-on team adoption training.
-Migration from your current CRM
-Salesforce + Tableau dashboards
-Integrations + adoption training
+Per project Quoted after a free call
+A new build, a rebuild of an org someone else set up, or a move from Podio, REsimpli or GoHighLevel: lead routing, acquisitions, a transaction board, dashboards and training.
+Build, rebuild or move to Salesforce
+Dashboards and reports
+Dialer, DocuSign, QuickBooks, Slack
+Team training
+Without A CRM someone else built, and nobody is sure what it does anymore.
+With The pieces that run Central City, built around how your team works.
 Ongoing Support & Development
-Fractional Salesforce admin: new automations, proactive monitoring, fast issue resolution, monthly optimization reports, and continuous training, for far less than a full-time hire. No long-term contract.
-New automations & fast fixes
-Proactive monitoring
-Monthly reports & training
-Real builds. Measured outcomes.
-Two engagements with named US real estate companies: the actual problem, the approach, and the numbers that moved.
-Central City Solutions
-The goal
-Turn Salesforce into the system the whole business runs on: every marketing dollar traced to profit, every seller call captured, and every deal visible from contract to closing, across two Ohio markets.
-What I built
-A no-code automation engine for tasks, email, Slack and SMS that ops can change without a developer. Campaign ROI by market, with deals the company keeps counted in the return. Shared lead queues and missed-call alerts. A live Transactions Board for every file under contract. Round-robin dispositions with automatic buyer tiers. A daily RingCentral call sync in Apex, DocuSign tracking, QuickBooks, and Zaps moved to native Flows.
-Outcome
-Leadership answers “which dollars are working?” from live dashboards. Every seller call is captured, every deal under contract is visible on one board, and the team runs the business from Salesforce every day.
-Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.
-Sean Grabow, Founder, Central City Solutions From the referral email that introduced Amr to his next client, a fellow real estate investor
+Monthly Retainer · no long-term contract
+Your part-time Salesforce admin, for less than a full-time hire: new automations, fast fixes, monitoring and a monthly report.
+Same-week changes
+Monthly automation check
+Monthly report
+New-hire setup and training
+Without Every change waits on a developer ticket, or on someone with time.
+With What I do for Central City: new hires, fixes and reports, done the same week.
+On Podio, REsimpli, GoHighLevel or spreadsheets? The audit is built for Salesforce. If you're outgrowing another CRM, you need a move to Salesforce: I map what you track, move the data and build around how your team works.
+Proof · Central City Solutions
+What I built, and what it changed
+A home-buying company in Columbus and Cincinnati, Ohio. For two years I've been the person they call when anything in Salesforce needs to change: a new market, a new lead source, a new hire, a broken alert.
+You're seeing the common problem at investor teams. Flip to see what I built at Central City and what it changed.
+You're seeing what I built at Central City and what it changed. Flip back to see the common problem.
+Marketing ROI
+What owners say
+“I don't know my real cost per deal.”
+What it costs
+Spend that follows lead volume. Cheap leads look like winners, so money keeps going to campaigns that don't close.
+Built
+Campaign ROI by market and source, with kept deals and off-book closings counted and checked against the books.
+What it changed
+The owners move marketing money on return, and trust the number.
+Speed to lead
+What owners say
+“Leads fall through the cracks.”
+What it costs
+Sellers you already paid for. One calls after hours, gets voicemail, and another buyer calls back first.
+Built
+Missed-call alerts on every marketing number, shared queues, and duplicate handling that keeps the seller's history.
+What it changed
+No seller lost to a voicemail nobody heard.
+Follow-up
+What owners say
+“The reps are on top of it.”
+What it costs
+Deals that were almost yours. Offers go quiet, and texts keep going to sellers who already answered.
+Built
+Text cadences that stop on reply, and tasks for stale leads and offers with no activity.
+What it changed
+Follow-up happens because the system says so, not because someone remembers.
+Contract to close
+What owners say
+“Deals get messy between contract and close.”
+What it costs
+Missed deadlines and unhappy title companies and buyers, because the dates live in one person's head.
+Built
+A Transactions Board with tasks that create themselves before closing, for title, and when a date moves.
+What it changed
+Every file under contract on one board, with deadlines that remind people.
+The platform
+What owners say
+“Every change needs a developer.”
+What it costs
+A week for every small change. And Zapier keeps breaking, quietly, until a deal slips.
+Built
+Settings ops can change to turn alerts on and off, and Zaps moved to native Flows.
+What it changed
+The business changes its own rules, and fewer things break quietly.
+The admin
+What owners say
+“We need an admin but can't justify a full-time hire.”
+What it costs
+A backlog that grows while you weigh a salary. New hires wait for logins, reports wait for someone with time.
+Built
+New-hire setup, access, fixes and reports, handled the same week they're asked for.
+What it changed
+The team keeps working, with no ticket queue and no full-time admin hire.
+“Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.”
+Sean Grabow , Founder, Central City Solutions
+Also
 Pezon Properties
-The goal
-See profit on every deal, tie every lead to the campaign that produced it, speed up acquisitions, and make the transaction coordination app fit each deal type: cash or financed, single-family or 20 units.
-Approach
-Delivered 50+ scoped requests: a full-funnel campaign ROI dashboard (25 metrics from cost-per-gross-lead to net profit per unit and return multiple, filterable by week/month/quarter), automatic lead source and campaign tagging from call-tracking numbers, speed-to-lead and missed-call-to-callback reporting, lead lifecycle automation with stale-lead alerts and conversion gates, a rebuilt Transaction Coordination app with conditional stages and a 40+ field property onboarding checklist, plus DocuSign integration.
-Outcome
-Net profit per deal visible in real time, lead source and campaign tagged automatically from call-tracking numbers, and a transaction app that asks only the questions each deal needs.
-A specialist. Not a generalist.
-I spent years as an Adobe Certified Instructor teaching 8,000+ students at a 4.9/5 rating, one of just five Adobe-authorized training partners in the Middle East. That teaching DNA is why my Salesforce builds get adopted , not abandoned.
-Today I work only in real estate: speed-to-lead routing, acquisition pipelines, transaction coordination, and ROI dashboards, built for how property companies actually operate.
-Real estate only
-Not a generalist juggling five industries. Every pattern I build is a real estate pattern.
-I build and I train
-The system ships with your team trained on it, until adoption sticks, not just at handover.
-Ongoing, fractional support
-Most consultants disappear after delivery. I stay on as a fractional admin as you grow.
-Free discovery call
-Every engagement starts with a free 30-minute call. No commitment, no pressure.
-From kickoff to compounding ROI
-A clear, sequenced engagement. Quick wins are typically visible within the first two weeks.
-Discovery Call
-A free 30-minute conversation to understand your goals, team, and pain points, and decide together whether we're a fit.
-CRM Revenue Audit
-Campaign ROI, speed to lead, stale offers, data health and automations, delivered as a findings report and a 30/60/90 roadmap.
-Build & Train
-Architecture, automation, dashboards, and integrations, paired with hands-on team training so it gets used.
-Optimize & Support
-Ongoing monitoring, refinement, new capabilities, and weekly updates, keeping the CRM delivering ROI.
-Where I've built CRMs
-Six roles across real estate, automotive, and global training. Tap any role to expand.
-Built a Configuration Object architecture with MergeFieldReplacer Apex
-Migrated Zapier automations to native Flows; added RingCentral daily call-log sync
-LWC Queue Task Manager, duplicate detection, marketing ROI & Tableau dashboards
-Built: campaign ROI by market, missed-call alerts, RingCentral call sync, a no-code rules engine
-Full-funnel campaign dashboard: 25 metrics from cost-per-gross-lead to net profit per unit and return multiple
-Automatic lead source & campaign tagging from call-tracking phone numbers (direct mail, GMB, PPC, web)
-Rebuilt Transaction Coordination app: conditional stages for cash vs. financed and SFH/MFH, 40+ field onboarding checklist, QC gates
-Lead lifecycle automation: auto status updates on activity, 24-hour stale-lead alerts, required-field conversion gates, duplicate handling
-Speed-to-lead, missed-call-to-callback, live answer rate, and text response time reporting; DocuSign integration for agreements of sale
-Cost-per-lead and cost-per-opportunity by campaign
-Built: full-funnel ROI dashboard, call-tracking attribution, rebuilt transaction coordination app
-Apex, LWC, and Flow automation across the lifecycle
-Result: −15% data entry errors
-Result: +10% marketing engagement
-Trained 8,000+ students at a 4.9/5 rating
-One of five Adobe-authorized training partners in the Middle East
-BBA, Faculty of Commerce, Cairo University (2020)
-The full technical stack
-Platform engineering, integrations, and real-estate-specific systems, built end to end.
-Platform & Development
-Integrations & Analytics
-Real Estate Specializations
-Certified & verified
-Salesforce certifications, independently verifiable on Salesforce's credential registry and Trailhead.
-Verify my credentials on Salesforce
-Certified Administrator
+Real estate acquisition · Pennsylvania
+Built
+50+ delivered requests, including a campaign ROI dashboard with 25 funnel metrics, lead source tagged from call-tracking numbers, and a rebuilt transaction coordination app.
+What it changed
+Net profit per deal, visible as it happens.
+How it works
+From a free call to the second Monday
+Every step after the first is your call. Most teams start with 30 minutes.
+Free · 30 minutes Free call You tell me how a deal moves through your team today. We agree whether there's a fit, and the right first step.
+$1,500 fixed CRM Revenue Audit Every leak in writing, what it's likely costing you, and a 30 / 60 / 90 fix plan you can hand to anyone. Not on Salesforce? This step is the move to Salesforce instead.
+Project Build The fixes, or the whole system, built around how your team works, with training so it gets used.
+Monthly Keep it running Same-week changes, a monthly automation check and a report. No long-term contract.
+Who you'd work with
+One person who runs an investor team's Salesforce day to day, not a big firm.
+For two years I've been the Salesforce person for a home-buying company in Ohio, from the first call on a marketing number to the closing. Before that I spent eight years as an Adobe Certified Instructor and taught 8,000+ students, rated 4.9/5, so every build comes with training your team will actually use.
+My focus is real estate investor teams. The same three things matter to any business that runs on leads: nothing falls through, the numbers are right, and changes don't wait on a developer. I work from Cairo, in your morning.
+Salesforce Certified Administrator
 Platform App Builder
-Certified Associate
-Certified AI Associate
+Salesforce Certified Associate
+AI Associate
 Trailhead Double Star Ranger
-A Trailhead rank earned through hands-on, scenario-based superbadges, not just quizzes.
-Run your numbers before we ever talk
-Calculators and a weekly KPI framework for investors and wholesalers. No sign-up; nothing you type leaves your browser.
-Cost per deal by lead source
-Cost per lead, contract, closed deal and ROI for every marketing channel.
-Wholesaling MAO calculator
-Maximum allowable offer from ARV, repairs, your fee and buyer costs.
-Missed seller call cost
-What unanswered seller calls cost you per month and per year.
+2024 to now
+Central City Solutions , home buying, Columbus and Cincinnati, Ohio
+2024 to 2025
+Pezon Properties , real estate acquisition, Pennsylvania
+2024
+Sylndr , automotive: Salesforce admin and developer
+2023
+Conx Digital , UAE: Salesforce Marketing Cloud
+2015 to 2023
+Adobe Certified Instructor , eight years of classes
+Free tools
+Check your own Monday first
+No call and no sign-up. Nothing you type leaves your browser.
 Deal Leak Score
-Ten yes/no checks scored out of 100, with a link your team can compare.
-BRRRR calculator
-Cash left in the deal after the refinance, cash flow and cash-on-cash return.
-DSCR calculator
-Debt service coverage from rent and PITIA, and the max loan at your target ratio.
-Rental yield & cap rate
-Gross and net yield, cap rate and cash flow in USD, CAD, GBP or EUR.
-Wholesaling CRM checklist
-What your CRM must track at each stage, from spend to kept deal.
-Follow-up cadence builder
-A dated touch plan for every seller lead, as CSV tasks.
-Wholesale deal analyzer
-Your MAO, your fee, and whether the buyer still makes money.
-Assignment vs double close
-Your net on each exit, with both closings and transactional funding.
-Acquisitions team capacity
-How many reps your lead volume needs, in hours per month.
-The Kept-Deal Map
-Five places deals leak between the marketing dollar and the closing.
+Ten yes/no checks, scored out of 100.
+Cost per deal
+Cost per lead, contract and deal for each channel.
+Missed call cost
+What unanswered seller calls cost you a month.
 The Monday 5
-Five numbers to see every Monday, with a 30-second self-check.
-Everything about a real estate CRM , sourced
-Every number links to Salesforce’s own documentation or the original study.
-Real estate CRM: the complete guide
-Data model, stages, automation, integrations, KPIs and a 30-day setup plan.
-37 Salesforce features for investors
-What each one does for a wholesaling team, with limits by edition.
-Salesforce integrations
-DocuSign, QuickBooks, dialers, texting, Google Ads and more.
-Speed to lead statistics
-62 verified numbers, each linked to its source, plus 8 myths.
-Best CRM for wholesalers (2026)
-11 CRMs compared, every price linked to the vendor.
-Salesforce edition picker
-Nine questions, the edition to start from, and what to ask your AE.
-15 automation recipes
-Trigger → action for speed to lead, follow-up, offers and dispo.
-20 report recipes
-Report type, filter, grouping and measure for every Monday question.
-Salesforce vs investor CRMs
-The honest version, including when Salesforce is overkill.
-All free tools & the glossary
-Practical Salesforce playbooks
-Field-tested guides on lead routing, automation, and architecture for real estate teams.
-Salesforce Lead Routing for Real Estate: Speed to Lead Changes Everything
-Assignment rules, round-robin routing, Zapier for external sources, and a notification layer that gets your reps to sellers first.
-5 Salesforce Automations Every Real Estate Team Needs
-Lead assignment, follow-up automation, property status workflows, reporting, and stale-lead escalation that runs itself.
-The Salesforce Configuration Object: Manage Automations Without Touching Code
-Centralized automation with a Configuration Object and MergeFieldReplacer Apex, so non-technical admins stay in control.
-Common questions
-Book your free 30-minute call.
-Tell me how your team works today, whether that's Salesforce, Podio, REsimpli, GoHighLevel or spreadsheets. In 30 minutes we'll find the quick wins and the right next step. No commitment, no pressure.
+Five numbers every owner should see on Monday.
+Guides and articles
+Real estate CRM: the complete guide Guide
+Salesforce vs investor CRMs, the honest version Compare
+Best CRM for wholesalers in 2026 Compare
+Speed to lead statistics, every one sourced Data
+15 automation recipes for wholesalers Recipes
+20 report recipes for Monday questions Recipes
+The CRM field kit Download
+Wholesaling CRM questions, answered Answers
+Salesforce for real estate investors Guide
+Lead routing for real estate teams Article
+Questions
+Before you book
+Working with me
+We're about to hire a full-time Salesforce admin. Should we?
+Maybe later. At a team of 10 to 50, most of the work is small changes every week: a new lead source, a new hire, an alert that broke. A retainer covers that for less than a salary, and the audit shows how much work there really is. Hire an admin or use a retainer compares the two.
+We're adding reps or opening a new market. Should we fix the CRM first?
+If you can, yes. More leads through the same leaks means more money lost the same way. The audit tells you what to fix before you scale, in the order I'd fix it.
+We're on Podio, REsimpli or GoHighLevel. Can you audit that?
+No. The audit is built for Salesforce. If you're outgrowing another CRM or spreadsheets, the right first step is a move to Salesforce: I map what you track today, move your data and build around how your team works. See how a move to Salesforce works , or plan it on a free call.
+What does it cost?
+The CRM Revenue Audit is $1,500, fixed, and the full fee comes off the build if you go ahead within 30 days. A full implementation is quoted as a project after a free call. Ongoing support is a monthly retainer with no long-term contract. Salesforce licenses are billed by Salesforce, so ask your account manager for a quote for your team size; teams can often get a discount.
+You're in Cairo. How does that work?
+I work Cairo afternoons and evenings, which is the US morning and the UK afternoon. Calls are booked at a time that suits you.
+You're one person. Why not an agency?
+With an agency, your project often goes through a project manager to a consultant who may never have worked in real estate. With me, the person who answers your message is the person who builds it. The honest trade-off: I'm one specialist, not a ten-person team, so I take on a small number of clients at a time.
+What access do you need, and is our data safe?
+For the audit, a read-only Salesforce user covers most of the review. You create the user, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK, and the three quick fixes are agreed with you first.
+What have you actually built?
+For two years I've been the Salesforce person at Central City Solutions, a home-buying company in Columbus and Cincinnati, Ohio: campaign ROI by market checked against the books, missed-call alerts on every marketing number, follow-up that stops when a seller replies, a Transactions Board for every file under contract, and settings ops can change without a developer. At Pezon Properties in Pennsylvania I delivered 50+ requests, including a campaign ROI dashboard with 25 funnel metrics and a rebuilt transaction coordination app.
+Do you work with teams outside the US?
+Yes. Investors in Canada, the UK and Europe get the same offer and the same terms, and their working hours overlap with mine. See Salesforce for Canadian investors and Salesforce for UK property investors .
+Do you train the team too?
+Yes. Before Salesforce I spent eight years as an Adobe Certified Instructor and taught 8,000+ students, rated 4.9/5. Every build comes with training built around your team's daily work.
+About Salesforce
+Is Salesforce worth it for a wholesaling or home-buying team?
+It depends on your size and how custom your process is. Investor CRMs are faster to start with. Salesforce makes sense when you need your own pipeline, reports leadership trusts, or more integrations than an investor CRM allows. I wrote the honest version, including when Salesforce is overkill: Salesforce vs investor CRMs .
+How do you set up speed to lead in Salesforce?
+A Flow runs the moment a lead is created: it assigns the lead to the right rep or queue, creates a callback task and sends an alert. Missed calls on marketing numbers create their own callback tasks, and a report shows how long sellers really wait. The full setup is in the speed to lead guide .
+How long does a Salesforce implementation take?
+Most focused builds take 6 to 12 weeks, scoped up front: the design first, then the core build (lead routing, pipeline, automations and integrations), then reports and training. Bigger builds take longer and are scoped before they start.
+Next Monday
+Make next Monday the one with a system.
+Book a free 30-minute call and tell me how your team works today, on Salesforce, Podio, REsimpli, GoHighLevel or spreadsheets. We'll find the quick wins and the right next step. No pressure.
+info@AmrMagdy.com I reply within one working day
+Message me on WhatsApp +20 103 327 5250
+Connect on LinkedIn linkedin.com/in/amrmagdyai
+Cairo afternoons and evenings US mornings, UK afternoons
 
 ---
 ## Acquisitions Team Capacity Calculator for Wholesalers
@@ -1736,105 +1756,127 @@ Paying the first invoice means you accept these terms.
 ## Salesforce CRM Audit for Real Estate Investors and Wholesalers
 URL: https://amrmagdy.com/crm-revenue-audit.html
 
-Find out where your CRM is losing deals , before you buy more leads.
-Most investor teams don’t have a lead problem. They have a few quiet leaks: a missed call nobody saw, an offer that went cold, a campaign that gets credit for someone else’s deal.
-Request the $1,500 audit → See a sample report Or book a free call
-I go through your CRM the way I’d go through my own: every number you rely on on Monday morning, every automation that’s supposed to fire, every place a seller can slip through. You get a plain-English report of what I found, what it’s costing you, and what to fix first.
-Kick-off call and a 60-minute findings walkthrough
-Written report: every finding, its cost and the fix
-Prioritised 30 / 60 / 90-day roadmap
-Spec for your “Monday 5” owner dashboard
-Up to 3 quick fixes done during the audit
-Full fee credited if you hire me for the build within 30 days
-See a sample report before you decide. Refund in full if it doesn’t find five fixable issues worth more than the fee.
+Your CRM, before and after
+Start here CRM Revenue Audit · for teams already on Salesforce
+Find where your Salesforce is losing deals , before you buy more leads.
+Most investor teams don't have a lead problem. They have a few quiet leaks: a missed call nobody saw, an offer that went cold, a campaign that gets credit for someone else's deal.
+I go through your Salesforce the way I'd go through my own, and hand you a plain-English report: what's leaking, what it's likely costing you, and what to fix first.
+Today “I think the mail is working.”
+After the audit You know what each contract costs, by channel.
+Not on Salesforce? You need a move to Salesforce , not an audit. Book a free call and we'll scope it.
+CRM Revenue Audit
+$1,500 USD, fixed
+One price for teams already on Salesforce. Credited in full to the build if you go ahead within 30 days.
+1 Written findings report
+5+ Fixable issues, or your money back
+up to 3 Quick fixes made during the audit
+5 Monday numbers, specced for your org
+2 Calls: kick-off and recorded walkthrough
+Full refund if it doesn't find five fixable issues worth more than the fee. Scope and terms
 Ready to start? Pay the $750 deposit to lock your start date.
-Not sure yet? Book a free 30-minute call first.
+Why I built this
 The question I hear most
 “We spend thousands a month on mail, cold calling and PPC. Which of it is actually working?”
-It’s a fair question, and the CRM should answer it in under a minute. Usually it can’t, and not because anyone did anything wrong. Teams grow, people add a field here and a Zap there, and two years later the numbers on the dashboard are slightly off and nobody is quite sure why.
-I’ve spent the last two years building and running the Salesforce system behind a home-buying company in Ohio, from the first call on a marketing number to the closing table. This audit is the checklist I wish someone had handed me on day one.
-Five areas, one question each
-Each area comes back with a clear answer, the evidence behind it, and what it would take to fix.
-Marketing & ROI
-Is every lead tied to the campaign that paid for it? Do the deals you keep, like rentals, count toward that campaign’s return? Can you see cost per contract by channel, and trust it?
+It's a fair question, and the CRM should answer it in under a minute. Usually it can't, and not because anyone did anything wrong. Teams grow, people add a field here and a Zap there, and two years later the numbers on the dashboard are slightly off and nobody is quite sure why.
+I've spent the last two years building and running the Salesforce system behind a home-buying company in Ohio, from the first call on a marketing number to the closing table. This audit is the checklist I wish someone had handed me on day one.
+The end goal
+Where you'll be when it's done
+Five questions most owners can't answer from their CRM today. Flip the switch to see each one after the audit.
+Area | Today: what you'd say After: what you'll know
+Marketing | “I think the mail is working.” You know which campaigns produce contracts and what each contract costs, by channel.
+Speed to lead | “We call everyone back fast.” You know how long sellers really wait, and where missed calls and weekend forms fall through.
+Follow-up | “The reps are on top of it.” You have the list of offers and appointments going cold right now, and who owns each.
+Reporting | “The dashboard is probably right.” You know which numbers you can trust, which are off, and why.
+The plan | “We need to fix the CRM at some point.” You have a ranked fix plan you can hand to me, your own team or anyone else.
+You're seeing what most owners say today.
+You're seeing what you'll know when the audit is done.
+What I check
+Six areas, one question each
+Each area comes back with a straight answer, the evidence behind it, and what the fix would take.
+Marketing and ROI
+Is every lead tied to the campaign that paid for it? Do the deals you keep, like rentals, count toward that campaign's return?
+Can you see cost per contract by channel, and trust it?
 Speed to lead
-What happens to a missed call, a weekend web form, a text reply? Who gets told, and how fast? How many sellers waited, and for how long?
-Acquisitions & follow-up
-Offers with no activity, appointments with no next step, leads owned by someone who left. In states with new wholesaling rules, whether disclosures, cancellation windows and closing deadlines are tracked (a tracking check, not legal advice). Which deals are quietly going cold right now?
+What happens to a missed call, a weekend web form, a text reply? Who gets told, and how fast?
+How many sellers waited, and for how long?
+Acquisitions and follow-up
+Offers with no activity, appointments with no next step, leads owned by someone who left. In states with new wholesaling rules, whether disclosures and cancellation dates are tracked. A tracking check, not legal advice.
+Which deals are quietly going cold right now?
 Data health
-Broken phone numbers, duplicate sellers, deals with no lead behind them, lead sources anyone can change. How much of your list can you actually reach?
-Automations & integrations
-Flows, Zaps, dialer and e-signature syncs, alerts. What fires, what silently fails, what overlaps, and whether dialer and AI follow-up activity actually lands in the CRM with consent recorded. What is running that nobody would notice if it stopped?
+Broken phone numbers, duplicate sellers, deals with no lead behind them, lead sources anyone can change.
+How much of your list can you actually reach?
+Automations and integrations
+Flows, Zaps, dialer and e-signature syncs, alerts. What fires, what fails quietly, what overlaps, and whether dialer and AI follow-up lands in the CRM with consent recorded.
+What's running that nobody would notice if it stopped?
 Reporting
-The reports and dashboards you open every week, checked against the raw data underneath. Do the five numbers you run the business on add up?
+The reports and dashboards you open every week, checked against the raw data underneath.
+Do the five numbers you run the business on add up?
+What you get
 Everything you get, counted
 Things you can act on, not a slide deck. Each one is yours to keep, whether you build the fixes with me or not.
-Findings report
-Every issue in plain English: where it is, what it’s likely costing you in leads, deals or hours, and how big the fix is.
-Fixable issues
-Specific, sized and worth more than the fee, or you get the fee back. See the promise below.
-Quick fixes, done
-Small, safe fixes made during the audit, like a broken alert or a wrong report filter, agreed with you first.
-Areas reviewed
-Marketing ROI, speed to lead, acquisitions, data health, automations and the reports you run the business on.
-Monday numbers
-Your “Monday 5” owner dashboard, defined field by field for your org and ready to build.
-Roadmap stages
-A 30 / 60 / 90 plan with the fixes in the order I’d do them and rough effort for each.
-Calls
-A kick-off call and a findings walkthrough. The walkthrough is recorded so the rest of your team can watch it.
-Of the fee credited
-If you hire me for the build within 30 days, the whole audit fee comes off the project.
-See a sample report for a made-up home-buying company, so you know exactly what you’ll get.
+1 | Findings report Every issue in plain English: where it is, what it's likely costing you in leads, deals or hours, and how big the fix is.
+5+ | Fixable issues Specific, sized and worth more than the fee, or you get the fee back.
+up to 3 | Quick fixes, done Small, safe fixes like a broken alert or a wrong report filter, agreed with you first.
+6 | Areas reviewed Marketing ROI, speed to lead, acquisitions, data health, automations and reporting.
+5 | Monday numbers Your “Monday 5” owner dashboard, defined field by field for your org and ready to build.
+3 | Roadmap stages A 30 / 60 / 90 plan with the fixes in the order I'd do them and rough effort for each.
+2 | Calls A kick-off call and a recorded findings walkthrough the rest of your team can watch.
+100% | Of the fee credited If you hire me for the build within 30 days, the whole fee comes off the project.
+How it works
 Five steps, two calls
-You spend about two hours on it in total. I do the rest.
-1 Kick-off call You walk me through how a deal moves through your team and what’s bugging you. You: a 45-minute call and a read-only login (I send simple steps).
-2 The review I work through all six areas in your org. If I find something urgent, like an automation that’s silently failing, I tell you the same day. You: nothing, unless I have a question.
-3 Quick fixes I send you the three small fixes I’d make first. Once you say yes, I make them, so you see results before the walkthrough. You: a yes or no on each fix.
-4 Report delivered You get the findings report, the roadmap and the dashboard spec before we meet, so you can read them first. You: a read, at your own pace.
-5 Walkthrough We go through the findings together, with whoever on your team should be in the room, and agree what happens next. You: a 60-minute call, recorded.
-Where you’ll be when it’s done
-Five questions most owners can’t answer from their CRM today. By the walkthrough, you’ll have a straight answer to each, or know exactly what’s missing to get one.
-“I think the mail is working.”
-You know which campaigns produce contracts and what each contract costs you, by channel.
-“We call everyone back fast.”
-You know how long sellers really wait, and where missed calls and weekend forms fall through.
-“The reps are on top of it.”
-You have the list of offers and appointments going cold right now, and who owns each one.
-“The dashboard is probably right.”
-You know which of your numbers you can trust, which are off, and why.
-“We need to fix the CRM at some point.”
-You have a ranked fix plan you can hand to me, your own team or anyone else.
+About two hours of your time in total. I do the rest.
+Step 1 Kick-off call You walk me through how a deal moves through your team, and what's bugging you. You: a 45-minute call and a read-only login (I send simple steps).
+Step 2 The review I work through all six areas in your org. If I find something urgent, like an automation that's failing quietly, you hear about it the same day. You: nothing, unless I have a question.
+Step 3 Quick fixes I send you the three small fixes I'd make first. Once you say yes, I make them, so you see results before the walkthrough. You: a yes or no on each fix.
+Step 4 Report delivered The findings report, the roadmap and the dashboard spec arrive before we meet, so you can read them first. You: a read, at your own pace.
+Step 5 Walkthrough We go through the findings with whoever on your team should be in the room, and agree what happens next. You: a 60-minute call, recorded.
+Is this for you?
 A good fit, and not
 A good fit if you…
 Buy houses or wholesale, and your team works out of Salesforce
-Spend real money on marketing and want to know what’s working
-Have a CRM someone else built, and you’re not sure what it does anymore
-Are about to hire, add a market or change your lead sources
+Spend real money on marketing and want to know what's working
+Have a CRM someone else built, and aren't sure what it does anymore
+Are about to hire, add reps, open a market or change lead sources
 Probably not yet if you…
-Run on Podio, REsimpli, GoHighLevel or another CRM. You need a move to Salesforce , not an audit, and we can scope that on a free call
-Need the fixes built this week; that’s a build project, which we can scope
+Run on Podio, REsimpli, GoHighLevel or spreadsheets. You need a move to Salesforce , scoped on a free call
+Need the fixes built this week. That's a build project, which we can scope
 Want a full rebuild price before anyone has looked at your setup
-My promise
-If the report doesn’t give you at least five specific, fixable issues that are worth more to you than the fee, tell me on the walkthrough call and I’ll refund it in full. No forms, no argument.
+The terms
+The risk is mine, not yours
+The promise
+If the report doesn't give you at least five specific, fixable issues worth more than the fee, tell me on the walkthrough and I refund it in full. No forms, no argument.
 Founding clients
-The first three audit clients get a direct WhatsApp line to me during the audit and for 30 days after the walkthrough. In return I ask for a short case study, written with you and published only with your OK. Same price, same scope.
+The first three audit clients get a direct WhatsApp line to me during the audit and for 30 days after. In return, a short case study written with you, published only with your OK.
+Paying
+50% to start, 50% when the report is delivered, by invoice. Prefer escrow? It can run as an Upwork contract, so your payment is held until you approve the report.
+Who does the audit
+Who does the audit: Amr Magdy , Salesforce CRM Consultant for US real estate investors and wholesalers.
+For two years I've run Salesforce for Central City Solutions, a home-buying company in Columbus and Cincinnati: campaign ROI by market, missed-call alerts, a Transactions Board and same-week changes. Salesforce Certified Administrator and Platform App Builder.
+More about me
+“Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.”
+Sean Grabow , Founder, Central City Solutions
+Questions
 Before you ask
 What access do you need?
-A read-only Salesforce user is enough for most of the review. I don’t change anything in your org without asking first, and the three quick fixes are agreed with you before I touch them.
-What if we’re not on Salesforce?
-The audit is for teams already on Salesforce. If you’re on Podio, REsimpli, GoHighLevel or another CRM, what you need is a move to Salesforce: I map what you track today, move your data and build the system around how your team works. Request a free call and we’ll scope it.
-You’re in Cairo. How does the time difference work?
-I work afternoons and evenings Cairo time, which overlaps with US mornings and the full Gulf working day. Both calls are scheduled at a time that suits you.
+A read-only Salesforce user covers most of the review. You create it, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK, and the three quick fixes are agreed with you first.
+How long does it take?
+It runs on your schedule: the kick-off call, my review, three agreed quick fixes, the report, then the walkthrough. Your part is about two hours in total, and we set the walkthrough date on the kick-off call.
 Do we have to hire you for the fixes?
 No. The roadmap is written so your team, or anyone you choose, can follow it. If you do hire me for the build within 30 days, the full audit fee comes off the project.
+What if we're not on Salesforce?
+Then the audit isn't the right step. You need a move to Salesforce: I map what you track today, move your data and build around how your team works. Book a free call and we'll scope it.
+You're in Cairo. How does the time difference work?
+I work Cairo afternoons and evenings, which is the US morning and the UK afternoon. Both calls are booked at a time that suits you.
 How do we pay?
-50% to start and 50% when the report is delivered, by bank transfer or card through an invoice. Prefer escrow? I can set it up as an Upwork contract instead, so your payment is held until you approve the report. The full scope and terms are on one page.
-Tell me a bit about your team
-I’ll reply within one working day with a couple of questions and a start date. I take on a small number of audits each month so each one gets proper attention.
-Skip the form and book a 30-minute call →
-Already decided? Pay the $750 deposit and I’ll reply with your start date and kick-off time.
-Prefer email? info@AmrMagdy.com
+50% to start and 50% when the report is delivered, by bank transfer or card through an invoice. Prefer escrow? It can run as an Upwork contract instead, so your payment is held until you approve the report. The full scope and terms are on one page.
+What if the audit doesn't find much?
+Then you shouldn't pay for it. If the report doesn't give you at least five specific, fixable issues worth more than the fee, tell me on the walkthrough and I refund it in full. No forms, no argument.
+Request the audit
+Tell me a bit about your team.
+I'll reply within one working day with a couple of questions and a start date. I take on a small number of audits each month, so each one gets proper attention.
+Rather talk first? Book a 30-minute call Free, on my calendar, no back and forth
+info@AmrMagdy.com Prefer email? That works too
+Already decided? Pay the $750 deposit I reply with your start date and kick-off time
 
 ---
 ## Deal Leak Score: 10-Point Check for Wholesalers (Free)
