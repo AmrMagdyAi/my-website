@@ -1833,7 +1833,7 @@ Step 5 Walkthrough We go through the findings with whoever on your team should b
 Is this for you?
 A good fit, and not
 A good fit if you…
-Buy houses or wholesale, and your team works out of Salesforce
+Buy houses or wholesale, and your team works out of Salesforce, including investor CRMs built on it
 Spend real money on marketing and want to know what's working
 Have a CRM someone else built, and aren't sure what it does anymore
 Are about to hire, add reps, open a market or change lead sources

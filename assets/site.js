@@ -1,4 +1,5 @@
-/* amrmagdy.com: dark mode, phone menu, the before/after switch, the phone call-to-action bar, forms and GA4 events.
+/* amrmagdy.com: dark mode, phone menu, the before/after switch, the phone call-to-action bar, forms and GA4 events
+   (before_after_toggle, faq_open, video_play, and generate_lead with method form / form_mailto / booking).
    No dependencies. Loaded with defer on index.html and crm-revenue-audit.html. */
 (function(){
   'use strict';
@@ -132,14 +133,17 @@
           var a=link(BOOK,'Pick a time for a free 30-minute call',true);
           a.addEventListener('click',function(){ ev('generate_lead',{method:'booking'}); });
           st.appendChild(a); st.appendChild(d.createTextNode('.'));
-          ev('form_submit_success',{form:name});
+          ev('generate_lead',{method:'form',form:name});
           form.reset();
         })
         .catch(function(){
           var subject=form.querySelector('input[name="subject"]');
           var text='Name: '+(fd.get('name')||'')+'\nEmail: '+(fd.get('email')||'')+'\n\n'+(fd.get('message')||'');
           st.className='status err'; st.textContent='That didn’t go through. Please ';
-          st.appendChild(link('mailto:info@AmrMagdy.com?subject='+encodeURIComponent(subject?subject.value:'Website inquiry')+'&body='+encodeURIComponent(text),'email it to me instead'));
+          var mail=link('mailto:info@AmrMagdy.com?subject='+encodeURIComponent(subject?subject.value:'Website inquiry')+'&body='+encodeURIComponent(text),'email it to me instead');
+          /* counted as a form lead, not as a plain email click from the page-wide listener */
+          mail.addEventListener('click',function(e){ e.stopPropagation(); ev('generate_lead',{method:'form_mailto',form:name}); });
+          st.appendChild(mail);
           st.appendChild(d.createTextNode(' (your message is already in it), or '));
           st.appendChild(link(BOOK,'book a call',true));
           st.appendChild(d.createTextNode('.'));
