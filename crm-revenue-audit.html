@@ -84,7 +84,15 @@
           "name": "What access do you need?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A read-only Salesforce user covers most of the review. You create it, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first."
+            "text": "A read-only Salesforce user covers most of the review, and I ask before I need anything else. You create it, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK. The quick fixes (up to 3) are each agreed with you first, and the user only gets edit access while I make them. Your data stays in your org, and I'm happy to sign your NDA before I log in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does that login use one of our paid Salesforce licenses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every Salesforce login uses a license, even a read-only one. If you have a spare license, we use it. If not, a former employee's user can often be deactivated to free one. We check together first that nothing still runs under their name, because deactivating a user too early can break things. If neither works, we do the review on screen shares with whoever runs Salesforce on your side. It takes more of their time, and nothing else about the audit changes."
           }
         },
         {
@@ -333,7 +341,8 @@
 <section class="block" id="faq" aria-labelledby="faq-h"><div class="wrap">
   <div class="head"><p class="kicker">Questions</p><h2 id="faq-h">Before you ask</h2></div>
   <div class="faq">
-    <details><summary>What access do you need?</summary><p>A read-only Salesforce user covers most of the review. You create it, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first.</p></details>
+    <details><summary>What access do you need?</summary><p>A read-only Salesforce user covers most of the review, and I ask before I need anything else. You create it, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK. The quick fixes (up to 3) are each agreed with you first, and the user only gets edit access while I make them. Your data stays in your org, and I'm happy to sign your NDA before I log in.</p></details>
+    <details><summary>Does that login use one of our paid Salesforce licenses?</summary><p>Yes. Every Salesforce login uses a license, even a read-only one. If you have a spare license, we use it. If not, a former employee's user can often be deactivated to free one. We check together first that nothing still runs under their name, because <a href="salesforce-admin-left.html">deactivating a user too early</a> can break things. If neither works, we do the review on screen shares with whoever runs Salesforce on your side. It takes more of their time, and nothing else about the audit changes.</p></details>
     <details><summary>How long does it take?</summary><p>We set the walkthrough date together on the kick-off call, so you know the finish date before the review starts. In between: my review, up to 3 agreed quick fixes, and the report, which reaches you before the walkthrough. Your part is about two hours in total.</p></details>
     <details><summary>Do we have to hire you for the fixes?</summary><p>No. The roadmap is written so your team, or anyone you choose, can follow it. If you do hire me for the build within 30 days, the full audit fee comes off the project.</p></details>
     <details><summary>What if we're not on Salesforce?</summary><p>Then the audit isn't the right step. You need a move to Salesforce: I map what you track today, move your data and build around how your team works. <a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a> and we'll scope it.</p></details>
