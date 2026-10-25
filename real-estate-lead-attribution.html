@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');else if(h.indexOf('.csv')>-1||h.indexOf('.pdf')>-1)gtag('event','file_download',{file_name:h});});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Real Estate Lead Attribution: Which Campaign Gets Credit?</title>
+<meta name="description" content="A seller gets six mailers, sees an ad and calls. Which campaign gets credit? A simple attribution rule for investors and wholesalers, the fields to track and the reports.">
+<link rel="canonical" href="https://amrmagdy.com/real-estate-lead-attribution.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://amrmagdy.com/real-estate-lead-attribution.html">
+<meta property="og:title" content="Which campaign gets credit for the deal? Lead attribution for real estate investors">
+<meta property="og:description" content="A seller gets six mailers, sees an ad and calls. Which campaign gets credit? A simple attribution rule for investors and wholesalers, the fields to track and the reports.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
+<meta property="og:site_name" content="Amr Magdy">
+<meta property="article:published_time" content="2026-10-25">
+<meta property="article:modified_time" content="2026-10-25">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Which campaign gets credit for the deal? Lead attribution for real estate investors">
+<meta name="twitter:description" content="A seller gets six mailers, sees an ad and calls. Which campaign gets credit? A simple attribution rule for investors and wholesalers, the fields to track and the reports.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.sec2{margin-top:44px;max-width:820px}
+.sec2 h2{font-size:1.5rem;margin:34px 0 8px;scroll-margin-top:calc(var(--nav) + 16px)}
+.sec2 h3{font-size:1.08rem;margin:22px 0 6px}
+.sec2 p,.sec2 li{color:var(--txt2);line-height:1.78}
+.sec2 p{margin:8px 0}
+.sec2 ul,.sec2 ol{padding-left:1.2rem;margin:8px 0}
+.sec2 li{margin:4px 0}
+.sec2 a{color:var(--sf);text-decoration:underline;text-underline-offset:2px}
+.sec2 strong{color:var(--txt)}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:18px}
+.card h3{margin-top:0}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;border:1px solid var(--bd);border-radius:14px;background:var(--bg2)}
+.tw table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:560px}
+.tw th,.tw td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--bd);color:var(--txt2);line-height:1.55}
+.tw th{color:var(--txt);font-weight:700;background:var(--bg);position:sticky;top:0}
+.tw td:first-child{color:var(--txt);font-weight:600}
+.dl dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:12px}
+.dl dd{color:var(--txt2);line-height:1.7;margin:2px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.toc a{border:1px solid var(--bd2);border-radius:999px;padding:5px 12px;font-size:.82rem;color:var(--txt)}
+.fig{margin:18px 0;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:16px}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{font-size:.84rem;color:var(--txt3);margin-top:8px;line-height:1.6}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin:0 0 8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--bg);border:1px solid var(--bd2);color:var(--txt2);margin-right:6px}
+.warn{background:var(--bg2);border:1.5px solid var(--gold);border-left-width:6px;border-radius:14px;padding:14px 18px;margin:18px 0 0;color:var(--txt2);line-height:1.7;max-width:820px}
+.dlbox{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--bg2);border:1.5px dashed var(--gold);border-radius:16px;padding:16px 18px;margin:18px 0}
+.dlbox p{margin:0;flex:1 1 240px}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}nav .nb.nb-call{margin-left:auto!important}}
+
+.ans{background:var(--bg2);border:1px solid var(--bd);border-left:6px solid var(--sf);border-radius:14px;padding:16px 20px;margin:22px 0 0;max-width:820px}
+.ans p{margin:0;color:var(--txt2);line-height:1.75}.ans .k{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--txt3);font-weight:700;margin-bottom:4px}
+.chk{list-style:none;padding-left:0!important}.chk li{position:relative;padding-left:1.6rem}.chk li::before{content:'';position:absolute;left:0;top:.45em;width:.9rem;height:.9rem;border:1.5px solid var(--sf);border-radius:4px}
+.rel2{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:12px}
+.rel2 a{display:block;border:1px solid var(--bd);border-radius:14px;padding:14px 16px;background:var(--bg2);text-decoration:none!important;color:var(--txt)!important}
+.rel2 a b{display:block;font-size:.95rem;margin-bottom:4px}.rel2 a span{display:block;font-size:.84rem;color:var(--txt3);line-height:1.5}
+.src{font-size:.86rem}.src li{margin:6px 0}
+.ex{font-size:.86rem;color:var(--txt3);font-style:italic}
+.faqcat{margin-top:40px}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Which campaign gets credit for the deal? Lead attribution for real estate investors", "description": "A seller gets six mailers, sees an ad and calls. Which campaign gets credit? A simple attribution rule for investors and wholesalers, the fields to track and the reports.", "url": "https://amrmagdy.com/real-estate-lead-attribution.html", "mainEntityOfPage": "https://amrmagdy.com/real-estate-lead-attribution.html", "inLanguage": "en-US", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-card.jpg", "about": [{"@type": "Thing", "name": "Marketing attribution"}, {"@type": "Thing", "name": "Real estate investing"}, {"@type": "Thing", "name": "Direct mail"}, {"@type": "Thing", "name": "Marketing ROI"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is lead attribution in real estate investing?", "acceptedAnswer": {"@type": "Answer", "text": "It's the rule for which marketing campaign gets credit for a seller lead and the deal it becomes. Without a consistent rule, cost per deal by channel and campaign ROI can't be compared month to month."}}, {"@type": "Question", "name": "Should wholesalers use first-touch or last-touch attribution?", "acceptedAnswer": {"@type": "Answer", "text": "For most investor teams I'd use a first-response rule: credit the campaign behind the seller's first inbound call, form, text reply or real conversation, and lock it on the deal. Track the latest source separately, so campaigns that bring sellers back still show up."}}, {"@type": "Question", "name": "Should I trust 'how did you hear about us'?", "acceptedAnswer": {"@type": "Answer", "text": "As color, not as the record. Sellers who get mail from many investors often can't say whose letter they're holding. Capture the source from tracking numbers and forms, and keep what the seller says in its own field."}}, {"@type": "Question", "name": "How do I track direct mail ROI?", "acceptedAnswer": {"@type": "Answer", "text": "Give each mail campaign its own tracking number, map the number to the campaign in your CRM, record spend per campaign each month, and report cost per contract and profit on closed deals by campaign."}}, {"@type": "Question", "name": "How do I attribute a seller who comes back a year later?", "acceptedAnswer": {"@type": "Answer", "text": "Keep the original source locked, set a latest source field to whatever brought them back, and flag the record as re-engaged. Report re-engaged deals separately so follow-up campaigns get credit."}}, {"@type": "Question", "name": "What's the difference between lead source and campaign?", "acceptedAnswer": {"@type": "Answer", "text": "Lead source is the channel, like direct mail, PPC or cold calling. A campaign is a specific effort with its own spend, like a July absentee-owner mailer in one market. You need both: source for the big picture, campaign for ROI."}}, {"@type": "Question", "name": "Should marketing ROI count contracts or closed deals?", "acceptedAnswer": {"@type": "Answer", "text": "Closed deals. Contracts that fall apart cost you marketing money and produce nothing. ROI that counts only kept deals shows which channels produce deals that actually close."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Lead attribution for investors", "item": "https://amrmagdy.com/real-estate-lead-attribution.html"}]}]}</script>
+</head>
+<body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
+  <a href="resources.html" class="nb hide-sm">Free tools</a>
+  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
+  <a href="index.html#contact" class="nb nb-call" style="margin-left:0">Book a free call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Guide · by Amr Magdy · Oct 2026</span>
+<h1>Which campaign gets credit for the deal? <em>Lead attribution for real estate investors</em></h1>
+<p class="lead">A seller gets six of your mailers, sees your ad on Google, calls the number on your website and tells your rep, "I got your letter." The deal closes. Which campaign earned it? If you can't answer that the same way every time, your cost per deal by channel is a guess, and so is your marketing budget. This page is for owners and marketing leads at home-buying and wholesaling companies who want a rule they can apply consistently, and the fields and reports that make it work.</p>
+<div class="ans"><span class="k">Short answer</span><p>Pick one rule and apply it to every deal: credit the campaign that produced the seller's first response, meaning their first inbound call, form, text reply or real cold-call conversation. Record it automatically from the tracking number, form or list, copy it to the deal and lock it. Keep two more fields for context, the latest source that brought them back and what the seller said, and judge channels on deals that actually closed, not contracts.</p></div>
+<div class="toc"><a href="#problem">Why it's hard</a><a href="#models">The options</a><a href="#rule">The rule I'd use</a><a href="#capture">Capturing the source</a><a href="#fields">Fields to keep</a><a href="#returning">Returning sellers</a><a href="#reports">The reports</a><a href="#faq">Questions</a></div>
+<section class="sec2">
+<h2 id="problem">Why is attribution hard for investors?</h2>
+<ul>
+<li><strong>Sellers are touched many times before they respond.</strong> Several mailers, a few cold calls, a text, maybe a postcard from someone else entirely.</li>
+<li><strong>Sellers don't remember.</strong> Someone who gets letters from ten investors often can't tell you whose letter they're holding.</li>
+<li><strong>Channels overlap.</strong> Mail drives people to Google, Google sends them to your site, and your site has its own number.</li>
+<li><strong>Deals take months.</strong> A lead from January can close in August, after three other campaigns have touched it.</li>
+<li><strong>Records get edited.</strong> A rep changes the lead source on a deal "to fix it", and the original answer is gone.</li>
+</ul>
+<p>None of this has a perfect answer. It has a consistent one, and consistency is what lets you compare channels month to month.</p>
+
+<h2 id="models">What are the options?</h2>
+<div class="tw"><table>
+<thead><tr><th>Approach</th><th>Credits</th><th>Good at</th><th>Weak at</th></tr></thead>
+<tbody>
+<tr><td>First response</td><td>The campaign behind the seller's first inbound call, form, text reply or real conversation</td><td>Showing which spend starts relationships</td><td>Gives no credit to whatever brought a cold seller back later</td></tr>
+<tr><td>Latest source</td><td>The campaign behind the most recent response before the deal</td><td>Showing what makes sellers act now</td><td>Undervalues the mail that warmed them up</td></tr>
+<tr><td>Seller says</td><td>Whatever the seller tells the rep</td><td>Color, and catching referrals and signs</td><td>Unreliable on its own; "your letter" is a common default answer</td></tr>
+<tr><td>Split credit</td><td>Several campaigns share each deal</td><td>Teams with heavy multi-channel spend and someone to maintain it</td><td>Complex, and hard to explain in a Monday meeting</td></tr>
+</tbody></table></div>
+<p>Salesforce can do split credit through its campaign influence features. For most teams of 10 to 50, I'd skip it. A simple rule everyone understands beats a sophisticated one nobody trusts.</p>
+
+<h2 id="rule">The rule I'd use</h2>
+<p><strong>Credit goes to the campaign that produced the seller's first response.</strong> Then lock it.</p>
+<ul>
+<li>A seller who calls a direct mail tracking number: that mail campaign.</li>
+<li>A seller who fills in a form from a PPC ad: that PPC campaign.</li>
+<li>A seller a cold caller actually talked to and qualified: that cold-calling list.</li>
+<li>A seller on a list who was mailed and called but never answered, then called in from a bandit sign: the bandit sign. Being on a list isn't a response.</li>
+</ul>
+<p>Two things make this work. The source is captured by the system at the moment of response, not typed in by a rep. And once the deal exists, the original source and campaign are copied to it and locked, so nobody can "fix" them later. That's the same rule behind the deal fields in my <a href="crm-field-kit.html">CRM field kit</a>.</p>
+
+<h2 id="capture">How do you capture the source automatically?</h2>
+<div class="tw"><table>
+<thead><tr><th>Channel</th><th>How the source gets captured</th></tr></thead>
+<tbody>
+<tr><td>Direct mail</td><td>A unique tracking number per campaign (or per list and market), mapped to the campaign in your CRM</td></tr>
+<tr><td>PPC and social ads</td><td>Tagged landing page links, with the campaign passed into a hidden field on the form, plus a tracking number on the page</td></tr>
+<tr><td>Cold calling</td><td>The list name on every imported record, and a lead created only when a caller has a real conversation</td></tr>
+<tr><td>Texting campaigns</td><td>Replies tied to the list and campaign that sent the text</td></tr>
+<tr><td>Bandit signs, TV, radio</td><td>A dedicated number for each</td></tr>
+<tr><td>Referrals and repeat sellers</td><td>A required field when a rep creates a lead by hand: who referred them</td></tr>
+<tr><td>Organic search and your website</td><td>A website tracking number and form source, separate from paid traffic</td></tr>
+</tbody></table></div>
+<p>The tracking number is the backbone. When every campaign has its own number and every number maps to a campaign, most attribution arguments go away. More on the setup in <a href="salesforce-lead-sources-real-estate.html">getting every lead source into Salesforce</a>.</p>
+
+<h2 id="fields">The fields to keep</h2>
+<div class="tw"><table>
+<thead><tr><th>Field</th><th>Set by</th><th>Used for</th></tr></thead>
+<tbody>
+<tr><td>Original source and campaign</td><td>The system, at first response; copied to the deal and locked</td><td>Cost per deal and ROI by channel and campaign</td></tr>
+<tr><td>Latest source</td><td>The system, every time the seller responds again</td><td>Seeing what brings sellers back</td></tr>
+<tr><td>Seller says</td><td>The rep, from the first conversation</td><td>Color, and spotting sources your tracking misses</td></tr>
+<tr><td>Market</td><td>The system, from the number, form or zip code</td><td>Splitting all of the above by market</td></tr>
+<tr><td>Re-engaged</td><td>The system, when a dead or quiet seller responds again</td><td>Counting comebacks separately</td></tr>
+</tbody></table></div>
+<p>If "seller says" disagrees with the original source a lot for one channel, look at that channel's tracking. A mail campaign that sellers keep mentioning but that never shows up as a source usually has a number that isn't mapped.</p>
+
+<h2 id="returning">What about sellers who come back months later?</h2>
+<p>Keep the original source locked, set the latest source to whatever brought them back, and flag the record as re-engaged. Then decide how long "quiet" has to be before a comeback counts as re-engaged; six months is a reasonable place to start, but pick a number with your team and write it down.</p>
+<p>This lets you answer two different questions without arguing: which campaigns start relationships, and which ones bring old sellers back. Follow-up and re-engagement campaigns often look like they produce nothing under a strict first-response rule. The re-engaged flag is how they get seen.</p>
+<p>Returning sellers also need to land with the right person. See <a href="salesforce-duplicate-sellers.html">duplicate sellers in Salesforce</a> for how matching and routing handle that.</p>
+
+<h2 id="reports">The reports that matter</h2>
+<ol>
+<li><strong>Cost per appointment and cost per contract by campaign</strong>, using the original source. This is the budget report.</li>
+<li><strong>ROI on kept deals.</strong> Profit from deals that actually closed, plus the value of any property you kept as a rental, minus spend, divided by spend, by campaign. Contracts that fell apart don't count. This is the last of my <a href="monday-5-real-estate-kpis.html">Monday 5</a> numbers, and it's the one I'd look at before changing a budget.</li>
+<li><strong>Deals by latest source</strong>, next to deals by original source, to see what brings sellers back.</li>
+<li><strong>Re-engaged deals by campaign</strong>, so follow-up spend gets credit.</li>
+<li><strong>Deals with no source</strong>, which should be an empty report. If it isn't, fix it before you trust anything above.</li>
+</ol>
+<p>Spend has to be on the same campaigns, month by month, and checked against your books. If it isn't, the ROI numbers are wrong however good the attribution is. <a href="salesforce-dashboard-wrong-numbers.html">Why Salesforce numbers don't match</a> covers that side.</p>
+<p>Campaign ROI by market and source, checked against the books, is part of what I built for a two-market home-buying company in Ohio. Whatever rule you pick, it has to be applied the same way to every deal, or those numbers aren't worth reading.</p>
+</section>
+<section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>What is lead attribution in real estate investing?</h3><p>It's the rule for which marketing campaign gets credit for a seller lead and the deal it becomes. Without a consistent rule, cost per deal by channel and campaign ROI can't be compared month to month.</p></div><div class="cq"><h3>Should wholesalers use first-touch or last-touch attribution?</h3><p>For most investor teams I'd use a first-response rule: credit the campaign behind the seller's first inbound call, form, text reply or real conversation, and lock it on the deal. Track the latest source separately, so campaigns that bring sellers back still show up.</p></div><div class="cq"><h3>Should I trust 'how did you hear about us'?</h3><p>As color, not as the record. Sellers who get mail from many investors often can't say whose letter they're holding. Capture the source from tracking numbers and forms, and keep what the seller says in its own field.</p></div><div class="cq"><h3>How do I track direct mail ROI?</h3><p>Give each mail campaign its own tracking number, map the number to the campaign in your CRM, record spend per campaign each month, and report cost per contract and profit on closed deals by campaign.</p></div><div class="cq"><h3>How do I attribute a seller who comes back a year later?</h3><p>Keep the original source locked, set a latest source field to whatever brought them back, and flag the record as re-engaged. Report re-engaged deals separately so follow-up campaigns get credit.</p></div><div class="cq"><h3>What's the difference between lead source and campaign?</h3><p>Lead source is the channel, like direct mail, PPC or cold calling. A campaign is a specific effort with its own spend, like a July absentee-owner mailer in one market. You need both: source for the big picture, campaign for ROI.</p></div><div class="cq"><h3>Should marketing ROI count contracts or closed deals?</h3><p>Closed deals. Contracts that fall apart cost you marketing money and produce nothing. ROI that counts only kept deals shows which channels produce deals that actually close.</p></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="salesforce-lead-sources-real-estate.html"><b>Lead sources in Salesforce</b><span>How every source gets in and survives conversion.</span></a><a href="monday-5-real-estate-kpis.html"><b>The Monday 5</b><span>Five numbers an owner should see every week.</span></a><a href="wholesaling-cost-per-deal-calculator.html"><b>Cost per deal calculator</b><span>Work out cost per deal by lead source.</span></a><a href="crm-field-kit.html"><b>The CRM field kit</b><span>Lead, deal and buyer fields, including locked source fields.</span></a><a href="new-market-crm-checklist.html"><b>New market checklist</b><span>Attribution and spend by market before launch.</span></a><a href="kept-deal-map.html"><b>The Kept-Deal Map</b><span>From marketing spend to a kept deal, in five stages.</span></a></div></section>
+
+<div class="cta"><h2>Want to know which marketing actually pays?</h2><p>Campaign ROI is the first thing the fixed-price CRM Revenue Audit (USD 1,500) checks: whether every deal carries its source, whether spend matches the books and what your kept-deal ROI really is. It's for teams already on Salesforce. On another CRM? A move to Salesforce can build this in from day one.</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Which%20campaign%20gets%20credit%20for%20the%20deal%3F%20Lead%20attribution%20for%20real...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/real-estate-lead-attribution.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Which%20campaign%20gets%20credit%20for%20the%20deal%3F%20Lead%20attribution%20for%20real...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+</div></main>
+
+
+<section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
+<img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong>. Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="salesforce-real-estate-faq.html">Salesforce FAQ</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="mailto:info@AmrMagdy.com">Email</a></div>
+</div></div></footer>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+
+<script src="booking.js" defer></script>
+</body>
+</html>

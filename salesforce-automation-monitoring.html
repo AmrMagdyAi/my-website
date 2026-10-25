@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');else if(h.indexOf('.csv')>-1||h.indexOf('.pdf')>-1)gtag('event','file_download',{file_name:h});});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Know When Salesforce Automations Fail (and Zaps)</title>
+<meta name="description" content="How investor teams catch failed Salesforce flows and Zaps: who gets error emails, the Automation app Monitor tab, Zapier auto-off, heartbeat reports and a weekly check.">
+<link rel="canonical" href="https://amrmagdy.com/salesforce-automation-monitoring.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://amrmagdy.com/salesforce-automation-monitoring.html">
+<meta property="og:title" content="Your Salesforce automations fail quietly. Here is how to find out before a seller does.">
+<meta property="og:description" content="How investor teams catch failed Salesforce flows and Zaps: who gets error emails, the Automation app Monitor tab, Zapier auto-off, heartbeat reports and a weekly check.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
+<meta property="og:site_name" content="Amr Magdy">
+<meta property="article:published_time" content="2026-10-25">
+<meta property="article:modified_time" content="2026-10-25">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Your Salesforce automations fail quietly. Here is how to find out before a seller does.">
+<meta name="twitter:description" content="How investor teams catch failed Salesforce flows and Zaps: who gets error emails, the Automation app Monitor tab, Zapier auto-off, heartbeat reports and a weekly check.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.sec2{margin-top:44px;max-width:820px}
+.sec2 h2{font-size:1.5rem;margin:34px 0 8px;scroll-margin-top:calc(var(--nav) + 16px)}
+.sec2 h3{font-size:1.08rem;margin:22px 0 6px}
+.sec2 p,.sec2 li{color:var(--txt2);line-height:1.78}
+.sec2 p{margin:8px 0}
+.sec2 ul,.sec2 ol{padding-left:1.2rem;margin:8px 0}
+.sec2 li{margin:4px 0}
+.sec2 a{color:var(--sf);text-decoration:underline;text-underline-offset:2px}
+.sec2 strong{color:var(--txt)}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:18px}
+.card h3{margin-top:0}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;border:1px solid var(--bd);border-radius:14px;background:var(--bg2)}
+.tw table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:560px}
+.tw th,.tw td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--bd);color:var(--txt2);line-height:1.55}
+.tw th{color:var(--txt);font-weight:700;background:var(--bg);position:sticky;top:0}
+.tw td:first-child{color:var(--txt);font-weight:600}
+.dl dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:12px}
+.dl dd{color:var(--txt2);line-height:1.7;margin:2px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.toc a{border:1px solid var(--bd2);border-radius:999px;padding:5px 12px;font-size:.82rem;color:var(--txt)}
+.fig{margin:18px 0;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:16px}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{font-size:.84rem;color:var(--txt3);margin-top:8px;line-height:1.6}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin:0 0 8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--bg);border:1px solid var(--bd2);color:var(--txt2);margin-right:6px}
+.warn{background:var(--bg2);border:1.5px solid var(--gold);border-left-width:6px;border-radius:14px;padding:14px 18px;margin:18px 0 0;color:var(--txt2);line-height:1.7;max-width:820px}
+.dlbox{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--bg2);border:1.5px dashed var(--gold);border-radius:16px;padding:16px 18px;margin:18px 0}
+.dlbox p{margin:0;flex:1 1 240px}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}nav .nb.nb-call{margin-left:auto!important}}
+
+.ans{background:var(--bg2);border:1px solid var(--bd);border-left:6px solid var(--sf);border-radius:14px;padding:16px 20px;margin:22px 0 0;max-width:820px}
+.ans p{margin:0;color:var(--txt2);line-height:1.75}.ans .k{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--txt3);font-weight:700;margin-bottom:4px}
+.chk{list-style:none;padding-left:0!important}.chk li{position:relative;padding-left:1.6rem}.chk li::before{content:'';position:absolute;left:0;top:.45em;width:.9rem;height:.9rem;border:1.5px solid var(--sf);border-radius:4px}
+.rel2{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:12px}
+.rel2 a{display:block;border:1px solid var(--bd);border-radius:14px;padding:14px 16px;background:var(--bg2);text-decoration:none!important;color:var(--txt)!important}
+.rel2 a b{display:block;font-size:.95rem;margin-bottom:4px}.rel2 a span{display:block;font-size:.84rem;color:var(--txt3);line-height:1.5}
+.src{font-size:.86rem}.src li{margin:6px 0}
+.ex{font-size:.86rem;color:var(--txt3);font-style:italic}
+.faqcat{margin-top:40px}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Your Salesforce automations fail quietly. Here is how to find out before a seller does.", "description": "How investor teams catch failed Salesforce flows and Zaps: who gets error emails, the Automation app Monitor tab, Zapier auto-off, heartbeat reports and a weekly check.", "url": "https://amrmagdy.com/salesforce-automation-monitoring.html", "mainEntityOfPage": "https://amrmagdy.com/salesforce-automation-monitoring.html", "inLanguage": "en-US", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-card.jpg", "about": [{"@type": "Thing", "name": "Salesforce Flow"}, {"@type": "Thing", "name": "Zapier"}, {"@type": "Thing", "name": "Automation monitoring"}, {"@type": "Thing", "name": "Real estate investing"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Who gets Salesforce flow error emails?", "acceptedAnswer": {"@type": "Answer", "text": "By default, the person who last modified the flow. You can change it in Process Automation Settings so errors go to the Apex Exception Email recipients instead, and then list who should get them under Apex Exception Email in Setup."}}, {"@type": "Question", "name": "Can flow error emails go to an address outside Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The Apex Exception Email list accepts Salesforce users and external email addresses, so you can send flow errors to a shared ops inbox."}}, {"@type": "Question", "name": "How do I see failed flows in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Open the Automation app from the app launcher and go to the Monitor tab. It lists failed and paused flow runs with the reason, and lets you debug a failed run or resume a paused one."}}, {"@type": "Question", "name": "Why did Zapier turn off my Zap?", "acceptedAnswer": {"@type": "Answer", "text": "Zapier turns a Zap off automatically if 95% of its runs in the last seven days errored. Check Zap history for the errors, fix the cause, then turn it back on and check that the runs it missed are handled."}}, {"@type": "Question", "name": "What is a heartbeat report?", "acceptedAnswer": {"@type": "Answer", "text": "A daily count of something that should always happen, like calls logged, leads created or tasks created by automation. When the count drops to zero or far below normal, something broke, even if no error was raised."}}, {"@type": "Question", "name": "How often should we check our Salesforce automations?", "acceptedAnswer": {"@type": "Answer", "text": "A 15-minute check every week (failed runs, error emails, Zap history, heartbeat numbers) and a test of the money-making paths every month: a missed call, each web form, a text reply, a deal moving to contract."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Monitoring Salesforce automations", "item": "https://amrmagdy.com/salesforce-automation-monitoring.html"}]}]}</script>
+</head>
+<body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
+  <a href="resources.html" class="nb hide-sm">Free tools</a>
+  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
+  <a href="index.html#contact" class="nb nb-call" style="margin-left:0">Book a free call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Guide · by Amr Magdy · Oct 2026</span>
+<h1>Your automations fail quietly. <em>Here's how to find out before a seller does.</em></h1>
+<p class="lead">In an investor company, automations do the work nobody remembers to do: the callback task after a missed call, the text that stops when a seller replies, the reminder about a contract nobody signed. When one of them breaks, nothing looks wrong. The CRM still opens, the dashboards still load, and leads quietly stop getting followed up. This guide is for owners and ops leads who want to know about a failure the day it happens, not a month later.</p>
+<div class="ans"><span class="k">Short answer</span><p>Send flow error emails to two people through the Apex Exception Email list, instead of the default of whoever last edited the flow. Check the Automation app's Monitor tab every week for failed and paused flow runs. Turn on Zapier's error notifications, and remember Zapier switches a Zap off by itself when 95% of its runs in the last seven days errored. Then add heartbeat reports: daily counts of things that should always happen, like calls logged and tasks created, so you notice when one drops to zero.</p></div>
+<div class="toc"><a href="#why">Why they fail</a><a href="#layers">Three kinds of failure</a><a href="#errors">Error emails</a><a href="#look">Where to look</a><a href="#silence">Heartbeat reports</a><a href="#weekly">Weekly check</a><a href="#monthly">Monthly tests</a><a href="#changes">Change log</a><a href="#faq">Questions</a></div>
+<section class="sec2">
+<h2 id="why">Why do automations break?</h2>
+<p>Almost never on their own. Something around them changes:</p>
+<ul>
+<li>Someone renames a picklist value, and the flow that checks for the old value never fires again.</li>
+<li>A new validation rule stops the flow from saving the record it's updating.</li>
+<li>The user an integration logs in as is deactivated, or their password expires.</li>
+<li>A texting or dialer vendor changes how their integration works.</li>
+<li>A Zapier plan hits its limit. At the company I work with, that's what pushed us to move Zaps into Flows.</li>
+<li>Volume jumps after a big mailer, and an automation that worked at 50 leads a day struggles at 500.</li>
+</ul>
+<p>Notice that most of these follow a change someone made on purpose. That's why a change log is part of monitoring, not paperwork.</p>
+
+<h2 id="layers">The three kinds of failure</h2>
+<div class="tw"><table>
+<thead><tr><th>Kind</th><th>Example</th><th>How you find out</th></tr></thead>
+<tbody>
+<tr><td>Loud</td><td>A flow throws an error when it runs</td><td>An error email, if it goes to someone who reads it</td></tr>
+<tr><td>Logged</td><td>A flow run fails or pauses; a Zap run errors</td><td>Only if someone looks at the logs</td></tr>
+<tr><td>Silent</td><td>The flow never fires because its conditions stopped matching</td><td>Only by noticing that something which should happen every day didn't</td></tr>
+</tbody></table></div>
+<p>If error emails are all you have, you only cover the first kind, and only when they reach someone.</p>
+
+<h2 id="errors">Who gets the error emails?</h2>
+<p>By default, when a flow fails, Salesforce emails the person who last modified that flow. In practice that's whoever built it, often a consultant who's gone or an admin who left. The errors go to an inbox nobody reads.</p>
+<p>Fix it in two places in Setup:</p>
+<ol>
+<li><strong>Process Automation Settings</strong>: set "Send Process or Flow Error Email to" to the Apex Exception Email recipients instead of the last person who modified the flow.</li>
+<li><strong>Apex Exception Email</strong> (under Email in Setup): add the people who should get them. You can add Salesforce users and outside email addresses, so a shared ops inbox works.</li>
+</ol>
+<p>Put two people on the list, so a vacation doesn't mean a week of unread failures. Do the same in Zapier and in each integration's own settings: error notifications should go to a person who's still with you and who knows what to do with them.</p>
+
+<h2 id="look">Where do you look for failures?</h2>
+<h3>Salesforce: the Automation app</h3>
+<p>Recent Salesforce releases include an Automation app, in the app launcher. Its Monitor tab lists failed and paused flow runs with the reason for each, and from there you can debug a failed run or resume a paused one. Check it weekly. A run that failed on Tuesday is a seller who didn't get a task on Tuesday.</p>
+<h3>Zapier: Zap history</h3>
+<p>Errored runs show up in Zap history. Zapier also turns a Zap off automatically if 95% of its runs in the last seven days errored. That protects your account, but it means a Zap that's been failing for a week can simply stop, and the leads it was supposed to create stop with it. Whether you get an email depends on your notification settings, so check them.</p>
+<h3>Your integrations</h3>
+<p>Dialer, texting, DocuSign and accounting integrations usually have their own sync logs or error pages. Know where each one is, and look at them when a heartbeat number drops.</p>
+
+<h2 id="silence">How do you catch the silent failures?</h2>
+<p>With heartbeat reports: daily counts of things that should always happen in a working day. If one drops to zero, or far below normal, something broke even if no error was raised.</p>
+<div class="tw"><table>
+<thead><tr><th>Heartbeat</th><th>What a drop usually means</th></tr></thead>
+<tbody>
+<tr><td>New leads yesterday, by source</td><td>A form, number or integration stopped creating leads</td></tr>
+<tr><td>Calls logged yesterday</td><td>The dialer sync stopped</td></tr>
+<tr><td>Tasks created by automation yesterday</td><td>A follow-up flow stopped firing</td></tr>
+<tr><td>Missed-call alerts sent yesterday</td><td>The alert broke, or nobody missed a call (rare)</td></tr>
+<tr><td>Texts sent, and cadences stopped by a reply</td><td>The texting integration or the stop rule broke</td></tr>
+<tr><td>Deals that changed stage this week</td><td>Stage updates from DocuSign or the team stopped</td></tr>
+</tbody></table></div>
+<p>Put them on one dashboard, or better, post them to a Slack channel every morning so people see them without opening Salesforce. Daily numbers in Slack are part of the setup I run, and a zero in the morning post is hard to miss.</p>
+
+<h2 id="weekly">The 15-minute weekly check</h2>
+<ul class="chk">
+<li>Automation app, Monitor tab: any failed or paused runs this week?</li>
+<li>Flow error emails: anything new in the shared inbox?</li>
+<li>Zap history: any errored runs, and are all the Zaps that should be on still on?</li>
+<li>Heartbeat dashboard: anything at zero or far below normal?</li>
+<li>Integration sync logs: dialer, texting, DocuSign, accounting</li>
+<li>Leads with no owner or owned by inactive users: zero?</li>
+<li>Change log: what changed this week, and did anything break after it?</li>
+</ul>
+
+<h2 id="monthly">The monthly tests</h2>
+<p>Once a month, walk the paths that make money and watch each automation fire:</p>
+<ol>
+<li>Call a marketing number and let it ring out. Did the lead, the alert and the callback task appear?</li>
+<li>Submit each web form. Right source, market and owner?</li>
+<li>Reply to an automated text from a test number. Did the cadence stop?</li>
+<li>Move a test deal to under contract. Did the transaction tasks appear?</li>
+<li>Send a test DocuSign envelope and leave it unsigned. Did the reminder fire?</li>
+<li>Set up a test user the way you would a new rep. Does assignment pick them up?</li>
+</ol>
+<p>Delete the test records afterwards. It should take under an hour, and it's the only way to be sure the silent failures aren't happening.</p>
+<p>If a notification misfires and you need to stop it fast, it helps when ops can switch it off without editing the automation. I build that with a <a href="blog-salesforce-configuration-object-real-estate.html">configuration object</a>, a settings record that turns individual notifications and rules on or off.</p>
+
+<h2 id="changes">Keep a change log</h2>
+<p>Every change to an automation, field, picklist or integration gets one line: date, what changed, why and who asked. When a heartbeat drops, the first question is "what changed?", and the log answers it in seconds.</p>
+<p>Salesforce keeps its own record of setup changes in the Setup Audit Trail, but only for 180 days. Download it regularly if you want the history.</p>
+<p>Monthly monitoring with a short written report is part of what I do on <a href="index.html#services">Ongoing Support &amp; Development</a>: what failed, what was fixed, what was tested and what changed.</p>
+</section>
+<section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>Who gets Salesforce flow error emails?</h3><p>By default, the person who last modified the flow. You can change it in Process Automation Settings so errors go to the Apex Exception Email recipients instead, and then list who should get them under Apex Exception Email in Setup.</p></div><div class="cq"><h3>Can flow error emails go to an address outside Salesforce?</h3><p>Yes. The Apex Exception Email list accepts Salesforce users and external email addresses, so you can send flow errors to a shared ops inbox.</p></div><div class="cq"><h3>How do I see failed flows in Salesforce?</h3><p>Open the Automation app from the app launcher and go to the Monitor tab. It lists failed and paused flow runs with the reason, and lets you debug a failed run or resume a paused one.</p></div><div class="cq"><h3>Why did Zapier turn off my Zap?</h3><p>Zapier turns a Zap off automatically if 95% of its runs in the last seven days errored. Check Zap history for the errors, fix the cause, then turn it back on and check that the runs it missed are handled.</p></div><div class="cq"><h3>What is a heartbeat report?</h3><p>A daily count of something that should always happen, like calls logged, leads created or tasks created by automation. When the count drops to zero or far below normal, something broke, even if no error was raised.</p></div><div class="cq"><h3>How often should we check our Salesforce automations?</h3><p>A 15-minute check every week (failed runs, error emails, Zap history, heartbeat numbers) and a test of the money-making paths every month: a missed call, each web form, a text reply, a deal moving to contract.</p></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="salesforce-admin-left.html"><b>Your admin just left</b><span>What runs under their name, including error emails.</span></a><a href="blog-migrate-zapier-to-salesforce-real-estate.html"><b>Moving Zapier to Salesforce</b><span>When to move Zaps into Flows.</span></a><a href="salesforce-automation-recipes-wholesalers.html"><b>Automation recipes</b><span>The automations most wholesaling teams run.</span></a><a href="blog-salesforce-configuration-object-real-estate.html"><b>The configuration object</b><span>Let ops switch notifications on and off without an admin.</span></a><a href="missed-call-alerts-salesforce.html"><b>Missed-call alerts</b><span>The automation that most needs monitoring.</span></a><a href="salesforce-real-estate-faq.html"><b>Salesforce for investors: 50 questions</b><span>Straight answers on cost, setup, moving and admin.</span></a></div></section>
+<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.</p><ol class="src"><li><a href="https://automationchampion.com/2022/01/20/how-to-designate-a-recipient-to-receive-error-emails/" rel="noopener" target="_blank">Automation Champion: who receives flow error emails</a>. Process Automation Settings and the Apex Exception Email list</li><li><a href="https://milestone.tech/salesforce-blog/salesforce-spring-25-release-key-updates-in-a-flash/" rel="noopener" target="_blank">Milestone: Spring '25 release notes</a>. The Automation app and its Monitor tab</li><li><a href="https://docs.zapier.com/platform/manage/error-handling" rel="noopener" target="_blank">Zapier: error handling</a>. Zap history, notifications, and the automatic turn-off at a 95% error ratio over seven days</li><li><a href="https://gearset.com/blog/salesforce-audit-trail/" rel="noopener" target="_blank">Gearset: Salesforce audit trail</a>. 180 days of setup history</li></ol></section>
+<div class="cta"><h2>Want someone watching your automations?</h2><p>Ongoing Support &amp; Development includes monthly monitoring and a written report, plus fixes when something breaks, with no long-term contract. Not sure what's running in your org today? The fixed-price CRM Revenue Audit (USD 1,500) checks what's running, what fails quietly and what overlaps, for teams already on Salesforce.</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Your%20automations%20fail%20quietly.%20Here%27s%20how%20to%20find%20out%20before%20a...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/salesforce-automation-monitoring.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Your%20automations%20fail%20quietly.%20Here%27s%20how%20to%20find%20out%20before%20a...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+</div></main>
+
+
+<section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
+<img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong>. Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="salesforce-real-estate-faq.html">Salesforce FAQ</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="mailto:info@AmrMagdy.com">Email</a></div>
+</div></div></footer>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+
+<script src="booking.js" defer></script>
+</body>
+</html>
