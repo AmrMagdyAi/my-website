@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script src="assets/consent.js" defer></script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');else if(h.indexOf('.csv')>-1||h.indexOf('.pdf')>-1)gtag('event','file_download',{file_name:h});});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salesforce Dashboard Numbers Wrong? 10 Causes and a Fix</title>
+<meta name="description" content="Why Salesforce dashboards and reports show different numbers, or don&#x27;t match QuickBooks: 10 causes in investor orgs, how to check each, and a 20-minute reconciliation.">
+<link rel="canonical" href="https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html">
+<meta property="og:title" content="Your Salesforce dashboard and your bank account disagree. Here&#x27;s why.">
+<meta property="og:description" content="Why Salesforce dashboards and reports show different numbers, or don&#x27;t match QuickBooks: 10 causes in investor orgs, how to check each, and a 20-minute reconciliation.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
+<meta property="og:site_name" content="Amr Magdy">
+<meta property="article:published_time" content="2026-10-25">
+<meta property="article:modified_time" content="2026-10-25">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Your Salesforce dashboard and your bank account disagree. Here&#x27;s why.">
+<meta name="twitter:description" content="Why Salesforce dashboards and reports show different numbers, or don&#x27;t match QuickBooks: 10 causes in investor orgs, how to check each, and a 20-minute reconciliation.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.sec2{margin-top:44px;max-width:820px}
+.sec2 h2{font-size:1.5rem;margin:34px 0 8px;scroll-margin-top:calc(var(--nav) + 16px)}
+.sec2 h3{font-size:1.08rem;margin:22px 0 6px}
+.sec2 p,.sec2 li{color:var(--txt2);line-height:1.78}
+.sec2 p{margin:8px 0}
+.sec2 ul,.sec2 ol{padding-left:1.2rem;margin:8px 0}
+.sec2 li{margin:4px 0}
+.sec2 a{color:var(--sf);text-decoration:underline;text-underline-offset:2px}
+.sec2 strong{color:var(--txt)}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:18px}
+.card h3{margin-top:0}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;border:1px solid var(--bd);border-radius:14px;background:var(--bg2)}
+.tw table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:560px}
+.tw th,.tw td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--bd);color:var(--txt2);line-height:1.55}
+.tw th{color:var(--txt);font-weight:700;background:var(--bg);position:sticky;top:0}
+.tw td:first-child{color:var(--txt);font-weight:600}
+.dl dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:12px}
+.dl dd{color:var(--txt2);line-height:1.7;margin:2px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.toc a{border:1px solid var(--bd2);border-radius:999px;padding:5px 12px;font-size:.82rem;color:var(--txt)}
+.fig{margin:18px 0;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:16px}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{font-size:.84rem;color:var(--txt3);margin-top:8px;line-height:1.6}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin:0 0 8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--bg);border:1px solid var(--bd2);color:var(--txt2);margin-right:6px}
+.warn{background:var(--bg2);border:1.5px solid var(--gold);border-left-width:6px;border-radius:14px;padding:14px 18px;margin:18px 0 0;color:var(--txt2);line-height:1.7;max-width:820px}
+.dlbox{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--bg2);border:1.5px dashed var(--gold);border-radius:16px;padding:16px 18px;margin:18px 0}
+.dlbox p{margin:0;flex:1 1 240px}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}nav .nb.nb-call{margin-left:auto!important}}
+
+.ans{background:var(--bg2);border:1px solid var(--bd);border-left:6px solid var(--sf);border-radius:14px;padding:16px 20px;margin:22px 0 0;max-width:820px}
+.ans p{margin:0;color:var(--txt2);line-height:1.75}.ans .k{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--txt3);font-weight:700;margin-bottom:4px}
+.chk{list-style:none;padding-left:0!important}.chk li{position:relative;padding-left:1.6rem}.chk li::before{content:'';position:absolute;left:0;top:.45em;width:.9rem;height:.9rem;border:1.5px solid var(--sf);border-radius:4px}
+.rel2{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:12px}
+.rel2 a{display:block;border:1px solid var(--bd);border-radius:14px;padding:14px 16px;background:var(--bg2);text-decoration:none!important;color:var(--txt)!important}
+.rel2 a b{display:block;font-size:.95rem;margin-bottom:4px}.rel2 a span{display:block;font-size:.84rem;color:var(--txt3);line-height:1.5}
+.src{font-size:.86rem}.src li{margin:6px 0}
+.ex{font-size:.86rem;color:var(--txt3);font-style:italic}
+.faqcat{margin-top:40px}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Your Salesforce dashboard and your bank account disagree. Here's why.", "description": "Why Salesforce dashboards and reports show different numbers, or don't match QuickBooks: 10 causes in investor orgs, how to check each, and a 20-minute reconciliation.", "url": "https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html", "mainEntityOfPage": "https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html", "inLanguage": "en-US", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-card.jpg", "about": [{"@type": "Thing", "name": "Salesforce reports and dashboards"}, {"@type": "Thing", "name": "Data quality"}, {"@type": "Thing", "name": "Real estate investing"}, {"@type": "Thing", "name": "Marketing ROI"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why doesn't my Salesforce dashboard match the report?", "acceptedAnswer": {"@type": "Answer", "text": "The usual reasons are that the dashboard hasn't been refreshed since the data changed, it runs as a user who can't see all the records, a chart is set to show only the top values, or the dashboard component uses a different report or filter than the one you're comparing it with."}}, {"@type": "Question", "name": "What is the running user on a Salesforce dashboard?", "acceptedAnswer": {"@type": "Answer", "text": "It's the user whose access decides what data the dashboard shows. Folders control who can open the dashboard, but the running user determines which records are counted. Pick a running user who can see everything the dashboard is meant to count."}}, {"@type": "Question", "name": "Why is my Salesforce report missing records?", "acceptedAnswer": {"@type": "Answer", "text": "Check the report type first: some custom report types only include records that have at least one related record. Then check the filters, the scope (my records or all records) and whether the running user can see the records."}}, {"@type": "Question", "name": "Why does lead source show as blank on deals in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Standard fields like Lead Source carry over when a lead is converted, but custom fields such as market, campaign or tracking number only carry over if someone maps them to fields on the deal. Map them, then fix past records with a one-time update."}}, {"@type": "Question", "name": "How many dynamic dashboards can I have in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "According to Salesforce's dynamic dashboards cheat sheet, Enterprise Edition allows 5, Unlimited and Performance allow 10, and Developer Edition allows 3."}}, {"@type": "Question", "name": "How do I make Salesforce match QuickBooks?", "acceptedAnswer": {"@type": "Answer", "text": "Record marketing spend per campaign per month from the accounting records, split by market the same way in both systems, count contracts and closings by agreed dates, and reconcile one month at a time, listing every deal that appears in one place but not the other."}}, {"@type": "Question", "name": "How often should we reconcile Salesforce numbers?", "acceptedAnswer": {"@type": "Answer", "text": "Monthly for contracts, closings and marketing spend, and weekly for a quick look at records with no lead source or market. Once the monthly check comes back clean a few times in a row, the owner starts trusting the dashboard."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Salesforce numbers that don't match", "item": "https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html"}]}]}</script>
+</head>
+<body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
+  <a href="resources.html" class="nb hide-sm">Free tools</a>
+  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
+  <a href="index.html#contact" class="nb nb-call" style="margin-left:0">Book a free call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Guide · by Amr Magdy · Oct 2026</span>
+<h1>Your Salesforce dashboard and your bank account disagree. <em>Here's why.</em></h1>
+<p class="lead">Every owner I talk to has a version of this: the dashboard says cost per contract is fine, but the money doesn't feel that way. Or the report says 14 contracts last month, the acquisitions manager says 17 and the title company closed 11. This page is for owners and ops leads at home-buying and wholesaling companies who want numbers they can make decisions on. It covers the ten causes I see most in investor orgs, how to check each one, and a 20-minute check you can run this week.</p>
+<div class="ans"><span class="k">Short answer</span><p>Most mismatches come from a handful of causes: lead source and market not carried over when a lead becomes a deal, reports counting by different date fields, report types that leave records out, dashboards running as a user who can't see everything or showing data from the last refresh, and spend in Salesforce that doesn't match what accounting paid. Fix the definitions first (what counts as a contract, and by which date), then reconcile one month against your books, record by record.</p></div>
+<div class="toc"><a href="#causes">10 causes</a><a href="#check">The 20-minute check</a><a href="#definitions">Write the definitions</a><a href="#prevent">Stop it happening again</a><a href="#faq">Questions</a></div>
+<section class="sec2">
+<h2 id="causes">Ten reasons your Salesforce numbers don't match</h2>
+<p>Starting with the ones I'd check first.</p>
+
+<h3>1. Source and market get lost when a lead becomes a deal</h3>
+<p>When a lead is converted, Salesforce copies standard fields like Lead Source to the new records automatically. Custom fields don't carry over unless someone maps them. If your market, campaign, channel or tracking number live in custom fields, the deal can arrive with them blank, and your "unknown" bucket grows every month.</p>
+<p><strong>Check:</strong> run a report of deals created last month grouped by source and market. If "blank" or "unknown" is more than a sliver, this is your problem.<br><strong>Fix:</strong> map the custom lead fields to the matching deal fields in the lead field mapping settings, then fix the past records with a one-time update.</p>
+
+<h3>2. Two reports count by different dates</h3>
+<p>"Contracts this month" can mean deals created this month, deals that reached the contract stage this month, or contracts signed this month. Three reports, three answers, all technically right.</p>
+<p><strong>Check:</strong> open each report and look at which date field the time filter uses.<br><strong>Fix:</strong> agree on one date per number (contracts by contract signed date, closings by closing date) and use it everywhere. See <a href="#definitions">the definitions below</a>.</p>
+
+<h3>3. The report type leaves records out</h3>
+<p>A custom report type can be set so that each record must have at least one related record, or so that related records are optional. If a "Leads with Activities" style report requires activities, every lead nobody has touched yet disappears from it, which is exactly the lead you most want to see.</p>
+<p><strong>Check:</strong> look at the report type's settings for the "at least one related record" option.<br><strong>Fix:</strong> use a type where related records are optional. To find records missing something, use a cross filter such as "Accounts without Opportunities". A report can have up to three cross filters.</p>
+
+<h3>4. The dashboard runs as someone else</h3>
+<p>Salesforce's own rule: folders control who can open a dashboard, but the running user determines what data it shows. If the dashboard runs as a rep, it may only count that rep's records. If it runs as an admin, everyone sees everyone's numbers, which may not be what you want either.</p>
+<p><strong>Check:</strong> the "view dashboard as" setting on the dashboard.<br><strong>Fix:</strong> pick a running user who can see all the records the dashboard is meant to count. Dynamic dashboards, which show each viewer their own data, are limited by edition: 5 in Enterprise and 10 in Unlimited and Performance.</p>
+
+<h3>5. The dashboard hasn't refreshed</h3>
+<p>A report shows live data when you open it. A dashboard shows data as of its last refresh, and the time is printed at the top. On a Monday morning, last Friday's dashboard and today's report won't agree.</p>
+<p><strong>Fix:</strong> refresh before you read it, or schedule a refresh before your weekly meeting.</p>
+
+<h3>6. Filters and scope</h3>
+<p>One report shows "my leads", another shows "all leads". One excludes dead leads, the other doesn't. Someone added a filter months ago to answer a one-off question and never took it out.</p>
+<p><strong>Fix:</strong> open the filter panel on both reports and compare them line by line. Rename reports so the scope is in the name.</p>
+
+<h3>7. Duplicates</h3>
+<p>The same seller as two leads, or the same deal entered twice, inflates lead counts and makes cost per lead look better than it is. It's common: in a 2025 Validity survey, 76% of CRM users said less than half their CRM data was accurate (more in my <a href="real-estate-lead-response-statistics.html">lead response statistics</a>).</p>
+<p><strong>Fix:</strong> matching and duplicate rules on phone, email and property address, and a regular merge routine. I go deeper in <a href="salesforce-duplicate-sellers.html">duplicate sellers in Salesforce</a>.</p>
+
+<h3>8. The chart only shows the top values</h3>
+<p>Dashboard components can be set to show a maximum number of values. The report lists all 23 lead sources, the chart shows the top 10, and the small ones vanish from the picture.</p>
+<p><strong>Fix:</strong> check the component's display settings, or group small sources into an "other" bucket on purpose.</p>
+
+<h3>9. New sources never made it into the groupings</h3>
+<p>Bucket fields and picklists group your sources into channels like direct mail, PPC and cold calling. When marketing adds a new source and nobody updates the bucket, it lands in "other" or goes missing from the channel totals.</p>
+<p><strong>Fix:</strong> make "update the buckets and picklists" part of adding any new lead source or tracking number.</p>
+
+<h3>10. Spend doesn't match what accounting paid</h3>
+<p>This one is behind most "the dashboard says we're profitable" conversations. Spend in Salesforce was typed in by hand, a mailer was prepaid for three drops but recorded in one month, a refund from a lead vendor never made it back, or PPC spend was entered as budgeted rather than actual.</p>
+<p><strong>Fix:</strong> record spend per campaign per month from the accounting records, not from memory, and check the total against your books every month. Campaign ROI checked against the books is part of what I built for the company I work with, and it's the step that makes the owner believe the dashboard.</p>
+
+<h2 id="check">The 20-minute check</h2>
+<p>Pick last month and do this with whoever runs your Salesforce, with QuickBooks or your closing list open next to it.</p>
+<ol>
+<li><strong>Contracts.</strong> Count contracts signed last month in Salesforce, by contract signed date. Count them in your own list. Write both numbers down.</li>
+<li><strong>Closings.</strong> Do the same for closings, by closing date, against what title actually closed and what hit the bank.</li>
+<li><strong>List the differences.</strong> For every deal that's on one list but not the other, find out why: wrong date, wrong stage, duplicate, deleted, never entered.</li>
+<li><strong>Source on every contract.</strong> Check that each of last month's contracts has a lead source and a market. Count the blanks.</li>
+<li><strong>Spend.</strong> Compare total marketing spend in Salesforce for last month with the marketing lines in your books. If they differ by more than a rounding error, cost per contract is wrong too.</li>
+<li><strong>Dashboard settings.</strong> On the owner's dashboard, check the running user, the last refresh time and each chart's maximum values.</li>
+</ol>
+<p>Whatever you find in step 3 is your fix list. Don't expect all ten causes. Fix whichever ones the check turns up.</p>
+
+<h2 id="definitions">Write the definitions down</h2>
+<p>Half of the arguments about numbers are really arguments about words. Write one line for each number and put it at the top of the dashboard:</p>
+<div class="tw"><table>
+<thead><tr><th>Number</th><th>Counted when</th><th>By which date</th></tr></thead>
+<tbody>
+<tr><td>Lead</td><td>A seller record is created from a marketing source (not a duplicate)</td><td>Created date</td></tr>
+<tr><td>Contact made</td><td>A two-way conversation happened, logged as a call or text with an outcome</td><td>Activity date</td></tr>
+<tr><td>Appointment</td><td>A meeting or walkthrough is set with the seller</td><td>Appointment date</td></tr>
+<tr><td>Offer</td><td>A number was given to the seller and recorded on the deal</td><td>Offer date</td></tr>
+<tr><td>Contract</td><td>The seller signed the purchase agreement</td><td>Contract signed date</td></tr>
+<tr><td>Closed</td><td>Funds received from the closing or assignment</td><td>Closing date</td></tr>
+<tr><td>Cost per contract</td><td>Marketing spend in the period divided by contracts in the period</td><td>Spend month and contract signed date</td></tr>
+<tr><td>Net profit per deal</td><td>Revenue minus the deal's direct costs, including its share of marketing</td><td>Closing date</td></tr>
+</tbody></table></div>
+<p>Your definitions may differ. That's fine, as long as everyone uses the same ones. The <a href="monday-5-real-estate-kpis.html">Monday 5</a> builds on definitions like these to give an owner five numbers to check every week.</p>
+
+<h2 id="prevent">How to stop it happening again</h2>
+<ul>
+<li><strong>One owner for the numbers.</strong> Someone whose job includes the monthly reconciliation.</li>
+<li><strong>A monthly reconciliation</strong> of contracts, closings and spend against the books, using the check above.</li>
+<li><strong>A "missing source" report</strong> that should always be empty, checked weekly.</li>
+<li><strong>A rule for new lead sources:</strong> picklist, bucket, field mapping and tracking number all updated before the campaign goes live.</li>
+<li><strong>Fewer reports.</strong> Twelve reports that answer the same question twelve slightly different ways is how teams stop trusting all of them. Keep the ones the owner reads and archive the rest.</li>
+</ul>
+</section>
+<section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>Why doesn't my Salesforce dashboard match the report?</h3><p>The usual reasons are that the dashboard hasn't been refreshed since the data changed, it runs as a user who can't see all the records, a chart is set to show only the top values, or the dashboard component uses a different report or filter than the one you're comparing it with.</p></div><div class="cq"><h3>What is the running user on a Salesforce dashboard?</h3><p>It's the user whose access decides what data the dashboard shows. Folders control who can open the dashboard, but the running user determines which records are counted. Pick a running user who can see everything the dashboard is meant to count.</p></div><div class="cq"><h3>Why is my Salesforce report missing records?</h3><p>Check the report type first: some custom report types only include records that have at least one related record. Then check the filters, the scope (my records or all records) and whether the running user can see the records.</p></div><div class="cq"><h3>Why does lead source show as blank on deals in Salesforce?</h3><p>Standard fields like Lead Source carry over when a lead is converted, but custom fields such as market, campaign or tracking number only carry over if someone maps them to fields on the deal. Map them, then fix past records with a one-time update.</p></div><div class="cq"><h3>How many dynamic dashboards can I have in Salesforce?</h3><p>According to Salesforce's dynamic dashboards cheat sheet, Enterprise Edition allows 5, Unlimited and Performance allow 10, and Developer Edition allows 3.</p></div><div class="cq"><h3>How do I make Salesforce match QuickBooks?</h3><p>Record marketing spend per campaign per month from the accounting records, split by market the same way in both systems, count contracts and closings by agreed dates, and reconcile one month at a time, listing every deal that appears in one place but not the other.</p></div><div class="cq"><h3>How often should we reconcile Salesforce numbers?</h3><p>Monthly for contracts, closings and marketing spend, and weekly for a quick look at records with no lead source or market. Once the monthly check comes back clean a few times in a row, the owner starts trusting the dashboard.</p></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="monday-5-real-estate-kpis.html"><b>The Monday 5</b><span>The five numbers an owner should see every week.</span></a><a href="salesforce-reports-wholesalers.html"><b>Salesforce reports for wholesalers</b><span>The reports worth building, and how.</span></a><a href="blog-salesforce-real-estate-pipeline-dashboard.html"><b>Pipeline dashboard</b><span>A pipeline dashboard for an investor team.</span></a><a href="real-estate-lead-attribution.html"><b>Which campaign gets credit?</b><span>Lead attribution for investor marketing.</span></a><a href="blog-salesforce-financial-analytics-real-estate.html"><b>Financial analytics in Salesforce</b><span>Profit per deal and campaign ROI.</span></a><a href="salesforce-real-estate-faq.html"><b>Salesforce for investors: 50 questions</b><span>Straight answers on cost, setup, moving and admin.</span></a></div></section>
+<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.</p><ol class="src"><li><a href="https://resources.docs.salesforce.com/216/latest/en-us/sfdc/pdf/salesforce_dynamic_dashboards_cheatsheet.pdf" rel="noopener" target="_blank">Salesforce: Dynamic dashboards cheat sheet (PDF)</a>. Running user and data access, dynamic dashboard limits by edition</li><li><a href="https://www.salesforceben.com/features-custom-report-types/" rel="noopener" target="_blank">Salesforce Ben: custom report types</a>. Required vs optional related records</li><li><a href="https://www.salesforceben.com/what-are-cross-filters-in-salesforce-reporting/" rel="noopener" target="_blank">Salesforce Ben: cross filters in Salesforce reporting</a>. With and without filters, up to three per report</li><li><a href="real-estate-lead-response-statistics.html">Speed to lead and follow-up statistics for real estate (this site)</a>. Validity 2025 CRM data accuracy figure, with its source</li></ol></section>
+<div class="cta"><h2>Want numbers you can make decisions on?</h2><p>The fixed-price CRM Revenue Audit (USD 1,500) checks your campaign ROI, reports and data against how your business actually runs, and ends with a written fix plan and a Monday 5 dashboard spec. It's for teams already on Salesforce. Not sure if it fits? Start with a free call.</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Your%20Salesforce%20dashboard%20and%20your%20bank%20account%20disagree.%20Here%27s%20why&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/salesforce-dashboard-wrong-numbers.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Your%20Salesforce%20dashboard%20and%20your%20bank%20account%20disagree.%20Here%27s%20why%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+</div></main>
+
+
+<section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
+<img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong>. Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="salesforce-real-estate-faq.html">Salesforce FAQ</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="mailto:info@AmrMagdy.com">Email</a><a href="privacy.html">Privacy</a></div>
+</div></div></footer>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+
+<script src="booking.js" defer></script>
+</body>
+</html>

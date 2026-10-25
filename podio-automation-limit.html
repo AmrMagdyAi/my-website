@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script src="assets/consent.js" defer></script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');else if(h.indexOf('.csv')>-1||h.indexOf('.pdf')>-1)gtag('event','file_download',{file_name:h});});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Podio&#x27;s 25,000 Automation Limit: What Wholesalers Can Do</title>
+<meta name="description" content="Since Sept 1, 2026, Podio Workflow Automation includes 25,000 actions a month. What counts, what happens at the cap, add-on rules, and how to decide: trim, top up or move.">
+<link rel="canonical" href="https://amrmagdy.com/podio-automation-limit.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://amrmagdy.com/podio-automation-limit.html">
+<meta property="og:title" content="Podio&#x27;s new automation limit: what it means for wholesaling teams">
+<meta property="og:description" content="Since Sept 1, 2026, Podio Workflow Automation includes 25,000 actions a month. What counts, what happens at the cap, add-on rules, and how to decide: trim, top up or move.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
+<meta property="og:site_name" content="Amr Magdy">
+<meta property="article:published_time" content="2026-10-25">
+<meta property="article:modified_time" content="2026-10-25">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Podio&#x27;s new automation limit: what it means for wholesaling teams">
+<meta name="twitter:description" content="Since Sept 1, 2026, Podio Workflow Automation includes 25,000 actions a month. What counts, what happens at the cap, add-on rules, and how to decide: trim, top up or move.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.sec2{margin-top:44px;max-width:820px}
+.sec2 h2{font-size:1.5rem;margin:34px 0 8px;scroll-margin-top:calc(var(--nav) + 16px)}
+.sec2 h3{font-size:1.08rem;margin:22px 0 6px}
+.sec2 p,.sec2 li{color:var(--txt2);line-height:1.78}
+.sec2 p{margin:8px 0}
+.sec2 ul,.sec2 ol{padding-left:1.2rem;margin:8px 0}
+.sec2 li{margin:4px 0}
+.sec2 a{color:var(--sf);text-decoration:underline;text-underline-offset:2px}
+.sec2 strong{color:var(--txt)}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:18px}
+.card h3{margin-top:0}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;border:1px solid var(--bd);border-radius:14px;background:var(--bg2)}
+.tw table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:560px}
+.tw th,.tw td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--bd);color:var(--txt2);line-height:1.55}
+.tw th{color:var(--txt);font-weight:700;background:var(--bg);position:sticky;top:0}
+.tw td:first-child{color:var(--txt);font-weight:600}
+.dl dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:12px}
+.dl dd{color:var(--txt2);line-height:1.7;margin:2px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.toc a{border:1px solid var(--bd2);border-radius:999px;padding:5px 12px;font-size:.82rem;color:var(--txt)}
+.fig{margin:18px 0;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:16px}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{font-size:.84rem;color:var(--txt3);margin-top:8px;line-height:1.6}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin:0 0 8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--bg);border:1px solid var(--bd2);color:var(--txt2);margin-right:6px}
+.warn{background:var(--bg2);border:1.5px solid var(--gold);border-left-width:6px;border-radius:14px;padding:14px 18px;margin:18px 0 0;color:var(--txt2);line-height:1.7;max-width:820px}
+.dlbox{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--bg2);border:1.5px dashed var(--gold);border-radius:16px;padding:16px 18px;margin:18px 0}
+.dlbox p{margin:0;flex:1 1 240px}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}nav .nb.nb-call{margin-left:auto!important}}
+
+.ans{background:var(--bg2);border:1px solid var(--bd);border-left:6px solid var(--sf);border-radius:14px;padding:16px 20px;margin:22px 0 0;max-width:820px}
+.ans p{margin:0;color:var(--txt2);line-height:1.75}.ans .k{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--txt3);font-weight:700;margin-bottom:4px}
+.chk{list-style:none;padding-left:0!important}.chk li{position:relative;padding-left:1.6rem}.chk li::before{content:'';position:absolute;left:0;top:.45em;width:.9rem;height:.9rem;border:1.5px solid var(--sf);border-radius:4px}
+.rel2{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:12px}
+.rel2 a{display:block;border:1px solid var(--bd);border-radius:14px;padding:14px 16px;background:var(--bg2);text-decoration:none!important;color:var(--txt)!important}
+.rel2 a b{display:block;font-size:.95rem;margin-bottom:4px}.rel2 a span{display:block;font-size:.84rem;color:var(--txt3);line-height:1.5}
+.src{font-size:.86rem}.src li{margin:6px 0}
+.ex{font-size:.86rem;color:var(--txt3);font-style:italic}
+.faqcat{margin-top:40px}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Podio's new automation limit: what it means for wholesaling teams", "description": "Since Sept 1, 2026, Podio Workflow Automation includes 25,000 actions a month. What counts, what happens at the cap, add-on rules, and how to decide: trim, top up or move.", "url": "https://amrmagdy.com/podio-automation-limit.html", "mainEntityOfPage": "https://amrmagdy.com/podio-automation-limit.html", "inLanguage": "en-US", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-card.jpg", "about": [{"@type": "Thing", "name": "Podio"}, {"@type": "Thing", "name": "Podio Workflow Automation"}, {"@type": "Thing", "name": "Wholesaling real estate"}, {"@type": "Thing", "name": "CRM migration"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is Podio's automation limit?", "acceptedAnswer": {"@type": "Answer", "text": "Since September 1, 2026, Podio Workflow Automation includes a base of 25,000 actions a month. Extra capacity is sold as add-ons, which are available only on the Premium plan."}}, {"@type": "Question", "name": "When did the Podio usage limits start?", "acceptedAnswer": {"@type": "Answer", "text": "Podio notified customers and started a grace period on July 1, 2026, put add-ons on sale on August 1, 2026, and applied the new limits to existing customers on September 1, 2026."}}, {"@type": "Question", "name": "What happens when we go over Podio's automation limit?", "acceptedAnswer": {"@type": "Answer", "text": "There are no automatic overage charges. Podio says activity above your included or purchased capacity may be limited or fail until capacity becomes available again or you buy an add-on. For a wholesaler, that can mean new leads that don't get assigned, tasked or texted."}}, {"@type": "Question", "name": "Can we buy more Workflow Automation actions on Podio Plus?", "acceptedAnswer": {"@type": "Answer", "text": "No. Workflow Automation add-ons are available only on Podio Premium. API add-ons are available on Plus and Premium."}}, {"@type": "Question", "name": "Are Podio add-ons refundable?", "acceptedAnswer": {"@type": "Answer", "text": "Podio says add-ons are prepaid and should be treated as non-refundable. They bill on the same cycle as your plan, mid-cycle purchases are prorated, and a cancellation takes effect at the end of the billing cycle."}}, {"@type": "Question", "name": "Do Zapier and Make count against Podio's 25,000 actions?", "acceptedAnswer": {"@type": "Answer", "text": "Zapier and Make connect through Podio's API, which has its own limits that didn't change: 250 resource-intensive calls an hour and 1,000 other calls an hour, on a rolling hour. API add-ons are available on Plus and Premium."}}, {"@type": "Question", "name": "How do I check my Podio automation usage?", "acceptedAnswer": {"@type": "Answer", "text": "Workflow Automation usage is on the Workflow Automation Account Details page, and API usage is on the API Keys Settings page. Podio says alerts for contract owners, admins and automation account owners are planned."}}, {"@type": "Question", "name": "What uses up Podio automation actions fastest?", "acceptedAnswer": {"@type": "Answer", "text": "Flows that loop over many items, flows that process many items at once, and database syncs, because they can count once per item. A nightly flow that touches every open lead can use more actions in a month than all your new-lead automations combined."}}, {"@type": "Question", "name": "Should we leave Podio because of the new limits?", "acceptedAnswer": {"@type": "Answer", "text": "Not automatically. If you're under the cap, or can get under it by redesigning scheduled flows, stay. If you're over every month, have 10 or more people and can't get the reporting you need, it's a good time to plan a move."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Podio's automation limit", "item": "https://amrmagdy.com/podio-automation-limit.html"}]}]}</script>
+</head>
+<body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
+  <a href="resources.html" class="nb hide-sm">Free tools</a>
+  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
+  <a href="index.html#contact" class="nb nb-call" style="margin-left:0">Book a free call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Guide · by Amr Magdy · Oct 2026</span>
+<h1>Podio's new automation limit: <em>what it means for a wholesaling team</em></h1>
+<p class="lead">A lot of wholesaling companies run on Podio, and most of the work in those setups is done by Podio Workflow Automation, the tool many teams still call Globiflow. Since September 1, 2026, that automation comes with a monthly allowance. If your Podio was built by a template vendor or a consultant a few years ago, you may not know how close you are to it. This page explains what changed, what counts, what happens when you hit the cap and how to decide what to do.</p>
+<div class="ans"><span class="k">Short answer</span><p>Podio now includes <strong>25,000 Workflow Automation actions a month</strong>. Extra capacity comes in prepaid, non-refundable add-ons, only on the Premium plan. There are no automatic overage charges: once you're over, automations above your capacity may be limited or fail until capacity frees up or you buy more. The flows that burn through the allowance are usually the ones that loop over many items or sync databases, not the ones that run once per new lead. Check your usage on the Workflow Automation Account Details page before you decide anything.</p></div>
+<div class="toc"><a href="#changed">What changed</a><a href="#counts">What counts as an action</a><a href="#example">A made-up example</a><a href="#at-cap">At the cap</a><a href="#options">Your options</a><a href="#decide">How to decide</a><a href="#salesforce">If you move</a><a href="#faq">Questions</a></div>
+<section class="sec2">
+<h2 id="changed">What changed with Podio pricing in 2026?</h2>
+<p>Podio, now owned by Progress Software, moved to what it calls hybrid pricing: you still pay for seats, and some usage now has limits with paid add-ons on top. The dates, from Podio's own FAQ:</p>
+<div class="tw"><table>
+<thead><tr><th>Date</th><th>What happened</th></tr></thead>
+<tbody>
+<tr><td>July 1, 2026</td><td>Customers notified, grace period started</td></tr>
+<tr><td>August 1, 2026</td><td>Usage add-ons went on sale</td></tr>
+<tr><td>September 1, 2026</td><td>Grace period ended and the new limits applied to existing customers</td></tr>
+</tbody></table></div>
+<p>Two kinds of usage are covered:</p>
+<ul>
+<li><strong>Workflow Automation</strong>: the included base limit is now <strong>25,000 actions a month</strong>. Add-ons are available only on the Premium plan.</li>
+<li><strong>API</strong>: the limits didn't change. It's 250 calls an hour for resource-intensive calls and 1,000 an hour for everything else, measured on a rolling hour. API add-ons are available on Plus and Premium. This is the one that matters if Zapier, Make or other tools talk to your Podio.</li>
+</ul>
+<p>The add-on rules are worth reading twice, because they're stricter than most software:</p>
+<ul>
+<li>Add-ons are prepaid, and Podio says to treat them as non-refundable.</li>
+<li>They bill on the same monthly or annual cycle as your plan. Buying mid-cycle is prorated.</li>
+<li>If you cancel, it takes effect at the end of the billing cycle.</li>
+<li>Only the contract owner, the person on your account who handles billing, can buy them.</li>
+</ul>
+
+<h2 id="counts">What counts as an action?</h2>
+<p>This is where teams get surprised. According to Podio:</p>
+<ul>
+<li>A single action generally counts once each time it runs.</li>
+<li>Actions that process several items may count once per item.</li>
+<li>Loops may count based on the items and the number of times they repeat.</li>
+<li>Database syncs count toward usage.</li>
+<li>Some preparation or lookup steps may not count.</li>
+</ul>
+<p>So a flow that runs once when a new lead comes in is cheap. A flow that runs every night and touches every open lead is not, because it can count once for every lead it touches, every night. Most wholesaling setups have a few of those: "days since last contact" updates, nightly status clean-ups, buyer list syncs, follow-up sweeps.</p>
+
+<h2 id="example">What does that look like for a real team?</h2>
+<p class="ex">Made-up example. The numbers below are invented to show the math, not taken from any company.</p>
+<p>A 15-person wholesaling team gets 1,200 new seller leads a month. Here's what three common automations could cost, if each item counts once:</p>
+<div class="tw"><table>
+<thead><tr><th>Automation</th><th>How it runs</th><th>Actions a month</th></tr></thead>
+<tbody>
+<tr><td>New lead setup</td><td>On each new lead: set status, assign a rep, create two tasks, send one text, post a notification. About 6 actions, 1,200 times.</td><td>About 7,200</td></tr>
+<tr><td>Days-since-contact update</td><td>Every night, loops through 2,500 open leads and updates a field on each</td><td>About 75,000</td></tr>
+<tr><td>Buyer list sync</td><td>Every night, syncs 1,000 buyer records with another app</td><td>About 30,000</td></tr>
+<tr><td><strong>Total</strong></td><td></td><td><strong>About 112,000, against 25,000 included</strong></td></tr>
+</tbody></table></div>
+<p>The automations that do the real work, setting up each new lead, fit easily. The nightly loop and the sync are what break the allowance, and those are usually the easiest to redesign.</p>
+
+<h2 id="at-cap">What happens when you hit the cap?</h2>
+<p>Podio's wording is that activity above your included or purchased capacity "may be limited or fail until capacity becomes available again", or until you buy an add-on. There's no automatic overage charge, so you won't get a surprise bill. You may get something worse for a wholesaler: automations that quietly don't run.</p>
+<p>Think about what that means late in the month. A seller fills in your web form, the lead gets created, and the flow that assigns it to a rep, creates the callback task and sends the first text doesn't fire. Nobody notices until the seller has signed with someone faster.</p>
+<p>Podio says alerts for contract owners and admins are planned. Until they arrive, someone on your team should look at usage every week, on the Workflow Automation Account Details page. API usage shows on the API Keys Settings page.</p>
+
+<h2 id="options">What are your options?</h2>
+<p>In the order I'd try them:</p>
+<h3>1. Measure</h3>
+<p>Look at last month's usage before you decide anything. If you're at 8,000 actions, you have time and this page is just a heads-up. If you're at 40,000, you need a plan this month. If someone else built your Podio, like a template vendor or a consultant, ask them for last month's number and which flows use the most.</p>
+<h3>2. Find the multipliers and redesign them</h3>
+<p>List every flow and mark the ones that run on a schedule, loop over items or sync data. For each one, ask whether it could run only when something changes instead of on everything every night. Archive dead leads so loops touch fewer items. Sync weekly instead of nightly where nobody needs fresh data. This is often enough on its own.</p>
+<h3>3. Buy add-ons</h3>
+<p>Fine for a short spike, or as a bridge while you redesign or move. Remember the rules: Premium only, prepaid, non-refundable, bought by the contract owner. If you find yourself buying them every month, that's a signal, not a fix.</p>
+<h3>4. Move some jobs out of Podio Workflow Automation</h3>
+<p>Some teams move heavy jobs to Make or Zapier. That doesn't make the work free: those tools connect through Podio's API, which has its own hourly limits, and they bill separately. Do it for specific jobs, not as a blanket fix.</p>
+<h3>5. Move off Podio</h3>
+<p>If your team has grown, your automations are what keep leads alive, and you can't get the reporting you need, this may be the push to move. For smaller teams, an all-in-one investor CRM can be a good landing spot. For teams of 10 or more who want their own system and real numbers, Salesforce is the option I build. My <a href="podio-alternative-wholesalers.html">Podio migration checklist</a> compares the three paths honestly.</p>
+
+<h2 id="decide">How do you decide?</h2>
+<div class="tw"><table>
+<thead><tr><th>Your situation</th><th>What I'd do</th></tr></thead>
+<tbody>
+<tr><td>Under the cap, or under it after trimming the loops</td><td>Stay. Redesign the scheduled flows, check usage weekly and move on.</td></tr>
+<tr><td>Over the cap for a month or two because of a spike or a one-off import</td><td>Buy an add-on for the spike, then trim.</td></tr>
+<tr><td>Over every month, and you're already planning to move within a year</td><td>Add-ons as a bridge, and start the move now rather than later.</td></tr>
+<tr><td>Over every month, 10 or more people, and you can't see cost per contract by source</td><td>Plan the move. You're paying more for a setup that's already limiting you.</td></tr>
+<tr><td>Small team, few automations, happy with Podio</td><td>Stay. This change probably doesn't affect you much.</td></tr>
+</tbody></table></div>
+
+<h2 id="salesforce">If you move to Salesforce, are there limits there too?</h2>
+<p>Yes, and anyone who says otherwise is selling. Salesforce limits how much a single automation can do in one go, and it has daily allowances for scheduled jobs and API calls that grow with the number of licenses you have. What it doesn't have is a monthly action allowance for ordinary record-triggered automations that you top up in prepaid packs. The flows that create the callback task, send the alert and stop the follow-up when a seller replies run each time a record changes, without counting against a monthly meter.</p>
+<p>The honest trade-off: Salesforce costs more to set up and needs someone to run it. It pays off when your team is big enough that missed leads and blind marketing spend cost more than the system. If that's you, see <a href="move-to-salesforce.html">how a move to Salesforce works</a>, or read the full <a href="switch-to-salesforce-real-estate-investors.html">Podio to Salesforce switch guide</a> with the field map and a 30-60-90 day plan.</p>
+<p>If you'd rather stay on Podio, that's a fine answer too. Do the redesign in option 2 and check your usage every week.</p>
+</section>
+<section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>What is Podio's automation limit?</h3><p>Since September 1, 2026, Podio Workflow Automation includes a base of 25,000 actions a month. Extra capacity is sold as add-ons, which are available only on the Premium plan.</p></div><div class="cq"><h3>When did the Podio usage limits start?</h3><p>Podio notified customers and started a grace period on July 1, 2026, put add-ons on sale on August 1, 2026, and applied the new limits to existing customers on September 1, 2026.</p></div><div class="cq"><h3>What happens when we go over Podio's automation limit?</h3><p>There are no automatic overage charges. Podio says activity above your included or purchased capacity may be limited or fail until capacity becomes available again or you buy an add-on. For a wholesaler, that can mean new leads that don't get assigned, tasked or texted.</p></div><div class="cq"><h3>Can we buy more Workflow Automation actions on Podio Plus?</h3><p>No. Workflow Automation add-ons are available only on Podio Premium. API add-ons are available on Plus and Premium.</p></div><div class="cq"><h3>Are Podio add-ons refundable?</h3><p>Podio says add-ons are prepaid and should be treated as non-refundable. They bill on the same cycle as your plan, mid-cycle purchases are prorated, and a cancellation takes effect at the end of the billing cycle.</p></div><div class="cq"><h3>Do Zapier and Make count against Podio's 25,000 actions?</h3><p>Zapier and Make connect through Podio's API, which has its own limits that didn't change: 250 resource-intensive calls an hour and 1,000 other calls an hour, on a rolling hour. API add-ons are available on Plus and Premium.</p></div><div class="cq"><h3>How do I check my Podio automation usage?</h3><p>Workflow Automation usage is on the Workflow Automation Account Details page, and API usage is on the API Keys Settings page. Podio says alerts for contract owners, admins and automation account owners are planned.</p></div><div class="cq"><h3>What uses up Podio automation actions fastest?</h3><p>Flows that loop over many items, flows that process many items at once, and database syncs, because they can count once per item. A nightly flow that touches every open lead can use more actions in a month than all your new-lead automations combined.</p></div><div class="cq"><h3>Should we leave Podio because of the new limits?</h3><p>Not automatically. If you're under the cap, or can get under it by redesigning scheduled flows, stay. If you're over every month, have 10 or more people and can't get the reporting you need, it's a good time to plan a move.</p></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="podio-alternative-wholesalers.html"><b>Moving off Podio: a checklist</b><span>Three options compared, and a 10-step migration checklist.</span></a><a href="switch-to-salesforce-real-estate-investors.html"><b>Podio to Salesforce switch guide</b><span>The field map, what breaks, and a 30-60-90 day plan.</span></a><a href="move-to-salesforce.html"><b>Move to Salesforce</b><span>How I move teams off Podio, REsimpli and GoHighLevel.</span></a><a href="best-crm-for-wholesalers.html"><b>Best CRM for wholesalers</b><span>How the main options compare for a growing team.</span></a><a href="salesforce-vs-investor-crms.html"><b>Salesforce vs investor CRMs</b><span>When each one makes sense.</span></a><a href="salesforce-real-estate-faq.html"><b>Salesforce for investors: 50 questions</b><span>Straight answers on cost, setup, moving and admin.</span></a></div></section>
+<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026 against Podio's own FAQ. Podio may change these terms, so check the FAQ before you buy add-ons or plan around a number.</p><ol class="src"><li><a href="https://www.progress.com/podio/documentation/using-podio/upgrade-and-billing/podio-hybrid-pricing-faq" rel="noopener" target="_blank">Progress Podio: Podio Hybrid Pricing FAQ</a>. Dates, the 25,000-action base limit, API limits, add-on rules, what counts as an action, what happens at the limit and where to see usage</li></ol></section>
+<div class="cta"><h2>Over the cap and thinking about moving?</h2><p>I move wholesaling teams from Podio to Salesforce: your fields and history mapped, the automations that matter rebuilt, both systems side by side for a short time so no lead is lost, and your team trained by role. The scoping call is free.</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="move-to-salesforce.html" class="btn btn-blue">See how a move works</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Podio%27s%20new%20automation%20limit%3A%20what%20it%20means%20for%20a%20wholesaling%20team&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/podio-automation-limit.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Podio%27s%20new%20automation%20limit%3A%20what%20it%20means%20for%20a%20wholesaling%20team%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+</div></main>
+
+
+<section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
+<img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong>. Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="salesforce-real-estate-faq.html">Salesforce FAQ</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="mailto:info@AmrMagdy.com">Email</a><a href="privacy.html">Privacy</a></div>
+</div></div></footer>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+
+<script src="booking.js" defer></script>
+</body>
+</html>

@@ -110,6 +110,47 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Wholesaling CRM questions, answered: ten questions wholesalers ask in Facebook groups, each answered plainly with one CRM step. https://amrmagdy.com/questions-from-wholesalers.html
 - Videos: 22 short explainer videos (no voiceover, captions and sources on screen) in four series. Deal Leak: the 5 leaks, missed seller calls, leads with no next step, offers off-formula, fall-outs in your ROI, the Monday 5. Systems That Pay: the follow-up stat with no source, flip margins at a 2008 low (ATTOM 2025), CRM data that lies, the lead graveyard, buyer lists as a database, reps spending most of their time not selling. How far Salesforce goes: your own pipeline (custom objects), Flow automation, reports, built to grow (sandboxes, field history, API, AppExchange), when Salesforce is overkill. Quick ones: the 6:40pm missed call, the 23% of companies that never respond (HBR 2011), assignment fee math, the Monday 5, dead leads with a reason. https://amrmagdy.com/videos.html
 
+## Guides for investor teams (added October 2026)
+- Salesforce for real estate investors, 50 questions answered: https://amrmagdy.com/salesforce-real-estate-faq.html (cost and editions without list prices, setup and timelines, moving from Podio, REsimpli or GoHighLevel, admin and support, integrations, reporting, texting and calling rules, AI)
+- Investor CRM audit checklist (free, interactive): https://amrmagdy.com/investor-crm-audit-checklist.html (60 yes/no checks across spend, answer, follow-up, offer, keep, reports and system health; works for any CRM; nothing saved or sent)
+- What to do when your Salesforce admin leaves: https://amrmagdy.com/salesforce-admin-left.html (a two-week handover plan, freeze vs deactivate, what runs under the admin's name such as flow error emails and integration logins, 10 questions to ask before they go)
+- How to hire a Salesforce admin for a real estate team: https://amrmagdy.com/hire-salesforce-admin-real-estate.html (job post, 10 screening questions, a paid test in a free Developer Edition org, certifications, 2026 US salary ranges with sources, red flags, a 30-day plan)
+- How to choose a Salesforce consultant for a real estate investing business: https://amrmagdy.com/hire-salesforce-consultant-real-estate.html (freelancer vs firm vs offshore, published 2026 rate ranges, 11 questions to ask, red flags, what the business must own)
+- Podio's automation limit under hybrid pricing: https://amrmagdy.com/podio-automation-limit.html (what counts as an automation action, the dates, what happens at the cap, five options including moving to Salesforce)
+- Adding a new market to your CRM: https://amrmagdy.com/new-market-crm-checklist.html (a 10-part checklist: numbers and campaigns, routing, buyers, reports by market; a launch test; the first 90 days)
+- Why Salesforce dashboards and reports don't match: https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html (10 causes including the running user, date fields, filters and duplicates; a 20-minute check; a definitions table)
+- Duplicate seller leads in Salesforce: https://amrmagdy.com/salesforce-duplicate-sellers.html (matching on cleaned phone, email and property address; alert people but never block integrations; when duplicate rules don't run; list imports; merges; returning sellers)
+- Monitoring Salesforce automations and Zaps: https://amrmagdy.com/salesforce-automation-monitoring.html (flow error email recipients, the Automation app Monitor tab, Zapier turning a Zap off at a 95% error ratio over 7 days, heartbeat reports, weekly and monthly checks, a change log)
+- Lead attribution for real estate investors: https://amrmagdy.com/real-estate-lead-attribution.html (a first-response credit rule, the original source locked on the deal, latest source and re-engaged flags, reports including ROI on kept deals)
+- Wholesaling team roles and the CRM: https://amrmagdy.com/wholesaling-team-roles-crm.html (owner, marketing, lead manager, acquisitions, underwriting, dispositions, transaction coordinator and ops; handoffs with required fields and deadlines; screens and permissions by role)
+- Salesforce vs HubSpot for real estate investors: https://amrmagdy.com/salesforce-vs-hubspot-real-estate-investors.html (custom objects only on HubSpot Enterprise, automation and reporting limits, calling, HubSpot's published 2026 prices, running both)
+- Missed-call alerts in Salesforce: https://amrmagdy.com/missed-call-alerts-salesforce.html (phone integration prerequisites, a 7-step record-triggered Flow, Slack alerts, escalation, after-hours rules, text-back cautions, a daily report)
+- Adding acquisitions reps in Salesforce: https://amrmagdy.com/add-acquisitions-reps-crm.html (an 11-step checklist: user and permissions, phone and texting under the rep's own user, assignment from the first calling day, list views, templates, speed-to-lead alert, ramp report, offboarding)
+- Real estate investor KPIs by role (updated): https://amrmagdy.com/blog-salesforce-kpis-real-estate.html (marketing, first contact, acquisitions, dispositions, transaction coordination and owner KPIs, each with a definition and how to build it in Salesforce; tying spend and profit to the books)
+- Real estate pipeline dashboard in Salesforce (updated): https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html (components with build notes, days in stage, the transaction pipeline, one dashboard per role, refresh schedules and the running user)
+- Lead and call routing in Salesforce (updated): https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html (assignment rules, queues, four round robin options, call routing, after-hours, escalation, returning sellers)
+
+## More questions this site answers (October 2026 guides)
+- What should I do when my Salesforce admin quits? https://amrmagdy.com/salesforce-admin-left.html
+- How do I hire a Salesforce admin for a real estate company, and what do they earn? https://amrmagdy.com/hire-salesforce-admin-real-estate.html
+- How do I choose a Salesforce consultant for a wholesaling company? https://amrmagdy.com/hire-salesforce-consultant-real-estate.html
+- What happens when a Podio workspace hits its automation limit? https://amrmagdy.com/podio-automation-limit.html
+- Why don't my Salesforce reports match my dashboard or my books? https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html
+- How do I stop duplicate seller leads in Salesforce? https://amrmagdy.com/salesforce-duplicate-sellers.html
+- How do I know when a Salesforce flow or a Zap has failed? https://amrmagdy.com/salesforce-automation-monitoring.html
+- Which marketing campaign gets credit for a real estate deal? https://amrmagdy.com/real-estate-lead-attribution.html
+- What roles does a wholesaling team need, and what does each own in the CRM? https://amrmagdy.com/wholesaling-team-roles-crm.html
+- Should a real estate investor use Salesforce or HubSpot? https://amrmagdy.com/salesforce-vs-hubspot-real-estate-investors.html
+- How do I audit my own investor CRM? https://amrmagdy.com/investor-crm-audit-checklist.html
+- How do I set up missed-call alerts in Salesforce? https://amrmagdy.com/missed-call-alerts-salesforce.html
+- What should I set up in Salesforce before a new acquisitions rep starts? https://amrmagdy.com/add-acquisitions-reps-crm.html
+- What KPIs should a real estate investor or wholesaler track? https://amrmagdy.com/blog-salesforce-kpis-real-estate.html
+- How do I build a pipeline dashboard in Salesforce for a home-buying company? https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html
+- How do round robin and call routing work in Salesforce for investors? https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html
+- Does Salesforce work for Canadian real estate investors, and what about the Do Not Call List and CASL? https://amrmagdy.com/salesforce-consultant-canada-real-estate.html
+- Does Salesforce work for UK property investors and deal sourcers, and what about the TPS and PECR? https://amrmagdy.com/salesforce-consultant-uk-estate-agents.html
+- What does Salesforce cost for an investor team, how long does setup take, and who runs it? https://amrmagdy.com/salesforce-real-estate-faq.html
+
 ## Questions this site answers well
 - Who builds Salesforce for real estate investors or wholesalers?
 - How should a home-buying company track marketing ROI by campaign in Salesforce?
@@ -120,8 +161,8 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 ## Services and markets pages
 - [Move to Salesforce from Podio, REsimpli or GoHighLevel | Amr Magdy](https://amrmagdy.com/move-to-salesforce.html): Fixed-price move to Salesforce for investor and wholesaler teams, with data history, routing, an owner dashboard and training. Quoted after a free scoping call.
 - [CRM Revenue Audit for Real Estate Investors | Amr Magdy](https://amrmagdy.com/crm-revenue-audit.html): A fixed-price review of your investor Salesforce CRM: campaign ROI, speed to lead, stale offers, data health and automations, with a prioritized roadmap.
-- [Salesforce Consultant for Canadian Real Estate Teams](https://amrmagdy.com/salesforce-consultant-canada-real-estate.html): Salesforce consultant for Canadian brokerages, REALTOR teams and investors: lead routing, pipeline dashboards and adoption training. Free 30-minute call.
-- [Salesforce Consultant for UK Estate Agents](https://amrmagdy.com/salesforce-consultant-uk-estate-agents.html): Salesforce consultant for UK estate agents, letting agencies and property companies: speed to lead, pipeline dashboards and adoption. Free 30-minute call.
+- [Salesforce CRM for Canadian Real Estate Investors](https://amrmagdy.com/salesforce-consultant-canada-real-estate.html): Salesforce for Canadian home-buying companies, wholesalers and BRRRR investors: the same deal system as US teams, plus CRTC Do Not Call and CASL consent tracking, CAD, provinces and time zones. Free 30-minute call.
+- [Salesforce CRM for UK Property Investors & Deal Sourcers](https://amrmagdy.com/salesforce-consultant-uk-estate-agents.html): Salesforce for UK property investors, deal sourcers and BTL, HMO and BRR investors: an offer-to-completion pipeline, investor matching and sourcing fees, TPS and PECR consent records, UK GDPR and GBP. Free 30-minute call.
 - [Free Tools for Real Estate Investors & Wholesalers](https://amrmagdy.com/resources.html): Free tools for investors and wholesalers: cost per deal and MAO calculators, missed call cost, the Monday 5, a CRM field kit, glossary and videos.
 
 ## Articles
@@ -136,8 +177,8 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - [Salesforce Einstein AI for Real Estate, Honestly](https://amrmagdy.com/blog-salesforce-einstein-ai-real-estate.html)
 - [Track Deal Profit and Campaign ROI in Salesforce](https://amrmagdy.com/blog-salesforce-financial-analytics-real-estate.html)
 - [Salesforce for Real Estate Investors: CRM Guide](https://amrmagdy.com/blog-salesforce-for-real-estate-investors.html)
-- [Real Estate KPIs to Track in Salesforce](https://amrmagdy.com/blog-salesforce-kpis-real-estate.html)
-- [Salesforce Lead Routing for Real Estate Teams](https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html)
+- [Real Estate Investor KPIs: What to Track in Salesforce](https://amrmagdy.com/blog-salesforce-kpis-real-estate.html)
+- [Salesforce Lead & Call Routing for Real Estate Investors](https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html)
 - [Salesforce for Property Management Companies](https://amrmagdy.com/blog-salesforce-property-management-companies.html)
 - [50+ Real Salesforce Requests From an Acquisitions Team](https://amrmagdy.com/blog-salesforce-real-estate-acquisition-case-log.html)
 - [Build a Real Estate Pipeline Dashboard in Salesforce](https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html)
