@@ -1,349 +1,414 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
+<meta charset="UTF-8">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
-<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');});</script>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'',s=a.closest('#nav,.mcta,.switchbar,footer,header,section'),p={position:s?(s.id||s.className.split(' ')[0]||s.tagName.toLowerCase()):''};if(h.indexOf('wa.me')>-1){p.method='whatsapp';gtag('event','generate_lead',p);}else if(h.indexOf('mailto:')===0){p.method='email';gtag('event','generate_lead',p);}else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click',p);else if(h==='#request')gtag('event','cta_request_click',p);else if(h.indexOf('crm-revenue-audit')>-1&&h.indexOf('terms')<0)gtag('event','cta_audit_click',p);else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click',p);});</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<script>(function(r){r.className=r.className.replace('no-js','js');try{if(localStorage.getItem('theme')==='dark')r.setAttribute('data-theme','dark');}catch(e){}})(document.documentElement);</script>
 <title>Salesforce CRM Audit for Real Estate Investors and Wholesalers</title>
-<meta name="description" content="A $1,500 fixed-price Salesforce audit for investor and wholesaler teams: campaign ROI, speed to lead, stale offers and automations, with a ranked fix plan. Full refund promise.">
+<meta name="description" content="A $1,500 fixed-price Salesforce audit for investor and wholesaler teams: campaign ROI, speed to lead, stale offers and automations. Money back if it finds too little.">
+<meta name="author" content="Amr Magdy">
 <link rel="canonical" href="https://amrmagdy.com/crm-revenue-audit.html">
-<meta name="robots" content="index, follow">
-<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
-<meta name="theme-color" content="#f7f4ee">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#f7f4ef">
+<meta name="format-detection" content="telephone=no">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://amrmagdy.com/crm-revenue-audit.html">
-<meta property="og:title" content="Salesforce CRM Audit for Real Estate Investors and Wholesalers">
-<meta property="og:description" content="One fixed price. Find out where your CRM is losing sellers, money and hours, and what to fix first.">
-<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:title" content="Find where your Salesforce is losing deals, before you buy more leads">
+<meta property="og:description" content="The CRM Revenue Audit: $1,500 fixed, for real estate investor teams already on Salesforce. Full refund if it doesn't find five fixable issues worth more than the fee.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-audit.jpg?v=2">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
+<meta property="og:image:alt" content="CRM Revenue Audit, $1,500 fixed, for real estate investor teams on Salesforce">
 <meta property="og:site_name" content="Amr Magdy">
+<meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Salesforce CRM Audit for Real Estate Investors and Wholesalers">
-<meta name="twitter:description" content="One fixed price. Find out where your CRM is losing sellers, money and hours, and what to fix first.">
-<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
-<link rel="stylesheet" href="styles.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<meta name="twitter:title" content="Find where your Salesforce is losing deals, before you buy more leads">
+<meta name="twitter:description" content="The CRM Revenue Audit: $1,500 fixed, for real estate investor teams already on Salesforce. Full refund if it doesn't find five fixable issues worth more than the fee.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-audit.jpg?v=2">
+<meta name="twitter:image:alt" content="CRM Revenue Audit, $1,500 fixed, for real estate investor teams on Salesforce">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<link rel="apple-touch-icon" href="imgs/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" href="assets/fonts/dm-serif-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/dm-serif-display-italic-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Service", "dateModified": "2026-10-17","name":"CRM Revenue Audit","provider":{"@type":"Person","@id":"https://amrmagdy.com/#person","name":"Amr Magdy","url":"https://amrmagdy.com"},"areaServed":"US","serviceType":"Salesforce CRM audit","audience":{"@type":"BusinessAudience","audienceType":"Real estate investors and wholesalers using Salesforce"},"description":"A fixed-price review of a real estate investor's Salesforce CRM covering campaign ROI, speed to lead, acquisitions, data health and automations.","url":"https://amrmagdy.com/crm-revenue-audit.html","offers":{"@type":"Offer","price":"1500","priceCurrency":"USD","url":"https://amrmagdy.com/crm-revenue-audit.html"}}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://amrmagdy.com/crm-revenue-audit.html#service",
+      "name": "CRM Revenue Audit",
+      "serviceType": "Salesforce CRM audit",
+      "description": "A fixed-price review of a real estate investor team's Salesforce org: marketing ROI, speed to lead, acquisitions and follow-up, data health, automations and integrations, and reporting. Delivered as a written findings report with at least five fixable issues worth more than the fee or a full refund, up to three quick fixes, a 30/60/90 fix plan, a Monday 5 dashboard spec, a kick-off call and a recorded walkthrough.",
+      "url": "https://amrmagdy.com/crm-revenue-audit.html",
+      "image": "https://amrmagdy.com/imgs/og-audit.jpg",
+      "provider": {
+        "@type": "Person",
+        "@id": "https://amrmagdy.com/#person",
+        "name": "Amr Magdy",
+        "jobTitle": "Salesforce CRM Consultant",
+        "url": "https://amrmagdy.com/"
+      },
+      "areaServed": [
+        "United States",
+        "Canada",
+        "United Kingdom",
+        "Europe"
+      ],
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Real estate investors, wholesalers and home-buying companies using Salesforce"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "1500",
+        "priceCurrency": "USD",
+        "url": "https://amrmagdy.com/crm-revenue-audit.html",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://amrmagdy.com/crm-revenue-audit.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What access do you need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A read-only Salesforce user covers most of the review. You create it, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We set the walkthrough date together on the kick-off call, so you know the finish date before the review starts. In between: my review, up to 3 agreed quick fixes, and the report, which reaches you before the walkthrough. Your part is about two hours in total."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do we have to hire you for the fixes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The roadmap is written so your team, or anyone you choose, can follow it. If you do hire me for the build within 30 days, the full audit fee comes off the project."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if we're not on Salesforce?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Then the audit isn't the right step. You need a move to Salesforce: I map what you track today, move your data and build around how your team works. Book a free call and we'll scope it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "You're in Cairo. How does the time difference work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I work Cairo afternoons and evenings, which is the US morning and the UK afternoon. That's how I've worked with a home-buying company in Ohio for two years. Both calls are booked at a time that suits you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do we pay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "50% to start and 50% when the report is delivered, by bank transfer or card through an invoice. Prefer escrow? It can run as an Upwork contract instead, so your payment is held until you approve the report. The full scope and terms are on one page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if the audit doesn't find much?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Then you shouldn't pay for it. If the report doesn't give you at least five specific, fixable issues worth more than the fee, tell me on the walkthrough and I refund it in full. No forms, no argument."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://amrmagdy.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "CRM Revenue Audit",
+          "item": "https://amrmagdy.com/crm-revenue-audit.html"
+        }
+      ]
+    }
+  ]
+}
 </script>
-<script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What access do you need for the CRM Revenue Audit?", "acceptedAnswer": {"@type": "Answer", "text": "A read-only Salesforce user is enough for most of the review. Nothing in the org is changed without asking first, and the three quick fixes are agreed before they are made."}}, {"@type": "Question", "name": "What if we're not on Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "The audit is for teams already on Salesforce. If you're on Podio, REsimpli, GoHighLevel or another CRM, the right offer is a move to Salesforce: Amr maps what you track today, moves your data and builds the system around how your team works. Start with a free call."}}, {"@type": "Question", "name": "How does the time difference with Cairo work?", "acceptedAnswer": {"@type": "Answer", "text": "Amr works afternoons and evenings Cairo time, which overlaps with US mornings and the full Gulf working day. Calls are scheduled at a time that suits the client."}}, {"@type": "Question", "name": "Do we have to hire you for the fixes?", "acceptedAnswer": {"@type": "Answer", "text": "No. The roadmap is written so your team, or anyone you choose, can follow it. If you hire Amr for the build within 30 days, the full audit fee comes off the project."}}, {"@type": "Question", "name": "How much does the CRM Revenue Audit cost and how do we pay?", "acceptedAnswer": {"@type": "Answer", "text": "It is a fixed USD 1,500. 50% to start and 50% when the report is delivered, by bank transfer or card through an invoice. Escrow through an Upwork contract is available on request."}}]}
-</script>
-<style>
-.ra{padding:calc(var(--nav) + 64px) 0 0}
-.ra .w{max-width:1120px;margin:0 auto;padding:0 2rem}
-.ra-hero{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:start}
-.ra h1{font-size:clamp(2.1rem,4.6vw,3.3rem);line-height:1.08;letter-spacing:-.025em;margin:14px 0 20px}
-.ra h1 em{font-style:italic;font-weight:400;color:var(--sf)}
-.ra .lead{color:var(--txt2);font-size:1.08rem;line-height:1.85;margin-bottom:18px}
-.price-card{background:var(--navy);color:#fff;border-radius:22px;padding:34px;box-shadow:var(--sh-md);position:sticky;top:calc(var(--nav) + 24px)}
-.price-card .k{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2);font-weight:700}
-.price-card .amt{font-family:'Fraunces',Georgia,serif;font-size:3.4rem;line-height:1;margin:12px 0 4px}
-.price-card .amt small{font-size:1rem;font-family:'Plus Jakarta Sans',sans-serif;color:#b9c6d8;margin-left:6px}
-.price-card ul{list-style:none;margin:20px 0 24px;display:flex;flex-direction:column;gap:10px}
-.price-card li{display:flex;gap:10px;font-size:.93rem;line-height:1.55;color:#dfe7f2}
-.price-card li::before{content:'✓';color:var(--gold2);font-weight:700}
-.price-card .btn{width:100%;justify-content:center}
-.price-card .fine{font-size:.78rem;color:#9fb0c6;margin-top:14px;line-height:1.6;text-align:center}
-.ra-sec{padding:84px 0 0}
-.ra-sec h2{font-size:clamp(1.6rem,3vw,2.2rem);letter-spacing:-.02em;margin:10px 0 14px}
-.ra-sec h2 em{font-style:italic;font-weight:400;color:var(--sf)}
-.ra-sec > .w > p{color:var(--txt2);line-height:1.85;max-width:720px}
-.story{border-left:3px solid var(--gold);padding:6px 0 6px 24px;margin-top:22px;max-width:760px}
-.story p{color:var(--txt2);line-height:1.9;margin-bottom:12px;font-size:1.02rem}
-.story p:last-child{margin-bottom:0}
-.look{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:30px}
-.look div{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:26px}
-.look .n{font-family:'Fraunces',Georgia,serif;color:var(--gold);font-size:1.4rem}
-.look h3{font-size:1.08rem;margin:6px 0 8px}
-.look p{color:var(--txt2);font-size:.93rem;line-height:1.7}
-.look p i{display:block;font-style:normal;color:var(--txt);font-weight:600;margin-top:8px}
-.cnt{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:30px}
-.cnt div{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:24px 22px;display:flex;flex-direction:column}
-.cnt .v{font-family:'Fraunces',Georgia,serif;font-size:2.6rem;line-height:1;color:var(--sf);margin-bottom:12px}
-.cnt h3{font-size:1rem;margin-bottom:6px}
-.cnt p{color:var(--txt2);font-size:.88rem;line-height:1.65}
-.cnt .hi{background:var(--navy);border-color:var(--navy)}
-.cnt .hi .v{color:var(--gold2)}
-.cnt .hi h3{color:#fff}
-.cnt .hi p{color:#c9d5e4}
-.steps{list-style:none;display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:30px;position:relative}
-.steps::before{content:'';position:absolute;top:21px;left:22px;right:22px;height:2px;background:var(--bd)}
-.steps li{position:relative}
-.steps .s{position:relative;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--sf);color:#fff;font-weight:700;margin-bottom:16px;box-shadow:0 0 0 6px var(--bg)}
-.steps h3{font-size:1.02rem;margin-bottom:6px}
-.steps p{color:var(--txt2);font-size:.88rem;line-height:1.65}
-.steps .you{margin-top:10px;padding-top:10px;border-top:1px dashed var(--bd);font-size:.84rem}
-.steps .you b{color:var(--gold)}
-.goals{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:30px}
-.goals div{border:1px solid var(--bd);border-radius:18px;padding:22px;background:var(--bg2)}
-.goals span{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:3px 10px;border-radius:50px}
-.goals .b{background:var(--bd);color:var(--txt2)}
-.goals .a{background:var(--green);color:#fff;margin-top:14px}
-.goals p{color:var(--txt3);font-style:italic;font-size:.92rem;line-height:1.6;margin-top:8px}
-.goals p.t{color:var(--txt);font-style:normal;font-weight:600}
-.fitgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}
-.fitgrid div{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:26px}
-.fitgrid h3{font-size:1rem;margin-bottom:12px}
-.fitgrid ul{list-style:none;display:flex;flex-direction:column;gap:9px}
-.fitgrid li{color:var(--txt2);font-size:.92rem;line-height:1.6;padding-left:20px;position:relative}
-.fitgrid .yes li::before{content:'✓';position:absolute;left:0;color:var(--green);font-weight:700}
-.fitgrid .no li::before{content:'–';position:absolute;left:2px;color:var(--txt3);font-weight:700}
-.promise{margin-top:28px;background:var(--gold-soft);border-radius:18px;padding:28px 30px;max-width:820px}
-.promise h3{font-size:1.1rem;margin-bottom:8px}
-.promise p{color:var(--txt2);line-height:1.8}
-.faq{margin-top:26px;max-width:820px}
-.faq details{border-top:1px solid var(--bd);padding:18px 0}
-.faq details:last-child{border-bottom:1px solid var(--bd)}
-.faq summary{cursor:pointer;font-weight:600;list-style:none}
-.faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:'+';float:right;color:var(--sf);font-weight:700}
-.faq details[open] summary::after{content:'–'}
-.faq p{color:var(--txt2);line-height:1.8;margin-top:10px;font-size:.95rem}
-.req{margin:90px 0 0;background:var(--navy);color:#fff;padding:72px 0 80px}
-.req .w{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:start}
-.req h2{color:#fff;font-size:clamp(1.6rem,3vw,2.2rem);margin:10px 0 14px}
-.req h2 em{font-style:italic;font-weight:400;color:var(--gold2)}
-.req .side p{color:#c9d5e4;line-height:1.85}
-.req form{background:var(--bg2);color:var(--txt);border-radius:20px;padding:32px}
-.req label{display:block;font-size:.84rem;font-weight:600;margin-bottom:7px}
-.req input,.req select,.req textarea{width:100%;border:1.5px solid var(--bd2);border-radius:12px;padding:12px 14px;font-family:inherit;font-size:.94rem;margin-bottom:15px;background:var(--bg);color:var(--txt)}
-.req textarea{min-height:96px;resize:vertical}
-.req input:focus,.req select:focus,.req textarea:focus{outline:none;border-color:var(--sf)}
-.req .btn{width:100%;justify-content:center;border:none;cursor:pointer}
-#ra-status{margin-top:12px;font-size:.92rem;font-weight:600;text-align:center;min-height:1.3em}
-@media(max-width:1000px){.cnt,.goals{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr;gap:0}.steps::before{top:22px;bottom:22px;left:21px;right:auto;width:2px;height:auto}.steps li{display:grid;grid-template-columns:44px 1fr;gap:18px;padding-bottom:22px}}
-@media(max-width:880px){.ra-hero,.req .w,.fitgrid{grid-template-columns:1fr}.price-card{position:static}}
-@media(max-width:520px){.goals{grid-template-columns:1fr}.cnt{gap:10px}.cnt div{padding:18px 16px}.cnt .v{font-size:2.1rem}}
-</style>
-<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
 </head>
-<body>
-<nav><div class="wrap-wide"><div class="nav-in">
-  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
-  <a href="#request" class="nb">Request the audit</a>
-<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
-</div></div></nav>
+<body data-say-on="Showing what you'll know after the audit." data-say-off="Showing what most owners would say today.">
+<a class="skip" href="#main">Skip to main content</a>
 
-<main class="ra">
-  <div class="w ra-hero">
-    <div>
-      <span class="eyebrow">CRM Revenue Audit · fixed price · for Salesforce teams</span>
-      <h1>Find out where your CRM is <em>losing deals</em>, before you buy more leads.</h1>
-      <p class="lead">Most investor teams don&rsquo;t have a lead problem. They have a few quiet leaks: a missed call nobody saw, an offer that went cold, a campaign that gets credit for someone else&rsquo;s deal.</p>
-      <p style="display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center;margin:6px 0 18px"><a href="#request" class="btn btn-gold">Request the $1,500 audit &rarr;</a><a href="sample-audit-report.html" style="color:var(--sf);font-weight:600;text-decoration:underline">See a sample report</a><a href="index.html#contact" data-book style="color:var(--sf);font-weight:600;text-decoration:underline">Or book a free call</a></p>
-      <p class="lead">I go through your CRM the way I&rsquo;d go through my own: every number you rely on on Monday morning, every automation that&rsquo;s supposed to fire, every place a seller can slip through. You get a plain-English report of what I found, what it&rsquo;s costing you, and what to fix first.</p>
-    </div>
-    <aside class="price-card" aria-label="Price and what's included">
-      <div class="k">One fixed price</div>
-      <div class="amt">$1,500<small>USD</small></div>
-      <ul>
-        <li>Kick-off call and a 60-minute findings walkthrough</li>
-        <li>Written report: every finding, its cost and the fix</li>
-        <li>Prioritised 30 / 60 / 90-day roadmap</li>
-        <li>Spec for your &ldquo;Monday 5&rdquo; owner dashboard</li>
-        <li>Up to 3 quick fixes done during the audit</li>
-        <li>Full fee credited if you hire me for the build within 30 days</li>
-      </ul>
-      <a href="#request" class="btn btn-gold">Request the audit &rarr;</a>
-      <p class="fine"><a href="sample-audit-report.html" style="color:var(--gold2);text-decoration:underline;font-weight:600">See a sample report</a> before you decide. Refund in full if it doesn&rsquo;t find five fixable issues worth more than the fee.</p>
-      <p class="fine" data-deposit-only style="display:none">Ready to start? <a href="#request" data-deposit style="color:var(--gold2);text-decoration:underline;font-weight:600">Pay the $750 deposit</a> to lock your start date.</p>
-      <p class="fine">Not sure yet? <a href="index.html#contact" style="color:var(--gold2);text-decoration:underline">Book a free 30-minute call</a> first.</p>
-    </aside>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="./#services">Services</a>
+    <a href="#areas">What I check</a>
+    <a href="#outputs">What you get</a>
+    <a href="#steps">How it works</a>
+    <a href="#faq">Questions</a>
+    <a class="btn nav-cta" href="#request">Request the audit</a>
+  </nav>
+  <div class="top-act">
+    <button class="icon-btn theme" id="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+    </button>
+    <a class="btn sm ghost" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a>
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span class="bars" aria-hidden="true"></span><span class="txt">Menu</span></button>
   </div>
+</div></header>
 
-  <section class="ra-sec">
-    <div class="w">
-      <span class="eyebrow">Why I built this</span>
-      <h2>The question I hear <em>most</em></h2>
-      <div class="story">
-        <p>&ldquo;We spend thousands a month on mail, cold calling and PPC. Which of it is actually working?&rdquo;</p>
-        <p>It&rsquo;s a fair question, and the CRM should answer it in under a minute. Usually it can&rsquo;t, and not because anyone did anything wrong. Teams grow, people add a field here and a Zap there, and two years later the numbers on the dashboard are slightly off and nobody is quite sure why.</p>
-        <p>I&rsquo;ve spent the last two years building and running the Salesforce system behind a home-buying company in Ohio, from the first call on a marketing number to the closing table. This audit is the checklist I wish someone had handed me on day one.</p>
+<main id="main">
+<div class="ba">
+<div class="switchbar"><div class="wrap">
+  <p class="sw-label" id="sw-label">Your CRM, before and after</p>
+  <div class="sw" role="group" aria-labelledby="sw-label">
+    <span class="thumb" aria-hidden="true"></span>
+    <button type="button" data-state="without" aria-pressed="true">Today</button>
+    <button type="button" data-state="with" aria-pressed="false">After the audit</button>
+  </div>
+  <a class="btn sm sw-cta" href="#request">Request the audit</a>
+  <p class="sr" id="sw-live" aria-live="polite"></p>
+</div></div>
+
+<section class="wrap hero audit-hero" id="hero" aria-labelledby="ah">
+  <div>
+    <p class="kicker"><span class="tag">Start here</span>CRM Revenue Audit · for teams already on Salesforce</p>
+    <h1 id="ah">Find where your Salesforce is <em>losing deals</em>, before you buy more leads.</h1>
+    <div class="lede">
+      <p>Most investor teams don't have a lead problem. They have a few quiet leaks: a missed call nobody saw, an offer that went cold, a campaign that gets credit for someone else's deal.</p>
+      <p>I go through your Salesforce and hand you a plain-English report: what's leaking, what it's likely costing you and what to fix first.</p>
+    </div>
+    <div class="status-line flip"><p class="st b"><span class="lab">Today</span>“I think the mail is working.”</p><p class="st a"><span class="lab">After the audit</span>You know what each contract costs, by channel.</p></div>
+    <div class="ctas"><a class="btn" href="#request">Request the $1,500 audit</a><a class="btn ghost" href="sample-audit-report.html">See a sample report</a></div>
+    <p class="fine">Not on Salesforce? You need a <a href="move-to-salesforce.html">move to Salesforce</a>, not an audit. <a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book="audit-hero">Book a free call</a> and we'll scope it.</p>
+  </div>
+  <div class="price-card">
+    <h2 id="pc-h">CRM Revenue Audit</h2>
+    <p class="amt">$1,500<small>USD, fixed</small></p>
+    <p class="for">One price for teams already on Salesforce. Credited in full to the build if you go ahead within 30 days of the walkthrough.</p>
+    <ul class="counted">
+      <li><span class="num">1</span>Written findings report</li>
+      <li><span class="num">5+</span>Fixable issues worth more than the fee, or your money back</li>
+      <li><span class="num"><small>up to</small>3</span>Quick fixes made during the audit</li>
+      <li><span class="num">5</span>Numbers for your Monday dashboard, defined for your org</li>
+      <li><span class="num">2</span>Calls: kick-off and recorded walkthrough</li>
+    </ul>
+    <div class="act"><a class="btn" href="#request">Request the audit</a><a class="btn ghost" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book="price-card">Book a free call first</a></div>
+    <p class="refund">Full refund if it doesn't find five fixable issues worth more than the fee. <a href="crm-revenue-audit-terms.html">Scope and terms</a></p>
+    <p class="refund" data-deposit-only style="display:none">Ready to start? <a href="#request" data-deposit>Pay the $750 deposit</a> to lock your start date.</p>
+  </div>
+</section>
+
+<section class="block after-hero" id="who" aria-labelledby="who-h"><div class="wrap">
+  <h2 id="who-h" class="sr">Who does the audit</h2>
+  <div class="whois">
+    <div class="card">
+      <img src="imgs/AmrMagdyPic-144.webp" srcset="imgs/AmrMagdyPic-144.webp 144w, imgs/AmrMagdyPic-216.webp 216w" sizes="72px" alt="Amr Magdy" width="72" height="72" loading="lazy" decoding="async">
+      <div>
+        <p><b>Who does the audit: Amr Magdy</b>, Salesforce CRM Consultant for US real estate investors and wholesalers.</p>
+        <p>For two years I've run Salesforce for Central City Solutions, a home-buying company in Columbus and Cincinnati: campaign ROI by market, missed-call alerts, a Transactions Board and same-week changes. Salesforce Certified Administrator and Platform App Builder.</p>
+        <p><a class="tlink" href="about.html">More about me</a></p>
       </div>
     </div>
-  </section>
+    <figure class="quote">
+      <blockquote>“Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.”</blockquote>
+      <figcaption><b>Sean Grabow</b>, Founder, Central City Solutions</figcaption>
+    </figure>
+  </div>
+</div></section>
 
-  <section class="ra-sec">
-    <div class="w">
-      <span class="eyebrow">What I look at</span>
-      <h2>Five areas, <em>one question each</em></h2>
-      <p>Each area comes back with a clear answer, the evidence behind it, and what it would take to fix.</p>
-      <div class="look">
-        <div><span class="n">01</span><h3>Marketing &amp; ROI</h3><p>Is every lead tied to the campaign that paid for it? Do the deals you keep, like rentals, count toward that campaign&rsquo;s return?<i>Can you see cost per contract by channel, and trust it?</i></p></div>
-        <div><span class="n">02</span><h3>Speed to lead</h3><p>What happens to a missed call, a weekend web form, a text reply? Who gets told, and how fast?<i>How many sellers waited, and for how long?</i></p></div>
-        <div><span class="n">03</span><h3>Acquisitions &amp; follow-up</h3><p>Offers with no activity, appointments with no next step, leads owned by someone who left. In states with new wholesaling rules, whether disclosures, cancellation windows and closing deadlines are tracked (a tracking check, not legal advice).<i>Which deals are quietly going cold right now?</i></p></div>
-        <div><span class="n">04</span><h3>Data health</h3><p>Broken phone numbers, duplicate sellers, deals with no lead behind them, lead sources anyone can change.<i>How much of your list can you actually reach?</i></p></div>
-        <div><span class="n">05</span><h3>Automations &amp; integrations</h3><p>Flows, Zaps, dialer and e-signature syncs, alerts. What fires, what silently fails, what overlaps, and whether dialer and AI follow-up activity actually lands in the CRM with consent recorded.<i>What is running that nobody would notice if it stopped?</i></p></div>
-        <div><span class="n">+</span><h3>Reporting</h3><p>The reports and dashboards you open every week, checked against the raw data underneath.<i>Do the five numbers you run the business on add up?</i></p></div>
-      </div>
-    </div>
-  </section>
+<section class="block alt" id="why" aria-labelledby="why-h"><div class="wrap">
+  <div class="head"><p class="kicker">Why I built this</p><h2 id="why-h">The question I hear most</h2></div>
+  <div class="story">
+    <p class="said">“We spend thousands a month on mail, cold calling and PPC. Which of it is actually working?”</p>
+    <p>It's a fair question, and the CRM should answer it in under a minute. Usually it can't, and not because anyone did anything wrong. Teams grow, people add a field here and a Zap there, and two years later the numbers on the dashboard are slightly off and nobody is quite sure why.</p>
+    <p>I've spent the last two years building and running the Salesforce system behind a home-buying company in Ohio, from the first call on a marketing number to the closing table. This audit is the checklist I wish someone had handed me on day one.</p>
+  </div>
+</div></section>
 
-  <section class="ra-sec">
-    <div class="w">
-      <span class="eyebrow">What you get</span>
-      <h2>Everything you get, <em>counted</em></h2>
-      <p>Things you can act on, not a slide deck. Each one is yours to keep, whether you build the fixes with me or not.</p>
-      <div class="cnt">
-        <div><span class="v">1</span><h3>Findings report</h3><p>Every issue in plain English: where it is, what it&rsquo;s likely costing you in leads, deals or hours, and how big the fix is.</p></div>
-        <div><span class="v">5+</span><h3>Fixable issues</h3><p>Specific, sized and worth more than the fee, or you get the fee back. See the promise below.</p></div>
-        <div><span class="v">3</span><h3>Quick fixes, done</h3><p>Small, safe fixes made during the audit, like a broken alert or a wrong report filter, agreed with you first.</p></div>
-        <div><span class="v">6</span><h3>Areas reviewed</h3><p>Marketing ROI, speed to lead, acquisitions, data health, automations and the reports you run the business on.</p></div>
-        <div><span class="v">5</span><h3>Monday numbers</h3><p>Your &ldquo;Monday 5&rdquo; owner dashboard, defined field by field for your org and ready to build.</p></div>
-        <div><span class="v">3</span><h3>Roadmap stages</h3><p>A 30 / 60 / 90 plan with the fixes in the order I&rsquo;d do them and rough effort for each.</p></div>
-        <div><span class="v">2</span><h3>Calls</h3><p>A kick-off call and a findings walkthrough. The walkthrough is recorded so the rest of your team can watch it.</p></div>
-        <div class="hi"><span class="v">100%</span><h3>Of the fee credited</h3><p>If you hire me for the build within 30 days, the whole audit fee comes off the project.</p></div>
-      </div>
-      <p style="margin-top:22px"><a href="sample-audit-report.html" style="color:var(--sf);text-decoration:underline">See a sample report</a> for a made-up home-buying company, so you know exactly what you&rsquo;ll get.</p>
-    </div>
-  </section>
+<section class="block" id="goal" aria-labelledby="goal-h"><div class="wrap">
+  <div class="head"><p class="kicker">The end goal</p><h2 id="goal-h">Where you'll be when it's done</h2><p>Five questions most owners can't answer from their CRM today. Flip the switch to see each one after the audit.</p></div>
+  <div class="tw"><table class="goal" role="table">
+    <caption class="sr">What owners say today, and what they know after the audit</caption>
+    <thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">Area</th><th scope="col" role="columnheader"><span class="flip in"><span class="st b">Today: what you'd say</span><span class="st a">After: what you'll know</span></span></th></tr></thead>
+    <tbody role="rowgroup">
+      <tr role="row" style="--d:0"><th scope="row" role="rowheader">Marketing</th><td role="cell"><div class="flip"><p class="st b">“I think the mail is working.”</p><p class="st a">You know which campaigns produce contracts and what each contract costs, by channel.</p></div></td></tr>
+      <tr role="row" style="--d:1"><th scope="row" role="rowheader">Speed to lead</th><td role="cell"><div class="flip"><p class="st b">“We call everyone back fast.”</p><p class="st a">You know how long sellers really wait, and where missed calls and weekend forms fall through.</p></div></td></tr>
+      <tr role="row" style="--d:2"><th scope="row" role="rowheader">Follow-up</th><td role="cell"><div class="flip"><p class="st b">“The reps are on top of it.”</p><p class="st a">You have the list of offers and appointments going cold right now, and who owns each.</p></div></td></tr>
+      <tr role="row" style="--d:3"><th scope="row" role="rowheader">Reporting</th><td role="cell"><div class="flip"><p class="st b">“The dashboard is probably right.”</p><p class="st a">You know which numbers you can trust, which are off, and why.</p></div></td></tr>
+      <tr role="row" style="--d:4"><th scope="row" role="rowheader">The plan</th><td role="cell"><div class="flip"><p class="st b">“We need to fix the CRM at some point.”</p><p class="st a">You have a ranked fix plan you can hand to me, your own team or anyone else.</p></div></td></tr>
+    </tbody>
+  </table></div>
+  <div class="note">
+    <div class="flip"><p class="st b">You're seeing what most owners say today.</p><p class="st a">You're seeing what you'll know when the audit is done.</p></div>
+    <button type="button" class="btn sm" data-flip><span class="flip in"><span class="st b">Show the after</span><span class="st a">Show today</span></span></button>
+  </div>
+</div></section>
+</div>
 
-  <section class="ra-sec">
-    <div class="w">
-      <span class="eyebrow">How it works</span>
-      <h2>Five steps, <em>two calls</em></h2>
-      <p>You spend about two hours on it in total. I do the rest.</p>
-      <ol class="steps">
-        <li><span class="s">1</span><div><h3>Kick-off call</h3><p>You walk me through how a deal moves through your team and what&rsquo;s bugging you.</p><p class="you"><b>You:</b> a 45-minute call and a read-only login (I send simple steps).</p></div></li>
-        <li><span class="s">2</span><div><h3>The review</h3><p>I work through all six areas in your org. If I find something urgent, like an automation that&rsquo;s silently failing, I tell you the same day.</p><p class="you"><b>You:</b> nothing, unless I have a question.</p></div></li>
-        <li><span class="s">3</span><div><h3>Quick fixes</h3><p>I send you the three small fixes I&rsquo;d make first. Once you say yes, I make them, so you see results before the walkthrough.</p><p class="you"><b>You:</b> a yes or no on each fix.</p></div></li>
-        <li><span class="s">4</span><div><h3>Report delivered</h3><p>You get the findings report, the roadmap and the dashboard spec before we meet, so you can read them first.</p><p class="you"><b>You:</b> a read, at your own pace.</p></div></li>
-        <li><span class="s">5</span><div><h3>Walkthrough</h3><p>We go through the findings together, with whoever on your team should be in the room, and agree what happens next.</p><p class="you"><b>You:</b> a 60-minute call, recorded.</p></div></li>
-      </ol>
-    </div>
-  </section>
+<section class="block alt" id="areas" aria-labelledby="areas-h"><div class="wrap">
+  <div class="head"><p class="kicker">What I check</p><h2 id="areas-h">Six areas, one question each</h2><p>Each area comes back with a straight answer, the evidence behind it, and what the fix would take.</p></div>
+  <div class="areas">
+    <div><span class="n">01</span><h3>Marketing and ROI</h3><p>Is every lead tied to the campaign that paid for it? Do the deals you keep, like rentals, count toward that campaign's return?</p><p class="ask">Can you see cost per contract by channel, and trust it?</p></div>
+    <div><span class="n">02</span><h3>Speed to lead</h3><p>What happens to a missed call, a weekend web form, a text reply? Who gets told, and how fast?</p><p class="ask">How many sellers waited, and for how long?</p></div>
+    <div><span class="n">03</span><h3>Acquisitions and follow-up</h3><p>Offers with no activity, appointments with no next step, leads owned by someone who left. In states with new wholesaling rules, whether disclosures and cancellation dates are tracked. A tracking check, not legal advice.</p><p class="ask">Which deals are quietly going cold right now?</p></div>
+    <div><span class="n">04</span><h3>Data health</h3><p>Broken phone numbers, duplicate sellers, deals with no lead behind them, lead sources anyone can change.</p><p class="ask">How much of your list can you actually reach?</p></div>
+    <div><span class="n">05</span><h3>Automations and integrations</h3><p>Flows, Zaps, dialer and e-signature syncs, alerts. What fires, what fails quietly, what overlaps, and whether dialer and AI follow-up lands in the CRM with consent recorded.</p><p class="ask">What's running that nobody would notice if it stopped?</p></div>
+    <div><span class="n">06</span><h3>Reporting</h3><p>The reports and dashboards you open every week, checked against the raw data underneath.</p><p class="ask">Do the five numbers you run the business on add up?</p></div>
+  </div>
+</div></section>
 
-  <section class="ra-sec">
-    <div class="w">
-      <span class="eyebrow">The end goal</span>
-      <h2>Where you&rsquo;ll be <em>when it&rsquo;s done</em></h2>
-      <p>Five questions most owners can&rsquo;t answer from their CRM today. By the walkthrough, you&rsquo;ll have a straight answer to each, or know exactly what&rsquo;s missing to get one.</p>
-      <div class="goals">
-        <div><span class="b">Before</span><p>&ldquo;I think the mail is working.&rdquo;</p><span class="a">After</span><p class="t">You know which campaigns produce contracts and what each contract costs you, by channel.</p></div>
-        <div><span class="b">Before</span><p>&ldquo;We call everyone back fast.&rdquo;</p><span class="a">After</span><p class="t">You know how long sellers really wait, and where missed calls and weekend forms fall through.</p></div>
-        <div><span class="b">Before</span><p>&ldquo;The reps are on top of it.&rdquo;</p><span class="a">After</span><p class="t">You have the list of offers and appointments going cold right now, and who owns each one.</p></div>
-        <div><span class="b">Before</span><p>&ldquo;The dashboard is probably right.&rdquo;</p><span class="a">After</span><p class="t">You know which of your numbers you can trust, which are off, and why.</p></div>
-        <div><span class="b">Before</span><p>&ldquo;We need to fix the CRM at some point.&rdquo;</p><span class="a">After</span><p class="t">You have a ranked fix plan you can hand to me, your own team or anyone else.</p></div>
-      </div>
-    </div>
-  </section>
+<section class="block" id="outputs" aria-labelledby="outputs-h"><div class="wrap">
+  <div class="head"><p class="kicker">What you get</p><h2 id="outputs-h">Everything you get, counted</h2><p>Things you can act on, not a slide deck. Each one is yours to keep, whether you build the fixes with me or not.</p></div>
+  <div class="tw"><table class="outputs">
+    <caption class="sr">What the audit delivers</caption>
+    <tbody>
+      <tr><td class="c">1</td><td><b>Findings report</b><p>Every issue in plain English: where it is, what it's likely costing you in leads, deals or hours, and how big the fix is.</p></td></tr>
+      <tr><td class="c">5+</td><td><b>Fixable issues</b><p>Specific, sized and worth more than the fee, or you get the fee back.</p></td></tr>
+      <tr><td class="c"><small>up to</small>3</td><td><b>Quick fixes, done</b><p>Small, safe fixes like a broken alert or a wrong report filter, agreed with you first.</p></td></tr>
+      <tr><td class="c">6</td><td><b>Areas reviewed</b><p>Marketing ROI, speed to lead, acquisitions, data health, automations and reporting.</p></td></tr>
+      <tr><td class="c">5</td><td><b>Monday numbers</b><p>Your “Monday 5” owner dashboard, defined field by field for your org and ready to build.</p></td></tr>
+      <tr><td class="c">3</td><td><b>Roadmap stages</b><p>A 30 / 60 / 90 plan with the fixes in the order I'd do them and rough effort for each.</p></td></tr>
+      <tr><td class="c">2</td><td><b>Calls</b><p>A kick-off call and a recorded findings walkthrough the rest of your team can watch.</p></td></tr>
+      <tr><td class="c">100%</td><td><b>Of the fee credited</b><p>If you hire me for the build within 30 days, the whole fee comes off the project.</p></td></tr>
+    </tbody>
+  </table></div>
+  <div class="more"><a class="btn ghost sm" href="sample-audit-report.html">See a sample report</a><span class="fine" style="margin:0">Made for a fictional home-buying company, so you know exactly what you'll get.</span></div>
+</div></section>
 
-  <section class="ra-sec">
-    <div class="w">
-      <span class="eyebrow">Is this for you?</span>
-      <h2>A good fit, <em>and not</em></h2>
-      <div class="fitgrid">
-        <div class="yes"><h3>A good fit if you&hellip;</h3><ul>
-          <li>Buy houses or wholesale, and your team works out of Salesforce</li>
-          <li>Spend real money on marketing and want to know what&rsquo;s working</li>
-          <li>Have a CRM someone else built, and you&rsquo;re not sure what it does anymore</li>
-          <li>Are about to hire, add a market or change your lead sources</li>
-        </ul></div>
-        <div class="no"><h3>Probably not yet if you&hellip;</h3><ul>
-          <li>Run on Podio, REsimpli, GoHighLevel or another CRM. You need a <a href="move-to-salesforce.html" style="color:var(--sf);text-decoration:underline">move to Salesforce</a>, not an audit, and we can scope that on a free call</li>
-          <li>Need the fixes built this week; that&rsquo;s a build project, which we can scope</li>
-          <li>Want a full rebuild price before anyone has looked at your setup</li>
-        </ul></div>
-      </div>
-      <div class="promise">
-        <h3>My promise</h3>
-        <p>If the report doesn&rsquo;t give you at least five specific, fixable issues that are worth more to you than the fee, tell me on the walkthrough call and I&rsquo;ll refund it in full. No forms, no argument.</p>
-      </div>
-      <div class="promise">
-        <h3>Founding clients</h3>
-        <p>The first three audit clients get a direct WhatsApp line to me during the audit and for 30 days after the walkthrough. In return I ask for a short case study, written with you and published only with your OK. Same price, same scope.</p>
-      </div>
-    </div>
-  </section>
+<section class="block alt" id="steps" aria-labelledby="steps-h"><div class="wrap">
+  <div class="head"><p class="kicker">How it works</p><h2 id="steps-h">Five steps, two calls</h2><p>About two hours of your time in total. I do the rest.</p></div>
+  <ol class="steps">
+    <li><span class="lab">Step 1</span><b>Kick-off call</b><p>You walk me through how a deal moves through your team, and what's bugging you.</p><p class="you"><b>You:</b> a 45-minute call and a read-only login (I send simple steps).</p></li>
+    <li><span class="lab">Step 2</span><b>The review</b><p>I work through all six areas in your org. If I find something urgent, like an automation that's failing quietly, you hear about it the same day.</p><p class="you"><b>You:</b> nothing, unless I have a question.</p></li>
+    <li><span class="lab">Step 3</span><b>Quick fixes</b><p>I send you up to 3 small fixes I'd make first. Once you say yes, I make them, so you see results before the walkthrough.</p><p class="you"><b>You:</b> a yes or no on each fix.</p></li>
+    <li><span class="lab">Step 4</span><b>Report delivered</b><p>The findings report, the roadmap and the dashboard spec arrive before we meet, so you can read them first.</p><p class="you"><b>You:</b> a read, at your own pace.</p></li>
+    <li><span class="lab">Step 5</span><b>Walkthrough</b><p>We go through the findings with whoever on your team should be in the room, and agree what happens next.</p><p class="you"><b>You:</b> a 60-minute call, recorded.</p></li>
+  </ol>
+</div></section>
 
-  <section class="ra-sec">
-    <div class="w">
-      <span class="eyebrow">Questions</span>
-      <h2>Before you <em>ask</em></h2>
-      <div class="faq">
-        <details><summary>What access do you need?</summary><p>A read-only Salesforce user is enough for most of the review. I don&rsquo;t change anything in your org without asking first, and the three quick fixes are agreed with you before I touch them.</p></details>
-        <details><summary>What if we&rsquo;re not on Salesforce?</summary><p>The audit is for teams already on Salesforce. If you&rsquo;re on Podio, REsimpli, GoHighLevel or another CRM, what you need is a move to Salesforce: I map what you track today, move your data and build the system around how your team works. <a href="index.html#contact" style="color:var(--sf);text-decoration:underline">Request a free call</a> and we&rsquo;ll scope it.</p></details>
-        <details><summary>You&rsquo;re in Cairo. How does the time difference work?</summary><p>I work afternoons and evenings Cairo time, which overlaps with US mornings and the full Gulf working day. Both calls are scheduled at a time that suits you.</p></details>
-        <details><summary>Do we have to hire you for the fixes?</summary><p>No. The roadmap is written so your team, or anyone you choose, can follow it. If you do hire me for the build within 30 days, the full audit fee comes off the project.</p></details>
-        <details><summary>How do we pay?</summary><p>50% to start and 50% when the report is delivered, by bank transfer or card through an invoice. Prefer escrow? I can set it up as an Upwork contract instead, so your payment is held until you approve the report. The full <a href="crm-revenue-audit-terms.html" style="color:var(--sf);text-decoration:underline">scope and terms</a> are on one page.</p></details>
-      </div>
-    </div>
-  </section>
+<section class="block" id="fit" aria-labelledby="fit-h"><div class="wrap">
+  <div class="head" style="margin-bottom:28px"><p class="kicker">Is this for you?</p><h2 id="fit-h">A good fit, and not</h2></div>
+  <div class="fit">
+    <div><h3>A good fit if you…</h3><ul><li>Buy houses or wholesale, and your team works out of Salesforce, including investor CRMs built on it</li><li>Spend real money on marketing and want to know what's working</li><li>Have a CRM someone else built, and aren't sure what it does anymore</li><li>Are about to hire, add reps, open a market or change lead sources</li></ul></div>
+    <div class="no"><h3>Probably not yet if you…</h3><ul><li>Run on Podio, REsimpli, GoHighLevel or spreadsheets. You need a <a href="move-to-salesforce.html">move to Salesforce</a>, scoped on a free call</li><li>Need the fixes built this week. That's a build project, which we can scope</li><li>Want a full rebuild price before anyone has looked at your setup</li></ul></div>
+  </div>
+</div></section>
 
-  <section class="req" id="request">
-    <div class="w">
-      <div class="side">
-        <span class="eyebrow" style="color:var(--gold2)">Request the audit</span>
-        <h2>Tell me a bit about <em>your team</em></h2>
-        <p>I&rsquo;ll reply within one working day with a couple of questions and a start date. I take on a small number of audits each month so each one gets proper attention.</p>
-        <p data-book-only style="display:none;margin-top:14px"><a href="#request" data-book style="color:var(--gold2);text-decoration:underline;font-weight:600">Skip the form and book a 30-minute call &rarr;</a></p>
-        <p data-deposit-only style="display:none;margin-top:14px">Already decided? <a href="#request" data-deposit style="color:var(--gold2);text-decoration:underline;font-weight:600">Pay the $750 deposit</a> and I&rsquo;ll reply with your start date and kick-off time.</p>
-        <p style="margin-top:14px">Prefer email? <a href="mailto:info@AmrMagdy.com?subject=CRM%20Revenue%20Audit" style="color:var(--gold2);text-decoration:underline">info@AmrMagdy.com</a></p>
-      </div>
-      <form id="ra-form">
-        <input type="text" name="website" style="position:absolute;left:-9999px;opacity:0" tabindex="-1" autocomplete="off" aria-hidden="true">
-        <input type="hidden" name="access_key" value="b17e278f-b185-498c-8f7a-c861629f6a3c">
-        <input type="hidden" name="subject" value="CRM Revenue Audit request">
-        <label for="ra-name">Name</label>
-        <input id="ra-name" name="name" type="text" required placeholder="Your name">
-        <label for="ra-email">Work email</label>
-        <input id="ra-email" name="email" type="email" required placeholder="you@company.com">
-        <label for="ra-co">Company and market</label>
-        <input id="ra-co" name="company" type="text" placeholder="e.g. Acme Home Buyers, Dallas">
-        <label for="ra-crm">Which CRM are you on?</label>
-        <select id="ra-crm" name="crm"><option>Salesforce</option><option>Another CRM (I want to move to Salesforce)</option><option>Not sure / mixed</option></select>
-        <label for="ra-msg">What&rsquo;s bugging you most about it right now?</label>
-        <textarea id="ra-msg" name="message" placeholder="One or two sentences is plenty"></textarea>
-        <button type="submit" class="btn btn-gold">Send request</button>
-        <div id="ra-status" role="status" aria-live="polite"></div>
-      </form>
-    </div>
-  </section>
+<section class="block alt" id="terms" aria-labelledby="terms-h"><div class="wrap">
+  <div class="head"><p class="kicker">The terms</p><h2 id="terms-h">Your money back if it finds too little</h2></div>
+  <div class="promise">
+    <div><h3>The promise</h3><p>If the report doesn't give you at least five specific, fixable issues worth more than the fee, tell me on the walkthrough and I refund it in full. No forms, no argument.</p></div>
+    <div><h3>Founding clients</h3><p>The first three audit clients get a direct WhatsApp line to me for questions about their org, during the audit and for 30 days after. In return, a short case study written with you, published only with your OK.</p></div>
+    <div><h3>Paying</h3><p>50% to start, 50% when the report is delivered, by invoice. Prefer escrow? It can run as an Upwork contract, so your payment is held until you approve the report.</p></div>
+  </div>
+  <div class="more"><a class="tlink" href="crm-revenue-audit-terms.html">Read the full scope and terms</a></div>
+</div></section>
+
+
+<section class="block" id="faq" aria-labelledby="faq-h"><div class="wrap">
+  <div class="head"><p class="kicker">Questions</p><h2 id="faq-h">Before you ask</h2></div>
+  <div class="faq">
+    <details><summary>What access do you need?</summary><p>A read-only Salesforce user covers most of the review. You create it, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first.</p></details>
+    <details><summary>How long does it take?</summary><p>We set the walkthrough date together on the kick-off call, so you know the finish date before the review starts. In between: my review, up to 3 agreed quick fixes, and the report, which reaches you before the walkthrough. Your part is about two hours in total.</p></details>
+    <details><summary>Do we have to hire you for the fixes?</summary><p>No. The roadmap is written so your team, or anyone you choose, can follow it. If you do hire me for the build within 30 days, the full audit fee comes off the project.</p></details>
+    <details><summary>What if we're not on Salesforce?</summary><p>Then the audit isn't the right step. You need a move to Salesforce: I map what you track today, move your data and build around how your team works. <a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a> and we'll scope it.</p></details>
+    <details><summary>You're in Cairo. How does the time difference work?</summary><p>I work Cairo afternoons and evenings, which is the US morning and the UK afternoon. That's how I've worked with a home-buying company in Ohio for two years. Both calls are booked at a time that suits you.</p></details>
+    <details><summary>How do we pay?</summary><p>50% to start and 50% when the report is delivered, by bank transfer or card through an invoice. Prefer escrow? It can run as an Upwork contract instead, so your payment is held until you approve the report. The full <a href="crm-revenue-audit-terms.html">scope and terms</a> are on one page.</p></details>
+    <details><summary>What if the audit doesn't find much?</summary><p>Then you shouldn't pay for it. If the report doesn't give you at least five specific, fixable issues worth more than the fee, tell me on the walkthrough and I refund it in full. No forms, no argument.</p></details>
+  </div>
+</div></section>
+
+<section class="close" id="request" aria-labelledby="request-h"><div class="wrap close-grid">
+  <div>
+    <p class="kicker">Request the audit</p>
+    <h2 id="request-h">Tell me a bit about your team.</h2>
+    <p class="lead">I'll reply within one working day with a couple of questions and a start date. I take on a small number of audits each month, so each one gets proper attention.</p>
+    <ul class="reach">
+      <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span><b>Rather talk first? Book a 30-minute call</b><small>Free, on my calendar, no back and forth</small></span></a></li>
+      <li><a href="mailto:info@AmrMagdy.com?subject=CRM%20Revenue%20Audit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg><span><b>info@AmrMagdy.com</b><small>Prefer email? That works too</small></span></a></li>
+      <li data-deposit-only style="display:none"><a href="#request" data-deposit><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg><span><b>Already decided? Pay the $750 deposit</b><small>I reply with your start date and kick-off time</small></span></a></li>
+    </ul>
+  </div>
+  <form class="form" id="ra-form" data-w3f="audit" action="https://api.web3forms.com/submit" method="POST">
+    <h3>Request the audit</h3>
+    <p class="intro">No payment now. I'll reply with a couple of questions and a start date.</p>
+    <input type="hidden" name="access_key" value="b17e278f-b185-498c-8f7a-c861629f6a3c">
+    <input type="hidden" name="subject" value="CRM Revenue Audit request">
+    <input type="checkbox" name="botcheck" class="hp" tabindex="-1" aria-hidden="true">
+    <div class="hp" aria-hidden="true"><label for="ra-website">Website</label><input id="ra-website" type="text" name="website" tabindex="-1" autocomplete="off"></div>
+    <div class="field"><label for="ra-name">Name</label><input id="ra-name" name="name" type="text" required autocomplete="name"></div>
+    <div class="field"><label for="ra-email">Email</label><input id="ra-email" name="email" type="email" required autocomplete="email" inputmode="email"></div>
+    <div class="field"><label for="ra-co">Company and market <span class="opt">(optional)</span></label><input id="ra-co" name="company" type="text" autocomplete="organization" placeholder="e.g. Acme Home Buyers, Dallas"></div>
+    <div class="field"><label for="ra-crm">Which CRM are you on?</label><select id="ra-crm" name="crm"><option>Salesforce</option><option>An investor CRM built on Salesforce</option><option>Another CRM or spreadsheets (move to Salesforce)</option><option>Not sure, or a mix</option></select></div>
+    <div class="field"><label for="ra-msg">What's bugging you most about it right now? <span class="opt">(optional)</span></label><textarea id="ra-msg" name="message" placeholder="One or two sentences is plenty"></textarea></div>
+    <button type="submit" class="btn">Send request</button>
+    <p class="status" role="status" aria-live="polite"></p>
+  </form>
+</div></section>
 </main>
 
-<!-- ask-cta:start -->
-<section class="ask-cta" aria-label="Ask a question" style="max-width:860px;margin:44px auto 0;padding:0 20px">
-<div style="background:#0b1f3a;color:#fff;border-radius:16px;padding:26px 26px 24px;border-top:4px solid #d4a23e">
-<p style="margin:0 0 6px;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#d4a23e;font-weight:700">Found this useful?</p>
-<h2 style="margin:0 0 8px;color:#fff;font-size:1.45rem;line-height:1.25">Ask me how this would work in your CRM.</h2>
-<p style="margin:0 0 18px;color:#c9d4e3;line-height:1.55">Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.</p>
-<div style="display:flex;flex-wrap:wrap;gap:10px">
-<a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Find%20out%20where%20your%20CRM%20is%20losing%20deals%2C%20before%20you%20buy%20more%20leads&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/crm-revenue-audit.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="background:#d4a23e;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">Email a question</a>
-<a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Find%20out%20where%20your%20CRM%20is%20losing%20deals%2C%20before%20you%20buy%20more%20leads%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="background:#fff;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">WhatsApp</a>
-<a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="background:transparent;color:#fff;font-weight:700;text-decoration:none;padding:10px 17px;border-radius:999px;border:1.5px solid #5d7393">Message on LinkedIn</a>
-<a href="index.html#contact" onclick="if(window.gtag)gtag('event','contact_click',{method:'call_request',page_path:location.pathname})" style="background:transparent;color:#fff;font-weight:700;text-decoration:none;padding:10px 17px;border-radius:999px;border:1.5px solid #5d7393">Request a free call</a>
-</div></div></section>
-<!-- ask-cta:end -->
-<footer><div class="wrap-wide"><div class="fi">
-  <div>© 2026 <strong>Amr Magdy</strong> &middot; Salesforce CRM Consultant for Real Estate Investors.</div>
-  <div class="fl"><a href="index.html">Home</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="wholesaling-cost-per-deal-calculator.html">Cost Per Deal Calculator</a><a href="mailto:info@AmrMagdy.com">Email</a><a href="resources.html">Free tools</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a></div>
-</div></div></footer>
+<footer class="foot"><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
+    <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
+      <li><a href="./">Home</a></li>
+      <li><a href="sample-audit-report.html">Sample audit report</a></li>
+      <li><a href="crm-revenue-audit-terms.html">Audit scope and terms</a></li>
+      <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
+      <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
+      <li><a href="missed-call-cost-calculator.html">Missed call cost</a></li>
+      <li><a href="monday-5-real-estate-kpis.html">The Monday 5</a></li>
+      <li><a href="resources.html">All free tools</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
+      <li><a href="real-estate-crm-guide.html">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a></li>
+      <li><a href="questions-from-wholesalers.html">Questions, answered</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
+      <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
+      <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
+      <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate.html">Canada</a> · <a href="salesforce-consultant-uk-estate-agents.html">UK</a></li>
+      <li><a href="about.html">About me</a></li>
+    </ul></nav>
+  </div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant</span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+</div></footer>
 
-<script>
-(function(){
-  var form=document.getElementById('ra-form'),status=document.getElementById('ra-status');
-  form.addEventListener('submit',function(e){
-    e.preventDefault();
-    status.style.color='#475569';status.textContent='Sending…';
-    fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)})
-      .then(function(r){return r.json();})
-      .then(function(d){if(d&&d.success){var L=window.AMR_LINKS||{},x=[];if(L.book)x.push('<a href="'+L.book+'" target="_blank" rel="noopener" style="text-decoration:underline;font-weight:600">book your kick-off call now</a>');if(L.deposit)x.push('<a href="'+L.deposit+'" target="_blank" rel="noopener" style="text-decoration:underline;font-weight:600">pay the $750 deposit</a> to lock your start date');status.style.color='#1f8a4c';status.innerHTML='Thanks, got it. I\'ll reply within one working day.'+(x.length?' Want to move faster? You can '+x.join(', or ')+'.':'');form.reset();}else{throw 0;}})
-      .catch(function(){status.style.color='#b42318';status.innerHTML='That didn\'t go through. Please email <a href="mailto:info@AmrMagdy.com?subject=CRM%20Revenue%20Audit" style="text-decoration:underline">info@AmrMagdy.com</a>.';});
-  });
-})();
-</script>
-<script>
-(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
-</script>
+<div class="mcta" id="mcta" data-stop="#request"><a class="f" href="#request">Request the audit</a><a class="g" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></div>
+
+<script src="assets/site.js" defer></script>
 <script src="booking.js" defer></script>
 </body>
 </html>
