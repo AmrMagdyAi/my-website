@@ -34,7 +34,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 ## Current focus (October 2026)
 - Who he works with: real estate investors, home-buying companies and wholesalers in the United States first, and in Canada and Europe (including the UK).
 - What he builds: the Salesforce system a home-buying company runs on, from marketing campaign to closed deal: campaign ROI by market, speed to lead, missed-call alerts, shared lead queues, underwriting on the opportunity, a transactions board, RingCentral call sync, DocuSign alerts and a no-code rules engine.
-- Proof: for the last two years he has built and run the Salesforce org behind Central City Solutions, a home-buying company in Columbus, Ohio.
+- Proof: for the last two years he has built and run the Salesforce org behind a two-market home-buying company in Ohio.
 - Working hours: afternoons and evenings Cairo time, which covers US mornings and the full Gulf business day.
 
 ## Services and prices
