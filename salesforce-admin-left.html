@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');else if(h.indexOf('.csv')>-1||h.indexOf('.pdf')>-1)gtag('event','file_download',{file_name:h});});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Salesforce Admin Left: A 2-Week Handover Plan</title>
+<meta name="description" content="Your Salesforce admin quit or gave notice. What to do in the first hour, why to freeze before you deactivate, what runs under their name, and a 2-week checklist.">
+<link rel="canonical" href="https://amrmagdy.com/salesforce-admin-left.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://amrmagdy.com/salesforce-admin-left.html">
+<meta property="og:title" content="Your Salesforce admin just left. Here are the first two weeks.">
+<meta property="og:description" content="Your Salesforce admin quit or gave notice. What to do in the first hour, why to freeze before you deactivate, what runs under their name, and a 2-week checklist.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
+<meta property="og:site_name" content="Amr Magdy">
+<meta property="article:published_time" content="2026-10-25">
+<meta property="article:modified_time" content="2026-10-25">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Your Salesforce admin just left. Here are the first two weeks.">
+<meta name="twitter:description" content="Your Salesforce admin quit or gave notice. What to do in the first hour, why to freeze before you deactivate, what runs under their name, and a 2-week checklist.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.sec2{margin-top:44px;max-width:820px}
+.sec2 h2{font-size:1.5rem;margin:34px 0 8px;scroll-margin-top:calc(var(--nav) + 16px)}
+.sec2 h3{font-size:1.08rem;margin:22px 0 6px}
+.sec2 p,.sec2 li{color:var(--txt2);line-height:1.78}
+.sec2 p{margin:8px 0}
+.sec2 ul,.sec2 ol{padding-left:1.2rem;margin:8px 0}
+.sec2 li{margin:4px 0}
+.sec2 a{color:var(--sf);text-decoration:underline;text-underline-offset:2px}
+.sec2 strong{color:var(--txt)}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:18px}
+.card h3{margin-top:0}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;border:1px solid var(--bd);border-radius:14px;background:var(--bg2)}
+.tw table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:560px}
+.tw th,.tw td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--bd);color:var(--txt2);line-height:1.55}
+.tw th{color:var(--txt);font-weight:700;background:var(--bg);position:sticky;top:0}
+.tw td:first-child{color:var(--txt);font-weight:600}
+.dl dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:12px}
+.dl dd{color:var(--txt2);line-height:1.7;margin:2px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.toc a{border:1px solid var(--bd2);border-radius:999px;padding:5px 12px;font-size:.82rem;color:var(--txt)}
+.fig{margin:18px 0;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:16px}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{font-size:.84rem;color:var(--txt3);margin-top:8px;line-height:1.6}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin:0 0 8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--bg);border:1px solid var(--bd2);color:var(--txt2);margin-right:6px}
+.warn{background:var(--bg2);border:1.5px solid var(--gold);border-left-width:6px;border-radius:14px;padding:14px 18px;margin:18px 0 0;color:var(--txt2);line-height:1.7;max-width:820px}
+.dlbox{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--bg2);border:1.5px dashed var(--gold);border-radius:16px;padding:16px 18px;margin:18px 0}
+.dlbox p{margin:0;flex:1 1 240px}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}nav .nb.nb-call{margin-left:auto!important}}
+
+.ans{background:var(--bg2);border:1px solid var(--bd);border-left:6px solid var(--sf);border-radius:14px;padding:16px 20px;margin:22px 0 0;max-width:820px}
+.ans p{margin:0;color:var(--txt2);line-height:1.75}.ans .k{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--txt3);font-weight:700;margin-bottom:4px}
+.chk{list-style:none;padding-left:0!important}.chk li{position:relative;padding-left:1.6rem}.chk li::before{content:'';position:absolute;left:0;top:.45em;width:.9rem;height:.9rem;border:1.5px solid var(--sf);border-radius:4px}
+.rel2{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:12px}
+.rel2 a{display:block;border:1px solid var(--bd);border-radius:14px;padding:14px 16px;background:var(--bg2);text-decoration:none!important;color:var(--txt)!important}
+.rel2 a b{display:block;font-size:.95rem;margin-bottom:4px}.rel2 a span{display:block;font-size:.84rem;color:var(--txt3);line-height:1.5}
+.src{font-size:.86rem}.src li{margin:6px 0}
+.ex{font-size:.86rem;color:var(--txt3);font-style:italic}
+.faqcat{margin-top:40px}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Your Salesforce admin just left. Here are the first two weeks.", "description": "Your Salesforce admin quit or gave notice. What to do in the first hour, why to freeze before you deactivate, what runs under their name, and a 2-week checklist.", "url": "https://amrmagdy.com/salesforce-admin-left.html", "mainEntityOfPage": "https://amrmagdy.com/salesforce-admin-left.html", "inLanguage": "en-US", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-card.jpg", "about": [{"@type": "Thing", "name": "Salesforce administration"}, {"@type": "Thing", "name": "Employee offboarding"}, {"@type": "Thing", "name": "Real estate investing"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Should I freeze or deactivate a Salesforce user who left?", "acceptedAnswer": {"@type": "Answer", "text": "Freeze first. Freezing blocks login without changing anything they own. Deactivate after you've moved their records, integrations, scheduled reports and anything else that depends on their user, because deactivating too early can break dashboards and automations."}}, {"@type": "Question", "name": "Does freezing a Salesforce user free up the license?", "acceptedAnswer": {"@type": "Answer", "text": "No. A frozen user still counts against your licenses. You have to deactivate the user to free the license, and even then your bill only drops if you lower the license count with Salesforce."}}, {"@type": "Question", "name": "Why won't Salesforce let me deactivate a user?", "acceptedAnswer": {"@type": "Answer", "text": "Common reasons are that the user is the only recipient of a workflow email alert, or is selected in a custom hierarchy field. Salesforce's advice is to freeze the user, change or reassign what depends on them, then deactivate."}}, {"@type": "Question", "name": "What happens to flows when the admin who built them leaves?", "acceptedAnswer": {"@type": "Answer", "text": "Most flows keep running. Record-triggered flows run when records change, whoever built them. The risk is that failure emails go to the person who last edited the flow by default, so nobody hears about errors once that inbox is gone. Change the setting in Process Automation Settings."}}, {"@type": "Question", "name": "What happens to the leads and deals the admin owned?", "acceptedAnswer": {"@type": "Answer", "text": "They stay owned by that user until you move them. Use Mass Transfer Records in Setup for leads and accounts, and check your assignment rules and default lead owner so new leads don't keep landing with them."}}, {"@type": "Question", "name": "Can someone take over a Salesforce org they didn't build?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it's common. Start with the checklist on this page, then document the org before changing anything. If you're short on time, a retainer admin can do the handover work and keep things running while you decide on a long-term hire."}}, {"@type": "Question", "name": "How long does a Salesforce admin handover take?", "acceptedAnswer": {"@type": "Answer", "text": "For a 10 to 50 person investor team, plan on about two weeks to do it properly: day one for access, week one for everything that runs under their name, week two for documentation. It goes faster if the person leaving helps."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Your Salesforce admin left", "item": "https://amrmagdy.com/salesforce-admin-left.html"}]}]}</script>
+</head>
+<body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
+  <a href="resources.html" class="nb hide-sm">Free tools</a>
+  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
+  <a href="index.html#contact" class="nb nb-call" style="margin-left:0">Book a free call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Guide · by Amr Magdy · Oct 2026</span>
+<h1>Your Salesforce admin just left. <em>Here are the first two weeks.</em></h1>
+<p class="lead">This is for the owner or ops lead at a home-buying or wholesaling company whose Salesforce person just quit, gave notice or stopped answering. Salesforce keeps running for a while on its own, which is the dangerous part: the things that break first are the quiet ones, and you usually find out from a seller who never got a callback. Here's what I'd do, in order.</p>
+<div class="ans"><span class="k">Short answer</span><p>Don't delete or deactivate their user on day one. <strong>Freeze</strong> it so they can't log in, make sure someone still with you has System Administrator access, and then find everything that runs under their name: flows and their error emails, integrations logged in as them, scheduled reports, records and queues they own. Move those first, then deactivate. Budget about two weeks to do it properly.</p></div>
+<div class="toc"><a href="#first-hour">First hour</a><a href="#freeze">Freeze or deactivate?</a><a href="#runs-as">What runs under their name</a><a href="#breaks">What breaks first</a><a href="#ask">Questions to ask them</a><a href="#document">Write it down</a><a href="#cover">Who covers it now</a><a href="#checklist">The checklist</a><a href="#faq">Questions</a></div>
+<section class="sec2">
+<h2 id="first-hour">What should you do in the first hour?</h2>
+<p>Four things, and none of them involve changing how Salesforce works yet.</p>
+<ol>
+<li><strong>Make sure you still have an admin.</strong> Go to Setup, then Users, and look at who has the System Administrator profile. If the person who left was the only one, that's the first problem to fix. Give a second trusted person admin access today. If nobody still with you has it, contact Salesforce Support or your Salesforce account executive now. They'll need to confirm you're authorized for the org before they can help, and that takes time.</li>
+<li><strong>Freeze their user.</strong> On the user's record there's a Freeze button. It stops them logging in without touching anything they own. More on why not to deactivate below.</li>
+<li><strong>Change the shared passwords they knew.</strong> Dialer, texting tool, Zapier, the Gmail or Outlook account used for lead notifications, your website forms. In investor companies these are often shared logins, and the admin had all of them.</li>
+<li><strong>Check Login History.</strong> Setup has a Login History page. If you see their user logging in after they left, or logins from an integration you don't recognize, you know where to look next.</li>
+</ol>
+<p>If you're on an investor CRM built on Salesforce, call the vendor too. Ask them, in writing, what they look after and what was your admin's job. Teams often find out at this point that some of the automations were built by their own person on top of the vendor's setup, and the vendor doesn't support those.</p>
+
+<h2 id="freeze">Should you freeze or deactivate a Salesforce user who left?</h2>
+<p>Freeze first. Deactivate later, once you've moved what depends on them.</p>
+<p>Freezing only blocks login. Everything they own stays as it is, and every automation that references them keeps working. The catch is that a frozen user still uses a license, so you keep paying for the seat until you deactivate.</p>
+<p>Deactivating is where things go wrong if you rush it. Salesforce's own list of things to consider before deactivating a user includes several that hit investor orgs:</p>
+<ul>
+<li>You can't deactivate someone who's the only recipient of a workflow email alert, or who's selected in a custom hierarchy field, until you change those.</li>
+<li>A dashboard whose running user is deactivated can show unexpected results. If your admin built the owner's dashboard and it runs as them, that's your Monday numbers.</li>
+<li>Older Process Builder automations can't update records owned by an inactive user, so any lead or deal still owned by them can quietly stop updating.</li>
+<li>Files they uploaded stay owned by them.</li>
+<li>If they own more than 10,000 records of one object, Salesforce recommends transferring those before you deactivate.</li>
+</ul>
+<p>One more thing people don't expect: deactivating frees the license for someone else, but your bill doesn't go down unless you also lower the number of licenses with Salesforce. If you don't plan to backfill the seat, ask your account executive about it at renewal. That's also a good moment to ask about a discount, which teams can often get depending on the business and the number of users.</p>
+
+<h2 id="runs-as">What runs under their name?</h2>
+<p>This is the real work of the first week. Most of what an admin builds keeps running without them, but a lot of it reports to them, logs in as them or is owned by them. Go through each row. If nobody left on your team is comfortable in Setup, hand this table to whoever covers Salesforce next. It's the list I'd work through if I took over your org.</p>
+<div class="tw"><table>
+<thead><tr><th>Where to look</th><th>Why it matters</th><th>What to do</th></tr></thead>
+<tbody>
+<tr><td>Flow error emails</td><td>By default, when a flow fails, Salesforce emails the person who last edited that flow. If that was your admin, failures now go to a dead inbox and nobody hears about them.</td><td>In Setup, open Process Automation Settings and send flow error emails to the Apex Exception Email recipients instead. Then add two people who are staying (Setup, Email, Apex Exception Email).</td></tr>
+<tr><td>Default Workflow User</td><td>Scheduled flows and some time-based steps run as this user. If it's set to your admin, those jobs are tied to a person who's gone.</td><td>Change it in Process Automation Settings to an admin who's staying, or to a dedicated automation user.</td></tr>
+<tr><td>Integrations</td><td>Dialer call sync, texting, DocuSign, QuickBooks, Zapier, Make, your website forms. If any of them connected to Salesforce with your admin's login, they stop the day you deactivate.</td><td>List every connected tool and which Salesforce user it signs in as. Move each one to a dedicated integration user. Enterprise and higher editions have included free Salesforce Integration user licenses since 2023, built for exactly this.</td></tr>
+<tr><td>Connected apps</td><td>Apps your admin authorized can keep a token after they leave.</td><td>Check Connected Apps OAuth Usage in Setup and revoke anything you don't recognize.</td></tr>
+<tr><td>Scheduled reports and dashboards</td><td>Weekly emails to the owner, daily numbers to Slack, a TV dashboard in the office. If they're scheduled by or run as your admin, they break or show the wrong data.</td><td>Reassign the running user and the schedule owner. Open each dashboard and check the numbers still look right.</td></tr>
+<tr><td>Records, queues and assignment rules</td><td>Leads, deals and tasks owned by them. Assignment rules or the default lead owner pointing at them. New leads can land with a user nobody watches.</td><td>Use Mass Transfer Records in Setup for leads and accounts, and fix the assignment rule entries and the default lead owner in Lead Settings.</td></tr>
+<tr><td>Email alerts and templates</td><td>Alerts sent to them alone, or "from" their address.</td><td>Point alerts at a role, a queue or a shared inbox instead of one person.</td></tr>
+<tr><td>Scheduled jobs and exports</td><td>Scheduled Apex and data exports keep running under the user who scheduled them.</td><td>Check Scheduled Jobs and Data Export in Setup, and reschedule under someone who's staying.</td></tr>
+<tr><td>Company information</td><td>If they're the primary contact on the org, Salesforce's security and billing notices go to them.</td><td>Update the primary contact in Company Information.</td></tr>
+</tbody></table></div>
+<p>While you're in there, open the Automation app (it's in the app launcher in recent releases). Its Monitor tab lists failed and paused flow runs with the reason, which is the fastest way to see whether anything has already started failing since your admin left.</p>
+
+<h2 id="breaks">What breaks first in a home-buying company?</h2>
+<p>I run the Salesforce for a two-market home-buying company in Ohio. If I left tomorrow, these are the things I'd want the next person to check first, because they run every day, they fail without any noise, and the team notices last:</p>
+<ul>
+<li><strong>Missed-call alerts.</strong> A seller calls a marketing number, nobody picks up, and the alert that should go to a rep or a Slack channel doesn't fire. You find out when the seller signs with someone else.</li>
+<li><strong>Dialer call sync.</strong> Calls stop landing on the seller record. Reps keep working, the record goes quiet, and the "no activity in 7 days" list fills with leads that were actually called.</li>
+<li><strong>New marketing numbers.</strong> The admin was the one who added each new call-tracking number and mapped it to a lead source. Nobody does it now, so new campaigns show up as "unknown" and your cost per contract by source drifts without anyone noticing.</li>
+<li><strong>Follow-up that stops on reply.</strong> If the text cadence breaks, it either stops for everyone or keeps texting sellers who already answered. The second one is the expensive one.</li>
+<li><strong>Contract and closing alerts.</strong> Unsigned DocuSign reminders, title and closing tasks, deadline tasks on deals under contract.</li>
+<li><strong>New hires.</strong> Nobody knows how to set up a new rep: user, permission set, dialer, texting, assignment. The new rep ends up working out of a spreadsheet for two weeks.</li>
+</ul>
+<p>For each one, do a live test this week: call a marketing number and let it ring out, text a test lead and reply, create a test lead from your web form. Watching it work is faster than reading how it was built.</p>
+
+<h2 id="ask">What should you ask your admin before they go?</h2>
+<p>If they gave notice and you're on good terms, pay them for a few hours of handover and record the calls. These are the questions I'd ask, and I'd want my own replacement to ask me the same:</p>
+<ol>
+<li>What breaks most often, and what do you do when it does?</li>
+<li>What do you check by hand every week that isn't automated?</li>
+<li>Which logins, API connections or accounts are in your name?</li>
+<li>Which automations are you nervous about, and why?</li>
+<li>What's held together with a workaround you meant to fix?</li>
+<li>Is anything scheduled to run monthly or quarterly that we haven't seen yet?</li>
+<li>Who else has admin access, and why?</li>
+<li>Which reports does the owner actually read, and which ones are wrong?</li>
+<li>What were you halfway through building?</li>
+<li>If you had a week to rebuild one thing, what would it be?</li>
+</ol>
+<p>If they've already gone and won't help, don't panic. Everything below can be worked out from the org itself. It just takes longer.</p>
+
+<h2 id="document">How do you write down what they built?</h2>
+<p>You don't need a 40-page document. You need enough that the next person can find their way around without guessing. I'd write three things.</p>
+<h3>1. A one-page map of how a lead moves</h3>
+<p>From the first call or form to a closed deal: lead sources, how leads are created, how they're assigned, what follow-up runs, what happens at offer, contract, closing and dispo. For each step, note which automation runs and which report shows it. If you use the <a href="kept-deal-map.html">Kept-Deal Map</a>, its five stages (spend, answer, follow-up, offer, keep) are a good skeleton.</p>
+<h3>2. A list of every automation</h3>
+<p>Setup lists every flow. Put each one in a sheet with one line each: what it does, which object it runs on, whether it's active, and who asked for it, if anyone knows. Add every Zap and Make scenario that touches Salesforce, because those don't show up in Setup at all.</p>
+<h3>3. A record of recent changes, before it disappears</h3>
+<p>Download the Setup Audit Trail this week. It's the only record of what your admin changed in Setup, and Salesforce only keeps 180 days of it. After that, the history of how your org got this way is gone. It downloads as a CSV from the View Setup Audit Trail page.</p>
+
+<h2 id="cover">Who covers Salesforce now?</h2>
+<p>Three honest options, and the right one depends on how much changes in your business month to month:</p>
+<ul>
+<li><strong>Hire a replacement.</strong> Right if you have a full week of Salesforce work every week. Hiring takes time, so plan for a gap. My guide to <a href="hire-salesforce-admin-real-estate.html">hiring a Salesforce admin for a real estate team</a> has the job post, ten interview questions and salary data.</li>
+<li><strong>A monthly retainer.</strong> Right if you have a steady trickle of changes but not a full-time job's worth. It also works as a bridge while you hire. The trade-offs are in <a href="salesforce-admin-real-estate-investors.html">hire, freelancer or retainer</a>.</li>
+<li><strong>Your ops lead covers it.</strong> Fine for small changes, as long as they have a backup and someone checks the automations every month.</li>
+</ul>
+<p>Whatever you choose, make it a rule from now on that two people have admin access, and that nothing important runs as one person's login.</p>
+
+<h2 id="checklist">The two-week checklist</h2>
+<p>Copy this into a task list and tick it off.</p>
+<h3>Day one</h3>
+<ul class="chk">
+<li>A second person who's staying has System Administrator access</li>
+<li>Their user is frozen, not deactivated</li>
+<li>Shared passwords they knew are changed (dialer, texting, Zapier, notification inbox, web forms)</li>
+<li>Login History checked for activity after they left</li>
+<li>Vendor called, if you're on an investor CRM built on Salesforce</li>
+</ul>
+<h3>Week one</h3>
+<ul class="chk">
+<li>Flow error emails go to Apex Exception Email recipients, with two people listed</li>
+<li>Default Workflow User changed</li>
+<li>Every integration moved to a dedicated integration user</li>
+<li>Connected Apps OAuth Usage checked and unknown apps revoked</li>
+<li>Scheduled reports and dashboards reassigned, and the numbers checked</li>
+<li>Records, queues, assignment rule entries and the default lead owner moved</li>
+<li>Email alerts that go only to them pointed somewhere else</li>
+<li>Scheduled jobs and data exports rescheduled</li>
+<li>Company Information primary contact updated</li>
+<li>Live tests: missed call, text reply, web form lead, a test deal moved to closing</li>
+<li>Automation app Monitor tab checked for failed flow runs</li>
+</ul>
+<h3>Week two</h3>
+<ul class="chk">
+<li>Setup Audit Trail downloaded and saved</li>
+<li>One-page lead-to-close map written</li>
+<li>Automation list written, including Zaps and Make scenarios</li>
+<li>Handover questions answered, if they're willing</li>
+<li>Decision made on who covers Salesforce now</li>
+<li>User deactivated, and the license count reviewed with Salesforce</li>
+</ul>
+</section>
+<section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>Should I freeze or deactivate a Salesforce user who left?</h3><p>Freeze first. Freezing blocks login without changing anything they own. Deactivate after you've moved their records, integrations, scheduled reports and anything else that depends on their user, because deactivating too early can break dashboards and automations.</p></div><div class="cq"><h3>Does freezing a Salesforce user free up the license?</h3><p>No. A frozen user still counts against your licenses. You have to deactivate the user to free the license, and even then your bill only drops if you lower the license count with Salesforce.</p></div><div class="cq"><h3>Why won't Salesforce let me deactivate a user?</h3><p>Common reasons are that the user is the only recipient of a workflow email alert, or is selected in a custom hierarchy field. Salesforce's advice is to freeze the user, change or reassign what depends on them, then deactivate.</p></div><div class="cq"><h3>What happens to flows when the admin who built them leaves?</h3><p>Most flows keep running. Record-triggered flows run when records change, whoever built them. The risk is that failure emails go to the person who last edited the flow by default, so nobody hears about errors once that inbox is gone. Change the setting in Process Automation Settings.</p></div><div class="cq"><h3>What happens to the leads and deals the admin owned?</h3><p>They stay owned by that user until you move them. Use Mass Transfer Records in Setup for leads and accounts, and check your assignment rules and default lead owner so new leads don't keep landing with them.</p></div><div class="cq"><h3>Can someone take over a Salesforce org they didn't build?</h3><p>Yes, and it's common. Start with the checklist on this page, then document the org before changing anything. If you're short on time, a retainer admin can do the handover work and keep things running while you decide on a long-term hire.</p></div><div class="cq"><h3>How long does a Salesforce admin handover take?</h3><p>For a 10 to 50 person investor team, plan on about two weeks to do it properly: day one for access, week one for everything that runs under their name, week two for documentation. It goes faster if the person leaving helps.</p></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="hire-salesforce-admin-real-estate.html"><b>Hiring a Salesforce admin</b><span>Job post, ten interview questions, a paid test and 2026 salary data.</span></a><a href="salesforce-admin-real-estate-investors.html"><b>Hire, freelancer or retainer?</b><span>Which kind of admin help fits a 10 to 50 person investor team.</span></a><a href="salesforce-automation-recipes-wholesalers.html"><b>Automation recipes</b><span>The automations most wholesaling teams run, written out.</span></a><a href="salesforce-health-check.html"><b>10-point health check</b><span>A quick self-check of the org you just inherited.</span></a><a href="kept-deal-map.html"><b>The Kept-Deal Map</b><span>Five stages to map how a lead becomes a closed deal.</span></a><a href="salesforce-real-estate-faq.html"><b>Salesforce for investors: 50 questions</b><span>Straight answers on cost, setup, moving and admin.</span></a></div></section>
+<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.</p><ol class="src"><li><a href="https://help.salesforce.com/s/articleView?language=en_US&id=platform.users_freeze.htm&type=5" rel="noopener" target="_blank">Salesforce Help: Freeze or unfreeze user accounts</a>. Freezing blocks login and doesn't free the license</li><li><a href="https://help.salesforce.com/s/articleView?language=en_US&id=platform.users_deactivate_considerations.htm&type=5" rel="noopener" target="_blank">Salesforce Help: Considerations for deactivating users</a>. What blocks deactivation and what can break</li><li><a href="https://www.salesforceben.com/salesforce-admin-resignation-checklist-7-actions-to-take-when-your-admin-leaves/" rel="noopener" target="_blank">Salesforce Ben: Salesforce admin resignation checklist</a>. Flows, default workflow user, scheduled jobs, integration users, company information</li><li><a href="https://unofficialsf.com/understanding-the-automated-process-user-the-default-workflow-user/" rel="noopener" target="_blank">UnofficialSF: the Automated Process user and the Default Workflow User</a>. Which user scheduled flows and scheduled paths run as</li><li><a href="https://automationchampion.com/2022/01/20/how-to-designate-a-recipient-to-receive-error-emails/" rel="noopener" target="_blank">Automation Champion: who receives flow error emails</a>. Last modifier by default, or the Apex Exception Email list</li><li><a href="https://www.salesforceben.com/salesforce-release-5-free-integration-user-licenses/" rel="noopener" target="_blank">Salesforce Ben: free Salesforce Integration user licenses</a>. API-only integration users in Enterprise and higher editions</li><li><a href="https://developer.salesforce.com/workshops/admin-security-workshop/monitoring-and-response/1-audit-trail" rel="noopener" target="_blank">Salesforce Developers: Setup Audit Trail (admin security workshop)</a>. Setup history and the CSV download</li><li><a href="https://gearset.com/blog/salesforce-audit-trail/" rel="noopener" target="_blank">Gearset: Salesforce audit trail</a>. 180 days of setup history</li><li><a href="https://milestone.tech/salesforce-blog/salesforce-spring-25-release-key-updates-in-a-flash/" rel="noopener" target="_blank">Milestone: Spring '25 release notes</a>. The Automation app and its Monitor tab for failed and paused flow runs</li></ol></section>
+<div class="cta"><h2>Lost your Salesforce person?</h2><p>I can take over the handover and keep things running while you decide what's next. Ongoing Support &amp; Development is a monthly retainer with no long-term contract. If you'd rather start by finding out what's broken, the fixed-price CRM Revenue Audit (USD 1,500) is for teams already on Salesforce.</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Your%20Salesforce%20admin%20just%20left.%20Here%20are%20the%20first%20two%20weeks&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/salesforce-admin-left.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Your%20Salesforce%20admin%20just%20left.%20Here%20are%20the%20first%20two%20weeks%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+</div></main>
+
+
+<section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
+<img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong>. Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="salesforce-real-estate-faq.html">Salesforce FAQ</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="mailto:info@AmrMagdy.com">Email</a></div>
+</div></div></footer>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+
+<script src="booking.js" defer></script>
+</body>
+</html>

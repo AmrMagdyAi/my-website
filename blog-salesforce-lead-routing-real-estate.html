@@ -4,151 +4,224 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
-<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');});</script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');else if(h.indexOf('.csv')>-1||h.indexOf('.pdf')>-1)gtag('event','file_download',{file_name:h});});</script>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
-<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
-<title>Salesforce Lead &amp; Call Routing for Real Estate Teams</title>
-<meta name="description" content="Set up Salesforce lead and call routing so every seller lead and missed call reaches a rep in minutes: round robin, queues and callback tasks.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salesforce Lead &amp; Call Routing for Real Estate Investors</title>
+<meta name="description" content="How Salesforce lead routing works for home buyers and wholesalers: assignment rules, queues, 4 round robin options, call routing, after-hours, escalation and how to check it.">
 <link rel="canonical" href="https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html">
-<link rel="icon" href="imgs/fav.svg" type="image/svg+xml">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
 <meta name="theme-color" content="#f7f4ee">
-<meta property="og:title" content="Salesforce Lead &amp; Call Routing for Real Estate Teams">
-<meta property="og:description" content="Calling a lead within 5 minutes instead of 30 gave roughly 100x higher odds of reaching them in the 2007 InsideSales/MIT study. Here is how to build automatic Salesforce lead routing that puts every lead in front of an agent within minutes.">
-<meta property="og:url" content="https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html">
 <meta property="og:type" content="article">
+<meta property="og:url" content="https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html">
+<meta property="og:title" content="Salesforce lead routing for real estate investors: round robin, queues and missed calls">
+<meta property="og:description" content="How Salesforce lead routing works for home buyers and wholesalers: assignment rules, queues, 4 round robin options, call routing, after-hours, escalation and how to check it.">
 <meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
 <meta property="og:site_name" content="Amr Magdy">
+<meta property="article:published_time" content="2025-03-15">
+<meta property="article:modified_time" content="2026-10-25">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Salesforce Lead &amp; Call Routing for Real Estate Teams">
-<meta name="twitter:description" content="Calling a lead within 5 minutes instead of 30 gave roughly 100x higher odds of reaching them in the 2007 InsideSales/MIT study. Here is how to build automatic Salesforce lead routing that puts every lead in front of an agent within minutes.">
+<meta name="twitter:title" content="Salesforce lead routing for real estate investors: round robin, queues and missed calls">
+<meta name="twitter:description" content="How Salesforce lead routing works for home buyers and wholesalers: assignment rules, queues, 4 round robin options, call routing, after-hours, escalation and how to check it.">
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Salesforce Lead Routing for Real Estate: Speed to Lead Changes Everything", "description": "Calling a lead within 5 minutes instead of 30 gave roughly 100x higher odds of reaching them in the 2007 InsideSales/MIT study. Here is how to build automatic Salesforce lead routing that puts every lead in front of an agent within minutes.", "url": "https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html", "datePublished": "2025-03-15", "dateModified": "2026-10-11", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "publisher": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "image": "https://amrmagdy.com/imgs/AmrMagdyPic.webp", "keywords": "Salesforce lead routing real estate, speed to lead Salesforce, real estate CRM lead assignment, Salesforce assignment rules real estate", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html"}, "wordCount": 1200, "articleSection": "Lead Management"}</script>
+<link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="styles.css">
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"></noscript>
 <style>
-/* Page-specific styles — shared tokens live in styles.css */
-.ah{padding:calc(var(--nav) + 52px) 0 52px;border-bottom:1px solid var(--bd)}
-h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
-.meta{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.meta-a{display:flex;align-items:center;gap:8px;font-size:.87rem;font-weight:600}
-.meta-a img{width:30px;height:30px;border-radius:50%;object-fit:cover;border:1.5px solid rgba(11,107,206,.25)}
-.sep{width:1px;height:13px;background:var(--bd2)}
-.mi{font-size:.81rem;color:var(--txt3)}
-.ab{padding:60px 0 80px}
-.ab h2{font-family:'Fraunces',Georgia,serif;font-size:clamp(1.25rem,2.5vw,1.65rem);font-weight:500;letter-spacing:-.02em;margin:48px 0 16px;line-height:1.25}
-.ab h3{font-size:1.1rem;font-weight:700;margin:32px 0 12px}
-.ab p{color:var(--txt2);line-height:1.85;margin-bottom:20px;font-size:.97rem}
-.ab p strong{color:var(--txt);font-weight:700}
-.ab ul{margin:0 0 20px;padding:0;list-style:none}
-.ab li{display:flex;gap:11px;color:var(--txt2);font-size:.97rem;line-height:1.8;margin-bottom:12px}
-.ab li::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--gold);flex-shrink:0;margin-top:8px}
-.ab li strong{color:var(--txt)}
-.sr{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:32px 0}
-.sb{background:var(--bg2);border:1px solid var(--bd);border-radius:var(--r);padding:22px 16px;text-align:center;box-shadow:var(--sh-sm)}
-.sb-n{font-size:1.9rem;line-height:1;letter-spacing:-.03em;color:var(--sf)}
-.sb-l{font-size:.78rem;color:var(--txt3);margin-top:6px}
-.article-cta{background:var(--bg2);border:1px solid rgba(11,107,206,.18);border-radius:16px;padding:34px 38px;margin-top:60px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;box-shadow:var(--sh-sm)}
-.article-cta h3{font-size:1.15rem;margin-bottom:7px}
-.article-cta p{font-size:.88rem;color:var(--txt2);line-height:1.7;max-width:380px;margin:0}
-.rel{padding:60px 0;border-top:1px solid var(--bd)}
-.rel h2{font-size:1.25rem;margin-bottom:24px}
-.rel-g{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.rc{background:var(--bg2);border:1px solid var(--bd);border-radius:var(--r);padding:20px;transition:transform .25s,border-color .25s,box-shadow .25s}
-.rc h4{font-size:.91rem;line-height:1.4;margin-bottom:5px}
-.rc p{font-size:.78rem;color:var(--txt3)}
-@media(max-width:768px){
-  .sr{grid-template-columns:1fr 1fr}
-  .rel-g{grid-template-columns:1fr}
-  .article-cta{flex-direction:column;padding:24px;text-align:center}
-  .article-cta p{max-width:100%}
-  .ah{padding:calc(var(--nav) + 32px) 0 36px}
-}
-@media(max-width:480px){.sr{grid-template-columns:1fr}}
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.sec2{margin-top:44px;max-width:820px}
+.sec2 h2{font-size:1.5rem;margin:34px 0 8px;scroll-margin-top:calc(var(--nav) + 16px)}
+.sec2 h3{font-size:1.08rem;margin:22px 0 6px}
+.sec2 p,.sec2 li{color:var(--txt2);line-height:1.78}
+.sec2 p{margin:8px 0}
+.sec2 ul,.sec2 ol{padding-left:1.2rem;margin:8px 0}
+.sec2 li{margin:4px 0}
+.sec2 a{color:var(--sf);text-decoration:underline;text-underline-offset:2px}
+.sec2 strong{color:var(--txt)}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:18px}
+.card h3{margin-top:0}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;border:1px solid var(--bd);border-radius:14px;background:var(--bg2)}
+.tw table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:560px}
+.tw th,.tw td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--bd);color:var(--txt2);line-height:1.55}
+.tw th{color:var(--txt);font-weight:700;background:var(--bg);position:sticky;top:0}
+.tw td:first-child{color:var(--txt);font-weight:600}
+.dl dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:12px}
+.dl dd{color:var(--txt2);line-height:1.7;margin:2px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.toc a{border:1px solid var(--bd2);border-radius:999px;padding:5px 12px;font-size:.82rem;color:var(--txt)}
+.fig{margin:18px 0;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:16px}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{font-size:.84rem;color:var(--txt3);margin-top:8px;line-height:1.6}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin:0 0 8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--bg);border:1px solid var(--bd2);color:var(--txt2);margin-right:6px}
+.warn{background:var(--bg2);border:1.5px solid var(--gold);border-left-width:6px;border-radius:14px;padding:14px 18px;margin:18px 0 0;color:var(--txt2);line-height:1.7;max-width:820px}
+.dlbox{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--bg2);border:1.5px dashed var(--gold);border-radius:16px;padding:16px 18px;margin:18px 0}
+.dlbox p{margin:0;flex:1 1 240px}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}nav .nb.nb-call{margin-left:auto!important}}
+
+.ans{background:var(--bg2);border:1px solid var(--bd);border-left:6px solid var(--sf);border-radius:14px;padding:16px 20px;margin:22px 0 0;max-width:820px}
+.ans p{margin:0;color:var(--txt2);line-height:1.75}.ans .k{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--txt3);font-weight:700;margin-bottom:4px}
+.chk{list-style:none;padding-left:0!important}.chk li{position:relative;padding-left:1.6rem}.chk li::before{content:'';position:absolute;left:0;top:.45em;width:.9rem;height:.9rem;border:1.5px solid var(--sf);border-radius:4px}
+.rel2{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:12px}
+.rel2 a{display:block;border:1px solid var(--bd);border-radius:14px;padding:14px 16px;background:var(--bg2);text-decoration:none!important;color:var(--txt)!important}
+.rel2 a b{display:block;font-size:.95rem;margin-bottom:4px}.rel2 a span{display:block;font-size:.84rem;color:var(--txt3);line-height:1.5}
+.src{font-size:.86rem}.src li{margin:6px 0}
+.ex{font-size:.86rem;color:var(--txt3);font-style:italic}
+.faqcat{margin-top:40px}
 </style>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type":"ListItem","position":1,"name":"Home","item":"https://amrmagdy.com/"},
-    {"@type":"ListItem","position":2,"name":"Blog","item":"https://amrmagdy.com/blog.html"},
-    {"@type":"ListItem","position":3,"name":"Salesforce Lead Routing for Real Estate","item":"https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html"}
-  ]
-}
-</script>
 <script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BlogPosting", "headline": "Salesforce lead routing for real estate investors: round robin, queues and missed calls", "description": "How Salesforce lead routing works for home buyers and wholesalers: assignment rules, queues, 4 round robin options, call routing, after-hours, escalation and how to check it.", "url": "https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html", "mainEntityOfPage": "https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html", "inLanguage": "en-US", "datePublished": "2025-03-15", "dateModified": "2026-10-25", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-card.jpg", "about": [{"@type": "Thing", "name": "Salesforce lead assignment rules"}, {"@type": "Thing", "name": "Round robin lead assignment"}, {"@type": "Thing", "name": "Call routing"}, {"@type": "Thing", "name": "Speed to lead"}, {"@type": "Thing", "name": "Real estate investing"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do lead assignment rules work in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "One lead assignment rule can be active at a time. It contains entries that are checked in order, and the first entry whose criteria match assigns the lead to a user or a queue. Leads that match no entry go to the default lead owner set in Lead Settings."}}, {"@type": "Question", "name": "Does Salesforce have round robin for leads?", "acceptedAnswer": {"@type": "Answer", "text": "Not as a simple built-in switch. Teams use an auto-number field and a MOD formula with assignment rule entries (documented by Salesforce), a Flow that picks the next rep, Omni-Channel routing, or a routing app from the AppExchange."}}, {"@type": "Question", "name": "Can a Flow run lead assignment rules?", "acceptedAnswer": {"@type": "Answer", "text": "Not natively. The 'assign using active assignment rule' checkbox only exists on the page layout. To run the rules from a Flow you need a small invocable Apex method, or you build the routing logic in the Flow itself."}}, {"@type": "Question", "name": "What's the difference between call routing and lead routing?", "acceptedAnswer": {"@type": "Answer", "text": "Call routing is your phone system deciding which phones ring when a seller calls. Lead routing is Salesforce deciding who owns the seller's record and follow-up. You need both, plus a missed-call alert that connects them."}}, {"@type": "Question", "name": "How do I route leads by market in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Make sure every lead has its market filled in automatically from the tracking number, web form or zip code, then add one assignment rule entry or queue per market. Leads without a market should go to a queue someone checks daily."}}, {"@type": "Question", "name": "What happens to leads that don't match any assignment rule entry?", "acceptedAnswer": {"@type": "Answer", "text": "They go to the default lead owner in Lead Settings. Set that to a queue someone watches, and check a report of leads assigned there every week, because they usually point to a new source or form nobody added to the rule."}}, {"@type": "Question", "name": "Is Omni-Channel a good fit for real estate lead routing?", "acceptedAnswer": {"@type": "Answer", "text": "It can be, if reps reliably set their availability status. It routes leads to people who are online and have capacity. For most home-buying teams of 10 to 50, an assignment rule with a formula-based or Flow-based round robin is simpler."}}, {"@type": "Question", "name": "How do I measure speed to lead in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Record the time of the first call or text on each lead in a field such as time until contacted, then report it by source, market and rep. Flag leads that arrive after hours so they're measured from the start of the next business day."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://amrmagdy.com/blog.html"}, {"@type": "ListItem", "position": 3, "name": "Salesforce lead routing for real estate", "item": "https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html"}]}]}</script>
 </head>
 <body>
 <nav><div class="wrap-wide"><div class="nav-in">
   <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
-  <a href="blog.html" class="nb"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>All Articles</a>
+  <a href="resources.html" class="nb hide-sm">Free tools</a>
+  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
+  <a href="index.html#contact" class="nb nb-call" style="margin-left:0">Book a free call</a>
 <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
 </div></div></nav>
-<div class="ah"><div class="wrap">
-  <span class="tag sf">Lead Management</span>
-  <h1 class="ttl">Salesforce Lead Routing for Real Estate: Speed to Lead Changes Everything</h1>
-  <div class="meta">
-    <div class="meta-a"><img src="imgs/AmrMagdyPic.webp" width="44" height="44" alt="Amr Magdy" loading="lazy"><a href="about.html" rel="author" style="color:inherit">Amr Magdy</a></div>
-    <span class="sep"></span><span class="mi">March 2025 &middot; 6 min read</span>
-    <span class="sep"></span><span class="mi">Salesforce CRM Consultant</span>
-  </div>
-</div></div>
-<section class="ab"><div class="wrap">
-<p>There is one metric in real estate lead conversion that matters more than almost any other: how quickly you respond. The best-known study on this (InsideSales.com with MIT's Dr. James Oldroyd, 2007, about 15,000 web leads across six companies) found that calling within 5 minutes instead of 30 gave roughly 100x higher odds of making contact and 21x higher odds of qualifying the lead. A separate Harvard Business Review study (2011) found companies that responded within an hour were about 7x more likely to qualify the lead than those that waited longer. Neither was done on real estate investors, but the direction is consistent. Most real estate companies know this — and most are still manually assigning leads from an inbox, introducing delays of hours or days.</p>
-<div class="sr">
-  <div class="sb"><div class="sb-n">100x</div><div class="sb-l">Higher odds of contact: 5-min vs 30-min (InsideSales/MIT, 2007)</div></div>
-  <div class="sb"><div class="sb-n">Instant</div><div class="sb-l">Assignment and alert when a lead arrives</div></div>
-</div>
-<h2>Method 1: Assignment Rules</h2>
-<p>Salesforce Lead Assignment Rules evaluate incoming leads against a set of criteria and automatically assign them to the right owner. Rules are evaluated in order — first match wins. For real estate, typical criteria include: geographic area (zip code, city, region), lead source (website, Zillow, referral), property type (residential, commercial, investment), and price range.</p>
-<div class="co co-case"><p>I built routing automation like this at Pezon Properties. <a href="index.html#cases" style="color:var(--sf);font-weight:700">See the full case study →</a></p></div>
-<h2>Method 2: Round-Robin with Flow Builder</h2>
-<p>When criteria-based routing is not enough and you want to distribute leads evenly across a team, Flow Builder enables round-robin assignment. A Record-Triggered Flow fires on lead creation, queries the current agent rotation, assigns the lead, and updates the rotation for next time.</p>
-<div class="co"><p>At Central City Solutions, round-robin routing is combined with instant notifications and missed-call alerts, so a new seller lead never waits for someone to check an inbox.</p></div>
-<h2>Method 3: Availability-Based Routing</h2>
-<p>More sophisticated: only assign to agents who are currently available — not on vacation, not at capacity. This requires tracking availability in Salesforce via a custom field on the User object, then incorporating that check into the routing Flow. Complex to build, but eliminates the "I was away and it went to me" problem entirely.</p>
-<h2>Method 4: Zapier for External Lead Sources</h2>
-<p>Many real estate lead sources — Zillow, Realtor.com, website forms, Facebook Lead Ads — do not natively integrate with Salesforce. Zapier bridges this gap, automatically creating a Salesforce Lead record the moment a lead arrives from any source, triggering your assignment rules immediately.</p>
-<h2>The Notification Layer</h2>
-<p>Fast routing is only half the solution. The agent also needs to know immediately. Configure Salesforce to send both an email notification and an in-app notification when a new lead is assigned. For teams using Slack, a Slack message via Zapier is faster and more visible than email — and harder to miss.</p>
-<h2>Measuring the Improvement</h2>
-<p>Before implementing, record your current average lead response time. After, build a Salesforce report showing time between Lead Created Date and First Activity Date. This is the number that proves the automation is working — and the number you show leadership when justifying the CRM investment.</p>
-<div class="article-cta"><div><h3>Need help with your real estate Salesforce?</h3>
-<p>Request a free 30-minute call, run the free <a href="salesforce-health-check.html">10-point Salesforce Health Check</a>, see <a href="resources.html">all free tools</a>, or the fixed-price <a href="crm-revenue-audit.html">CRM Revenue Audit</a> for investors and wholesalers.</p></div>
-<a href="index.html#contact" class="btn btn-blue">Request a Free Call &#x2192;</a></div></div></section>
-<section class="rel"><div class="wrap"><h2>More Articles</h2><div class="rel-g"><a href="blog-salesforce-property-management-companies.html" class="rc"><h4>Salesforce for Property Management Companies: CRM That Scales With Your Portfolio</h4><p>4 min read</p></a><a href="blog-salesforce-real-estate-acquisition-case-log.html" class="rc"><h4>50+ Real Salesforce Requests From a Real Estate Acquisition Company</h4><p>7 min read</p></a><a href="blog-crm-roi-real-estate.html" class="rc"><h4>Salesforce ROI for Real Estate: Are You Getting What You're Paying For?</h4><p>4 min read</p></a></div></div></section>
-<section class="rel"><div class="wrap"><h2>Free for investors and wholesalers</h2><div class="rel-g"><a href="crm-field-kit.html" class="rc"><h4>The CRM field kit</h4><p>Lead, deal and buyer fields, automation rules and the Monday report spec</p></a><a href="questions-from-wholesalers.html" class="rc"><h4>Wholesaling CRM questions</h4><p>Real questions from wholesaling groups, answered plainly</p></a><a href="videos.html" class="rc"><h4>Videos: Deal Leak</h4><p>Short videos on where deals leak and how to fix each point</p></a></div></div></section>
-<div class="cq"><h3>Related guides</h3><p><a href="salesforce-dialer-real-estate.html">Dialers in Salesforce</a></p></div>
-<!-- ask-cta:start -->
-<section class="ask-cta" aria-label="Ask a question" style="max-width:860px;margin:44px auto 0;padding:0 20px">
-<div style="background:#0b1f3a;color:#fff;border-radius:16px;padding:26px 26px 24px;border-top:4px solid #d4a23e">
-<p style="margin:0 0 6px;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#d4a23e;font-weight:700">Found this useful?</p>
-<h2 style="margin:0 0 8px;color:#fff;font-size:1.45rem;line-height:1.25">Ask me how this would work in your CRM.</h2>
-<p style="margin:0 0 18px;color:#c9d4e3;line-height:1.55">Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.</p>
-<div style="display:flex;flex-wrap:wrap;gap:10px">
-<a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Salesforce%20Lead%20Routing%20for%20Real%20Estate%3A%20Speed%20to%20Lead%20Changes...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog-salesforce-lead-routing-real-estate.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="background:#d4a23e;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">Email a question</a>
-<a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Salesforce%20Lead%20Routing%20for%20Real%20Estate%3A%20Speed%20to%20Lead%20Changes...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="background:#fff;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">WhatsApp</a>
-<a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="background:transparent;color:#fff;font-weight:700;text-decoration:none;padding:10px 17px;border-radius:999px;border:1.5px solid #5d7393">Message on LinkedIn</a>
-<a href="index.html#contact" onclick="if(window.gtag)gtag('event','contact_click',{method:'call_request',page_path:location.pathname})" style="background:transparent;color:#fff;font-weight:700;text-decoration:none;padding:10px 17px;border-radius:999px;border:1.5px solid #5d7393">Request a free call</a>
-</div></div></section>
-<!-- ask-cta:end -->
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Article · by Amr Magdy · Updated Oct 2026</span>
+<h1>Salesforce lead routing for real estate investors: <em>round robin, queues and missed calls</em></h1>
+<p class="lead">Routing decides who calls a seller back, and how fast. For a home-buying company spending thousands a month on mail, PPC and cold calling, it's the cheapest place to lose a deal: the lead was paid for, it came in, and it sat with the wrong person or nobody. This guide covers how lead routing works in Salesforce, four ways to do round robin, what your phone system should handle versus Salesforce, after-hours and escalation, and how to check that routing is actually working.</p>
+<div class="ans"><span class="k">Short answer</span><p>In Salesforce, a lead assignment rule sends each new lead to a rep or a queue based on criteria like market or source. Only one rule can be active at a time, and its entries are checked in order. There's no simple round robin switch for leads, so teams use an auto-number formula with assignment rules, a Flow, Omni-Channel or an app. Routing the live call belongs to your phone system. Salesforce's job is to create or match the lead from the call, tag its source, alert someone when a call is missed and escalate when nobody follows up.</p></div>
+<div class="toc"><a href="#how">How routing works</a><a href="#queues">Queues or reps</a><a href="#round-robin">Round robin</a><a href="#calls">Call routing</a><a href="#after-hours">After hours</a><a href="#escalation">Escalation</a><a href="#returning">Returning sellers</a><a href="#check">Is it working?</a><a href="#setup">What I'd set up</a><a href="#faq">Questions</a></div>
+<section class="sec2">
+<h2 id="how">How does lead routing work in Salesforce?</h2>
+<p>The core tool is the <strong>lead assignment rule</strong>. A few things about it trip people up:</p>
+<ul>
+<li><strong>Only one lead assignment rule can be active at a time.</strong> That rule holds as many entries as you need, for example one per market or per source.</li>
+<li><strong>Entries are checked in order, and the first match wins.</strong> Put the specific entries (a PPC campaign in one market) above the general ones (everything in that market).</li>
+<li><strong>Each entry assigns to a user or a queue</strong> and can send an email notification.</li>
+<li><strong>Leads that match no entry go to the default lead owner</strong> in Lead Settings. Make that a queue someone watches, not a person who might be on vacation.</li>
+<li><strong>Web-to-Lead forms and imports can use the rule</strong>, but check that they do. A form or import set up without it puts every lead with one default owner.</li>
+<li><strong>Flow can't run assignment rules on its own.</strong> The "assign using active assignment rule" checkbox exists only on the page layout. If leads are created by a Flow or an integration, running the rules takes a small piece of Apex called from the Flow, or the routing has to be built in the Flow itself.</li>
+</ul>
+<p>That last point catches a lot of investor teams, because so many leads arrive through integrations: the dialer, a texting tool, Zapier, a list upload.</p>
+
+<h2 id="queues">Should leads go to a queue or straight to a rep?</h2>
+<p>Both work. They fail differently.</p>
+<div class="tw"><table>
+<thead><tr><th></th><th>Shared queue</th><th>Straight to a rep</th></tr></thead>
+<tbody>
+<tr><td>How it works</td><td>New leads land in a queue and the first available rep claims them</td><td>Each lead gets an owner the moment it's created</td></tr>
+<tr><td>Good for</td><td>Speed, when several reps are on the phones at once</td><td>Clear ownership and accountability</td></tr>
+<tr><td>Fails when</td><td>Everyone assumes someone else has it</td><td>The owner is busy, out sick or on a call for an hour</td></tr>
+<tr><td>Fix</td><td>A time limit, then automatic assignment or an alert</td><td>Escalation when the lead isn't touched in time</td></tr>
+</tbody></table></div>
+<p>The company I work with runs shared inbound queues. What makes a queue work is a clock: a queue without a time limit is just a place where leads wait.</p>
+
+<h2 id="round-robin">How do you set up round robin for leads?</h2>
+<p>Salesforce doesn't have a simple built-in round robin switch for leads. These are the four ways teams do it, from simplest to most capable.</p>
+<h3>1. Auto-number and a formula, with assignment rules</h3>
+<p>This one is documented by Salesforce in its sample lead management formulas. Add an auto-number field to leads, then a formula field that turns it into a repeating sequence. For three reps:</p>
+<div class="card"><p><code>MOD(VALUE(Lead_Number__c), 3)</code></p></div>
+<p>Each new lead gets 0, 1 or 2 in turn, and your assignment rule has one entry per value, each pointing to a rep or a queue. It needs no code and it's easy to understand. The downsides: it doesn't know who's out today, and adding a fourth rep means changing the formula and the entries.</p>
+<h3>2. A Flow that picks the next rep</h3>
+<p>A record-triggered Flow looks up who's in the rotation (a checkbox on the user record, or a small custom object), picks the rep who was assigned least recently and sets the owner. This can skip reps who are out, weight by market or cap how many open leads one rep holds. The thing to test is two leads arriving at the same moment, because a simple version can give both to the same rep.</p>
+<h3>3. Omni-Channel</h3>
+<p>Omni-Channel routes work, including leads, to people who are available and have capacity. Reps set a status, and work goes to whoever is online. It's built for service teams, it takes more setup, and it only works if reps actually set their status. Salesforce has been moving customers from Standard to Enhanced Omni-Channel, so check which one your org has before you plan around it.</p>
+<h3>4. A routing app</h3>
+<p>Dedicated routing apps from the AppExchange handle availability, weighting, territories and reporting out of the box. They cost extra and add another vendor. Worth it at high volume or with complex territories, rarely needed for a team of ten reps in two markets.</p>
+<p>For most home-buying teams of 10 to 50, option 1 or 2 is enough. Pick option 1 if your team rarely changes, option 2 if reps come and go or you need to skip people who are out.</p>
+
+<h2 id="calls">What should call routing do, and what should Salesforce do?</h2>
+<p>When a seller calls a marketing number, two systems are involved, and teams often expect one to do the other's job.</p>
+<div class="tw"><table>
+<thead><tr><th>Your phone system (RingCentral, smrtPhone and so on)</th><th>Salesforce</th></tr></thead>
+<tbody>
+<tr><td>Rings the right people: ring groups, simultaneous ring, overflow</td><td>Creates the lead from the call, or matches it to an existing seller</td></tr>
+<tr><td>Handles voicemail and after-hours messages</td><td>Tags the lead with the source and market of the number called</td></tr>
+<tr><td>Records the call</td><td>Logs the call on the seller record</td></tr>
+<tr><td>Sends the call somewhere when nobody answers</td><td>Alerts a rep or a channel about the missed call and creates a callback task</td></tr>
+</tbody></table></div>
+<p>The missed call is the moment that matters. Almost nobody leaves a voicemail: in Invoca's 2021 data, only 2% of unanswered callers did (more in my <a href="real-estate-lead-response-statistics.html">lead response statistics</a>). So a missed call with no alert is usually a lost seller. In the org I run, calls create leads, and every marketing number sends a missed-call alert to Slack. I wrote up how to build that in <a href="missed-call-alerts-salesforce.html">missed-call alerts in Salesforce</a>.</p>
+
+<h2 id="after-hours">What happens to leads after hours?</h2>
+<p>A web form at 9 p.m. on a Saturday is still a paid lead. Decide on purpose what happens to it:</p>
+<ul>
+<li><strong>Flag it.</strong> Mark leads that arrive outside business hours, so the morning team can see them first and your speed-to-lead numbers don't punish reps for leads that came in at midnight. The org I run uses an overnight flag for exactly this.</li>
+<li><strong>Route it to a morning queue</strong>, not to whichever rep the rotation lands on.</li>
+<li><strong>Acknowledge it</strong> with an automatic text or email, if you have the seller's consent to contact them that way.</li>
+<li><strong>Follow the market's clock.</strong> If you work markets in different time zones, "after hours" means the seller's evening, not the office's.</li>
+</ul>
+
+<h2 id="escalation">What if nobody calls the seller?</h2>
+<p>Routing isn't finished when the lead has an owner. It's finished when someone has talked to the seller. Build the follow-through:</p>
+<ol>
+<li>A scheduled path on the lead checks again after a set time. If there's still no call or text logged, it alerts the owner.</li>
+<li>If there's still nothing after a second interval, it alerts the manager or moves the lead back to the queue.</li>
+<li>A "time until contacted" field records how long the first touch took, so you can report it by source, market and rep.</li>
+</ol>
+<p>Pick the intervals with your team. What matters is that a lead can't sit untouched without somebody finding out.</p>
+
+<h2 id="returning">What about sellers who call back months later?</h2>
+<p>A seller who called in March and calls again in September shouldn't go into the rotation like a new lead. They should go to the rep who already knows them, with their history attached. That takes duplicate matching on phone number before routing, and a rule that sends a matched seller to the original owner and tells that owner they're back. Duplicate handling that keeps the history and notifies the original owner is part of the setup I run. More in <a href="salesforce-duplicate-sellers.html">duplicate sellers in Salesforce</a>.</p>
+
+<h2 id="check">How do you know routing is working?</h2>
+<p>Four reports, checked weekly:</p>
+<ul>
+<li><strong>Leads waiting in queues, by age.</strong> Anything older than your time limit is a problem today.</li>
+<li><strong>Leads owned by inactive users.</strong> Someone left, and the rotation or an old rule still includes them.</li>
+<li><strong>Leads that went to the default owner.</strong> These matched no entry, which usually means a new source or market nobody added to the rule.</li>
+<li><strong>Time until contacted, by source and by rep.</strong> The number that tells you whether all of the above is paying off.</li>
+</ul>
+<p>And the failures I'd look for first in an investor org:</p>
+<ul>
+<li>Rule entries in the wrong order, so a general entry catches leads meant for a specific one.</li>
+<li>Leads created by an integration or Flow that never run the assignment rule.</li>
+<li>A rep who left still in the rotation.</li>
+<li>A new tracking number or form that was never added to the rule, so its leads all go to the default owner.</li>
+<li>Duplicates that go to a new rep instead of the seller's original owner.</li>
+</ul>
+
+<h2 id="setup">What I'd set up for a 10 to 50 person team</h2>
+<ol>
+<li>Every lead created with its source and market already filled in, from the tracking number or form.</li>
+<li>Duplicate matching on phone before routing, so returning sellers go to their original owner.</li>
+<li>During business hours, new leads go to a shared queue per market, with a short time limit to claim them.</li>
+<li>Unclaimed leads go to round robin automatically (formula or Flow, depending on how often the team changes).</li>
+<li>After hours, leads are flagged and go to a morning queue.</li>
+<li>Every missed call creates a callback task and an alert.</li>
+<li>Escalation to the manager if a lead isn't contacted in time.</li>
+<li>The four reports above, on one dashboard, checked every Monday.</li>
+</ol>
+<p>None of this needs an expensive app. It needs someone to set it up carefully and check it every week.</p>
+</section>
+<section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>How do lead assignment rules work in Salesforce?</h3><p>One lead assignment rule can be active at a time. It contains entries that are checked in order, and the first entry whose criteria match assigns the lead to a user or a queue. Leads that match no entry go to the default lead owner set in Lead Settings.</p></div><div class="cq"><h3>Does Salesforce have round robin for leads?</h3><p>Not as a simple built-in switch. Teams use an auto-number field and a MOD formula with assignment rule entries (documented by Salesforce), a Flow that picks the next rep, Omni-Channel routing, or a routing app from the AppExchange.</p></div><div class="cq"><h3>Can a Flow run lead assignment rules?</h3><p>Not natively. The 'assign using active assignment rule' checkbox only exists on the page layout. To run the rules from a Flow you need a small invocable Apex method, or you build the routing logic in the Flow itself.</p></div><div class="cq"><h3>What's the difference between call routing and lead routing?</h3><p>Call routing is your phone system deciding which phones ring when a seller calls. Lead routing is Salesforce deciding who owns the seller's record and follow-up. You need both, plus a missed-call alert that connects them.</p></div><div class="cq"><h3>How do I route leads by market in Salesforce?</h3><p>Make sure every lead has its market filled in automatically from the tracking number, web form or zip code, then add one assignment rule entry or queue per market. Leads without a market should go to a queue someone checks daily.</p></div><div class="cq"><h3>What happens to leads that don't match any assignment rule entry?</h3><p>They go to the default lead owner in Lead Settings. Set that to a queue someone watches, and check a report of leads assigned there every week, because they usually point to a new source or form nobody added to the rule.</p></div><div class="cq"><h3>Is Omni-Channel a good fit for real estate lead routing?</h3><p>It can be, if reps reliably set their availability status. It routes leads to people who are online and have capacity. For most home-buying teams of 10 to 50, an assignment rule with a formula-based or Flow-based round robin is simpler.</p></div><div class="cq"><h3>How do I measure speed to lead in Salesforce?</h3><p>Record the time of the first call or text on each lead in a field such as time until contacted, then report it by source, market and rep. Flag leads that arrive after hours so they're measured from the start of the next business day.</p></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="missed-call-alerts-salesforce.html"><b>Missed-call alerts in Salesforce</b><span>Turn every missed seller call into a callback task and an alert.</span></a><a href="speed-to-lead-real-estate-investors.html"><b>Speed to lead for investors</b><span>How fast to respond, and how to measure it.</span></a><a href="salesforce-duplicate-sellers.html"><b>Duplicate sellers</b><span>Matching rules, merges and returning sellers.</span></a><a href="salesforce-dialer-real-estate.html"><b>Dialers in Salesforce</b><span>Connecting your dialer so every call lands on the record.</span></a><a href="real-estate-lead-response-statistics.html"><b>Lead response statistics</b><span>Speed-to-lead and follow-up data, each with its source.</span></a><a href="salesforce-real-estate-faq.html"><b>Salesforce for investors: 50 questions</b><span>Straight answers on cost, setup, moving and admin.</span></a></div></section>
+<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.</p><ol class="src"><li><a href="https://developer.salesforce.com/docs/atlas.en-us.usefulFormulaFields.meta/usefulFormulaFields/useful_advanced_formulas_lead_mgmt.htm" rel="noopener" target="_blank">Salesforce Developers: Sample lead management formulas</a>. The auto-number and MOD round robin formula</li><li><a href="https://automationchampion.com/2021/11/01/getting-started-with-salesforce-flow-part-77-running-lead-assignment-rules-from-salesforce-flow/" rel="noopener" target="_blank">Automation Champion: running lead assignment rules from Flow</a>. Why Flow needs invocable Apex to run assignment rules</li><li><a href="https://www.salesforceben.com/the-best-salesforce-lead-routing-software-a-buyers-guide/" rel="noopener" target="_blank">Salesforce Ben: lead routing software buyer's guide</a>. No native round robin for leads, and routing app options</li><li><a href="https://trailhead.salesforce.com/content/learn/modules/omni-channel-lex/get-started-omni-lex" rel="noopener" target="_blank">Trailhead: Get started with Omni-Channel</a>. What Omni-Channel routes, including leads</li><li><a href="real-estate-lead-response-statistics.html" rel="noopener" target="_blank">Speed to lead and follow-up statistics for real estate (this site)</a>. Invoca 2021 voicemail figure, with its source</li></ol></section>
+<div class="cta"><h2>Want to know where your leads wait?</h2><p>The fixed-price CRM Revenue Audit (USD 1,500) checks your routing, missed-call handling and speed to lead against how your team actually works, and comes with a written fix plan and up to three quick fixes. It's for teams already on Salesforce. On another CRM, or not sure? Book a free call.</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Salesforce%20lead%20routing%20for%20real%20estate%20investors%3A%20round%20robin%2C...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog-salesforce-lead-routing-real-estate.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Salesforce%20lead%20routing%20for%20real%20estate%20investors%3A%20round%20robin%2C...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+</div></main>
+
+
 <section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
 <img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
 <div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
-<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
 <footer><div class="wrap-wide"><div class="fi">
-  <p>&copy; 2026 <a href="index.html" style="color:inherit">Amr Magdy</a> &middot; Salesforce CRM Consultant</p>
-  <div class="fl"><a href="index.html">Portfolio</a><a href="blog.html">Blog</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="resources.html">Free tools</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="index.html#contact">Contact</a><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></div>
+  <div>© 2026 <strong>Amr Magdy</strong>. Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="salesforce-real-estate-faq.html">Salesforce FAQ</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="mailto:info@AmrMagdy.com">Email</a></div>
 </div></div></footer>
 <script>
 (function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
 </script>
+
 <script src="booking.js" defer></script>
-</body></html>
+</body>
+</html>
