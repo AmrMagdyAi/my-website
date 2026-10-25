@@ -231,8 +231,8 @@ footer { padding: 38px 0; border-top: 1px solid var(--bd); }
   font-size: .82rem;
   color: var(--txt3);
 }
-.fl { display: flex; gap: 20px; }
-.fl a { color: var(--txt3); transition: color .2s; }
+.fl { display: flex; flex-wrap: wrap; gap: 4px 20px; }
+.fl a { color: var(--txt3); transition: color .2s; padding: 4px 0; }
 .fl a:hover { color: var(--gold); }
 
 /* ── Hover shadows ── */
