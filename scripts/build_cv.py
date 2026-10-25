@@ -118,7 +118,7 @@ for i, (h, items) in enumerate(cols):
     for it in items:
         pdf.set_xy(x, yy)
         pdf.set_font("dv", "", 7.4); pdf.set_text_color(*INK)
-        pdf.multi_cell(cw - 5, 3.9, "• " + it)
+        pdf.multi_cell(cw - 5, 3.9, "• " + it, align="L")
         yy = pdf.get_y() + 0.6
     maxy = max(maxy, yy)
 pdf.set_y(maxy + 1)
