@@ -239,7 +239,7 @@ URL: https://amrmagdy.com/about.html
 
 About
 Amr Magdy , Salesforce CRM Consultant for real estate investor teams
-I run the Salesforce behind a home-buying company in Ohio, and I build the same system for other US real estate investors and wholesalers. Missed calls turn into callbacks, follow-up stops when the seller replies, and the marketing numbers get checked against the books.
+I run the Salesforce behind a two-market home-buying company in Ohio, and I build the same system for other US real estate investors and wholesalers. Missed calls turn into callbacks, follow-up stops when the seller replies, and the marketing numbers get checked against the books.
 Before Salesforce I spent eight years as an Adobe Certified Instructor and taught 8,000+ students, rated 4.9/5, so every build comes with training your team will actually use.
 I work from Cairo, Egypt, in US mornings and UK afternoons, in English or Arabic.
 How I work
@@ -277,7 +277,7 @@ For podcast hosts and partners
 Bio and talk topics
 Use these as written. The headshot is the photo on this page; for a larger file, email info@AmrMagdy.com .
 Short bio About 50 words
-Amr Magdy is a Salesforce CRM Consultant who runs the Salesforce behind a home-buying company in Ohio and builds the same system for other US real estate investors and wholesalers, so every seller call gets a callback and every deal traces back to the marketing that paid for it.
+Amr Magdy is a Salesforce CRM Consultant who runs the Salesforce behind a two-market home-buying company in Ohio and builds the same system for other US real estate investors and wholesalers, so every seller call gets a callback and every deal traces back to the marketing that paid for it.
 Long bio About 130 words
 Amr Magdy is a Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies. For two years he has run the Salesforce for a two-market home-buying company in Ohio, handling every request from marketing, acquisitions, dispositions and transaction coordination. His builds include campaign ROI checked against the books, missed-call alerts on every marketing number, follow-up that stops when a seller replies, and a Transactions Board for every file under contract. Before Salesforce he spent eight years as an Adobe Certified Instructor and trained more than 8,000 people. His view is that most investor teams don't have a lead problem, they have a leak problem. He works from Cairo during US business hours and gives away the tools he uses, including the Deal Leak Score, at amrmagdy.com.
 Talk topics
