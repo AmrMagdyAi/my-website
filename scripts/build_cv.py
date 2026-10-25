@@ -39,24 +39,13 @@ pdf.set_font("dv", "B", 19); pdf.set_text_color(255, 255, 255)
 pdf.cell(0, 9, "Amr Magdy Abd El-Fattah", ln=1)
 pdf.set_x(14)
 pdf.set_font("dv", "", 9.5); pdf.set_text_color(*GOLD2)
-pdf.cell(0, 6, "Salesforce CRM Consultant  ·  Apex & LWC Development  ·  4× Certified  ·  Remote", ln=1)
+pdf.cell(0, 6, "Salesforce CRM Consultant  ·  Apex & LWC Development  ·  Certified Admin & App Builder  ·  Remote", ln=1)
 pdf.set_x(14)
 pdf.set_font("dv", "", 8); pdf.set_text_color(220, 228, 240)
 pdf.cell(0, 6, "info@AmrMagdy.com  ·  +20 103 327 5250  ·  amrmagdy.com  ·  linkedin.com/in/amrmagdyai", ln=1)
 
-# ---- Stat bar
-stats = [("+30%", "Pipeline Visibility"), ("20+ hrs", "Saved / Week"), ("+25%", "User Adoption"),
-         ("300+", "Cases Resolved"), ("6+", "Systems Integrated")]
-y = 38; w = 182 / len(stats); x = 14
-for n, l in stats:
-    pdf.set_fill_color(*LIGHT)
-    pdf.rect(x, y, w - 2, 13, "F")
-    pdf.set_xy(x, y + 1.5); pdf.set_font("dv", "B", 10.5); pdf.set_text_color(*GOLD)
-    pdf.cell(w - 2, 5.5, n, align="C")
-    pdf.set_xy(x, y + 7); pdf.set_font("dv", "", 6.5); pdf.set_text_color(*GREY)
-    pdf.cell(w - 2, 4, l, align="C")
-    x += w
-pdf.set_y(y + 17)
+# ---- (stat bar removed: its numbers were all from the Central City role)
+pdf.set_y(38)
 
 def section(title):
     pdf.ln(2.5)
@@ -99,9 +88,9 @@ def bullet(txt, badge=None):
 section("Professional Summary")
 para("Strategic Salesforce CRM Consultant with hands-on Apex and LWC development experience, specializing in "
      "real estate. I build the systems real estate companies actually run on — centralized Configuration Objects "
-     "managing 50+ automation rules, custom Apex integrations syncing RingCentral call logs, Kanban LWC components "
-     "deployed company-wide, full-funnel campaign ROI dashboards, and multi-system integrations across 6+ platforms. "
-     "My 7-year background as an Adobe Certified Instructor (8,000+ students, 4.9/5 rating) means the solutions I "
+     "that run the automation rules, custom Apex integrations syncing RingCentral call logs, Kanban LWC components "
+     "deployed company-wide, full-funnel campaign ROI dashboards, and multi-system integrations. "
+     "My 8-year background as an Adobe Certified Instructor (8,000+ students, 4.9/5 rating) means the solutions I "
      "build get genuinely adopted — not just delivered.")
 
 # ---- Expertise
@@ -110,7 +99,7 @@ cols = [
     ("Salesforce Platform", ["Flow Builder & Process Automation", "Apex (Schedulable, Queueable, Batch, Triggers)",
      "Lightning Web Components (LWC)", "Configuration Object Architecture", "Reports, Dashboards & Scorecards",
      "Data Loader & Mass Updates"]),
-    ("Integrations & Tools", ["RingCentral Apex API Sync (100% automated)", "DocuSign, QuickBooks (4 accounts)",
+    ("Integrations & Tools", ["RingCentral Apex API Sync", "DocuSign, QuickBooks",
      "SmrtPhone, Zapier, Google Drive", "Tableau Connected to Salesforce", "Python for Data Cleaning & Migration",
      "Salesforce ↔ Slack Direct Integration"]),
     ("Real Estate Specialty", ["Lead Routing & Speed-to-Lead Automation", "Campaign Attribution via Call Tracking",
@@ -137,20 +126,20 @@ pdf.set_y(maxy + 1)
 # ---- Experience
 section("Professional Experience")
 
-role("Salesforce CRM Platform Manager", "Jun 2024 – Present",
+role("Salesforce CRM Consultant", "Jun 2024 – Present",
      "Central City Solutions  ·  Remote · Columbus, OH, USA",
      "Real estate acquisition company — full-cycle CRM design, Apex development, LWC customization, and multi-system integration.")
 for b, badge in [
-    ("Built a centralized Configuration Object managing 50+ automation rules (Slack, email, SMS, tasks) — non-technical users add and disable automations without developer involvement.", None),
+    ("Built a centralized Configuration Object that runs the automation rules (Slack, email, SMS, tasks) — non-technical users add and disable automations without developer involvement.", None),
     ("Developed MergeFieldReplacer Apex class replacing merge field tokens in automation templates with live Salesforce data, supporting cross-object lookups, date arithmetic, and system variables.", None),
-    ("Built RCDailyCallLogSync — Schedulable Apex with chained Queueable processing that auto-syncs RingCentral call logs into Salesforce Tasks daily, matching calls to Leads by phone number.", "−2 hrs/user/wk"),
-    ("Migrated 30+ Zapier automations to native Salesforce Flows after repeated API limit violations — eliminating external dependency, cutting costs, and improving trigger speed from minutes to milliseconds.", "30+ flows"),
-    ("Integrated 6+ external systems: RingCentral, DocuSign, QuickBooks (4 accounts), SmrtPhone, Google Drive, and Tableau — all synced to Salesforce automatically.", None),
+    ("Built RCDailyCallLogSync — Schedulable Apex with chained Queueable processing that auto-syncs RingCentral call logs into Salesforce Tasks daily, matching calls to Leads by phone number.", None),
+    ("Migrated the Zapier automations to native Salesforce Flows after repeated API limit violations — eliminating external dependency, cutting costs, and improving trigger speed from minutes to milliseconds.", None),
+    ("Integrated RingCentral, DocuSign, QuickBooks, SmrtPhone, Google Drive, and Tableau with Salesforce — all synced automatically.", None),
     ("Built custom LWC Queue Task Manager with sort/filter, color-coded dates, custom mobile notifications, and utility bar deployment — adopted company-wide.", None),
-    ("Designed complete Transaction Coordination system: custom Kanban LWC board, 15+ automated task triggers, DocuSign status tracking, TC scorecard, and post-close review automation.", None),
-    ("Built Marketing ROI dashboard tracking cost-per-lead, cost-per-appointment, and lead-to-contract rates by campaign — driving weekly leadership decisions.", "+30%"),
-    ("Used Python to clean 247 leads with invalid phone fields; bulk-updated 115 lead-campaign mappings; managed onboarding of 45,000 prospect buyer records.", None),
-    ("Built intelligent duplicate lead detection: preserved historical homeowner records, copied campaign strategy, and sent real-time Slack alerts on every duplicate.", "+25%"),
+    ("Designed complete Transaction Coordination system: custom Kanban LWC board, automated task triggers, DocuSign status tracking, TC scorecard, and post-close review automation.", None),
+    ("Built Marketing ROI dashboard tracking cost-per-lead, cost-per-appointment, and lead-to-contract rates by campaign — driving weekly leadership decisions.", None),
+    ("Used Python to clean leads with invalid phone fields, bulk-updated lead-campaign mappings, and managed the onboarding of the prospect buyer database.", None),
+    ("Built intelligent duplicate lead detection: preserved historical homeowner records, copied campaign strategy, and sent real-time Slack alerts on every duplicate.", None),
 ]: bullet(b, badge)
 pdf.ln(1.5)
 
@@ -221,7 +210,10 @@ for i in range(0, len(certs), 2):
         pdf.cell(91, 5.2, certs[i + 1])
     pdf.ln(5.2)
 pdf.set_x(14)
-pdf.cell(0, 5.2, "★★ Trailhead Double Star Ranger — 20 Superbadges · 210+ Badges · 130k+ Points  ·  Verify: salesforce.com/trailblazer/amrmagdyai")
+pdf.cell(0, 5.2, "★★ Trailhead Double Star Ranger — 20 Superbadges · 210+ Badges · 130k+ Points")
+pdf.ln(5.2)
+pdf.set_x(14)
+pdf.cell(0, 5.2, "Verify certifications: salesforce.com/trailblazer/amrmagdyai")
 pdf.ln(5.2)
 
 # ---- Education
