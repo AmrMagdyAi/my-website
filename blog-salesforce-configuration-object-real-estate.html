@@ -7,12 +7,12 @@
 <script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');});</script>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
-<title>Manage 50+ Salesforce Automations Without a Developer</title>
+<title>Manage Salesforce Automations Without a Developer</title>
 <meta name="description" content="One settings record lets ops staff switch Salesforce tasks, Slack alerts, emails and texts on or off without code. The real estate build, step by step.">
 <link rel="canonical" href="https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html">
 <link rel="icon" href="imgs/fav.svg" type="image/svg+xml">
 <meta name="theme-color" content="#f7f4ee">
-<meta property="og:title" content="Manage 50+ Salesforce Automations Without a Developer">
+<meta property="og:title" content="Manage Salesforce Automations Without a Developer">
 <meta property="og:description" content="How I built a centralized Configuration Object for a real estate company that lets non-technical users control all Salesforce automations — tasks, Slack messages, emails, and SMS — without any developer involvement.">
 <meta property="og:url" content="https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html">
 <meta property="og:type" content="article">
@@ -22,10 +22,10 @@
 <meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
 <meta property="og:site_name" content="Amr Magdy">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Manage 50+ Salesforce Automations Without a Developer">
+<meta name="twitter:title" content="Manage Salesforce Automations Without a Developer">
 <meta name="twitter:description" content="How I built a centralized Configuration Object for a real estate company that lets non-technical users control all Salesforce automations — tasks, Slack messages, emails, and SMS — without any developer involvement.">
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "The Salesforce Configuration Object: How to Manage 50+ Automations Without Touching Code", "description": "How I built a centralized Configuration Object for a real estate company that lets non-technical users control all Salesforce automations — tasks, Slack messages, emails, and SMS — without any developer involvement.", "url": "https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html", "datePublished": "2025-06-08", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "publisher": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "image": "https://amrmagdy.com/imgs/AmrMagdyPic.webp", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html"}, "keywords": "Salesforce configuration object real estate, Salesforce automation without code, CRM automation real estate, Salesforce Flow Builder real estate", "wordCount": 1600, "articleSection": "Case Studies", "dateModified": "2026-10-11"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "The Salesforce Configuration Object: How to Manage Automations Without Touching Code", "description": "How I built a centralized Configuration Object for a real estate company that lets non-technical users control all Salesforce automations — tasks, Slack messages, emails, and SMS — without any developer involvement.", "url": "https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html", "datePublished": "2025-06-08", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "publisher": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "image": "https://amrmagdy.com/imgs/AmrMagdyPic.webp", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html"}, "keywords": "Salesforce configuration object real estate, Salesforce automation without code, CRM automation real estate, Salesforce Flow Builder real estate", "wordCount": 1600, "articleSection": "Case Studies", "dateModified": "2026-10-11"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="styles.css">
@@ -91,7 +91,7 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 </div></div></nav>
 <div class="ah"><div class="wrap">
   <span class="tag sf">Advanced Configuration</span>
-  <h1 class="ttl">The Salesforce Configuration Object: How to Manage 50+ Automations Without Touching Code</h1>
+  <h1 class="ttl">The Salesforce Configuration Object: How to Manage Automations Without Touching Code</h1>
   <div class="meta">
     <div class="meta-a"><img src="imgs/AmrMagdyPic.webp" width="44" height="44" alt="Amr Magdy" loading="lazy"><a href="index.html#about" rel="author" style="color:inherit">Amr Magdy</a></div>
     <span class="sep"></span><span class="mi">June 2025 &middot; 10 min read</span>
@@ -103,14 +103,14 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 <p>At Central City Solutions, this became unsustainable. More than 50 automation rules. Multiple stakeholders requesting changes weekly. A bottleneck every time a notification needed to be updated, a task reassigned, or a new trigger added.</p>
 <p>The solution was a <strong>Configuration Object</strong> — a custom Salesforce object that acts as the control panel for all automations. Non-technical users can add, edit, enable, and disable any notification without touching a single flow.</p>
 <div class="sr">
-  <div class="sb"><div class="sb-n">50+</div><div class="sb-l">Automations centralized</div></div>
+  <div class="sb"><div class="sb-n">One</div><div class="sb-l">Control panel for every notification</div></div>
   <div class="sb"><div class="sb-n">0</div><div class="sb-l">Developer changes needed for new rules</div></div>
   <div class="sb"><div class="sb-n">4</div><div class="sb-l">Notification types managed</div></div>
 </div>
 <h2>What the Configuration Object Is</h2>
 <p>The Configuration Object is a custom Salesforce object where each record represents one automation rule. Instead of building a separate Flow for every notification, you have one master Flow that reads from the Configuration Object and executes the right action based on the record's settings.</p>
 <p>A single Configuration record might say: <em>"When Transaction status changes to Under Contract, send a Slack message to #transactions-channel, and create a task for the TC Rep saying 'Reach out to seller' due same day."</em> Non-technical users can modify that record directly — no Flow Builder, no Salesforce setup, no developer needed.</p>
-<div class="co co-case"><p>This is the exact system I built at <strong>Central City Solutions</strong> (Ohio) — 50+ rules, zero developer dependency. <a href="index.html#cases" style="color:var(--sf);font-weight:700">See the full case study →</a></p></div>
+<div class="co co-case"><p>This is the exact system I built at <strong>Central City Solutions</strong> (Ohio), where ops changes the rules with no developer. <a href="index.html#cases" style="color:var(--sf);font-weight:700">See the full case study →</a></p></div>
 <h2>The Object Fields</h2>
 <p>The Configuration Object has fields that define what the automation does:</p>
 <ul>
