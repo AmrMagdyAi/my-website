@@ -164,7 +164,7 @@ Salesforce Certified Associate
 AI Associate
 Trailhead Double Star Ranger
 2024 to now
-Central City Solutions , home buying, Columbus and Cincinnati, Ohio
+Independent Salesforce CRM Consultant , running the Salesforce for a two-market home-buying company in Ohio and building for other investor teams
 2024 to 2025
 Pezon Properties , real estate acquisition, Pennsylvania
 2024
@@ -615,7 +615,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant
 
 ---
@@ -633,7 +633,7 @@ Field updates — Zapier was updating fields on Salesforce records when other fi
 Email alerts — Zapier was sending emails when Salesforce records updated. Salesforce Email Alerts handle this out of the box.
 Only a fraction of the Zaps were doing what Zapier is actually designed for: connecting Salesforce to external systems that don't have a Salesforce integration (Facebook Lead Ads, external forms, Google Sheets).
 The rule I now apply: if both the trigger AND the action are in Salesforce, or if the action is in a system with a Salesforce-native connector, Zapier is unnecessary. Zapier earns its place when connecting to external systems without native Salesforce integrations.
-I migrated our Zaps to native Flows at Central City Solutions — the founder called the work “drastic improvements” in a written referral. See the full case study →
+I migrated their Zaps to native Flows at Central City Solutions — the founder called the work “drastic improvements” in a written referral. See the full case study →
 The Migration Process
 Step 1: Audit every Zap
 Export a list of all active Zaps and categorize by: trigger system, action system, and whether Salesforce is on both ends. In our case, most of the Zaps had Salesforce on both sides. Those were all migration candidates.
@@ -676,7 +676,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -737,7 +737,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -781,7 +781,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant
 
 ---
@@ -831,7 +831,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -881,7 +881,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant
 
 ---
@@ -943,7 +943,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -991,7 +991,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1044,7 +1044,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1135,7 +1135,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1206,7 +1206,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1455,7 +1455,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1535,7 +1535,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1672,7 +1672,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1728,7 +1728,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1749,7 +1749,7 @@ Facebook Lead Ads is one of the most effective lead generation tools for real es
 When an opportunity is marked Closed Won, Zapier automatically updates your financial tracking spreadsheet, notifies the transaction team, and creates a record in your commission calculation system. Zero manual handoff between CRM and finance.
 5. Stale Lead Alert to Slack
 Combined with a Salesforce Flow flagging leads with no activity in 72 hours, Zapier posts an automatic Slack message to the relevant channel with the lead name, assigned agent, and days since last contact. This makes the invisible visible in real time — without anyone having to run a report.
-Zapier is great until it isn’t — at Central City Solutions we eventually moved most of our Zaps to native Flows. Start simple, plan the graduation path. See the full case study →
+Zapier is great until it isn’t — at Central City Solutions I eventually moved most of their Zaps to native Flows. Start simple, plan the graduation path. See the full case study →
 Zapier vs Native Salesforce Integrations
 When a well-maintained native AppExchange integration exists for a tool you use, prefer it over Zapier — native integrations tend to be more reliable with tighter field mapping. Use Zapier for everything that lacks a quality native connector, or where the native connector is missing specific functionality you need.
 Building Your Integration Map
@@ -1776,7 +1776,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant
 
 ---
@@ -5605,7 +5605,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 
 ---
 ## Salesforce Integrations for Real Estate Investors (2026)

@@ -61,7 +61,7 @@ The biggest rule is that nothing should read as AI-polished. Amr said it directl
   2. Follow-up that runs without someone remembering
   3. Knowing what each lead source really costs per closed deal
   4. Salesforce when it fits, and honesty when it doesn't
-- Proof he can name: built and runs the Salesforce org behind Central City Solutions (Columbus, Ohio) for two years; worked with Pezon Properties. Never mention Left Main REI. Never name or contact Sean Grabow.
+- Proof he can name: Central City Solutions (Columbus, Ohio), where he has built and run the Salesforce org for two years, named only as a client: in case studies, client-work lines and the founder's quote on the website. Bios, author boxes, the CV, work-history lists and profiles say "a two-market home-buying company in Ohio" instead, never the name (Amr, Oct 25: he is an independent consultant, not listed under Central City). Worked with Pezon Properties. Never mention Left Main REI. Never name or contact Sean Grabow.
 
 ## Tone-by-Context Matrix
 
