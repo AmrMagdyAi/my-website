@@ -1,6 +1,6 @@
 /* amrmagdy.com: dark mode, phone menu, the before/after switch, the phone call-to-action bar, forms and GA4 events
-   (before_after_toggle, faq_open, video_play, and generate_lead with method form / form_mailto / booking).
-   No dependencies. Loaded with defer on index.html and crm-revenue-audit.html. */
+   (before_after_toggle, faq_open, video_play, bio_copy, and generate_lead with method form / form_mailto / booking).
+   No dependencies. Loaded with defer on index.html, crm-revenue-audit.html and about.html. */
 (function(){
   'use strict';
   var d=document, root=d.documentElement, body=d.body;
@@ -149,6 +149,24 @@
           st.appendChild(d.createTextNode('.'));
         })
         .then(function(){ if(btn) btn.disabled=false; });
+    });
+  });
+
+  /* copy buttons (about page bios): shown only when the clipboard is available; if copying is blocked, the text is selected instead */
+  var copyLive=d.getElementById('copy-live');
+  [].forEach.call(d.querySelectorAll('[data-copy]'),function(b){
+    var t=d.querySelector(b.getAttribute('data-copy'));
+    if(!t||!navigator.clipboard) return;
+    b.hidden=false;
+    b.addEventListener('click',function(){
+      navigator.clipboard.writeText(t.textContent.trim()).then(function(){
+        if(copyLive) copyLive.textContent=b.getAttribute('data-done')||'Copied';
+        ev('bio_copy',{bio:b.getAttribute('data-copy').slice(1)});
+      },function(){
+        var r=d.createRange(); r.selectNodeContents(t);
+        var sel=window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+        if(copyLive) copyLive.textContent='Text selected. Press Ctrl+C or Cmd+C to copy.';
+      });
     });
   });
 

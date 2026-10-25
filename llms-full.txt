@@ -5,17 +5,17 @@
 
 
 ---
-## Salesforce Consultant for Real Estate Investors and Wholesalers
+## Amr Magdy | Salesforce CRM Consultant for Real Estate Investors
 URL: https://amrmagdy.com/
 
 Same Monday, two ways
-For home buyers, wholesalers and investor teams of 10 to 50
+For home-buying companies, wholesalers and investor teams of 10 to 50
 Monday, 8am. Do you know what last month's mail actually bought?
 At most investor teams the honest answer is “I think it's working.” I'm Amr Magdy, a Salesforce CRM Consultant . Flip the switch to see the same Monday with the system I build.
-With the right Salesforce setup, the answer is on one screen before your first call. I'm Amr Magdy, a Salesforce CRM Consultant , and this is the Monday I build for owners and ops leads.
+With the right Salesforce setup, the answer is on one screen before your first call. I'm Amr Magdy, a Salesforce CRM Consultant , and I build that Monday for owners and ops leads.
 The audit is for teams already on Salesforce. On Podio, REsimpli, GoHighLevel or spreadsheets, the first step is a move to Salesforce , and the free call is where we plan it.
 Monday morning
-8:00 Your numbers Three spreadsheets and a dashboard nobody trusts. Best guess: “I think the mail is working.” The Monday 5 is in your inbox: cost per contract by channel, last month's mail included.
+8:00 Your numbers Three spreadsheets and a dashboard nobody trusts. Best guess: “I think the mail is working.” Your five Monday numbers are in your inbox: cost per contract by channel, last month's mail included.
 8:15 Weekend calls A seller called the mailer number Friday at 6:40pm. Voicemail. Nobody heard it. Friday's 6:40pm call set off an alert and a callback task. A rep called back that night.
 8:40 Offers An offer went out last week and went quiet. Nobody noticed, so nobody followed up. Offers with no activity are on one list, each with an owner and a due date.
 9:00 Texts A seller who replied on Saturday still gets this morning's follow-up text. Cadences stopped when sellers replied. Nobody texts a seller who already answered.
@@ -23,9 +23,14 @@ Monday morning
 9:45 A change You need a new lead source set up. That's a developer ticket and a week. The new lead source goes live this week. Ops turned on its alerts, no developer.
 10am: money spent, sellers missed, and nobody sure why.
 10am: you know what the mail bought, and every seller has an owner.
+“Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.”
+Sean Grabow , Founder, Central City Solutions
+Salesforce work for
+Central City Solutions Pezon Properties Sylndr Conx Digital
+Salesforce Certified Administrator and Platform App Builder · Trailhead Double Star Ranger
 Who this is for
 Owners and ops leads at investor teams of 10 to 50
-Home buyers, wholesalers and investor teams spending real money on seller leads. Most call me at one of three moments.
+Home-buying companies, wholesalers and investor teams spending real money on seller leads. Three moments when it pays to fix the CRM first:
 About to hire a Salesforce admin See how much work there really is before you add a salary.
 Adding acquisitions reps Close the leaks before more leads run through them.
 Opening a new market or channel Track return by market from the first mailer.
@@ -33,16 +38,16 @@ Watch
 The Monday without a system, in two short videos
 The 6:40pm call 43 seconds
 The 5 leaks 1 minute 45 seconds
-How you get to the second Monday
+How you get to the Monday with a system
 Three ways to work together
 On Salesforce? Start with the audit. Not sure what you need? The free call is where we work it out.
 CRM Revenue Audit
 $1,500 Fixed price · teams already on Salesforce
-I go through your org with the checklist from two years of running an investor team's Salesforce. You get every leak in writing, what it's likely costing you and what to fix first.
+I go through your org with the checklist from two years of running an investor team's Salesforce. You get the leaks in writing, what each one is likely costing you and what to fix first.
 Findings report and 30 / 60 / 90 fix plan
-“Monday 5” owner dashboard spec
+Spec for a 5-number Monday dashboard
 Fee credited if you build within 30 days
-Money back if it doesn't find 5 fixable issues
+Money back if it doesn't find 5 fixable issues worth more than the fee
 Without You guess which leaks cost the most, and fix whatever is loudest.
 With You know which leaks cost the most, and the order to fix them.
 Full Implementation
@@ -53,7 +58,7 @@ Dashboards and reports
 Dialer, DocuSign, QuickBooks, Slack
 Team training
 Without A CRM someone else built, and nobody is sure what it does anymore.
-With The pieces that run Central City, built around how your team works.
+With The same pieces I built at Central City, fitted to how your team works.
 Ongoing Support & Development
 Monthly Retainer · no long-term contract
 Your part-time Salesforce admin, for less than a full-time hire: new automations, fast fixes, monitoring and a monthly report.
@@ -75,7 +80,7 @@ What owners say
 What it costs
 Spend that follows lead volume. Cheap leads look like winners, so money keeps going to campaigns that don't close.
 Built
-Campaign ROI by market and source, with kept deals and off-book closings counted and checked against the books.
+Campaign ROI by market and source, with every closing credited to the campaign that found it and checked against the books.
 What it changed
 The owners move marketing money on return, and trust the number.
 Speed to lead
@@ -86,7 +91,7 @@ Sellers you already paid for. One calls after hours, gets voicemail, and another
 Built
 Missed-call alerts on every marketing number, shared queues, and duplicate handling that keeps the seller's history.
 What it changed
-No seller lost to a voicemail nobody heard.
+Missed calls turn into callback tasks instead of voicemails nobody hears.
 Follow-up
 What owners say
 “The reps are on top of it.”
@@ -123,8 +128,6 @@ Built
 New-hire setup, access, fixes and reports, handled the same week they're asked for.
 What it changed
 The team keeps working, with no ticket queue and no full-time admin hire.
-“Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.”
-Sean Grabow , Founder, Central City Solutions
 Also
 Pezon Properties
 Real estate acquisition · Pennsylvania
@@ -133,16 +136,16 @@ Built
 What it changed
 Net profit per deal, visible as it happens.
 How it works
-From a free call to the second Monday
-Every step after the first is your call. Most teams start with 30 minutes.
+From a free call to the Monday with a system
+You decide every step after the first. Start with a free 30-minute call.
 Free · 30 minutes Free call You tell me how a deal moves through your team today. We agree whether there's a fit, and the right first step.
-$1,500 fixed CRM Revenue Audit Every leak in writing, what it's likely costing you, and a 30 / 60 / 90 fix plan you can hand to anyone. Not on Salesforce? This step is the move to Salesforce instead.
+$1,500 fixed CRM Revenue Audit The leaks in writing, what each one is likely costing you, and a 30 / 60 / 90 fix plan you can hand to anyone. Not on Salesforce? This step is the move to Salesforce instead.
 Project Build The fixes, or the whole system, built around how your team works, with training so it gets used.
 Monthly Keep it running Same-week changes, a monthly automation check and a report. No long-term contract.
 Who you'd work with
 One person who runs an investor team's Salesforce day to day, not a big firm.
 For two years I've been the Salesforce person for a home-buying company in Ohio, from the first call on a marketing number to the closing. Before that I spent eight years as an Adobe Certified Instructor and taught 8,000+ students, rated 4.9/5, so every build comes with training your team will actually use.
-My focus is real estate investor teams. The same three things matter to any business that runs on leads: nothing falls through, the numbers are right, and changes don't wait on a developer. I work from Cairo, in your morning.
+My focus is real estate investor teams. The same three things matter to any business that runs on leads: nothing falls through, the numbers are right, and changes don't wait on a developer. I work from Cairo, in US mornings and UK afternoons.
 Salesforce Certified Administrator
 Platform App Builder
 Salesforce Certified Associate
@@ -192,11 +195,11 @@ No. The audit is built for Salesforce. If you're outgrowing another CRM or sprea
 What does it cost?
 The CRM Revenue Audit is $1,500, fixed, and the full fee comes off the build if you go ahead within 30 days. A full implementation is quoted as a project after a free call. Ongoing support is a monthly retainer with no long-term contract. Salesforce licenses are billed by Salesforce, so ask your account manager for a quote for your team size; teams can often get a discount.
 You're in Cairo. How does that work?
-I work Cairo afternoons and evenings, which is the US morning and the UK afternoon. Calls are booked at a time that suits you.
+I work Cairo afternoons and evenings, which is the US morning and the UK afternoon. That's how I've worked with a home-buying company in Ohio for two years. Calls are booked at a time that suits you.
 You're one person. Why not an agency?
 With an agency, your project often goes through a project manager to a consultant who may never have worked in real estate. With me, the person who answers your message is the person who builds it. The honest trade-off: I'm one specialist, not a ten-person team, so I take on a small number of clients at a time.
 What access do you need, and is our data safe?
-For the audit, a read-only Salesforce user covers most of the review. You create the user, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK, and the three quick fixes are agreed with you first.
+For the audit, a read-only Salesforce user covers most of the review. You create the user, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first.
 What have you actually built?
 For two years I've been the Salesforce person at Central City Solutions, a home-buying company in Columbus and Cincinnati, Ohio: campaign ROI by market checked against the books, missed-call alerts on every marketing number, follow-up that stops when a seller replies, a Transactions Board for every file under contract, and settings ops can change without a developer. At Pezon Properties in Pennsylvania I delivered 50+ requests, including a campaign ROI dashboard with 25 funnel metrics and a rebuilt transaction coordination app.
 Do you work with teams outside the US?
@@ -210,6 +213,78 @@ How do you set up speed to lead in Salesforce?
 A Flow runs the moment a lead is created: it assigns the lead to the right rep or queue, creates a callback task and sends an alert. Missed calls on marketing numbers create their own callback tasks, and a report shows how long sellers really wait. The full setup is in the speed to lead guide .
 How long does a Salesforce implementation take?
 Most focused builds take 6 to 12 weeks, scoped up front: the design first, then the core build (lead routing, pipeline, automations and integrations), then reports and training. Bigger builds take longer and are scoped before they start.
+Next Monday
+Make next Monday the one with a system.
+Book a free 30-minute call and tell me how your team works today, on Salesforce, Podio, REsimpli, GoHighLevel or spreadsheets. We'll find the quick wins and the right next step. No pressure.
+info@AmrMagdy.com I reply within one working day
+Message me on WhatsApp +20 103 327 5250
+Connect on LinkedIn linkedin.com/in/amrmagdyai
+Cairo afternoons and evenings US mornings, UK afternoons
+
+---
+## About Amr Magdy | Salesforce CRM Consultant
+URL: https://amrmagdy.com/about.html
+
+About
+Amr Magdy , Salesforce CRM Consultant for real estate investor teams
+I run the Salesforce behind a home-buying company in Ohio, and I build the same system for other US real estate investors and wholesalers. Missed calls turn into callbacks, follow-up stops when the seller replies, and the marketing numbers get checked against the books.
+Before Salesforce I spent eight years as an Adobe Certified Instructor and taught 8,000+ students, rated 4.9/5, so every build comes with training your team will actually use.
+I work from Cairo, Egypt, in your morning, in English or Arabic.
+How I work
+Three things matter to any team that runs on leads
+Nothing falls through
+Every call on a marketing number gets a callback, and follow-up runs until the seller replies.
+The numbers are right
+Campaign ROI is checked against the books, so the Monday numbers are ones you can act on.
+Changes don't wait on a developer
+Settings your ops team can change without a developer, and same-week changes for everything else.
+The person who answers your message is the person who builds it. I'm one specialist, not a ten-person team, so I take on a small number of clients at a time.
+Background
+Work so far
+2024 to now
+Independent Salesforce CRM Consultant , running the Salesforce for a two-market home-buying company in Ohio and building for other investor teams
+2024 to 2025
+Pezon Properties , real estate acquisition, Pennsylvania: 50+ requests, including a campaign ROI dashboard and a rebuilt transaction coordination app
+2024
+Sylndr , automotive: Salesforce admin and developer
+2023
+Conx Digital , UAE: Salesforce Marketing Cloud
+2015 to 2023
+Adobe Certified Instructor : eight years of classes, 8,000+ students, rated 4.9/5
+Certifications
+Salesforce Certified Administrator
+Salesforce Certified Platform App Builder
+Salesforce Certified Associate
+Salesforce Certified AI Associate
+Trailhead Double Star Ranger
+Education
+Cairo University, Faculty of Commerce
+Languages
+English and Arabic
+For podcast hosts and partners
+Bio and talk topics
+Use these as written. The headshot is the photo on this page; for a larger file, email info@AmrMagdy.com .
+Short bio About 50 words
+Amr Magdy is a Salesforce CRM Consultant who runs the Salesforce behind a home-buying company in Ohio and builds the same system for other US real estate investors and wholesalers, so every seller call gets a callback and every deal traces back to the marketing that paid for it.
+Long bio About 130 words
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies. For two years he has run the Salesforce for a two-market home-buying company in Ohio, handling every request from marketing, acquisitions, dispositions and transaction coordination. His builds include campaign ROI checked against the books, missed-call alerts on every marketing number, follow-up that stops when a seller replies, and a Transactions Board for every file under contract. Before Salesforce he spent eight years as an Adobe Certified Instructor and trained more than 8,000 people. His view is that most investor teams don't have a lead problem, they have a leak problem. He works from Cairo during US business hours and gives away the tools he uses, including the Deal Leak Score, at amrmagdy.com.
+Talk topics
+The marketing worked, the phone didn't: what one missed seller call costs, and the boring fix
+Cost per deal, not cost per lead: tracking which lead source actually closes
+The Monday 5: the five numbers an investor owner should see every week
+When Salesforce is overkill, and when a growing team outgrows Podio or a spreadsheet
+New wholesaling laws: what your CRM has to track (systems, not legal advice)
+Elsewhere
+Find me on
+LinkedIn linkedin.com/in/amrmagdyai
+Salesforce Trailblazer Certifications and badges
+YouTube @AmrMagdyCRM
+BiggerPockets Forum answers
+GitHub github.com/AmrMagdyAi
+Contra Freelance profile
+Product Hunt Maker profile
+Quora Answers
+Crunchbase Amr Magdy CRM Consulting
 Next Monday
 Make next Monday the one with a system.
 Book a free 30-minute call and tell me how your team works today, on Salesforce, Podio, REsimpli, GoHighLevel or spreadsheets. We'll find the quick wins and the right next step. No pressure.
@@ -1737,7 +1812,7 @@ A read-only Salesforce login (I send simple steps).
 A yes or no on each quick fix.
 A 60-minute walkthrough call.
 Not included
-Building fixes beyond the 3 quick ones, data migration and new integrations. Those are scoped separately if you want them.
+Building fixes beyond the quick fixes (up to 3), data migration and new integrations. Those are scoped separately if you want them.
 Fee and payment
 $1,500 USD, fixed. 50% to start and 50% when the report is delivered, by bank transfer or card through an invoice. Escrow through an Upwork contract is available on request; the payment is then held until you approve the report.
 If you hire me for the build within 30 days of the walkthrough, the full $1,500 comes off that project.
@@ -1760,20 +1835,26 @@ Your CRM, before and after
 Start here CRM Revenue Audit · for teams already on Salesforce
 Find where your Salesforce is losing deals , before you buy more leads.
 Most investor teams don't have a lead problem. They have a few quiet leaks: a missed call nobody saw, an offer that went cold, a campaign that gets credit for someone else's deal.
-I go through your Salesforce the way I'd go through my own, and hand you a plain-English report: what's leaking, what it's likely costing you, and what to fix first.
+I go through your Salesforce and hand you a plain-English report: what's leaking, what it's likely costing you and what to fix first.
 Today “I think the mail is working.”
 After the audit You know what each contract costs, by channel.
 Not on Salesforce? You need a move to Salesforce , not an audit. Book a free call and we'll scope it.
 CRM Revenue Audit
 $1,500 USD, fixed
-One price for teams already on Salesforce. Credited in full to the build if you go ahead within 30 days.
+One price for teams already on Salesforce. Credited in full to the build if you go ahead within 30 days of the walkthrough.
 1 Written findings report
-5+ Fixable issues, or your money back
+5+ Fixable issues worth more than the fee, or your money back
 up to 3 Quick fixes made during the audit
-5 Monday numbers, specced for your org
+5 Numbers for your Monday dashboard, defined for your org
 2 Calls: kick-off and recorded walkthrough
 Full refund if it doesn't find five fixable issues worth more than the fee. Scope and terms
 Ready to start? Pay the $750 deposit to lock your start date.
+Who does the audit
+Who does the audit: Amr Magdy , Salesforce CRM Consultant for US real estate investors and wholesalers.
+For two years I've run Salesforce for Central City Solutions, a home-buying company in Columbus and Cincinnati: campaign ROI by market, missed-call alerts, a Transactions Board and same-week changes. Salesforce Certified Administrator and Platform App Builder.
+More about me
+“Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.”
+Sean Grabow , Founder, Central City Solutions
 Why I built this
 The question I hear most
 “We spend thousands a month on mail, cold calling and PPC. Which of it is actually working?”
@@ -1827,7 +1908,7 @@ Five steps, two calls
 About two hours of your time in total. I do the rest.
 Step 1 Kick-off call You walk me through how a deal moves through your team, and what's bugging you. You: a 45-minute call and a read-only login (I send simple steps).
 Step 2 The review I work through all six areas in your org. If I find something urgent, like an automation that's failing quietly, you hear about it the same day. You: nothing, unless I have a question.
-Step 3 Quick fixes I send you the three small fixes I'd make first. Once you say yes, I make them, so you see results before the walkthrough. You: a yes or no on each fix.
+Step 3 Quick fixes I send you up to 3 small fixes I'd make first. Once you say yes, I make them, so you see results before the walkthrough. You: a yes or no on each fix.
 Step 4 Report delivered The findings report, the roadmap and the dashboard spec arrive before we meet, so you can read them first. You: a read, at your own pace.
 Step 5 Walkthrough We go through the findings with whoever on your team should be in the room, and agree what happens next. You: a 60-minute call, recorded.
 Is this for you?
@@ -1842,31 +1923,25 @@ Run on Podio, REsimpli, GoHighLevel or spreadsheets. You need a move to Salesfor
 Need the fixes built this week. That's a build project, which we can scope
 Want a full rebuild price before anyone has looked at your setup
 The terms
-The risk is mine, not yours
+Your money back if it finds too little
 The promise
 If the report doesn't give you at least five specific, fixable issues worth more than the fee, tell me on the walkthrough and I refund it in full. No forms, no argument.
 Founding clients
-The first three audit clients get a direct WhatsApp line to me during the audit and for 30 days after. In return, a short case study written with you, published only with your OK.
+The first three audit clients get a direct WhatsApp line to me for questions about their org, during the audit and for 30 days after. In return, a short case study written with you, published only with your OK.
 Paying
 50% to start, 50% when the report is delivered, by invoice. Prefer escrow? It can run as an Upwork contract, so your payment is held until you approve the report.
-Who does the audit
-Who does the audit: Amr Magdy , Salesforce CRM Consultant for US real estate investors and wholesalers.
-For two years I've run Salesforce for Central City Solutions, a home-buying company in Columbus and Cincinnati: campaign ROI by market, missed-call alerts, a Transactions Board and same-week changes. Salesforce Certified Administrator and Platform App Builder.
-More about me
-“Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.”
-Sean Grabow , Founder, Central City Solutions
 Questions
 Before you ask
 What access do you need?
-A read-only Salesforce user covers most of the review. You create it, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK, and the three quick fixes are agreed with you first.
+A read-only Salesforce user covers most of the review. You create it, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first.
 How long does it take?
-It runs on your schedule: the kick-off call, my review, three agreed quick fixes, the report, then the walkthrough. Your part is about two hours in total, and we set the walkthrough date on the kick-off call.
+We set the walkthrough date together on the kick-off call, so you know the finish date before the review starts. In between: my review, up to 3 agreed quick fixes, and the report, which reaches you before the walkthrough. Your part is about two hours in total.
 Do we have to hire you for the fixes?
 No. The roadmap is written so your team, or anyone you choose, can follow it. If you do hire me for the build within 30 days, the full audit fee comes off the project.
 What if we're not on Salesforce?
 Then the audit isn't the right step. You need a move to Salesforce: I map what you track today, move your data and build around how your team works. Book a free call and we'll scope it.
 You're in Cairo. How does the time difference work?
-I work Cairo afternoons and evenings, which is the US morning and the UK afternoon. Both calls are booked at a time that suits you.
+I work Cairo afternoons and evenings, which is the US morning and the UK afternoon. That's how I've worked with a home-buying company in Ohio for two years. Both calls are booked at a time that suits you.
 How do we pay?
 50% to start and 50% when the report is delivered, by bank transfer or card through an invoice. Prefer escrow? It can run as an Upwork contract instead, so your payment is held until you approve the report. The full scope and terms are on one page.
 What if the audit doesn't find much?

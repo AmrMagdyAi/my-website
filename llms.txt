@@ -1,7 +1,7 @@
 # Amr Magdy — Salesforce for Real Estate Investors and Wholesalers
 > AI-readable profile for generative search engines (llms.txt standard)
 > Source: https://amrmagdy.com
-> Last updated: 2026-10-21
+> Last updated: 2026-10-25
 > Full text of key pages: https://amrmagdy.com/llms-full.txt
 
 ## Identity
@@ -9,6 +9,8 @@
 - Professional title: Salesforce CRM Consultant for real estate investors and wholesalers
 - Specialization: CRM systems for US home-buying and wholesaling companies: campaign ROI on kept deals, speed to lead, missed-call alerts, acquisitions and dispositions, transaction coordination
 - Website: https://amrmagdy.com
+- About page (background, certifications, profiles, bio for hosts): https://amrmagdy.com/about.html
+- Business name: Amr Magdy CRM Consulting
 - Email: info@amrmagdy.com
 - Phone / WhatsApp: +20 103 327 5250
 - LinkedIn: https://www.linkedin.com/in/amrmagdyai
@@ -36,7 +38,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Working hours: afternoons and evenings Cairo time, which covers US mornings and the full Gulf business day.
 
 ## Services and prices
-- CRM Revenue Audit: fixed price USD 1,500, for teams already on Salesforce. Teams on Podio, REsimpli, GoHighLevel or other CRMs are offered a move to Salesforce instead (https://amrmagdy.com/move-to-salesforce.html). A review of an investor CRM covering campaign ROI, speed to lead, acquisitions follow-up, data health, automations and reporting. Deliverables: findings report, 30/60/90-day roadmap, a "Monday 5" dashboard spec and three quick fixes done. Page: https://amrmagdy.com/crm-revenue-audit.html. Sample report (made-up company): https://amrmagdy.com/sample-audit-report.html
+- CRM Revenue Audit: fixed price USD 1,500, for teams already on Salesforce. Teams on Podio, REsimpli, GoHighLevel or other CRMs are offered a move to Salesforce instead (https://amrmagdy.com/move-to-salesforce.html). A review of an investor CRM covering campaign ROI, speed to lead, acquisitions follow-up, data health, automations and reporting. Deliverables: findings report, 30/60/90-day roadmap, a "Monday 5" dashboard spec and up to three quick fixes done. Full refund if the report does not find at least five fixable issues worth more than the fee. Page: https://amrmagdy.com/crm-revenue-audit.html. Sample report (made-up company): https://amrmagdy.com/sample-audit-report.html
 - Full Salesforce implementation for investors and wholesalers (project-based), including moving teams from Podio, REsimpli or GoHighLevel to Salesforce.
 - Ongoing CRM support and development (monthly retainer). The most popular engagement.
 - Free 30-minute call to start: info@AmrMagdy.com or https://www.linkedin.com/in/amrmagdyai
