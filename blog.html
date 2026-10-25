@@ -188,7 +188,10 @@
       ns.style.color = '#475569'; ns.textContent = 'Subscribing…';
       fetch('https://api.web3forms.com/submit', {method:'POST', headers:{'Accept':'application/json'}, body:new FormData(nf)})
         .then(function(r){ return r.json(); })
-        .then(function(){ ns.style.color = '#1f8a4c'; ns.textContent = 'You\'re in! First guide coming soon.'; nf.reset(); })
+        .then(function(d){
+          if(d && d.success && window.gtag) gtag('event','generate_lead',{method:'form',form:'newsletter',page_path:location.pathname});
+          ns.style.color = '#1f8a4c'; ns.textContent = 'You\'re in! First guide coming soon.'; nf.reset();
+        })
         .catch(function(){ ns.style.color = '#1f8a4c'; ns.textContent = 'You\'re in! First guide coming soon.'; nf.reset(); });
     });
   }

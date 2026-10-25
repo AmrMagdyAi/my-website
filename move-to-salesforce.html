@@ -297,7 +297,7 @@
     status.style.color='#475569';status.textContent='Sending…';
     fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(form)})
       .then(function(r){return r.json();})
-      .then(function(d){if(d&&d.success){var L=window.AMR_LINKS||{},x=[];if(L.book)x.push('<a href="'+L.book+'" target="_blank" rel="noopener" style="text-decoration:underline;font-weight:600">book a free scoping call now</a>');status.style.color='#1f8a4c';status.innerHTML='Thanks, got it. I\'ll reply within one working day.'+(x.length?' Want to move faster? You can '+x.join(', or ')+'.':'');form.reset();}else{throw 0;}})
+      .then(function(d){if(d&&d.success){var L=window.AMR_LINKS||{},x=[];if(L.book)x.push('<a href="'+L.book+'" target="_blank" rel="noopener" style="text-decoration:underline;font-weight:600">book a free scoping call now</a>');status.style.color='#1f8a4c';status.innerHTML='Thanks, got it. I\'ll reply within one working day.'+(x.length?' Want to move faster? You can '+x.join(', or ')+'.':'');form.reset();if(window.gtag)gtag('event','generate_lead',{method:'form',form:'move',page_path:location.pathname});}else{throw 0;}})
       .catch(function(){status.style.color='#b42318';status.innerHTML='That didn\'t go through. Please email <a href="mailto:info@AmrMagdy.com?subject=Move%20to%20Salesforce" style="text-decoration:underline">info@AmrMagdy.com</a>.';});
   });
 })();
