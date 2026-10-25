@@ -1,7 +1,7 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-10-24
+> Generated: 2026-10-25
 
 
 ---
@@ -434,7 +434,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant
 
 ---
@@ -495,7 +495,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -556,7 +556,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -600,7 +600,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant
 
 ---
@@ -650,7 +650,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -700,7 +700,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant
 
 ---
@@ -762,7 +762,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -810,7 +810,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -863,7 +863,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -954,7 +954,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1025,7 +1025,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1083,7 +1083,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1128,7 +1128,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant
 
 ---
@@ -1175,7 +1175,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1255,7 +1255,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1298,7 +1298,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant
 
 ---
@@ -1351,7 +1351,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1407,7 +1407,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
@@ -1455,7 +1455,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr builds Salesforce for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 © 2026 Amr Magdy · Salesforce CRM Consultant
 
 ---
@@ -2771,6 +2771,10 @@ Texting sellers from Salesforce
 10DLC registration, CTIA consent guidance, opt-outs and the tools that log texts.
 Every lead source into Salesforce
 Web-to-Lead, Facebook lead ads, Google Ads conversion import, CallRail and lists.
+Transaction coordination in Salesforce
+Contract to close on one board: stages, dates, automatic tasks and a weekly TC scorecard.
+Salesforce admin: hire or retainer?
+What the admin work is in an investor org, and how a full-time hire, a freelancer and a retainer compare.
 Wholesaling and acquisitions
 Underwrite offers, price your exits and see what each lead source really costs.
 New wholesaling laws: what your CRM has to track
@@ -2813,6 +2817,8 @@ Acquisitions team capacity
 How many reps your lead volume needs, from first calls, follow-up touches and offers.
 Rentals, BRRRR and buy-to-let
 For buy-and-hold investors in the US, Canada, the UK and Europe. Pick your currency.
+Salesforce for private and DSCR lenders
+The loan pipeline from inquiry to payoff: conditions, draws, repeat borrowers and the owner reports.
 BRRRR calculator
 Cash left in the deal after the refinance, monthly cash flow, cash-on-cash return and equity.
 Rental yield & cap rate
@@ -2840,6 +2846,71 @@ Salesforce for real estate investors · Cost per lead, deal profitability and ca
 Rather have it built into your CRM?
 Every tool here is something I build as live reporting in Salesforce for investors and wholesalers. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit (USD 1,500).
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Salesforce Admin for Real Estate Investors: Hire or Retainer?
+URL: https://amrmagdy.com/salesforce-admin-real-estate-investors.html
+
+A Salesforce admin for your investor team: hire, freelancer or retainer?
+Most home-buying and wholesaling teams of 10 to 50 people reach the same point. Salesforce runs the business, the person who set it up has moved on, and every change now waits on a support ticket or a favor. This page is for the owner or ops lead deciding what to do about it: what an admin actually does in an investor org, the three ways to cover it, and how to tell which one fits.
+Signs the admin gap is costing you
+You don't need a full-time admin because you're on Salesforce. You need some admin time when changes start piling up. These are the signs I see most:
+Changes wait weeks. A new lead source, a new market, a new field for the acquisitions team. Nobody owns it, so it sits.
+Automations fail and nobody knows. A missed-call alert stops firing after someone edits a flow, and you find out when a seller says nobody called back.
+The dashboard and the bank account disagree. Cost per contract looks fine in Salesforce, but the money doesn't feel that way.
+Your ops lead is the admin by accident. They know the most about the CRM, so every request lands on them on top of their real job.
+Zapier is doing a lot of the heavy lifting. Every Zap is a thing that can break quietly, and the bill keeps growing.
+You're about to grow. New reps, a new market, a new dialer. Every one of those is a set of CRM changes.
+If two or three of those sound familiar, the gap is already costing you deals. The question is how to cover it.
+What an admin actually does in an investor org
+In a home-buying company the work is mostly the same few things, every month:
+Area | Typical requests
+Lead intake | New marketing numbers and lead sources, web forms, duplicate rules, routing to the right rep or queue
+Speed to lead | Missed-call alerts, callback tasks, text follow-up that stops when a seller replies
+Acquisitions | Offer fields, appointment outcomes, stale-offer reviews, reassigning leads when a rep leaves
+Contract to close | Transaction stages, title and closing tasks, DocuSign status, deadlines
+Dispositions | Buyer list fields, buyer tiers, deal blasts, assignment tracking
+Reporting | Campaign ROI, cost per contract, the owner's Monday numbers, fixing reports that drifted
+Users and access | New reps and VAs, permission sets, turning off people who left
+Integrations | Dialer and call logs, texting, DocuSign, QuickBooks, Zaps that need moving to Flows
+For a longer list of real requests from one acquisitions team, see 50+ real Salesforce requests from an acquisitions team .
+Three ways to cover it
+ | Full-time hire | Hourly freelancer | Monthly retainer (fractional admin)
+Best when | You have a backlog that fills 40 hours a week, every week | You have one clear project with a start and an end | You have a steady stream of changes but not a full-time job's worth
+Knows real estate | Depends who you find; most Salesforce admins have never seen a wholesaling pipeline | Usually not; you explain your process every time | Pick one who does, so you don't pay for the learning curve
+Who watches the automations | They do, if it's in the job description | Nobody, between jobs | Should be part of the retainer (see below)
+Risk | One person holds everything; when they leave, you start over | Changes with no documentation, made by different people | Retainer that gets used for nothing; fix it with a monthly report
+Commitment | Salary, benefits, hiring time | Per job | Month to month
+Honest version: if you're under 10 people and nothing changes month to month, you probably don't need any of these. Fix the setup once and leave it. If you're past 40 or 50 people with several markets, a full-time admin starts to make sense, and a retainer can bridge until you find the right one.
+What to put on a retainer
+A retainer only works if both sides know what "covered" means. This is what I'd put in writing, whoever you hire:
+A request queue. One place where requests go, with a status. Not WhatsApp messages to one person.
+A monthly check of the automations. Flows, Zaps and integrations that should have fired, checked against what actually happened.
+A monthly report. What was asked, what was done, what's next, and anything that looks wrong in the data.
+Documentation as you go. Every change gets one line: what, why, who asked. The next admin will thank you.
+Response times you can plan around. Something broken that stops leads gets looked at the same day. A new report can wait for the next slot.
+Training for new hires. A short walkthrough for every new rep, so they don't end up working out of a spreadsheet.
+No long contract. If it isn't worth it, you should be able to stop.
+That's how I run Ongoing Support & Development . It's a monthly retainer with no long-term contract.
+If you hire someone full time
+Good. A few things that save pain:
+Ask them to walk you through how they'd track a lead from a mailer number to a closed assignment. If they can't picture it, they'll learn on your org.
+Give them read-only access to a sandbox during the interview and ask what they'd fix first. You'll learn more in 20 minutes than from the CV.
+Get the org documented before the handover, not after. If the person who built it is still around, pay them for a week of write-up.
+Check that one person isn't the only system administrator. Two people with full access, always.
+The 10-point health check also works as an interview exercise: hand it to a candidate and ask what they'd look at first.
+Questions
+Do I need a full-time Salesforce admin for a team of 10 to 50?
+Usually not. Most investor teams that size have a steady stream of changes but not 40 hours a week of them. A part-time or retainer admin who knows real estate covers it, as long as automations are checked monthly and changes are documented.
+What is a fractional Salesforce admin?
+Someone who acts as your admin for part of the month on a retainer: handles requests, watches automations and integrations, keeps reports right and trains new users, without the cost of a full-time hire.
+Can my ops manager just be the admin?
+They can for small changes, and many do. The risk is that CRM work eats their real job and nobody checks the automations. Give them a backup, even a part-time one.
+We're on Podio or REsimpli. Does this apply?
+The retainer covers Salesforce orgs. If you're on another CRM and outgrowing it, the first step is a move to Salesforce , which we can scope on a free call.
+Need an admin but not a full-time one?
+Ongoing Support & Development is a monthly retainer: new automations, fast fixes, monthly monitoring and reports, and training for new hires, with no long-term contract. On Salesforce and not sure what you have? Start with the fixed-price CRM Revenue Audit (USD 1,500).
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3007,6 +3078,8 @@ Email what you track today and where deals get lost. I reply within 24 hours.
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
+About the author: Amr Magdy
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 
 ---
 ## Salesforce CRM for UK Property Investors & Deal Sourcers
@@ -3044,6 +3117,8 @@ Email what you track today and where deals get lost. I reply within 24 hours.
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
+About the author: Amr Magdy
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 
 ---
 ## Salesforce Dialers for Real Estate: Open CTI Ends 2028
@@ -3768,6 +3843,7 @@ Under contract | Opportunity (stage: Under Contract) | Contract price (locked), 
 Dispositions | Buyer contacts + deal | Buy box: area, price band, type, rehab level | Matched buyer list; who was sent and who replied
 Closing | Transaction | Title company, closing date, assignment fee or spread, actual profit | Transactions board; profit rolls back to the campaign
 The free CRM field kit has these fields as CSV files you can import into any CRM, Salesforce or not.
+The closing step has its own guide: transaction coordination in Salesforce . If nobody on the team owns the CRM after it's built, see hire an admin or use a retainer . Lending to investors instead of buying? See Salesforce for private and DSCR lenders .
 The 10 builds that pay for themselves
 These are the automations I'd build first for a team of 3 to 30. Each one closes a leak a reader can name. None of them needs code.
 1. Missed-call alert
@@ -3908,6 +3984,8 @@ Score: 9–10, your CRM is working for you. 6–8, solid but hours and deals are
 Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
+About the author: Amr Magdy
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. At Central City Solutions, a home-buying company in Columbus, Ohio, he built and runs the Salesforce system the business runs on: campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record. LinkedIn · Free tools · CRM Revenue Audit
 
 ---
 ## Salesforce Integrations for Real Estate Investors (2026)
@@ -4100,6 +4178,63 @@ Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighL
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
+## Salesforce for Private and DSCR Lenders: Loan Pipeline
+URL: https://amrmagdy.com/salesforce-private-lenders-dscr.html
+
+Salesforce for private and DSCR lenders: the loan pipeline, borrower to payoff.
+If you lend to investors, your borrowers are home-buying companies, flippers and landlords, and their deals move fast. Most small lending shops track that in a mix of email, a loan servicing tool and a spreadsheet of who's in the pipe. This page is how I'd lay out a private, hard money or DSCR lender's pipeline in Salesforce, using the same patterns I use for investor teams.
+The data model
+Keep it close to standard Salesforce objects so reports and integrations just work:
+Thing | Salesforce object | Notes
+Borrower company | Account | Most investor borrowers buy through an LLC; one account per entity, linked to the person behind it
+Borrower, guarantor, broker | Contact | One person can be a guarantor on several entities; use contact roles
+Loan request | Opportunity | One per property and loan; loan type as a record type (fix and flip, bridge, DSCR rental, construction)
+Property | Custom object | Address, purchase price, ARV or value, rent for DSCR, linked to the loan
+Conditions | Custom object or tasks | Each item you need before closing, with status and who owes it
+Draws | Custom object | For rehab and construction loans: requested, inspected, approved, funded
+Referral source | Campaign or field | Broker, mastermind, wholesaler, repeat, ads, so you know where good loans come from
+Loan stages
+Inquiry. Borrower or broker sends a deal. Speed matters here as much as it does for a wholesaler's seller lead. The borrower usually has other lenders on the same deal.
+Term sheet sent. Rate, points, leverage and conditions out the door, with an expiry date.
+Application and docs. Entity docs, track record, bank statements, insurance.
+Underwriting. Valuation, title, the DSCR or leverage check.
+Clear to close. Conditions met, closing scheduled.
+Funded. Hand-off to servicing, whatever you use for it.
+Paid off or refinanced. Close the loop and trigger the next conversation with the borrower.
+Lost. With a reason: rate, speed, leverage, deal died, went with another lender.
+"Lost, reason: speed" is the one to watch. If it shows up often, the fix is usually in the first two stages, not the rate.
+Conditions and draws without the email chain
+The slow part of most private loans is the list of things you're waiting for. Put each condition on the loan as its own line with an owner (borrower, title, insurance, you) and a due date. A Flow sends the borrower a reminder for anything they owe, and the loan officer sees one list instead of searching email.
+Draws work the same way. Each draw request is a record: amount, line items, inspection date, approved amount, funded date. The borrower can submit through a simple form so the request lands in Salesforce instead of a text message.
+Repeat borrowers are the business
+A good investor borrower does several deals a year. The CRM should make the second loan easier than the first:
+Track record on the account: deals done with you, on time or late, average loan size.
+Documents on file with an expiry date (entity docs, insurance), so you only ask for what's out of date.
+A task when a loan is a few weeks from maturity, to talk about payoff, extension or the next deal.
+A simple tier for borrowers who close often and pay on time, so they get the fast lane.
+It's the same idea as a wholesaler's VIP buyer tier in dispositions : the best repeat customers should get noticed automatically, not when someone remembers.
+The reports a lending owner looks at
+Pipeline by stage and expected funding date
+Time from inquiry to term sheet, and from term sheet to funding
+Lost loans by reason
+Funded volume by referral source (which brokers and partners send loans that close)
+Loans maturing in the next 60 days
+Borrowers with expiring documents
+For the DSCR math itself, the free DSCR calculator shows the ratio from rent and PITIA and the max loan at a target ratio. The same formula can live as a field on the property record.
+Questions
+Is Salesforce a good fit for a small private lender?
+It fits when you have several people working loans, many repeat borrowers or referral partners, and you want reports on speed and source. A one-person shop doing a few loans a month is usually fine with something simpler.
+Can Salesforce replace our loan servicing software?
+Usually not, and it doesn't need to. Use Salesforce for the pipeline, borrowers, conditions and relationships, and hand funded loans to your servicing system. Sync the key status back if you want it in reports.
+Can borrowers submit deals and draw requests straight into Salesforce?
+Yes. A web form or an Experience Cloud page can create the loan request or draw record directly, so nothing gets retyped from email.
+Do you work with lenders?
+My main work is with home-buying and wholesaling companies, and lenders who serve them are a natural fit. If you're already on Salesforce, the CRM Revenue Audit works the same way; if not, start with a free call.
+Lending to investors and already on Salesforce?
+The CRM Revenue Audit (USD 1,500 fixed, for teams already on Salesforce) checks speed to term sheet, follow-up, data health and the reports you run the business on. On another system? We can scope a move to Salesforce on a free 30-minute call.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
 ## QuickBooks + Salesforce for Real Estate Investors
 URL: https://amrmagdy.com/salesforce-quickbooks-real-estate.html
 
@@ -4279,6 +4414,68 @@ Last updated October 2026. Product names, editions and limits change; check the 
 Want texting that’s logged and compliant by design?
 I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Transaction Coordination in Salesforce for Investors
+URL: https://amrmagdy.com/salesforce-transaction-coordination-real-estate.html
+
+Transaction coordination in Salesforce: contract to close on one board.
+The seller signed. Now title needs the contract, someone has to get the keys, the buyer wants a walkthrough and the closing date is three weeks out. In a lot of investor teams that part lives in a TC's head, a spreadsheet and a group text. This page is how I set it up in Salesforce instead: the stages, the fields, the automatic tasks and the one report the owner should look at.
+Why deals leak after the contract
+Most CRM effort goes into the front of the funnel: leads, calls, appointments, offers. Then the contract gets signed and the CRM goes quiet. The deal is "Under Contract" for three weeks, and the only way to know where it really stands is to ask the TC.
+That's where the expensive problems are. A seller who doesn't hear from you for a week after signing starts taking other calls. Title is waiting on a document nobody knew they needed. The inspection window passes. In states with new wholesaling rules there are now cancellation windows and closing deadlines on top of that (see what your CRM has to track ).
+Stages that match how a deal really closes
+I keep transaction stages separate from acquisition stages. The acquisitions pipeline ends at a signed contract. The transaction picks up from there. A simple version:
+Stage | Done when
+Contract signed | Signed purchase agreement on file, closing date and title company set
+Opened with title | Title has the contract and earnest money is sent
+Due diligence | Inspection, walkthrough and photos done; repair estimate confirmed
+Buyer secured | Assignment or second contract signed (wholesale), or financing confirmed (flip or rental)
+Clear to close | Title commitment clear, closing scheduled with all parties
+Closed | Funds received, file complete
+Fell through | With a required reason, so you can see why deals die
+Not every deal goes through every step. At Pezon Properties I rebuilt the TC app so the stages change by deal type, cash or financed, single-family or multi-unit, and the record only asks the questions that deal needs. That one change matters more than any dashboard: TCs stop skipping fields that don't apply.
+The fields worth having
+Dates: contract date, inspection deadline, cancellation deadline (where the state has one), expected close, actual close.
+Parties: title company and contact, buyer, seller's preferred contact method, lender if any.
+Money: purchase price, earnest money and where it sits, assignment fee or expected profit, closing costs.
+Exit: assignment, double close, flip or keep as a rental. This is the field that makes campaign ROI honest later, because kept deals still came from a campaign.
+Checklist: a short onboarding checklist for the property (keys, utilities, access, photos). Pezon's ended up with 40+ fields because they run several deal types; most teams need far fewer.
+Last seller update: the date someone last told the seller where things stand. More on this below.
+Tasks that create themselves
+The point of all of this is that nobody has to remember. When a deal moves stage, Salesforce creates the next tasks, assigns them and dates them. A few that I'd always build:
+Contract signed: send contract to title today, call the seller within 24 hours to explain next steps.
+Opened with title: confirm earnest money received, schedule walkthrough.
+Three days before the inspection or cancellation deadline: reminder to the TC and the acquisitions rep.
+No seller update in 5 days: task to call the seller, and a flag on the board.
+Clear to close: confirm closing time with seller, buyer and title; send the seller a plain checklist for closing day.
+Closed: request the settlement statement, update profit and exit, ask for a review if it went well.
+Fell through: reason required, then a task to put the lead back into follow-up if the seller still wants to sell.
+Every one of those is a normal record-triggered Flow. No code. If your team changes the rules often, the Configuration Object approach lets ops change them without a developer.
+One board for every file under contract
+A Kanban view of transactions by stage, with the closing date, days in stage and last seller update on each card. That's it. At Central City Solutions every file under contract sits on one live Transactions Board, so nobody has to ask the TC where a deal stands.
+Add a filter for "my deals" so each TC and rep sees their own, and a red flag for anything past a deadline or quiet for too long.
+The TC scorecard
+One report the owner looks at weekly. Keep it short:
+Files under contract, by stage
+Expected closings this month and next, with total expected profit
+Deals past a deadline
+Average days from contract to close, by exit type
+Days since the seller last heard from you, worst first
+Fell-through deals this month, by reason
+The last two are the ones I'd watch first. When "days since seller update" is on a screen every week, people notice it.
+Questions
+Should transaction coordination be a separate object in Salesforce?
+For most investor teams, yes, or at least a separate record type and stage set. Keeping acquisition stages and transaction stages apart makes both pipelines and their reports cleaner.
+Can Salesforce track wholesaling law deadlines like cancellation windows?
+Yes. Store the dates on the transaction and let a Flow create reminders before each deadline. It's a tracking setup, not legal advice; check the rules with an attorney in your state.
+Do I need an app from AppExchange for this?
+Usually not. Stages, a few fields, record-triggered Flows and a Kanban list view cover most teams. An app makes sense only if you need something specific like document generation.
+We use a TC service outside the company. Does this still work?
+Yes. Give the outside TC a limited user, or have them update a few fields through a form, so the owner still sees every file on one board.
+Want your contract-to-close on one board?
+I build transaction coordination in Salesforce as part of a full implementation, and the CRM Revenue Audit (USD 1,500, for teams already on Salesforce) checks whether deals under contract are tracked, dated and followed up. Start with a free 30-minute call.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
