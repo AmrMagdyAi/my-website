@@ -69,7 +69,7 @@ Central City Solutions
 The goal
 Turn Salesforce into the system the whole business runs on: every marketing dollar traced to profit, every seller call captured, and every deal visible from contract to closing, across two Ohio markets.
 What I built
-A no-code automation engine with 147 business rules across tasks, email, Slack and SMS. Campaign ROI by market, with deals the company keeps counted in the return. Shared lead queues and missed-call alerts. A live Transactions Board for every file under contract. Round-robin dispositions with automatic buyer tiers. A daily RingCentral call sync in Apex, DocuSign tracking, QuickBooks, and 30+ Zaps moved to native Flows.
+A no-code automation engine for tasks, email, Slack and SMS that ops can change without a developer. Campaign ROI by market, with deals the company keeps counted in the return. Shared lead queues and missed-call alerts. A live Transactions Board for every file under contract. Round-robin dispositions with automatic buyer tiers. A daily RingCentral call sync in Apex, DocuSign tracking, QuickBooks, and Zaps moved to native Flows.
 Outcome
 Leadership answers “which dollars are working?” from live dashboards. Every seller call is captured, every deal under contract is visible on one board, and the team runs the business from Salesforce every day.
 Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.
@@ -104,8 +104,8 @@ Optimize & Support
 Ongoing monitoring, refinement, new capabilities, and weekly updates, keeping the CRM delivering ROI.
 Where I've built CRMs
 Six roles across real estate, automotive, and global training. Tap any role to expand.
-Built a Configuration Object architecture (50+ rules) with MergeFieldReplacer Apex
-Migrated 30+ Zapier automations to native Flows; added RingCentral daily call-log sync
+Built a Configuration Object architecture with MergeFieldReplacer Apex
+Migrated Zapier automations to native Flows; added RingCentral daily call-log sync
 LWC Queue Task Manager, duplicate detection, marketing ROI & Tableau dashboards
 Built: campaign ROI by market, missed-call alerts, RingCentral call sync, a no-code rules engine
 Full-funnel campaign dashboard: 25 metrics from cost-per-gross-lead to net profit per unit and return multiple
@@ -192,7 +192,7 @@ Salesforce Lead Routing for Real Estate: Speed to Lead Changes Everything
 Assignment rules, round-robin routing, Zapier for external sources, and a notification layer that gets your reps to sellers first.
 5 Salesforce Automations Every Real Estate Team Needs
 Lead assignment, follow-up automation, property status workflows, reporting, and stale-lead escalation that runs itself.
-The Salesforce Configuration Object: Manage 50+ Automations Without Touching Code
+The Salesforce Configuration Object: Manage Automations Without Touching Code
 Centralized automation with a Configuration Object and MergeFieldReplacer Apex, so non-technical admins stay in control.
 Common questions
 Book your free 30-minute call.
@@ -417,7 +417,7 @@ The challenge with auditing your own Salesforce is that you cannot see the autom
 Need help with your real estate Salesforce?
 Request a free 30-minute call, run the free 10-point Salesforce Health Check , try the free cost per deal calculator , see all free tools , or the fixed-price CRM Revenue Audit for investors and wholesalers.
 More Articles
-How We Migrated 30+ Zapier Automations to Native Salesforce (And Why You Should Too)
+How We Moved Our Zapier Automations to Native Salesforce (And Why You Should Too)
 5 min read
 How to Build a RingCentral–Salesforce Daily Call Sync with Apex (Real Estate Case Study)
 6 min read
@@ -441,9 +441,9 @@ Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholes
 ## Zapier to Salesforce Flow: What to Move First
 URL: https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html
 
-How We Migrated 30+ Zapier Automations to Native Salesforce (And Why You Should Too)
+How We Moved Our Zapier Automations to Native Salesforce (And Why You Should Too)
 Zapier is the right tool when you're connecting two systems that don't have a native integration. But when your Salesforce org has matured and you're using Zapier primarily to send Slack messages from Salesforce, create tasks, or trigger emails — you're paying for a middleman you don't need.
-At Central City Solutions, Zapier API limits were being hit every month. The team was getting "Zap limit exceeded" errors at critical moments — when new leads came in, when deals moved to under contract. I was asked to investigate, and what I found was that over 30 of their Zaps were doing things that Salesforce could do natively, better, and for free.
+At Central City Solutions, Zapier API limits were being hit every month. The team was getting "Zap limit exceeded" errors at critical moments — when new leads came in, when deals moved to under contract. I was asked to investigate, and what I found was that most of their Zaps were doing things that Salesforce could do natively, better, and for free.
 What Zapier Was Being Used For
 When I audited the Zaps, they fell into clear categories:
 Slack notifications — Zapier was watching Salesforce for record changes and sending Slack messages. Salesforce's direct Slack integration does this natively.
@@ -452,10 +452,10 @@ Field updates — Zapier was updating fields on Salesforce records when other fi
 Email alerts — Zapier was sending emails when Salesforce records updated. Salesforce Email Alerts handle this out of the box.
 Only a fraction of the Zaps were doing what Zapier is actually designed for: connecting Salesforce to external systems that don't have a Salesforce integration (Facebook Lead Ads, external forms, Google Sheets).
 The rule I now apply: if both the trigger AND the action are in Salesforce, or if the action is in a system with a Salesforce-native connector, Zapier is unnecessary. Zapier earns its place when connecting to external systems without native Salesforce integrations.
-I migrated 30+ Zaps to native Flows at Central City Solutions — the founder called the work “drastic improvements” in a written referral. See the full case study →
+I migrated our Zaps to native Flows at Central City Solutions — the founder called the work “drastic improvements” in a written referral. See the full case study →
 The Migration Process
 Step 1: Audit every Zap
-Export a list of all active Zaps and categorize by: trigger system, action system, and whether Salesforce is on both ends. In our case, 30+ Zaps had Salesforce on both sides. Those were all migration candidates.
+Export a list of all active Zaps and categorize by: trigger system, action system, and whether Salesforce is on both ends. In our case, most of the Zaps had Salesforce on both sides. Those were all migration candidates.
 Step 2: Map Zap logic to Salesforce objects
 For each Zap being migrated, document the trigger condition, any filters, and the exact action. A Zap that says "When Opportunity Stage = Under Contract → Send Slack to #transactions-channel with message: 'New contract at {Property Address}'" maps directly to a Record-Triggered Flow on Opportunity.
 Step 3: Set up the Salesforce-Slack direct integration
@@ -633,7 +633,7 @@ Request a free 30-minute call, run the free 10-point Salesforce Health Check , s
 More Articles
 5 Salesforce Automations Every Real Estate Team Needs
 4 min read
-The Salesforce Configuration Object: How to Manage 50+ Automations Without Touching Code
+The Salesforce Configuration Object: How to Manage Automations Without Touching Code
 5 min read
 How to Track Real Estate KPIs in Salesforce: The Metrics That Actually Matter
 4 min read
@@ -681,7 +681,7 @@ Start with Lead Assignment. It has the most direct impact on revenue and is the 
 Need help with your real estate Salesforce?
 Request a free 30-minute call, run the free 10-point Salesforce Health Check , see all free tools , or the fixed-price CRM Revenue Audit for investors and wholesalers.
 More Articles
-The Salesforce Configuration Object: How to Manage 50+ Automations Without Touching Code
+The Salesforce Configuration Object: How to Manage Automations Without Touching Code
 5 min read
 Real Estate CRM Migration to Salesforce: How to Move Without Losing Data
 4 min read
@@ -704,17 +704,17 @@ Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholes
 © 2026 Amr Magdy · Salesforce CRM Consultant
 
 ---
-## Manage 50+ Salesforce Automations Without a Developer
+## Manage Salesforce Automations Without a Developer
 URL: https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html
 
-The Salesforce Configuration Object: How to Manage 50+ Automations Without Touching Code
+The Salesforce Configuration Object: How to Manage Automations Without Touching Code
 By the time a real estate company's Salesforce has been live for a year, it has accumulated dozens of automation rules — tasks triggered on status changes, Slack notifications for new leads, email alerts when contracts are signed, SMS messages for follow-ups. Every time a business rule changes, someone has to open Flow Builder and modify code.
 At Central City Solutions, this became unsustainable. More than 50 automation rules. Multiple stakeholders requesting changes weekly. A bottleneck every time a notification needed to be updated, a task reassigned, or a new trigger added.
 The solution was a Configuration Object — a custom Salesforce object that acts as the control panel for all automations. Non-technical users can add, edit, enable, and disable any notification without touching a single flow.
 What the Configuration Object Is
 The Configuration Object is a custom Salesforce object where each record represents one automation rule. Instead of building a separate Flow for every notification, you have one master Flow that reads from the Configuration Object and executes the right action based on the record's settings.
 A single Configuration record might say: "When Transaction status changes to Under Contract, send a Slack message to #transactions-channel, and create a task for the TC Rep saying 'Reach out to seller' due same day." Non-technical users can modify that record directly — no Flow Builder, no Salesforce setup, no developer needed.
-This is the exact system I built at Central City Solutions (Ohio) — 50+ rules, zero developer dependency. See the full case study →
+This is the exact system I built at Central City Solutions (Ohio), where ops changes the rules with no developer. See the full case study →
 The Object Fields
 The Configuration Object has fields that define what the automation does:
 Trigger Object — which Salesforce object triggers the action (Lead, Opportunity, Transaction, Project)
@@ -1162,7 +1162,7 @@ More Articles
 7 min read
 How to Build a Real Estate Pipeline Dashboard in Salesforce
 3 min read
-How We Migrated 30+ Zapier Automations to Native Salesforce (And Why You Should Too)
+How We Moved Our Zapier Automations to Native Salesforce (And Why You Should Too)
 5 min read
 Free for investors and wholesalers
 The CRM field kit
@@ -1428,7 +1428,7 @@ Facebook Lead Ads is one of the most effective lead generation tools for real es
 When an opportunity is marked Closed Won, Zapier automatically updates your financial tracking spreadsheet, notifies the transaction team, and creates a record in your commission calculation system. Zero manual handoff between CRM and finance.
 5. Stale Lead Alert to Slack
 Combined with a Salesforce Flow flagging leads with no activity in 72 hours, Zapier posts an automatic Slack message to the relevant channel with the lead name, assigned agent, and days since last contact. This makes the invisible visible in real time — without anyone having to run a report.
-Zapier is great until it isn’t — at Central City Solutions we eventually moved 30+ Zaps to native Flows. Start simple, plan the graduation path. See the full case study →
+Zapier is great until it isn’t — at Central City Solutions we eventually moved most of our Zaps to native Flows. Start simple, plan the graduation path. See the full case study →
 Zapier vs Native Salesforce Integrations
 When a well-maintained native AppExchange integration exists for a tool you use, prefer it over Zapier — native integrations tend to be more reliable with tighter field mapping. Use Zapier for everything that lacks a quality native connector, or where the native connector is missing specific functionality you need.
 Building Your Integration Map
@@ -1438,9 +1438,9 @@ Request a free 30-minute call, run the free 10-point Salesforce Health Check , s
 More Articles
 Salesforce ROI for Real Estate: Are You Getting What You're Paying For?
 4 min read
-How We Migrated 30+ Zapier Automations to Native Salesforce (And Why You Should Too)
+How We Moved Our Zapier Automations to Native Salesforce (And Why You Should Too)
 5 min read
-The Salesforce Configuration Object: How to Manage 50+ Automations Without Touching Code
+The Salesforce Configuration Object: How to Manage Automations Without Touching Code
 5 min read
 Free for investors and wholesalers
 The CRM field kit
@@ -1466,10 +1466,10 @@ CRM Insights for Real Estate Companies
 Practical Salesforce guides written from hands-on experience with US real estate companies — automation, dashboards, lead routing, investor CRM, and more.
 50+ Real Salesforce Requests From a Real Estate Acquisition Company
 A categorized log of 50+ real delivered requests — full-funnel ROI dashboards, call-tracking attribution, lead lifecycle automation, a rebuilt transaction coordination app, and what it all teaches you.
-The Salesforce Configuration Object: Manage 50+ Automations Without Touching Code
+The Salesforce Configuration Object: Manage Automations Without Touching Code
 How I built a centralized control panel for all automations — tasks, Slack messages, emails, SMS — that non-technical business users manage themselves, with zero developer involvement.
-How We Migrated 30+ Zapier Automations to Native Salesforce (And Why You Should Too)
-A real estate company was hitting Zapier API limits every month. Here's how we moved 30+ Zaps to Salesforce Flows — cutting costs, eliminating delays, and improving reliability.
+How We Moved Our Zapier Automations to Native Salesforce (And Why You Should Too)
+A real estate company was hitting Zapier API limits every month. Here's how we moved our Zaps to Salesforce Flows — cutting costs, eliminating delays, and improving reliability.
 How to Build a RingCentral–Salesforce Daily Call Sync with Apex
 A step-by-step breakdown of the Apex class that auto-syncs RingCentral call logs into Salesforce daily — eliminating 2+ hours of manual logging per user per week.
 How to Track Real Estate Deal Profitability, Cost Per Lead, and Campaign ROI in Salesforce
