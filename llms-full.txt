@@ -199,9 +199,9 @@ Questions
 Before you book
 Working with me
 We're about to hire a full-time Salesforce admin. Should we?
-Maybe later. At a team of 10 to 50, most of the work is small changes every week: a new lead source, a new hire, an alert that broke. A retainer covers that for less than a salary, and the audit shows how much work there really is. Hire an admin or use a retainer compares the two.
+Maybe later. At a team of 10 to 50, most of the work is small changes every week: a new lead source, a new hire, an alert that broke. A retainer covers that for less than a salary, and the audit shows how much work there really is. Hire an admin or use a retainer compares the two. If you do hire, here's how to hire a Salesforce admin , with interview questions and a paid test.
 We're adding reps or opening a new market. Should we fix the CRM first?
-If you can, yes. More leads through the same leaks means more money lost the same way. The audit tells you what to fix before you scale, in the order I'd fix it.
+If you can, yes. More leads through the same leaks means more money lost the same way. The audit tells you what to fix before you scale, in the order I'd fix it. For the setup itself, use the checklists for adding acquisitions reps and opening a new market .
 We're on Podio, REsimpli or GoHighLevel. Can you audit that?
 No. The audit is built for Salesforce. If you're outgrowing another CRM or spreadsheets, the right first step is a move to Salesforce: I map what you track today, move your data and build around how your team works. See how a move to Salesforce works , or plan it on a free call.
 What does it cost?
