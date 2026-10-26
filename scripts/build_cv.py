@@ -1,88 +1,125 @@
 #!/usr/bin/env python3
-"""Build Amr_Magdy_CV.pdf with brand styling. Requires: pip install fpdf2"""
+"""Build Amr_Magdy_CV.pdf in the amrmagdy.com look (assets/site.css, the brand print kit).
+Requires: pip install fpdf2. Fonts are in scripts/fonts (DM Sans, DM Serif Display; SIL OFL)."""
+import os
 from fpdf import FPDF
+from fpdf.enums import XPos, YPos
 
-NAVY = (11, 31, 58)
-GOLD = (184, 134, 47)
-GOLD2 = (212, 162, 62)
-INK = (30, 41, 59)
-GREY = (100, 116, 139)
-LIGHT = (247, 244, 238)
-GREEN = (31, 138, 76)
+# Light-theme colors from assets/site.css
+INK = (34, 32, 29)        # --ink
+INK2 = (77, 72, 66)       # --ink2
+INK3 = (107, 100, 93)     # --ink3
+LINE = (228, 221, 210)    # --line
+PAPER = (255, 253, 249)   # --paper
+TEAL = (15, 118, 110)     # --teal: the fix, "after"
+TEAL_INK = (11, 92, 86)   # --teal-ink
+ROSE = (155, 93, 93)      # --rose: the leak, "before"
 
-F = "/usr/share/fonts/truetype/dejavu/"
+F = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts") + os.sep
+SITE = "https://amrmagdy.com/?utm_source=pdf&utm_medium=cv"
+MAIL = "mailto:info@AmrMagdy.com"
+LINKEDIN = "https://www.linkedin.com/in/amrmagdyai"
+PW, PH = 215.9, 279.4     # US Letter
+L = 15
+W = PW - 2 * L
 
 class CV(FPDF):
     def header(self):
+        self.set_fill_color(*PAPER)
+        self.rect(0, 0, PW, PH, "F")
         if self.page_no() > 1:
-            self.set_font("dv", "", 8); self.set_text_color(*GREY)
-            self.cell(0, 6, "Amr Magdy — Salesforce CRM Consultant · amrmagdy.com", align="R")
-            self.ln(10)
+            self.set_xy(L, 9)
+            self.parts_line([("Amr Magdy — Salesforce CRM Consultant · amrmagdy.com", SITE)], 8, INK3, align="R", h=6)
+            self.set_y(19)
 
     def footer(self):
-        self.set_y(-12)
-        self.set_font("dv", "", 7.5); self.set_text_color(*GREY)
-        self.cell(0, 6, f"info@AmrMagdy.com  ·  amrmagdy.com  ·  linkedin.com/in/amrmagdyai  ·  Page {self.page_no()}", align="C")
+        self.set_y(-14)
+        self.parts_line([("info@AmrMagdy.com", MAIL), ("  ·  ", None), ("amrmagdy.com", SITE), ("  ·  ", None),
+                         ("linkedin.com/in/amrmagdyai", LINKEDIN), (f"  ·  Page {self.page_no()}", None)],
+                        7.5, INK3, align="C", h=6)
+        # every page ends on the 7px rose | teal edge
+        edge = 7 * 25.4 / 96
+        self.set_fill_color(*ROSE); self.rect(0, PH - edge, PW / 2, edge, "F")
+        self.set_fill_color(*TEAL); self.rect(PW / 2, PH - edge, PW / 2, edge, "F")
 
-pdf = CV("P", "mm", "A4")
-pdf.add_font("dv", "", F + "DejaVuSans.ttf")
-pdf.add_font("dv", "B", F + "DejaVuSans-Bold.ttf")
-pdf.add_font("dv", "I", F + "DejaVuSans.ttf")  # no oblique variant available; fall back to regular
-pdf.set_auto_page_break(True, margin=16)
+    def parts_line(self, parts, size, color, align="L", h=5, x=L):
+        """One line of (text, link) parts, so each address in it is clickable."""
+        self.set_font("sans", "", size); self.set_text_color(*color)
+        total = sum(self.get_string_width(t) for t, _ in parts)
+        self.set_x({"L": x, "C": L + (W - total) / 2, "R": L + W - total}[align])
+        for t, url in parts:
+            self.cell(self.get_string_width(t), h, t, link=url or "")
+        self.ln(h)
+
+pdf = CV("P", "mm", "Letter")
+pdf.add_font("sans", "", F + "DMSans-Regular.ttf")
+pdf.add_font("sans", "B", F + "DMSans-SemiBold.ttf")
+pdf.add_font("serif", "", F + "DMSerifDisplay-Regular.ttf")
+pdf.add_font("serif", "I", F + "DMSerifDisplay-Italic.ttf")
+pdf.set_margins(L, 14, L)
+pdf.set_auto_page_break(True, margin=19)
+pdf.set_title("Amr Magdy - CV"); pdf.set_author("Amr Magdy"); pdf.set_lang("en")
 pdf.add_page()
 
-# ---- Header band
-pdf.set_fill_color(*NAVY)
-pdf.rect(0, 0, 210, 34, "F")
-pdf.set_xy(14, 7)
-pdf.set_font("dv", "B", 19); pdf.set_text_color(255, 255, 255)
-pdf.cell(0, 9, "Amr Magdy Abd El-Fattah", ln=1)
-pdf.set_x(14)
-pdf.set_font("dv", "", 9.5); pdf.set_text_color(*GOLD2)
-pdf.cell(0, 6, "Salesforce CRM Consultant  ·  Apex & LWC Development  ·  Certified Admin & App Builder  ·  Remote", ln=1)
-pdf.set_x(14)
-pdf.set_font("dv", "", 8); pdf.set_text_color(220, 228, 240)
-pdf.cell(0, 6, "info@AmrMagdy.com  ·  +20 103 327 5250  ·  amrmagdy.com  ·  linkedin.com/in/amrmagdyai", ln=1)
+# ---- Name, role line and contact
+pdf.set_xy(L, 13)
+pdf.set_font("serif", "", 26); pdf.set_text_color(*INK)
+pdf.cell(W, 11, "Amr Magdy Abd El-Fattah", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+pdf.set_font("serif", "I", 13); pdf.set_text_color(*TEAL_INK)
+pdf.cell(W, 7, "Salesforce CRM Consultant", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+pdf.set_font("sans", "", 9); pdf.set_text_color(*INK2)
+pdf.cell(W, 5.5, "Apex & LWC Development  ·  Certified Admin & App Builder  ·  Remote", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+pdf.parts_line([("info@AmrMagdy.com", MAIL), ("  ·  +20 103 327 5250  ·  ", None), ("amrmagdy.com", SITE),
+                ("  ·  ", None), ("linkedin.com/in/amrmagdyai", LINKEDIN)], 8.2, INK3, h=5.5)
+pdf.ln(2.5)
+pdf.set_draw_color(*LINE); pdf.set_line_width(0.3)
+pdf.line(L, pdf.get_y(), L + W, pdf.get_y())
 
 # ---- (stat bar removed: its numbers were all from the Central City role)
-pdf.set_y(38)
 
 def section(title):
-    pdf.ln(2.5)
-    pdf.set_font("dv", "B", 11.5); pdf.set_text_color(*NAVY)
-    pdf.cell(0, 7, title, ln=1)
-    pdf.set_draw_color(*GOLD2); pdf.set_line_width(0.5)
-    pdf.line(14, pdf.get_y(), 196, pdf.get_y())
-    pdf.ln(2.5)
+    pdf.ln(3.5)
+    if pdf.get_y() > PH - 45: pdf.add_page()
+    pdf.set_x(L)
+    pdf.set_font("serif", "", 14); pdf.set_text_color(*INK)
+    pdf.cell(W, 7, title, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+    pdf.set_draw_color(*LINE); pdf.set_line_width(0.3)
+    pdf.line(L, pdf.get_y() + 0.5, L + W, pdf.get_y() + 0.5)
+    pdf.ln(3)
 
-def para(txt, size=8.6):
-    pdf.set_font("dv", "", size); pdf.set_text_color(*INK)
-    pdf.set_x(14); pdf.multi_cell(182, 4.6, txt)
+def para(txt, size=8.8, color=INK):
+    pdf.set_font("sans", "", size); pdf.set_text_color(*color)
+    pdf.set_x(L); pdf.multi_cell(W, 4.6, txt, align="L")
     pdf.ln(1)
 
 def role(title, dates, org, intro=None):
-    if pdf.get_y() > 255: pdf.add_page()
-    pdf.set_x(14)
-    pdf.set_font("dv", "B", 9.8); pdf.set_text_color(*NAVY)
-    pdf.cell(135, 5.5, title)
-    pdf.set_font("dv", "B", 8); pdf.set_text_color(*GOLD)
-    pdf.cell(47, 5.5, dates, align="R", ln=1)
-    pdf.set_x(14)
-    pdf.set_font("dv", "I", 8.2); pdf.set_text_color(*GREY)
-    pdf.cell(0, 4.6, org, ln=1)
+    if pdf.get_y() > PH - 42: pdf.add_page()
+    pdf.set_x(L)
+    pdf.set_font("sans", "B", 10); pdf.set_text_color(*INK)
+    pdf.cell(W - 45, 5.5, title)
+    pdf.set_font("sans", "B", 8.4); pdf.set_text_color(*TEAL_INK)
+    pdf.cell(45, 5.5, dates, align="R", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+    pdf.set_x(L)
+    pdf.set_font("sans", "", 8.4); pdf.set_text_color(*INK3)
+    pdf.cell(W, 4.6, org, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
     pdf.ln(0.8)
     if intro:
-        para(intro, 8.3)
+        para(intro, 8.6, INK2)
 
 def bullet(txt, badge=None):
-    pdf.set_x(14)
-    pdf.set_font("dv", "", 8.4); pdf.set_text_color(*INK)
+    # teal bullet, text hanging from it, the badge (a real result) in teal at the end
+    pdf.set_left_margin(L + 5.5)
+    pdf.set_x(L + 2)
+    pdf.set_font("sans", "", 8.6); pdf.set_text_color(*TEAL)
+    pdf.cell(3.5, 4.5, "•")
+    pdf.set_text_color(*INK)
+    pdf.write(4.5, txt)
     if badge:
-        txt = txt + "   "
-    pdf.set_x(17)
-    start_y = pdf.get_y()
-    pdf.multi_cell(176, 4.5, "•  " + txt + (f"  [{badge}]" if badge else ""))
-    pdf.ln(0.4)
+        pdf.set_font("sans", "B", 8.6); pdf.set_text_color(*TEAL_INK)
+        pdf.write(4.5, "  " + badge)
+    pdf.ln(4.5)
+    pdf.set_left_margin(L)
+    pdf.ln(0.7)
 
 # ---- Summary
 section("Professional Summary")
@@ -106,19 +143,21 @@ cols = [
      "Transaction Coordination Workflows", "Marketing ROI Tracking by Campaign", "Property Acquisition Pipeline Architecture",
      "Duplicate Lead Detection & Management"]),
 ]
-cw = 182 / 3
-x0 = 14; ytop = pdf.get_y()
+cw = W / 3
+x0 = L; ytop = pdf.get_y()
 maxy = ytop
 for i, (h, items) in enumerate(cols):
     x = x0 + i * cw
     pdf.set_xy(x, ytop)
-    pdf.set_font("dv", "B", 8.4); pdf.set_text_color(*GOLD)
-    pdf.cell(cw - 4, 5, h, ln=0)
-    yy = ytop + 5.5
+    pdf.set_font("sans", "B", 8.6); pdf.set_text_color(*TEAL_INK)
+    pdf.cell(cw - 4, 5, h)
+    yy = ytop + 6
     for it in items:
         pdf.set_xy(x, yy)
-        pdf.set_font("dv", "", 7.4); pdf.set_text_color(*INK)
-        pdf.multi_cell(cw - 5, 3.9, "• " + it, align="L")
+        pdf.set_font("sans", "", 8.2); pdf.set_text_color(*TEAL)
+        pdf.cell(3, 4.1, "•")
+        pdf.set_text_color(*INK)
+        pdf.multi_cell(cw - 7, 4.1, it, align="L")
         yy = pdf.get_y() + 0.6
     maxy = max(maxy, yy)
 pdf.set_y(maxy + 1)
@@ -202,19 +241,33 @@ certs = [
     "✔ Salesforce Certified Associate — Nov 2023", "✔ Salesforce Certified AI Associate — Nov 2023",
     "✔ Adobe Certified Instructor (Ps, Ai, InDesign) — 2019", "✔ Adobe Certified Expert (Ps, Ai, InDesign) — 2019",
 ]
+def check(x, y):
+    pdf.set_draw_color(*TEAL); pdf.set_line_width(0.45)
+    pdf.polyline([(x + 0.2, y + 2.6), (x + 1.1, y + 3.5), (x + 2.8, y + 1.5)])
+
+def cert(x, w, label):
+    if label.startswith("✔ "):
+        check(x, pdf.get_y())
+        label = label[2:]
+    elif label.startswith("★★ "):
+        pdf.set_fill_color(*TEAL)
+        for dx in (0.8, 3.2):
+            pdf.star(x + dx, pdf.get_y() + 2.45, 0.6, 1.35, 5, rotate_degrees=-90, style="F")
+        label = label[3:]
+    pdf.set_xy(x + 5, pdf.get_y())
+    pdf.set_font("sans", "", 8.6); pdf.set_text_color(*INK)
+    pdf.cell(w - 5, 5.2, label)
+
 for i in range(0, len(certs), 2):
-    pdf.set_x(14)
-    pdf.set_font("dv", "", 8.2); pdf.set_text_color(*INK)
-    pdf.cell(91, 5.2, certs[i])
+    y = pdf.get_y()
+    cert(L, W / 2, certs[i])
     if i + 1 < len(certs):
-        pdf.cell(91, 5.2, certs[i + 1])
-    pdf.ln(5.2)
-pdf.set_x(14)
-pdf.cell(0, 5.2, "★★ Trailhead Double Star Ranger — 20 Superbadges · 210+ Badges · 130k+ Points")
-pdf.ln(5.2)
-pdf.set_x(14)
-pdf.cell(0, 5.2, "Verify certifications: salesforce.com/trailblazer/amrmagdyai")
-pdf.ln(5.2)
+        pdf.set_y(y)
+        cert(L + W / 2, W / 2, certs[i + 1])
+    pdf.set_y(y + 5.4)
+cert(L, W, "★★ Trailhead Double Star Ranger — 20 Superbadges · 210+ Badges · 130k+ Points")
+pdf.set_y(pdf.get_y() + 5.4)
+pdf.parts_line([("Verify certifications: ", None), ("salesforce.com/trailblazer/amrmagdyai", "https://www.salesforce.com/trailblazer/amrmagdyai")], 8.6, INK2, h=5.2, x=L + 5)
 
 # ---- Education
 section("Education")
