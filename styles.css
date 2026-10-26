@@ -136,18 +136,19 @@ h1 em,h2 em,h3 em { font-weight:400; }
   transition:background-color .2s,border-color .2s,color .2s;
 }
 .btn:hover { background:var(--teal-ink); border-color:var(--teal-ink); color:var(--on-accent); }
-.btn.ghost,.btn-gold { background:transparent; color:var(--ink); border-color:var(--ctl); }
-.btn.ghost:hover,.btn-gold:hover { background:transparent; color:var(--ink); border-color:var(--ink); }
+.btn.ghost { background:transparent; color:var(--ink); border-color:var(--ctl); }
+.btn.ghost:hover { background:transparent; color:var(--ink); border-color:var(--ink); }
 .btn.sm { min-height:44px; padding:0 18px; font-size:.93rem; }
 .btn-blue { background:var(--teal); border-color:var(--teal); color:var(--on-accent); }
-/* outlined buttons on the dark boxes */
-.cta .btn-gold,.req .btn-gold,.price-card .btn-gold,.res .btn-gold,.mbar .btn-gold { color:var(--band-ink); border-color:var(--band-line); }
-.cta .btn-gold:hover,.req .btn-gold:hover,.price-card .btn-gold:hover,.res .btn-gold:hover,.mbar .btn-gold:hover { color:var(--band-ink); border-color:var(--band-ink); }
-/* except the light button row on the audit terms and sample report pages, and the form card inside the dark request band */
-.tm .cta .btn-gold { color:var(--ink); border-color:var(--ctl); }
-.tm .cta .btn-gold:hover { color:var(--ink); border-color:var(--ink); }
-.req form .btn-gold { background:var(--teal); border-color:var(--teal); color:var(--on-accent); }
-.req form .btn-gold:hover { background:var(--teal-ink); border-color:var(--teal-ink); color:var(--on-accent); }
+/* the old gold button was each box's main action, so it stays the filled one, and the button after it is outlined */
+.btn-gold ~ .btn:not(.btn-gold) { background:transparent; color:var(--ink); border-color:var(--ctl); }
+.btn-gold ~ .btn:not(.btn-gold):hover { background:transparent; color:var(--ink); border-color:var(--ink); }
+/* on the dark boxes the outlined one is light, as in the main site's closing band */
+.cta .btn-gold ~ .btn:not(.btn-gold),.price-card .btn-gold ~ .btn:not(.btn-gold) { color:var(--band-ink); border-color:var(--band-line); }
+.cta .btn-gold ~ .btn:not(.btn-gold):hover,.price-card .btn-gold ~ .btn:not(.btn-gold):hover { color:var(--band-ink); border-color:var(--band-ink); }
+/* except the light button row on the audit terms and sample report pages */
+.tm .cta .btn-gold ~ .btn:not(.btn-gold) { color:var(--ink); border-color:var(--ctl); }
+.tm .cta .btn-gold ~ .btn:not(.btn-gold):hover { color:var(--ink); border-color:var(--ink); }
 
 /* ── Tags ── */
 .tag {
