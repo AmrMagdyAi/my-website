@@ -5,8 +5,9 @@ import glob, html, os, re, urllib.parse
 os.chdir(os.path.join(os.path.dirname(__file__), '..'))
 START, END = '<!-- ask-cta:start -->', '<!-- ask-cta:end -->'
 ISTART, IEND = '<!-- ask-inline:start -->', '<!-- ask-inline:end -->'
-# the audit terms and sample report: their buttons sit on the page, not in a dark box, and they have the audit's own calls to action
-SKIP = {'404.html', 'crm-revenue-audit-terms.html', 'sample-audit-report.html'}
+# the audit terms and sample report: their buttons sit on the page, not in a dark box, and they have the audit's own calls to action;
+# book.html is the LinkedIn Featured stop page, with its own look
+SKIP = {'404.html', 'crm-revenue-audit-terms.html', 'sample-audit-report.html', 'book.html'}
 # the main site's look (assets/site.css): teal for the main action, outlined for the rest, on the dark band
 BTN = 'background:var(--teal);color:var(--on-accent);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--teal)'
 GHOST = 'background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)'

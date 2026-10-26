@@ -177,7 +177,9 @@ def page(p):
     return False
 
 
-pages = sys.argv[1:] or [p for p in sorted(glob.glob('*.html')) if '<link rel="stylesheet" href="styles.css">' in open(p, encoding='utf-8').read()]
+# book.html is the brand thread's stop page for LinkedIn Featured: its own inline look, no header or footer
+SKIP = {'book.html'}
+pages = sys.argv[1:] or [p for p in sorted(glob.glob('*.html')) if p not in SKIP and '<link rel="stylesheet" href="styles.css">' in open(p, encoding='utf-8').read()]
 changed = [p for p in pages if page(p)]
 print(f'updated {len(changed)} of {len(pages)} pages')
 left = [p for p in pages if re.search(r"Fraunces|Plus Jakarta|#0b1f3a|#d4a23e|#0b6bce|#c0392b", open(p, encoding='utf-8').read())]
