@@ -13,7 +13,7 @@
   <meta name="description" content="Practical Salesforce CRM guides for real estate investors and wholesalers: automation, dashboards, lead routing, KPIs, migrations and more.">
   <link rel="canonical" href="https://amrmagdy.com/blog.html">
   <link rel="icon" href="imgs/fav.svg" type="image/svg+xml">
-  <meta name="theme-color" content="#f7f4ee">
+  <meta name="theme-color" content="#f7f4ef">
   <meta property="og:title" content="Salesforce CRM Blog for Real Estate | Amr Magdy">
   <meta property="og:description" content="19 practical Salesforce guides for real estate — automation, dashboards, AI, migration, investors, brokerages.">
   <meta property="og:url" content="https://amrmagdy.com/blog.html">
@@ -28,20 +28,18 @@
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog", "dateModified": "2026-10-26","name":"Salesforce CRM for Real Estate — Amr Magdy","url":"https://amrmagdy.com/blog.html","author":{"@type":"Person","name":"Amr Magdy","url":"https://amrmagdy.com"}}</script>
 <link rel="stylesheet" href="styles.css">
-<link rel="preload" as="style" href="assets/fonts/fonts-italic-500.css" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="assets/fonts/fonts-italic-500.css"></noscript>
 <style>
 /* Page-specific styles — shared tokens live in styles.css */
 .hero{padding:calc(var(--nav) + 60px) 0 64px;text-align:center;border-bottom:1px solid var(--bd)}
 .hero h1{font-size:clamp(2rem,4vw,3rem);letter-spacing:-.025em;line-height:1.1;margin-bottom:18px}
-.hero h1 span{background:linear-gradient(135deg,var(--sf),#1287e8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero h1 span{background:linear-gradient(135deg,var(--sf),var(--teal));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .hero p{font-size:1rem;color:var(--txt2);max-width:580px;margin:0 auto 28px;line-height:1.8}
 .author{display:flex;align-items:center;justify-content:center;gap:12px;font-size:.88rem;color:var(--txt2)}
-.author img{width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid rgba(11,107,206,.25)}
+.author img{width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid var(--line2)}
 .author strong{color:var(--txt)}
 .filters{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:48px}
 .filter-btn{padding:8px 18px;border-radius:50px;font-size:.83rem;font-weight:600;border:1.5px solid var(--bd2);color:var(--txt2);background:transparent;cursor:pointer;transition:.2s;font-family:inherit}
-.filter-btn:hover,.filter-btn.on{color:var(--sf);background:rgba(11,107,206,.07);border-color:rgba(11,107,206,.25)}
+.filter-btn:hover,.filter-btn.on{color:var(--sf);background:var(--teal-soft);border-color:var(--line2)}
 .grid-section{padding:72px 0}
 .section-label{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--txt3);margin-bottom:24px;display:flex;align-items:center;gap:10px}
 .section-label::after{content:'';flex:1;height:1px;background:var(--bd)}
@@ -77,11 +75,25 @@
 <script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
 </head>
 <body>
-<nav><div class="wrap-wide"><div class="nav-in">
-  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
-  <a href="index.html" class="nb"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>Back to Portfolio</a>
-<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
-</div></div></nav>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="about.html">About</a>
+    <a href="./#services">Services</a>
+    <a href="./#cases">Proof</a>
+    <a href="resources.html">Free tools</a>
+    <a href="crm-revenue-audit.html">Revenue Audit</a>
+    <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
+  </nav>
+  <div class="top-act">
+    <button class="icon-btn theme" id="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+    </button>
+    <a class="btn sm ghost" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a>
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span class="bars" aria-hidden="true"></span><span class="txt">Menu</span></button>
+  </div>
+</div></header>
 
 <div class="hero"><div class="wrap-wide">
   <span class="eyebrow">Salesforce &times; Real Estate</span>
@@ -175,21 +187,54 @@
 
 <!-- ask-cta:start -->
 <section class="ask-cta" aria-label="Ask a question" style="max-width:860px;margin:44px auto 0;padding:0 20px">
-<div style="background:#0b1f3a;color:#fff;border-radius:16px;padding:26px 26px 24px;border-top:4px solid #d4a23e">
-<p style="margin:0 0 6px;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#d4a23e;font-weight:700">Found this useful?</p>
-<h2 style="margin:0 0 8px;color:#fff;font-size:1.45rem;line-height:1.25">Ask me how this would work in your CRM.</h2>
-<p style="margin:0 0 18px;color:#c9d4e3;line-height:1.55">Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.</p>
+<div style="background:var(--band);color:var(--band-ink);border-radius:20px;padding:30px 28px 26px">
+<p style="margin:0 0 8px;font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;color:var(--band-ink2);font-weight:600">Found this useful?</p>
+<h2 style="margin:0 0 8px;color:var(--band-ink);font-size:1.6rem;line-height:1.2">Ask me how this would work in your CRM.</h2>
+<p style="margin:0 0 20px;color:var(--band-ink2);line-height:1.55">Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.</p>
 <div style="display:flex;flex-wrap:wrap;gap:10px">
-<a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20CRM%20Insights%20for%20Real%20Estate%20Companies&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="background:#d4a23e;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">Email a question</a>
-<a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22CRM%20Insights%20for%20Real%20Estate%20Companies%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="background:#fff;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">WhatsApp</a>
-<a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="background:transparent;color:#fff;font-weight:700;text-decoration:none;padding:10px 17px;border-radius:999px;border:1.5px solid #5d7393">Message on LinkedIn</a>
-<a href="index.html#contact" onclick="if(window.gtag)gtag('event','contact_click',{method:'call_request',page_path:location.pathname})" style="background:transparent;color:#fff;font-weight:700;text-decoration:none;padding:10px 17px;border-radius:999px;border:1.5px solid #5d7393">Request a free call</a>
+<a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20CRM%20Insights%20for%20Real%20Estate%20Companies&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="background:var(--teal);color:var(--on-accent);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--teal)">Email a question</a>
+<a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22CRM%20Insights%20for%20Real%20Estate%20Companies%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">WhatsApp</a>
+<a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Message on LinkedIn</a>
+<a href="index.html#contact" onclick="if(window.gtag)gtag('event','contact_click',{method:'call_request',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Request a free call</a>
 </div></div></section>
 <!-- ask-cta:end -->
-<footer><div class="wrap-wide"><div class="fi">
-  <p>&copy; 2026 Amr Magdy &middot; Salesforce CRM Consultant for Real Estate &middot; <a href="mailto:info@AmrMagdy.com" style="color:inherit">info@AmrMagdy.com</a></p>
-  <div class="fl"><a href="index.html">Portfolio</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="wholesaling-cost-per-deal-calculator.html">Cost Per Deal Calculator</a><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a><a href="resources.html">Free tools</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="privacy.html">Privacy</a></div>
-</div></div></footer>
+<footer class="foot"><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
+    <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
+      <li><a href="crm-revenue-audit.html">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report.html">Sample audit report</a></li>
+      <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
+      <li><a href="salesforce-health-check.html">Free health check</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
+      <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
+      <li><a href="wholesaling-mao-calculator.html">MAO calculator</a></li>
+      <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
+      <li><a href="resources.html">All free tools</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
+      <li><a href="real-estate-crm-guide.html">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers.html">Moving off Podio</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="blog.html" aria-current="page">Blog</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
+      <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
+      <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
+      <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate.html">Canada</a> · <a href="salesforce-consultant-uk-estate-agents.html">UK</a></li>
+      <li><a href="about.html">About me</a></li>
+      <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
+    </ul></nav>
+  </div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy.html">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+</div></footer>
+
+<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="crm-revenue-audit.html">$1,500 audit</a><a class="g" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></div>
 
 <script>
 (function(){
@@ -225,21 +270,19 @@
       /* the hidden field is filled: a bot, or an autofill tool */
       if(fd.get('website')){ nlFail(); return; }
       fd.delete('website');
-      ns.style.color = '#475569'; ns.textContent = 'Subscribing…';
+      ns.style.color = 'var(--txt2)'; ns.textContent = 'Subscribing…';
       fetch('https://api.web3forms.com/submit', {method:'POST', headers:{'Accept':'application/json'}, body:fd})
         .then(function(r){ return r.json(); })
         .then(function(d){
           if(!(d && d.success)) throw new Error('send');
           if(window.gtag) gtag('event','generate_lead',{method:'form',form:'newsletter',page_path:location.pathname});
-          ns.style.color = '#1f8a4c'; ns.textContent = 'You\'re in! First guide coming soon.'; nf.reset();
+          ns.style.color = 'var(--teal-ink)'; ns.textContent = 'You\'re in! First guide coming soon.'; nf.reset();
         })
         .catch(nlFail);
     });
   }
 })();
 </script>
-<script>
-(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
-</script>
+<script src="assets/chrome.js" defer></script>
 <script src="booking.js" defer></script>
 </body></html>

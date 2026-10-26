@@ -38,15 +38,15 @@ document.getElementById('cp').addEventListener('click',function(){var u=this.dat
 document.getElementById('li').addEventListener('click',function(){if(window.gtag)gtag('event','deal_leak_score_share',{method:'linkedin'});});
 document.getElementById('dl').addEventListener('click',function(){
  var s=ans.reduce(function(t,x){return t+(x||0)},0)*10,W=1080,H=1350,c=document.createElement('canvas');c.width=W;c.height=H;var g=c.getContext('2d');
- g.fillStyle='#f7f4ee';g.fillRect(0,0,W,H);
- g.fillStyle='#0b1f3a';g.fillRect(0,0,W,120);g.fillStyle='#d4a23e';g.font='600 34px "Plus Jakarta Sans",Arial';g.fillText('DEAL LEAK SCORE',70,74);
- g.fillStyle='#13243d';g.font='500 300px Fraunces,Georgia,serif';g.fillText(String(s),70,470);
- g.fillStyle='#5b6b80';g.font='500 64px Fraunces,Georgia,serif';g.fillText('/ 100  ·  '+band(s),80,560);
+ g.fillStyle='#f7f4ef';g.fillRect(0,0,W,H);
+ g.fillStyle='#22201d';g.fillRect(0,0,W,120);g.fillStyle='#f7f4ef';g.font='600 34px "DM Sans",Arial';g.fillText('DEAL LEAK SCORE',70,74);
+ g.fillStyle='#22201d';g.font='400 300px "DM Serif Display",Georgia,serif';g.fillText(String(s),70,470);
+ g.fillStyle='#6b645d';g.font='400 64px "DM Serif Display",Georgia,serif';g.fillText('/ 100  ·  '+band(s),80,560);
  for(var k=0;k<5;k++){var v=ans[2*k]+ans[2*k+1],y=660+k*112;
-  g.fillStyle='#ffffff';g.fillRect(70,y,940,90);g.strokeStyle=v===2?'#1f8a4c':v===1?'#b8862f':'#c0392b';g.lineWidth=4;g.strokeRect(70,y,940,90);
-  g.fillStyle='#13243d';g.font='600 40px "Plus Jakarta Sans",Arial';g.fillText(LEAKS[k],110,y+60);
+  g.fillStyle='#fffdf9';g.fillRect(70,y,940,90);g.strokeStyle=v===2?'#0f766e':v===1?'#8a8278':'#9b5d5d';g.lineWidth=4;g.strokeRect(70,y,940,90);
+  g.fillStyle='#22201d';g.font='600 40px "DM Sans",Arial';g.fillText(LEAKS[k],110,y+60);
   g.textAlign='right';g.fillText(v+' / 2',970,y+60);g.textAlign='left';}
- g.fillStyle='#0b6bce';g.font='600 36px "Plus Jakarta Sans",Arial';g.fillText('Take it: amrmagdy.com/deal-leak-score',70,1290);
+ g.fillStyle='#0b5c56';g.font='600 36px "DM Sans",Arial';g.fillText('Take it: amrmagdy.com/deal-leak-score',70,1290);
  var a=document.createElement('a');a.download='deal-leak-score-'+s+'.png';a.href=c.toDataURL('image/png');a.click();
  if(window.gtag)gtag('event','deal_leak_score_share',{method:'card'});
 });

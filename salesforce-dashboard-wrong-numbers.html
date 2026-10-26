@@ -13,7 +13,7 @@
 <link rel="canonical" href="https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
-<meta name="theme-color" content="#f7f4ee">
+<meta name="theme-color" content="#f7f4ef">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html">
 <meta property="og:title" content="Your Salesforce dashboard and your bank account disagree. Here&#x27;s why.">
@@ -30,8 +30,6 @@
 <meta name="twitter:description" content="Why Salesforce dashboards and reports show different numbers, or don&#x27;t match QuickBooks: 10 causes in investor orgs, how to check each, and a 20-minute reconciliation.">
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
 <link rel="stylesheet" href="styles.css">
-<link rel="preload" as="style" href="assets/fonts/fonts.css" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="assets/fonts/fonts.css"></noscript>
 <style>
 .pg{padding:calc(var(--nav) + 56px) 0 70px}
 .pg-w{max-width:1100px;margin:0 auto;padding:0 1rem}
@@ -63,14 +61,12 @@
 .fig figcaption{font-size:.84rem;color:var(--txt3);margin-top:8px;line-height:1.6}
 .note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
 .cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
-.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
-.cta h2{color:#fff;font-size:1.35rem;margin:0 0 8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.cta{background:var(--navy);color:var(--band-ink);border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:var(--band-ink);font-size:1.35rem;margin:0 0 8px}.cta p{color:var(--band-ink2);line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
 .pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--bg);border:1px solid var(--bd2);color:var(--txt2);margin-right:6px}
 .warn{background:var(--bg2);border:1.5px solid var(--gold);border-left-width:6px;border-radius:14px;padding:14px 18px;margin:18px 0 0;color:var(--txt2);line-height:1.7;max-width:820px}
 .dlbox{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--bg2);border:1.5px dashed var(--gold);border-radius:16px;padding:16px 18px;margin:18px 0}
 .dlbox p{margin:0;flex:1 1 240px}
-nav .nb,.logo{white-space:nowrap}
-@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}nav .nb.nb-call{margin-left:auto!important}}
 
 .ans{background:var(--bg2);border:1px solid var(--bd);border-left:6px solid var(--sf);border-radius:14px;padding:16px 20px;margin:22px 0 0;max-width:820px}
 .ans p{margin:0;color:var(--txt2);line-height:1.75}.ans .k{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--txt3);font-weight:700;margin-bottom:4px}
@@ -86,13 +82,25 @@ nav .nb,.logo{white-space:nowrap}
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Your Salesforce dashboard and your bank account disagree. Here's why.", "description": "Why Salesforce dashboards and reports show different numbers, or don't match QuickBooks: 10 causes in investor orgs, how to check each, and a 20-minute reconciliation.", "url": "https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html", "mainEntityOfPage": "https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html", "inLanguage": "en-US", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-card.jpg", "about": [{"@type": "Thing", "name": "Salesforce reports and dashboards"}, {"@type": "Thing", "name": "Data quality"}, {"@type": "Thing", "name": "Real estate investing"}, {"@type": "Thing", "name": "Marketing ROI"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why doesn't my Salesforce dashboard match the report?", "acceptedAnswer": {"@type": "Answer", "text": "The usual reasons are that the dashboard hasn't been refreshed since the data changed, it runs as a user who can't see all the records, a chart is set to show only the top values, or the dashboard component uses a different report or filter than the one you're comparing it with."}}, {"@type": "Question", "name": "What is the running user on a Salesforce dashboard?", "acceptedAnswer": {"@type": "Answer", "text": "It's the user whose access decides what data the dashboard shows. Folders control who can open the dashboard, but the running user determines which records are counted. Pick a running user who can see everything the dashboard is meant to count."}}, {"@type": "Question", "name": "Why is my Salesforce report missing records?", "acceptedAnswer": {"@type": "Answer", "text": "Check the report type first: some custom report types only include records that have at least one related record. Then check the filters, the scope (my records or all records) and whether the running user can see the records."}}, {"@type": "Question", "name": "Why does lead source show as blank on deals in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Standard fields like Lead Source carry over when a lead is converted, but custom fields such as market, campaign or tracking number only carry over if someone maps them to fields on the deal. Map them, then fix past records with a one-time update."}}, {"@type": "Question", "name": "How many dynamic dashboards can I have in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "According to Salesforce's dynamic dashboards cheat sheet, Enterprise Edition allows 5, Unlimited and Performance allow 10, and Developer Edition allows 3."}}, {"@type": "Question", "name": "How do I make Salesforce match QuickBooks?", "acceptedAnswer": {"@type": "Answer", "text": "Record marketing spend per campaign per month from the accounting records, split by market the same way in both systems, count contracts and closings by agreed dates, and reconcile one month at a time, listing every deal that appears in one place but not the other."}}, {"@type": "Question", "name": "How often should we reconcile Salesforce numbers?", "acceptedAnswer": {"@type": "Answer", "text": "Monthly for contracts, closings and marketing spend, and weekly for a quick look at records with no lead source or market. Once the monthly check comes back clean a few times in a row, the owner starts trusting the dashboard."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Salesforce numbers that don't match", "item": "https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html"}]}]}</script>
 </head>
 <body>
-<nav><div class="wrap-wide"><div class="nav-in">
-  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
-  <a href="resources.html" class="nb hide-sm">Free tools</a>
-  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
-  <a href="index.html#contact" class="nb nb-call" style="margin-left:0">Book a free call</a>
-<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
-</div></div></nav>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="about.html">About</a>
+    <a href="./#services">Services</a>
+    <a href="./#cases">Proof</a>
+    <a href="resources.html">Free tools</a>
+    <a href="crm-revenue-audit.html">Revenue Audit</a>
+    <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
+  </nav>
+  <div class="top-act">
+    <button class="icon-btn theme" id="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+    </button>
+    <a class="btn sm ghost" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a>
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span class="bars" aria-hidden="true"></span><span class="txt">Menu</span></button>
+  </div>
+</div></header>
 <main class="pg"><div class="pg-w">
 <span class="eyebrow">Guide · by Amr Magdy · Oct 2026</span>
 <h1>Your Salesforce dashboard and your bank account disagree. <em>Here's why.</em></h1>
@@ -184,7 +192,7 @@ nav .nb,.logo{white-space:nowrap}
 <section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="monday-5-real-estate-kpis.html"><b>The Monday 5</b><span>The five numbers an owner should see every week.</span></a><a href="salesforce-reports-wholesalers.html"><b>Salesforce reports for wholesalers</b><span>The reports worth building, and how.</span></a><a href="blog-salesforce-real-estate-pipeline-dashboard.html"><b>Pipeline dashboard</b><span>A pipeline dashboard for an investor team.</span></a><a href="real-estate-lead-attribution.html"><b>Which campaign gets credit?</b><span>Lead attribution for investor marketing.</span></a><a href="blog-salesforce-financial-analytics-real-estate.html"><b>Financial analytics in Salesforce</b><span>Profit per deal and campaign ROI.</span></a><a href="salesforce-real-estate-faq.html"><b>Salesforce for investors: 50 questions</b><span>Straight answers on cost, setup, moving and admin.</span></a></div></section>
 <section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.</p><ol class="src"><li><a href="https://resources.docs.salesforce.com/216/latest/en-us/sfdc/pdf/salesforce_dynamic_dashboards_cheatsheet.pdf" rel="noopener" target="_blank">Salesforce: Dynamic dashboards cheat sheet (PDF)</a>. Running user and data access, dynamic dashboard limits by edition</li><li><a href="https://www.salesforceben.com/features-custom-report-types/" rel="noopener" target="_blank">Salesforce Ben: custom report types</a>. Required vs optional related records</li><li><a href="https://www.salesforceben.com/what-are-cross-filters-in-salesforce-reporting/" rel="noopener" target="_blank">Salesforce Ben: cross filters in Salesforce reporting</a>. With and without filters, up to three per report</li><li><a href="real-estate-lead-response-statistics.html">Speed to lead and follow-up statistics for real estate (this site)</a>. Validity 2025 CRM data accuracy figure, with its source</li></ol></section>
 <div class="cta"><h2>Want numbers you can make decisions on?</h2><p>The fixed-price CRM Revenue Audit (USD 1,500) checks your campaign ROI, reports and data against how your business actually runs, and ends with a written fix plan and a Monday 5 dashboard spec. It's for teams already on Salesforce. Not sure if it fits? Start with a free call.</p>
-<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Your%20Salesforce%20dashboard%20and%20your%20bank%20account%20disagree.%20Here%27s%20why&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/salesforce-dashboard-wrong-numbers.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Your%20Salesforce%20dashboard%20and%20your%20bank%20account%20disagree.%20Here%27s%20why%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Your%20Salesforce%20dashboard%20and%20your%20bank%20account%20disagree.%20Here%27s%20why&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/salesforce-dashboard-wrong-numbers.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Your%20Salesforce%20dashboard%20and%20your%20bank%20account%20disagree.%20Here%27s%20why%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
 </div></main>
 
 
@@ -192,13 +200,44 @@ nav .nb,.logo{white-space:nowrap}
 <img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
 <div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
 <p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
-<footer><div class="wrap-wide"><div class="fi">
-  <div>© 2026 <strong>Amr Magdy</strong>. Salesforce for real estate investors and wholesalers.</div>
-  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="salesforce-real-estate-faq.html">Salesforce FAQ</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="mailto:info@AmrMagdy.com">Email</a><a href="privacy.html">Privacy</a></div>
-</div></div></footer>
-<script>
-(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
-</script>
+<footer class="foot"><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
+    <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
+      <li><a href="crm-revenue-audit.html">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report.html">Sample audit report</a></li>
+      <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
+      <li><a href="salesforce-health-check.html">Free health check</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
+      <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
+      <li><a href="wholesaling-mao-calculator.html">MAO calculator</a></li>
+      <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
+      <li><a href="resources.html">All free tools</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
+      <li><a href="real-estate-crm-guide.html">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers.html">Moving off Podio</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
+      <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
+      <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
+      <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate.html">Canada</a> · <a href="salesforce-consultant-uk-estate-agents.html">UK</a></li>
+      <li><a href="about.html">About me</a></li>
+      <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
+    </ul></nav>
+  </div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy.html">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+</div></footer>
+
+<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="crm-revenue-audit.html">$1,500 audit</a><a class="g" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></div>
+<script src="assets/chrome.js" defer></script>
 
 <script src="booking.js" defer></script>
 </body>
