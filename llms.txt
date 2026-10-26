@@ -85,7 +85,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Wholesaling CRM checklist (guide): https://amrmagdy.com/wholesaling-crm.html (what a wholesaling CRM must track at each of five stages: spend, answer, follow-up, offer, keep; choosing a spreadsheet, investor CRM or Salesforce)
 - Double closing costs (guide): https://amrmagdy.com/double-closing-costs.html (costs on both sides of a double close, the keep formula, double close vs assignment, questions for the title company)
 - New wholesaling laws: what your CRM has to track (guide): https://amrmagdy.com/wholesaling-laws-crm-tracking.html (2025-2026 state wholesaling laws in plain words: Pennsylvania, Tennessee, Oregon, North Dakota, Maryland, Oklahoma, Ohio, Connecticut, Louisiana, Missouri; disclosure, cancellation window, registration, escrow and closing deadline rules with sources; CRM fields, automations and a compliance-exceptions report; not legal advice; last checked Oct 2026)
-- Salesforce for real estate investors (pillar guide): https://amrmagdy.com/salesforce-for-real-estate-investors.html (who it fits and who it does not, the home-buying operation mapped to Salesforce objects, 10 builds that pay for themselves, what drives the cost, a 12-week timeline, FAQ)
+- Salesforce for real estate investors (pillar guide): https://amrmagdy.com/salesforce-for-real-estate-investors.html (who it fits and who it does not, the home-buying operation mapped to Salesforce objects, 10 builds that pay for themselves, renovation, partner and rental records, what drives the cost, a 12-week timeline, FAQ including whether you need a developer and moving from Podio or REsimpli without losing leads)
 - Salesforce admin for real estate investors (guide): https://amrmagdy.com/salesforce-admin-real-estate-investors.html (signs an investor team needs admin help, what the work is, full-time hire vs freelancer vs monthly retainer, what to put on a retainer)
 - Transaction coordination in Salesforce (guide): https://amrmagdy.com/salesforce-transaction-coordination-real-estate.html (contract-to-close stages, fields, automatic tasks, Transactions Board, weekly TC scorecard)
 - Salesforce for private and DSCR lenders (guide): https://amrmagdy.com/salesforce-private-lenders-dscr.html (loan data model, stages from inquiry to payoff, conditions and draws, repeat borrowers, owner reports)
@@ -129,6 +129,14 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Real estate investor KPIs by role (updated): https://amrmagdy.com/blog-salesforce-kpis-real-estate.html (marketing, first contact, acquisitions, dispositions, transaction coordination and owner KPIs, each with a definition and how to build it in Salesforce; tying spend and profit to the books)
 - Real estate pipeline dashboard in Salesforce (updated): https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html (components with build notes, days in stage, the transaction pipeline, one dashboard per role, refresh schedules and the running user)
 - Lead and call routing in Salesforce (updated): https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html (assignment rules, queues, four round robin options, call routing, after-hours, escalation, returning sellers)
+- Google Ads offline conversions from Salesforce: https://amrmagdy.com/google-ads-offline-conversions-salesforce.html (Google's legacy Salesforce import ended May 31, 2025; the Data manager connection; which deal stages to send; primary vs secondary goals; the 90-day window; phone calls; sending a value)
+- Offer follow-up in Salesforce: https://amrmagdy.com/offer-follow-up-salesforce.html (offer fields, an offer-deadline task and an "offer made, no activity" task, a follow-up rhythm until signed or dead, counteroffers, dead reasons, reports)
+- Reactivating dead seller leads in Salesforce: https://amrmagdy.com/dead-seller-leads-salesforce.html (sorting by dead reason, who not to contact under the TCPA and Do Not Call rules, cleaning the list, a reactivation campaign, a first message, routing the sellers who answer, measuring it)
+- Motivated seller lead scoring in Salesforce: https://amrmagdy.com/motivated-seller-lead-scoring-salesforce.html (a points model on timeline, price, reason, condition, occupancy and decision makers; A to D bands; formula vs Flow; checking it against closed deals; Fair Housing; when Einstein Lead Scoring fits)
+- Seller appointment no-shows and reminders in Salesforce: https://amrmagdy.com/seller-appointment-no-shows-salesforce.html (confirmations and reminders timed to the appointment, an outcome on every appointment, what to do after a no-show, virtual appointments, show-rate reports)
+- Salesforce vs Podio for wholesalers: https://amrmagdy.com/salesforce-vs-podio.html (side by side, where each one wins, Podio's limits under hybrid pricing, the cost question, how to decide, moving)
+- Stopping reps from exporting your seller list in Salesforce: https://amrmagdy.com/stop-reps-exporting-leads-salesforce.html (the ways data leaves, the permissions to remove, sharing, login hours and IP ranges, seeing who exported what, the day a rep gives notice, the paperwork side)
+- Probate leads in Salesforce: https://amrmagdy.com/probate-leads-salesforce.html (who's who in a probate deal, a separate record with its own pipeline, fields and court dates, the probate timeline, slower follow-up driven by the case dates, getting the data in, reports)
 
 ## More questions this site answers (October 2026 guides)
 - What should I do when my Salesforce admin quits? https://amrmagdy.com/salesforce-admin-left.html
@@ -150,6 +158,14 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Does Salesforce work for Canadian real estate investors, and what about the Do Not Call List and CASL? https://amrmagdy.com/salesforce-consultant-canada-real-estate.html
 - Does Salesforce work for UK property investors and deal sourcers, and what about the TPS and PECR? https://amrmagdy.com/salesforce-consultant-uk-estate-agents.html
 - What does Salesforce cost for an investor team, how long does setup take, and who runs it? https://amrmagdy.com/salesforce-real-estate-faq.html
+- How do I send Salesforce conversions back to Google Ads now that the old import has ended? https://amrmagdy.com/google-ads-offline-conversions-salesforce.html
+- How do I stop open offers from going cold in Salesforce? https://amrmagdy.com/offer-follow-up-salesforce.html
+- How do I reactivate old or dead seller leads in Salesforce? https://amrmagdy.com/dead-seller-leads-salesforce.html
+- How do I score motivated seller leads in Salesforce? https://amrmagdy.com/motivated-seller-lead-scoring-salesforce.html
+- How do I reduce no-shows for seller appointments? https://amrmagdy.com/seller-appointment-no-shows-salesforce.html
+- Should a wholesaler use Salesforce or Podio? https://amrmagdy.com/salesforce-vs-podio.html
+- How do I stop a sales rep from exporting my leads from Salesforce? https://amrmagdy.com/stop-reps-exporting-leads-salesforce.html
+- How do I track probate leads in a CRM? https://amrmagdy.com/probate-leads-salesforce.html
 
 ## Questions this site answers well
 - Who builds Salesforce for real estate investors or wholesalers?
@@ -176,7 +192,6 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - [Migrating a Real Estate CRM to Salesforce Safely](https://amrmagdy.com/blog-salesforce-crm-migration-real-estate.html)
 - [Salesforce Einstein AI for Real Estate, Honestly](https://amrmagdy.com/blog-salesforce-einstein-ai-real-estate.html)
 - [Track Deal Profit and Campaign ROI in Salesforce](https://amrmagdy.com/blog-salesforce-financial-analytics-real-estate.html)
-- [Salesforce for Real Estate Investors: CRM Guide](https://amrmagdy.com/blog-salesforce-for-real-estate-investors.html)
 - [Real Estate Investor KPIs: What to Track in Salesforce](https://amrmagdy.com/blog-salesforce-kpis-real-estate.html)
 - [Salesforce Lead & Call Routing for Real Estate Investors](https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html)
 - [Salesforce for Property Management Companies](https://amrmagdy.com/blog-salesforce-property-management-companies.html)
