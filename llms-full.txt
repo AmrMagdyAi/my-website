@@ -380,7 +380,7 @@ Take them out of everything that sends them work: round robin, assignment rules,
 Freeze the user , so they can't log in while you finish the cleanup. Freezing doesn't free the license.
 Deactivate the user once nothing depends on them. If Salesforce won't let you, something still points at them, such as a default lead owner setting or an automation. That's useful to know, and worth fixing.
 Close the side doors: their dialer, texting and email seats, and any phone number sellers know them by. If that number stays live, point it at someone who can answer.
-Practice this once on a test user, so the first time isn't the day someone leaves. If the person leaving is the one who runs Salesforce, it's a bigger job. See what to do when your Salesforce admin leaves .
+Practice this once on a test user, so the first time isn't the day someone leaves. To limit what a rep can take with them in the first place, see stopping reps from exporting your seller list . If the person leaving is the one who runs Salesforce, it's a bigger job. See what to do when your Salesforce admin leaves .
 Where a new rep's leads usually slip
 A shared login "until the license comes through". Nothing they do is tracked to them, and every report on that user is wrong for weeks.
 Texting sellers from a personal cell. The conversation never reaches Salesforce, and it leaves with the rep. Every text should go through your texting tool. More in texting in Salesforce .
@@ -565,7 +565,7 @@ Follow Up Boss: pricing
 HubSpot: CRM pricing
 HubSpot Knowledge Base: understand objects
 Related
-Real estate CRM guide · Salesforce vs investor CRMs · Salesforce edition picker · Salesforce vs REsimpli · Salesforce vs GoHighLevel · Podio alternatives
+Real estate CRM guide · Salesforce vs investor CRMs · Salesforce edition picker · Salesforce vs REsimpli · Salesforce vs GoHighLevel · Salesforce vs Podio · Podio alternatives
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want a second opinion on your shortlist?
 Tell me your team size, lead sources and tools and I’ll tell you which two I’d trial, including when Salesforce isn’t the answer. Start with a free 30-minute call.
@@ -768,8 +768,8 @@ Best Salesforce Apps for Real Estate: AppExchange Guide 2025
 4 min read
 5 Salesforce Automations Every Real Estate Team Needs
 4 min read
-Salesforce for Real Estate Investors: A Complete CRM Guide
-4 min read
+Salesforce for Real Estate Investors and Home-Buying Companies
+15 min read
 Free for investors and wholesalers
 The CRM field kit
 Lead, deal and buyer fields, automation rules and the Monday report spec
@@ -1027,8 +1027,8 @@ Request a free 30-minute call, run the free 10-point Salesforce Health Check , s
 More Articles
 How to Track Real Estate Deal Profitability, Cost Per Lead, and Campaign ROI in Salesforce
 7 min read
-Salesforce for Real Estate Investors: A Complete CRM Guide
-4 min read
+Salesforce for Real Estate Investors and Home-Buying Companies
+15 min read
 How to Build a Real Estate Pipeline Dashboard in Salesforce
 3 min read
 Free for investors and wholesalers
@@ -1116,8 +1116,8 @@ The whole system can be live in 2-4 weeks. After that, every closed deal automat
 Want this built for your real estate company?
 Request a free 30-minute call, run the free 10-point Salesforce Health Check , try the free cost per deal calculator , see all free tools , or the fixed-price CRM Revenue Audit for investors and wholesalers.
 More Articles
-Salesforce for Real Estate Investors: A Complete CRM Guide
-4 min read
+Salesforce for Real Estate Investors and Home-Buying Companies
+15 min read
 How to Track Real Estate KPIs in Salesforce: The Metrics That Actually Matter
 4 min read
 How to Set Up Salesforce for a Real Estate Brokerage (Step-by-Step)
@@ -1137,77 +1137,6 @@ Send one question about your setup, whether you're on Podio, an investor CRM, sp
 About the author: Amr Magdy
 Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
 Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.
-
----
-## Salesforce for Real Estate Investors and Wholesalers: Is It Worth It?
-URL: https://amrmagdy.com/blog-salesforce-for-real-estate-investors.html
-
-Salesforce for Real Estate Investors and Wholesalers: Is It Worth It?
-This post answers one question: is Salesforce worth it for an investor team? For the full guide, with the deal flow mapped to Salesforce, the builds that pay off and when not to use it, read Salesforce for real estate investors and home-buying companies .
-Most CRMs are built for salespeople. Real estate investors aren't salespeople — they're deal-finders, analysts, and capital allocators. Their CRM needs to do something most platforms can't: track the full lifecycle of a property from first contact with a motivated seller through acquisition, renovation, and disposition.
-Salesforce, properly configured for real estate investing, does this better than any purpose-built investor CRM. Here's how.
-The Real Estate Investor CRM Problem
-Most investors start with spreadsheets. Some graduate to tools like Podio, REsimpli, or FreedomSoft. These tools work for simple deal flow, but they break down when an investment business grows — when you need to track 50+ active leads, manage renovation projects, report to partners or investors, and analyze which marketing channels are producing the best returns.
-Salesforce solves all of this in one platform — if it's configured correctly for the investing workflow.
-How to Structure Salesforce for Real Estate Investing
-Custom Objects for the Investment Workflow
-Out of the box, Salesforce has Leads, Contacts, and Opportunities. For real estate investing, you need to extend this:
-Properties object — tracks each property with fields for address, ARV, purchase price, renovation budget, exit strategy, and current status
-Deals object — the acquisition pipeline: from motivated seller lead through offer, under contract, renovation, and disposition
-Renovation Tracker — linked to Properties, tracks contractor assignments, scope of work, budget vs actual spend, and completion milestones
-Investor/Partner object — tracks equity partners, lending relationships, and capital commitments by deal
-Lead Management for Motivated Sellers
-Every off-market acquisition starts with a motivated seller. Salesforce tracks every inbound lead — from direct mail, cold calling, driving for dollars, wholesalers, or your website — with full source attribution. You know exactly which marketing channel produced each deal and what the ROI on each channel is.
-At Pezon Properties, a property acquisition company in Pennsylvania, I built automated lead assignment and deal tracking so every lead and every deal has an owner and a next step.
-Deal Analysis Dashboard
-A custom Salesforce dashboard for real estate investors should show: active leads by stage, properties under contract, active renovations with budget status, upcoming dispositions, and portfolio-level ROI metrics. Everything a principal needs to manage their business without asking anyone to pull a report.
-Automation That Matters for Investors
-Seller follow-up sequences — automatic task creation and email follow-ups for sellers who didn't respond to your first offer
-Renovation milestone alerts — notify the acquisitions team when a renovation hits key milestones or goes over budget
-Disposition pipeline triggers — automatically move a property to the listing pipeline when renovation is marked complete
-Investor reporting automation — scheduled reports emailed to equity partners showing their portfolio status
-Integrating Salesforce with Your Investor Tech Stack
-Via Zapier, Salesforce connects to virtually every tool in the investor stack: PropStream or BatchLeads for property data, CallRail for inbound call tracking, REI Reply or Slybroadcast for outreach, and DocuSign or Dotloop for contract management. Every lead, every call, every signed document flows into Salesforce automatically.
-Is Salesforce worth it for investors?
-Short answer: it depends on your team, not your deal count alone. Salesforce pays off when the cost of what you can't see (which list makes money, which leads die in follow-up, which rep's offers run over MAO) is bigger than the cost of the system.
-Stay with an investor CRM if you're solo or a small team doing a few deals a month and the built-in pipeline fits how you work.
-Salesforce makes sense when you run several teams or markets, need reports your tool can't build, or your process doesn't fit a fixed pipeline.
-What Salesforce costs
-Salesforce publishes per-user monthly list prices on its pricing page , but most businesses don’t pay list . Talk to a Salesforce account executive first: many teams are offered a discount based on the business and the number of users. Then weigh the quote against what one lost deal is worth to you, using the cost per deal calculator .
-For a side-by-side on data model, automation, reporting and price, see Salesforce vs investor CRMs . Leaving Podio? Start with the 10-step migration checklist .
-Questions investors ask
-Is Salesforce worth it for a real estate investor?
-It is worth it when you run several teams or markets, need reports your current tool cannot build, or your process does not fit a fixed pipeline. A solo investor or small team doing a few deals a month is usually better served by an investor CRM like REsimpli or a clean Podio setup.
-How much does Salesforce cost for an investor team?
-It depends on the edition and the number of users. Salesforce lists per-user monthly prices, but most businesses get a quote with a discount after talking to a Salesforce account executive, based on the business and the number of users. Ask for a quote before comparing tools.
-Can I move from Podio or REsimpli to Salesforce without losing my leads?
-Yes, if you plan it: map every field first, keep lead source and created date on every record, merge duplicate sellers, and test 50 records before moving the rest. Podio's Excel export leaves out comments, files and tasks, so plan for those separately.
-Do I need a developer for Salesforce?
-Not for most investor setups. Objects, fields, stages, automations (Flow) and reports are built with point-and-click tools. Code is only needed for unusual integrations.
-Need help with your real estate Salesforce?
-Request a free 30-minute call, run the free 10-point Salesforce Health Check , try the free cost per deal calculator , see all free tools , or the fixed-price CRM Revenue Audit for investors and wholesalers.
-More Articles
-How to Track Real Estate KPIs in Salesforce: The Metrics That Actually Matter
-4 min read
-Salesforce Lead Routing for Real Estate: Speed to Lead Changes Everything
-4 min read
-Salesforce vs Follow Up Boss for Real Estate: Which CRM Is Right for You?
-4 min read
-Free for investors and wholesalers
-The CRM field kit
-Lead, deal and buyer fields, automation rules and the Monday report spec
-Wholesaling CRM questions
-Real questions from wholesaling groups, answered plainly
-Videos: Deal Leak
-Short videos on where deals leak and how to fix each point
-Related guides
-37 Salesforce features for investors · Salesforce integrations for investors · Which Salesforce edition
-Found this useful?
-Ask me how this would work in your CRM.
-Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
-About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
-© 2026 Amr Magdy · Salesforce CRM Consultant for Real Estate
 
 ---
 ## Real Estate Investor KPIs: What to Track in Salesforce
@@ -1247,7 +1176,7 @@ Offer to contract rate | Contracts signed ÷ offers made, by rep | Offers and de
 Contracts signed | By rep, by week and month | A contract date stamped when the stage changes
 Open leads with no next step | Open leads without a future task | A cross filter: leads without open activities
 Overdue follow-ups | Follow-up tasks past their due date, by rep | Task report, due date before today, not completed
-Dials and talk time help when you're coaching a new rep. Judge experienced reps on what turns into money: appointments, offers and contracts, and on not letting leads go quiet. If you're about to add reps, see what to set up before a new rep starts , including a ramp report.
+Dials and talk time help when you're coaching a new rep. Judge experienced reps on what turns into money: appointments, offers and contracts, and on not letting leads go quiet. For the fields and tasks behind two of these, see appointment no-shows and offer follow-up . If you're about to add reps, see what to set up before a new rep starts , including a ramp report.
 Dispositions KPIs
 KPI | Definition | In Salesforce
 Days to assign | Days from signed contract to an assigned buyer | Contract and assignment dates stamped on the deal
@@ -1787,6 +1716,22 @@ CRM Insights for Real Estate Companies
 Practical Salesforce guides written from hands-on experience with US real estate companies — automation, dashboards, lead routing, investor CRM, and more.
 The Investor CRM Audit Checklist: 60 Checks You Can Run Yourself
 Spend, answer, follow-up, offer, keep, reports and system health. Works for any CRM, and your score updates as you tick.
+The Offer Went Out. Then What? Offer Follow-Up in Salesforce
+The fields, deadlines and one daily list that keep every open offer alive until it's signed or dead.
+Reactivating Dead Seller Leads in Salesforce
+Sort by dead reason, check who you can't contact, run it as a campaign and route the sellers who answer.
+Send Your Salesforce Deals Back to Google Ads (2026)
+Google's old Salesforce import ended in May 2025. Which stages to send now, the setup, phone calls and values.
+Motivated Seller Lead Scoring in Salesforce
+A simple points model, how to check it against closed deals, and when Einstein Lead Scoring is worth it.
+Seller Appointment No-Shows: Reminders and Tracking in Salesforce
+Confirmations and reminders timed to the appointment, an outcome on every one and a show-rate report.
+Salesforce vs Podio for Wholesalers (2026)
+Limits, automation caps, reporting, permissions and cost, and how to decide.
+Stop Reps Exporting Your Seller List from Salesforce
+What a rep can export, which permissions to remove, what you can see afterwards and what to do when someone gives notice.
+Probate Leads in Salesforce: Working on the Court's Timeline
+Who's who, a separate record with its own pipeline, the dates that drive follow-up and the reports.
 Salesforce for Real Estate Investors: 50 Questions Answered
 Cost and editions, setup time, moving from Podio, REsimpli or GoHighLevel, admin help, integrations, reports and texting rules.
 Missed-Call Alerts in Salesforce: Turn Every Missed Seller Call Into a Callback
@@ -1827,8 +1772,8 @@ How to Track Real Estate Deal Profitability, Cost Per Lead, and Campaign ROI in 
 Build cost-per-lead, cost-per-opportunity, and net profit calculations broken down by campaign and lead source — directly inside Salesforce. No more month-end spreadsheet scrambles.
 Salesforce vs Follow Up Boss for Real Estate: Which CRM Is Right for You?
 An honest side-by-side comparison of the two most popular real estate CRMs — covering automation, cost, scalability, and which teams each one is actually built for.
-Salesforce for Real Estate Investors: A Complete CRM Guide
-How to configure Salesforce for deal flow tracking, seller relationship management, renovation tracking, and portfolio-level reporting for real estate investors.
+Salesforce for Real Estate Investors and Home-Buying Companies
+Who it fits and who it doesn't, the deal flow mapped to Salesforce, 10 builds that pay for themselves, what it really costs and a 12-week timeline.
 How to Set Up Salesforce for a Real Estate Brokerage (Step-by-Step)
 A practical setup guide: choosing the right edition, configuring objects for real estate, building automation, and rolling out to agents.
 Salesforce Einstein AI for Real Estate: What It Can Actually Do
@@ -1970,7 +1915,7 @@ Once a week, compare each caller's Warm and Hot leads with what acquisitions fou
 Can a CRM block incomplete handoffs?
 Yes. Most CRMs, including Salesforce, can require fields before a status changes, so a lead cannot be marked Hot until the key questions are answered.
 Related
-Wholesaling team roles and handoffs · Salesforce access for VAs · 15 automation recipes · Speed to lead & follow-up statistics · Speed to lead · Acquisitions team capacity calculator · CRM field kit · Wholesaling CRM checklist · All free tools
+Wholesaling team roles and handoffs · Salesforce access for VAs · 15 automation recipes · Speed to lead & follow-up statistics · Speed to lead · Seller appointment no-shows · Acquisitions team capacity calculator · CRM field kit · Wholesaling CRM checklist · All free tools
 Last updated October 2026.
 Want this built into your CRM?
 I build Salesforce for real estate investors and wholesalers, and the same rules work in any CRM. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -2212,6 +2157,99 @@ info@AmrMagdy.com Prefer email? That works too
 Already decided? Pay the $750 deposit I reply with your start date and kick-off time
 
 ---
+## Reactivating Dead Seller Leads in Salesforce for Investors
+URL: https://amrmagdy.com/dead-seller-leads-salesforce.html
+
+The leads you already paid for. Reactivating dead seller leads in Salesforce
+Every home-buying company that has marketed for a few years is sitting on hundreds, often thousands, of seller leads marked dead, lost or not interested. You paid for every one of them. Some of those sellers are ready now: the tenant moved out, the repairs got worse, the estate got settled. This page is for owners and acquisitions managers who want to work that list on purpose, without bothering people who asked you to stop.
+Don't blast the whole list. Sort dead leads by why they died and how long ago, remove anyone who asked not to be contacted, and fix bad numbers first. Then run each group as its own Salesforce campaign with its own message, so every reply is tracked and credited. Send responders straight to a rep with a task due now, flag them as re-engaged without overwriting the original source, and judge the campaign on contracts, not replies.
+Why are dead leads worth working?
+They already know you. A seller who talked to your team once is warmer than any list you can buy.
+"Not now" is usually about timing. Situations like a vacant house, a tenant who stopped paying or an inheritance don't stand still after your rep stops calling.
+Follow-up stops early. In one large study, 81% of sales reps made five or fewer follow-up attempts on a lead ( InsideSales, 2021 ). Plenty of your "dead" leads were simply never worked to the end.
+You've already paid. Every one of those leads cost mail, clicks or caller time. Work out what yours cost with the cost per deal calculator ; it puts a number on the list.
+How should you sort dead leads before contacting anyone?
+By why they died, then by how long ago. Each group gets a different message, and some get none.
+Group | Typical dead reasons | What I'd do
+Timing | Not ready yet, tenant in place, waiting on family | The best group. Ask what has changed
+Price | Wanted more than you offered | Ask whether their situation has changed. Don't open with a higher number
+Listed | Listed with an agent | Check whether the listing expired or was withdrawn, then reach out
+Never reached | No answer, bad or wrong number | Refresh the contact details before anything else, and mark the wrong numbers so nothing contacts them again
+Sold | Sold to another buyer | Stop marketing that address. Keep the person if they own other property
+Not a fit | Outside your buy box, no equity | Leave out, unless your buy box has changed
+Do not contact | Asked to stop, represented by an attorney | Never, by any channel
+Then split each group by age: dead in the last 3 to 12 months, 1 to 2 years, and older. The recent ones remember you. The old ones need more introduction.
+If your dead leads don't have a reliable reason on them, that's the first thing to fix, because it decides everything above. A short required list, set the moment a lead or offer dies, is enough. The offer follow-up guide has the list I'd start with.
+Who shouldn't you contact?
+Not legal advice, but the stakes are real. The TCPA allows $500 per violation, and a court can raise it to $1,500 when the violation is willful. Get your consent and opt-out rules from whoever advises you on it. What I'd build into Salesforce either way:
+Honor every opt-out, from any channel. Since April 11, 2025, FCC rules say people can revoke consent by any reasonable means, and you have to honor it within 10 business days. A seller who told a rep "stop calling me" on a call has opted out, even if they never texted STOP.
+Keep one place that says "do not contact". Salesforce has standard Do Not Call and Email Opt Out fields on leads and contacts. Make sure your texting tool's opt-outs land there too, and that every list you pull filters on them.
+Check the National Do Not Call Registry and your own do-not-call list before a calling or texting campaign, and don't assume consent from an old web form covers a new campaign years later.
+Watch the coming change. A broader FCC rule, under which one opt-out covers all of a company's automated calls and texts, has been delayed to January 31, 2027.
+Clean the list before you send anything
+Merge duplicates. The same seller on three records gets three messages and decides you're spam. See duplicate sellers in Salesforce .
+Fix bad numbers. Skip trace the ones marked wrong or disconnected, and mark the old numbers as bad so nothing texts them again.
+Check the property. If county records show it sold, take the address out.
+Check the source. Every lead should still carry its original source and campaign, so the reactivation can be credited without overwriting where the seller first came from.
+How do you run it in Salesforce?
+One Salesforce campaign per group and message , for example "Reactivation: timing, Q4 2026". Add the leads as campaign members and give the campaign its own member statuses: Sent, Responded, Appointment, Contract.
+Pull the lists with a report filtered on status, dead reason, date it died, a valid phone number and do-not-contact unchecked. Save it, so next quarter's list takes a minute.
+Send from a tool that logs back to Salesforce. Replies have to land on the seller's record, or nobody sees them in time. For mail, use a tracking number for each campaign, as with any other mail piece. More in texting in Salesforce .
+Send in batches your team can answer. A thousand texts on Monday morning means replies sitting for a day. Send what your reps can call back within the hour, and spread the rest over the week.
+Pause other automations on these records , so a seller who replies doesn't also get pulled into two other sequences.
+What should the first message say?
+Short, from a real person, and honest about why you're writing. Something like:
+"Hi Linda, it's Marcus from [your company]. We talked about your house on Maple a while back. Is selling still something you'd consider?"
+That's a made-up example. What makes it work: it says who you are, reminds them you've spoken, and asks one question they can answer in a word. What to avoid: pretending you have a buyer lined up, an offer "expiring today", or a message that reads like it went to five thousand people, even though it did. Make opting out easy, and follow whatever your texting tool and your advisor require.
+What happens when a seller answers?
+Treat the reply like a new lead. A task due now, assigned to a person, with the same speed-to-lead clock you use for fresh leads. See speed to lead for investors .
+Send it back to the rep who knows them , if that rep is still on the team and working that market. In the org I run, a returning seller keeps their full history and the original owner gets told the seller came back.
+Keep the original source locked. Set a "latest source" to the reactivation campaign and flag the record as re-engaged. That's how reactivation gets credit without rewriting history. See which campaign gets credit .
+Handle the no's automatically. "Stop", "wrong number" and "already sold" should update the record, marking the person, the number or the address, so they never come back on a list.
+Open a new deal for a new conversation , linked to the same seller and property, rather than reviving a deal from two years ago. The new deal's dates and stages stay honest, and the old one keeps its history.
+How do you measure it?
+On contracts and closed deals, the same as any other campaign. The report I'd build, by reactivation campaign:
+Column | Why
+Members sent | The size of the push
+Responded | Interest, nothing more
+Appointments | Real conversations about selling
+Contracts and closed deals | What it actually produced
+Fees or profit on closed deals | What it was worth
+Cost: texts, mail, skip tracing | So cost per contract compares with new leads
+Reply rates look exciting and mean little. A campaign with fewer replies and two contracts beats one with lots of replies and none.
+Make it a habit, not a project
+A once-a-year blast is the hardest way to do this. The easier way is a date on every dead lead:
+When a lead dies, set a "revisit on" date from its reason. A timing reason might come back in 90 days, a listing after it would have expired, a price reason in a few months. Pick the numbers with your team and write them down.
+Each week, a list of revisits due goes to a person or into a small campaign. A few dozen a week is easier to answer well than thousands at once.
+Clear open tasks when a lead dies , so reps aren't chasing dead leads by accident and the revisit is the only next step. The org I run does this, along with automatic "review this lead" tasks for leads that go stale.
+Done this way, the dead list stops being a graveyard and becomes a source with its own row on the campaign report.
+Questions
+How do you reactivate dead real estate seller leads?
+Sort them by why they died and how long ago, remove anyone who asked not to be contacted, fix bad numbers, then run each group as a campaign with a short personal message. Route every reply to a rep immediately and measure the campaign on contracts.
+Is it legal to text old seller leads?
+It depends on consent, opt-outs and the Do Not Call rules, so check with whoever advises you on the TCPA. At minimum, honor every opt-out from any channel within 10 business days, scrub against the Do Not Call Registry and your own list, and don't assume old consent covers a new campaign.
+How often should you contact dead leads?
+Set a revisit date on each dead lead based on why it died, for example a few months for timing or price reasons, and work the leads that come due each week in small batches. A steady rhythm beats one big blast a year.
+Should a reactivated seller go back to the original rep?
+Usually yes, if that rep is still on the team and working that market, because the seller already knows them. Tell the rep the seller came back, and keep the full history on the record.
+How do I track a reactivation campaign in Salesforce?
+Create a Salesforce campaign for each group and message, add the leads as campaign members with statuses like Sent, Responded, Appointment and Contract, and report on contracts and revenue by campaign alongside cost.
+Does reactivating a lead change its lead source?
+It shouldn't. Keep the original source and campaign locked, set a separate latest source to the reactivation campaign, and flag the record as re-engaged, so both campaigns get the right credit.
+What should I do with sellers who sold to someone else?
+Stop marketing that address and update the record so it doesn't come back on a list. If the person owns other property, keep them as a contact for that, separately.
+Related guides
+Sources
+Checked in October 2026. Telemarketing rules and Salesforce features change, so check the linked page before you rely on a detail. Nothing here is legal advice.
+Speed to lead and follow-up statistics for real estate (this site) . InsideSales 2021 finding on follow-up attempts, with its source
+Mac Murray & Shuster: FCC delays the TCPA revoke-all rule to January 31, 2027 . Revocation by any reasonable means and the 10-business-day limit in force since April 11, 2025, and the delayed revoke-all rule
+RulesOfCivilProcedure.com: TCPA robocalls and texts . Statutory damages of $500 per violation, up to $1,500 for willful violations, under 47 U.S.C. 227
+Salesforce Ben: Tips for working with campaign member statuses . Custom member statuses per campaign and the Responded flag
+Want to know how many sellers are sitting in your dead pile?
+The fixed-price CRM Revenue Audit (USD 1,500) checks your data health, including duplicate sellers, broken numbers and leads with no source, and shows which parts of your list you can actually reach, with a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
 ## Deal Leak Score: 10-Point Check for Wholesalers (Free)
 URL: https://amrmagdy.com/deal-leak-score.html
 
@@ -2394,7 +2432,7 @@ Ascent Cloud: Geopointe
 Salesforce Help: duplicate rules
 BatchData: skip tracing API
 Related
-Real estate CRM guide · Salesforce features · Integrations · Lead sources into Salesforce · CRM field kit
+Real estate CRM guide · Salesforce features · Integrations · Lead sources into Salesforce · CRM field kit · Probate leads in Salesforce
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want field leads that become measurable deals?
 I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -2434,6 +2472,103 @@ Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
 I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Google Ads Offline Conversions from Salesforce for Investors
+URL: https://amrmagdy.com/google-ads-offline-conversions-salesforce.html
+
+Send your Salesforce deals back to Google Ads. Offline conversions for investor PPC
+If your Google Ads account counts a form fill as a conversion, Google is learning to find people who fill in forms. Some of them are motivated sellers. Many are retail sellers who want full price, agents, renters and spam. The answer to which clicks turned into contracts lives in Salesforce, and Google never sees it. This page is for owners and marketing leads at home-buying and wholesaling companies who spend real money on PPC and want Google to bid for deals, not leads.
+Store the Google click ID (GCLID) on every lead that comes from an ad, copy it to the deal when the lead converts, and connect Salesforce to Google Ads through Data manager, which replaced the legacy Salesforce integration Google stopped supporting on May 31, 2025. Send the stages that mean money, such as a qualified appointment, a signed contract and a closed deal with its fee, and bid on the one you have enough of. Add enhanced conversions for leads so matching doesn't rest on the click ID alone, and make sure your calls carry the click too.
+Why are form fills the wrong thing to optimize for?
+Google's automated bidding learns from whatever you tell it is a conversion. Tell it a form fill is a conversion and it gets very good at finding people who fill in forms. Your cost per lead looks great in Google Ads while your cost per contract in Salesforce keeps climbing, and nobody can say which campaigns, keywords or search terms produce the sellers who actually sign.
+Investor PPC has a long funnel with a lot of loss at every step: lead, contact, appointment, offer, contract, closed. Only your CRM knows how far each click got. Offline conversion import is the bridge. Salesforce tells Google which clicks became appointments, contracts and closed deals, and Google bids toward more of those instead of more forms.
+It also changes what you can see. With imports running, Google Ads can show cost per appointment and cost per contract by campaign and search term, next to the numbers you already watch in Salesforce. The two will never match to the dollar, but they stop telling different stories.
+What changed in 2025 and 2026?
+A lot of setup guides online still describe Google's old Salesforce integration and its "milestones". That integration is gone. Here's what changed, from Google's own help pages:
+When | What changed | What it means for you
+May 31, 2025 | Google ended support for the legacy Salesforce integration. Salesforce connections now live in Data manager. | If someone set this up before 2025, check that every conversion action still gets data under Data manager.
+Since the move | Each connection is linked to exactly one Salesforce object, either Lead or Opportunity. | A lead status and a deal stage are two connections and two conversion actions, not one.
+From June 15, 2026 | Google began moving offline conversion and enhanced conversions for leads uploads from the Google Ads API to its Data Manager API, and blocking them on the old path. | If a developer or a tool built a custom upload, ask whether it moved.
+Google also recommends enhanced conversions for leads over the older click-ID-only import. It adds hashed contact details from your form, so a conversion can still be matched when a click ID is missing. Google says to keep sending the GCLID whenever you have it, and that it's required if you don't collect contact details with the Google tag.
+Which Salesforce stages should you send?
+Map your funnel to a few conversion actions, then decide which one Google bids on. In Google Ads, primary conversion actions drive bidding and show in the Conversions column. Secondary ones are for observation only, so you can watch contracts and closed deals without letting a thin number steer the budget.
+Stage in Salesforce | Send it? | Why
+New lead (form or call) | Usually no; your website tag already counts it | Importing it again counts the same lead twice
+Qualified lead: a real owner, a property in your buy box, some reason to sell | Yes | Google's own advice is to pick a qualified or converted lead as the goal
+Appointment set or held | Yes, often the primary | Close enough to money, and frequent enough for bidding to learn from
+Offer made | Optional | Useful to watch, but it depends on your reps as much as on the lead
+Contract signed | Yes | The strongest signal most teams have enough of; primary once volume allows
+Closed, with the fee or profit | Yes, as secondary | The truth, but it arrives late and in small numbers
+Volume is the catch. A team signing a handful of contracts a month gives Google very little to learn from, while appointments happen several times as often. For most investor teams I'd make the qualified appointment the primary conversion, send contracts and closed deals as secondary, and switch the primary to contracts once there are enough of them to steer by.
+Timing matters too. Google only accepts click-based conversions within 90 days of the click. A seller who clicks in March and signs in August won't import. That's fine; it's one more reason the earlier stages carry the bidding.
+How do you set it up?
+Turn on auto-tagging in Google Ads. It adds a GCLID to the landing page address on every ad click. Without it there's nothing to send back.
+Capture the GCLID on your site. Google publishes a short script that reads the GCLID from the address, stores it for 90 days and fills a hidden field on your forms. Put it on every page of the site, because sellers click around before they fill anything in.
+Add a GCLID field to Lead and Opportunity in Salesforce. Google's setup page asks for a 255-character text field on both, read-only for users, with the lead field mapped to the opportunity field so the value survives lead conversion.
+Turn on field history tracking for Lead Status and Opportunity Stage. Google reads the time of the status or stage change from that history and uses it as the conversion time.
+Test every form. Submit a test lead with ?gclid=test on the end of the page address, check that the value lands on the lead, convert it, and check it on the opportunity. Then do the same for every other form and landing page.
+Connect Salesforce in Google Ads. Create a conversion action that imports from a CRM, choose Salesforce, sign in, pick the object (Lead or Opportunity), set the condition (for example, Stage changes to Contract Signed) and map the GCLID. For enhanced conversions for leads, also map email and phone; Google prefers email and needs at least one of the two.
+Use a dedicated integration user with only the access the connection needs. Not the owner's login, and not a rep who might leave. When that user is deactivated, the imports stop.
+Set a daily schedule and give it a day. Google says a new conversion action needs 4 to 6 hours before uploads, conversions can take up to 24 hours to show, and the first run only looks back 14 days.
+One limit catches investor orgs more than any other: Google's Salesforce connector reads Leads and Opportunities. If your deals live on a custom object, such as a Property or Deal record, the connector can't see them. You can track the stages you need on an opportunity linked to that record, or send conversions through a file or another tool. Decide this before you build, not after.
+What about phone calls?
+A lot of motivated sellers call instead of filling in a form, so a setup that only handles forms misses some of your best leads. There are three kinds of calls to think about:
+Calls straight from the ad , through a call asset or call-only ad with a Google forwarding number. Google already knows about the call. To tell it what happened next, its phone call import matches on the caller's number and the call start time, so your phone system needs to log both on the Salesforce record.
+Calls from your website after an ad click. These only tie back to the click if your call tracking swaps numbers per visitor (dynamic number insertion with a number pool). Check whether your call tracking writes the click ID or the campaign onto the lead it creates in Salesforce, or sends the conversion to Google itself. Pick one path. Doing both counts the same seller twice.
+Calls from a mailer number , even when the seller found you by searching your name. That isn't an ad click, and forcing it into Google Ads makes the numbers worse, not better.
+Whichever way calls come in, the lead your phone system creates in Salesforce has to carry its source and, where there is one, the click ID. If it doesn't, the import quietly skips every seller who called. More on getting calls onto the right record in dialers in Salesforce .
+Should you send a value with each conversion?
+Yes, if you can do it consistently. A value lets Google bid toward money instead of a count, which matters when one campaign brings in assignment-fee deals and another brings in properties you keep.
+Closed deals: the fee or profit, from the same field your ROI reports use. Gross on some deals and net on others makes the value useless.
+Contracts and appointments: a fixed estimate, such as your average fee times the share of contracts that close. Revisit it every quarter.
+Leads: Google's upgrade notes say expected revenue carries over for opportunities but isn't supported for leads, so set the value on the conversion action instead.
+If you don't map a value, Google uses the conversion action's default. That's a reasonable start while you get the basics working.
+What usually goes wrong
+The GCLID is only on one form. The landing page has it; the contact page, the chat widget and the second landing page don't.
+It doesn't survive conversion. The lead has a GCLID, the opportunity doesn't, so every contract arrives with nothing to match.
+Stages get skipped. A rep moves a deal from New straight to Contract, so the appointment conversion never fires. A date field such as "appointment held on", set by a Flow whenever a deal passes that point, is a safer trigger than the stage itself.
+A status gets renamed. Someone tidies the picklist, the condition no longer matches, and imports drop to zero without an error anyone sees.
+The connection belongs to someone who left. Google says a failed event isn't retried automatically, so days can go missing for good. The admin handover plan covers the logins that should never belong to one person.
+Two primary conversions count the same thing. A tag-based form conversion and an imported "new lead" both drive bidding, and Google thinks every lead is two.
+Bidding on closed deals too early. Small numbers make the bidding jumpy. Watch them as secondary first.
+How do you know it's working?
+Once a week, compare counts. Appointments imported to Google Ads against a Salesforce report of appointments from leads with a GCLID, for the same week. They won't match exactly, because of the 90-day window and Google's own attribution, but they should be close.
+Watch for blanks. A Salesforce report of PPC form leads with an empty GCLID should be close to empty. If it isn't, a form or a landing page isn't capturing it.
+Check the schedule. Look at the last run in Data manager every week. Failed runs don't fix themselves.
+Judge spend in Salesforce. Google Ads will show conversions, but the budget decision belongs on cost per contract and profit by campaign from your CRM, using the original source. See which campaign gets credit and the cost per deal calculator .
+In the org I run, PPC sits in the same campaign ROI reports as TV, mail and every other source: appointments, contracts and booked revenue by campaign and market, checked against the books. Offline conversion import doesn't replace that. It gives Google the same answer your reports already give you.
+Questions
+Can Google Ads import conversions from Salesforce?
+Yes. Google Ads connects to Salesforce through Data manager and imports conversions when a lead status or opportunity stage changes, matched by the Google click ID (GCLID) and, with enhanced conversions for leads, by hashed email or phone.
+Is the Google Ads Salesforce integration still available?
+The legacy integration isn't. Google ended support for it on May 31, 2025, and Salesforce connections now run through Data manager, with each connection linked to one object, either Lead or Opportunity.
+Where do I store the GCLID in Salesforce?
+In a 255-character text field on both Lead and Opportunity, read-only for users, with the lead field mapped to the opportunity field so the value carries over when the lead converts. Your website fills it through a hidden form field.
+Do I still need the GCLID with enhanced conversions for leads?
+Google says to include GCLIDs whenever you can, and that they're required if you don't use the Google tag to collect contact details from your forms. Enhanced conversions add hashed email or phone so more conversions can be matched.
+Which conversion should a real estate investor bid on?
+For most teams, a qualified appointment, because it's close to money and happens often enough for bidding to learn. Send contracts and closed deals too, as secondary conversions, and make contracts the primary goal once you have enough of them.
+Can Google Ads import conversions from a Salesforce custom object?
+Google's Salesforce connector works with Leads and Opportunities. If your deals live on a custom object, track the stages you want on a linked opportunity, or send conversions through a file upload or another tool.
+How long after a click can I import a conversion?
+Google accepts click-based conversions within 90 days of the click. Its Salesforce connection also only looks back 14 days on the first run, so older conversions from before the setup won't come in.
+How do I track Google Ads phone calls in Salesforce?
+Calls from call assets with a Google forwarding number can be imported with the caller's number and call start time. Calls from your website need call tracking that swaps numbers per visitor, so the call can be tied to the click. Either way, the Salesforce lead has to carry the source.
+Related guides
+Sources
+Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.
+Google Ads Help: How to set up a Salesforce integration . GCLID fields on Lead and Opportunity, field history tracking, the hidden form field, testing with gclid=test, the 90-day limit, the 14-day first import, the daily schedule and no automatic retries
+Google Ads Help: Legacy Salesforce integration for conversions upgrade FAQ . End of legacy support on May 31, 2025, one Salesforce object per connection, expected revenue for opportunities only
+Google Ads Help: About enhanced conversions for leads . How hashed lead details are matched, when the GCLID is still needed, and the move of uploads to the Data Manager API from June 15, 2026
+Google Ads Help: Set up offline conversion imports using GCLID . Auto-tagging, the hidden GCLID field and the 90-day storage script
+Google Ads Help: Using Data Manager with enhanced conversions for leads . Google's advice to choose a qualified or converted lead as the conversion goal
+Google Ads Help: About primary and secondary conversion actions . Primary actions drive bidding; secondary actions are for observation
+Google Ads Help: Import phone call conversions . Caller number and call start time, Google forwarding numbers, and imported call conversions that can't be removed
+WhatConverts: Dynamic number insertion . How number pools tie website calls back to ad clicks
+Want to know what your PPC really costs per contract?
+The fixed-price CRM Revenue Audit (USD 1,500) traces each lead source, PPC included, from first call to closed deal, shows where the source gets lost on the way, and comes with a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2828,7 +2963,7 @@ No. Any CRM can close most of them if lead source carries through to closing, ev
 What does the CRM Revenue Audit do with this map?
 The audit (USD 1,500, fixed price) goes through your CRM and phone data leak point by leak point, sizes each leak from your own numbers, and gives you a prioritized fix list. You can implement it yourself or with me.
 Related
-Investor CRM audit checklist (60 checks) · Which campaign gets credit? · All free tools · Wholesaling CRM glossary · CRM Revenue Audit
+Investor CRM audit checklist (60 checks) · Which campaign gets credit? · Google Ads offline conversions · Offer follow-up in Salesforce · Reactivating dead seller leads · All free tools · Wholesaling CRM glossary · CRM Revenue Audit
 Last updated October 2026.
 Want the leaks sized from your own data?
 The CRM Revenue Audit (USD 1,500, fixed price) goes leak point by leak point through your CRM and call data and gives you a prioritized fix list. Or start with a free 30-minute call.
@@ -2983,6 +3118,91 @@ KPIs for every role on the team · Pipeline dashboard guide · Which campaign ge
 Want all five on one Salesforce dashboard?
 A “Monday 5” dashboard spec is part of every CRM Revenue Audit (USD 1,500, fixed price), along with a findings report, a 30/60/90-day roadmap and three quick fixes done. Or start with a free 30-minute call.
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Motivated Seller Lead Scoring in Salesforce (Investor Guide)
+URL: https://amrmagdy.com/motivated-seller-lead-scoring-salesforce.html
+
+Which sellers should your team call first? Motivated seller lead scoring in Salesforce
+When a team gets more leads than it can work, someone decides who gets called first. Usually it's whoever came in last, or whoever the rep likes the sound of. A lead score makes that call the same way every time. This page is for owners and acquisitions managers who want a score their reps trust, built from what actually leads to contracts in their market rather than from a template.
+Start with a simple points score on the lead, built from what your reps already ask: why they're selling, how soon, the condition of the property, whether it's vacant, and how the asking price compares with your numbers. Show it as A, B and C bands, not a raw number, and check it against your own closed deals every quarter. Einstein Lead Scoring needs at least 1,000 leads created and 120 converted in 200 days, costs extra on Enterprise Edition, and learns whatever "converted" means in your org, so most investor teams should start with rules.
+Why score seller leads at all?
+Order matters when you can't call everyone at once. Response time is one of the most studied levers in lead conversion: in Harvard Business Review's 2011 study, firms that reached a lead within an hour were nearly seven times as likely to qualify it ( sources here ). The best leads should get that first hour.
+It makes reps consistent. A new rep learns what your team thinks a good lead looks like on day one, instead of after fifty bad calls.
+It decides who works what. Your strongest closer gets the A leads, and a VA or a cadence handles the C's.
+What should a motivated seller score include?
+The things your reps already ask on the first call, recorded as picklists rather than buried in notes:
+Reason for selling: behind on payments, inherited or in probate , vacant, tired landlord, major repairs, relocating, or just curious.
+Timeline: within 30 days, one to three months, three to six months, no timeline.
+Condition: major repairs, some updates, move-in ready.
+Occupancy: vacant, tenant, owner lives there.
+Price: the seller's asking price against your maximum offer. See the MAO calculator .
+Decision makers: whether everyone on title is on board.
+Engagement: whether they called you, answered, or replied to a text.
+Score the property and the situation, never the person. Leave out race, color, national origin, religion, sex, familial status and disability, the characteristics the Fair Housing Act protects, and anything that stands in for them, such as a seller's name. State and local laws can protect more, so check yours. It's the wrong signal and a real legal risk. Not legal advice.
+A starting model you can adjust
+The points below are a made-up starting point, not a formula from any company. Your own closed deals decide the real weights.
+Signal | Answers and points | Max
+Timeline | Within 30 days: 25 · 1 to 3 months: 15 · 3 to 6 months: 5 · no timeline: 0 | 25
+Price | Asking at or under your MAO: 25 · up to about 10% over: 10 · well over, or won't say: 0 | 25
+Reason | Behind on payments, inherited, vacant, tired landlord or major repairs: 20 · relocating or downsizing: 10 · just curious: 0 | 20
+Condition | Major repairs: 15 · some updates: 8 · move-in ready: 0 | 15
+Occupancy | Vacant: 10 · tenant: 5 · owner lives there: 0 | 10
+Decision makers | Everyone on title agrees: 5 · not yet known: 0 | 5
+That adds up to 100. A reasonable first cut: 70 and up is an A, 45 to 69 a B, 20 to 44 a C, under 20 a D. Move the lines once you've seen a quarter of results.
+Show the band, not the number. "A" tells a rep what to do. "62" starts an argument about why it isn't 64.
+How do you build it in Salesforce?
+Add a picklist for each signal on the lead, and make them required when a rep marks the lead qualified, not when it's created.
+Add the points up. A formula field with a CASE() for each picklist is enough for most teams. A second formula turns the total into a band.
+Show why. A short text formula like "30 days · Vacant · Under MAO" next to the band. Reps trust a score they can read.
+Use it everywhere reps look. Sort queues and list views by band, and put it on the lead page and the mobile layout.
+Route on it. A leads go to your best closer with a task due now; B's the same day; C's into a follow-up cadence. More in lead routing for real estate teams .
+One technical catch: a formula is calculated when someone reads it, so a change in a formula score doesn't start an automation by itself. If routing should react when a score changes, have a Flow write the score into a regular number field and trigger from that.
+Keep a second, frozen copy: the score at first contact. Today's score changes as reps learn more. The first one is what you need to judge whether the model works.
+How do you know the score works?
+Once a quarter, run one report: leads created three to six months ago, old enough for deals to have closed, grouped by their score at first contact, with the share that reached contract and the share that closed.
+The bands should separate clearly. A leads should reach contract at several times the rate of C leads. If the rates are close, the weights are wrong.
+Read the misses. Look at closed deals that scored C or D, and at A leads that died. What did the score not see? Often it's a signal nobody records, like a tenant who stopped paying.
+Change one thing at a time , and note the date you changed it, so you can tell what helped.
+Check by source and market too. A score that works for PPC leads in one city can be wrong for cold-call leads in another, because the people and the reasons differ.
+What about Einstein Lead Scoring?
+Salesforce's own scoring learns from your past leads. The details, from Salesforce's help pages:
+It needs at least 1,000 leads created in the last 200 days, and at least 120 of them converted. The same thresholds apply to each segment you set up.
+Without enough data of your own, it uses a global model built from anonymous data across many Salesforce customers.
+It reanalyzes your leads about every 10 days.
+It comes with Sales Cloud Einstein, included in Performance and Unlimited Editions and an extra cost on Enterprise Edition.
+The catch for investor teams is the word "converted". Einstein predicts lead conversion, and in many investor orgs a lead converts when an appointment is set, or never, because the team works everything on the lead or on a custom deal record. So it learns to predict appointments, not contracts. And it doesn't know your MAO math unless that's on the lead.
+My view: start with rules everyone can read. If you have the volume and the license, run Einstein alongside them and compare both against closed deals each quarter. For where AI fits more broadly, see AI in Salesforce for real estate investors .
+What usually goes wrong
+Scoring what nobody asks. If reps don't ask about the timeline, the field is blank and every lead becomes a C.
+Too many inputs. Fifteen picklists don't get filled in. Six or seven do.
+Inflated answers. If whoever qualifies the lead is paid or praised on A leads, the answers drift upward. Score facts the rep records, and spot-check a few calls.
+Never checking it. A score nobody tests against contracts is an opinion with a number on it.
+Treating C's as dead. A low score means a different cadence, not no follow-up. Plenty of deals come from leads that weren't ready yet; see reactivating dead seller leads .
+Questions
+What is motivated seller lead scoring?
+A way to rank seller leads by how likely they are to sell to you soon, using answers your reps record, such as reason for selling, timeline, condition, occupancy and asking price against your maximum offer. The score decides who gets called first and by whom.
+How do you score leads in Salesforce without Einstein?
+Add a picklist for each signal on the lead, add up points in a formula field, and turn the total into A, B, C and D bands. If automations should react to score changes, have a Flow store the score in a number field.
+What makes a seller motivated?
+Usually a reason and a timeline: behind on payments, an inherited or vacant house, a tired landlord, major repairs or a move, combined with wanting to sell soon at a price that works for you. Score the situation and the property, never the person.
+How many leads do you need for Einstein Lead Scoring?
+Salesforce says at least 1,000 leads created in the last 200 days, with at least 120 of them converted. Without that, Einstein uses a global model built from anonymous data across Salesforce customers.
+Is Einstein Lead Scoring included in Salesforce?
+It comes with Sales Cloud Einstein, which Salesforce includes in Performance and Unlimited Editions and sells as an extra on Enterprise Edition. Check your contract, because Salesforce renames its bundles often.
+How often should you update a lead scoring model?
+Review it every quarter against leads created three to six months earlier, using each lead's score at first contact. Change one weight at a time and note the date.
+Should a low lead score mean we stop following up?
+No. A low score means a slower cadence or a different person, not no follow-up. Many deals come from sellers who weren't ready the first time.
+Related guides
+Sources
+Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.
+Salesforce Help: Considerations for setting up Einstein Lead Scoring . The 1,000 and 120 lead thresholds in 200 days, segments, the global model, the 10-day refresh and editions
+Speed to lead and follow-up statistics for real estate (this site) . Harvard Business Review 2011 response-time findings, with the source
+HUD: Housing discrimination under the Fair Housing Act . The seven characteristics the Fair Housing Act protects
+Want your leads ranked by what actually closes for you?
+The fixed-price CRM Revenue Audit (USD 1,500) ties your leads to the campaigns that paid for them and finds the ones going cold, such as offers with no activity and appointments with no next step, with a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3158,6 +3378,97 @@ Book a free call and I'll go through this checklist against your setup. If you'r
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
+## Offer Follow-Up in Salesforce for Real Estate Investors
+URL: https://amrmagdy.com/offer-follow-up-salesforce.html
+
+The offer went out. Then what? Offer follow-up in Salesforce
+Most wholesaling and home-buying teams track leads well and offers badly. The offer gets made on the phone or at the kitchen table, the seller says they need to think about it, and a week later nobody is sure who was supposed to call back. This page is for owners and acquisitions managers who want every open offer on one list, with a named owner and a next step, until it's signed or truly dead.
+Give every offer four required fields in Salesforce: the amount, the date, how it was made (in person or virtual) and a next follow-up date. Let Salesforce create the follow-up task, warn before the offer expires and flag any open offer with no seller contact for a set number of days. Put all open offers on one list the acquisitions manager reviews every morning. When an offer dies, require a reason, because those reasons tell you whether you have a pricing problem or a follow-up problem.
+Why do offers go cold?
+"Let me think about it" isn't a no. It's an open loop, and open loops close on whoever calls back. Often that's another investor.
+The offer never makes it into the CRM. It was said out loud at the house or over the phone. If the amount and the date aren't on the record, the offer doesn't exist as far as anyone else is concerned.
+Nobody clearly owns it. The lead manager set the appointment, the acquisitions rep made the offer, and each assumes the other is following up.
+New leads are more fun. A rep with ten fresh leads today will call those before the seller who said "maybe" last Tuesday.
+The deadline lives in someone's head. The offer was good "through Friday", and Friday comes and goes.
+The habit isn't special to real estate. In one large study of sales leads, half were never called a second time ( Velocify, 2012 ). An offer is a much warmer lead than a web form, and it gets the same treatment when nobody owns the next step.
+Where should offers live in Salesforce?
+Two workable setups:
+Setup | How it works | Good for | Watch out for
+Offer fields and an "Offer Made" stage on the deal | One record per property; the offer amount, date and status sit on the deal | Most teams, especially to start | Only the latest offer is visible unless you track history on the amount
+A separate Offer record linked to the deal | Every offer and counteroffer is its own row with amount, date and status | Teams that negotiate several rounds, or want offer-to-contract by spread and rep | More clicks for reps; keep the form to a handful of fields
+I'd start with the first and turn on field history tracking for the offer amount. Salesforce tracks up to 20 fields per object this way and shows 18 months of history on the record. Opportunity stage changes are tracked out of the box, including how long each deal sat in each stage, so you get "days from offer to contract" without building anything. Move to a separate Offer record when your team routinely goes back and forth three or four times per deal.
+The fields every offer needs
+Field | Required? | Why it's there
+Offer amount | Yes | The number, with history, so a later counter doesn't erase the first offer
+Offer date | Yes | Starts every clock: follow-up, aging, days to contract
+Made in person or virtually | Yes | The two close at different rates, and you'll want to know by how much
+Next follow-up date | Yes | No open offer without a next step. This one field does most of the work
+Offer good through | If you use deadlines | Drives a reminder before it passes
+MAO when offered | Recommended | Shows offers made over your maximum, by rep. See the MAO calculator
+Seller's asking price | Recommended | The gap between ask and offer is the negotiation
+Status | Yes | Open, Countered, Accepted, Declined, Expired
+Dead reason | When declined or expired | The only way to learn from the ones you lose
+Make the required fields required at the moment the deal moves to "Offer Made", not when the lead is created. A rep can't know the offer amount on day one, and a form full of required fields nobody can fill gets filled with junk.
+What should Salesforce do on its own?
+Create the first follow-up task the moment an offer is logged, assigned to the person who made it and due on the follow-up date.
+Warn before the deadline. A record-triggered Flow with a scheduled path can create a "call before the offer expires" task a day or two before the "offer good through" date. If the date changes, the scheduled action moves with it.
+Flag offers with no contact. If an open offer has had no logged call, text or completed task with the seller for a set number of days, create an "offer made, no activity" task and tell the manager. Base this on a "last seller contact" date stamped by your calls and texts. The standard Last Activity field can mislead: it follows the primary contact on an activity, so a call logged against a second owner may not move it.
+Stop automated texts when the seller replies , so a seller in the middle of a conversation doesn't get a canned "just checking in".
+Clean up when it's decided. Accepted moves the deal to contract and closes the follow-up tasks. Declined or expired asks for a reason, closes open tasks and sets a date to try again.
+In the org I run there's an offer-deadline task, an "offer made, no activity" task, and on-site and virtual offers are tracked separately, so the owners can see which offers close and how. None of it is complicated. It just means the follow-up happens because the system says so, not because someone remembers.
+What does a good follow-up rhythm look like after an offer?
+There's no magic sequence, and your market and team will shape it. Here's a starting point I'd adjust with the team:
+When | Touch | What it adds
+Same day | Text or email with the offer in writing | The number in front of everyone who has a say, including the people you didn't meet
+Next day | Call | Questions they thought of overnight; who else needs to say yes
+Day 3 to 4 | Call | Anything that changed: a repair quote, another offer, a move date
+Before the deadline | Call | A real decision point, if your offer has one
+Weekly, then monthly | Call or text | Until they sign, sell to someone else or tell you to stop
+Two rules matter more than the exact days. Every touch should add something, a question, an answer or a changed number, rather than "just checking in". And when a seller asks you to stop, stop, and record it so no automation or other rep contacts them again. To build a cadence your team can follow, try the seller follow-up cadence builder .
+How do you handle counteroffers?
+Log every counter as a new amount. With history on the field, the first offer stays visible. With Offer records, each counter is its own row.
+Keep the seller's number next to yours. First offer, latest offer and the seller's counter on one screen show the gap at a glance.
+Route anything over MAO to the manager. A Flow can hold the status until the manager approves, and record who approved it. That's the paper trail for the deals that lose money.
+What happens when an offer dies?
+Require a reason from a short list: price too low, listed with an agent, sold to another buyer, decided not to sell, couldn't reach them, and other (with a note). Keep it short enough that reps pick honestly.
+Then look at the reasons every month. Mostly "price too low" with offers well under MAO points to how you price. Mostly "couldn't reach them" or "sold to another buyer" points to follow-up. Those are different fixes, and the reason field is the only way to tell them apart.
+A dead offer isn't a dead seller. Set a date to try again, because situations change: the repair estimate comes in, the tenant leaves, the listing expires. That's where reactivating dead seller leads picks up. And review dead offers as a manager once a week, so "dead" doesn't become the way a busy rep clears their list.
+The reports that matter
+Open offers by owner and age , with last seller contact. This is the morning list. If you build one thing from this page, build this.
+Open offers with no contact in your set number of days. It should be empty. When it isn't, it's a to-do list.
+Offer-to-contract rate by rep, and by in-person versus virtual.
+Days from offer to contract , from the stage history.
+Dead reasons by month , by lead source and by rep.
+Offers over MAO , by rep, and how those deals turned out.
+The first two belong on the acquisitions manager's home page. The rest feed the weekly meeting and the Monday 5 .
+Questions
+How do you follow up after making an offer to a motivated seller?
+Put the offer in writing the same day, call the next day and again a few days later, and keep a dated next step on the record until the seller signs, sells elsewhere or asks you to stop. Each touch should add something new rather than check in.
+How long should you keep following up on a real estate offer?
+Until the seller signs, sells to someone else or asks you to stop. After the first couple of weeks, move to a weekly and then monthly rhythm, and set a date to try again on offers that die, because sellers' situations change.
+Should offers be a separate object in Salesforce?
+Not at first. Offer fields and an Offer Made stage on the deal, with history tracked on the amount, work for most teams. A separate Offer record makes sense when you negotiate several rounds per deal or want to analyze offers by spread and rep.
+How do I find offers nobody followed up on?
+Build a report of open offers where the last seller contact is older than your limit, grouped by owner. Stamp that date from logged calls and texts rather than relying on the standard Last Activity field.
+Can Salesforce remind reps before an offer expires?
+Yes. A record-triggered Flow with a scheduled path can create a task a set number of days before the offer's deadline date, and it adjusts automatically if the date changes.
+How do I track counteroffers in Salesforce?
+Log each counter as a new offer amount with field history turned on, or as its own Offer record. Keep the first offer, latest offer and seller's counter visible together, and route anything over MAO to a manager for approval.
+What dead reasons should wholesalers track?
+A short list reps will use honestly: price too low, listed with an agent, sold to another buyer, decided not to sell, couldn't reach them, and other with a note. Review them monthly by source and rep.
+Related guides
+Sources
+Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.
+Speed to lead and follow-up statistics for real estate (this site) . Velocify 2012 finding that half of leads never got a second call, with its source
+Salesforce Ben: Opportunity History vs Opportunity Field History . Stage changes tracked by default, with stage duration
+Salesforce Ben: Field history tracking . 20 tracked fields per object, 18 months in the interface
+Salesforce Developers: Schedule your path in Salesforce Flow . Scheduled paths relative to a date field, and how they move when the date changes
+Salesforce Ben: Why Last Activity Date can mislead . Last Activity follows the primary contact on a task or event
+Want the list of offers going cold right now?
+The fixed-price CRM Revenue Audit (USD 1,500) finds offers with no activity, appointments with no next step and leads owned by someone who left, with what they're likely costing you, a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
 ## Moving Off Podio: A Migration Checklist for Wholesalers
 URL: https://amrmagdy.com/podio-alternative-wholesalers.html
 
@@ -3198,7 +3509,7 @@ Sometimes yes. If the team knows Podio and the problems are messy fields and mis
 Can you migrate Podio to Salesforce?
 Yes, that is part of my work. I build Salesforce for real estate investors and wholesalers, so weigh my view with that in mind.
 Related free tools
-Podio's new automation limit · Do I need a CRM yet? · Wholesaling CRM checklist · CRM field kit · Deal Leak Score · Salesforce vs investor CRMs · Migrating a real estate CRM to Salesforce · Podio, REsimpli or GoHighLevel to Salesforce: field map and 30-60-90 plan · All free tools
+Podio's new automation limit · Salesforce vs Podio · Do I need a CRM yet? · Wholesaling CRM checklist · CRM field kit · Deal Leak Score · Salesforce vs investor CRMs · Migrating a real estate CRM to Salesforce · Podio, REsimpli or GoHighLevel to Salesforce: field map and 30-60-90 plan · All free tools
 Last updated October 2026. Podio is a trademark of its owner; this page is independent.
 Moving off Podio?
 I build Salesforce for real estate investors and wholesalers, including the move from Podio: field mapping, history you keep, deduplication and a Monday report on day one. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -3258,7 +3569,7 @@ Fine for a short spike, or as a bridge while you redesign or move. Remember the 
 4. Move some jobs out of Podio Workflow Automation
 Some teams move heavy jobs to Make or Zapier. That doesn't make the work free: those tools connect through Podio's API, which has its own hourly limits, and they bill separately. Do it for specific jobs, not as a blanket fix.
 5. Move off Podio
-If your team has grown, your automations are what keep leads alive, and you can't get the reporting you need, this may be the push to move. For smaller teams, an all-in-one investor CRM can be a good landing spot. For teams of 10 or more who want their own system and real numbers, Salesforce is the option I build. My Podio migration checklist compares the three paths honestly.
+If your team has grown, your automations are what keep leads alive, and you can't get the reporting you need, this may be the push to move. For smaller teams, an all-in-one investor CRM can be a good landing spot. For teams of 10 or more who want their own system and real numbers, Salesforce is the option I build. My Podio migration checklist compares the three paths honestly, and Salesforce vs Podio puts the two side by side.
 How do you decide?
 Your situation | What I'd do
 Under the cap, or under it after trimming the loops | Stay. Redesign the scheduled flows, check usage weekly and move on.
@@ -3334,6 +3645,100 @@ Email info@AmrMagdy.com to see the details I hold about you, fix them, delete th
 If you're in the UK, the EU or the EEA: I reply to messages and bookings because you asked me to, and I use analytics cookies and send the newsletter only with your consent, which you can take back any time. You can complain to your data protection authority (in the UK, the ICO), though I'd like the chance to put it right first.
 Changes
 If I change this page, the date at the top changes too.
+
+---
+## Probate Leads in Salesforce: A CRM Setup for Investors
+URL: https://amrmagdy.com/probate-leads-salesforce.html
+
+Probate deals run on the court's clock. Tracking probate leads in Salesforce
+Probate is one of the steadiest lead sources in investing, and one of the easiest to work badly. The person you need to reach is grieving, the decision may belong to someone other than the person you're talking to, and the court sets the pace. A CRM built for "call fast and close in two weeks" loses these deals. This page is for owners and acquisitions managers who work probate leads, or want to, and need Salesforce to keep track of a deal that can take most of a year.
+Build a probate lead around the whole estate rather than the house alone: the person who died, the personal representative who can sell, the attorney, the heirs, and the case with its county, case number, filing date and the date letters were issued. Track the dates that decide when a sale can happen, follow up on a slow, respectful cadence that can run for months, and keep probate deals in their own pipeline so your usual "no activity in seven days" alarms don't fire on them. Rules vary by state, and none of this is legal advice.
+Why are probate leads different?
+The owner isn't the one deciding. The person who owned the house has died. The personal representative, called the executor when a will names one and the administrator when the court appoints one, acts for the estate once the court issues letters testamentary or letters of administration.
+The court sets the pace. Depending on the state, probate typically takes six to twelve months, faster for simple estates and a year or more for complex ones.
+A sale may need the court's OK. In many states the executor needs court approval before selling real estate. Some require the court to confirm the sale, which can mean a hearing where other buyers can bid more. Some wills give the executor authority to sell without approval.
+Families are involved. Heirs in other states, siblings who disagree, someone living in the house. Patience and a record of every conversation matter more here than anywhere else.
+The filings are public. Probate records usually include the will, the petition, the inventory and the representative's name, sometimes with contact details. That's where most probate lead lists come from.
+Who's who in a probate deal?
+Person | Role | In Salesforce
+The person who died | Owned the property | A field on the case or deal, never a contact anyone calls
+Personal representative | Can sell once the court issues letters | The main contact on the deal
+Probate attorney | Advises the representative and often knows the timing | A contact linked to the deal with the role "Attorney"
+Heirs | May need to agree; one may want to keep the house | Contacts linked with the role "Heir"
+The court | Sets the timeline and may approve or confirm the sale | Case number, county and hearing dates
+Opportunity contact roles handle the people side: one deal, several contacts, each with a role. Then anyone opening the deal sees who to call and who not to.
+How do you set it up in Salesforce?
+Lead source "Probate" , with each list tracked as its own campaign, such as one county and month, so you know which lists pay.
+A deal for each property once the lead is qualified, with the representative as the main contact and the attorney and heirs linked by role.
+A probate case record if you work more than a handful: case number, county, filing date, letters date, decedent, representative and attorney, linked to every property in the estate. One estate can hold several properties, and a case record means you enter those details once.
+Its own pipeline. A separate record type or sales process for probate, with stages that match the case: researching, letter sent, talking with the representative, waiting on letters, offer made, waiting on court approval, under contract.
+Duplicate checks on case number and property address. The same estate often shows up on a probate list, a vacant list and a tax list. See duplicate sellers in Salesforce .
+Which fields and dates matter?
+Field | Why it's there
+Case number and county | To look up the case and catch duplicates
+Date of death | Context, and the start of your "wait before contacting" rule
+Filing date | Starts the court's clock
+Letters issued date | When the representative can act for the estate
+Executor or administrator | Whether there was a will
+Court approval needed to sell | Yes, no or unknown. Ask the attorney rather than guess
+Creditor claim deadline | Often shapes when the estate is ready to sell or distribute
+Who lives in the property | Vacant, an heir or a tenant changes the conversation
+Heirs in agreement | Yes, no or unknown
+Next follow-up date | Required, like every other open deal
+What timeline are you working with?
+A typical sequence for an estate with a will, from LegalZoom's guides. Every state differs, so treat the durations as rough.
+Step | Typical timing | What it means for you
+Petition filed with the court | Often within 30 to 60 days of the death | The case appears in public records
+Hearing, appointment and letters issued | About 2 to 8 weeks after filing | The representative can now act for the estate
+Notice to creditors and claim period | Usually 3 to 6 months | Debts get sorted, often the longest step
+Inventory and appraisal | About 30 to 90 days | The estate learns what the house is worth
+Sale, with court approval or confirmation where required | A confirmation hearing is often 2 to 4 weeks after an offer is accepted | Your offer may face higher bids at the hearing
+LegalZoom puts the whole run, from filing to closing a probate sale, at typically six to twelve months, with simple estates closing in three or four and complex ones taking eighteen months or more.
+That timeline breaks most investor CRMs. A deal that sits in one stage for four months isn't stale; it's waiting on a court. Keep probate out of your normal aging alarms and give it alarms of its own, built on the case dates above.
+What follow-up fits probate?
+Start slow and in writing. I'd lead with a letter to the representative rather than a call, and give the family time first. Whatever your rule is, put it in Salesforce so every rep follows it, such as no first contact until a set number of weeks after the date of death.
+Let the case dates drive the tasks. A check-in a week after letters are issued, another before the creditor deadline, another after the inventory. Scheduled paths in a Flow can create those tasks from the dates, and they move if the dates change.
+Space calls weeks apart , not days. A representative handling an estate gets a lot of calls from investors. Being the patient, organized one helps.
+Bring in the attorney when the representative is comfortable with it. Attorneys often know when the estate will be ready to sell.
+Write everything down. A probate deal can pass between reps over the months it takes. The next person needs to know who said what, and who doesn't want calls.
+Opt-outs still apply. The consent and do-not-call rules in reactivating dead seller leads apply here too.
+How do you get probate data into Salesforce?
+Probate filings are public, and anyone can usually see the case file through the local court, online in some counties and in person in others. Most teams buy lists from a data vendor or pull them from county records. Either way:
+Import with the case details : case number, county, filing date, decedent, representative's name and mailing address, and the property address.
+Match duplicates on the way in , by case number and property address, before anyone sends a letter.
+Tag each list as a campaign , one per county and month, so cost per contract by list is a report, not a guess.
+Find phone numbers for the representative , not the decedent, if your process includes calls.
+Which reports matter?
+Probate pipeline by stage and case milestone : letters issued or not, creditor period over or not.
+Case dates coming up in the next 30 days , so every milestone gets a call.
+Cost per contract by probate list , by county and month.
+Letter to conversation to contract , to see where probate deals drop out.
+Probate deals by age , judged against your own history rather than your two-week wholesale deals.
+Questions
+How do you track probate leads in a CRM?
+Link each property to the estate: the decedent, the personal representative, the attorney, the heirs and the case details, including county, case number, filing date and letters date. Keep probate deals in their own pipeline with follow-up tied to the case dates.
+Who can sell a house in probate?
+The personal representative, called the executor when named in a will or the administrator when appointed by the court, once the court issues letters testamentary or letters of administration. Many states also require court approval or confirmation of the sale.
+How long does a probate sale take?
+LegalZoom puts typical probate real estate sales at six to twelve months from the probate filing to closing, with simple estates sometimes closing in three or four months and complex ones taking eighteen months or more.
+Are probate records public?
+Generally yes. Once a case is filed, the will, petition and inventory are usually part of the public record, available through the local probate court, and some counties put them online.
+Should probate leads have their own pipeline in Salesforce?
+Yes. Probate deals wait on the court for months, so they trip normal aging alarms and need different stages, dates and follow-up. A separate record type or sales process keeps them visible without false alarms.
+When should you first contact a probate lead?
+There's no rule that fits every family. I'd start with a letter to the personal representative rather than a call and give the family time. Whatever you decide, set it as a rule in Salesforce so every rep follows it.
+How do you handle several heirs on one property?
+Link each heir to the deal with a contact role, track whether they agree, and keep the personal representative as the main contact, since they act for the estate.
+Related guides
+Sources
+Checked in October 2026. Probate rules vary by state and change, so check with a probate attorney before you rely on any timing or requirement. Nothing here is legal advice.
+LegalZoom: How long does probate take? . Typical durations, the steps, letters testamentary and creditor claim periods
+LegalZoom: How to buy and sell probate property . Who can sell, court approval and confirmation, overbids, and six to twelve months from filing to closing
+Trust & Will: Are probate records public? . What probate records contain and how the public can see them
+Salesforce Developers: Schedule your path in Salesforce Flow . Tasks scheduled from a date field that move when the date changes
+Working probate leads in Salesforce?
+I build Salesforce for investor teams. For probate, that means case records, contact roles, a pipeline that matches the court's timeline and follow-up driven by the case dates. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit (USD 1,500) if you're already on Salesforce.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Wholesaling CRM Questions, Answered Plainly | Amr Magdy
@@ -3600,7 +4005,7 @@ Re-engaged | The system, when a dead or quiet seller responds again | Counting c
 If "seller says" disagrees with the original source a lot for one channel, look at that channel's tracking. A mail campaign that sellers keep mentioning but that never shows up as a source usually has a number that isn't mapped.
 What about sellers who come back months later?
 Keep the original source locked, set the latest source to whatever brought them back, and flag the record as re-engaged. Then decide how long "quiet" has to be before a comeback counts as re-engaged; six months is a reasonable place to start, but pick a number with your team and write it down.
-This lets you answer two different questions without arguing: which campaigns start relationships, and which ones bring old sellers back. Follow-up and re-engagement campaigns often look like they produce nothing under a strict first-response rule. The re-engaged flag is how they get seen.
+This lets you answer two different questions without arguing: which campaigns start relationships, and which ones bring old sellers back. Follow-up and re-engagement campaigns often look like they produce nothing under a strict first-response rule. The re-engaged flag is how they get seen. If you run reactivation campaigns on purpose, the dead seller leads guide covers the campaign side.
 Returning sellers also need to land with the right person. See duplicate sellers in Salesforce for how matching and routing handle that.
 The reports that matter
 Cost per appointment and cost per contract by campaign , using the original source. This is the budget report.
@@ -3751,7 +4156,7 @@ Every statistic was read on the linked page in October 2026. Where the original 
 Cite this page
 Amr Magdy, “Speed to Lead & Follow-Up Statistics for Real Estate Investors (2026),” amrmagdy.com, October 2026, https://amrmagdy.com/real-estate-lead-response-statistics.html
 Related
-Real estate CRM guide · Speed to lead guide · Missed call cost calculator · Follow-up cadence builder · Cold caller handoff checklist · All free tools
+Real estate CRM guide · Speed to lead guide · Missed call cost calculator · Follow-up cadence builder · Cold caller handoff checklist · Reactivating dead seller leads · All free tools
 Want your own speed-to-lead number?
 I build Salesforce for real estate investors and wholesalers with lead response time, follow-up attempts and missed calls measured automatically. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
@@ -3846,6 +4251,8 @@ Texting sellers from Salesforce
 10DLC registration, CTIA consent guidance, opt-outs and the tools that log texts.
 Every lead source into Salesforce
 Web-to-Lead, Facebook lead ads, Google Ads conversion import, CallRail and lists.
+Google Ads offline conversions
+Send appointments, contracts and closed deals from Salesforce back to Google Ads, now that the old import is gone.
 Transaction coordination in Salesforce
 Contract to close on one board: stages, dates, automatic tasks and a weekly TC scorecard.
 Salesforce admin: hire or retainer?
@@ -3862,6 +4269,16 @@ Pipeline dashboard in Salesforce
 The components, days in stage, the transaction pipeline and one dashboard per role.
 Missed-call alerts in Salesforce
 The Flow, who gets alerted, after-hours rules, text-back cautions and a daily check.
+Seller appointment no-shows
+Reminders timed to the appointment, an outcome on every one, and a show-rate report.
+Offer follow-up in Salesforce
+The fields, deadlines and daily list that keep every open offer alive until it's signed or dead.
+Reactivating dead seller leads
+Sort by dead reason, check consent, run it as a campaign and route the sellers who answer.
+Motivated seller lead scoring
+A simple points model, how to check it against closed deals, and when Einstein is worth it.
+Probate leads in Salesforce
+A separate record, court dates that drive the follow-up, and reports for a slow pipeline.
 Which campaign gets credit?
 A first-response rule, locked source fields and the reports for ROI by campaign.
 Duplicate sellers in Salesforce
@@ -3872,6 +4289,8 @@ Why your numbers don't match
 Ten causes, and a 20-minute check before you trust a dashboard.
 Wholesaling team roles
 Who owns what in the CRM, the handoffs where deals leak, and permissions by role.
+Stop reps exporting your seller list
+The permissions to remove, what you can see afterwards, and the day someone gives notice.
 Adding acquisitions reps
 11 things to set up in Salesforce before and after a new rep's first call.
 New market CRM checklist
@@ -3886,6 +4305,8 @@ Salesforce vs HubSpot
 Custom objects, automation, reporting and HubSpot's published prices.
 Podio's automation limit
 What counts, what happens at the cap, and five options for a wholesaling team.
+Salesforce vs Podio
+Limits, automation caps, reporting, permissions and cost for a wholesaling team.
 Wholesaling and acquisitions
 Underwrite offers, price your exits and see what each lead source really costs.
 New wholesaling laws: what your CRM has to track
@@ -3953,7 +4374,7 @@ Six short videos, one leak each, from the missed seller call to fall-outs in you
 Salesforce Health Check
 A 10-point scorecard for a real estate Salesforce org: speed to lead, adoption, automation and ROI.
 Guides
-Salesforce for real estate investors · Cost per lead, deal profitability and campaign ROI in Salesforce · Lead routing and speed to lead · 50+ real requests from an acquisition company · All articles
+Cost per lead, deal profitability and campaign ROI in Salesforce · Lead routing and speed to lead · 50+ real requests from an acquisition company · All articles
 Rather have it built into your CRM?
 Every tool here is something I build as live reporting in Salesforce for investors and wholesalers. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit (USD 1,500).
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
@@ -4210,7 +4631,7 @@ Salesforce Help: Einstein Activity Capture Standard
 Salesforce News: Agentforce 1 editions (June 2025)
 CTIA Messaging Principles and Best Practices (2023)
 Related
-Real estate CRM guide · Salesforce features · Integrations · Salesforce Einstein AI for real estate · Deal Leak Score
+Real estate CRM guide · Salesforce features · Integrations · Salesforce Einstein AI for real estate · Motivated seller lead scoring · Deal Leak Score
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want AI on a CRM you can trust?
 I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -4369,7 +4790,7 @@ Salesforce Help: Professional Edition allocations
 Salesforce Help: Enterprise Edition allocations
 Salesforce Help: Flow Approval Processes
 Related
-Real estate CRM guide · Salesforce features · Integrations · 5 automations every real estate team needs · Follow-up cadence builder
+Real estate CRM guide · Salesforce features · Integrations · 5 automations every real estate team needs · Follow-up cadence builder · Offer follow-up in Salesforce · Appointment reminders and no-shows
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want these automations built and tested?
 I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -4882,6 +5303,7 @@ Instead of a new lead going into round robin, the existing record is updated and
 The original owner gets a notification that their seller is back, with the new source.
 If the original owner has left, the seller goes to the queue with their history attached.
 Duplicate handling that keeps the history and notifies the original owner is part of the setup I run for a two-market home-buying company in Ohio.
+To bring quiet sellers back on purpose rather than waiting for them to call, see reactivating dead seller leads .
 Questions
 Why does Salesforce still let duplicate leads through?
 Usually because the matching rule doesn't fit seller data (it relies on name and company), the record came in a way duplicate rules don't cover (such as Quick Create, some conversions or records saved together in one import), or an edit didn't touch a field in the matching rule.
@@ -5422,7 +5844,7 @@ URL: https://amrmagdy.com/salesforce-for-real-estate-investors.html
 Salesforce for real estate investors and home-buying companies.
 Salesforce makes sense for an investor team when deals leak between steps nobody owns: missed calls, follow-ups that stop at touch two, offers made outside the system, and profit nobody ties back to the campaign that paid for the lead. This page shows how a home-buying operation maps into Salesforce, the ten builds that pay for themselves, what it really costs in 2026, and when you should not use it.
 Who this is for, and who it isn't
-I build and run Salesforce for US home-buying companies. For the last two years I have built and run the system behind a two-market home-buying company in Ohio. Everything on this page comes from that kind of work. I sell Salesforce work, so weigh my view with that in mind, and read the "not for you" list twice.
+I build and run Salesforce for US home-buying companies. For the last two years I have built and run the system behind a two-market home-buying company in Ohio, and for Pezon Properties, a property acquisition company in Pennsylvania, I built a campaign ROI dashboard and rebuilt their transaction coordination app. Everything on this page comes from that kind of work. I sell Salesforce work, so weigh my view with that in mind, and read the "not for you" list twice.
 Salesforce fits when
 You have about three or more people touching leads (acquisitions reps, a lead manager, dispositions, a transaction coordinator) and need to see who owns what.
 You market in more than one channel or market and want profit per campaign, not leads per campaign.
@@ -5449,6 +5871,11 @@ Dispositions | Buyer contacts + deal | Buy box: area, price band, type, rehab le
 Closing | Transaction | Title company, closing date, assignment fee or spread, actual profit | Transactions board; profit rolls back to the campaign
 The free CRM field kit has these fields as CSV files you can import into any CRM, Salesforce or not.
 The closing step has its own guide: transaction coordination in Salesforce . If nobody on the team owns the CRM after it's built, see hire an admin or use a retainer . Lending to investors instead of buying? See Salesforce for private and DSCR lenders .
+If you renovate or keep rentals
+Flips and rentals add two kinds of records to the chain above:
+Renovation: linked to the property, with the scope, the contractor, budget against actual spend and milestone dates, so an over-budget job shows up before the sale instead of after it.
+Partners and lenders: who put money into which deal and on what terms, with a scheduled report that sends each partner the status of their deals.
+A house you keep is a return on the marketing that found it, so count it in campaign ROI alongside assignment fees. The Kept-Deal Map shows how.
 The 10 builds that pay for themselves
 These are the automations I'd build first for a team of 3 to 30. Each one closes a leak a reader can name. None of them needs code.
 1. Missed-call alert
@@ -5562,8 +5989,12 @@ What happens to my data if I leave Salesforce?
 You can export your data as CSV files with the Data Export Service. Per Salesforce , weekly exports are available on Enterprise, Performance and Unlimited, and Professional-level orgs can export every 29 days. Data Loader can export larger sets where API access is included.
 Can AI answer seller calls or write follow-ups in Salesforce?
 Salesforce sells Agentforce for this ( Agentforce ). Pricing depends on how you use it and on your edition, so ask your Salesforce account manager for a quote. For most investor teams, the bigger win is fixing ownership and follow-up first; AI on top of a leaky process answers faster and still loses the deal.
+Do I need a developer to set up Salesforce for real estate investing?
+Not for most investor setups. Objects, fields, stages, automations built in Flow, and reports are point-and-click work. Code is usually only needed for an unusual integration, or a tool with no ready-made connector.
+Can I move from Podio or REsimpli to Salesforce without losing my leads?
+Yes, if you plan it: map every field first, keep lead source and created date on every record, merge duplicate sellers, and test 50 records before moving the rest. Podio's Excel export leaves out comments, files and tasks, so plan for those separately.
 Related
-50 questions about Salesforce for investors · Investor CRM audit checklist · Moving from Podio, REsimpli or GoHighLevel to Salesforce · 12 Salesforce features investor orgs don't use · Moving off Podio · Wholesaling CRM checklist · Lead routing in Salesforce · RingCentral and Salesforce · Questions from wholesalers
+50 questions about Salesforce for investors · Investor CRM audit checklist · Moving from Podio, REsimpli or GoHighLevel to Salesforce · 12 Salesforce features investor orgs don't use · Moving off Podio · Salesforce vs Podio · Wholesaling CRM checklist · Lead routing in Salesforce · Offer follow-up in Salesforce · Reactivating dead seller leads · Motivated seller lead scoring · Google Ads offline conversions · RingCentral and Salesforce · Questions from wholesalers
 Edition limits checked on salesforce.com and help.salesforce.com on October 20, 2026. Other vendors' prices are their own published prices on that date and can change. Salesforce, Podio, REsimpli and GoHighLevel are trademarks of their owners; this page is independent. Nothing here is legal advice.
 Want to know if Salesforce fits your team?
 Tell me your team size, your current tool and the one number you can't get on Monday. On a free 30-minute call I'll tell you honestly whether to switch, fix what you have, or stay put.
@@ -5719,7 +6150,7 @@ Zapier: common problems with Salesforce
 Salesforce News: AppExchange in the IDC MarketScape (Feb 2026)
 Salesforce: MuleSoft 2025 Connectivity Benchmark
 Related
-Salesforce features for investors · DocuSign · QuickBooks · Dialers · Texting · Lead sources · Real estate CRM guide
+Salesforce features for investors · DocuSign · QuickBooks · Dialers · Texting · Lead sources · Google Ads offline conversions · Real estate CRM guide
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want your tools connected to one source of truth?
 I connect Salesforce to the phone, text, e-signature, accounting and lead-source tools real estate investors already use, with every call, contract and fee on the right record. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -5746,6 +6177,7 @@ Lists (PropStream, county) | Spreadsheet → Data Import Wizard or Data Loader |
 Sources: Web-to-Lead · Facebook import · Lead Capture requirements · Meta · Google Ads · setup · CallRail · CallRail fields · PropStream
 Why connect Google Ads to Salesforce?
 Without it, Google Ads optimizes toward form fills, and a tire-kicker counts the same as a motivated seller. With Conversion Import, you send “Under Contract” or “Closed” stage changes back as conversions, so bidding favors the keywords that produce contracts. Google’s requirements: the API enabled, a 255-character GCLID field on Lead and Opportunity mapped on conversion, field history tracking on lead status or opportunity stage, auto-tagging, and a hidden GCLID field on your form. Clicks older than 90 days aren’t imported, and the legacy integration lost support on May 31, 2025. source · legacy
+Which stages to send, how to count phone calls and how to tell it’s working are in the Google Ads offline conversions guide .
 What rules keep lead sources clean?
 One picklist, set automatically
 Lead source is a picklist, set by the form, the integration or the import, never typed. Free text breaks every report.
@@ -5776,7 +6208,7 @@ CallRail: Salesforce integration
 CallRail: fields sent to Salesforce
 PropStream: export a lead list
 Related
-Which campaign gets credit? · Duplicate sellers in Salesforce · All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Cost per deal calculator · Kept deal map · Driving for dollars
+Which campaign gets credit? · Google Ads offline conversions · Duplicate sellers in Salesforce · All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Cost per deal calculator · Kept deal map · Driving for dollars
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want every lead tagged from click to close?
 I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -5910,7 +6342,7 @@ It usually starts to pay off at around 10 people, or sooner if you run several m
 Is Salesforce overkill for a solo wholesaler?
 Usually, yes. A solo wholesaler or a team of two or three is better off with an investor CRM that bundles the dialer, texting and lists and needs no admin. Come back to Salesforce when you have reps, a second market or questions your tool can't answer.
 Is Salesforce better than an investor CRM like REsimpli or Podio?
-It depends on your size and how much control you want. Investor CRMs are faster to start and come with investor features built in. Salesforce takes more setup but lets you build your exact process, connect any tool and report on anything. I compare them in Salesforce vs investor CRMs .
+It depends on your size and how much control you want. Investor CRMs are faster to start and come with investor features built in. Salesforce takes more setup but lets you build your exact process, connect any tool and report on anything. I compare them in Salesforce vs investor CRMs and Salesforce vs Podio .
 Do I need a special real estate version of Salesforce?
 No. Most investor teams run on standard Salesforce with custom fields and objects for properties, offers and transactions. Some use an investor CRM built on Salesforce, which gives them a ready-made setup on the same platform. Either way, how it's set up matters more than which package you start from.
 Which Salesforce edition does an investor team need?
@@ -5997,7 +6429,7 @@ Freeze first, deactivate later. Freezing blocks login without changing anything 
 How do we set up a new acquisitions rep in Salesforce?
 Before day one: a user with a sales profile and a permission set, the dialer and texting connected to their own user, lead assignment that starts on their first calling day, three list views and approved templates. In week one, add a speed-to-lead alert that escalates to the manager. See adding acquisitions reps .
 Can VAs use Salesforce safely?
-Yes. Give them a restricted profile plus a permission set with only what they need, hide sensitive fields, and leave the export permission off so only owners can export your lead list. See VA access in Salesforce .
+Yes. Give them a restricted profile plus a permission set with only what they need, hide sensitive fields, and leave the export permission off so only owners can export your lead list. See VA access in Salesforce and stopping reps from exporting your seller list .
 Compliance
 Can Salesforce help with TCPA and Do Not Call compliance?
 It can help you keep the records, but it doesn't make you compliant on its own. Track consent, opt-outs and Do Not Call status on the seller record, and stop automations when a seller opts out. TCPA damages are $500 per violation, up to $1,500 if willful, so have a lawyer review your process. This isn't legal advice.
@@ -6080,7 +6512,7 @@ Salesforce Help: reporting snapshots
 Salesforce Help: field history tracking
 Validity: The State of CRM Data Management in 2025
 Related
-Why Salesforce numbers don't match · Pipeline dashboard guide · Real estate CRM guide · Salesforce features · Integrations · 15 automation recipes · The Monday 5
+Why Salesforce numbers don't match · Pipeline dashboard guide · Offer follow-up in Salesforce · Real estate CRM guide · Salesforce features · Integrations · 15 automation recipes · The Monday 5
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want these reports built on clean data?
 I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -6137,7 +6569,7 @@ SMS-Magic
 Twilio: Twilio for Salesforce
 BatchData: skip tracing API
 Related
-All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Dialers in Salesforce · Seller follow-up cadence
+All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Dialers in Salesforce · Seller follow-up cadence · Reactivating dead seller leads · Appointment reminders and no-shows
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want texting that’s logged and compliant by design?
 I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -6246,6 +6678,7 @@ Remove the export permission from caller and VA profiles; only owners export.
 Give VAs list views, not report builder access, if they don’t need it.
 Track changes to lead source, phone and owner with field history.
 Keep integration users separate from people, so a departing VA can’t take an API connection with them. API access itself is included in Enterprise and an add-on for Professional. source
+The other ways data can leave, and what you can see after the fact, are in stopping reps from exporting your seller list .
 Questions
 How do I give a VA limited access in Salesforce?
 Give them a restricted profile plus a permission set with only what they need, hide sensitive fields with field-level security, and use queues and sharing rules so they see only their leads.
@@ -6263,7 +6696,7 @@ Salesforce Help: MFA enforcement
 Salesforce Help: field history tracking
 Salesforce Developers: API supported editions
 Related
-Adding acquisitions reps · When your Salesforce admin leaves · Real estate CRM guide · Salesforce features · Integrations · Cold caller handoff checklist · Team capacity calculator
+Stop reps exporting your seller list · Adding acquisitions reps · When your Salesforce admin leaves · Real estate CRM guide · Salesforce features · Integrations · Cold caller handoff checklist · Team capacity calculator
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want your team’s access set up right?
 I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -6324,7 +6757,7 @@ Salesforce Help: Sales Dialer
 Salesforce Developers: API supported editions
 BatchLeads: pricing
 Related
-Real estate CRM guide · Salesforce vs investor CRMs · Salesforce edition picker · Best CRM for wholesalers · Salesforce vs REsimpli
+Real estate CRM guide · Salesforce vs investor CRMs · Salesforce edition picker · Best CRM for wholesalers · Salesforce vs REsimpli · Salesforce vs Podio
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Running GoHighLevel and feeling the limits?
 Tell me what you can’t see or do today and I’ll tell you whether Salesforce fixes it or whether a better GoHighLevel setup will. Start with a free 30-minute call.
@@ -6443,11 +6876,97 @@ Write your stages from new lead to closed on paper, list the five reports you wa
 Watch the short versions
 Five short videos cover each section of this page: how far Salesforce goes .
 Related
-Salesforce vs HubSpot · Best CRM for wholesalers (2026) · Salesforce vs REsimpli · Salesforce vs GoHighLevel · Edition picker tool · Salesforce features for investors · Which Salesforce edition · Do I need a CRM yet? · Moving off Podio · Wholesaling CRM checklist · Salesforce vs Follow Up Boss · Salesforce for real estate investors · All free tools
+Salesforce vs HubSpot · Salesforce vs Podio · Best CRM for wholesalers (2026) · Salesforce vs REsimpli · Salesforce vs GoHighLevel · Edition picker tool · Salesforce features for investors · Which Salesforce edition · Do I need a CRM yet? · Moving off Podio · Wholesaling CRM checklist · Salesforce vs Follow Up Boss · Salesforce for real estate investors · All free tools
 Last updated October 2026. Salesforce, Podio and REsimpli are trademarks of their owners; this page is independent. I build Salesforce for real estate investors, so I'm not neutral, and I've tried to keep every claim to what the vendors publish.
 Not sure which side you're on?
 I build Salesforce for real estate investors and wholesalers. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500), which shows what your current CRM is costing you in lost deals.
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Salesforce vs Podio for Wholesalers (2026)
+URL: https://amrmagdy.com/salesforce-vs-podio.html
+
+Salesforce vs Podio for wholesalers. Where each one wins in 2026
+Podio has been the default first CRM for wholesalers for years: cheap, flexible and full of workspaces other investors built. Salesforce is what many of those teams look at once they have several reps, a second market or an owner who wants real numbers. This page compares the two honestly, with Podio's own published limits linked, and says when staying on Podio is the right call. I build on Salesforce, so weigh my view with that in mind.
+Stay on Podio if you're a small team, your workspace works and you're under its automation allowance. Look at Salesforce when you have several reps or markets, need reports like cost per contract by source that you can't get from Podio, need per-field and per-record permissions, or keep running into Podio's limits, such as 25,000 Workflow Automation actions a month (since September 2026), 100 fields per app and 20,000 rows per Excel export. Salesforce costs more to set up and run, so a move only pays when one of those is costing you deals.
+Salesforce and Podio side by side
+ | Podio | Salesforce
+Owned by | Progress Software | Salesforce
+How it's built | Workspaces and apps you or a template vendor design, with items, relationships and calculation fields | Objects, fields and automations configured around your process: standard leads and opportunities plus your own records for properties, offers and buyers
+Fields | Up to 100 fields per app | Up to 500 custom fields per object on Enterprise Edition, 800 on Unlimited; 25 on Starter
+Automation | Podio Workflow Automation, the tool many teams still call Globiflow. 25,000 actions a month included since September 1, 2026; add-ons on Premium only | Flow. Limits apply per transaction, plus daily allowances for scheduled jobs that grow with your licenses; no monthly action count
+Reporting | Views with filters and groupings, and up to 50 reports per app | Reports across related records, dashboards, scheduled reports and stage history
+Permissions | Workspace roles (light, regular and admin) and sharing single items with guests | Profiles, permission sets, field-level security and sharing rules
+Data in and out | Excel import and export, 20,000 rows per file | Import wizard and Data Loader; full API on Enterprise and up, an add-on on Professional
+Integrations | Podio API: 250 resource-intensive calls an hour and 1,000 others | Salesforce API and AppExchange apps for dialers, texting and e-signature
+Price | Published per seat, plus usage add-ons | List prices are published, but what you pay is set in a quote from Salesforce
+I don't list Salesforce prices, because what businesses actually pay depends on the quote. Podio's prices are on its own site.
+Where Podio wins
+Cost to start. A small team can run Podio for a fraction of what Salesforce costs once you count licenses and setup.
+Anyone can build in it. An owner or an ops person can add an app or a field in an afternoon, and a lot of wholesaling workspaces are available to copy.
+Your team already knows it. Many wholesaling VAs and reps have worked in Podio before.
+It's enough for a small, simple operation. One market, a few people and a workspace that works is a good reason to stay.
+Where Salesforce wins
+Structure that holds up as you grow. Leads, deals, properties, offers, buyers and assignments each have their own record and rules, so a second market or a rental side doesn't mean starting over.
+Reports owners actually use. Cost per contract by source, days from offer to contract, offers over MAO by rep, all from the same data the team works in. See the Monday 5 for the ones I'd start with.
+Permissions. VAs see only their queue, each market sees its own deals, and financial fields stay hidden from the people who don't need them. See Salesforce access for VAs and cold callers .
+Automation without a monthly meter. Flow has limits per transaction and daily allowances for scheduled jobs that grow with your licenses, but no monthly count of actions to top up. The record-triggered automations that create tasks and stop cadences run each time a record changes, without counting against a monthly meter.
+History. Opportunity stage changes are tracked out of the box, and field history tracking covers up to 20 fields per object, so you can see who changed what and when.
+Which Podio limits matter for wholesalers?
+From Podio's own documentation:
+Limit | Podio's number | Where wholesalers hit it
+Workflow Automation actions | 25,000 a month included since September 1, 2026 | Nightly loops over every open lead and buyer list syncs. More in Podio's new automation limit
+Fields per app | 100 | Lead apps that grew a field for every question anyone ever asked
+Items per app | 500,000 | Teams that import cold-calling and texting lists into the same app as leads
+Excel import and export | 20,000 rows per file | Any export of the full lead list, which has to go in filtered batches
+Reports per app | 50 | Owners who want a report for every source, rep and market
+Items in a relationship field | 250 | A buyer linked to every deal they've bought
+API calls | 250 resource-intensive and 1,000 other calls an hour | Zapier, Make and dialer syncs during busy hours
+Podio also says that many fields and calculation fields slow an app down, which matches what a lot of teams feel after a few years of adding to the same workspace.
+The cost question, honestly
+Salesforce is not the cheap option. You pay for licenses, setup and someone to look after it, plus the dialer, texting and data tools you connect. Podio's per-seat price is low and public.
+The move pays when something you can't do in Podio is costing you deals: leads that slip because an automation hit its cap, marketing money spent without knowing cost per contract by source, or a second market you can't keep separate. If none of that is true, stay. To see which Salesforce edition you'd be quoted for, use the edition picker .
+How do you decide?
+Your situation | What I'd do
+A few people, one market, Podio works and you're under the cap | Stay on Podio
+Over the automation cap because of nightly loops or syncs | Redesign those flows first. A move isn't the only fix
+Ten or more people, several markets, and nobody can tell you cost per contract by source | Plan a move
+You need VAs, markets or entities kept apart and can't do it in workspaces | Plan a move
+The person who built your Podio left and nobody understands it | Either rebuild in Podio or move. A mess moves with you if you copy it, so rebuild either way
+What does moving from Podio involve?
+Mostly data decisions: what history you keep, how lead source carries through to every closed deal, and what Podio's Excel export leaves out (files, comments, tasks and activity aren't in it). Run a 50-record test before you move the rest, and keep Podio read-only for a while after. The details are in two guides:
+Moving off Podio: a migration checklist , with three options compared, including staying.
+Podio, REsimpli or GoHighLevel to Salesforce , with the field map and a 30-60-90 day plan.
+Questions
+Is Salesforce better than Podio for wholesalers?
+For a small team with a simple process, Podio is usually enough and much cheaper. Salesforce is better when you have several reps or markets, need reports like cost per contract by source, need field- and record-level permissions, or keep hitting Podio's limits.
+What are Podio's limits?
+Podio's documentation lists 100 fields per app, 500,000 items per app, 20,000 rows per Excel import or export, 50 reports per app and API limits of 250 resource-intensive and 1,000 other calls an hour. Since September 1, 2026, Workflow Automation includes 25,000 actions a month.
+Who owns Podio?
+Podio is owned by Progress Software, which publishes its documentation and the 2026 hybrid pricing changes.
+Can Salesforce do what Globiflow does?
+Yes. Salesforce Flow handles the same kinds of jobs as Podio Workflow Automation, the tool formerly called Globiflow: creating tasks, updating records, sending texts through a connected app and running on a schedule, without a monthly action allowance.
+Is Podio cheaper than Salesforce?
+Yes, almost always, especially for small teams. Salesforce adds licenses, setup and ongoing admin. It's worth it only when something Podio can't do is costing you deals.
+How long does it take to move from Podio to Salesforce?
+It depends on the number of apps, records and integrations. The slow part is usually deciding what to keep and cleaning duplicates. The switch guide on this site lays out a 30-60-90 day plan.
+Can I run Podio and Salesforce together?
+For a short time during a move, yes, so no lead is lost. Long term, two CRMs means two versions of the truth, so pick one as the system of record.
+Related guides
+Sources
+Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.
+Progress Podio: Podio hybrid pricing FAQ . The 25,000-action Workflow Automation base, add-on rules, the September 1, 2026 start and API limits
+Progress Podio: Limitations on use . Fields, items, reports, relationship fields, Excel import and export, and app performance
+Progress Podio: Member roles in workspaces . Light, regular and admin roles, and guests on single items
+Progress Podio: Views, filters and reports . What views, filters and reports do
+Vantage Point: Salesforce custom object and field limits . 500 custom fields per object on Enterprise and 800 on Unlimited, citing Salesforce Help
+Salesforce Help: Starter allocations . Starter limits, including 25 custom fields per object
+Salesforce Developers: API supported editions . API access by edition
+Salesforce Ben: Salesforce Flow limits . Per-transaction limits on Flow
+Salesforce Ben: Field history tracking . 20 tracked fields per object
+Outgrowing Podio?
+I move wholesaling teams from Podio to Salesforce: your fields and history mapped, the automations that matter rebuilt, both systems side by side for a short time so no lead is lost, and your team trained by role. Send me your team size and setup and I'll tell you which I'd pick, even if it's Podio. The call is free.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -6507,7 +7026,7 @@ Salesforce Help: Starter allocations
 Salesforce Developers: API supported editions
 BatchLeads: pricing
 Related
-Real estate CRM guide · Salesforce vs investor CRMs · Salesforce edition picker · Best CRM for wholesalers · Salesforce vs GoHighLevel
+Real estate CRM guide · Salesforce vs investor CRMs · Salesforce edition picker · Best CRM for wholesalers · Salesforce vs GoHighLevel · Salesforce vs Podio
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Trying to decide?
 Send me your team size and tools and I’ll tell you which one I’d pick, even if it’s REsimpli. Start with a free 30-minute call.
@@ -6556,6 +7075,78 @@ A recorded call where I go through every finding with you and your team, answer 
 If the report doesn’t give you at least five specific, fixable issues worth more than the fee, you get the fee back.
 
 ---
+## Seller Appointment No-Shows and Reminders in Salesforce
+URL: https://amrmagdy.com/seller-appointment-no-shows-salesforce.html
+
+Fewer wasted drives. Seller appointment reminders and no-shows in Salesforce
+An acquisitions rep who drives across town to a house where nobody answers loses half a morning, and the seller who didn't show is often talking to someone else. Most teams can't say how often it happens, because the appointment just quietly disappears from the calendar. This page is for owners and acquisitions managers who want fewer no-shows and an honest number for the ones that still happen.
+Treat every set appointment as something the system keeps track of. Confirm it in writing the moment it's booked, remind the seller the day before and a couple of hours before, and have the rep text on the way. Record an outcome on every appointment: held, no-show, rescheduled or canceled. A no-show then creates a reschedule task on its own, and a weekly report shows the show rate by rep, source and day, which is where the real fixes come from.
+What does a no-show actually cost?
+The rep's time. The drive, the prep and the comps pulled for a house you never saw.
+The slot. That time could have gone to a seller who would have been home.
+Often the deal. A seller who skips the appointment may have signed with another buyer, or got cold feet that one more call would have settled.
+The truth in your numbers. If no-shows aren't recorded, "appointments set" and "appointments held" look the same in reports. Lead managers look better than they are, and nobody can see where the leak is.
+Where should appointments live in Salesforce?
+In two places, kept in step:
+A calendar event linked to the lead or deal, synced to the rep's Google or Outlook calendar, so the appointment exists where the rep actually looks.
+A few fields on the lead or deal: appointment date and time, in person or virtual, who set it, and the outcome. Fields make the reports simple and give your reminders a date to count from.
+If sellers book themselves online, Calendly's Salesforce integration can create the lead and the event and track cancellations and reschedules. Calendly says it needs Salesforce Enterprise Edition or higher.
+A map helps more than you'd think. The org I run has an appointment map inside Salesforce, so a rep can see the day's appointments and the leads near them, and plan the route.
+How should you confirm and remind?
+When | What | Sent by
+Right after booking | Confirmation with the day, time, address and the rep's name | Salesforce, automatically
+The day before | Reminder that asks for a quick reply to confirm | Salesforce, automatically
+A couple of hours before | Short reminder | Salesforce, automatically
+On the way | "Leaving now, see you at 2" | The rep, personally
+The automatic ones run from a record-triggered Flow with scheduled paths counted from the appointment date and time, sent through your texting tool. When the appointment moves, the scheduled reminders move with it, so a rescheduled seller doesn't get a reminder for the old time.
+Route every reply to the rep. "Can't make it" should create a reschedule task right away, not sit in an inbox.
+Stop on opt-out. Reminders a seller expects are different from marketing, but the opt-out rules still apply. Check your setup with whoever advises you on the TCPA. Not legal advice.
+Keep the rep's own text. The automatic messages make sure nobody forgets. The personal one is what makes a seller feel bad about not being there.
+Record an outcome on every appointment
+One required field, filled in after the appointment time passes:
+Held
+No-show
+Rescheduled
+Canceled by the seller
+Canceled by us
+Then two rules. The morning after any appointment with no outcome, the rep gets a task to record it, and the manager sees the list. And a held appointment needs a next step before it can be saved: an offer, a follow-up date or a dead reason. That's how appointments stop vanishing between the calendar and the deal. The next step after "held" is usually an offer, and the offer follow-up guide picks up from there.
+What should happen after a no-show?
+From the driveway: the rep calls and texts before leaving. "I'm outside" often finds a seller who is ten minutes away.
+Same day: marking the no-show creates a reschedule task due today and starts a short follow-up of two or three touches offering a new time. It stops when the seller replies.
+After a second no-show: move the seller to a longer follow-up cadence rather than blocking more calendar time.
+When you learn why, record it: forgot, changed their mind, family disagreed, sold to someone else. A month of reasons tells you whether the fix is reminders, qualifying or speed.
+What about virtual appointments?
+Many teams make offers by phone or video instead of at the house. They need the same tracking: the reminder carries the link or the number to call, and the outcome is recorded the same way. Keep in-person and virtual separate in your reports, because they show up and close at different rates. The org I run tracks on-site and virtual offers separately for exactly that reason.
+The reports that matter
+Show rate , held divided by held plus no-shows, by who set the appointment, by lead source, by day and time, and by how many days ahead it was booked. If appointments booked far ahead no-show more often, book sooner.
+Appointments with no outcome. It should be empty.
+Held appointments with no next step. Also empty. If it isn't, offers are leaking.
+Set versus held, by lead manager. If you pay on appointments, pay on held ones.
+Cost per held appointment by source , next to cost per contract. For PPC, that's also the number worth sending back to Google Ads .
+To see whether your team has room for more appointments at all, try the acquisitions capacity calculator .
+Questions
+How do you reduce no-shows for seller appointments?
+Confirm in writing as soon as the appointment is booked, send reminders the day before and a couple of hours before, have the rep text on the way, and book as soon as the seller can meet. Then track the show rate by rep and source to find what else needs fixing.
+Can Salesforce send appointment reminder texts?
+Yes, through a texting app connected to Salesforce. A record-triggered Flow with scheduled paths can send reminders a set time before the appointment, and the reminders move automatically if the appointment is rescheduled.
+How do I track no-shows in Salesforce?
+Add a required outcome field for each appointment, with values like held, no-show, rescheduled and canceled, and create a task the morning after any appointment that has no outcome yet. Report on held divided by held plus no-shows.
+What is a good show rate for seller appointments?
+There's no reliable public benchmark for investor teams. Measure your own by rep, source and day, and work on the biggest gaps; the trend matters more than any outside number.
+Does Calendly work with Salesforce?
+Yes. Calendly's Salesforce integration can create leads and events and track cancellations and reschedules. Calendly says it requires Salesforce Enterprise Edition or higher.
+What should a rep do when a seller doesn't show?
+Call and text from the driveway before leaving, then let Salesforce create a same-day reschedule task and a short follow-up offering a new time. After a second no-show, move the seller to a longer follow-up cadence.
+Related guides
+Sources
+Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.
+Salesforce Developers: Schedule your path in Salesforce Flow . Reminders a day and an hour before an appointment, and how scheduled actions follow a changed appointment time
+Calendly Help: How to integrate Calendly with Salesforce . Leads and events by default, canceled and rescheduled events, and the Enterprise Edition requirement
+Want to know how many appointments never turn into offers?
+The fixed-price CRM Revenue Audit (USD 1,500) finds appointments with no next step, offers with no activity and leads owned by someone who left, with what they're likely costing you, a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
 ## Seller Lead Follow-Up Cadence Builder for Investors (Free)
 URL: https://amrmagdy.com/seller-follow-up-cadence.html
 
@@ -6584,7 +7175,7 @@ Rules on texts and calls to consumers vary by country and US state, and several 
 How do I load the plan into my CRM?
 Download the CSV and import it as tasks, or create the same steps as an automated cadence in your CRM. Most CRMs, including Salesforce, can create the next task automatically when the last one is completed.
 Related free tools
-15 automation recipes · Speed to lead & follow-up statistics · Speed to lead guide · Missed seller call cost · Acquisitions team capacity · CRM field kit · All free tools
+15 automation recipes · Speed to lead & follow-up statistics · Speed to lead guide · Missed seller call cost · Acquisitions team capacity · CRM field kit · Offer follow-up in Salesforce · Reactivating dead seller leads · All free tools
 Last updated October 2026. A planning template, not legal advice. Nothing you enter leaves your browser.
 Want the next task created automatically?
 I build Salesforce for real estate investors and wholesalers: required next touch dates, cadences that restart when a lead's temperature changes, dead-lead reasons with revisit dates, and a Monday report of leads with no next step. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -6631,11 +7222,92 @@ Add two date-time fields to the lead: when the lead came in and when the first r
 Why do missed calls matter so much?
 A missed inbound call is a seller who already chose to call you. If nobody calls back fast, they talk to the next investor on their list, and the lead never shows up in your CRM at all, so your reports cannot see the loss.
 Related free tools
-Missed-call alerts in Salesforce · Lead sources into Salesforce · Speed to lead & follow-up statistics · Cold caller handoff checklist · Missed seller call cost · Acquisitions team capacity · Deal Leak Score · The Monday 5 · Follow-up cadence builder · All free tools
+Missed-call alerts in Salesforce · Motivated seller lead scoring · Seller appointment no-shows · Lead sources into Salesforce · Speed to lead & follow-up statistics · Cold caller handoff checklist · Missed seller call cost · Acquisitions team capacity · Deal Leak Score · The Monday 5 · Follow-up cadence builder · All free tools
 Last updated October 2026.
 Want missed calls and speed to lead tracked automatically?
 I build Salesforce for real estate investors and wholesalers: missed-call tasks, routing to the next available rep, escalation and a Monday report. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Stop Reps Exporting Your Seller List from Salesforce
+URL: https://amrmagdy.com/stop-reps-exporting-leads-salesforce.html
+
+Your seller list is the business. Stopping reps from exporting it in Salesforce
+Every owner who has watched a rep leave for a competitor, or start their own wholesaling company, has wondered what walked out the door with them. Your seller list, with years of conversations, numbers and reasons to sell, is one of the most valuable things the business owns. This page is for owners and ops managers who want to know what a rep can actually take out of Salesforce, what to switch off, and what to do when someone gives notice.
+Turn off Export Reports for everyone who doesn't need it, keep API Enabled, Weekly Data Export, View All Data and Modify All Data for admins, and set sharing so reps see their own leads and their market's queue rather than every seller you've ever had. Add login hours or IP ranges if your team works set hours or from an office. Know the limits: nothing stops a screenshot, and seeing who exported what needs the paid Event Monitoring add-on. When a rep gives notice, reassign their records and freeze their user the same day.
+How can data leave Salesforce?
+Route | What controls it | Notes
+Exporting a report, or its printable view | The Export Reports permission | The most common route, and the easiest to close
+Data Loader, spreadsheet add-ins and other tools that use the API | The API Enabled permission | Check what else depends on it before switching it off
+The weekly data export in Setup | The Weekly Data Export permission | A copy of everything. Admins only
+Records beyond their own | Sharing settings, and View All Data | The more a rep can see, the more they can copy
+Report subscriptions and scheduled emails | Report and subscription permissions | Results land in an inbox, possibly a personal one
+Contact sync to email and phone | Your email and calendar sync settings | Check whether contacts sync into reps' own accounts
+Your dialer and texting tools | Those tools' own settings | Many keep their own copy of your contacts
+Screenshots and copying from the screen | Nothing | Limiting what each rep can see is the only defense
+No setting makes leaking impossible. The goal is to close the easy routes, make the hard ones slow and visible, and keep what each person can see to what they need.
+Which permissions should you remove?
+From Salesforce's own permission descriptions:
+Export Reports "allows the user to use Export Details and Printable View to export reports." Take it off reps, callers and VAs. Keep it for the owner, the manager who runs reports and the admin.
+API Enabled "allows the user [to] execute API calls," which is what Data Loader and similar tools need. Remove it from people who don't need it, but test first: some phone, texting and email tools connect as each user and stop working without it.
+Weekly Data Export lets a user run the weekly Data Export Service. Admins only.
+View All Data and Modify All Data let a user see or change everything in the org, regardless of sharing. Admins only, and as few of them as possible.
+The clean way to set this up is a rep profile with none of these, plus an "Export" permission set you assign to the two or three people who need it. Then the answer to "who can export?" is a list you can read in Setup. More on profiles and permission sets for each role in Salesforce access for VAs and cold callers .
+Setup Audit Trail shows changes made in Setup, including many profile and permission changes, so you can spot someone quietly given export rights. Salesforce keeps it for 180 days and shows the 20 most recent entries on screen; download it to see the rest.
+Limit what each rep can see
+This is the biggest lever, and the one most investor orgs skip. A rep who can see 40,000 sellers can photograph 40,000 sellers. A rep who sees their own 300 and their market's open queue can't.
+Set leads to private by default , then open up what each role needs with queues and sharing rules: their own records, their market's shared queue, and the deals they work on.
+Keep the archive for managers. Closed deals, dead leads and other markets don't need to be visible to every rep.
+Hide what callers don't need with field-level security: assignment fees, profit, buyer lists.
+There's a trade-off. Investor teams like shared queues because they're fast, and locking everything down slows the team. The middle path above keeps speed where it matters, on new and open leads, and protects the years of history behind them.
+Login hours and IP ranges
+Both are set per profile. Login IP ranges limit logins to addresses you list, such as your office or VPN, which works well for VA teams in one office. Login hours limit logins to set times, such as a calling shift. Neither suits reps who work from their phones at odd hours, so use them where they fit.
+Give every person their own login. Shared logins for a dialer, a texting tool or Salesforce itself mean you can't tell who did what, and you can't shut one person out without locking out everyone.
+Can you see who exported what?
+Partly, and the useful part costs extra.
+Free: login history shows who logged in, when and from where. Salesforce's free Event Monitoring tier covers a few event types, such as logins, logouts and total API usage, with one day of storage.
+Paid: report exports are a separate event type that needs the Event Monitoring add-on, also part of Salesforce Shield. It covers more than 70 event types, with up to 30 days of storage.
+Blocking: with that add-on, a Transaction Security policy can block a report export above a set number of rows and email someone when a user tries.
+For most teams of 10 to 50, the add-on isn't worth it. Removing the permission is the cheap control. It starts to make sense when you have many users, a history of leaks, or a lot of money riding on one list.
+What should you do when a rep gives notice?
+Decide on access first. Whether they work their notice period, and with what access, is the owner's call. Make it before anything else happens.
+Reassign their open leads, deals and tasks the same day , and take them out of round robin, queues and alerts. The steps are in the new rep and offboarding checklist .
+Freeze their user. Freezing blocks login right away; it doesn't free the license. Deactivate once nothing depends on the user, such as a report, an automation or an integration running under their name. The admin handover plan covers what to check.
+Close the side doors. Their dialer and texting logins, shared drives, the data tools where your lists live, and any password they knew.
+Look at recent activity: logins, and report exports if you have Event Monitoring.
+Keep the phone numbers. If sellers have been calling a rep's personal cell, they'll keep calling it after the rep leaves. Company numbers in your dialer stay with the company.
+What about agreements and the law?
+Permissions slow people down. Agreements give you recourse. Whether a confidentiality or non-solicitation agreement holds up depends on your state, so that's a conversation for an employment attorney. Not legal advice.
+One thing worth knowing: under the federal trade secrets law, information only counts as a trade secret if the owner took reasonable measures to keep it secret. Removing export rights, limiting who sees what and giving everyone their own login are part of showing that you did.
+Questions
+Can you stop users exporting data from Salesforce?
+You can close the main routes: remove Export Reports, API Enabled, Weekly Data Export, View All Data and Modify All Data from users who don't need them, and limit which records each user can see. Nothing stops screenshots, so limiting what each rep can see matters most.
+What does the Export Reports permission do in Salesforce?
+Salesforce describes it as allowing the user to use Export Details and Printable View to export reports. Without it, a user can still run reports they have access to but can't export them.
+Can Salesforce show who exported a report?
+Yes, with the paid Event Monitoring add-on (also part of Salesforce Shield), which logs report exports. The free tier only covers a few event types, such as logins, logouts and total API usage, kept for one day.
+Can I block large report exports in Salesforce?
+With Event Monitoring or Shield, a Transaction Security policy can block a report export above a set number of rows and send an email alert when someone tries.
+Should I freeze or deactivate a rep who quits?
+Freeze them right away, which blocks login, then reassign their records. Deactivate once nothing depends on the user, such as reports, automations or integrations running under their name.
+Will removing API access break my integrations?
+It can. Some phone, texting and email tools connect to Salesforce as each user and need API Enabled. Test with one user before removing it from everyone, and run integrations under a dedicated integration user where you can.
+Is my seller list a trade secret?
+It may be, but that's a question for an attorney. Under federal law, information only qualifies if the owner took reasonable measures to keep it secret, so access controls and permissions help make the case.
+Related guides
+Sources
+Checked in October 2026. Salesforce features and add-ons change, so check the linked page before you rely on a detail. Nothing here is legal advice.
+Salesforce Help: User profile permission descriptions . Export Reports, API Enabled, Weekly Data Export, View All Data and Modify All Data
+Trailhead: Learn the core concepts of Event Monitoring . Free event types with one day of storage; report exports and 70+ event types on the paid tier
+Trailhead: Create a Transaction Security policy . Blocking report exports above a row count, with an email alert
+Gearset: Salesforce Setup Audit Trail . What the audit trail records, how long Salesforce keeps it and the 20 entries shown on screen
+Salesforce Help: Login IP ranges . Restricting logins to listed addresses by profile
+Trailhead: Restrict login hours and IP ranges . Setting login hours on a profile
+Salesforce Help: Freeze or unfreeze user accounts . Freezing blocks login without freeing the license
+Ninth Circuit model jury instruction 23.16: trade secret defined (18 U.S.C. 1839(3)) . The reasonable-measures requirement
+Not sure who can export your list today?
+Tell me your team size and how your users are set up, and I'll tell you what I'd switch off first. The call is free. If you're already on Salesforce, the fixed-price CRM Revenue Audit (USD 1,500) finds leads still owned by people who left and lead sources anyone can change, along with your marketing ROI, follow-up and automations, with a fix plan and up to three quick fixes done.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -6724,7 +7396,7 @@ Pick one cutover day for new leads, move every web form and phone number on that
 What is the field mapping template?
 A free CSV with about 50 rows: typical fields in Podio, REsimpli, GoHighLevel, Follow Up Boss, CarrotCRM and spreadsheets, the Salesforce object and field each one maps to, and what usually breaks. Open it in Excel or Google Sheets and add a column for your own field names.
 Related
-Salesforce for real estate investors · Moving off Podio checklist · Migrating a real estate CRM to Salesforce · CRM field kit · Wholesaling CRM checklist · 12 Salesforce features investor orgs don't use
+Salesforce for real estate investors · Moving off Podio checklist · Salesforce vs Podio · Migrating a real estate CRM to Salesforce · CRM field kit · Wholesaling CRM checklist · 12 Salesforce features investor orgs don't use
 Vendor prices and export details checked on each vendor's own site on October 20, 2026. Podio, REsimpli, CarrotCRM, InvestorFuse, GoHighLevel, Follow Up Boss and Salesforce are trademarks of their owners; this page is independent. I build Salesforce for investors, so weigh my view with that in mind.
 Switch or stay?
 Send me your current tool, team size and the one thing it can't do. On a free 30-minute call I'll tell you whether to switch, rebuild, or stay, and what the move would involve.
@@ -6948,11 +7620,11 @@ The highest contract price that still leaves room for the end buyer's margin and
 Missed-call alert
 An automatic task and notification when a call to a marketing number goes unanswered, so someone calls back within minutes.
 Motivated seller
-An owner with a reason to sell quickly or as-is: inheritance, divorce, relocation, financial distress, a tired landlord, or a property in poor condition.
+An owner with a reason to sell quickly or as-is: inheritance, divorce, relocation, financial distress, a tired landlord, or a property in poor condition. In a CRM: See motivated seller lead scoring .
 Pay per lead (PPL)
 Buying seller leads from a vendor at a fixed price per lead, instead of paying for ads or mail directly.
 PPC (pay per click)
-Search or social ads where you pay per click, usually pointed at a seller landing page.
+Search or social ads where you pay per click, usually pointed at a seller landing page. In a CRM: Send contracts back to Google Ads so bidding learns from deals, not form fills. See Google Ads offline conversions .
 Seventy percent rule (70% rule)
 A flipper's rule of thumb: pay no more than 70% of ARV minus repairs. Markets vary, often 65–80%.
 Skip tracing
@@ -6980,7 +7652,7 @@ A cash buyer’s criteria: zip codes, price range, property types and condition.
 Custom object
 A record type you define yourself in Salesforce, such as Property, Offer or Buyer. Data model →
 Dead reason
-A required picklist explaining why a lead or deal died, so you can tell bad leads from bad follow-up. Field kit →
+A required picklist explaining why a lead or deal died, so you can tell bad leads from bad follow-up. Field kit → · Reactivating dead leads →
 Duplicate rule
 A rule that alerts or blocks when a new record matches an existing one, like the same seller from two lead sources. Data quality →
 Express written consent
@@ -6990,7 +7662,7 @@ Salesforce’s log of old value, new value, who and when for chosen fields, such
 Flow
 Salesforce’s automation tool. Runs when records change, on a schedule, or as guided screens. Automations →
 GCLID
-Google Click ID. Stored on the lead so Google Ads can learn which clicks became contracts. Lead sources →
+Google Click ID. Stored on the lead so Google Ads can learn which clicks became contracts. Lead sources → · Google Ads offline conversions →
 Integration user
 A dedicated Salesforce login for one integration, with only the permissions it needs. Before you connect →
 Junction object
@@ -7293,7 +7965,7 @@ Owner: the Monday 5, split by market.
 In the org I run, acquisitions works from a "My Day" board, underwriting has its own queue, transaction coordination has a board and a scorecard, and dispositions posts its weekly numbers to Slack. None of those are unusual features. They're ordinary Salesforce, set up around who does what.
 More on the last three in transaction coordination in Salesforce and dispositions in Salesforce .
 What should each role be allowed to do?
-Only owners and ops can export. Your lead and buyer lists are the business. Leave the export permission off everyone else.
+Only owners and ops can export. Your lead and buyer lists are the business. Leave the export permission off everyone else. The other ways data leaves, and what to do when someone gives notice, are in stopping reps from exporting your seller list .
 Only ops and admins can delete or merge. Reps fix mistakes by asking, not by deleting.
 Locked source fields. Nobody edits a deal's original source after it's set.
 VAs and cold callers see only what they work. A restricted profile, a permission set with only what they need, and queues that show them their leads. See VA access in Salesforce .
