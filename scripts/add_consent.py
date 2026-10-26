@@ -9,11 +9,12 @@ CONSENT = ("gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',
            "try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}")
 GTAG = "function gtag(){dataLayer.push(arguments);}"
 BASE = '<span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant</span>'
+SKIP = {'book.html'}  # a sub-second stop on the way to Calendly: it keeps its consent defaults, with no prompt and no footer
 
 changed = []
 for p in sorted(glob.glob('*.html')):
     s = orig = open(p, encoding='utf-8').read()
-    if 'G-66PK4JKWSF' not in s or 'http-equiv="refresh"' in s:
+    if p in SKIP or 'G-66PK4JKWSF' not in s or 'http-equiv="refresh"' in s:
         continue
     root = '/' if p == '404.html' else ''  # the 404 page is served at any missing path, so it needs root paths
     if "gtag('consent','default'" not in s:
