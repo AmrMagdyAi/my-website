@@ -7,7 +7,7 @@ ISTART, IEND = '<!-- ask-inline:start -->', '<!-- ask-inline:end -->'
 SKIP = {'index.html', '404.html', 'crm-revenue-audit.html'}
 
 def block(page, h1):
-    topic = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', h1))).strip().rstrip('.')
+    topic = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', re.sub(r'<br\s*/?>', ' ', h1)))).strip().rstrip('.')
     short = topic if len(topic) <= 70 else topic[:67].rsplit(' ', 1)[0] + '...'
     url = f'https://amrmagdy.com/{page}'
     subj = urllib.parse.quote(f'Question about: {short}')
@@ -30,7 +30,7 @@ def block(page, h1):
 '''
 
 def inline(page, h1):
-    topic = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', h1))).strip().rstrip('.')
+    topic = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', re.sub(r'<br\s*/?>', ' ', h1)))).strip().rstrip('.')
     short = topic if len(topic) <= 70 else topic[:67].rsplit(' ', 1)[0] + '...'
     url = f'https://amrmagdy.com/{page}'
     subj = urllib.parse.quote(f'Question about: {short}')
