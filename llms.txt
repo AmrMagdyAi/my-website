@@ -47,8 +47,8 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 1. Cost per appointment by marketing campaign
 2. Contracts per campaign
 3. Time from contract to first seller call
-4. Booked revenue forecast vs actual
-5. ROI that only counts deals that actually closed (kept deals)
+4. Booked vs. kept profit
+5. Campaign ROI, including the houses you keep
 
 ## Real estate CRM and Salesforce guides
 - Real estate CRM: the complete guide: https://amrmagdy.com/real-estate-crm-guide.html (Real estate CRM for investors, the complete guide (what it is, records and fields, wholesaling pipeline stages, automations, follow-up, integrations, weekly KPIs, texting and calling compliance, 30-day setup plan, common mistakes))

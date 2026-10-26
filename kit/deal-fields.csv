@@ -20,5 +20,5 @@ Days to Assign,Days_to_Assign__c,Formula (number),,Calculated: Assigned Date −
 Closed Date,Closed_Date__c,Date,,When Deal Status changes to Closed,The day the fee was actually paid.
 Booked Fee,Booked_Fee__c,Currency,,When Deal Status changes to Under Contract; locked after,The fee you expected at signing. This is the forecast.
 Kept Fee,Kept_Fee__c,Currency,,When Deal Status changes to Closed (0 if Fell Out),"The fee actually received. ROI should be counted on this, not on Booked Fee."
-Kept Property Value,Kept_Property_Value__c,Currency,,When you keep the property (for example as a rental) instead of assigning it,Deals you keep still came from a campaign. Leaving them out undercounts that campaign's ROI.
+Kept House Equity,Kept_House_Equity__c,Currency,,When you keep the house (for example as a rental) instead of selling or assigning it,"After-repair value minus all-in cost. Houses you keep still came from a campaign, so leaving them out undercounts that campaign's ROI."
 Fall-out Reason,Fall_out_Reason__c,Picklist,Seller backed out; Title issue; No buyer found; Buyer backed out; Inspection or repairs; Renegotiated; Other,"When Deal Status = Fell Out, or when Kept Fee is lower than Booked Fee","Tells you whether fall-outs come from underwriting, dispo or the seller relationship."
