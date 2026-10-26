@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script src="assets/consent.js" defer></script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');else if(h.indexOf('.csv')>-1||h.indexOf('.pdf')>-1)gtag('event','file_download',{file_name:h});});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Offer Follow-Up in Salesforce for Real Estate Investors</title>
+<meta name="description" content="Most deals die quietly after the offer. The fields, tasks, deadlines and daily list that keep every open offer in Salesforce alive until it&#x27;s signed or dead.">
+<link rel="canonical" href="https://amrmagdy.com/offer-follow-up-salesforce.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://amrmagdy.com/offer-follow-up-salesforce.html">
+<meta property="og:title" content="The offer went out. Then what? Offer follow-up in Salesforce for investor teams">
+<meta property="og:description" content="Most deals die quietly after the offer. The fields, tasks, deadlines and daily list that keep every open offer in Salesforce alive until it&#x27;s signed or dead.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
+<meta property="og:site_name" content="Amr Magdy">
+<meta property="article:published_time" content="2026-10-26">
+<meta property="article:modified_time" content="2026-10-26">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The offer went out. Then what? Offer follow-up in Salesforce for investor teams">
+<meta name="twitter:description" content="Most deals die quietly after the offer. The fields, tasks, deadlines and daily list that keep every open offer in Salesforce alive until it&#x27;s signed or dead.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preload" as="style" href="assets/fonts/fonts.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/fonts/fonts.css"></noscript>
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.sec2{margin-top:44px;max-width:820px}
+.sec2 h2{font-size:1.5rem;margin:34px 0 8px;scroll-margin-top:calc(var(--nav) + 16px)}
+.sec2 h3{font-size:1.08rem;margin:22px 0 6px}
+.sec2 p,.sec2 li{color:var(--txt2);line-height:1.78}
+.sec2 p{margin:8px 0}
+.sec2 ul,.sec2 ol{padding-left:1.2rem;margin:8px 0}
+.sec2 li{margin:4px 0}
+.sec2 a{color:var(--sf);text-decoration:underline;text-underline-offset:2px}
+.sec2 strong{color:var(--txt)}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:18px}
+.card h3{margin-top:0}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;border:1px solid var(--bd);border-radius:14px;background:var(--bg2)}
+.tw table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:560px}
+.tw th,.tw td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--bd);color:var(--txt2);line-height:1.55}
+.tw th{color:var(--txt);font-weight:700;background:var(--bg);position:sticky;top:0}
+.tw td:first-child{color:var(--txt);font-weight:600}
+.dl dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:12px}
+.dl dd{color:var(--txt2);line-height:1.7;margin:2px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.toc a{border:1px solid var(--bd2);border-radius:999px;padding:5px 12px;font-size:.82rem;color:var(--txt)}
+.fig{margin:18px 0;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:16px}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{font-size:.84rem;color:var(--txt3);margin-top:8px;line-height:1.6}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin:0 0 8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--bg);border:1px solid var(--bd2);color:var(--txt2);margin-right:6px}
+.warn{background:var(--bg2);border:1.5px solid var(--gold);border-left-width:6px;border-radius:14px;padding:14px 18px;margin:18px 0 0;color:var(--txt2);line-height:1.7;max-width:820px}
+.dlbox{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--bg2);border:1.5px dashed var(--gold);border-radius:16px;padding:16px 18px;margin:18px 0}
+.dlbox p{margin:0;flex:1 1 240px}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}nav .nb.nb-call{margin-left:auto!important}}
+
+.ans{background:var(--bg2);border:1px solid var(--bd);border-left:6px solid var(--sf);border-radius:14px;padding:16px 20px;margin:22px 0 0;max-width:820px}
+.ans p{margin:0;color:var(--txt2);line-height:1.75}.ans .k{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--txt3);font-weight:700;margin-bottom:4px}
+.chk{list-style:none;padding-left:0!important}.chk li{position:relative;padding-left:1.6rem}.chk li::before{content:'';position:absolute;left:0;top:.45em;width:.9rem;height:.9rem;border:1.5px solid var(--sf);border-radius:4px}
+.rel2{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:12px}
+.rel2 a{display:block;border:1px solid var(--bd);border-radius:14px;padding:14px 16px;background:var(--bg2);text-decoration:none!important;color:var(--txt)!important}
+.rel2 a b{display:block;font-size:.95rem;margin-bottom:4px}.rel2 a span{display:block;font-size:.84rem;color:var(--txt3);line-height:1.5}
+.src{font-size:.86rem}.src li{margin:6px 0}
+.ex{font-size:.86rem;color:var(--txt3);font-style:italic}
+.faqcat{margin-top:40px}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "The offer went out. Then what? Offer follow-up in Salesforce for investor teams", "description": "Most deals die quietly after the offer. The fields, tasks, deadlines and daily list that keep every open offer in Salesforce alive until it's signed or dead.", "url": "https://amrmagdy.com/offer-follow-up-salesforce.html", "mainEntityOfPage": "https://amrmagdy.com/offer-follow-up-salesforce.html", "inLanguage": "en-US", "datePublished": "2026-10-26", "dateModified": "2026-10-26", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-card.jpg", "about": [{"@type": "Thing", "name": "Real estate offers"}, {"@type": "Thing", "name": "Sales follow-up"}, {"@type": "Thing", "name": "Salesforce"}, {"@type": "Thing", "name": "Real estate wholesaling"}, {"@type": "Thing", "name": "Acquisitions"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do you follow up after making an offer to a motivated seller?", "acceptedAnswer": {"@type": "Answer", "text": "Put the offer in writing the same day, call the next day and again a few days later, and keep a dated next step on the record until the seller signs, sells elsewhere or asks you to stop. Each touch should add something new rather than check in."}}, {"@type": "Question", "name": "How long should you keep following up on a real estate offer?", "acceptedAnswer": {"@type": "Answer", "text": "Until the seller signs, sells to someone else or asks you to stop. After the first couple of weeks, move to a weekly and then monthly rhythm, and set a date to try again on offers that die, because sellers' situations change."}}, {"@type": "Question", "name": "Should offers be a separate object in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Not at first. Offer fields and an Offer Made stage on the deal, with history tracked on the amount, work for most teams. A separate Offer record makes sense when you negotiate several rounds per deal or want to analyze offers by spread and rep."}}, {"@type": "Question", "name": "How do I find offers nobody followed up on?", "acceptedAnswer": {"@type": "Answer", "text": "Build a report of open offers where the last seller contact is older than your limit, grouped by owner. Stamp that date from logged calls and texts rather than relying on the standard Last Activity field."}}, {"@type": "Question", "name": "Can Salesforce remind reps before an offer expires?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. A record-triggered Flow with a scheduled path can create a task a set number of days before the offer's deadline date, and it adjusts automatically if the date changes."}}, {"@type": "Question", "name": "How do I track counteroffers in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Log each counter as a new offer amount with field history turned on, or as its own Offer record. Keep the first offer, latest offer and seller's counter visible together, and route anything over MAO to a manager for approval."}}, {"@type": "Question", "name": "What dead reasons should wholesalers track?", "acceptedAnswer": {"@type": "Answer", "text": "A short list reps will use honestly: price too low, listed with an agent, sold to another buyer, decided not to sell, couldn't reach them, and other with a note. Review them monthly by source and rep."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Offer follow-up in Salesforce", "item": "https://amrmagdy.com/offer-follow-up-salesforce.html"}]}]}</script>
+</head>
+<body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
+  <a href="resources.html" class="nb hide-sm">Free tools</a>
+  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
+  <a href="index.html#contact" class="nb nb-call" style="margin-left:0">Book a free call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Guide · by Amr Magdy · Oct 2026</span>
+<h1>The offer went out. Then what? <em>Offer follow-up in Salesforce</em></h1>
+<p class="lead">Most wholesaling and home-buying teams track leads well and offers badly. The offer gets made on the phone or at the kitchen table, the seller says they need to think about it, and a week later nobody is sure who was supposed to call back. This page is for owners and acquisitions managers who want every open offer on one list, with a named owner and a next step, until it's signed or truly dead.</p>
+<div class="ans"><span class="k">Short answer</span><p>Give every offer four required fields in Salesforce: the amount, the date, how it was made (in person or virtual) and a next follow-up date. Let Salesforce create the follow-up task, warn before the offer expires and flag any open offer with no seller contact for a set number of days. Put all open offers on one list the acquisitions manager reviews every morning. When an offer dies, require a reason, because those reasons tell you whether you have a pricing problem or a follow-up problem.</p></div>
+<div class="toc"><a href="#cold">Why offers go cold</a><a href="#where">Where offers live</a><a href="#fields">The fields</a><a href="#auto">What runs on its own</a><a href="#rhythm">A follow-up rhythm</a><a href="#counter">Counteroffers</a><a href="#dead">When an offer dies</a><a href="#reports">The reports</a><a href="#faq">Questions</a></div>
+<section class="sec2">
+<h2 id="cold">Why do offers go cold?</h2>
+<ul>
+<li><strong>"Let me think about it" isn't a no.</strong> It's an open loop, and open loops close on whoever calls back. Often that's another investor.</li>
+<li><strong>The offer never makes it into the CRM.</strong> It was said out loud at the house or over the phone. If the amount and the date aren't on the record, the offer doesn't exist as far as anyone else is concerned.</li>
+<li><strong>Nobody clearly owns it.</strong> The lead manager set the appointment, the acquisitions rep made the offer, and each assumes the other is following up.</li>
+<li><strong>New leads are more fun.</strong> A rep with ten fresh leads today will call those before the seller who said "maybe" last Tuesday.</li>
+<li><strong>The deadline lives in someone's head.</strong> The offer was good "through Friday", and Friday comes and goes.</li>
+</ul>
+<p>The habit isn't special to real estate. In one large study of sales leads, half were never called a second time (<a href="real-estate-lead-response-statistics.html">Velocify, 2012</a>). An offer is a much warmer lead than a web form, and it gets the same treatment when nobody owns the next step.</p>
+
+<h2 id="where">Where should offers live in Salesforce?</h2>
+<p>Two workable setups:</p>
+<div class="tw"><table>
+<thead><tr><th>Setup</th><th>How it works</th><th>Good for</th><th>Watch out for</th></tr></thead>
+<tbody>
+<tr><td>Offer fields and an "Offer Made" stage on the deal</td><td>One record per property; the offer amount, date and status sit on the deal</td><td>Most teams, especially to start</td><td>Only the latest offer is visible unless you track history on the amount</td></tr>
+<tr><td>A separate Offer record linked to the deal</td><td>Every offer and counteroffer is its own row with amount, date and status</td><td>Teams that negotiate several rounds, or want offer-to-contract by spread and rep</td><td>More clicks for reps; keep the form to a handful of fields</td></tr>
+</tbody></table></div>
+<p>I'd start with the first and turn on field history tracking for the offer amount. Salesforce tracks up to 20 fields per object this way and shows 18 months of history on the record. Opportunity stage changes are tracked out of the box, including how long each deal sat in each stage, so you get "days from offer to contract" without building anything. Move to a separate Offer record when your team routinely goes back and forth three or four times per deal.</p>
+
+<h2 id="fields">The fields every offer needs</h2>
+<div class="tw"><table>
+<thead><tr><th>Field</th><th>Required?</th><th>Why it's there</th></tr></thead>
+<tbody>
+<tr><td>Offer amount</td><td>Yes</td><td>The number, with history, so a later counter doesn't erase the first offer</td></tr>
+<tr><td>Offer date</td><td>Yes</td><td>Starts every clock: follow-up, aging, days to contract</td></tr>
+<tr><td>Made in person or virtually</td><td>Yes</td><td>The two close at different rates, and you'll want to know by how much</td></tr>
+<tr><td>Next follow-up date</td><td>Yes</td><td>No open offer without a next step. This one field does most of the work</td></tr>
+<tr><td>Offer good through</td><td>If you use deadlines</td><td>Drives a reminder before it passes</td></tr>
+<tr><td>MAO when offered</td><td>Recommended</td><td>Shows offers made over your maximum, by rep. See the <a href="wholesaling-mao-calculator.html">MAO calculator</a></td></tr>
+<tr><td>Seller's asking price</td><td>Recommended</td><td>The gap between ask and offer is the negotiation</td></tr>
+<tr><td>Status</td><td>Yes</td><td>Open, Countered, Accepted, Declined, Expired</td></tr>
+<tr><td>Dead reason</td><td>When declined or expired</td><td>The only way to learn from the ones you lose</td></tr>
+</tbody></table></div>
+<p>Make the required fields required at the moment the deal moves to "Offer Made", not when the lead is created. A rep can't know the offer amount on day one, and a form full of required fields nobody can fill gets filled with junk.</p>
+
+<h2 id="auto">What should Salesforce do on its own?</h2>
+<ul>
+<li><strong>Create the first follow-up task</strong> the moment an offer is logged, assigned to the person who made it and due on the follow-up date.</li>
+<li><strong>Warn before the deadline.</strong> A record-triggered Flow with a scheduled path can create a "call before the offer expires" task a day or two before the "offer good through" date. If the date changes, the scheduled action moves with it.</li>
+<li><strong>Flag offers with no contact.</strong> If an open offer has had no logged call, text or completed task with the seller for a set number of days, create an "offer made, no activity" task and tell the manager. Base this on a "last seller contact" date stamped by your calls and texts. The standard Last Activity field can mislead: it follows the primary contact on an activity, so a call logged against a second owner may not move it.</li>
+<li><strong>Stop automated texts when the seller replies</strong>, so a seller in the middle of a conversation doesn't get a canned "just checking in".</li>
+<li><strong>Clean up when it's decided.</strong> Accepted moves the deal to contract and closes the follow-up tasks. Declined or expired asks for a reason, closes open tasks and sets a date to try again.</li>
+</ul>
+<p>In the org I run there's an offer-deadline task, an "offer made, no activity" task, and on-site and virtual offers are tracked separately, so the owners can see which offers close and how. None of it is complicated. It just means the follow-up happens because the system says so, not because someone remembers.</p>
+
+<h2 id="rhythm">What does a good follow-up rhythm look like after an offer?</h2>
+<p>There's no magic sequence, and your market and team will shape it. Here's a starting point I'd adjust with the team:</p>
+<div class="tw"><table>
+<thead><tr><th>When</th><th>Touch</th><th>What it adds</th></tr></thead>
+<tbody>
+<tr><td>Same day</td><td>Text or email with the offer in writing</td><td>The number in front of everyone who has a say, including the people you didn't meet</td></tr>
+<tr><td>Next day</td><td>Call</td><td>Questions they thought of overnight; who else needs to say yes</td></tr>
+<tr><td>Day 3 to 4</td><td>Call</td><td>Anything that changed: a repair quote, another offer, a move date</td></tr>
+<tr><td>Before the deadline</td><td>Call</td><td>A real decision point, if your offer has one</td></tr>
+<tr><td>Weekly, then monthly</td><td>Call or text</td><td>Until they sign, sell to someone else or tell you to stop</td></tr>
+</tbody></table></div>
+<p>Two rules matter more than the exact days. Every touch should add something, a question, an answer or a changed number, rather than "just checking in". And when a seller asks you to stop, stop, and record it so no automation or other rep contacts them again. To build a cadence your team can follow, try the <a href="seller-follow-up-cadence.html">seller follow-up cadence builder</a>.</p>
+
+<h2 id="counter">How do you handle counteroffers?</h2>
+<ul>
+<li><strong>Log every counter as a new amount.</strong> With history on the field, the first offer stays visible. With Offer records, each counter is its own row.</li>
+<li><strong>Keep the seller's number next to yours.</strong> First offer, latest offer and the seller's counter on one screen show the gap at a glance.</li>
+<li><strong>Route anything over MAO to the manager.</strong> A Flow can hold the status until the manager approves, and record who approved it. That's the paper trail for the deals that lose money.</li>
+</ul>
+
+<h2 id="dead">What happens when an offer dies?</h2>
+<p>Require a reason from a short list: price too low, listed with an agent, sold to another buyer, decided not to sell, couldn't reach them, and other (with a note). Keep it short enough that reps pick honestly.</p>
+<p>Then look at the reasons every month. Mostly "price too low" with offers well under MAO points to how you price. Mostly "couldn't reach them" or "sold to another buyer" points to follow-up. Those are different fixes, and the reason field is the only way to tell them apart.</p>
+<p>A dead offer isn't a dead seller. Set a date to try again, because situations change: the repair estimate comes in, the tenant leaves, the listing expires. That's where <a href="dead-seller-leads-salesforce.html">reactivating dead seller leads</a> picks up. And review dead offers as a manager once a week, so "dead" doesn't become the way a busy rep clears their list.</p>
+
+<h2 id="reports">The reports that matter</h2>
+<ol>
+<li><strong>Open offers by owner and age</strong>, with last seller contact. This is the morning list. If you build one thing from this page, build this.</li>
+<li><strong>Open offers with no contact in your set number of days.</strong> It should be empty. When it isn't, it's a to-do list.</li>
+<li><strong>Offer-to-contract rate</strong> by rep, and by in-person versus virtual.</li>
+<li><strong>Days from offer to contract</strong>, from the stage history.</li>
+<li><strong>Dead reasons by month</strong>, by lead source and by rep.</li>
+<li><strong>Offers over MAO</strong>, by rep, and how those deals turned out.</li>
+</ol>
+<p>The first two belong on the acquisitions manager's home page. The rest feed the weekly meeting and the <a href="monday-5-real-estate-kpis.html">Monday 5</a>.</p>
+</section>
+<section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>How do you follow up after making an offer to a motivated seller?</h3><p>Put the offer in writing the same day, call the next day and again a few days later, and keep a dated next step on the record until the seller signs, sells elsewhere or asks you to stop. Each touch should add something new rather than check in.</p></div><div class="cq"><h3>How long should you keep following up on a real estate offer?</h3><p>Until the seller signs, sells to someone else or asks you to stop. After the first couple of weeks, move to a weekly and then monthly rhythm, and set a date to try again on offers that die, because sellers' situations change.</p></div><div class="cq"><h3>Should offers be a separate object in Salesforce?</h3><p>Not at first. Offer fields and an Offer Made stage on the deal, with history tracked on the amount, work for most teams. A separate Offer record makes sense when you negotiate several rounds per deal or want to analyze offers by spread and rep.</p></div><div class="cq"><h3>How do I find offers nobody followed up on?</h3><p>Build a report of open offers where the last seller contact is older than your limit, grouped by owner. Stamp that date from logged calls and texts rather than relying on the standard Last Activity field.</p></div><div class="cq"><h3>Can Salesforce remind reps before an offer expires?</h3><p>Yes. A record-triggered Flow with a scheduled path can create a task a set number of days before the offer's deadline date, and it adjusts automatically if the date changes.</p></div><div class="cq"><h3>How do I track counteroffers in Salesforce?</h3><p>Log each counter as a new offer amount with field history turned on, or as its own Offer record. Keep the first offer, latest offer and seller's counter visible together, and route anything over MAO to a manager for approval.</p></div><div class="cq"><h3>What dead reasons should wholesalers track?</h3><p>A short list reps will use honestly: price too low, listed with an agent, sold to another buyer, decided not to sell, couldn't reach them, and other with a note. Review them monthly by source and rep.</p></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="seller-follow-up-cadence.html"><b>Follow-up cadence builder</b><span>Build a seller touch plan your team can follow.</span></a><a href="dead-seller-leads-salesforce.html"><b>Reactivating dead seller leads</b><span>Turn the list you already paid for into deals.</span></a><a href="wholesaling-mao-calculator.html"><b>MAO calculator</b><span>Maximum allowable offer from ARV and repairs.</span></a><a href="seller-appointment-no-shows-salesforce.html"><b>Seller appointment no-shows</b><span>Reminders, outcomes and the show-rate report.</span></a><a href="blog-salesforce-real-estate-pipeline-dashboard.html"><b>Pipeline dashboard</b><span>Stages, aging and the deals that are stuck.</span></a><a href="monday-5-real-estate-kpis.html"><b>The Monday 5</b><span>Five numbers an owner should see every week.</span></a></div></section>
+<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.</p><ol class="src"><li><a href="real-estate-lead-response-statistics.html">Speed to lead and follow-up statistics for real estate (this site)</a>. Velocify 2012 finding that half of leads never got a second call, with its source</li><li><a href="https://www.salesforceben.com/salesforce-opportunity-history-vs-opportunity-field-history/" rel="noopener" target="_blank">Salesforce Ben: Opportunity History vs Opportunity Field History</a>. Stage changes tracked by default, with stage duration</li><li><a href="https://salesforceben.com/salesforce-field-history-tracking" rel="noopener" target="_blank">Salesforce Ben: Field history tracking</a>. 20 tracked fields per object, 18 months in the interface</li><li><a href="https://developer.salesforce.com/blogs/2021/03/schedule-your-path-in-salesforce-flow" rel="noopener" target="_blank">Salesforce Developers: Schedule your path in Salesforce Flow</a>. Scheduled paths relative to a date field, and how they move when the date changes</li><li><a href="https://www.salesforceben.com/why-your-salesforce-contacts-last-activity-date-is-lying-to-you-and-how-to-fix-it/" rel="noopener" target="_blank">Salesforce Ben: Why Last Activity Date can mislead</a>. Last Activity follows the primary contact on a task or event</li></ol></section>
+<div class="cta"><h2>Want the list of offers going cold right now?</h2><p>The fixed-price CRM Revenue Audit (USD 1,500) finds offers with no activity, appointments with no next step and leads owned by someone who left, with what they're likely costing you, a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20The%20offer%20went%20out.%20Then%20what%3F%20Offer%20follow-up%20in%20Salesforce&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/offer-follow-up-salesforce.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22The%20offer%20went%20out.%20Then%20what%3F%20Offer%20follow-up%20in%20Salesforce%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+</div></main>
+
+
+<section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
+<img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong>. Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="salesforce-real-estate-faq.html">Salesforce FAQ</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="mailto:info@AmrMagdy.com">Email</a><a href="privacy.html">Privacy</a></div>
+</div></div></footer>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+
+<script src="booking.js" defer></script>
+</body>
+</html>

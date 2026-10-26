@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script src="assets/consent.js" defer></script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');else if(h.indexOf('.csv')>-1||h.indexOf('.pdf')>-1)gtag('event','file_download',{file_name:h});});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reactivating Dead Seller Leads in Salesforce for Investors</title>
+<meta name="description" content="Most investor CRMs hold thousands of dead seller leads. How to sort them, check consent, run a reactivation campaign in Salesforce and route sellers who answer.">
+<link rel="canonical" href="https://amrmagdy.com/dead-seller-leads-salesforce.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://amrmagdy.com/dead-seller-leads-salesforce.html">
+<meta property="og:title" content="The leads you already paid for: reactivating dead seller leads in Salesforce">
+<meta property="og:description" content="Most investor CRMs hold thousands of dead seller leads. How to sort them, check consent, run a reactivation campaign in Salesforce and route sellers who answer.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
+<meta property="og:site_name" content="Amr Magdy">
+<meta property="article:published_time" content="2026-10-26">
+<meta property="article:modified_time" content="2026-10-26">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The leads you already paid for: reactivating dead seller leads in Salesforce">
+<meta name="twitter:description" content="Most investor CRMs hold thousands of dead seller leads. How to sort them, check consent, run a reactivation campaign in Salesforce and route sellers who answer.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preload" as="style" href="assets/fonts/fonts.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/fonts/fonts.css"></noscript>
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.sec2{margin-top:44px;max-width:820px}
+.sec2 h2{font-size:1.5rem;margin:34px 0 8px;scroll-margin-top:calc(var(--nav) + 16px)}
+.sec2 h3{font-size:1.08rem;margin:22px 0 6px}
+.sec2 p,.sec2 li{color:var(--txt2);line-height:1.78}
+.sec2 p{margin:8px 0}
+.sec2 ul,.sec2 ol{padding-left:1.2rem;margin:8px 0}
+.sec2 li{margin:4px 0}
+.sec2 a{color:var(--sf);text-decoration:underline;text-underline-offset:2px}
+.sec2 strong{color:var(--txt)}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:18px}
+.card h3{margin-top:0}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;border:1px solid var(--bd);border-radius:14px;background:var(--bg2)}
+.tw table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:560px}
+.tw th,.tw td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--bd);color:var(--txt2);line-height:1.55}
+.tw th{color:var(--txt);font-weight:700;background:var(--bg);position:sticky;top:0}
+.tw td:first-child{color:var(--txt);font-weight:600}
+.dl dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:12px}
+.dl dd{color:var(--txt2);line-height:1.7;margin:2px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.toc a{border:1px solid var(--bd2);border-radius:999px;padding:5px 12px;font-size:.82rem;color:var(--txt)}
+.fig{margin:18px 0;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:16px}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{font-size:.84rem;color:var(--txt3);margin-top:8px;line-height:1.6}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin:0 0 8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--bg);border:1px solid var(--bd2);color:var(--txt2);margin-right:6px}
+.warn{background:var(--bg2);border:1.5px solid var(--gold);border-left-width:6px;border-radius:14px;padding:14px 18px;margin:18px 0 0;color:var(--txt2);line-height:1.7;max-width:820px}
+.dlbox{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--bg2);border:1.5px dashed var(--gold);border-radius:16px;padding:16px 18px;margin:18px 0}
+.dlbox p{margin:0;flex:1 1 240px}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}nav .nb.nb-call{margin-left:auto!important}}
+
+.ans{background:var(--bg2);border:1px solid var(--bd);border-left:6px solid var(--sf);border-radius:14px;padding:16px 20px;margin:22px 0 0;max-width:820px}
+.ans p{margin:0;color:var(--txt2);line-height:1.75}.ans .k{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--txt3);font-weight:700;margin-bottom:4px}
+.chk{list-style:none;padding-left:0!important}.chk li{position:relative;padding-left:1.6rem}.chk li::before{content:'';position:absolute;left:0;top:.45em;width:.9rem;height:.9rem;border:1.5px solid var(--sf);border-radius:4px}
+.rel2{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:12px}
+.rel2 a{display:block;border:1px solid var(--bd);border-radius:14px;padding:14px 16px;background:var(--bg2);text-decoration:none!important;color:var(--txt)!important}
+.rel2 a b{display:block;font-size:.95rem;margin-bottom:4px}.rel2 a span{display:block;font-size:.84rem;color:var(--txt3);line-height:1.5}
+.src{font-size:.86rem}.src li{margin:6px 0}
+.ex{font-size:.86rem;color:var(--txt3);font-style:italic}
+.faqcat{margin-top:40px}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "The leads you already paid for: reactivating dead seller leads in Salesforce", "description": "Most investor CRMs hold thousands of dead seller leads. How to sort them, check consent, run a reactivation campaign in Salesforce and route sellers who answer.", "url": "https://amrmagdy.com/dead-seller-leads-salesforce.html", "mainEntityOfPage": "https://amrmagdy.com/dead-seller-leads-salesforce.html", "inLanguage": "en-US", "datePublished": "2026-10-26", "dateModified": "2026-10-26", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-card.jpg", "about": [{"@type": "Thing", "name": "Lead reactivation"}, {"@type": "Thing", "name": "Motivated sellers"}, {"@type": "Thing", "name": "Salesforce campaigns"}, {"@type": "Thing", "name": "Real estate investing"}, {"@type": "Thing", "name": "TCPA compliance"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do you reactivate dead real estate seller leads?", "acceptedAnswer": {"@type": "Answer", "text": "Sort them by why they died and how long ago, remove anyone who asked not to be contacted, fix bad numbers, then run each group as a campaign with a short personal message. Route every reply to a rep immediately and measure the campaign on contracts."}}, {"@type": "Question", "name": "Is it legal to text old seller leads?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on consent, opt-outs and the Do Not Call rules, so check with whoever advises you on the TCPA. At minimum, honor every opt-out from any channel within 10 business days, scrub against the Do Not Call Registry and your own list, and don't assume old consent covers a new campaign."}}, {"@type": "Question", "name": "How often should you contact dead leads?", "acceptedAnswer": {"@type": "Answer", "text": "Set a revisit date on each dead lead based on why it died, for example a few months for timing or price reasons, and work the leads that come due each week in small batches. A steady rhythm beats one big blast a year."}}, {"@type": "Question", "name": "Should a reactivated seller go back to the original rep?", "acceptedAnswer": {"@type": "Answer", "text": "Usually yes, if that rep is still on the team and working that market, because the seller already knows them. Tell the rep the seller came back, and keep the full history on the record."}}, {"@type": "Question", "name": "How do I track a reactivation campaign in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Create a Salesforce campaign for each group and message, add the leads as campaign members with statuses like Sent, Responded, Appointment and Contract, and report on contracts and revenue by campaign alongside cost."}}, {"@type": "Question", "name": "Does reactivating a lead change its lead source?", "acceptedAnswer": {"@type": "Answer", "text": "It shouldn't. Keep the original source and campaign locked, set a separate latest source to the reactivation campaign, and flag the record as re-engaged, so both campaigns get the right credit."}}, {"@type": "Question", "name": "What should I do with sellers who sold to someone else?", "acceptedAnswer": {"@type": "Answer", "text": "Stop marketing that address and update the record so it doesn't come back on a list. If the person owns other property, keep them as a contact for that, separately."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Reactivating dead seller leads", "item": "https://amrmagdy.com/dead-seller-leads-salesforce.html"}]}]}</script>
+</head>
+<body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
+  <a href="resources.html" class="nb hide-sm">Free tools</a>
+  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
+  <a href="index.html#contact" class="nb nb-call" style="margin-left:0">Book a free call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Guide · by Amr Magdy · Oct 2026</span>
+<h1>The leads you already paid for. <em>Reactivating dead seller leads in Salesforce</em></h1>
+<p class="lead">Every home-buying company that has marketed for a few years is sitting on hundreds, often thousands, of seller leads marked dead, lost or not interested. You paid for every one of them. Some of those sellers are ready now: the tenant moved out, the repairs got worse, the estate got settled. This page is for owners and acquisitions managers who want to work that list on purpose, without bothering people who asked you to stop.</p>
+<div class="ans"><span class="k">Short answer</span><p>Don't blast the whole list. Sort dead leads by why they died and how long ago, remove anyone who asked not to be contacted, and fix bad numbers first. Then run each group as its own Salesforce campaign with its own message, so every reply is tracked and credited. Send responders straight to a rep with a task due now, flag them as re-engaged without overwriting the original source, and judge the campaign on contracts, not replies.</p></div>
+<div class="toc"><a href="#why">Why bother</a><a href="#sort">Sort first</a><a href="#consent">Who not to contact</a><a href="#clean">Clean the list</a><a href="#campaign">Run it as a campaign</a><a href="#message">The first message</a><a href="#answer">When a seller answers</a><a href="#measure">Measure it</a><a href="#habit">Make it a habit</a><a href="#faq">Questions</a></div>
+<section class="sec2">
+<h2 id="why">Why are dead leads worth working?</h2>
+<ul>
+<li><strong>They already know you.</strong> A seller who talked to your team once is warmer than any list you can buy.</li>
+<li><strong>"Not now" is usually about timing.</strong> Situations like a vacant house, a tenant who stopped paying or an inheritance don't stand still after your rep stops calling.</li>
+<li><strong>Follow-up stops early.</strong> In one large study, 81% of sales reps made five or fewer follow-up attempts on a lead (<a href="real-estate-lead-response-statistics.html">InsideSales, 2021</a>). Plenty of your "dead" leads were simply never worked to the end.</li>
+<li><strong>You've already paid.</strong> Every one of those leads cost mail, clicks or caller time. Work out what yours cost with the <a href="wholesaling-cost-per-deal-calculator.html">cost per deal calculator</a>; it puts a number on the list.</li>
+</ul>
+
+<h2 id="sort">How should you sort dead leads before contacting anyone?</h2>
+<p>By why they died, then by how long ago. Each group gets a different message, and some get none.</p>
+<div class="tw"><table>
+<thead><tr><th>Group</th><th>Typical dead reasons</th><th>What I'd do</th></tr></thead>
+<tbody>
+<tr><td>Timing</td><td>Not ready yet, tenant in place, waiting on family</td><td>The best group. Ask what has changed</td></tr>
+<tr><td>Price</td><td>Wanted more than you offered</td><td>Ask whether their situation has changed. Don't open with a higher number</td></tr>
+<tr><td>Listed</td><td>Listed with an agent</td><td>Check whether the listing expired or was withdrawn, then reach out</td></tr>
+<tr><td>Never reached</td><td>No answer, bad or wrong number</td><td>Refresh the contact details before anything else, and mark the wrong numbers so nothing contacts them again</td></tr>
+<tr><td>Sold</td><td>Sold to another buyer</td><td>Stop marketing that address. Keep the person if they own other property</td></tr>
+<tr><td>Not a fit</td><td>Outside your buy box, no equity</td><td>Leave out, unless your buy box has changed</td></tr>
+<tr><td>Do not contact</td><td>Asked to stop, represented by an attorney</td><td>Never, by any channel</td></tr>
+</tbody></table></div>
+<p>Then split each group by age: dead in the last 3 to 12 months, 1 to 2 years, and older. The recent ones remember you. The old ones need more introduction.</p>
+<p>If your dead leads don't have a reliable reason on them, that's the first thing to fix, because it decides everything above. A short required list, set the moment a lead or offer dies, is enough. The <a href="offer-follow-up-salesforce.html">offer follow-up guide</a> has the list I'd start with.</p>
+
+<h2 id="consent">Who shouldn't you contact?</h2>
+<p>Not legal advice, but the stakes are real. The TCPA allows $500 per violation, and a court can raise it to $1,500 when the violation is willful. Get your consent and opt-out rules from whoever advises you on it. What I'd build into Salesforce either way:</p>
+<ul>
+<li><strong>Honor every opt-out, from any channel.</strong> Since April 11, 2025, FCC rules say people can revoke consent by any reasonable means, and you have to honor it within 10 business days. A seller who told a rep "stop calling me" on a call has opted out, even if they never texted STOP.</li>
+<li><strong>Keep one place that says "do not contact".</strong> Salesforce has standard Do Not Call and Email Opt Out fields on leads and contacts. Make sure your texting tool's opt-outs land there too, and that every list you pull filters on them.</li>
+<li><strong>Check the National Do Not Call Registry and your own do-not-call list</strong> before a calling or texting campaign, and don't assume consent from an old web form covers a new campaign years later.</li>
+<li><strong>Watch the coming change.</strong> A broader FCC rule, under which one opt-out covers all of a company's automated calls and texts, has been delayed to January 31, 2027.</li>
+</ul>
+
+<h2 id="clean">Clean the list before you send anything</h2>
+<ol>
+<li><strong>Merge duplicates.</strong> The same seller on three records gets three messages and decides you're spam. See <a href="salesforce-duplicate-sellers.html">duplicate sellers in Salesforce</a>.</li>
+<li><strong>Fix bad numbers.</strong> Skip trace the ones marked wrong or disconnected, and mark the old numbers as bad so nothing texts them again.</li>
+<li><strong>Check the property.</strong> If county records show it sold, take the address out.</li>
+<li><strong>Check the source.</strong> Every lead should still carry its original source and campaign, so the reactivation can be credited without overwriting where the seller first came from.</li>
+</ol>
+
+<h2 id="campaign">How do you run it in Salesforce?</h2>
+<ul>
+<li><strong>One Salesforce campaign per group and message</strong>, for example "Reactivation: timing, Q4 2026". Add the leads as campaign members and give the campaign its own member statuses: Sent, Responded, Appointment, Contract.</li>
+<li><strong>Pull the lists with a report</strong> filtered on status, dead reason, date it died, a valid phone number and do-not-contact unchecked. Save it, so next quarter's list takes a minute.</li>
+<li><strong>Send from a tool that logs back to Salesforce.</strong> Replies have to land on the seller's record, or nobody sees them in time. For mail, use a tracking number for each campaign, as with any other mail piece. More in <a href="salesforce-texting-real-estate.html">texting in Salesforce</a>.</li>
+<li><strong>Send in batches your team can answer.</strong> A thousand texts on Monday morning means replies sitting for a day. Send what your reps can call back within the hour, and spread the rest over the week.</li>
+<li><strong>Pause other automations on these records</strong>, so a seller who replies doesn't also get pulled into two other sequences.</li>
+</ul>
+
+<h2 id="message">What should the first message say?</h2>
+<p>Short, from a real person, and honest about why you're writing. Something like:</p>
+<p class="ex">"Hi Linda, it's Marcus from [your company]. We talked about your house on Maple a while back. Is selling still something you'd consider?"</p>
+<p>That's a made-up example. What makes it work: it says who you are, reminds them you've spoken, and asks one question they can answer in a word. What to avoid: pretending you have a buyer lined up, an offer "expiring today", or a message that reads like it went to five thousand people, even though it did. Make opting out easy, and follow whatever your texting tool and your advisor require.</p>
+
+<h2 id="answer">What happens when a seller answers?</h2>
+<ul>
+<li><strong>Treat the reply like a new lead.</strong> A task due now, assigned to a person, with the same speed-to-lead clock you use for fresh leads. See <a href="speed-to-lead-real-estate-investors.html">speed to lead for investors</a>.</li>
+<li><strong>Send it back to the rep who knows them</strong>, if that rep is still on the team and working that market. In the org I run, a returning seller keeps their full history and the original owner gets told the seller came back.</li>
+<li><strong>Keep the original source locked.</strong> Set a "latest source" to the reactivation campaign and flag the record as re-engaged. That's how reactivation gets credit without rewriting history. See <a href="real-estate-lead-attribution.html">which campaign gets credit</a>.</li>
+<li><strong>Handle the no's automatically.</strong> "Stop", "wrong number" and "already sold" should update the record, marking the person, the number or the address, so they never come back on a list.</li>
+<li><strong>Open a new deal for a new conversation</strong>, linked to the same seller and property, rather than reviving a deal from two years ago. The new deal's dates and stages stay honest, and the old one keeps its history.</li>
+</ul>
+
+<h2 id="measure">How do you measure it?</h2>
+<p>On contracts and closed deals, the same as any other campaign. The report I'd build, by reactivation campaign:</p>
+<div class="tw"><table>
+<thead><tr><th>Column</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>Members sent</td><td>The size of the push</td></tr>
+<tr><td>Responded</td><td>Interest, nothing more</td></tr>
+<tr><td>Appointments</td><td>Real conversations about selling</td></tr>
+<tr><td>Contracts and closed deals</td><td>What it actually produced</td></tr>
+<tr><td>Fees or profit on closed deals</td><td>What it was worth</td></tr>
+<tr><td>Cost: texts, mail, skip tracing</td><td>So cost per contract compares with new leads</td></tr>
+</tbody></table></div>
+<p>Reply rates look exciting and mean little. A campaign with fewer replies and two contracts beats one with lots of replies and none.</p>
+
+<h2 id="habit">Make it a habit, not a project</h2>
+<p>A once-a-year blast is the hardest way to do this. The easier way is a date on every dead lead:</p>
+<ul>
+<li><strong>When a lead dies, set a "revisit on" date</strong> from its reason. A timing reason might come back in 90 days, a listing after it would have expired, a price reason in a few months. Pick the numbers with your team and write them down.</li>
+<li><strong>Each week, a list of revisits due</strong> goes to a person or into a small campaign. A few dozen a week is easier to answer well than thousands at once.</li>
+<li><strong>Clear open tasks when a lead dies</strong>, so reps aren't chasing dead leads by accident and the revisit is the only next step. The org I run does this, along with automatic "review this lead" tasks for leads that go stale.</li>
+</ul>
+<p>Done this way, the dead list stops being a graveyard and becomes a source with its own row on the campaign report.</p>
+</section>
+<section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>How do you reactivate dead real estate seller leads?</h3><p>Sort them by why they died and how long ago, remove anyone who asked not to be contacted, fix bad numbers, then run each group as a campaign with a short personal message. Route every reply to a rep immediately and measure the campaign on contracts.</p></div><div class="cq"><h3>Is it legal to text old seller leads?</h3><p>It depends on consent, opt-outs and the Do Not Call rules, so check with whoever advises you on the TCPA. At minimum, honor every opt-out from any channel within 10 business days, scrub against the Do Not Call Registry and your own list, and don't assume old consent covers a new campaign.</p></div><div class="cq"><h3>How often should you contact dead leads?</h3><p>Set a revisit date on each dead lead based on why it died, for example a few months for timing or price reasons, and work the leads that come due each week in small batches. A steady rhythm beats one big blast a year.</p></div><div class="cq"><h3>Should a reactivated seller go back to the original rep?</h3><p>Usually yes, if that rep is still on the team and working that market, because the seller already knows them. Tell the rep the seller came back, and keep the full history on the record.</p></div><div class="cq"><h3>How do I track a reactivation campaign in Salesforce?</h3><p>Create a Salesforce campaign for each group and message, add the leads as campaign members with statuses like Sent, Responded, Appointment and Contract, and report on contracts and revenue by campaign alongside cost.</p></div><div class="cq"><h3>Does reactivating a lead change its lead source?</h3><p>It shouldn't. Keep the original source and campaign locked, set a separate latest source to the reactivation campaign, and flag the record as re-engaged, so both campaigns get the right credit.</p></div><div class="cq"><h3>What should I do with sellers who sold to someone else?</h3><p>Stop marketing that address and update the record so it doesn't come back on a list. If the person owns other property, keep them as a contact for that, separately.</p></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="offer-follow-up-salesforce.html"><b>Offer follow-up in Salesforce</b><span>Keep every open offer alive until it is signed or dead.</span></a><a href="real-estate-lead-attribution.html"><b>Which campaign gets credit?</b><span>Original source, latest source and the re-engaged flag.</span></a><a href="salesforce-duplicate-sellers.html"><b>Duplicate sellers</b><span>Matching, merging and routing returning sellers.</span></a><a href="salesforce-texting-real-estate.html"><b>Texting in Salesforce</b><span>Text-back, cadences and 10DLC.</span></a><a href="seller-follow-up-cadence.html"><b>Follow-up cadence builder</b><span>Build a seller touch plan your team can follow.</span></a><a href="probate-leads-salesforce.html"><b>Probate leads in Salesforce</b><span>For the estates that are still waiting on the court.</span></a></div></section>
+<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Telemarketing rules and Salesforce features change, so check the linked page before you rely on a detail. Nothing here is legal advice.</p><ol class="src"><li><a href="real-estate-lead-response-statistics.html">Speed to lead and follow-up statistics for real estate (this site)</a>. InsideSales 2021 finding on follow-up attempts, with its source</li><li><a href="https://mslawgroup.com/delayed-again-fcc-pushes-back-tcpas-revoke-all-rule-to-january-31-2027/" rel="noopener" target="_blank">Mac Murray & Shuster: FCC delays the TCPA revoke-all rule to January 31, 2027</a>. Revocation by any reasonable means and the 10-business-day limit in force since April 11, 2025, and the delayed revoke-all rule</li><li><a href="https://rulesofcivilprocedure.com/causes-of-action/federal/tcpa-robocalls-and-texts/" rel="noopener" target="_blank">RulesOfCivilProcedure.com: TCPA robocalls and texts</a>. Statutory damages of $500 per violation, up to $1,500 for willful violations, under 47 U.S.C. 227</li><li><a href="https://www.salesforceben.com/tips-for-working-with-salesforce-campaign-member-statuses/" rel="noopener" target="_blank">Salesforce Ben: Tips for working with campaign member statuses</a>. Custom member statuses per campaign and the Responded flag</li></ol></section>
+<div class="cta"><h2>Want to know how many sellers are sitting in your dead pile?</h2><p>The fixed-price CRM Revenue Audit (USD 1,500) checks your data health, including duplicate sellers, broken numbers and leads with no source, and shows which parts of your list you can actually reach, with a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20The%20leads%20you%20already%20paid%20for.%20Reactivating%20dead%20seller%20leads%20in...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/dead-seller-leads-salesforce.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22The%20leads%20you%20already%20paid%20for.%20Reactivating%20dead%20seller%20leads%20in...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+</div></main>
+
+
+<section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
+<img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong>. Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="salesforce-real-estate-faq.html">Salesforce FAQ</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="mailto:info@AmrMagdy.com">Email</a><a href="privacy.html">Privacy</a></div>
+</div></div></footer>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+
+<script src="booking.js" defer></script>
+</body>
+</html>

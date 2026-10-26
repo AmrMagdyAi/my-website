@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script src="assets/consent.js" defer></script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');else if(h.indexOf('.csv')>-1||h.indexOf('.pdf')>-1)gtag('event','file_download',{file_name:h});});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Probate Leads in Salesforce: A CRM Setup for Investors</title>
+<meta name="description" content="Probate deals run on the court&#x27;s timeline. The records, fields, dates and follow-up investor teams need in Salesforce to work probate leads with patience.">
+<link rel="canonical" href="https://amrmagdy.com/probate-leads-salesforce.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ee">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://amrmagdy.com/probate-leads-salesforce.html">
+<meta property="og:title" content="Probate deals run on the court&#x27;s clock: tracking probate leads in Salesforce">
+<meta property="og:description" content="Probate deals run on the court&#x27;s timeline. The records, fields, dates and follow-up investor teams need in Salesforce to work probate leads with patience.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Amr Magdy, Salesforce for real estate investors and wholesalers">
+<meta property="og:site_name" content="Amr Magdy">
+<meta property="article:published_time" content="2026-10-26">
+<meta property="article:modified_time" content="2026-10-26">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Probate deals run on the court&#x27;s clock: tracking probate leads in Salesforce">
+<meta name="twitter:description" content="Probate deals run on the court&#x27;s timeline. The records, fields, dates and follow-up investor teams need in Salesforce to work probate leads with patience.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
+<link rel="stylesheet" href="styles.css">
+<link rel="preload" as="style" href="assets/fonts/fonts.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/fonts/fonts.css"></noscript>
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.sec2{margin-top:44px;max-width:820px}
+.sec2 h2{font-size:1.5rem;margin:34px 0 8px;scroll-margin-top:calc(var(--nav) + 16px)}
+.sec2 h3{font-size:1.08rem;margin:22px 0 6px}
+.sec2 p,.sec2 li{color:var(--txt2);line-height:1.78}
+.sec2 p{margin:8px 0}
+.sec2 ul,.sec2 ol{padding-left:1.2rem;margin:8px 0}
+.sec2 li{margin:4px 0}
+.sec2 a{color:var(--sf);text-decoration:underline;text-underline-offset:2px}
+.sec2 strong{color:var(--txt)}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:18px}
+.card h3{margin-top:0}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;border:1px solid var(--bd);border-radius:14px;background:var(--bg2)}
+.tw table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:560px}
+.tw th,.tw td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--bd);color:var(--txt2);line-height:1.55}
+.tw th{color:var(--txt);font-weight:700;background:var(--bg);position:sticky;top:0}
+.tw td:first-child{color:var(--txt);font-weight:600}
+.dl dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:12px}
+.dl dd{color:var(--txt2);line-height:1.7;margin:2px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.toc a{border:1px solid var(--bd2);border-radius:999px;padding:5px 12px;font-size:.82rem;color:var(--txt)}
+.fig{margin:18px 0;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:16px}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{font-size:.84rem;color:var(--txt3);margin-top:8px;line-height:1.6}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:#fff;font-size:1.35rem;margin:0 0 8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--bg);border:1px solid var(--bd2);color:var(--txt2);margin-right:6px}
+.warn{background:var(--bg2);border:1.5px solid var(--gold);border-left-width:6px;border-radius:14px;padding:14px 18px;margin:18px 0 0;color:var(--txt2);line-height:1.7;max-width:820px}
+.dlbox{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--bg2);border:1.5px dashed var(--gold);border-radius:16px;padding:16px 18px;margin:18px 0}
+.dlbox p{margin:0;flex:1 1 240px}
+nav .nb,.logo{white-space:nowrap}
+@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}nav .nb.nb-call{margin-left:auto!important}}
+
+.ans{background:var(--bg2);border:1px solid var(--bd);border-left:6px solid var(--sf);border-radius:14px;padding:16px 20px;margin:22px 0 0;max-width:820px}
+.ans p{margin:0;color:var(--txt2);line-height:1.75}.ans .k{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--txt3);font-weight:700;margin-bottom:4px}
+.chk{list-style:none;padding-left:0!important}.chk li{position:relative;padding-left:1.6rem}.chk li::before{content:'';position:absolute;left:0;top:.45em;width:.9rem;height:.9rem;border:1.5px solid var(--sf);border-radius:4px}
+.rel2{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:12px}
+.rel2 a{display:block;border:1px solid var(--bd);border-radius:14px;padding:14px 16px;background:var(--bg2);text-decoration:none!important;color:var(--txt)!important}
+.rel2 a b{display:block;font-size:.95rem;margin-bottom:4px}.rel2 a span{display:block;font-size:.84rem;color:var(--txt3);line-height:1.5}
+.src{font-size:.86rem}.src li{margin:6px 0}
+.ex{font-size:.86rem;color:var(--txt3);font-style:italic}
+.faqcat{margin-top:40px}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Probate deals run on the court's clock: tracking probate leads in Salesforce", "description": "Probate deals run on the court's timeline. The records, fields, dates and follow-up investor teams need in Salesforce to work probate leads with patience.", "url": "https://amrmagdy.com/probate-leads-salesforce.html", "mainEntityOfPage": "https://amrmagdy.com/probate-leads-salesforce.html", "inLanguage": "en-US", "datePublished": "2026-10-26", "dateModified": "2026-10-26", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-card.jpg", "about": [{"@type": "Thing", "name": "Probate real estate"}, {"@type": "Thing", "name": "Probate leads"}, {"@type": "Thing", "name": "Salesforce"}, {"@type": "Thing", "name": "Real estate investing"}, {"@type": "Thing", "name": "Estate sales"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do you track probate leads in a CRM?", "acceptedAnswer": {"@type": "Answer", "text": "Link each property to the estate: the decedent, the personal representative, the attorney, the heirs and the case details, including county, case number, filing date and letters date. Keep probate deals in their own pipeline with follow-up tied to the case dates."}}, {"@type": "Question", "name": "Who can sell a house in probate?", "acceptedAnswer": {"@type": "Answer", "text": "The personal representative, called the executor when named in a will or the administrator when appointed by the court, once the court issues letters testamentary or letters of administration. Many states also require court approval or confirmation of the sale."}}, {"@type": "Question", "name": "How long does a probate sale take?", "acceptedAnswer": {"@type": "Answer", "text": "LegalZoom puts typical probate real estate sales at six to twelve months from the probate filing to closing, with simple estates sometimes closing in three or four months and complex ones taking eighteen months or more."}}, {"@type": "Question", "name": "Are probate records public?", "acceptedAnswer": {"@type": "Answer", "text": "Generally yes. Once a case is filed, the will, petition and inventory are usually part of the public record, available through the local probate court, and some counties put them online."}}, {"@type": "Question", "name": "Should probate leads have their own pipeline in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Probate deals wait on the court for months, so they trip normal aging alarms and need different stages, dates and follow-up. A separate record type or sales process keeps them visible without false alarms."}}, {"@type": "Question", "name": "When should you first contact a probate lead?", "acceptedAnswer": {"@type": "Answer", "text": "There's no rule that fits every family. I'd start with a letter to the personal representative rather than a call and give the family time. Whatever you decide, set it as a rule in Salesforce so every rep follows it."}}, {"@type": "Question", "name": "How do you handle several heirs on one property?", "acceptedAnswer": {"@type": "Answer", "text": "Link each heir to the deal with a contact role, track whether they agree, and keep the personal representative as the main contact, since they act for the estate."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Probate leads in Salesforce", "item": "https://amrmagdy.com/probate-leads-salesforce.html"}]}]}</script>
+</head>
+<body>
+<nav><div class="wrap-wide"><div class="nav-in">
+  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
+  <a href="resources.html" class="nb hide-sm">Free tools</a>
+  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
+  <a href="index.html#contact" class="nb nb-call" style="margin-left:0">Book a free call</a>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
+</div></div></nav>
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Guide · by Amr Magdy · Oct 2026</span>
+<h1>Probate deals run on the court's clock. <em>Tracking probate leads in Salesforce</em></h1>
+<p class="lead">Probate is one of the steadiest lead sources in investing, and one of the easiest to work badly. The person you need to reach is grieving, the decision may belong to someone other than the person you're talking to, and the court sets the pace. A CRM built for "call fast and close in two weeks" loses these deals. This page is for owners and acquisitions managers who work probate leads, or want to, and need Salesforce to keep track of a deal that can take most of a year.</p>
+<div class="ans"><span class="k">Short answer</span><p>Build a probate lead around the whole estate rather than the house alone: the person who died, the personal representative who can sell, the attorney, the heirs, and the case with its county, case number, filing date and the date letters were issued. Track the dates that decide when a sale can happen, follow up on a slow, respectful cadence that can run for months, and keep probate deals in their own pipeline so your usual "no activity in seven days" alarms don't fire on them. Rules vary by state, and none of this is legal advice.</p></div>
+<div class="toc"><a href="#different">Why probate is different</a><a href="#who">Who's who</a><a href="#model">Modeling it</a><a href="#fields">Fields and dates</a><a href="#timeline">The timeline</a><a href="#follow">Follow-up</a><a href="#data">Getting the data in</a><a href="#reports">Reports</a><a href="#faq">Questions</a></div>
+<section class="sec2">
+<h2 id="different">Why are probate leads different?</h2>
+<ul>
+<li><strong>The owner isn't the one deciding.</strong> The person who owned the house has died. The personal representative, called the executor when a will names one and the administrator when the court appoints one, acts for the estate once the court issues letters testamentary or letters of administration.</li>
+<li><strong>The court sets the pace.</strong> Depending on the state, probate typically takes six to twelve months, faster for simple estates and a year or more for complex ones.</li>
+<li><strong>A sale may need the court's OK.</strong> In many states the executor needs court approval before selling real estate. Some require the court to confirm the sale, which can mean a hearing where other buyers can bid more. Some wills give the executor authority to sell without approval.</li>
+<li><strong>Families are involved.</strong> Heirs in other states, siblings who disagree, someone living in the house. Patience and a record of every conversation matter more here than anywhere else.</li>
+<li><strong>The filings are public.</strong> Probate records usually include the will, the petition, the inventory and the representative's name, sometimes with contact details. That's where most probate lead lists come from.</li>
+</ul>
+
+<h2 id="who">Who's who in a probate deal?</h2>
+<div class="tw"><table>
+<thead><tr><th>Person</th><th>Role</th><th>In Salesforce</th></tr></thead>
+<tbody>
+<tr><td>The person who died</td><td>Owned the property</td><td>A field on the case or deal, never a contact anyone calls</td></tr>
+<tr><td>Personal representative</td><td>Can sell once the court issues letters</td><td>The main contact on the deal</td></tr>
+<tr><td>Probate attorney</td><td>Advises the representative and often knows the timing</td><td>A contact linked to the deal with the role "Attorney"</td></tr>
+<tr><td>Heirs</td><td>May need to agree; one may want to keep the house</td><td>Contacts linked with the role "Heir"</td></tr>
+<tr><td>The court</td><td>Sets the timeline and may approve or confirm the sale</td><td>Case number, county and hearing dates</td></tr>
+</tbody></table></div>
+<p>Opportunity contact roles handle the people side: one deal, several contacts, each with a role. Then anyone opening the deal sees who to call and who not to.</p>
+
+<h2 id="model">How do you set it up in Salesforce?</h2>
+<ul>
+<li><strong>Lead source "Probate"</strong>, with each list tracked as its own campaign, such as one county and month, so you know which lists pay.</li>
+<li><strong>A deal for each property</strong> once the lead is qualified, with the representative as the main contact and the attorney and heirs linked by role.</li>
+<li><strong>A probate case record</strong> if you work more than a handful: case number, county, filing date, letters date, decedent, representative and attorney, linked to every property in the estate. One estate can hold several properties, and a case record means you enter those details once.</li>
+<li><strong>Its own pipeline.</strong> A separate record type or sales process for probate, with stages that match the case: researching, letter sent, talking with the representative, waiting on letters, offer made, waiting on court approval, under contract.</li>
+<li><strong>Duplicate checks on case number and property address.</strong> The same estate often shows up on a probate list, a vacant list and a tax list. See <a href="salesforce-duplicate-sellers.html">duplicate sellers in Salesforce</a>.</li>
+</ul>
+
+<h2 id="fields">Which fields and dates matter?</h2>
+<div class="tw"><table>
+<thead><tr><th>Field</th><th>Why it's there</th></tr></thead>
+<tbody>
+<tr><td>Case number and county</td><td>To look up the case and catch duplicates</td></tr>
+<tr><td>Date of death</td><td>Context, and the start of your "wait before contacting" rule</td></tr>
+<tr><td>Filing date</td><td>Starts the court's clock</td></tr>
+<tr><td>Letters issued date</td><td>When the representative can act for the estate</td></tr>
+<tr><td>Executor or administrator</td><td>Whether there was a will</td></tr>
+<tr><td>Court approval needed to sell</td><td>Yes, no or unknown. Ask the attorney rather than guess</td></tr>
+<tr><td>Creditor claim deadline</td><td>Often shapes when the estate is ready to sell or distribute</td></tr>
+<tr><td>Who lives in the property</td><td>Vacant, an heir or a tenant changes the conversation</td></tr>
+<tr><td>Heirs in agreement</td><td>Yes, no or unknown</td></tr>
+<tr><td>Next follow-up date</td><td>Required, like every other open deal</td></tr>
+</tbody></table></div>
+
+<h2 id="timeline">What timeline are you working with?</h2>
+<p>A typical sequence for an estate with a will, from LegalZoom's guides. Every state differs, so treat the durations as rough.</p>
+<div class="tw"><table>
+<thead><tr><th>Step</th><th>Typical timing</th><th>What it means for you</th></tr></thead>
+<tbody>
+<tr><td>Petition filed with the court</td><td>Often within 30 to 60 days of the death</td><td>The case appears in public records</td></tr>
+<tr><td>Hearing, appointment and letters issued</td><td>About 2 to 8 weeks after filing</td><td>The representative can now act for the estate</td></tr>
+<tr><td>Notice to creditors and claim period</td><td>Usually 3 to 6 months</td><td>Debts get sorted, often the longest step</td></tr>
+<tr><td>Inventory and appraisal</td><td>About 30 to 90 days</td><td>The estate learns what the house is worth</td></tr>
+<tr><td>Sale, with court approval or confirmation where required</td><td>A confirmation hearing is often 2 to 4 weeks after an offer is accepted</td><td>Your offer may face higher bids at the hearing</td></tr>
+</tbody></table></div>
+<p>LegalZoom puts the whole run, from filing to closing a probate sale, at typically six to twelve months, with simple estates closing in three or four and complex ones taking eighteen months or more.</p>
+<p>That timeline breaks most investor CRMs. A deal that sits in one stage for four months isn't stale; it's waiting on a court. Keep probate out of your normal aging alarms and give it alarms of its own, built on the case dates above.</p>
+
+<h2 id="follow">What follow-up fits probate?</h2>
+<ul>
+<li><strong>Start slow and in writing.</strong> I'd lead with a letter to the representative rather than a call, and give the family time first. Whatever your rule is, put it in Salesforce so every rep follows it, such as no first contact until a set number of weeks after the date of death.</li>
+<li><strong>Let the case dates drive the tasks.</strong> A check-in a week after letters are issued, another before the creditor deadline, another after the inventory. Scheduled paths in a Flow can create those tasks from the dates, and they move if the dates change.</li>
+<li><strong>Space calls weeks apart</strong>, not days. A representative handling an estate gets a lot of calls from investors. Being the patient, organized one helps.</li>
+<li><strong>Bring in the attorney</strong> when the representative is comfortable with it. Attorneys often know when the estate will be ready to sell.</li>
+<li><strong>Write everything down.</strong> A probate deal can pass between reps over the months it takes. The next person needs to know who said what, and who doesn't want calls.</li>
+<li><strong>Opt-outs still apply.</strong> The consent and do-not-call rules in <a href="dead-seller-leads-salesforce.html#consent">reactivating dead seller leads</a> apply here too.</li>
+</ul>
+
+<h2 id="data">How do you get probate data into Salesforce?</h2>
+<p>Probate filings are public, and anyone can usually see the case file through the local court, online in some counties and in person in others. Most teams buy lists from a data vendor or pull them from county records. Either way:</p>
+<ol>
+<li><strong>Import with the case details</strong>: case number, county, filing date, decedent, representative's name and mailing address, and the property address.</li>
+<li><strong>Match duplicates on the way in</strong>, by case number and property address, before anyone sends a letter.</li>
+<li><strong>Tag each list as a campaign</strong>, one per county and month, so cost per contract by list is a report, not a guess.</li>
+<li><strong>Find phone numbers for the representative</strong>, not the decedent, if your process includes calls.</li>
+</ol>
+
+<h2 id="reports">Which reports matter?</h2>
+<ol>
+<li><strong>Probate pipeline by stage and case milestone</strong>: letters issued or not, creditor period over or not.</li>
+<li><strong>Case dates coming up in the next 30 days</strong>, so every milestone gets a call.</li>
+<li><strong>Cost per contract by probate list</strong>, by county and month.</li>
+<li><strong>Letter to conversation to contract</strong>, to see where probate deals drop out.</li>
+<li><strong>Probate deals by age</strong>, judged against your own history rather than your two-week wholesale deals.</li>
+</ol>
+</section>
+<section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>How do you track probate leads in a CRM?</h3><p>Link each property to the estate: the decedent, the personal representative, the attorney, the heirs and the case details, including county, case number, filing date and letters date. Keep probate deals in their own pipeline with follow-up tied to the case dates.</p></div><div class="cq"><h3>Who can sell a house in probate?</h3><p>The personal representative, called the executor when named in a will or the administrator when appointed by the court, once the court issues letters testamentary or letters of administration. Many states also require court approval or confirmation of the sale.</p></div><div class="cq"><h3>How long does a probate sale take?</h3><p>LegalZoom puts typical probate real estate sales at six to twelve months from the probate filing to closing, with simple estates sometimes closing in three or four months and complex ones taking eighteen months or more.</p></div><div class="cq"><h3>Are probate records public?</h3><p>Generally yes. Once a case is filed, the will, petition and inventory are usually part of the public record, available through the local probate court, and some counties put them online.</p></div><div class="cq"><h3>Should probate leads have their own pipeline in Salesforce?</h3><p>Yes. Probate deals wait on the court for months, so they trip normal aging alarms and need different stages, dates and follow-up. A separate record type or sales process keeps them visible without false alarms.</p></div><div class="cq"><h3>When should you first contact a probate lead?</h3><p>There's no rule that fits every family. I'd start with a letter to the personal representative rather than a call and give the family time. Whatever you decide, set it as a rule in Salesforce so every rep follows it.</p></div><div class="cq"><h3>How do you handle several heirs on one property?</h3><p>Link each heir to the deal with a contact role, track whether they agree, and keep the personal representative as the main contact, since they act for the estate.</p></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="salesforce-duplicate-sellers.html"><b>Duplicate sellers</b><span>One estate on three lists, matched before anyone mails it.</span></a><a href="dead-seller-leads-salesforce.html"><b>Reactivating dead seller leads</b><span>Consent, opt-outs and working old leads with care.</span></a><a href="seller-follow-up-cadence.html"><b>Follow-up cadence builder</b><span>Build a touch plan your team can follow.</span></a><a href="salesforce-lead-sources-real-estate.html"><b>Lead sources in Salesforce</b><span>How every source gets in and survives conversion.</span></a><a href="real-estate-lead-attribution.html"><b>Which campaign gets credit?</b><span>Cost per contract by list and campaign.</span></a><a href="salesforce-transaction-coordination-real-estate.html"><b>Transaction coordination</b><span>From contract to close, with the dates tracked.</span></a></div></section>
+<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Probate rules vary by state and change, so check with a probate attorney before you rely on any timing or requirement. Nothing here is legal advice.</p><ol class="src"><li><a href="https://legalzoom.com/articles/how-long-does-probate-take" rel="noopener" target="_blank">LegalZoom: How long does probate take?</a>. Typical durations, the steps, letters testamentary and creditor claim periods</li><li><a href="https://www.legalzoom.com/articles/buying-and-selling-probate-property" rel="noopener" target="_blank">LegalZoom: How to buy and sell probate property</a>. Who can sell, court approval and confirmation, overbids, and six to twelve months from filing to closing</li><li><a href="https://trustandwill.com/learn/are-probate-records-public" rel="noopener" target="_blank">Trust & Will: Are probate records public?</a>. What probate records contain and how the public can see them</li><li><a href="https://developer.salesforce.com/blogs/2021/03/schedule-your-path-in-salesforce-flow" rel="noopener" target="_blank">Salesforce Developers: Schedule your path in Salesforce Flow</a>. Tasks scheduled from a date field that move when the date changes</li></ol></section>
+<div class="cta"><h2>Working probate leads in Salesforce?</h2><p>I build Salesforce for investor teams. For probate, that means case records, contact roles, a pipeline that matches the court's timeline and follow-up driven by the case dates. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit (USD 1,500) if you're already on Salesforce.</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Probate%20deals%20run%20on%20the%20court%27s%20clock.%20Tracking%20probate%20leads%20in...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/probate-leads-salesforce.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Probate%20deals%20run%20on%20the%20court%27s%20clock.%20Tracking%20probate%20leads%20in...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+</div></main>
+
+
+<section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
+<img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<footer><div class="wrap-wide"><div class="fi">
+  <div>© 2026 <strong>Amr Magdy</strong>. Salesforce for real estate investors and wholesalers.</div>
+  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="salesforce-real-estate-faq.html">Salesforce FAQ</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="mailto:info@AmrMagdy.com">Email</a><a href="privacy.html">Privacy</a></div>
+</div></div></footer>
+<script>
+(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
+</script>
+
+<script src="booking.js" defer></script>
+</body>
+</html>
