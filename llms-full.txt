@@ -590,7 +590,7 @@ Check Dashboard Run Date for every dashboard in your org. If leadership dashboar
 List every platform that generates or stores lead and property data: website forms, Zillow, email marketing, transaction management software. How many are connected to Salesforce? Every unconnected platform is a data silo and a manual entry burden.
 5. Adoption Rate by User
 In Setup > Login History, look at login frequency per user. Users logging in fewer than 3 times per week are working around Salesforce. Any user below that threshold needs a conversation about why — and usually, the answer reveals a configuration problem, not a motivation problem.
-This 5-point framework is the same audit I use at Central City Solutions , where I built and run their Salesforce reporting. See the full case study →
+This 5-point framework is the same audit I use for a two-market home-buying company in Ohio, where I built and run their Salesforce reporting. See the full case study →
 The ROI Calculation
 Quantify the gap. An agent spending 2 hours per day on manual tasks that automation could handle represents 40 hours per month of recoverable capacity. If that agent closes 2 additional deals per month with that time, and your average commission is $8,000, that is $16,000 per month in recovered revenue from one configuration change.
 Getting an Outside Perspective
