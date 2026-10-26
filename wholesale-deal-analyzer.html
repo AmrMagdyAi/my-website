@@ -13,7 +13,7 @@
 <link rel="canonical" href="https://amrmagdy.com/wholesale-deal-analyzer.html">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
-<meta name="theme-color" content="#f7f4ee">
+<meta name="theme-color" content="#f7f4ef">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://amrmagdy.com/wholesale-deal-analyzer.html">
 <meta property="og:title" content="Does this wholesale deal work for you and your buyer?">
@@ -27,8 +27,6 @@
 <meta name="twitter:description" content="Free wholesale deal analyzer: maximum allowable offer, room under MAO at your contract price, the price to your buyer, and the buyer&#x27;s profit.">
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-wholesale-deal-analyzer.jpg">
 <link rel="stylesheet" href="styles.css">
-<link rel="preload" as="style" href="assets/fonts/fonts.css" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="assets/fonts/fonts.css"></noscript>
 <style>
 .pg{padding:calc(var(--nav) + 56px) 0 70px}
 .pg-w{max-width:1100px;margin:0 auto;padding:0 1.25rem}
@@ -41,33 +39,31 @@
 .fld input{width:100%;border:1.5px solid var(--bd2);border-radius:10px;padding:11px 12px;font:inherit;background:var(--bg);color:var(--txt)}
 .fld input:focus{outline:none;border-color:var(--sf)}
 .fld small{display:block;color:var(--txt3);font-size:.78rem;margin-top:4px}
-.big{font-family:'Fraunces',Georgia,serif;font-size:2.2rem;line-height:1.1;margin:4px 0 2px}
+.big{font-family:var(--f-head);font-size:2.2rem;line-height:1.1;margin:4px 0 2px}
 .kv{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid var(--bd);font-size:.93rem}
 .kv span:last-child{font-variant-numeric:tabular-nums;font-weight:600}
-.neg{color:#c0392b}.pos{color:var(--green)}
+.neg{color:var(--rose-ink)}.pos{color:var(--green)}
 .note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
 .btn-s{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:10px;padding:9px 14px;font:inherit;font-size:.88rem;cursor:pointer;margin-top:14px}
 .sec2{margin-top:44px;max-width:800px}
 .sec2 h2{font-size:1.5rem;margin-bottom:6px}
 .cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
-.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:40px}
-.cta h2{color:#fff;font-size:1.35rem;margin-bottom:8px}.cta p{color:#dbe4f0;line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.cta{background:var(--navy);color:var(--band-ink);border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:var(--band-ink);font-size:1.35rem;margin-bottom:8px}.cta p{color:var(--band-ink2);line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
 .tools{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px;margin-top:26px}
 .tool{display:block;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);transition:transform .15s,border-color .15s}
 .tool:hover{transform:translateY(-2px);border-color:var(--sf)}
 .tool .tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gold);font-weight:700}
 .tool h3{font-size:1.12rem;margin:6px 0 8px}.tool p{color:var(--txt2);font-size:.92rem;line-height:1.65}
 .m5{counter-reset:m}.m5 .card{position:relative;padding-left:76px}
-.m5 .card::before{counter-increment:m;content:counter(m);position:absolute;left:22px;top:20px;width:38px;height:38px;border-radius:10px;background:var(--navy);color:var(--gold2);display:flex;align-items:center;justify-content:center;font-family:'Fraunces',Georgia,serif;font-size:1.2rem}
+.m5 .card::before{counter-increment:m;content:counter(m);position:absolute;left:22px;top:20px;width:38px;height:38px;border-radius:10px;background:var(--navy);color:var(--gold2);display:flex;align-items:center;justify-content:center;font-family:var(--f-head);font-size:1.2rem}
 .m5 h3{font-size:1.15rem}.m5 .q{color:var(--txt3);font-style:italic;margin:2px 0 10px}
 .m5 dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:10px}.m5 dd{color:var(--txt2);line-height:1.7}
 .yn{display:flex;gap:8px;margin-top:12px}.yn button{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:999px;padding:6px 16px;font:inherit;font-size:.85rem;cursor:pointer}
-.yn button.on[data-v="1"]{background:var(--green);border-color:var(--green);color:#fff}.yn button.on[data-v="0"]{background:#c0392b;border-color:#c0392b;color:#fff}
+.yn button.on[data-v="1"]{background:var(--green);border-color:var(--green);color:var(--on-accent)}.yn button.on[data-v="0"]{background:var(--rose);border-color:var(--rose);color:var(--on-accent)}
 .gl dt{font-weight:700;margin-top:18px;font-size:1.02rem}.gl dd{color:var(--txt2);line-height:1.75;margin-top:4px}
 .gl dd em{color:var(--txt3);font-style:normal;font-size:.9rem}
 .az{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}.az a{border:1px solid var(--bd2);border-radius:8px;padding:4px 9px;font-size:.82rem}
-nav .nb,.logo{white-space:nowrap}
-@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}nav .nb.nb-call{margin-left:auto!important}}
 @media(max-width:760px){.grid2{grid-template-columns:1fr}.m5 .card{padding-left:22px;padding-top:70px}}
 
 .fld select{width:100%;border:1.5px solid var(--bd2);border-radius:10px;padding:11px 12px;font:inherit;background:var(--bg);color:var(--txt)}
@@ -77,19 +73,31 @@ nav .nb,.logo{white-space:nowrap}
 html.embed nav,html.embed footer,html.embed .mbar,html.embed .sec2,html.embed .cta,html.embed .embedbox,html.embed .eyebrow{display:none!important}
 html.embed .pg{padding-top:12px}
 .mbar{display:none}
-@media(max-width:760px){.mbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:20;justify-content:space-between;align-items:center;gap:10px;background:var(--navy);color:#fff;padding:12px 16px;font-size:.9rem;box-shadow:0 -6px 20px rgba(0,0,0,.15)}.mbar b{font-family:Fraunces,Georgia,serif;font-size:1.3rem;color:var(--gold2)}.mbar a{color:#dbe4f0;font-size:.8rem;text-decoration:underline}footer{padding-bottom:70px}}
+@media(max-width:760px){.mbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:20;justify-content:space-between;align-items:center;gap:10px;background:var(--navy);color:var(--band-ink);padding:12px 16px;font-size:.9rem;box-shadow:0 -6px 20px rgba(0,0,0,.15)}.mbar b{font-family:var(--f-head);font-size:1.3rem;color:var(--gold2)}.mbar a{color:var(--band-ink2);font-size:.8rem;text-decoration:underline}footer,.foot{padding-bottom:70px}}
 </style>
 <script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');if(location.search.indexOf('embed=1')>-1)document.documentElement.classList.add('embed');</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "name": "Wholesale Deal Analyzer", "url": "https://amrmagdy.com/wholesale-deal-analyzer.html", "applicationCategory": "FinanceApplication", "operatingSystem": "Any (browser)", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "datePublished": "2026-10-18", "dateModified": "2026-10-18", "description": "Free wholesale deal analyzer: maximum allowable offer, room under MAO at your contract price, the price to your cash buyer, and whether the deal still leaves the buyer a profit.", "audience": {"@type": "BusinessAudience", "audienceType": "Real estate investors and wholesalers"}, "areaServed": ["United States", "Canada", "United Kingdom", "Europe"], "author": {"@id": "https://amrmagdy.com/#person"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a good assignment fee?", "acceptedAnswer": {"@type": "Answer", "text": "There is no fixed number. The fee works when the buyer still has enough profit to take the deal. A useful check is the buyer's return on cost after your fee: if it drops below what active buyers in your market accept, the fee is too big for that deal."}}, {"@type": "Question", "name": "What is the 70% rule?", "acceptedAnswer": {"@type": "Answer", "text": "A rule of thumb that a buyer should pay no more than 70% of the after-repair value minus repairs. It leaves room for closing, holding and selling costs and the buyer's profit. It is a starting point, not a law: adjust the percentage to what buyers in your market actually pay."}}, {"@type": "Question", "name": "Why check the buyer's profit, not just my MAO?", "acceptedAnswer": {"@type": "Answer", "text": "Your MAO tells you what to offer the seller. The buyer's profit tells you whether the deal will sell. Deals that clear your MAO but leave the buyer a thin margin are the ones that sit, get renegotiated or fall out."}}, {"@type": "Question", "name": "Where should the ARV come from?", "acceptedAnswer": {"@type": "Answer", "text": "Recent sold comparables near the property with similar size, age and condition after repairs. Active listings and automated estimates are a cross-check, not the number."}}, {"@type": "Question", "name": "Can my CRM run this on every deal?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Put ARV, repairs, rule %, fee and contract price on the deal record as fields and the results as formula fields, so every rep makes offers from the same math and every lost deal shows why."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Free tools", "item": "https://amrmagdy.com/resources.html"}, {"@type": "ListItem", "position": 3, "name": "Wholesale Deal Analyzer", "item": "https://amrmagdy.com/wholesale-deal-analyzer.html"}]}]}</script>
 </head>
 <body>
-<nav><div class="wrap-wide"><div class="nav-in">
-  <a href="index.html" class="logo"><div class="logo-mark">A</div>Amr Magdy</a>
-  <a href="resources.html" class="nb hide-sm">Free tools</a>
-  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
-  <a href="index.html#contact" class="nb nb-call" style="margin-left:0">Book a free call</a>
-<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
-</div></div></nav>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="about.html">About</a>
+    <a href="./#services">Services</a>
+    <a href="./#cases">Proof</a>
+    <a href="resources.html">Free tools</a>
+    <a href="crm-revenue-audit.html">Revenue Audit</a>
+    <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
+  </nav>
+  <div class="top-act">
+    <button class="icon-btn theme" id="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+    </button>
+    <a class="btn sm ghost" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a>
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span class="bars" aria-hidden="true"></span><span class="txt">Menu</span></button>
+  </div>
+</div></header>
 
 <main class="pg"><div class="pg-w">
 <span class="eyebrow">Free tool · by Amr Magdy</span>
@@ -128,7 +136,7 @@ Buyer return on cost = buyer profit ÷ buyer all-in</div>
 </section>
 <section class="sec2 embedbox"><h2>Add this calculator to your site</h2><p class="note">Free to embed on your blog or investor site. Copy the code below.</p><textarea id="embed-code" readonly aria-label="Embed code"></textarea><button class="btn-s" id="embed-copy" type="button">Copy embed code</button></section>
 <div class="cta"><h2>Want these numbers on every deal in your CRM?</h2><p>I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).</p>
-<a href="index.html#contact" class="btn btn-gold">Book a free 30-minute call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><p style="margin:14px 0 0;font-size:.95rem;color:#c9d4e3">Already on Salesforce? <a href="sample-audit-report.html" style="color:#d4a23e;font-weight:700;text-decoration:underline">See a sample audit report</a>. On Podio, REsimpli or GoHighLevel? <a href="move-to-salesforce.html" style="color:#d4a23e;font-weight:700;text-decoration:underline">See how a move to Salesforce works</a>.</p><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Wholesale%20deal%20analyzer&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/wholesale-deal-analyzer.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Wholesale%20deal%20analyzer%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+<a href="index.html#contact" class="btn btn-gold">Book a free 30-minute call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><p style="margin:14px 0 0;font-size:.95rem;color:var(--band-ink2)">Already on Salesforce? <a href="sample-audit-report.html" style="color:var(--band-ink);font-weight:700;text-decoration:underline">See a sample audit report</a>. On Podio, REsimpli or GoHighLevel? <a href="move-to-salesforce.html" style="color:var(--band-ink);font-weight:700;text-decoration:underline">See how a move to Salesforce works</a>.</p><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Wholesale%20deal%20analyzer&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/wholesale-deal-analyzer.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Wholesale%20deal%20analyzer%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
 </div></main>
 <div class="mbar" aria-hidden="true"><span>Maximum allowable offer: <b id="mbar-v">—</b></span><a href="#hl">See details</a></div>
 
@@ -136,10 +144,41 @@ Buyer return on cost = buyer profit ÷ buyer all-in</div>
 <img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
 <div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
 <p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
-<footer><div class="wrap-wide"><div class="fi">
-  <div>© 2026 <strong>Amr Magdy</strong> &middot; Salesforce for real estate investors and wholesalers.</div>
-  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="crm-revenue-audit.html">Revenue Audit</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="mailto:info@AmrMagdy.com">Email</a><a href="privacy.html">Privacy</a></div>
-</div></div></footer>
+<footer class="foot"><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
+    <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
+      <li><a href="crm-revenue-audit.html">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report.html">Sample audit report</a></li>
+      <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
+      <li><a href="salesforce-health-check.html">Free health check</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
+      <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
+      <li><a href="wholesaling-mao-calculator.html">MAO calculator</a></li>
+      <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
+      <li><a href="resources.html">All free tools</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
+      <li><a href="real-estate-crm-guide.html">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers.html">Moving off Podio</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
+      <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
+      <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
+      <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate.html">Canada</a> · <a href="salesforce-consultant-uk-estate-agents.html">UK</a></li>
+      <li><a href="about.html">About me</a></li>
+      <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
+    </ul></nav>
+  </div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy.html">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+</div></footer>
 <script src="calc.js"></script>
 <script>(function(){var C=window.CALC;function compute(){
 var arv=C.num('arv'),rep=C.num('repairs'),rule=C.num('rule')/100,fee=C.num('fee'),off=C.num('offer'),bc=C.num('bcost')/100;
@@ -148,9 +187,7 @@ C.set('hl',C.money(mao),'big');C.set('r_room',C.money(room),room<0?'neg':'pos');
 C.set('r_broi',isFinite(broi)?C.pct(broi):'—');C.set('r_share',isFinite(share)?C.pct(share,0):'—');
 C.set('msg',mao<=0?'At these numbers there is no offer that works: the repairs and your fee use up the whole margin.':(room<0?'Your contract price is '+C.money(-room)+' over MAO. Either renegotiate, cut your fee, or expect buyers to pass.':(bp<=0?'The buyer loses money at ARV. Recheck the ARV and repairs before you market it.':'This deal works: '+C.money(room)+' of room under MAO and the buyer keeps '+C.money(bp)+' ('+C.pct(broi)+' on cost).')));
 }C.init('deal_analyzer',compute);})();</script>
-<script>
-(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
-</script>
+<script src="assets/chrome.js" defer></script>
 <script src="booking.js" defer></script>
 </body>
 </html>

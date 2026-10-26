@@ -13,7 +13,7 @@
 <link rel="canonical" href="https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html">
 <meta name="robots" content="index, follow">
 <link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
-<meta name="theme-color" content="#f7f4ee">
+<meta name="theme-color" content="#f7f4ef">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html">
 <meta property="og:title" content="Wholesaling Cost Per Deal Calculator — by lead source">
@@ -27,8 +27,6 @@
 <meta name="twitter:description" content="Cost per lead, per contract, per closed deal and ROI for each marketing channel. Free, no sign-up.">
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
 <link rel="stylesheet" href="styles.css">
-<link rel="preload" as="style" href="assets/fonts/fonts.css" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="assets/fonts/fonts.css"></noscript>
 <style>
 .cx{padding:calc(var(--nav) + 56px) 0 70px}
 .cx-w{max-width:1100px;margin:0 auto;padding:0 1.25rem}
@@ -44,26 +42,38 @@
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
 .res td,.res th{white-space:nowrap}
 .num{text-align:right;font-variant-numeric:tabular-nums}
-.best{color:var(--green);font-weight:700} .worst{color:#c0392b;font-weight:700}
+.best{color:var(--green);font-weight:700} .worst{color:var(--rose-ink);font-weight:700}
 .tot td{font-weight:700}
 .note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
 .acts{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
 .btn-s{border:1.5px solid var(--bd2);background:var(--bg);color:var(--txt);border-radius:10px;padding:9px 14px;font:inherit;font-size:.88rem;cursor:pointer}
 .cq{margin-top:22px} .cq h3{font-size:1.05rem;margin-bottom:6px} .cq p{color:var(--txt2);line-height:1.75}
-.cta{background:var(--navy);color:#fff;border-radius:18px;padding:26px;margin-top:34px}
-.cta h2{color:#fff;font-size:1.35rem;margin-bottom:8px} .cta p{color:#dbe4f0;line-height:1.7} .cta a.btn{margin-top:14px;margin-right:8px}
-nav .nb,.logo{white-space:nowrap}
-@media(max-width:520px){nav .nb{padding:7px 11px;font-size:.78rem}.logo{font-size:.98rem;gap:7px}.logo-mark{width:30px;height:30px}.nav-in{gap:7px}nav .nb.hide-sm{display:none}nav .nb.nb-call{margin-left:auto!important}}
+.cta{background:var(--navy);color:var(--band-ink);border-radius:18px;padding:26px;margin-top:34px}
+.cta h2{color:var(--band-ink);font-size:1.35rem;margin-bottom:8px} .cta p{color:var(--band-ink2);line-height:1.7} .cta a.btn{margin-top:14px;margin-right:8px}
 </style>
 <script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "dateModified": "2026-10-17", "name": "Wholesaling Cost Per Deal Calculator", "url": "https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html", "applicationCategory": "BusinessApplication", "operatingSystem": "Any (browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "description": "Free calculator for real estate wholesalers and investors: enter spend, leads, contracts and closings per marketing channel to see cost per lead, cost per contract, cost per deal and ROI by lead source.", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do you calculate cost per deal in wholesaling?", "acceptedAnswer": {"@type": "Answer", "text": "Divide the total marketing spend for a channel by the number of deals that closed from that channel in the same period. Example: $6,000 on direct mail that produced 2 closed deals is a $3,000 cost per deal."}}, {"@type": "Question", "name": "What is the difference between cost per contract and cost per deal?", "acceptedAnswer": {"@type": "Answer", "text": "Cost per contract divides spend by signed purchase contracts. Cost per deal divides spend by closed (funded) deals. The gap between them shows how many contracts fall out before closing."}}, {"@type": "Question", "name": "How do you calculate marketing ROI per lead source?", "acceptedAnswer": {"@type": "Answer", "text": "ROI = (gross profit from closed deals − marketing spend) ÷ marketing spend. A channel with $20,000 of assignment fees on $5,000 of spend has a 300% ROI."}}, {"@type": "Question", "name": "Where should these numbers come from?", "acceptedAnswer": {"@type": "Answer", "text": "From your CRM. Every lead needs a lead source, every contract and closed deal needs to be linked to the original lead, and spend needs to be logged per channel per month. If any link is missing, the numbers are guesses."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Cost Per Deal Calculator", "item": "https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html"}]}]}</script>
 </head>
 <body>
-  <a href="resources.html" class="nb hide-sm">Free tools</a>
-  <a href="videos.html" class="nb hide-sm" style="margin-left:0">Videos</a>
-  <a href="index.html#contact" class="nb nb-call" style="margin-left:0">Book a free call</a>
-<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"><svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button>
-</div></div></nav>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="about.html">About</a>
+    <a href="./#services">Services</a>
+    <a href="./#cases">Proof</a>
+    <a href="resources.html">Free tools</a>
+    <a href="crm-revenue-audit.html">Revenue Audit</a>
+    <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
+  </nav>
+  <div class="top-act">
+    <button class="icon-btn theme" id="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+    </button>
+    <a class="btn sm ghost" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a>
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span class="bars" aria-hidden="true"></span><span class="txt">Menu</span></button>
+  </div>
+</div></header>
 
 <main class="cx"><div class="cx-w">
   <span class="eyebrow">Free tool · no sign-up · works on your phone</span>
@@ -100,18 +110,51 @@ nav .nb,.logo{white-space:nowrap}
   <div class="cta">
     <h2>Want these numbers live in your CRM every Monday?</h2>
     <p>I build Salesforce for real estate investors and wholesalers so cost per deal by source updates on its own. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit (USD 1,500).</p>
-    <a href="index.html#contact" class="btn btn-gold">Book a free 30-minute call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><p style="margin:14px 0 0;font-size:.95rem;color:#c9d4e3">Already on Salesforce? <a href="sample-audit-report.html" style="color:#d4a23e;font-weight:700;text-decoration:underline">See a sample audit report</a>. On Podio, REsimpli or GoHighLevel? <a href="move-to-salesforce.html" style="color:#d4a23e;font-weight:700;text-decoration:underline">See how a move to Salesforce works</a>.</p>
-  <!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:#c9d4e3">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Wholesaling%20cost%20per%20deal%2C%20by%20lead%20source&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/wholesaling-cost-per-deal-calculator.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Wholesaling%20cost%20per%20deal%2C%20by%20lead%20source%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:#d4a23e;font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+    <a href="index.html#contact" class="btn btn-gold">Book a free 30-minute call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><p style="margin:14px 0 0;font-size:.95rem;color:var(--band-ink2)">Already on Salesforce? <a href="sample-audit-report.html" style="color:var(--band-ink);font-weight:700;text-decoration:underline">See a sample audit report</a>. On Podio, REsimpli or GoHighLevel? <a href="move-to-salesforce.html" style="color:var(--band-ink);font-weight:700;text-decoration:underline">See how a move to Salesforce works</a>.</p>
+  <!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Wholesaling%20cost%20per%20deal%2C%20by%20lead%20source&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/wholesaling-cost-per-deal-calculator.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Wholesaling%20cost%20per%20deal%2C%20by%20lead%20source%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
 </div></main>
 
 <section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
 <img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
 <div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
 <p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
-<footer><div class="wrap-wide"><div class="fi">
-  <div>© 2026 <strong>Amr Magdy</strong> &middot; Salesforce for real estate investors and wholesalers.</div>
-  <div class="fl"><a href="index.html">Home</a><a href="resources.html">Free tools</a><a href="videos.html">Videos</a><a href="questions-from-wholesalers.html">Questions</a><a href="real-estate-crm-guide.html">CRM guide</a><a href="crm-field-kit.html">Field kit</a><a href="blog.html">Blog</a><a href="salesforce-health-check.html">Health Check</a><a href="mailto:info@AmrMagdy.com">Email</a><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a><a href="salesforce-consultant-canada-real-estate.html">Canada</a><a href="salesforce-consultant-uk-estate-agents.html">UK</a><a href="privacy.html">Privacy</a></div>
-</div></div></footer>
+<footer class="foot"><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
+    <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
+      <li><a href="crm-revenue-audit.html">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report.html">Sample audit report</a></li>
+      <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
+      <li><a href="salesforce-health-check.html">Free health check</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
+      <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator.html" aria-current="page">Cost per deal calculator</a></li>
+      <li><a href="wholesaling-mao-calculator.html">MAO calculator</a></li>
+      <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
+      <li><a href="resources.html">All free tools</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
+      <li><a href="real-estate-crm-guide.html">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers.html">Moving off Podio</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
+      <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
+      <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
+      <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate.html">Canada</a> · <a href="salesforce-consultant-uk-estate-agents.html">UK</a></li>
+      <li><a href="about.html">About me</a></li>
+      <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
+    </ul></nav>
+  </div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy.html">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+</div></footer>
+
+<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="crm-revenue-audit.html">$1,500 audit</a><a class="g" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></div>
 
 <script>
 (function(){
@@ -146,9 +189,7 @@ document.getElementById('ex').onclick=function(){tb.innerHTML='';[{name:'Direct 
 calc();
 })();
 </script>
-<script>
-(function(){var r=document.documentElement,b=document.getElementById('theme-toggle');if(b)b.addEventListener('click',function(){var d=r.getAttribute('data-theme')==='dark';if(d){r.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{r.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}});})();
-</script>
+<script src="assets/chrome.js" defer></script>
 <script src="booking.js" defer></script>
 </body>
 </html>
