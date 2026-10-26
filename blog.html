@@ -172,8 +172,8 @@
 <h2 style="margin:0 0 8px;color:#fff;font-size:1.45rem;line-height:1.25">Ask me how this would work in your CRM.</h2>
 <p style="margin:0 0 18px;color:#c9d4e3;line-height:1.55">Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.</p>
 <div style="display:flex;flex-wrap:wrap;gap:10px">
-<a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20CRM%20Insights%20forReal%20Estate%20Companies&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="background:#d4a23e;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">Email a question</a>
-<a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22CRM%20Insights%20forReal%20Estate%20Companies%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="background:#fff;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">WhatsApp</a>
+<a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20CRM%20Insights%20for%20Real%20Estate%20Companies&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="background:#d4a23e;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">Email a question</a>
+<a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22CRM%20Insights%20for%20Real%20Estate%20Companies%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="background:#fff;color:#0b1f3a;font-weight:700;text-decoration:none;padding:11px 18px;border-radius:999px">WhatsApp</a>
 <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="background:transparent;color:#fff;font-weight:700;text-decoration:none;padding:10px 17px;border-radius:999px;border:1.5px solid #5d7393">Message on LinkedIn</a>
 <a href="index.html#contact" onclick="if(window.gtag)gtag('event','contact_click',{method:'call_request',page_path:location.pathname})" style="background:transparent;color:#fff;font-weight:700;text-decoration:none;padding:10px 17px;border-radius:999px;border:1.5px solid #5d7393">Request a free call</a>
 </div></div></section>
@@ -201,16 +201,31 @@
   }
   var nf = document.getElementById('nl-form'), ns = document.getElementById('nl-status');
   if(nf && ns){
+    /* a failed signup says so and offers email, instead of showing "You're in" */
+    var nlFail = function(){
+      ns.style.color = 'var(--txt)'; ns.textContent = 'That didn\'t go through. Please ';
+      var a = document.createElement('a');
+      a.href = 'mailto:info@AmrMagdy.com?subject=' + encodeURIComponent('Newsletter signup') + '&body=' + encodeURIComponent('Please add ' + (nf.email.value || 'me') + ' to the guide emails.');
+      a.textContent = 'email me to sign up'; a.style.color = 'inherit';
+      /* counted as a newsletter lead, not as a plain email click from the page-wide listener */
+      a.addEventListener('click', function(e){ e.stopPropagation(); if(window.gtag) gtag('event','generate_lead',{method:'form_mailto',form:'newsletter',page_path:location.pathname}); });
+      ns.appendChild(a); ns.appendChild(document.createTextNode('.'));
+    };
     nf.addEventListener('submit', function(e){
       e.preventDefault();
+      var fd = new FormData(nf);
+      /* the hidden field is filled: a bot, or an autofill tool */
+      if(fd.get('website')){ nlFail(); return; }
+      fd.delete('website');
       ns.style.color = '#475569'; ns.textContent = 'Subscribing…';
-      fetch('https://api.web3forms.com/submit', {method:'POST', headers:{'Accept':'application/json'}, body:new FormData(nf)})
+      fetch('https://api.web3forms.com/submit', {method:'POST', headers:{'Accept':'application/json'}, body:fd})
         .then(function(r){ return r.json(); })
         .then(function(d){
-          if(d && d.success && window.gtag) gtag('event','generate_lead',{method:'form',form:'newsletter',page_path:location.pathname});
+          if(!(d && d.success)) throw new Error('send');
+          if(window.gtag) gtag('event','generate_lead',{method:'form',form:'newsletter',page_path:location.pathname});
           ns.style.color = '#1f8a4c'; ns.textContent = 'You\'re in! First guide coming soon.'; nf.reset();
         })
-        .catch(function(){ ns.style.color = '#1f8a4c'; ns.textContent = 'You\'re in! First guide coming soon.'; nf.reset(); });
+        .catch(nlFail);
     });
   }
 })();
