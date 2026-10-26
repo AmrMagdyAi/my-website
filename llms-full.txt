@@ -1159,7 +1159,7 @@ Cost per lead | Spend ÷ new leads, by campaign | Campaign report with a summary
 Cost per appointment | Spend ÷ appointments set from that campaign's leads | Appointments counted by original source and campaign
 Cost per contract | Spend ÷ contracts signed from that campaign | Source copied from the lead to the deal and locked
 Cost per closed deal | Spend ÷ deals that actually closed, cancellations left out | Closed deals by original campaign
-ROI on kept deals | (Profit from closed deals + value of properties you kept − spend) ÷ spend | Final profit on each closed deal, and a flag for kept properties with a value
+ROI on kept deals | (Profit from closed deals + equity in houses you kept − spend) ÷ spend | Final profit on each closed deal, and a kept flag with an equity value (after-repair value minus all-in cost)
 Cost per lead is the most quoted and the least useful on its own. A cheap lead that never answers costs more than an expensive one that signs. Judge channels on cost per appointment and cost per contract, and settle budgets on ROI. Which campaign gets credit when a seller responds to several is its own question, covered in lead attribution for investors .
 First contact: lead manager and cold callers
 KPI | Definition | In Salesforce
@@ -1194,10 +1194,10 @@ Files missing a key date | Deals under contract without an inspection deadline, 
 Cancellation reasons by source are worth a look every quarter. A campaign that produces contracts which keep falling apart is more expensive than its cost per contract says.
 Owner and finance KPIs
 Profit on closed deals , by campaign and by market.
-Booked revenue against forecast: the profit expected when each deal went under contract, next to what it actually closed for. A gap that grows means underwriting or renegotiation needs attention.
+Booked revenue against forecast: the profit expected when each deal went under contract, next to the profit actually kept at closing. A gap that grows means underwriting or renegotiation needs attention.
 Deals closed per month , by market.
 Profit per acquisitions rep , over a quarter rather than a week.
-For the Monday meeting, the short version is the Monday 5 : cost per appointment by campaign, contracts per campaign, contract to first seller call, booked revenue against forecast, and ROI that counts the deals you keep.
+For the Monday meeting, the short version is the Monday 5 : cost per appointment by campaign, contracts per campaign, contract to first seller call, booked vs. kept profit, and campaign ROI that includes the houses you keep.
 How do you tie KPIs to your accounting?
 Salesforce isn't accounting software, and it shouldn't try to be. The CRM should know what each deal was expected to make and what it actually made. The books hold the money. Two connections keep the KPIs honest:
 Spend by campaign, every month , entered from the books or synced from them.
@@ -1975,8 +1975,8 @@ The five numbers to look at every Monday and the exact fields each one reads fro
 Cost per appointment, by campaign
 Contracts per campaign
 Contract to first seller call
-Booked revenue, forecast vs. actual
-ROI that counts the deals you keep
+Booked vs. kept profit
+Campaign ROI, including the houses you keep
 The Monday 5 → The Kept-Deal Map →
 Questions
 Is it really free? Do I need to give my email?
@@ -1986,7 +1986,7 @@ No. Every field and rule has a plain-English version for any CRM, including REsi
 Where should I start if I can only do one thing?
 Make Lead Source required before a lead leaves New, and make Next Task Date required on every open lead. Those two fields fix the most common leaks: not knowing which marketing pays, and leads nobody follows up.
 Why these fields and not others?
-Each one exists so a specific weekly number can be counted: cost per appointment by campaign, contracts per campaign, time from contract to first seller call, booked versus closed revenue, and ROI on kept deals.
+Each one exists so a specific weekly number can be counted: cost per appointment by campaign, contracts per campaign, time from contract to first seller call, booked vs. kept profit, and campaign ROI including the houses you keep.
 On Salesforce and want it checked in your own org? Here's what the audit covers , or see a sample report . On another CRM? See how a move to Salesforce works .
 See also: the wholesaling CRM checklist , stage by stage.
 
@@ -3078,50 +3078,35 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/monday-5-real-estate-kpis.html
 
 The Monday 5: five numbers to see before the week starts.
-Every Monday an investor team decides where money goes. These five numbers turn those decisions from memory into data. Answer the self-check on each card: every "No" is a decision being made without data.
+For teams that buy houses and pay for their own seller marketing. You know what these numbers mean for your business, so this page sticks to the Salesforce side: what each one needs so it's on one dashboard Monday morning, without a spreadsheet.
 Cost per appointment, by campaign
-Which channel is actually worth the money?
-Formula
+What it is
 Campaign spend ÷ appointments set from that campaign's leads.
-Look for
-Compare channels side by side (mail, PPC, cold calling, texting). Lead volume alone hides the real price.
 In Salesforce
-Campaign cost on the campaign, appointments counted from lead and opportunity records by source.
+Actual Cost on each campaign, an Appointment Set Date on the lead, and one report grouped by campaign.
 Contracts per campaign
-Where do signed deals really come from?
-Formula
-Signed contracts traced back to the original lead source and campaign.
-Look for
-Channels with fewer leads but more contracts. Make sure repeat sellers keep their first source.
+What it is
+Signed contracts, counted by the campaign the seller first came from.
 In Salesforce
-Source carried from lead to opportunity to transaction, and locked so it can't be changed by accident.
+The campaign copied from lead to deal and locked once the contract is signed, so a repeat seller keeps the first source.
 Contract to first seller call
-Are we keeping deals warm until closing?
-Formula
-Hours between “under contract” and the first logged call to the seller.
-Look for
-Deals where nobody called the seller for days. That's where cancellations start.
+What it is
+Hours from “under contract” to the first logged call with the seller.
 In Salesforce
-A date stamp at contract, the first logged call after it, and a scorecard by rep.
-Booked revenue, forecast vs. actual
-What did we book, and how close was the forecast?
-Formula
-Expected profit when a deal goes under contract, compared with what it actually closed for.
-Look for
-A gap that grows over time means underwriting or renegotiation needs attention.
+A Contract Signed Date, a small flow that stamps the first completed call after it, and a list of signed deals with no call yet.
+Booked vs. kept profit
+What it is
+The profit expected when a deal went under contract, next to the profit kept at closing.
 In Salesforce
-Booked revenue by week and month, plus the original contract price locked at signing.
-ROI that counts the deals you keep
-Is our best channel being undercounted?
-Formula
-(Profit from closed deals + value of kept properties − campaign spend) ÷ campaign spend.
-Look for
-Rentals and deals closed outside the usual flow. Leave them out and your best channel looks average.
+Expected profit locked at signing, kept profit entered at closing, and a fall-out reason on every deal that didn't close.
+Campaign ROI, including the houses you keep
+What it is
+(Kept profit + equity in houses you kept − campaign spend) ÷ campaign spend.
 In Salesforce
-A flag for kept or off-book deals with a profit value, included in campaign ROI.
+A “kept” flag and an equity value on the deal (after-repair value minus all-in cost), counted in each campaign's ROI.
 Questions
 What are the most important KPIs for a real estate wholesaling business?
-The Monday 5: cost per appointment by campaign, contracts per campaign, time from contract to first seller call, booked revenue forecast vs. actual, and ROI that includes kept deals. Together they show where marketing money works and where deals leak.
+The Monday 5: cost per appointment by campaign, contracts per campaign, time from contract to first seller call, booked vs. kept profit, and campaign ROI that includes the houses you keep.
 Why cost per appointment instead of cost per lead?
 Lead counts include wrong numbers, tire-kickers and duplicates. An appointment means a real seller conversation, so cost per appointment is much closer to what a channel actually costs you.
 Can I track these without Salesforce?
@@ -3903,7 +3888,7 @@ E-signature | Contracts on the deal | DocuSign
 Accounting | Fees invoiced and collected, reportable | QuickBooks
 Everything else | Email, files, Slack, maps, scheduling | All integrations
 Which numbers should an investor review every week?
-Five is enough to run the business: new leads by source, speed to first contact, offers made, contracts signed, and cost per kept deal. Fall-outs come out of the count. Details and formulas: the Monday 5 · KPIs in Salesforce · pipeline dashboard · kept deal map .
+Five is enough to run the business: new leads by source, speed to first contact, offers made, contracts signed, and cost per kept deal. Fall-outs come out of the count. More on weekly numbers: the Monday 5 · KPIs in Salesforce · pipeline dashboard · kept deal map .
 Calculators: cost per deal · MAO · deal analyzer · team capacity · missed call cost .
 AI on top of the CRM: Salesforce AI and Agentforce for investors .
 What compliance rules affect an investor’s CRM?
@@ -4024,7 +4009,7 @@ This lets you answer two different questions without arguing: which campaigns st
 Returning sellers also need to land with the right person. See duplicate sellers in Salesforce for how matching and routing handle that.
 The reports that matter
 Cost per appointment and cost per contract by campaign , using the original source. This is the budget report.
-ROI on kept deals. Profit from deals that actually closed, plus the value of any property you kept as a rental, minus spend, divided by spend, by campaign. Contracts that fell apart don't count. This is the last of my Monday 5 numbers, and it's the one I'd look at before changing a budget.
+ROI on kept deals. Profit from deals that actually closed, plus the equity in any house you kept as a rental (after-repair value minus all-in cost), minus spend, divided by spend, by campaign. Contracts that fell apart don't count. This is the last of my Monday 5 numbers, and it's the one I'd look at before changing a budget.
 Deals by latest source , next to deals by original source, to see what brings sellers back.
 Re-engaged deals by campaign , so follow-up spend gets credit.
 Deals with no source , which should be an empty report. If it isn't, fix it before you trust anything above.
@@ -4853,7 +4838,7 @@ Province on everything. Every lead, deal and campaign carries its province, with
 Time zones. Canada spans six of them. Route leads by province, and set callback due times and calling windows in the seller's local time.
 Assignment and wholesaling rules. They differ by province, and some have changed recently. Track the province on every deal, record any disclosure or deadline your lawyer says applies, and report on deals missing it. The approach is the same one I describe for US states in tracking wholesaling rules in your CRM .
 BRRRR investors: count the properties you keep
-If you run BRRRR and keep properties as rentals, an ROI report that only counts assignment fees makes the campaigns that found your rentals look worse than they are. The ROI in my Monday 5 adds the value of kept properties for exactly this reason. Flag kept deals, give each one a value, and include them in campaign ROI. The BRRRR calculator and the rental yield and cap rate calculator both work in CAD.
+If you run BRRRR and keep properties as rentals, an ROI report that only counts assignment fees makes the campaigns that found your rentals look worse than they are. The ROI in my Monday 5 adds the equity in the houses you keep for exactly this reason. Flag kept deals, give each one an equity value (after-repair value minus all-in cost), and include them in campaign ROI. The BRRRR calculator and the rental yield and cap rate calculator both work in CAD.
 How working together works
 Already on Salesforce? Start with the fixed-price CRM Revenue Audit (USD 1,500), on the same terms as for US teams, including the refund if it doesn't find at least five fixable issues worth more than the fee.
 On Podio, REsimpli, GoHighLevel or spreadsheets? The audit isn't for you. The next step is a free call about a move to Salesforce , and the free CRM field kit works in any CRM in the meantime.
@@ -6413,7 +6398,7 @@ Can I track assignment fees and net profit per deal?
 Yes. Record the assignment fee or resale price and the deal's costs on the closing record, then roll profit back to the campaign that produced the lead, so ROI counts only the deals that actually closed. See financial analytics in Salesforce .
 Reports and numbers
 What numbers should a wholesaling owner check every week?
-I recommend five, which I call the Monday 5: cost per appointment by campaign, contracts per campaign, hours from contract to the first call back to the seller, booked revenue forecast against actual, and ROI that counts only the deals you keep. See the Monday 5 .
+I recommend five, which I call the Monday 5: cost per appointment by campaign, contracts per campaign, hours from contract to the first call back to the seller, booked vs. kept profit, and campaign ROI that includes the houses you keep. See the Monday 5 .
 How do I see cost per contract by campaign in Salesforce?
 Every lead needs a campaign or source, every campaign needs its monthly spend, and every deal needs a contract date. Then a report divides spend by contracts for each campaign. If source is blank on deals, check that your custom lead fields are mapped on conversion.
 Why don't our Salesforce numbers match QuickBooks?
@@ -7078,7 +7063,7 @@ Number | Report type | Filter | Grouped by
 Cost per appointment by campaign | Campaigns with Opportunities | Appointment date this month | Campaign
 Contracts per campaign | Opportunities with Campaign | Stage reached “Under Contract” | Campaign, market
 Time from contract to first seller call | Opportunities with Activities | Contract date last 30 days | Acquisitions rep
-The full spec also covers booked revenue against actual and ROI on kept deals only.
+The full spec also covers booked vs. kept profit and campaign ROI, including the houses you keep.
 5. Three quick fixes, done during the audit
 Repaired the missed-call alert so the lead manager gets a text and a task within minutes.
 Added an automatic follow-up task, owned by the rep, the moment a deal moves to “Offer Made”.
