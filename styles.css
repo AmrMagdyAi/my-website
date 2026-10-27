@@ -282,3 +282,14 @@ main.pg{isolation:isolate;overflow-x:clip;padding-top:0}
 .band-h .obj .bdg svg{width:50px;height:50px;color:#fff}
 .band-h .obj.r{--og:rgba(180,80,79,.38);--bg-c:#b4504f}
 @media (max-width:760px){.band-h{grid-template-columns:minmax(0,1fr);padding:36px 0 44px;margin-bottom:28px}.band-h .obj{display:none}}
+
+/* old blog articles (.ah hero) and the sample report: same dark band, no object */
+div.ah{position:relative;isolation:isolate;color:#f7f4ef;border-bottom:0;padding-bottom:64px;background-color:#22201d;background-image:radial-gradient(520px 420px at 8% 100%,rgba(79,196,182,.16),transparent 70%),radial-gradient(560px 460px at 96% 0,rgba(155,93,93,.30),transparent 70%),radial-gradient(rgba(247,244,239,.07) 1px,transparent 1.2px);background-size:auto,auto,22px 22px}
+div.ah::after{content:"";position:absolute;left:0;right:0;bottom:0;height:6px;background:linear-gradient(90deg,#9b5d5d 50%,#0f766e 50%)}
+div.ah .ttl{color:#f7f4ef}
+div.ah .tag{color:#cfc8bd;background:transparent;border-color:rgba(247,244,239,.42)}
+div.ah .meta,div.ah .meta .mi{color:#cfc8bd}
+div.ah .meta-a,div.ah .meta-a a{color:#f7f4ef!important}
+div.ah .meta .sep{background:rgba(247,244,239,.3)}
+main.tm:has(.band-h){isolation:isolate;padding-top:0}
+body:has(main.tm .band-h){overflow-x:clip}
