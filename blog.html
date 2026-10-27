@@ -99,8 +99,8 @@
   <span class="eyebrow">Salesforce &times; Real Estate</span>
   <h1>CRM Insights for<br><span>Real Estate Companies</span></h1>
   <p>Practical Salesforce guides written from hands-on experience with US real estate companies — automation, dashboards, lead routing, investor CRM, and more.</p>
-  <div class="author"><img src="imgs/AmrMagdyPic.webp" width="44" height="44" alt="Amr Magdy" loading="lazy"><span>By <strong>Amr Magdy</strong> &middot; Salesforce consultant for real estate investors &middot; 42 articles</span></div>
-  <div class="bsearch"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search" id="bsearch" placeholder="Search 42 articles… (e.g. lead routing, Zapier, ROI)" aria-label="Search articles"></div>
+  <div class="author"><img src="imgs/AmrMagdyPic.webp" width="44" height="44" alt="Amr Magdy" loading="lazy"><span>By <strong>Amr Magdy</strong> &middot; Salesforce consultant for real estate investors &middot; <span data-count>41</span> articles</span></div>
+  <div class="bsearch"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><input type="search" id="bsearch" placeholder="Search 41 articles… (e.g. lead routing, Zapier, ROI)" aria-label="Search articles"></div>
 </div></div>
 
 <div class="grid-section"><div class="wrap-wide">
@@ -240,6 +240,9 @@
   var inp = document.getElementById('bsearch');
   if(inp){
     var cards = Array.prototype.slice.call(document.querySelectorAll('.ac'));
+    /* the count follows the cards, so a merged or new post can't leave it wrong */
+    inp.placeholder = inp.placeholder.replace(/\d+ articles/, cards.length + ' articles');
+    document.querySelectorAll('[data-count]').forEach(function(s){ s.textContent = cards.length; });
     var labels = Array.prototype.slice.call(document.querySelectorAll('.section-label'));
     inp.addEventListener('input', function(){
       var q = inp.value.trim().toLowerCase();
