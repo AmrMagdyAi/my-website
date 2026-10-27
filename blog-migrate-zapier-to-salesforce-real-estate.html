@@ -14,7 +14,7 @@
 <link rel="icon" href="imgs/fav.svg" type="image/svg+xml">
 <meta name="theme-color" content="#f7f4ef">
 <meta property="og:title" content="Zapier to Salesforce Flow: What to Move First">
-<meta property="og:description" content="A real estate company was hitting Zapier API limits monthly and paying for both platforms. Here's how we moved our Zapier automations to native Salesforce Flows — reducing costs, improving reliability, and unlocking capabilities Zapier couldn't provide.">
+<meta property="og:description" content="A home-buying team was hitting Zapier API limits every month and paying for both platforms. Here's how I moved its Zapier automations to native Salesforce Flows, cutting costs, improving reliability and adding what Zapier couldn't do.">
 <meta property="og:url" content="https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://amrmagdy.com/imgs/og-card.jpg">
@@ -24,9 +24,9 @@
 <meta property="og:site_name" content="Amr Magdy">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Zapier to Salesforce Flow: What to Move First">
-<meta name="twitter:description" content="A real estate company was hitting Zapier API limits monthly and paying for both platforms. Here's how we moved our Zapier automations to native Salesforce Flows — reducing costs, improving reliability, and unlocking capabilities Zapier couldn't provide.">
+<meta name="twitter:description" content="A home-buying team was hitting Zapier API limits every month and paying for both platforms. Here's how I moved its Zapier automations to native Salesforce Flows, cutting costs, improving reliability and adding what Zapier couldn't do.">
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "How We Moved Our Zapier Automations to Native Salesforce (And Why You Should Too)", "description": "A real estate company was hitting Zapier API limits monthly and paying for both platforms. Here's how we moved our Zapier automations to native Salesforce Flows — reducing costs, improving reliability, and unlocking capabilities Zapier couldn't provide.", "url": "https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html", "datePublished": "2025-05-28", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "publisher": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "image": "https://amrmagdy.com/imgs/AmrMagdyPic.webp", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html"}, "keywords": "migrate Zapier to Salesforce real estate, replace Zapier with Salesforce Flows, Salesforce Flow vs Zapier, real estate automation migration", "wordCount": 1400, "articleSection": "Case Studies", "dateModified": "2026-10-11"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "How I moved a home-buying team's Zapier automations to native Salesforce", "description": "A home-buying team was hitting Zapier API limits every month and paying for both platforms. Here's how I moved its Zapier automations to native Salesforce Flows, cutting costs, improving reliability and adding what Zapier couldn't do.", "url": "https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html", "datePublished": "2025-05-28", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "publisher": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "image": "https://amrmagdy.com/imgs/AmrMagdyPic.webp", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html"}, "keywords": "migrate Zapier to Salesforce real estate, replace Zapier with Salesforce Flows, Salesforce Flow vs Zapier, real estate automation migration", "wordCount": 1400, "articleSection": "Case Studies", "dateModified": "2026-10-27"}</script>
 <link rel="stylesheet" href="styles.css">
 <style>
 /* Page-specific styles — shared tokens live in styles.css */
@@ -53,6 +53,7 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 .article-cta{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:34px 38px;margin-top:60px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;box-shadow:var(--sh-sm)}
 .article-cta h3{font-size:1.15rem;margin-bottom:7px}
 .article-cta p{font-size:.88rem;color:var(--txt2);line-height:1.7;max-width:380px;margin:0}
+.article-cta p a{color:var(--sf);font-weight:600;text-decoration:underline;text-underline-offset:2px}
 .rel{padding:60px 0;border-top:1px solid var(--bd)}
 .rel h2{font-size:1.25rem;margin-bottom:24px}
 .rel-g{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
@@ -68,17 +69,7 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 }
 @media(max-width:480px){.sr{grid-template-columns:1fr}}
 </style>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type":"ListItem","position":1,"name":"Home","item":"https://amrmagdy.com/"},
-    {"@type":"ListItem","position":2,"name":"Blog","item":"https://amrmagdy.com/blog.html"},
-    {"@type":"ListItem","position":3,"name":"Migrate from Zapier to Native Salesforce Automation","item":"https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html"}
-  ]
-}
-</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://amrmagdy.com/blog.html"}, {"@type": "ListItem", "position": 3, "name": "Migrate from Zapier to Native Salesforce Automation", "item": "https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html"}]}</script>
 <script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
 </head><body>
 <header class="top"><div class="wrap">
@@ -102,7 +93,7 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 </div></header>
 <div class="ah"><div class="wrap">
   <span class="tag st">Automation Migration</span>
-  <h1 class="ttl">How We Moved Our Zapier Automations to Native Salesforce (And Why You Should Too)</h1>
+  <h1 class="ttl">How I moved a home-buying team&rsquo;s Zapier automations to native Salesforce</h1>
   <div class="meta">
     <div class="meta-a"><img src="imgs/AmrMagdyPic.webp" width="44" height="44" alt="Amr Magdy" loading="lazy"><a href="about.html" rel="author" style="color:inherit">Amr Magdy</a></div>
     <span class="sep"></span><span class="mi">May 2025 &middot; 8 min read</span>
@@ -130,7 +121,7 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 <div class="co co-case"><p>I migrated their Zaps to native Flows at <strong>Central City Solutions</strong> — the founder called the work &ldquo;drastic improvements&rdquo; in a written referral. <a href="index.html#cases" style="color:var(--sf);font-weight:700">See the full case study →</a></p></div>
 <h2>The Migration Process</h2>
 <h3>Step 1: Audit every Zap</h3>
-<p>Export a list of all active Zaps and categorize by: trigger system, action system, and whether Salesforce is on both ends. In our case, most of the Zaps had Salesforce on both sides. Those were all migration candidates.</p>
+<p>Export a list of all active Zaps and categorize by: trigger system, action system, and whether Salesforce is on both ends. In this case, most of the Zaps had Salesforce on both sides. Those were all migration candidates.</p>
 <h3>Step 2: Map Zap logic to Salesforce objects</h3>
 <p>For each Zap being migrated, document the trigger condition, any filters, and the exact action. A Zap that says "When Opportunity Stage = Under Contract → Send Slack to #transactions-channel with message: 'New contract at {Property Address}'" maps directly to a Record-Triggered Flow on Opportunity.</p>
 <h3>Step 3: Set up the Salesforce-Slack direct integration</h3>
@@ -153,9 +144,9 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 <h2>When to Keep Zapier</h2>
 <p>Zapier is still the right tool for connecting Salesforce to external platforms that don't have native connectors. If you're connecting to Zillow, Facebook Lead Ads, custom forms, or niche real estate software — Zapier is the fastest and most reliable bridge. The goal isn't to eliminate Zapier. It's to use it only where it's irreplaceable.</p>
 <div class="article-cta"><div><h3>Want this built for your real estate Salesforce?</h3>
-<p>Request a free 30-minute call, run the free <a href="salesforce-health-check.html">10-point Salesforce Health Check</a>, see <a href="resources.html">all free tools</a>, or the fixed-price <a href="crm-revenue-audit.html">CRM Revenue Audit</a> for investors and wholesalers.</p></div>
+<p>Book a free 30-minute call, check your <a href="deal-leak-score.html">Deal Leak Score</a>, see <a href="resources.html">all free tools</a>, or the fixed-price <a href="crm-revenue-audit.html">CRM Revenue Audit</a> for investor teams already on Salesforce.</p></div>
 <a href="index.html#contact" class="btn btn-blue">Book a free call &#x2192;</a></div></div></section>
-<section class="rel"><div class="wrap"><h2>More Articles</h2><div class="rel-g"><a href="blog-ringcentral-salesforce-integration-real-estate.html" class="rc"><h4>How to Build a RingCentral–Salesforce Daily Call Sync with Apex (Real Estate Case Study)</h4><p>6 min read</p></a><a href="blog-salesforce-adoption-real-estate.html" class="rc"><h4>Why Your Real Estate Agents Aren't Using Salesforce (And How to Fix It)</h4><p>4 min read</p></a><a href="blog-salesforce-einstein-ai-real-estate.html" class="rc"><h4>Salesforce Einstein AI for Real Estate: What It Can Actually Do</h4><p>4 min read</p></a></div></div></section>
+<section class="rel"><div class="wrap"><h2>More Articles</h2><div class="rel-g"><a href="blog-ringcentral-salesforce-integration-real-estate.html" class="rc"><h4>How to Build a RingCentral–Salesforce Daily Call Sync with Apex (Real Estate Case Study)</h4><p>6 min read</p></a><a href="blog-salesforce-adoption-real-estate.html" class="rc"><h4>Why Your Real Estate Agents Aren't Using Salesforce (And How to Fix It)</h4><p>4 min read</p></a><a href="salesforce-ai-agentforce-real-estate.html" class="rc"><h4>Salesforce AI and Agentforce for Real Estate Investors</h4><p>4 min read</p></a></div></div></section>
 <section class="rel"><div class="wrap"><h2>Free for investors and wholesalers</h2><div class="rel-g"><a href="crm-field-kit.html" class="rc"><h4>The CRM field kit</h4><p>Lead, deal and buyer fields, automation rules and the Monday report spec</p></a><a href="questions-from-wholesalers.html" class="rc"><h4>Wholesaling CRM questions</h4><p>Real questions from wholesaling groups, answered plainly</p></a><a href="videos.html" class="rc"><h4>Videos: Deal Leak</h4><p>Short videos on where deals leak and how to fix each point</p></a></div></div></section>
 <!-- ask-cta:start -->
 <section class="ask-cta" aria-label="Ask a question" style="max-width:860px;margin:44px auto 0;padding:0 20px">
@@ -164,10 +155,10 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 <h2 style="margin:0 0 8px;color:var(--band-ink);font-size:1.6rem;line-height:1.2">Ask me how this would work in your CRM.</h2>
 <p style="margin:0 0 20px;color:var(--band-ink2);line-height:1.55">Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.</p>
 <div style="display:flex;flex-wrap:wrap;gap:10px">
-<a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20How%20We%20Moved%20Our%20Zapier%20Automations%20to%20Native%20Salesforce%20%28And%20Why...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="background:var(--teal);color:var(--on-accent);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--teal)">Email a question</a>
-<a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22How%20We%20Moved%20Our%20Zapier%20Automations%20to%20Native%20Salesforce%20%28And%20Why...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">WhatsApp</a>
+<a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20How%20I%20moved%20a%20home-buying%20team%E2%80%99s%20Zapier%20automations%20to%20native...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="background:var(--teal);color:var(--on-accent);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--teal)">Email a question</a>
+<a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22How%20I%20moved%20a%20home-buying%20team%E2%80%99s%20Zapier%20automations%20to%20native...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">WhatsApp</a>
 <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Message on LinkedIn</a>
-<a href="index.html#contact" onclick="if(window.gtag)gtag('event','contact_click',{method:'call_request',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Request a free call</a>
+<a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Book a 30-minute call</a>
 </div></div></section>
 <!-- ask-cta:end -->
 <section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
@@ -182,12 +173,12 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
       <li><a href="sample-audit-report.html">Sample audit report</a></li>
       <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
       <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
-      <li><a href="salesforce-health-check.html">Free health check</a></li>
+      <li><a href="crm-revenue-audit-terms.html">Audit scope and terms</a></li>
     </ul></nav>
     <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
       <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
       <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
-      <li><a href="wholesaling-mao-calculator.html">MAO calculator</a></li>
+      <li><a href="wholesale-deal-analyzer.html">Wholesale deal analyzer</a></li>
       <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
       <li><a href="resources.html">All free tools</a></li>
     </ul></nav>

@@ -15,6 +15,9 @@ for p in pages:
     title = soup.title.get_text(strip=True) if soup.title else p
     root = soup.find('main') or soup.body
     for t in root.find_all(['script','style','nav','svg','noscript','form','button','video']): t.decompose()
+    # leave out what the page hides until a script shows it, such as the parked $750 deposit lines (data-deposit-only)
+    for t in root.find_all(lambda t: t.has_attr('hidden') or re.search(r'display\s*:\s*none', t.get('style') or '')):
+        if not t.decomposed: t.decompose()
     lines = []
     for el in root.select('h1,h2,h3,h4,p,li,tr,dt,dd,figcaption,blockquote,summary,pre,div.formula'):
         if el.find_parent(['p','li','tr','dd','blockquote','pre']) or (el.name!='div' and el.find_parent('div', class_='formula')): continue

@@ -26,7 +26,7 @@
 <meta name="twitter:title" content="Manage Salesforce Automations Without a Developer">
 <meta name="twitter:description" content="How I built a centralized Configuration Object for a real estate company that lets non-technical users control all Salesforce automations — tasks, Slack messages, emails, and SMS — without any developer involvement.">
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "The Salesforce Configuration Object: How to Manage Automations Without Touching Code", "description": "How I built a centralized Configuration Object for a real estate company that lets non-technical users control all Salesforce automations — tasks, Slack messages, emails, and SMS — without any developer involvement.", "url": "https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html", "datePublished": "2025-06-08", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "publisher": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "image": "https://amrmagdy.com/imgs/AmrMagdyPic.webp", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html"}, "keywords": "Salesforce configuration object real estate, Salesforce automation without code, CRM automation real estate, Salesforce Flow Builder real estate", "wordCount": 1600, "articleSection": "Case Studies", "dateModified": "2026-10-11"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "The Salesforce Configuration Object: How to Manage Automations Without Touching Code", "description": "How I built a centralized Configuration Object for a real estate company that lets non-technical users control all Salesforce automations — tasks, Slack messages, emails, and SMS — without any developer involvement.", "url": "https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html", "datePublished": "2025-06-08", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "publisher": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/", "jobTitle": "Salesforce CRM Consultant for Real Estate Investors", "sameAs": ["https://www.linkedin.com/in/amrmagdyai/", "https://www.salesforce.com/trailblazer/amrmagdyai", "https://github.com/AmrMagdyAi"]}, "image": "https://amrmagdy.com/imgs/AmrMagdyPic.webp", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html"}, "keywords": "Salesforce configuration object real estate, Salesforce automation without code, CRM automation real estate, Salesforce Flow Builder real estate", "wordCount": 1600, "articleSection": "Case Studies", "dateModified": "2026-10-27"}</script>
 <link rel="stylesheet" href="styles.css">
 <style>
 /* Page-specific styles — shared tokens live in styles.css */
@@ -53,6 +53,7 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 .article-cta{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:34px 38px;margin-top:60px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap;box-shadow:var(--sh-sm)}
 .article-cta h3{font-size:1.15rem;margin-bottom:7px}
 .article-cta p{font-size:.88rem;color:var(--txt2);line-height:1.7;max-width:380px;margin:0}
+.article-cta p a{color:var(--sf);font-weight:600;text-decoration:underline;text-underline-offset:2px}
 .rel{padding:60px 0;border-top:1px solid var(--bd)}
 .rel h2{font-size:1.25rem;margin-bottom:24px}
 .rel-g{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
@@ -68,17 +69,7 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 }
 @media(max-width:480px){.sr{grid-template-columns:1fr}}
 </style>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type":"ListItem","position":1,"name":"Home","item":"https://amrmagdy.com/"},
-    {"@type":"ListItem","position":2,"name":"Blog","item":"https://amrmagdy.com/blog.html"},
-    {"@type":"ListItem","position":3,"name":"Salesforce Configuration & Custom Objects for Real Estate","item":"https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html"}
-  ]
-}
-</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://amrmagdy.com/blog.html"}, {"@type": "ListItem", "position": 3, "name": "Salesforce Configuration & Custom Objects for Real Estate", "item": "https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html"}]}</script>
 <script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
 </head><body>
 <header class="top"><div class="wrap">
@@ -142,7 +133,7 @@ String message = MergeFieldReplacer.resolve(
     '14 days out from closing {!Transaction__c.Property_Address__c}. Buyer?',
     transactionId
 );
-// Returns: '14 days out from closing 1723 Tobago Dr, Columbus OH. Buyer?'</div>
+// Returns: '14 days out from closing 123 Example St, Anytown. Buyer?'</div>
 <p>The class supports:</p>
 <ul>
   <li><strong>Standard and custom fields</strong> — <code>{{!Transaction__c.Property_Address__c}}</code></li>
@@ -160,9 +151,9 @@ String message = MergeFieldReplacer.resolve(
 <h2>When to Build a Configuration Object</h2>
 <p>This pattern is worth building when your Salesforce org has more than 15-20 distinct automation rules that business users want to control, when you're receiving frequent requests to modify notification text or recipients, or when the same automation logic repeats across multiple triggers with slightly different parameters. If those conditions don't apply yet, a direct Flow approach is simpler. But if your org is growing and your automation library is expanding, a Configuration Object pays for itself within weeks.</p>
 <div class="article-cta"><div><h3>Want this built for your real estate Salesforce?</h3>
-<p>Request a free 30-minute call, run the free <a href="salesforce-health-check.html">10-point Salesforce Health Check</a>, see <a href="resources.html">all free tools</a>, or the fixed-price <a href="crm-revenue-audit.html">CRM Revenue Audit</a> for investors and wholesalers.</p></div>
+<p>Book a free 30-minute call, check your <a href="deal-leak-score.html">Deal Leak Score</a>, see <a href="resources.html">all free tools</a>, or the fixed-price <a href="crm-revenue-audit.html">CRM Revenue Audit</a> for investor teams already on Salesforce.</p></div>
 <a href="index.html#contact" class="btn btn-blue">Book a free call &#x2192;</a></div></div></section>
-<section class="rel"><div class="wrap"><h2>More Articles</h2><div class="rel-g"><a href="blog-salesforce-crm-migration-real-estate.html" class="rc"><h4>Real Estate CRM Migration to Salesforce: How to Move Without Losing Data</h4><p>4 min read</p></a><a href="blog-salesforce-einstein-ai-real-estate.html" class="rc"><h4>Salesforce Einstein AI for Real Estate: What It Can Actually Do</h4><p>4 min read</p></a><a href="blog-salesforce-property-management-companies.html" class="rc"><h4>Salesforce for Property Management Companies: CRM That Scales With Your Portfolio</h4><p>4 min read</p></a></div></div></section>
+<section class="rel"><div class="wrap"><h2>More Articles</h2><div class="rel-g"><a href="switch-to-salesforce-real-estate-investors.html" class="rc"><h4>Moving from Podio, REsimpli or GoHighLevel to Salesforce</h4><p>9 min read</p></a><a href="salesforce-ai-agentforce-real-estate.html" class="rc"><h4>Salesforce AI and Agentforce for Real Estate Investors</h4><p>4 min read</p></a><a href="salesforce-for-real-estate-investors.html" class="rc"><h4>Salesforce for Real Estate Investors and Home-Buying Companies</h4><p>15 min read</p></a></div></div></section>
 <section class="rel"><div class="wrap"><h2>Free for investors and wholesalers</h2><div class="rel-g"><a href="crm-field-kit.html" class="rc"><h4>The CRM field kit</h4><p>Lead, deal and buyer fields, automation rules and the Monday report spec</p></a><a href="questions-from-wholesalers.html" class="rc"><h4>Wholesaling CRM questions</h4><p>Real questions from wholesaling groups, answered plainly</p></a><a href="videos.html" class="rc"><h4>Videos: Deal Leak</h4><p>Short videos on where deals leak and how to fix each point</p></a></div></div></section>
 <!-- ask-cta:start -->
 <section class="ask-cta" aria-label="Ask a question" style="max-width:860px;margin:44px auto 0;padding:0 20px">
@@ -174,7 +165,7 @@ String message = MergeFieldReplacer.resolve(
 <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20The%20Salesforce%20Configuration%20Object%3A%20How%20to%20Manage%20Automations...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog-salesforce-configuration-object-real-estate.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="background:var(--teal);color:var(--on-accent);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--teal)">Email a question</a>
 <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22The%20Salesforce%20Configuration%20Object%3A%20How%20to%20Manage%20Automations...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">WhatsApp</a>
 <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Message on LinkedIn</a>
-<a href="index.html#contact" onclick="if(window.gtag)gtag('event','contact_click',{method:'call_request',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Request a free call</a>
+<a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Book a 30-minute call</a>
 </div></div></section>
 <!-- ask-cta:end -->
 <section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
@@ -189,12 +180,12 @@ String message = MergeFieldReplacer.resolve(
       <li><a href="sample-audit-report.html">Sample audit report</a></li>
       <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
       <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
-      <li><a href="salesforce-health-check.html">Free health check</a></li>
+      <li><a href="crm-revenue-audit-terms.html">Audit scope and terms</a></li>
     </ul></nav>
     <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
       <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
       <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
-      <li><a href="wholesaling-mao-calculator.html">MAO calculator</a></li>
+      <li><a href="wholesale-deal-analyzer.html">Wholesale deal analyzer</a></li>
       <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
       <li><a href="resources.html">All free tools</a></li>
     </ul></nav>

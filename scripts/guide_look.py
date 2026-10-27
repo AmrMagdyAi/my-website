@@ -21,9 +21,9 @@ SUN = '<svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" st
 FOOT = [
     ('f1', 'Work with me', [('crm-revenue-audit.html', 'CRM Revenue Audit'), ('sample-audit-report.html', 'Sample audit report'),
                             ('move-to-salesforce.html', 'Move to Salesforce'), ('salesforce-admin-real-estate-investors.html', 'Admin or retainer?'),
-                            ('salesforce-health-check.html', 'Free health check')]),
+                            ('crm-revenue-audit-terms.html', 'Audit scope and terms')]),
     ('f2', 'Free tools', [('deal-leak-score.html', 'Deal Leak Score'), ('wholesaling-cost-per-deal-calculator.html', 'Cost per deal calculator'),
-                          ('wholesaling-mao-calculator.html', 'MAO calculator'), ('kept-deal-map.html', 'Kept-Deal Map'),
+                          ('wholesale-deal-analyzer.html', 'Wholesale deal analyzer'), ('kept-deal-map.html', 'Kept-Deal Map'),
                           ('resources.html', 'All free tools')]),
     ('f3', 'Learn', [('real-estate-crm-guide.html', 'Real estate CRM guide'), ('salesforce-vs-investor-crms.html', 'Salesforce vs investor CRMs'),
                      ('podio-alternative-wholesalers.html', 'Moving off Podio'), ('videos.html', 'Videos'), ('blog.html', 'Blog')]),
@@ -74,9 +74,16 @@ def footer(page):
 </div></footer>'''
 
 
+# pages read mostly by teams not on Salesforce yet: their phone bar leads with the move, not the audit (which is for teams already on Salesforce)
+MOVE_FIRST = {'cold-caller-handoff-checklist.html', 'do-i-need-a-crm-wholesaling.html', 'podio-alternative-wholesalers.html',
+              'real-estate-crm-guide.html', 'salesforce-vs-investor-crms.html', 'wholesaling-crm.html', 'switch-to-salesforce-real-estate-investors.html'}
+
+
 def phone_bar(page):
     if page == 'move-to-salesforce.html':  # the audit is for teams already on Salesforce, so this page offers the call only
         links = f'<a class="f" href="{BOOK}" target="_blank" rel="noopener" data-book>Book a free scoping call</a>'
+    elif page in MOVE_FIRST:
+        links = f'<a class="f" href="move-to-salesforce.html">Move to Salesforce</a><a class="g" href="{BOOK}" target="_blank" rel="noopener" data-book>Book a free call</a>'
     else:
         links = f'<a class="f" href="crm-revenue-audit.html">$1,500 audit</a><a class="g" href="{BOOK}" target="_blank" rel="noopener" data-book>Book a free call</a>'
     return f'<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot">{links}</div>'
@@ -146,6 +153,8 @@ OLD_NAV = re.compile(r'<nav>\s*(?:<div class="wrap-wide">)?\s*<div class="nav-in
 # wholesaling-cost-per-deal-calculator.html lost its <nav> opening and logo: only the links, the dark-mode button and the closing tags are left
 HEADLESS_NAV = re.compile(r'(?<=<body>\n)(?:[ \t]*<a [^>]*class="nb[^"]*"[^>]*>[^<]*</a>\n)+<button class="theme-toggle".*?</div></div></nav>', re.S)
 OLD_FOOT = re.compile(r'<footer>.*?</footer>', re.S)
+FOOTER = re.compile(r'<footer class="foot">.*?</footer>', re.S)  # this script's own footer, redrawn so FOOT changes reach every page
+PHONE_BAR = re.compile(r'<div class="mcta" id="mcta" data-stop="\.cta,\.article-cta,\.ask-cta,\.foot">.*?</div>', re.S)  # and its phone bar
 FONT_LINKS = re.compile(r'[ \t]*(?:<link rel="preload" as="style" href="assets/fonts/fonts(?:-italic-500)?\.css"[^>]*>|'
                         r'<noscript><link rel="stylesheet" href="assets/fonts/fonts(?:-italic-500)?\.css"></noscript>|'
                         r'<link rel="preconnect" href="https://fonts\.(?:googleapis|gstatic)\.com"(?: crossorigin)?>|'
@@ -164,9 +173,13 @@ def page(p):
         s = HEADLESS_NAV.sub(lambda m: header(p), s, count=1)
     if '<footer class="foot">' not in s:
         s = OLD_FOOT.sub(lambda m: footer(p), s, count=1)
+    else:
+        s = FOOTER.sub(lambda m: footer(p), s, count=1)
     has_bar = 'class="mbar"' in s or 'id="res"' in s or p == '404.html'  # a calculator's own bottom bar, or the score's sticky result
     if 'id="mcta"' not in s and not has_bar:
         s = s.replace('</footer>', '</footer>\n\n' + phone_bar(p), 1)
+    else:
+        s = PHONE_BAR.sub(lambda m: phone_bar(p), s, count=1)
     if 'assets/chrome.js' not in s:
         s, n = OLD_THEME_JS.subn('<script src="assets/chrome.js" defer></script>', s, count=1)
         if not n:
