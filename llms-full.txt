@@ -215,7 +215,7 @@ No. The audit is built for Salesforce. If you're outgrowing another CRM or sprea
 What does it cost?
 The CRM Revenue Audit is $1,500, fixed, and the full fee comes off the build if you go ahead within 30 days. A full implementation is quoted as a project after a free call. Ongoing support is a monthly retainer with no long-term contract. Salesforce licenses are billed by Salesforce, so ask your account manager for a quote for your team size; teams can often get a discount.
 You're in Cairo. How does that work?
-I work Cairo afternoons and evenings, which is the US morning and the UK afternoon. That's how I've worked with a home-buying company in Ohio for two years. Calls are booked at a time that suits you.
+I work US hours, 9am to 6pm Eastern, Monday to Friday, and reply within one business day. That's how I've worked with a home-buying company in Ohio for two years. Calls are booked at a time that suits you.
 You're one person. Why not an agency?
 With an agency, your project often goes through a project manager to a consultant who may never have worked in real estate. With me, the person who answers your message is the person who builds it. The honest trade-off: I'm one specialist, not a ten-person team, so I take on a small number of clients at a time. Everything I build lives in your org and belongs to you, and I write down how each piece works so another admin could take it over.
 What access do you need, and is our data safe?
@@ -1870,7 +1870,7 @@ No. The roadmap is written so your team, or anyone you choose, can follow it. If
 What if we're not on Salesforce?
 Then the audit isn't the right step. You need a move to Salesforce: I map what you track today, move your data and build around how your team works. Book a free call and we'll scope it.
 You're in Cairo. How does the time difference work?
-I work Cairo afternoons and evenings, which is the US morning and the UK afternoon. That's how I've worked with a home-buying company in Ohio for two years. Both calls are booked at a time that suits you.
+I work US hours, 9am to 6pm Eastern, Monday to Friday, and reply within one business day. That's how I've worked with a home-buying company in Ohio for two years. Both calls are booked at a time that suits you.
 How do we pay?
 50% to start and 50% when the report is delivered, by bank transfer or card through an invoice. Prefer escrow? It can run as an Upwork contract instead, so your payment is held until you approve the report. The full scope and terms are on one page.
 What if the audit doesn't find much?
@@ -6079,7 +6079,7 @@ Home-buying companies, wholesalers and investor teams of roughly 10 to 50 people
 What if we're not on Salesforce yet?
 Then the audit isn't the right step. Teams on Podio, REsimpli, GoHighLevel or spreadsheets get a move to Salesforce instead: I map what you track today, move your data and build around how your team works. The scoping call is free. See move to Salesforce .
 Do you work with teams outside the US?
-Yes. My main focus is US investors, and I also work with teams in Canada and the UK and Europe. I work Cairo afternoons and evenings, which is the US morning and the UK afternoon.
+Yes. My main focus is US investors, and I also work with teams in Canada and the UK and Europe. I work US hours, 9am to 6pm Eastern, Monday to Friday, which overlaps the UK afternoon.
 Related guides
 Have a question that isn't here?
 Ask it. Email, WhatsApp or LinkedIn, whatever's easiest, and you'll get a straight answer. If it turns into a bigger conversation, the free 30-minute call is where we work out the right first step.
