@@ -23,7 +23,7 @@
 - Product Hunt: https://www.producthunt.com/@amr_magdy_
 - Salesforce Trailblazer: https://www.salesforce.com/trailblazer/amrmagdyai
 - Availability: Fully remote. Focus: US real estate investors, home-buying companies and wholesalers first; also Canada and Europe (including the UK); Gulf later
-- Time zone coverage: US Eastern & Central business hours; UK afternoon overlap; early morning availability for US West Coast or UK morning calls
+- Time zone coverage: 9am to 6pm US Eastern, Monday to Friday (8am to 5pm Central, 6am to 3pm Pacific), which overlaps UK afternoons; replies within one business day
 
 ## One-sentence summary
 Amr Magdy builds the Salesforce systems US real estate investors and wholesalers run on. His point
@@ -35,7 +35,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Who he works with: real estate investors, home-buying companies and wholesalers in the United States first, and in Canada and Europe (including the UK).
 - What he builds: the Salesforce system a home-buying company runs on, from marketing campaign to closed deal: campaign ROI by market, speed to lead, missed-call alerts, shared lead queues, underwriting on the opportunity, a transactions board, RingCentral call sync, DocuSign alerts and a no-code rules engine.
 - Proof: for the last two years he has built and run the Salesforce org behind a two-market home-buying company in Ohio.
-- Working hours: afternoons and evenings Cairo time, which covers US mornings and the full Gulf business day.
+- Working hours: 9am to 6pm US Eastern on US weekdays (16:00 to 01:00 Cairo). He replies within one business day.
 
 ## Services and prices
 - CRM Revenue Audit: fixed price USD 1,500, for teams already on Salesforce. Teams on Podio, REsimpli, GoHighLevel or other CRMs are offered a move to Salesforce instead (https://amrmagdy.com/move-to-salesforce.html). A review of an investor CRM covering campaign ROI, speed to lead, acquisitions follow-up, data health, automations and reporting. Deliverables: findings report, 30/60/90-day roadmap, a "Monday 5" dashboard spec and up to three quick fixes done. Full refund if the report does not find at least five fixable issues worth more than the fee. Page: https://amrmagdy.com/crm-revenue-audit.html. Sample report (made-up company): https://amrmagdy.com/sample-audit-report.html
@@ -55,7 +55,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - 37 Salesforce features for investors: https://amrmagdy.com/salesforce-features-real-estate.html (Salesforce features for real estate investors (37 features with real estate use and edition limits: custom objects, Flow, approvals, assignment rules, validation rules, duplicate rules, Path, field history, reports, Web-to-Lead, Sales Engagement, mobile offline, Experience Cloud, Agentforce, security, data import))
 - Salesforce integrations for investors: https://amrmagdy.com/salesforce-integrations-real-estate.html (Salesforce integrations for real estate investors (13 tool categories: DocuSign, QuickBooks, Gmail/Outlook, RingCentral/Aircall/Dialpad, texting, Web-to-Lead, Facebook Lead Capture, Google Ads conversion import, CallRail, PropStream, BatchData, Box/Drive, Slack, Calendly, Salesforce Maps, Mailchimp, Zapier; API edition requirements; Open CTI end of life Feb 28, 2028))
 - Which Salesforce edition do investors need?: https://amrmagdy.com/salesforce-edition-real-estate-investors.html (Which Salesforce edition real estate investors need (custom objects 0/50/200/2,000, flows, API access, approvals, joined reports by edition; no list prices, most businesses get a discount from an account executive))
-- Salesforce edition picker: https://amrmagdy.com/salesforce-edition-picker.html (Salesforce edition picker for real estate investors (free tool: users, automations, custom objects, API integrations, big imports, approvals, joined reports, portals, cadences → minimum edition and questions for the account executive))
+- Edition picker for Salesforce: https://amrmagdy.com/salesforce-edition-picker.html (Edition picker for Salesforce, for real estate investor teams (free tool: users, automations, custom objects, API integrations, big imports, approvals, joined reports, portals, cadences → minimum edition and questions for the account executive))
 - Best CRM for wholesalers (2026): https://amrmagdy.com/best-crm-for-wholesalers.html (11 CRMs for wholesalers compared on dialer, texting, skip tracing, buyers, custom records and published price (Oct 2026), each linked to the vendor; Salesforce prices not listed)
 - Salesforce vs REsimpli: https://amrmagdy.com/salesforce-vs-resimpli.html (Salesforce vs REsimpli for wholesalers: dialer, texting, skip tracing, custom records, reports, published REsimpli price, where each wins)
 - Salesforce vs GoHighLevel: https://amrmagdy.com/salesforce-vs-gohighlevel.html (Salesforce vs GoHighLevel for investors: marketing platform vs CRM platform, usage fees, custom records, reports, running both)
@@ -86,12 +86,11 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Double closing costs (guide): https://amrmagdy.com/double-closing-costs.html (costs on both sides of a double close, the keep formula, double close vs assignment, questions for the title company)
 - New wholesaling laws: what your CRM has to track (guide): https://amrmagdy.com/wholesaling-laws-crm-tracking.html (2025-2026 state wholesaling laws in plain words: Pennsylvania, Tennessee, Oregon, North Dakota, Maryland, Oklahoma, Ohio, Connecticut, Louisiana, Missouri; disclosure, cancellation window, registration, escrow and closing deadline rules with sources; CRM fields, automations and a compliance-exceptions report; not legal advice; last checked Oct 2026)
 - Salesforce for real estate investors (pillar guide): https://amrmagdy.com/salesforce-for-real-estate-investors.html (who it fits and who it does not, the home-buying operation mapped to Salesforce objects, 10 builds that pay for themselves, renovation, partner and rental records, what drives the cost, a 12-week timeline, FAQ including whether you need a developer and moving from Podio or REsimpli without losing leads)
-- Salesforce admin for real estate investors (guide): https://amrmagdy.com/salesforce-admin-real-estate-investors.html (signs an investor team needs admin help, what the work is, full-time hire vs freelancer vs monthly retainer, what to put on a retainer)
+- Salesforce admin for real estate investors (guide): https://amrmagdy.com/salesforce-admin-real-estate-investors.html (signs an investor team needs admin help, what the work is, full-time hire vs freelancer vs monthly retainer, what to put on a retainer; and if you hire: a job post, 10 interview questions, a paid test in a free Developer Edition org, certifications, 2026 US pay ranges with sources, red flags and a 30-day plan)
 - Transaction coordination in Salesforce (guide): https://amrmagdy.com/salesforce-transaction-coordination-real-estate.html (contract-to-close stages, fields, automatic tasks, Transactions Board, weekly TC scorecard)
 - Salesforce for private and DSCR lenders (guide): https://amrmagdy.com/salesforce-private-lenders-dscr.html (loan data model, stages from inquiry to payoff, conditions and draws, repeat borrowers, owner reports)
 - Switching to Salesforce from Podio, REsimpli, GoHighLevel or Follow Up Boss (guide + free CSV): https://amrmagdy.com/switch-to-salesforce-real-estate-investors.html (vendor-sourced comparison dated Oct 2026, "stay where you are if" list, field map, what breaks in migrations, 30-60-90 plan, parallel run; CSV: https://amrmagdy.com/kit/crm-switch-field-map.csv)
-- 12 Salesforce features investor orgs don't use (guide): https://amrmagdy.com/salesforce-features-real-estate-investors.html (use case, setup steps, edition checked against Salesforce Help, gotcha and self-check for each; printable PDF: https://amrmagdy.com/assets/Amr%20Magdy%20-%20REI%20Salesforce%20Feature%20Checklist.pdf)
-- Salesforce feature self-check: https://amrmagdy.com/salesforce-feature-check.html (12 yes/no checks, score out of 12, list of gaps)
+- 12 Salesforce features investor orgs don't use (guide): https://amrmagdy.com/salesforce-features-real-estate-investors.html (use case, setup steps, edition checked against Salesforce Help and a gotcha for each, plus a self-check: mark each feature as used or not, get a score out of 12 and a list of gaps; printable PDF: https://amrmagdy.com/assets/Amr%20Magdy%20-%20REI%20Feature%20Checklist%20for%20Salesforce.pdf)
 - Wholesale assignment fee (guide): https://amrmagdy.com/wholesale-assignment-fee.html (setting the fee from the cash buyer's margin: max-fee formula, worked example, assign vs double close, what to track)
 - Cash buyers list template (free CSV + guide): https://amrmagdy.com/cash-buyers-list-template.html (buy-box fields, how to match each deal to the right 10 buyers, keeping the list clean)
 - Speed to lead for real estate investors (guide): https://amrmagdy.com/speed-to-lead-real-estate-investors.html (what speed to lead is, the HBR 2011 first-hour research, how to measure it in a CRM, and five rules including missed-call tasks)
@@ -100,12 +99,10 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Acquisitions Team Capacity Calculator: https://amrmagdy.com/acquisitions-team-capacity-calculator.html (How many acquisition reps do you need for your lead volume? Free calculator: hours of calling, follow-up and offers per month vs what your team can cover.)
 - Deal Leak Score: https://amrmagdy.com/deal-leak-score.html (10 yes/no checks across Spend, Answer, Follow-up, Offer and Keep, scored out of 100; a shared link lets a team compare answers check by check)
 - Wholesaling Cost Per Deal Calculator: cost per lead, per contract, per closed deal and ROI by lead source. https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html
-- Wholesaling MAO Calculator: maximum allowable offer from ARV, rule %, repairs, wholesale fee and buyer costs, with spread on an offer. https://amrmagdy.com/wholesaling-mao-calculator.html
 - Missed Seller Call Cost Calculator: turns missed inbound seller calls into estimated lost deals and profit. https://amrmagdy.com/missed-call-cost-calculator.html
 - The Kept-Deal Map: Amr's framework for the five points where an investor business loses money between the marketing dollar and the kept (closed) deal: Spend, Answer, Follow-up, Offer, Keep. Defines "Deal Leak" and "kept deal", with a free self-check. https://amrmagdy.com/kept-deal-map.html
 - The Monday 5: five KPIs an investor owner should review weekly, with formulas, how to track each in Salesforce, a self-check and a 1-page PDF. https://amrmagdy.com/monday-5-real-estate-kpis.html
 - Wholesaling & Investor CRM Glossary: 28 terms (ARV, deal leak, MAO, assignment fee, dispo, speed to lead, attribution, kept deals...). https://amrmagdy.com/wholesaling-crm-glossary.html
-- Real Estate Salesforce Health Check: 10-point scorecard PDF. https://amrmagdy.com/salesforce-health-check.html
 - CRM field kit: free, ungated download of the lead, deal and buyer fields, picklists, automation rules and Monday report spec for wholesaling CRMs (Salesforce, REsimpli, Podio, HubSpot or a spreadsheet). https://amrmagdy.com/crm-field-kit.html
 - Wholesaling CRM questions, answered: ten questions wholesalers ask in Facebook groups, each answered plainly with one CRM step. https://amrmagdy.com/questions-from-wholesalers.html
 - Videos: 22 short explainer videos (no voiceover, captions and sources on screen) in four series. Deal Leak: the 5 leaks, missed seller calls, leads with no next step, offers off-formula, fall-outs in your ROI, the Monday 5. Systems That Pay: the follow-up stat with no source, flip margins at a 2008 low (ATTOM 2025), CRM data that lies, the lead graveyard, buyer lists as a database, reps spending most of their time not selling. How far Salesforce goes: your own pipeline (custom objects), Flow automation, reports, built to grow (sandboxes, field history, API, AppExchange), when Salesforce is overkill. Quick ones: the 6:40pm missed call, the 23% of companies that never respond (HBR 2011), assignment fee math, the Monday 5, dead leads with a reason. https://amrmagdy.com/videos.html
@@ -114,7 +111,6 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Salesforce for real estate investors, 50 questions answered: https://amrmagdy.com/salesforce-real-estate-faq.html (cost and editions without list prices, setup and timelines, moving from Podio, REsimpli or GoHighLevel, admin and support, integrations, reporting, texting and calling rules, AI)
 - Investor CRM audit checklist (free, interactive): https://amrmagdy.com/investor-crm-audit-checklist.html (60 yes/no checks across spend, answer, follow-up, offer, keep, reports and system health; works for any CRM; nothing saved or sent)
 - What to do when your Salesforce admin leaves: https://amrmagdy.com/salesforce-admin-left.html (a two-week handover plan, freeze vs deactivate, what runs under the admin's name such as flow error emails and integration logins, 10 questions to ask before they go)
-- How to hire a Salesforce admin for a real estate team: https://amrmagdy.com/hire-salesforce-admin-real-estate.html (job post, 10 screening questions, a paid test in a free Developer Edition org, certifications, 2026 US salary ranges with sources, red flags, a 30-day plan)
 - How to choose a Salesforce consultant for a real estate investing business: https://amrmagdy.com/hire-salesforce-consultant-real-estate.html (freelancer vs firm vs offshore, published 2026 rate ranges, 11 questions to ask, red flags, what the business must own)
 - Podio's automation limit under hybrid pricing: https://amrmagdy.com/podio-automation-limit.html (what counts as an automation action, the dates, what happens at the cap, five options including moving to Salesforce)
 - Adding a new market to your CRM: https://amrmagdy.com/new-market-crm-checklist.html (a 10-part checklist: numbers and campaigns, routing, buyers, reports by market; a launch test; the first 90 days)
@@ -140,7 +136,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 
 ## More questions this site answers (October 2026 guides)
 - What should I do when my Salesforce admin quits? https://amrmagdy.com/salesforce-admin-left.html
-- How do I hire a Salesforce admin for a real estate company, and what do they earn? https://amrmagdy.com/hire-salesforce-admin-real-estate.html
+- How do I hire a Salesforce admin for a real estate company, and what do they earn? https://amrmagdy.com/salesforce-admin-real-estate-investors.html#hiring
 - How do I choose a Salesforce consultant for a wholesaling company? https://amrmagdy.com/hire-salesforce-consultant-real-estate.html
 - What happens when a Podio workspace hits its automation limit? https://amrmagdy.com/podio-automation-limit.html
 - Why don't my Salesforce reports match my dashboard or my books? https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html
@@ -179,22 +175,16 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - [CRM Revenue Audit for Real Estate Investors | Amr Magdy](https://amrmagdy.com/crm-revenue-audit.html): A fixed-price review of your investor Salesforce CRM: campaign ROI, speed to lead, stale offers, data health and automations, with a prioritized roadmap.
 - [Salesforce CRM for Canadian Real Estate Investors](https://amrmagdy.com/salesforce-consultant-canada-real-estate.html): Salesforce for Canadian home-buying companies, wholesalers and BRRRR investors: the same deal system as US teams, plus CRTC Do Not Call and CASL consent tracking, CAD, provinces and time zones. Free 30-minute call.
 - [Salesforce CRM for UK Property Investors & Deal Sourcers](https://amrmagdy.com/salesforce-consultant-uk-estate-agents.html): Salesforce for UK property investors, deal sourcers and BTL, HMO and BRR investors: an offer-to-completion pipeline, investor matching and sourcing fees, TPS and PECR consent records, UK GDPR and GBP. Free 30-minute call.
-- [Free Tools for Real Estate Investors & Wholesalers](https://amrmagdy.com/resources.html): Free tools for investors and wholesalers: cost per deal and MAO calculators, missed call cost, the Monday 5, a CRM field kit, glossary and videos.
+- [Free Tools for Real Estate Investors & Wholesalers](https://amrmagdy.com/resources.html): Free tools for investors and wholesalers: cost per deal calculator, deal analyzer (MAO), Deal Leak Score, the Monday 5, a CRM field kit, glossary and videos.
 
 ## Articles
-- [Salesforce ROI for Real Estate: Is It Paying Off?](https://amrmagdy.com/blog-crm-roi-real-estate.html)
 - [Migrating Zapier Automations to Salesforce Flows](https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html)
 - [RingCentral to Salesforce Call Sync with Apex](https://amrmagdy.com/blog-ringcentral-salesforce-integration-real-estate.html)
 - [Why Your Team Isn't Using Salesforce (and the Fix)](https://amrmagdy.com/blog-salesforce-adoption-real-estate.html)
-- [Best Salesforce AppExchange Apps for Real Estate](https://amrmagdy.com/blog-salesforce-appexchange-real-estate.html)
-- [5 Salesforce Automations Every Real Estate Team Needs](https://amrmagdy.com/blog-salesforce-automations-real-estate.html)
 - [Manage Salesforce Automations Without Code](https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html)
-- [Migrating a Real Estate CRM to Salesforce Safely](https://amrmagdy.com/blog-salesforce-crm-migration-real-estate.html)
-- [Salesforce Einstein AI for Real Estate, Honestly](https://amrmagdy.com/blog-salesforce-einstein-ai-real-estate.html)
 - [Track Deal Profit and Campaign ROI in Salesforce](https://amrmagdy.com/blog-salesforce-financial-analytics-real-estate.html)
 - [Real Estate Investor KPIs: What to Track in Salesforce](https://amrmagdy.com/blog-salesforce-kpis-real-estate.html)
 - [Salesforce Lead & Call Routing for Real Estate Investors](https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html)
-- [Salesforce for Property Management Companies](https://amrmagdy.com/blog-salesforce-property-management-companies.html)
 - [50+ Real Salesforce Requests From an Acquisitions Team](https://amrmagdy.com/blog-salesforce-real-estate-acquisition-case-log.html)
 - [Build a Real Estate Pipeline Dashboard in Salesforce](https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html)
 - [Set Up Salesforce for a Real Estate Brokerage](https://amrmagdy.com/blog-salesforce-setup-real-estate-brokerage.html)

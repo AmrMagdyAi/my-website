@@ -127,7 +127,7 @@
 <article class="card" id="deal-fields"><h2>2. Deal fields (23)</h2>
 <p>Underwriting on the deal itself: MAO as a formula, your repair estimate next to the buyer's, and booked fees kept separate from the fees you actually receive.</p>
 <div class="tw"><table><thead><tr><th>Field name</th><th>Type</th><th>Required when</th><th>Why it matters</th></tr></thead><tbody><tr><td>Lead Source</td><td>Picklist (copied from lead, locked)</td><td>Copied when the deal is created; not editable after</td><td>Keeps attribution intact from first call to closing so contracts and fees count for the right channel.</td></tr><tr><td>Campaign</td><td>Lookup to Campaign (copied from lead, locked)</td><td>Copied when the deal is created; not editable after</td><td>Contracts per campaign and ROI by campaign both read this field.</td></tr><tr><td>Deal Status</td><td>Picklist</td><td>Always</td><td>Separates deals that are booked from deals that are actually kept.</td></tr><tr><td>ARV</td><td>Currency</td><td>Before Deal Status can move to Offer Sent</td><td>After-repair value from comps. Everything in MAO starts here.</td></tr><tr><td>Your Repair Estimate</td><td>Currency</td><td>Before Deal Status can move to Offer Sent</td><td>Your team&#x27;s repair number, the one MAO uses.</td></tr><tr><td>Buyer&#x27;s Repair Estimate</td><td>Currency</td><td>When a buyer walks the property (optional)</td><td>What the end buyer thinks repairs cost. Comparing it with yours shows whether your estimates run low.</td></tr></tbody></table></div><a class="dl" href="kit/deal-fields.csv" download>Download deal-fields.csv</a>
-<p class="lk"><a href="videos.html#deal-leak-4">Video: Offers off-formula &rarr;</a><a href="wholesaling-mao-calculator.html">MAO calculator &rarr;</a></p></article>
+<p class="lk"><a href="videos.html#deal-leak-4">Video: Offers off-formula &rarr;</a><a href="wholesale-deal-analyzer.html">Deal analyzer (MAO) &rarr;</a></p></article>
 <article class="card" id="buyer-fields"><h2>3. Buyer fields (10)</h2>
 <p>Turn the buyer list into a database, so each deal goes to the buyers who actually buy that kind of house first.</p>
 <div class="tw"><table><thead><tr><th>Field name</th><th>Type</th><th>Required when</th><th>Why it matters</th></tr></thead><tbody><tr><td>Zips</td><td>Long text (comma-separated) or multi-select</td><td>Before the buyer gets deal blasts</td><td>Lets you send each deal only to buyers who buy in that zip.</td></tr><tr><td>Max Price</td><td>Currency</td><td>Before the buyer gets deal blasts</td><td>Filters out buyers who can&#x27;t pay your price, so the list stays short and relevant.</td></tr><tr><td>Rehab Level</td><td>Multi-select picklist</td><td>Before the buyer gets deal blasts</td><td>A buyer who only wants light rehabs ignores a full gut, and the reverse.</td></tr><tr><td>Closing Speed (days)</td><td>Number</td><td>Optional</td><td>When an inspection period is short, you want the buyers who actually close fast.</td></tr><tr><td>Last Bought Date</td><td>Date</td><td>Updated when the buyer closes one of your deals (or from public records)</td><td>Separates active buyers from names on a list.</td></tr></tbody></table></div>
@@ -158,7 +158,7 @@
 <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20The%20wholesaling%20CRM%20field%20kit&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/crm-field-kit.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="background:var(--teal);color:var(--on-accent);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--teal)">Email a question</a>
 <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22The%20wholesaling%20CRM%20field%20kit%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">WhatsApp</a>
 <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Message on LinkedIn</a>
-<a href="index.html#contact" onclick="if(window.gtag)gtag('event','contact_click',{method:'call_request',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Request a free call</a>
+<a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Book a 30-minute call</a>
 </div></div></section>
 <!-- ask-cta:end -->
 <section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
@@ -173,12 +173,12 @@
       <li><a href="sample-audit-report.html">Sample audit report</a></li>
       <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
       <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
-      <li><a href="salesforce-health-check.html">Free health check</a></li>
+      <li><a href="crm-revenue-audit-terms.html">Audit scope and terms</a></li>
     </ul></nav>
     <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
       <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
       <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
-      <li><a href="wholesaling-mao-calculator.html">MAO calculator</a></li>
+      <li><a href="wholesale-deal-analyzer.html">Wholesale deal analyzer</a></li>
       <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
       <li><a href="resources.html">All free tools</a></li>
     </ul></nav>

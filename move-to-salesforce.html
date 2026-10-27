@@ -29,7 +29,7 @@
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-card.jpg">
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Service","dateModified":"2026-10-23","name":"Move to Salesforce for real estate investors","serviceType":"CRM migration","provider":{"@type":"Person","name":"Amr Magdy","url":"https://amrmagdy.com"},"areaServed":["US","CA","GB","Europe"],"description":"Moving real estate investor and wholesaler teams from Podio, REsimpli, GoHighLevel or spreadsheets to Salesforce, with data history, lead routing, owner dashboards and role-based training. Fixed price, quoted after a free scoping call.","url":"https://amrmagdy.com/move-to-salesforce.html"}
+{"@context":"https://schema.org","@type":"Service","dateModified":"2026-10-27","name":"Move to Salesforce for real estate investors","serviceType":"CRM migration","provider":{"@type":"Person","name":"Amr Magdy","url":"https://amrmagdy.com"},"areaServed":["US","CA","GB","Europe"],"description":"Moving real estate investor and wholesaler teams from Podio, REsimpli, GoHighLevel or spreadsheets to Salesforce, with data history, lead routing, owner dashboards and role-based training. Fixed price, quoted after a free scoping call.","url":"https://amrmagdy.com/move-to-salesforce.html"}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "What do Salesforce licenses cost?", "acceptedAnswer": {"@type": "Answer", "text": "Salesforce bills licenses directly, and the right edition depends on your team. We pick one together on the scoping call; the edition picker on this site is a good place to start."}},{"@type": "Question", "name": "Will we lose our history?", "acceptedAnswer": {"@type": "Answer", "text": "No. Every record that matters is mapped before anything moves, and we check it together after."}},{"@type": "Question", "name": "Will the team stop working during the switch?", "acceptedAnswer": {"@type": "Answer", "text": "No. Both systems run side by side until your team is comfortable in Salesforce."}},{"@type": "Question", "name": "Is Salesforce overkill for us?", "acceptedAnswer": {"@type": "Answer", "text": "Sometimes it is. If you're a one-person shop with a few deals a month, I'll tell you on the call and you'll stay where you are."}},{"@type": "Question", "name": "How do we pay?", "acceptedAnswer": {"@type": "Answer", "text": "Part to start and the rest at milestones written into the scope, by invoice."}}]}
@@ -121,6 +121,23 @@
 @media(max-width:1000px){.cnt,.goals{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr;gap:0}.steps::before{top:22px;bottom:22px;left:21px;right:auto;width:2px;height:auto}.steps li{display:grid;grid-template-columns:44px 1fr;gap:18px;padding-bottom:22px}}
 @media(max-width:880px){.ra-hero,.req .w,.fitgrid{grid-template-columns:1fr}.price-card{position:static}}
 @media(max-width:520px){.goals{grid-template-columns:1fr}.cnt{gap:10px}.cnt div{padding:18px 16px}.cnt .v{font-size:2.1rem}}
+/* trust block: who you work with, hours, and the terms that matter before a login (homepage, audit and move pages) */
+.trust{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.7fr);gap:20px 40px;align-items:start;background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:26px 28px}
+.trust-me{display:flex;gap:16px;align-items:flex-start}
+.trust-me img{width:64px;height:64px;border-radius:50%;object-fit:cover;flex:none}
+.trust-me h2{font-size:1.45rem;line-height:1.2;margin:0}
+.trust-me p{margin:8px 0 0;color:var(--ink2);font-size:.96rem;line-height:1.55}
+.trust-me b,.trust-list b{color:var(--ink);font-weight:600}
+.trust-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 26px;font-size:.94rem;line-height:1.5;color:var(--ink2)}
+.trust-list li{display:grid;grid-template-columns:18px minmax(0,1fr);gap:8px}
+.trust-list li::before{content:"";width:8px;height:13px;margin:3px 0 0 4px;border:solid var(--teal);border-width:0 2px 2px 0;transform:rotate(45deg)}
+.trust-verify{grid-column:1/-1;margin:0;padding-top:14px;border-top:1px solid var(--line);font-size:.92rem;color:var(--ink3)}
+.trust-verify .tlink{margin-right:8px;color:var(--teal-ink);font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.trust.terms-only{grid-template-columns:minmax(0,1fr);margin-top:18px}
+.trust.terms-only .trust-list{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:900px){.trust{grid-template-columns:minmax(0,1fr)}.trust.terms-only .trust-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.trust{padding:22px 18px}.trust-list,.trust.terms-only .trust-list{grid-template-columns:minmax(0,1fr)}}
+.ra .trust{margin-top:8px}
 </style>
 <script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
 </head>
@@ -168,6 +185,23 @@
       <p class="fine">Already on Salesforce? The <a href="crm-revenue-audit.html" style="color:var(--gold2);text-decoration:underline">CRM Revenue Audit</a> is the place to start.</p>
     </aside>
   </div>
+
+  <section class="w ra-trust" aria-labelledby="trust-h">
+  <div class="trust">
+    <div class="trust-me">
+      <img src="imgs/AmrMagdyPic-144.webp" srcset="imgs/AmrMagdyPic-144.webp 144w, imgs/AmrMagdyPic-216.webp 216w" sizes="64px" alt="Amr Magdy" width="64" height="64" decoding="async">
+      <div><h2 id="trust-h">You work with me directly</h2><p>Based in Cairo, working US hours: <b>9am to 6pm Eastern, Monday to Friday</b>. I reply within one business day.</p></div>
+    </div>
+    <ul class="trust-list">
+      <li><span><b>NDA before I log in.</b> I&rsquo;m happy to sign yours first.</span></li>
+      <li><span><b>Your logins, your control.</b> You create my users and can switch them off any time. Your current CRM keeps running until the switch.</span></li>
+      <li><span><b>You own everything.</b> Every build is written down, so another admin could take it over.</span></li>
+      <li><span><b>Fixed price, in writing.</b> A written scope and price before anything starts, by invoice or through an Upwork contract that holds your payment until you approve.</span></li>
+      <li><span><b>No dead week.</b> Your team keeps working in the old system until Salesforce is ready for them.</span></li>
+    </ul>
+    <p class="trust-verify"><a class="tlink" href="https://www.salesforce.com/trailblazer/amrmagdyai" target="_blank" rel="noopener">Verify my certifications</a> Salesforce Certified Administrator, Platform App Builder, Associate and AI Associate</p>
+  </div>
+  </section>
 
   <section class="ra-sec">
     <div class="w">
@@ -233,7 +267,7 @@
         <a href="salesforce-vs-gohighlevel.html">Salesforce vs GoHighLevel</a>
         <a href="podio-alternative-wholesalers.html">Podio alternative</a>
         <a href="best-crm-for-wholesalers.html">Best CRM for wholesalers</a>
-        <a href="blog-salesforce-crm-migration-real-estate.html">How a safe migration works</a>
+        <a href="switch-to-salesforce-real-estate-investors.html">How a safe migration works</a>
       </div>
     </div>
   </section>
@@ -292,7 +326,7 @@
 <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Outgrown%20Podio%2C%20REsimpli%20or%20GoHighLevel%3F%20Move%20to%20Salesforce...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/move-to-salesforce.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="background:var(--teal);color:var(--on-accent);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--teal)">Email a question</a>
 <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Outgrown%20Podio%2C%20REsimpli%20or%20GoHighLevel%3F%20Move%20to%20Salesforce...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">WhatsApp</a>
 <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Message on LinkedIn</a>
-<a href="index.html#contact" onclick="if(window.gtag)gtag('event','contact_click',{method:'call_request',page_path:location.pathname})" style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Request a free call</a>
+<a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book style="background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)">Book a 30-minute call</a>
 </div></div></section>
 <!-- ask-cta:end -->
 <footer class="foot"><div class="wrap">
@@ -303,12 +337,12 @@
       <li><a href="sample-audit-report.html">Sample audit report</a></li>
       <li><a href="move-to-salesforce.html" aria-current="page">Move to Salesforce</a></li>
       <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
-      <li><a href="salesforce-health-check.html">Free health check</a></li>
+      <li><a href="crm-revenue-audit-terms.html">Audit scope and terms</a></li>
     </ul></nav>
     <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
       <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
       <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
-      <li><a href="wholesaling-mao-calculator.html">MAO calculator</a></li>
+      <li><a href="wholesale-deal-analyzer.html">Wholesale deal analyzer</a></li>
       <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
       <li><a href="resources.html">All free tools</a></li>
     </ul></nav>

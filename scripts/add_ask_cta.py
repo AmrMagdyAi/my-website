@@ -11,6 +11,9 @@ SKIP = {'404.html', 'crm-revenue-audit-terms.html', 'sample-audit-report.html', 
 # the main site's look (assets/site.css): teal for the main action, outlined for the rest, on the dark band
 BTN = 'background:var(--teal);color:var(--on-accent);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--teal)'
 GHOST = 'background:transparent;color:var(--band-ink);font-weight:600;text-decoration:none;padding:10px 20px;border-radius:999px;border:2px solid var(--band-line)'
+BOOK = 'https://calendly.com/amr-magdy-crm/30min'
+# these two draw brokers and agents, who aren't clients, so their strip speaks to investor teams
+BROKER = {'blog-salesforce-setup-real-estate-brokerage.html', 'blog-salesforce-vs-follow-up-boss-real-estate.html'}
 
 def block(page, h1):
     topic = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', re.sub(r'<br\s*/?>', ' ', h1)))).strip().rstrip('.')
@@ -20,17 +23,19 @@ def block(page, h1):
     body = urllib.parse.quote(f'Hi Amr,\n\nI read {url} and have a question about our setup:\n\n')
     wa = urllib.parse.quote(f'Hi Amr, I read your page "{short}" and have a question: ')
     ev = "if(window.gtag)gtag('event','contact_click',{method:'%s',page_path:location.pathname})"
+    who = 'Run an investor, wholesaling or home-buying team? ' if page in BROKER else ''
+    call = 'Investor team? Book a 30-minute call' if page in BROKER else 'Book a 30-minute call'
     return f'''{START}
 <section class="ask-cta" aria-label="Ask a question" style="max-width:860px;margin:44px auto 0;padding:0 20px">
 <div style="background:var(--band);color:var(--band-ink);border-radius:20px;padding:30px 28px 26px">
 <p style="margin:0 0 8px;font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;color:var(--band-ink2);font-weight:600">Found this useful?</p>
 <h2 style="margin:0 0 8px;color:var(--band-ink);font-size:1.6rem;line-height:1.2">Ask me how this would work in your CRM.</h2>
-<p style="margin:0 0 20px;color:var(--band-ink2);line-height:1.55">Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.</p>
+<p style="margin:0 0 20px;color:var(--band-ink2);line-height:1.55">{who}Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.</p>
 <div style="display:flex;flex-wrap:wrap;gap:10px">
 <a href="mailto:info@amrmagdy.com?subject={subj}&amp;body={body}" onclick="{ev % 'email'}" style="{BTN}">Email a question</a>
 <a href="https://wa.me/201033275250?text={wa}" target="_blank" rel="noopener" onclick="{ev % 'whatsapp'}" style="{GHOST}">WhatsApp</a>
 <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="{ev % 'linkedin'}" style="{GHOST}">Message on LinkedIn</a>
-<a href="index.html#contact" onclick="{ev % 'call_request'}" style="{GHOST}">Request a free call</a>
+<a href="{BOOK}" target="_blank" rel="noopener" data-book style="{GHOST}">{call}</a>
 </div></div></section>
 {END}
 '''
