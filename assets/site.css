@@ -601,3 +601,23 @@ body.with .pair{border-color:var(--teal-line)}
 @media (max-width:900px){.trust{grid-template-columns:minmax(0,1fr)}.trust.terms-only .trust-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.trust{padding:22px 18px}.trust-list,.trust.terms-only .trust-list{grid-template-columns:minmax(0,1fr)}}
 .trust-sec{padding-block:0 8px}
+
+/* the front door: the homepage hero sits on the dark band, the Monday card stays a light card. The dot, the "Monday, 8am." line and the bar follow the switch (rose without a system, teal with one) */
+#monday{--hd:#dc9f9c;position:relative;color:#f7f4ef;padding-block:64px 88px}
+body.with #monday{--hd:#4fc4b6}
+main:has(#monday){isolation:isolate;overflow-x:clip}
+#monday::before{content:"";position:absolute;inset:0 calc(50% - 50vw);z-index:-1;background-color:#22201d;background-image:radial-gradient(520px 420px at 8% 100%,rgba(79,196,182,.16),transparent 70%),radial-gradient(560px 460px at 96% 0,rgba(155,93,93,.30),transparent 70%),radial-gradient(rgba(247,244,239,.07) 1px,transparent 1.2px);background-size:auto,auto,22px 22px}
+#monday::after{content:"";position:absolute;left:calc(50% - 50vw);right:calc(50% - 50vw);bottom:0;height:6px;background:linear-gradient(90deg,#9b5d5d 50%,#0f766e 50%)}
+#monday .kicker{color:#cfc8bd}
+#monday .kicker .dot{background:var(--hd)}
+#monday h1{color:#f7f4ef}
+#monday h1 .when{color:var(--hd)}
+#monday .lede p,#monday .fine{color:#cfc8bd}
+#monday .lede b{color:#f7f4ef}
+#monday .fine a{color:#f7f4ef}
+#monday .btn.ghost{color:#f7f4ef;border-color:rgba(247,244,239,.42);background:transparent}
+#monday .btn.ghost:hover{border-color:#f7f4ef}
+#monday .day{box-shadow:0 40px 70px -30px rgba(0,0,0,.85)}
+@media (max-width:940px){#monday{padding-block:40px 64px}}
+#monday .day{color:var(--ink)}
+#monday .day .day-h h2,#monday .day .day-h h3,#monday .day h2,#monday .day h3{color:var(--ink)}

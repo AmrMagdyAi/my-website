@@ -1428,7 +1428,7 @@ URL: https://amrmagdy.com/blog.html
 
 Salesforce and CRM guides for Real Estate Investors
 Practical guides written from hands-on work inside a home-buying company's Salesforce: leads and follow-up, automation, reports, comparisons, moving CRMs and hiring help.
-Want to run numbers instead of read? Free calculators, checklists and templates →
+Want to run numbers instead of read? Free calculators and checklists →
 Salesforce for Real Estate Investors and Home-Buying Companies
 Who it fits and who it doesn't, the deal flow mapped to Salesforce, 10 builds that pay for themselves, what it really costs and a 12-week timeline.
 Real estate CRM: the complete guide
