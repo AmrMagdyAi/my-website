@@ -264,3 +264,21 @@ html.embed .top,html.embed .mcta { display:none !important; }
   .mcta,.top-act,.nav,.menu-btn,.theme-toggle { display:none !important; }
   .btn { background:none; color:#000; border-color:#999; }
 }
+
+/* guide pages: dark header band (eyebrow, title and the guide's picture), the reading below stays light. Built by scripts/guide_band.py */
+main.pg{isolation:isolate;overflow-x:clip;padding-top:0}
+.band-h{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:40px;align-items:center;padding:52px 0 60px;margin-bottom:36px;color:#f7f4ef}
+.band-h.noobj{grid-template-columns:minmax(0,1fr)}
+.band-h::before{content:"";position:absolute;inset:0 calc(50% - 50vw);z-index:-1;background-color:#22201d;background-image:radial-gradient(520px 420px at 8% 100%,rgba(79,196,182,.16),transparent 70%),radial-gradient(560px 460px at 96% 0,rgba(155,93,93,.30),transparent 70%),radial-gradient(rgba(247,244,239,.07) 1px,transparent 1.2px);background-size:auto,auto,22px 22px}
+.band-h::after{content:"";position:absolute;left:calc(50% - 50vw);right:calc(50% - 50vw);bottom:0;height:6px;background:linear-gradient(90deg,#9b5d5d 50%,#0f766e 50%)}
+.band-h .eyebrow{color:#cfc8bd}
+.band-h .eyebrow::before{background:#dc9f9c}
+.band-h h1{color:#f7f4ef;margin:14px 0 0}
+.band-h h1 em,.pg .band-h h1 em{color:#4fc4b6!important}
+.band-h .obj{position:relative;width:250px;height:260px;justify-self:center}
+.band-h .obj .tile{position:absolute;left:6px;top:20px;width:210px;height:210px;border-radius:30px;background:#fffdf9;transform:rotate(-5deg);display:flex;align-items:center;justify-content:center;box-shadow:0 34px 48px -24px rgba(0,0,0,.85),0 0 70px var(--og,rgba(15,118,110,.5))}
+.band-h .obj .tile svg{width:118px;height:118px;color:#4d4842}
+.band-h .obj .bdg{position:absolute;right:0;bottom:10px;width:96px;height:96px;border-radius:50%;background:var(--bg-c,#0f766e);display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 6px #22201d,0 20px 30px -12px rgba(0,0,0,.8)}
+.band-h .obj .bdg svg{width:50px;height:50px;color:#fff}
+.band-h .obj.r{--og:rgba(180,80,79,.38);--bg-c:#b4504f}
+@media (max-width:760px){.band-h{grid-template-columns:minmax(0,1fr);padding:36px 0 44px;margin-bottom:28px}.band-h .obj{display:none}}
