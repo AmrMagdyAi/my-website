@@ -192,14 +192,14 @@ Missed call cost
 What unanswered seller calls cost you a month.
 The Monday 5
 Five numbers every owner should see on Monday.
-Guides and articles
+Read the guides
 Real estate CRM: the complete guide Guide
 Salesforce vs investor CRMs, the honest version Compare
 Best CRM for wholesalers in 2026 Compare
 Speed to lead statistics, every one sourced Data
 15 automation recipes for wholesalers Recipes
 20 report recipes for Monday questions Recipes
-The CRM field kit Download
+Missed-call alerts in Salesforce Guide
 Wholesaling CRM questions, answered Answers
 Salesforce for real estate investors Guide
 Lead routing for real estate teams Article
@@ -1423,57 +1423,138 @@ Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholes
 Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.
 
 ---
-## Salesforce CRM Blog for Real Estate | Amr Magdy
+## Salesforce CRM Guides for Real Estate | Amr Magdy
 URL: https://amrmagdy.com/blog.html
 
-CRM Insights for Real Estate Companies
-Practical Salesforce guides written from hands-on experience with US real estate companies — automation, dashboards, lead routing, investor CRM, and more.
-The Investor CRM Audit Checklist: 60 Checks You Can Run Yourself
-Spend, answer, follow-up, offer, keep, reports and system health. Works for any CRM, and your score updates as you tick.
+Salesforce and CRM guides for Real Estate Investors
+Practical guides written from hands-on work inside a home-buying company's Salesforce: leads and follow-up, automation, reports, comparisons, moving CRMs and hiring help.
+Want to run numbers instead of read? Free calculators, checklists and templates →
+Salesforce for Real Estate Investors and Home-Buying Companies
+Who it fits and who it doesn't, the deal flow mapped to Salesforce, 10 builds that pay for themselves, what it really costs and a 12-week timeline.
+Real estate CRM: the complete guide
+Data model, stages, automation, integrations, KPIs, compliance and a 30-day setup plan, with every tool linked.
+Do I need a CRM yet?
+Seven signs you've outgrown the spreadsheet, and the cheapest next step before paying for a CRM.
+Wholesaling CRM checklist
+What your CRM must track at each of five stages, and how to choose between a spreadsheet, an investor CRM and Salesforce.
+Salesforce for Real Estate Investors: 50 Questions Answered
+Cost and editions, setup time, moving from Podio, REsimpli or GoHighLevel, admin help, integrations, reports and texting rules.
+12 Salesforce features investor orgs don't use
+Score your org out of 12 as you read: use case, setup steps, edition and a gotcha for each, checked against Salesforce Help. PDF checklist included.
+37 Salesforce features for investors
+Custom objects, Flow, validation rules, routing, reports, mobile, portals and AI, with limits by edition.
+Which Salesforce edition do investors need?
+Starter vs Professional vs Enterprise vs Unlimited by custom objects, flows and API access. No list prices.
+Salesforce AI and Agentforce for Real Estate Investors
+What Agentforce, Conversation Insights and lead scoring do for an investor team, what each needs first, and where to be careful.
+Best CRM for wholesalers (2026)
+11 CRMs compared on dialer, texting, skip tracing, buyers and published price, each linked to the vendor.
+Salesforce vs investor CRMs
+Data model, automation, reporting, testing and price side by side, with sourced limits, and when Salesforce is overkill.
+Salesforce vs Podio for Wholesalers (2026)
+Limits, automation caps, reporting, permissions and cost, and how to decide.
+Salesforce vs HubSpot for Real Estate Investors (2026)
+Custom objects, automation, reporting, calling and HubSpot's published prices, compared honestly.
+Salesforce vs REsimpli
+Where each one wins for a wholesaling team, with every claim linked to the vendor.
+Salesforce vs GoHighLevel
+Marketing platform vs CRM platform, usage fees, and when to run both.
+Salesforce vs Follow Up Boss for Real Estate: Which CRM Is Right for You?
+An honest side-by-side comparison of the two most popular real estate CRMs — covering automation, cost, scalability, and which teams each one is actually built for.
+Moving from Podio, REsimpli or GoHighLevel to Salesforce
+A sourced price comparison, the field map, what breaks, a 30-60-90 plan and a free CSV template.
+Moving off Podio
+Signs you've outgrown your setup, three options, and a 10-step migration that keeps lead source history.
+Podio's New Automation Limit: What It Means for a Wholesaling Team
+What counts as an automation, when the cap applies, what happens when you hit it and five options.
+Speed to lead
+Why the first hour decides the deal, how to measure it, and five rules that fix it in any CRM.
+Speed to lead & follow-up statistics
+62 verified numbers on response time, follow-up, missed calls and the 2026 investor market, each linked to its source. Plus 8 myths.
+Missed-Call Alerts in Salesforce: Turn Every Missed Seller Call Into a Callback
+What your phone system has to log first, the Flow step by step, who gets the alert, after hours and text-back cautions.
+Salesforce Lead Routing for Real Estate Investors: Round Robin, Queues and Missed Calls
+Assignment rules, four round robin options, call routing, after hours, escalation and returning sellers.
+Motivated Seller Lead Scoring in Salesforce
+A simple points model, how to check it against closed deals, and when Einstein Lead Scoring is worth it.
 The Offer Went Out. Then What? Offer Follow-Up in Salesforce
 The fields, deadlines and one daily list that keep every open offer alive until it's signed or dead.
 Reactivating Dead Seller Leads in Salesforce
 Sort by dead reason, check who you can't contact, run it as a campaign and route the sellers who answer.
-Send Your Salesforce Deals Back to Google Ads (2026)
-Google's old Salesforce import ended in May 2025. Which stages to send now, the setup, phone calls and values.
-Motivated Seller Lead Scoring in Salesforce
-A simple points model, how to check it against closed deals, and when Einstein Lead Scoring is worth it.
 Seller Appointment No-Shows: Reminders and Tracking in Salesforce
 Confirmations and reminders timed to the appointment, an outcome on every one and a show-rate report.
-Salesforce vs Podio for Wholesalers (2026)
-Limits, automation caps, reporting, permissions and cost, and how to decide.
-Stop Reps Exporting Your Seller List from Salesforce
-What a rep can export, which permissions to remove, what you can see afterwards and what to do when someone gives notice.
 Probate Leads in Salesforce: Working on the Court's Timeline
 Who's who, a separate record with its own pipeline, the dates that drive follow-up and the reports.
-Salesforce for Real Estate Investors: 50 Questions Answered
-Cost and editions, setup time, moving from Podio, REsimpli or GoHighLevel, admin help, integrations, reports and texting rules.
-Missed-Call Alerts in Salesforce: Turn Every Missed Seller Call Into a Callback
-What your phone system has to log first, the Flow step by step, who gets the alert, after hours and text-back cautions.
+Every lead source into Salesforce
+Web-to-Lead, Facebook lead ads, Google Ads conversion import, CallRail and lists.
+Driving for dollars with Salesforce
+Mobile capture offline, routes with Salesforce Maps or Geopointe, and what happens after the drive.
+Texting sellers from Salesforce
+10DLC registration, CTIA consent guidance, opt-outs and the tools that log texts.
+Dialers in Salesforce (Open CTI ends 2028)
+RingCentral, Aircall, Dialpad, Twilio: editions, call logging and the 2028 deadline.
+Wholesale dispositions in Salesforce
+Buyers with a buy box, which buyer saw which deal, deal blasts and dispo numbers.
+Transaction coordination in Salesforce
+Contract to close on one board: stages, dates, automatic tasks and a weekly TC scorecard.
+Double closing costs
+What you pay on both sides of a double close, the formula for what you keep, and what to ask your title company.
+Wholesale assignment fee
+How much fee a deal can carry: the max-fee formula from the buyer's margin, plus when to double close.
+New wholesaling laws: what your CRM has to track
+Ohio, Connecticut, Louisiana, Missouri, Maryland and more in plain words, with the fields, automations and report to track each rule.
+Salesforce for private and DSCR lenders
+The loan pipeline from inquiry to payoff: conditions, draws, repeat borrowers and the owner reports.
+Real Estate Investor KPIs: What Each Role Should Track
+Marketing, first contact, acquisitions, dispo, TC and owner KPIs, each defined and built in Salesforce, tied to the books.
+How to Build a Real Estate Pipeline Dashboard in Salesforce
+The components and how to build each, days in stage, the transaction pipeline, and one dashboard per role.
+How to Track Real Estate Deal Profitability, Cost Per Lead, and Campaign ROI in Salesforce
+Build cost-per-lead, cost-per-opportunity, and net profit calculations broken down by campaign and lead source — directly inside Salesforce. No more month-end spreadsheet scrambles.
 Which Campaign Gets Credit for the Deal? Lead Attribution for Investors
 A first-response rule, the fields to lock, sellers who come back months later, and the reports that settle a budget.
-Duplicate Seller Leads in Salesforce: Rules That Catch Them Without Losing Leads
-Match on phone, email and property, alert people but never block integrations, clean list imports and merge on a schedule.
+20 Salesforce reports for wholesalers
+Report type, filter, grouping and measure for leads, speed to lead, offers, cost per deal and dispo.
+Your Salesforce Dashboard and Your Bank Account Disagree. Here's Why.
+Ten causes, from the running user to date fields, a 20-minute check and how to stop it happening again.
+15 Automation Recipes for a Wholesaling CRM
+Trigger-to-action recipes for speed to lead, missed calls, follow-up, offers, contracts and dispo, with an honest look at the payback.
 Your Automations Fail Quietly. Here's How to Find Out Before a Seller Does.
 Who gets flow error emails, the Monitor tab, Zapier turning Zaps off, heartbeat reports and a 15-minute weekly check.
+Connecting Salesforce to Your Real Estate Stack with Zapier
+The 5 Zapier integrations that deliver the most value for real estate — website forms, Zillow, Facebook Lead Ads, closed deal automation, and Slack alerts.
+Salesforce Integrations for Real Estate Investors (2026)
+DocuSign, QuickBooks, dialers, texting, ad platforms, PropStream and Slack: how each connects to Salesforce and what it changes.
+Send Your Salesforce Deals Back to Google Ads (2026)
+Google's old Salesforce import ended in May 2025. Which stages to send now, the setup, phone calls and values.
+DocuSign + Salesforce
+Purchase and assignment contracts sent, signed and filed from the deal.
+QuickBooks + Salesforce
+Assignment fees invoiced from the deal; paid status and cost per deal in reports.
+Duplicate Seller Leads in Salesforce: Rules That Catch Them Without Losing Leads
+Match on phone, email and property, alert people but never block integrations, clean list imports and merge on a schedule.
 Wholesaling Team Roles: Who Owns What in Your CRM
 Lead manager, acquisitions, underwriting, dispo and TC: what each owns, the handoffs where deals leak, and the screens each role needs.
 Adding Acquisitions Reps? Set This Up in Salesforce Before Their First Call
 An 11-step checklist from user setup to the ramp report, plus what to do on the day a rep leaves.
+Opening a New Market? Set Up Your CRM Before the First Mailer Drops
+A 10-part checklist, a launch test and the first 90 days, so every lead and deal carries its market.
 Your Salesforce Admin Just Left: The Two-Week Handover Plan
 Freeze or deactivate, what runs under their name, what breaks first, and 10 questions to ask before they go.
 A Salesforce Admin for Your Investor Team: Hire, Freelancer or Retainer?
 Which kind of help fits a 10 to 50 person team, and if you hire: a job post to copy, 10 interview questions, a paid test, 2026 pay and a 30-day plan.
 How to Choose a Salesforce Consultant for an Investor Team
 Freelancer, firm or offshore, published 2026 rate ranges, 11 questions to ask and the red flags.
-Salesforce vs HubSpot for Real Estate Investors (2026)
-Custom objects, automation, reporting, calling and HubSpot's published prices, compared honestly.
-Podio's New Automation Limit: What It Means for a Wholesaling Team
-What counts as an automation, when the cap applies, what happens when you hit it and five options.
-Opening a New Market? Set Up Your CRM Before the First Mailer Drops
-A 10-part checklist, a launch test and the first 90 days, so every lead and deal carries its market.
-Your Salesforce Dashboard and Your Bank Account Disagree. Here's Why.
-Ten causes, from the running user to date fields, a 20-minute check and how to stop it happening again.
+Stop Reps Exporting Your Seller List from Salesforce
+What a rep can export, which permissions to remove, what you can see afterwards and what to do when someone gives notice.
+Salesforce access for VAs and cold callers
+Permission sets, sharing, field-level security, MFA and an onboarding and offboarding checklist.
+Why Your Agents Aren't Using Salesforce (And How to Fix It)
+The four failure modes of Salesforce adoption in real estate — and the frameworks that actually work to change agent behavior.
+How to Set Up Salesforce for a Real Estate Brokerage (Step-by-Step)
+A practical setup guide: choosing the right edition, configuring objects for real estate, building automation, and rolling out to agents.
+Wholesaling CRM questions, answered
+Ten real questions from wholesaling groups, each with one concrete step to set up in your CRM.
 50+ Real Salesforce Requests From a Real Estate Acquisition Company
 A categorized log of 50+ real delivered requests — full-funnel ROI dashboards, call-tracking attribution, lead lifecycle automation, a rebuilt transaction coordination app, and what it all teaches you.
 The Salesforce Configuration Object: Manage Automations Without Touching Code
@@ -1482,34 +1563,8 @@ How I Moved a Home-Buying Team’s Zapier Automations to Native Salesforce
 A home-buying team was hitting Zapier API limits every month. Here's how I moved its Zaps to Salesforce Flows, cutting costs and delays and making the automations more reliable.
 How to Build a RingCentral–Salesforce Daily Call Sync with Apex
 A step-by-step breakdown of the Apex class that auto-syncs RingCentral call logs into Salesforce daily — eliminating 2+ hours of manual logging per user per week.
-How to Track Real Estate Deal Profitability, Cost Per Lead, and Campaign ROI in Salesforce
-Build cost-per-lead, cost-per-opportunity, and net profit calculations broken down by campaign and lead source — directly inside Salesforce. No more month-end spreadsheet scrambles.
-Salesforce vs Follow Up Boss for Real Estate: Which CRM Is Right for You?
-An honest side-by-side comparison of the two most popular real estate CRMs — covering automation, cost, scalability, and which teams each one is actually built for.
-Salesforce for Real Estate Investors and Home-Buying Companies
-Who it fits and who it doesn't, the deal flow mapped to Salesforce, 10 builds that pay for themselves, what it really costs and a 12-week timeline.
-How to Set Up Salesforce for a Real Estate Brokerage (Step-by-Step)
-A practical setup guide: choosing the right edition, configuring objects for real estate, building automation, and rolling out to agents.
-Salesforce AI and Agentforce for Real Estate Investors
-What Agentforce, Conversation Insights and lead scoring do for an investor team, what each needs first, and where to be careful.
-Moving from Podio, REsimpli or GoHighLevel to Salesforce
-A sourced price comparison, the field map, what breaks, a 30-60-90 plan and a free CSV template.
-15 Automation Recipes for a Wholesaling CRM
-Trigger-to-action recipes for speed to lead, missed calls, follow-up, offers, contracts and dispo, with an honest look at the payback.
-How to Build a Real Estate Pipeline Dashboard in Salesforce
-The components and how to build each, days in stage, the transaction pipeline, and one dashboard per role.
-Why Your Agents Aren't Using Salesforce (And How to Fix It)
-The four failure modes of Salesforce adoption in real estate — and the frameworks that actually work to change agent behavior.
-Salesforce Lead Routing for Real Estate Investors: Round Robin, Queues and Missed Calls
-Assignment rules, four round robin options, call routing, after hours, escalation and returning sellers.
-Real Estate Investor KPIs: What Each Role Should Track
-Marketing, first contact, acquisitions, dispo, TC and owner KPIs, each defined and built in Salesforce, tied to the books.
 Sample Salesforce Audit Report for a Home-Buying Company
 What the CRM Revenue Audit hands over, for a made-up company: findings, a 30/60/90 roadmap, the Monday 5 dashboard spec and the quick fixes.
-Connecting Salesforce to Your Real Estate Stack with Zapier
-The 5 Zapier integrations that deliver the most value for real estate — website forms, Zillow, Facebook Lead Ads, closed deal automation, and Slack alerts.
-Salesforce Integrations for Real Estate Investors (2026)
-DocuSign, QuickBooks, dialers, texting, ad platforms, PropStream and Slack: how each connects to Salesforce and what it changes.
 One useful Salesforce guide. At most weekly.
 New playbooks on lead routing, automation, and CRM ROI for real estate teams — straight to your inbox. No fluff, unsubscribe anytime.
 Ready to Fix Your Real Estate Salesforce?
@@ -2049,7 +2104,7 @@ Required lead source, a next follow-up date on every open lead, a missed call cr
 Is Salesforce too much for a new wholesaler?
 Usually yes. Start with a spreadsheet or an investor CRM. Salesforce makes sense once you have several people, markets or reporting needs your tool cannot handle.
 Related
-Real estate CRM guide · Speed to lead & follow-up statistics · Wholesaling CRM checklist · Salesforce vs investor CRMs · Follow-up cadence builder · Missed call cost · All free tools
+Real estate CRM guide · Speed to lead & follow-up statistics · Wholesaling CRM checklist · Salesforce vs investor CRMs · Follow-up cadence builder · Missed call cost · All guides · All free tools
 Last updated October 2026.
 Want this built into your CRM?
 I build Salesforce for real estate investors and wholesalers, and the same rules work in any CRM. Outgrowing a spreadsheet, Podio, REsimpli or GoHighLevel? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
@@ -2093,8 +2148,8 @@ Who pays transfer tax and title insurance?
 It depends on local custom and the contract. In some places the seller pays transfer tax, in others the buyer, or it is split. In a double close you are on both sides, so check each line of both estimates.
 Can every title company do a double close?
 No. Some will not close back-to-back transactions, and some end-buyer lenders have rules about how recently the seller bought the property. Ask before you go under contract. This page is not legal or tax advice.
-Related free tools
-Assignment vs double close · Assignment fee guide · Wholesale deal analyzer · All free tools
+Related
+Assignment vs double close · Assignment fee guide · Wholesale deal analyzer · All guides · All free tools
 Last updated October 2026. Not legal or tax advice.
 Want every deal's real profit in one report?
 I build Salesforce for real estate investors and wholesalers: exit type on every deal, both sets of closing costs, and a report of what each lead source actually earns. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -3126,8 +3181,8 @@ Should I rebuild in Podio instead?
 Sometimes yes. If the team knows Podio and the problems are messy fields and missing automations, a clean rebuild against the checklist can be the cheapest fix.
 Can you migrate Podio to Salesforce?
 Yes, that is part of my work. I build Salesforce for real estate investors and wholesalers, so weigh my view with that in mind.
-Related free tools
-Podio's new automation limit · Salesforce vs Podio · Do I need a CRM yet? · Wholesaling CRM checklist · CRM field kit · Deal Leak Score · Salesforce vs investor CRMs · Podio, REsimpli or GoHighLevel to Salesforce: field map and 30-60-90 plan · All free tools
+Related
+Podio's new automation limit · Salesforce vs Podio · Do I need a CRM yet? · Wholesaling CRM checklist · CRM field kit · Deal Leak Score · Salesforce vs investor CRMs · Podio, REsimpli or GoHighLevel to Salesforce: field map and 30-60-90 plan · All guides · All free tools
 Last updated October 2026. Podio is a trademark of its owner; this page is independent.
 Moving off Podio?
 I build Salesforce for real estate investors and wholesalers, including the move from Podio: field mapping, history you keep, deduplication and a Monday report on day one, at a fixed price agreed before anything starts. Start with a free 30-minute call.
@@ -3567,7 +3622,7 @@ CTIA Messaging Principles and Best Practices (2023)
 Salesforce Help: Open CTI end of life
 Salesforce Help: Data Import Wizard limits
 Related
-Best CRM for wholesalers (2026) · Salesforce vs REsimpli · Salesforce vs GoHighLevel · Salesforce features · Integrations · Statistics · All free tools
+Best CRM for wholesalers (2026) · Salesforce vs REsimpli · Salesforce vs GoHighLevel · Salesforce features · Integrations · Statistics · All guides · All free tools
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want this built for your team?
 I build Salesforce for real estate investors and wholesalers: the data model, stages, automation, integrations and Monday numbers in this guide, set up around your process. Moving from Podio, REsimpli, GoHighLevel or a spreadsheet? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
@@ -3773,7 +3828,7 @@ Every statistic was read on the linked page in October 2026. Where the original 
 Cite this page
 Amr Magdy, “Speed to Lead & Follow-Up Statistics for Real Estate Investors (2026),” amrmagdy.com, October 2026, https://amrmagdy.com/real-estate-lead-response-statistics.html
 Related
-Real estate CRM guide · Speed to lead guide · Missed call cost calculator · Follow-up cadence builder · Cold caller handoff checklist · Reactivating dead seller leads · All free tools
+Real estate CRM guide · Speed to lead guide · Missed call cost calculator · Follow-up cadence builder · Cold caller handoff checklist · Reactivating dead seller leads · All guides · All free tools
 Want your own speed-to-lead number?
 I build Salesforce for real estate investors and wholesalers with lead response time, follow-up attempts and missed calls measured automatically. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
@@ -3819,135 +3874,9 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/resources.html
 
 Free tools for real estate investors & wholesalers.
-Calculators, a weekly KPI framework and a glossary I built from working inside a home-buying company's Salesforce. Use them on your own numbers in US dollars, Canadian dollars, pounds or euros; nothing you type into a calculator leaves your browser.
-Real estate CRM and Salesforce guides
-How to choose, build and connect a CRM for investing, with every fact linked to its source.
-Salesforce for real estate investors
-Who it fits and who it doesn't, the deal flow mapped to Salesforce, 10 builds that pay for themselves, and what drives the cost.
-Switching to Salesforce
-From Podio, REsimpli, GoHighLevel or Follow Up Boss: sourced comparison, field map, what breaks, a 30-60-90 plan.
-12 Salesforce features investor orgs don't use
-Score your org out of 12 as you read: use case, setup steps, edition and a gotcha for each, checked against Salesforce Help. PDF checklist included.
-Real estate CRM: the complete guide
-Data model, stages, automation, integrations, KPIs, compliance and a 30-day setup plan, with every tool linked.
-37 Salesforce features for investors
-Custom objects, Flow, validation rules, routing, reports, mobile, portals and AI, with limits by edition.
-Salesforce integrations for investors
-DocuSign, QuickBooks, dialers, texting, Facebook and Google Ads, PropStream, Slack: what each syncs and needs.
-Which Salesforce edition do investors need?
-Starter vs Professional vs Enterprise vs Unlimited by custom objects, flows and API access. No list prices.
-Best CRM for wholesalers (2026)
-11 CRMs compared on dialer, texting, skip tracing, buyers and published price, each linked to the vendor.
-Salesforce vs REsimpli
-Where each one wins for a wholesaling team, with every claim linked to the vendor.
-Salesforce vs GoHighLevel
-Marketing platform vs CRM platform, usage fees, and when to run both.
-Edition picker for Salesforce
-Nine questions about your team and tools, and the Salesforce edition to start from, with reasons. No list prices.
-20 Salesforce reports for wholesalers
-Report type, filter, grouping and measure for leads, speed to lead, offers, cost per deal and dispo.
-Salesforce AI and Agentforce for investors
-Agentforce agents, Conversation Insights and Lead Scoring: what each does for investors and what it needs.
-15 automation recipes for wholesalers
-Trigger → action for speed to lead, missed calls, follow-up, offers, contracts and dispo, in build order.
-Wholesale dispositions in Salesforce
-Buyers with a buy box, which buyer saw which deal, deal blasts and dispo numbers.
-Driving for dollars with Salesforce
-Mobile capture offline, routes with Salesforce Maps or Geopointe, and what happens after the drive.
-Salesforce access for VAs and cold callers
-Permission sets, sharing, field-level security, MFA and an onboarding and offboarding checklist.
-DocuSign + Salesforce
-Purchase and assignment contracts sent, signed and filed from the deal.
-QuickBooks + Salesforce
-Assignment fees invoiced from the deal; paid status and cost per deal in reports.
-Dialers in Salesforce (Open CTI ends 2028)
-RingCentral, Aircall, Dialpad, Twilio: editions, call logging and the 2028 deadline.
-Texting sellers from Salesforce
-10DLC registration, CTIA consent guidance, opt-outs and the tools that log texts.
-Every lead source into Salesforce
-Web-to-Lead, Facebook lead ads, Google Ads conversion import, CallRail and lists.
-Google Ads offline conversions
-Send appointments, contracts and closed deals from Salesforce back to Google Ads, now that the old import is gone.
-Transaction coordination in Salesforce
-Contract to close on one board: stages, dates, automatic tasks and a weekly TC scorecard.
-Salesforce admin: hire or retainer?
-How a hire, a freelancer and a retainer compare, and if you hire: a job post, 10 interview questions, a paid test and 2026 pay.
-Running your team and your Salesforce
-KPIs, dashboards, routing, alerts, duplicates, hiring and handovers, written from inside a home-buying company's org.
-Salesforce for investors: 50 questions
-Cost, editions, setup time, moving, admin help, integrations and reporting, answered plainly.
-Investor CRM audit checklist
-60 yes/no checks from spend to closing, plus system health. Works for any CRM.
-Investor KPIs by role
-What marketing, first contact, acquisitions, dispo, the TC and the owner should each track, and how to build it.
-Pipeline dashboard in Salesforce
-The components, days in stage, the transaction pipeline and one dashboard per role.
-Missed-call alerts in Salesforce
-The Flow, who gets alerted, after-hours rules, text-back cautions and a daily check.
-Seller appointment no-shows
-Reminders timed to the appointment, an outcome on every one, and a show-rate report.
-Offer follow-up in Salesforce
-The fields, deadlines and daily list that keep every open offer alive until it's signed or dead.
-Reactivating dead seller leads
-Sort by dead reason, check consent, run it as a campaign and route the sellers who answer.
-Motivated seller lead scoring
-A simple points model, how to check it against closed deals, and when Einstein is worth it.
-Probate leads in Salesforce
-A separate record, court dates that drive the follow-up, and reports for a slow pipeline.
-Which campaign gets credit?
-A first-response rule, locked source fields and the reports for ROI by campaign.
-Duplicate sellers in Salesforce
-Matching on phone, email and property, list imports, merges and returning sellers.
-Monitoring automations and Zaps
-Error emails, the Monitor tab, heartbeat reports and a 15-minute weekly check.
-Why your numbers don't match
-Ten causes, and a 20-minute check before you trust a dashboard.
-Wholesaling team roles
-Who owns what in the CRM, the handoffs where deals leak, and permissions by role.
-Stop reps exporting your seller list
-The permissions to remove, what you can see afterwards, and the day someone gives notice.
-Adding acquisitions reps
-11 things to set up in Salesforce before and after a new rep's first call.
-New market CRM checklist
-Numbers, campaigns, routing, buyers and reports to set up before the first mailer.
-Your Salesforce admin left
-A two-week handover plan, and everything that runs under their name.
-Choosing a Salesforce consultant
-Freelancer, firm or offshore, rate ranges and the questions to ask.
-Salesforce vs HubSpot
-Custom objects, automation, reporting and HubSpot's published prices.
-Podio's automation limit
-What counts, what happens at the cap, and five options for a wholesaling team.
-Salesforce vs Podio
-Limits, automation caps, reporting, permissions and cost for a wholesaling team.
-Wholesaling and acquisitions
-Underwrite offers, price your exits and see what each lead source really costs.
-New wholesaling laws: what your CRM has to track
-Ohio, Connecticut, Louisiana, Missouri, Maryland and more in plain words, with the fields, automations and report to track each rule.
-Deal Leak Score
-Ten yes/no checks across spend, answer, follow-up, offer and keep, scored out of 100. Compare answers with your team.
-Seller follow-up cadence builder
-A dated touch plan for hot, warm and cold leads by call, text, email and mail, downloadable as tasks.
-Wholesaling CRM checklist
-What your CRM must track at each of five stages, and how to choose between a spreadsheet, an investor CRM and Salesforce.
-Do I need a CRM yet?
-Seven signs you've outgrown the spreadsheet, and the cheapest next step before paying for a CRM.
-Speed to lead & follow-up statistics
-62 verified numbers on response time, follow-up, missed calls and the 2026 investor market, each linked to its source. Plus 8 myths.
-Cold caller handoff
-The call outcomes, required fields and callback rule that stop leads dying between VA and acquisitions.
-Salesforce vs investor CRMs
-Data model, automation, reporting, testing and price side by side, with sourced limits, and when Salesforce is overkill.
-Moving off Podio
-Signs you've outgrown your setup, three options, and a 10-step migration that keeps lead source history.
-Double closing costs
-What you pay on both sides of a double close, the formula for what you keep, and what to ask your title company.
-Wholesale assignment fee
-How much fee a deal can carry: the max-fee formula from the buyer's margin, plus when to double close.
-Cash buyers list template
-Free CSV with the buy-box fields, plus how to send each deal to the right 10 buyers.
-Speed to lead
-Why the first hour decides the deal, how to measure it, and five rules that fix it in any CRM.
+Calculators, self-checks, templates and a weekly KPI framework I built from working inside a home-buying company's Salesforce. Use them on your own numbers in US dollars, Canadian dollars, pounds or euros; nothing you type into a calculator leaves your browser. Looking for something to read? See the guides .
+Price a wholesale deal
+Type your numbers in. Nothing you enter leaves your browser.
 Wholesale deal analyzer
 MAO, room under it at your contract price, and whether your cash buyer still makes a profit after your fee.
 Assignment vs double close
@@ -3960,30 +3889,42 @@ Acquisitions team capacity
 How many reps your lead volume needs, from first calls, follow-up touches and offers.
 Rentals, BRRRR and buy-to-let
 For buy-and-hold investors in the US, Canada, the UK and Europe. Pick your currency.
-Salesforce for private and DSCR lenders
-The loan pipeline from inquiry to payoff: conditions, draws, repeat borrowers and the owner reports.
 BRRRR calculator
 Cash left in the deal after the refinance, monthly cash flow, cash-on-cash return and equity.
 Rental yield & cap rate
 Gross and net yield, cap rate and cash-on-cash for rentals and buy-to-let. USD, CAD, GBP or EUR.
 DSCR calculator
 Debt service coverage from rent and PITIA, the NOI-based ratio, and the largest loan that meets your target.
-Frameworks, kits and answers
-What to track, which fields to set up, and plain answers to common CRM questions.
+Check your CRM
+Score your setup in a few minutes and see what to fix first.
+Deal Leak Score
+Ten yes/no checks across spend, answer, follow-up, offer and keep, scored out of 100. Compare answers with your team.
+Investor CRM audit checklist
+60 yes/no checks from spend to closing, plus system health. Works for any CRM.
+Edition picker for Salesforce
+Nine questions about your team and tools, and the Salesforce edition to start from, with reasons. No list prices.
+Seller follow-up cadence builder
+A dated touch plan for hot, warm and cold leads by call, text, email and mail, downloadable as tasks.
+Frameworks, templates and downloads
+What to track each week, which fields to set up, and files to copy.
 The Kept-Deal Map
 The five places money leaks between the marketing dollar and the closed deal, with a 30-second self-check.
 The Monday 5
 The five numbers an investor owner should see every Monday, with formulas and a 30-second self-check.
+Cold caller handoff
+The call outcomes, required fields and callback rule that stop leads dying between VA and acquisitions.
+Cash buyers list template
+Free CSV with the buy-box fields, plus how to send each deal to the right 10 buyers.
 CRM field kit
 The lead, deal and buyer fields, picklists, automation rules and Monday report spec. Free, no email needed.
-Wholesaling CRM questions, answered
-Ten real questions from wholesaling groups, each with one concrete step to set up in your CRM.
+Reference and video
+Plain-English definitions, and six short videos with one leak each.
 Wholesaling CRM glossary
 Plain-English definitions of the metrics and terms acquisitions teams use, and how each looks in a CRM.
 Deal Leak videos
 Six short videos, one leak each, from the missed seller call to fall-outs in your ROI, with the tool to measure each.
-Guides
-Cost per lead, deal profitability and campaign ROI in Salesforce · Lead routing and speed to lead · 50+ real requests from an acquisition company · All articles
+Prefer to read?
+The 68 guides cover choosing a CRM, follow-up, automation, reports, moving off Podio, REsimpli or GoHighLevel, and hiring help. Browse all guides · Cost per lead and campaign ROI in Salesforce · Lead routing and speed to lead
 Rather have it built into your CRM?
 Every tool here is something I build as live reporting in Salesforce for investors and wholesalers. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit (USD 1,500).
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
@@ -6512,7 +6453,7 @@ Write your stages from new lead to closed on paper, list the five reports you wa
 Watch the short versions
 Five short videos cover each section of this page: how far Salesforce goes .
 Related
-Salesforce vs HubSpot · Salesforce vs Podio · Best CRM for wholesalers (2026) · Salesforce vs REsimpli · Salesforce vs GoHighLevel · Edition picker tool · Salesforce features for investors · Which Salesforce edition · Do I need a CRM yet? · Moving off Podio · Wholesaling CRM checklist · Salesforce vs Follow Up Boss · Salesforce for real estate investors · All free tools
+Salesforce vs HubSpot · Salesforce vs Podio · Best CRM for wholesalers (2026) · Salesforce vs REsimpli · Salesforce vs GoHighLevel · Edition picker tool · Salesforce features for investors · Which Salesforce edition · Do I need a CRM yet? · Moving off Podio · Wholesaling CRM checklist · Salesforce vs Follow Up Boss · Salesforce for real estate investors · All guides · All free tools
 Last updated October 2026. Salesforce, Podio and REsimpli are trademarks of their owners; this page is independent. I build Salesforce for real estate investors, so I'm not neutral, and I've tried to keep every claim to what the vendors publish.
 Not sure which side you're on?
 I build Salesforce for real estate investors and wholesalers. Outgrowing Podio, REsimpli or another investor CRM? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
@@ -6857,8 +6798,8 @@ How do I measure speed to lead if my CRM does not track it?
 Add two date-time fields to the lead: when the lead came in and when the first real conversation happened. A formula field gives the minutes between them. Report the median, not the average, by source and by hour.
 Why do missed calls matter so much?
 A missed inbound call is a seller who already chose to call you. If nobody calls back fast, they talk to the next investor on their list, and the lead never shows up in your CRM at all, so your reports cannot see the loss.
-Related free tools
-Missed-call alerts in Salesforce · Motivated seller lead scoring · Seller appointment no-shows · Lead sources into Salesforce · Speed to lead & follow-up statistics · Cold caller handoff checklist · Missed seller call cost · Acquisitions team capacity · Deal Leak Score · The Monday 5 · Follow-up cadence builder · All free tools
+Related
+Missed-call alerts in Salesforce · Motivated seller lead scoring · Seller appointment no-shows · Lead sources into Salesforce · Speed to lead & follow-up statistics · Cold caller handoff checklist · Missed seller call cost · Acquisitions team capacity · Deal Leak Score · The Monday 5 · Follow-up cadence builder · All guides · All free tools
 Last updated October 2026.
 Want missed calls and speed to lead tracked automatically?
 I build Salesforce for real estate investors and wholesalers: missed-call tasks, routing to the next available rep, escalation and a Monday report. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
@@ -7137,8 +7078,8 @@ Is assigning a contract legal everywhere?
 Rules on wholesaling, assignment and disclosure vary by state and change over time, and some purchase contracts forbid assignment. For example, Oklahoma's SB 1075, in effect since November 1, 2025, requires written disclosures to the seller and a two-business-day right to cancel. This page is not legal advice; check the contract and ask a local real estate attorney before you assign.
 What should my CRM track about fees?
 The fee on every closed deal, the fee you planned when you went under contract, the lead source and the campaign. That shows which sources produce the deals with the biggest fees and how often fees get cut before closing.
-Related free tools
-DocuSign contracts from the deal · Invoicing fees with QuickBooks · Wholesale deal analyzer · Assignment vs double close · Cash buyers list template · Double closing costs · All free tools
+Related
+DocuSign contracts from the deal · Invoicing fees with QuickBooks · Wholesale deal analyzer · Assignment vs double close · Cash buyers list template · Double closing costs · All guides · All free tools
 Several states now regulate how you contract and assign, with disclosures, cancellation windows and closing deadlines. See new wholesaling laws: what your CRM has to track , state by state.
 Last updated October 2026. Not legal or tax advice. Oklahoma law source: press release on SB 1075 .
 Want every fee tracked by source?
@@ -7376,8 +7317,8 @@ Should I use an investor CRM or Salesforce?
 Investor CRMs come set up for wholesaling and are quicker to start. Salesforce takes setup but fits teams that need their own process, several markets, or custom reporting. I build on Salesforce, so weigh my view with that in mind: the checklist on this page matters more than the brand.
 How do I check my current CRM?
 Go stage by stage through the checklist on this page and mark each line yes or no. The free Deal Leak Score does the same in ten questions and gives a score out of 100.
-Related free tools
-Real estate CRM guide · Do I need a CRM yet? · CRM field kit · Deal Leak Score · Speed to lead · Follow-up cadence builder · Wholesaling CRM glossary · Moving off Podio · All free tools
+Related
+Real estate CRM guide · Do I need a CRM yet? · CRM field kit · Deal Leak Score · Speed to lead · Follow-up cadence builder · Wholesaling CRM glossary · Moving off Podio · All guides · All free tools
 Last updated October 2026.
 Want this checklist built into your CRM?
 I build Salesforce for real estate investors and wholesalers: every stage above, with the fields, automations and Monday report. Moving from a spreadsheet, Podio, REsimpli or GoHighLevel? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
@@ -7514,7 +7455,7 @@ Yes. A validation rule can stop a deal from moving to Under Contract until the d
 Is this page legal advice?
 No. It is a plain-words summary written so you can set up tracking. Laws change and have details this page leaves out. Check with a real estate attorney in each state you work in.
 Related
-Assignment fee guide · Assignment vs double close · Wholesaling CRM checklist · DocuSign contracts from the deal · CRM field kit · All free tools
+Assignment fee guide · Assignment vs double close · Wholesaling CRM checklist · DocuSign contracts from the deal · CRM field kit · All guides · All free tools
 Sources
 Ohio Revised Code 5301.95 (SB 155)
 JD Supra: New Ohio law targets real estate wholesaling practices

@@ -71,7 +71,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Texting sellers from Salesforce: https://amrmagdy.com/salesforce-texting-real-estate.html (Texting sellers from Salesforce (A2P 10DLC registration, CTIA express written consent and list guidance, opt-out fields, texting tools))
 - Every lead source into Salesforce: https://amrmagdy.com/salesforce-lead-sources-real-estate.html (Getting every real estate lead source into Salesforce (Web-to-Lead 500/day, Facebook Lead Capture, Google Ads Conversion Import with GCLID, CallRail call data, list imports))
 
-## Free tools (all free, no sign-up, hub: https://amrmagdy.com/resources.html)
+## Free tools and guides (tools hub: https://amrmagdy.com/resources.html, guides hub: https://amrmagdy.com/blog.html)
 - BRRRR Calculator: https://amrmagdy.com/brrrr-calculator.html (Free BRRRR calculator for rental investors in the US and Canada: cash left in the deal after the refinance, monthly cash flow, cash-on-cash return and equity.)
 - Rental Yield & Cap Rate Calculator: https://amrmagdy.com/rental-yield-calculator.html (Free rental yield calculator: gross yield, net yield, cap rate, cash flow and cash-on-cash return for buy-to-let and rental property in the US, Canada, UK and Europe.)
 - DSCR Calculator: https://amrmagdy.com/dscr-calculator.html (Free DSCR calculator for real estate investors: debt service coverage ratio from rent and PITIA, the NOI-based ratio, and the maximum loan at your target DSCR.)
@@ -80,7 +80,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Speed to lead and follow-up statistics (data, CC BY 4.0): https://amrmagdy.com/real-estate-lead-response-statistics.html (62 verified statistics on lead response time, follow-up attempts, missed calls, CRM data and the 2026 investor market, each with source, year and sample; 8 commonly quoted myths traced)
 - Cold caller to acquisitions handoff (checklist): https://amrmagdy.com/cold-caller-handoff-checklist.html (fixed call outcomes, required fields before a lead is passed, callback time rule, weekly calibration)
 - Salesforce vs investor CRMs (comparison): https://amrmagdy.com/salesforce-vs-investor-crms.html (Salesforce vs Podio vs wholesaling CRMs on data model, automation, reporting, sandboxes and price, with vendor-sourced limits; when Salesforce is overkill)
-- Blog (all articles): https://amrmagdy.com/blog.html (Salesforce for real estate: automations, lead routing, KPIs, dashboards, migrations, integrations, AI)
+- Guides (all 68, grouped by topic): https://amrmagdy.com/blog.html (CRM choice and comparisons, leads and follow-up, deals and closing, reports, automation and integrations, team and admin, case studies)
 - Moving off Podio (guide): https://amrmagdy.com/podio-alternative-wholesalers.html (signs a wholesaling team has outgrown Podio, rebuild vs investor CRM vs Salesforce, 10-step migration checklist, what Podio's Excel export leaves out)
 - Wholesaling CRM checklist (guide): https://amrmagdy.com/wholesaling-crm.html (what a wholesaling CRM must track at each of five stages: spend, answer, follow-up, offer, keep; choosing a spreadsheet, investor CRM or Salesforce)
 - Double closing costs (guide): https://amrmagdy.com/double-closing-costs.html (costs on both sides of a double close, the keep formula, double close vs assignment, questions for the title company)
@@ -175,7 +175,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - [CRM Revenue Audit for Real Estate Investors | Amr Magdy](https://amrmagdy.com/crm-revenue-audit.html): A fixed-price review of your investor Salesforce CRM: campaign ROI, speed to lead, stale offers, data health and automations, with a prioritized roadmap.
 - [Salesforce CRM for Canadian Real Estate Investors](https://amrmagdy.com/salesforce-consultant-canada-real-estate.html): Salesforce for Canadian home-buying companies, wholesalers and BRRRR investors: the same deal system as US teams, plus CRTC Do Not Call and CASL consent tracking, CAD, provinces and time zones. Free 30-minute call.
 - [Salesforce CRM for UK Property Investors & Deal Sourcers](https://amrmagdy.com/salesforce-consultant-uk-estate-agents.html): Salesforce for UK property investors, deal sourcers and BTL, HMO and BRR investors: an offer-to-completion pipeline, investor matching and sourcing fees, TPS and PECR consent records, UK GDPR and GBP. Free 30-minute call.
-- [Free Tools for Real Estate Investors & Wholesalers](https://amrmagdy.com/resources.html): Free tools for investors and wholesalers: cost per deal calculator, deal analyzer (MAO), Deal Leak Score, the Monday 5, a CRM field kit, glossary and videos.
+- [Free Tools for Real Estate Investors & Wholesalers](https://amrmagdy.com/resources.html): calculators, self-checks, templates and downloads: cost per deal, deal analyzer (MAO), BRRRR, DSCR, Deal Leak Score, the Monday 5, a CRM field kit, glossary and videos. The guides are at https://amrmagdy.com/blog.html.
 
 ## Articles
 - [Migrating Zapier Automations to Salesforce Flows](https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html)
