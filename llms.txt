@@ -120,6 +120,14 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Lead attribution for real estate investors: https://amrmagdy.com/real-estate-lead-attribution.html (a first-response credit rule, the original source locked on the deal, latest source and re-engaged flags, reports including ROI on kept deals)
 - Wholesaling team roles and the CRM: https://amrmagdy.com/wholesaling-team-roles-crm.html (owner, marketing, lead manager, acquisitions, underwriting, dispositions, transaction coordinator and ops; handoffs with required fields and deadlines; screens and permissions by role)
 - Salesforce vs HubSpot for real estate investors: https://amrmagdy.com/salesforce-vs-hubspot-real-estate-investors.html (custom objects only on HubSpot Enterprise, automation and reporting limits, calling, HubSpot's published 2026 prices, running both)
+- Wholesaling pipeline stages: https://amrmagdy.com/wholesaling-pipeline-stages.html (Wholesaling pipeline stages: the entry rule, exit rule, owner and time limit for eight stages, "not now" vs dead, lead vs opportunity, and how to build it in Salesforce with Path, validation rules and a stage-age alert)
+- Free CRM for wholesalers: https://amrmagdy.com/free-crm-for-wholesalers.html (Free CRM for wholesalers: what a spreadsheet and free CRM tiers give you, seven jobs a CRM must do, the limits that bite first, signs you have outgrown it, and how to leave without losing data)
+- AI for wholesalers and lead follow-up: https://amrmagdy.com/ai-for-wholesalers-lead-follow-up.html (AI for wholesalers: seven follow-up jobs ranked by payoff and risk, TCPA rules for AI calls and texts (FCC 24-17, opt-outs within 10 business days), guardrails and a 30-day rollout)
+- Lead vs Opportunity vs Property in Salesforce: https://amrmagdy.com/lead-vs-opportunity-salesforce-real-estate.html (Lead, Opportunity or Property: what each Salesforce object should mean for a home-buying team, when to convert a lead, what conversion carries over, three patterns and returning sellers)
+- CRM tags for wholesalers: https://amrmagdy.com/crm-tags-wholesale-real-estate.html (CRM tags for wholesalers: what belongs in a tag, a field, a campaign or a consent flag, naming rules, tags that trigger automation, and a Salesforce setup and clean-up routine)
+- CRM for a we buy houses company: https://amrmagdy.com/crm-for-we-buy-houses-company.html (CRM for a we-buy-houses company: the seven jobs it has to do, the tools around it, who needs access, the numbers it should give you and a 10-question check)
+- Seller lead tracker spreadsheet (free CSV): https://amrmagdy.com/seller-lead-tracker-spreadsheet.html (Seller lead tracker spreadsheet: a free 28-column CSV, dropdown lists, an overdue formula, a 15-minute daily routine, weekly counts by source and five signs to move to a CRM)
+- Wholesaling systems FAQ: https://amrmagdy.com/wholesaling-systems-faq.html (Wholesaling systems FAQ: 40 pain points in eight groups (leads and speed, follow-up, pipeline and handoffs, team and access, numbers, tools, AI and compliance, fixing or moving))
 - Missed-call alerts in Salesforce: https://amrmagdy.com/missed-call-alerts-salesforce.html (phone integration prerequisites, a 7-step record-triggered Flow, Slack alerts, escalation, after-hours rules, text-back cautions, a daily report)
 - Adding acquisitions reps in Salesforce: https://amrmagdy.com/add-acquisitions-reps-crm.html (an 11-step checklist: user and permissions, phone and texting under the rep's own user, assignment from the first calling day, list views, templates, speed-to-lead alert, ramp report, offboarding)
 - Real estate investor KPIs by role (updated): https://amrmagdy.com/blog-salesforce-kpis-real-estate.html (marketing, first contact, acquisitions, dispositions, transaction coordination and owner KPIs, each with a definition and how to build it in Salesforce; tying spend and profit to the books)
@@ -148,6 +156,14 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - How do I audit my own investor CRM? https://amrmagdy.com/investor-crm-audit-checklist.html
 - How do I set up missed-call alerts in Salesforce? https://amrmagdy.com/missed-call-alerts-salesforce.html
 - What should I set up in Salesforce before a new acquisitions rep starts? https://amrmagdy.com/add-acquisitions-reps-crm.html
+- What stages should a wholesaling pipeline have, and what must be true to move a deal? https://amrmagdy.com/wholesaling-pipeline-stages.html
+- Is there a free CRM for real estate wholesalers, and when does it stop working? https://amrmagdy.com/free-crm-for-wholesalers.html
+- Which lead follow-up jobs should a wholesaler hand to AI first? https://amrmagdy.com/ai-for-wholesalers-lead-follow-up.html
+- Should a seller be a Lead, Contact or Opportunity in Salesforce, and when do I convert? https://amrmagdy.com/lead-vs-opportunity-salesforce-real-estate.html
+- How should I tag leads in a wholesaling CRM without making a mess? https://amrmagdy.com/crm-tags-wholesale-real-estate.html
+- What does a CRM need to do for a we buy houses or cash home buying company? https://amrmagdy.com/crm-for-we-buy-houses-company.html
+- Is there a free seller lead tracking spreadsheet for wholesalers? https://amrmagdy.com/seller-lead-tracker-spreadsheet.html
+- What are the most common systems problems in wholesaling and how do I fix them? https://amrmagdy.com/wholesaling-systems-faq.html
 - What KPIs should a real estate investor or wholesaler track? https://amrmagdy.com/blog-salesforce-kpis-real-estate.html
 - How do I build a pipeline dashboard in Salesforce for a home-buying company? https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html
 - How do round robin and call routing work in Salesforce for investors? https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html
