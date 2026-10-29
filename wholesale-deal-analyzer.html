@@ -8,7 +8,7 @@
 <script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');});</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wholesale Deal Analyzer: MAO, Your Fee &amp; the Buyer&#x27;s Profit</title>
+<title>Wholesale Deal Analyzer: MAO, Your Fee &amp; Buyer Profit</title>
 <meta name="description" content="Free wholesale deal analyzer: maximum allowable offer, room under MAO at your contract price, the price to your buyer, and the buyer&#x27;s profit.">
 <link rel="canonical" href="https://amrmagdy.com/wholesale-deal-analyzer.html">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -188,6 +188,7 @@ C.set('hl',C.money(mao),'big');C.set('r_room',C.money(room),room<0?'neg':'pos');
 C.set('r_broi',isFinite(broi)?C.pct(broi):'—');C.set('r_share',isFinite(share)?C.pct(share,0):'—');
 C.set('msg',mao<=0?'At these numbers there is no offer that works: the repairs and your fee use up the whole margin.':(room<0?'Your contract price is '+C.money(-room)+' over MAO. Either renegotiate, cut your fee, or expect buyers to pass.':(bp<=0?'The buyer loses money at ARV. Recheck the ARV and repairs before you market it.':'This deal works: '+C.money(room)+' of room under MAO and the buyer keeps '+C.money(bp)+' ('+C.pct(broi)+' on cost).')));
 }C.init('deal_analyzer',compute);})();</script>
+<div class="mcta" id="mcta" data-stop=".cta,.foot" data-after="0.85"><a class="f" href="crm-revenue-audit.html">$1,500 audit</a><a class="g" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></div>
 <script src="assets/chrome.js" defer></script>
 <script src="booking.js" defer></script>
 </body>
