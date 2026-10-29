@@ -128,6 +128,10 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - CRM for a we buy houses company: https://amrmagdy.com/crm-for-we-buy-houses-company.html (CRM for a we-buy-houses company: the seven jobs it has to do, the tools around it, who needs access, the numbers it should give you and a 10-question check)
 - Seller lead tracker spreadsheet (free CSV): https://amrmagdy.com/seller-lead-tracker-spreadsheet.html (Seller lead tracker spreadsheet: a free 28-column CSV, dropdown lists, an overdue formula, a 15-minute daily routine, weekly counts by source and five signs to move to a CRM)
 - Wholesaling systems FAQ: https://amrmagdy.com/wholesaling-systems-faq.html (Wholesaling systems FAQ: 40 pain points in eight groups (leads and speed, follow-up, pipeline and handoffs, team and access, numbers, tools, AI and compliance, fixing or moving))
+- Import a skip-traced list into Salesforce: https://amrmagdy.com/skip-traced-list-import-salesforce.html (how to clean, split new from existing sellers, map, tag, test and load a PropStream or BatchLeads list without duplicates; Data Import Wizard 50,000 record limit; Do Not Call scrub every 31 days)
+- Cold calling team setup in Salesforce: https://amrmagdy.com/cold-calling-team-setup-salesforce.html (list ownership, calling hours, call outcomes that trigger the next step, the handoff, a scorecard and coaching)
+- Seller follow-up message templates: https://amrmagdy.com/seller-follow-up-message-templates.html (12 text, voicemail and email templates for missed calls, appointments, offers, not-now sellers and reactivation, with the triggers and consent rules)
+- Wholesaling SOPs inside your CRM: https://amrmagdy.com/sops-inside-your-crm-wholesaling.html (a five-line SOP format, SOPs by role, where each part lives in Salesforce and how to check compliance)
 - Missed-call alerts in Salesforce: https://amrmagdy.com/missed-call-alerts-salesforce.html (phone integration prerequisites, a 7-step record-triggered Flow, Slack alerts, escalation, after-hours rules, text-back cautions, a daily report)
 - Adding acquisitions reps in Salesforce: https://amrmagdy.com/add-acquisitions-reps-crm.html (an 11-step checklist: user and permissions, phone and texting under the rep's own user, assignment from the first calling day, list views, templates, speed-to-lead alert, ramp report, offboarding)
 - Real estate investor KPIs by role (updated): https://amrmagdy.com/blog-salesforce-kpis-real-estate.html (marketing, first contact, acquisitions, dispositions, transaction coordination and owner KPIs, each with a definition and how to build it in Salesforce; tying spend and profit to the books)
@@ -164,6 +168,10 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - What does a CRM need to do for a we buy houses or cash home buying company? https://amrmagdy.com/crm-for-we-buy-houses-company.html
 - Is there a free seller lead tracking spreadsheet for wholesalers? https://amrmagdy.com/seller-lead-tracker-spreadsheet.html
 - What are the most common systems problems in wholesaling and how do I fix them? https://amrmagdy.com/wholesaling-systems-faq.html
+- How do I import a PropStream or skip-traced list into Salesforce without duplicates? https://amrmagdy.com/skip-traced-list-import-salesforce.html
+- How should I set up a cold calling team and track its numbers in a CRM? https://amrmagdy.com/cold-calling-team-setup-salesforce.html
+- What should I text or say to a seller after a missed call, an offer or silence? https://amrmagdy.com/seller-follow-up-message-templates.html
+- How do I get my wholesaling team to follow SOPs? https://amrmagdy.com/sops-inside-your-crm-wholesaling.html
 - What KPIs should a real estate investor or wholesaler track? https://amrmagdy.com/blog-salesforce-kpis-real-estate.html
 - How do I build a pipeline dashboard in Salesforce for a home-buying company? https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html
 - How do round robin and call routing work in Salesforce for investors? https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html

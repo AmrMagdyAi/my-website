@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script src="assets/consent.js" defer></script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');else if(h.indexOf('.csv')>-1||h.indexOf('.pdf')>-1)gtag('event','file_download',{file_name:h});});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cold Calling Team Setup in Salesforce: Queues and Scorecard</title>
+<meta name="description" content="How to set up a real estate cold-calling team in a CRM: list ownership, call windows, outcomes that trigger the next step, handoff rules and a scorecard that rewards appointments.">
+<link rel="canonical" href="https://amrmagdy.com/cold-calling-team-setup-salesforce.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ef">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://amrmagdy.com/cold-calling-team-setup-salesforce.html">
+<meta property="og:title" content="Cold calling team setup in Salesforce: lists, queues, call outcomes and a daily scorecard">
+<meta property="og:description" content="How to set up a real estate cold-calling team in a CRM: list ownership, call windows, outcomes that trigger the next step, handoff rules and a scorecard that rewards appointments.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-cold-calling-team-setup-salesforce.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Cold calling team setup in Salesforce: queues, outcomes and a daily scorecard">
+<meta property="og:site_name" content="Amr Magdy">
+<meta property="article:published_time" content="2026-10-29">
+<meta property="article:modified_time" content="2026-10-29">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cold calling team setup in Salesforce: lists, queues, call outcomes and a daily scorecard">
+<meta name="twitter:description" content="How to set up a real estate cold-calling team in a CRM: list ownership, call windows, outcomes that trigger the next step, handoff rules and a scorecard that rewards appointments.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-cold-calling-team-setup-salesforce.jpg">
+<link rel="stylesheet" href="styles.css">
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.sec2{margin-top:44px;max-width:820px}
+.sec2 h2{font-size:1.5rem;margin:34px 0 8px;scroll-margin-top:calc(var(--nav) + 16px)}
+.sec2 h3{font-size:1.08rem;margin:22px 0 6px}
+.sec2 p,.sec2 li{color:var(--txt2);line-height:1.78}
+.sec2 p{margin:8px 0}
+.sec2 ul,.sec2 ol{padding-left:1.2rem;margin:8px 0}
+.sec2 li{margin:4px 0}
+.sec2 a{color:var(--sf);text-decoration:underline;text-underline-offset:2px}
+.sec2 strong{color:var(--txt)}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:18px}
+.card h3{margin-top:0}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;border:1px solid var(--bd);border-radius:14px;background:var(--bg2)}
+.tw table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:560px}
+.tw th,.tw td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--bd);color:var(--txt2);line-height:1.55}
+.tw th{color:var(--txt);font-weight:700;background:var(--bg);position:sticky;top:0}
+.tw td:first-child{color:var(--txt);font-weight:600}
+.dl dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:12px}
+.dl dd{color:var(--txt2);line-height:1.7;margin:2px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.toc a{border:1px solid var(--bd2);border-radius:999px;padding:5px 12px;font-size:.82rem;color:var(--txt)}
+.fig{margin:18px 0;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:16px}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{font-size:.84rem;color:var(--txt3);margin-top:8px;line-height:1.6}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:var(--band-ink);border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:var(--band-ink);font-size:1.35rem;margin:0 0 8px}.cta p{color:var(--band-ink2);line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--bg);border:1px solid var(--bd2);color:var(--txt2);margin-right:6px}
+.warn{background:var(--bg2);border:1.5px solid var(--gold);border-left-width:6px;border-radius:14px;padding:14px 18px;margin:18px 0 0;color:var(--txt2);line-height:1.7;max-width:820px}
+.dlbox{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--bg2);border:1.5px dashed var(--gold);border-radius:16px;padding:16px 18px;margin:18px 0}
+.dlbox p{margin:0;flex:1 1 240px}
+
+.ans{background:var(--bg2);border:1px solid var(--bd);border-left:6px solid var(--sf);border-radius:14px;padding:16px 20px;margin:22px 0 0;max-width:820px}
+.ans p{margin:0;color:var(--txt2);line-height:1.75}.ans .k{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--txt3);font-weight:700;margin-bottom:4px}
+.chk{list-style:none;padding-left:0!important}.chk li{position:relative;padding-left:1.6rem}.chk li::before{content:'';position:absolute;left:0;top:.45em;width:.9rem;height:.9rem;border:1.5px solid var(--sf);border-radius:4px}
+.rel2{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:12px}
+.rel2 a{display:block;border:1px solid var(--bd);border-radius:14px;padding:14px 16px;background:var(--bg2);text-decoration:none!important;color:var(--txt)!important}
+.rel2 a b{display:block;font-size:.95rem;margin-bottom:4px}.rel2 a span{display:block;font-size:.84rem;color:var(--txt3);line-height:1.5}
+.src{font-size:.86rem}.src li{margin:6px 0}
+.ex{font-size:.86rem;color:var(--txt3);font-style:italic}
+.faqcat{margin-top:40px}
+</style>
+<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Cold calling team setup in Salesforce: lists, queues, call outcomes and a daily scorecard", "description": "How to set up a real estate cold-calling team in a CRM: list ownership, call windows, outcomes that trigger the next step, handoff rules and a scorecard that rewards appointments.", "url": "https://amrmagdy.com/cold-calling-team-setup-salesforce.html", "mainEntityOfPage": "https://amrmagdy.com/cold-calling-team-setup-salesforce.html", "inLanguage": "en-US", "datePublished": "2026-10-29", "dateModified": "2026-10-29", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-cold-calling-team-setup-salesforce.jpg", "about": [{"@type": "Thing", "name": "Cold calling"}, {"@type": "Thing", "name": "Call center management"}, {"@type": "Thing", "name": "Salesforce"}, {"@type": "Thing", "name": "Wholesaling real estate"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What CRM workflow should a new cold caller start with?", "acceptedAnswer": {"@type": "Answer", "text": "A queue of assigned records, a short outcome picklist, a few required fields before a handoff, and a daily view of their own numbers. Add rules only when you see a repeated mistake."}}, {"@type": "Question", "name": "How do I monitor my cold callers' metrics and calls?", "acceptedAnswer": {"@type": "Answer", "text": "Make sure the dialer logs every call to the seller's record with an outcome and attempt number, then report dials, contact rate, interested rate, handoffs accepted and appointments set and kept per caller per week. Sample recordings weekly to check logged outcomes."}}, {"@type": "Question", "name": "What hours can I legally cold call sellers?", "acceptedAnswer": {"@type": "Answer", "text": "The FTC's Telemarketing Sales Rule treats outbound telemarketing calls before 8 a.m. or after 9 p.m. at the called person's local time as a violation, unless they've agreed otherwise. State rules can be stricter. This is information, not legal advice."}}, {"@type": "Question", "name": "How often do I need to scrub my call list against the Do Not Call registry?", "acceptedAnswer": {"@type": "Answer", "text": "The FTC says sellers and telemarketers must update their call lists, removing numbers on the National Do Not Call Registry, at least every 31 days. Keep the scrub date on each record and your own do-not-call flag as well."}}, {"@type": "Question", "name": "Why does my VA make thousands of calls and get no leads?", "acceptedAnswer": {"@type": "Answer", "text": "Check in this order: list quality and contact rate, duplicates, whether logged outcomes match the recordings, whether acquisitions accepts the handoffs and calls back quickly, and only then the script. Dial counts alone say very little."}}, {"@type": "Question", "name": "What should a cold caller be paid on?", "acceptedAnswer": {"@type": "Answer", "text": "Whatever you pay on, you'll get more of. Dials reward dialing. Appointments set and kept, and handoffs accepted by acquisitions, reward the work that leads to offers. Choose measures your CRM can report without a spreadsheet."}}, {"@type": "Question", "name": "How many times should I call a cold list?", "acceptedAnswer": {"@type": "Answer", "text": "Set the number from your own data: look at which attempt produced your appointments and where the curve flattens, then retire the record to nurture with a re-contact date. A starting plan is in the cadence builder."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Cold calling team setup in Salesforce", "item": "https://amrmagdy.com/cold-calling-team-setup-salesforce.html"}]}]}</script>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="about.html">About</a>
+    <a href="./#services">Services</a>
+    <a href="./#cases">Proof</a>
+    <a href="resources.html">Free tools</a>
+    <a href="blog.html">Guides</a>
+    <a href="crm-revenue-audit.html">Revenue Audit</a>
+    <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
+  </nav>
+  <div class="top-act">
+    <button class="icon-btn theme" id="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+    </button>
+    <a class="btn sm ghost" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a>
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span class="bars" aria-hidden="true"></span><span class="txt">Menu</span></button>
+  </div>
+</div></header>
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Guide · by Amr Magdy · Oct 2026</span>
+<h1>Cold calling team setup in Salesforce: <em>lists, outcomes and a scorecard that pays for appointments</em></h1>
+<p class="lead">The usual cold-calling complaint sounds like this: "my caller makes thousands of calls a week and I get no real leads." Sometimes the caller is the problem. More often the setup is: two callers dial the same owner, nobody knows which list is worn out, "interested" means five different things, calls are logged in a dialer that doesn't talk to the CRM, and the only number anyone watches is dials. This guide is the system around the calls: who owns which list, when to call, what each outcome does next, where the handoff happens, and the scorecard I'd use. It is written for owners and ops leads running one to ten callers, in-house or VAs, on Salesforce or any CRM you can shape.</p>
+<div class="ans"><span class="k">Short answer</span><p>Give every list one owner and a fixed number of attempts. Call inside legal hours (8 a.m. to 9 p.m. in the person's local time) and scrub against the Do Not Call registry at least every 31 days. Replace vague call notes with a short outcome picklist where every value triggers the next step on its own. Hand off to acquisitions only when required fields are filled in, and score callers on appointments set, accepted handoffs and appointments kept, not on dials.</p></div>
+<div class="toc"><a href="#parts">Six parts</a><a href="#lists">List ownership</a><a href="#rules">Hours and scrubbing</a><a href="#outcomes">Call outcomes</a><a href="#handoff">The handoff</a><a href="#score">The scorecard</a><a href="#coach">Coaching</a><a href="#stuck">When numbers are bad</a><a href="#faq">Questions</a></div>
+<section class="sec2">
+<h2 id="parts">What are the six parts of a cold-calling system?</h2>
+<ol>
+<li><strong>List:</strong> where the names came from and how clean they are (<a href="skip-traced-list-import-salesforce.html">importing a list</a>).</li>
+<li><strong>Queue:</strong> who calls which records, in what order, how many times.</li>
+<li><strong>Call:</strong> the dialer and the script, logged back to the seller's record (<a href="salesforce-dialer-real-estate.html">dialers and Salesforce</a>).</li>
+<li><strong>Outcome:</strong> one value that says what happened and decides what happens next.</li>
+<li><strong>Handoff:</strong> a real appointment or a warm seller passed to acquisitions with the facts attached (<a href="cold-caller-handoff-checklist.html">handoff checklist</a>).</li>
+<li><strong>Scorecard:</strong> the few numbers that tell you whether the machine works.</li>
+</ol>
+<p>The calls themselves are part 3 of 6. If results are poor, there are five other places to look before blaming the caller.</p>
+
+<h2 id="lists">Who should own a list, and how long?</h2>
+<ul>
+<li><strong>One owner per record.</strong> Set the record's owner when the list is loaded, to a caller or a queue with a claim rule. Two people calling one owner is the fastest way to annoy a seller and start an argument about credit.</li>
+<li><strong>A fixed attempt plan per list.</strong> For example, a set number of attempts across a number of weeks, at different times of day, then retire the record to nurture with a date. Choose it from your own history: look at which attempt number produced your appointments and where the curve flattens. The <a href="seller-follow-up-cadence.html">cadence builder</a> gives a starting plan.</li>
+<li><strong>Record the attempt number</strong> on every call, so you can see contact rate by attempt, by list and by time of day.</li>
+<li><strong>Retire lists on purpose.</strong> When a list's contact rate has dropped for several weeks, stop and ask whether the list, the numbers or the hours are the cause, before you buy a bigger list.</li>
+<li><strong>Keep one list per campaign.</strong> Mixing a pre-foreclosure list with a probate list in one queue hides which one works.</li>
+</ul>
+
+<h2 id="rules">Which calling rules belong in the system?</h2>
+<p>Put the rules where a tired caller can't skip them. Two federal ones to build around (this is information, not legal advice; check state rules as well):</p>
+<ul>
+<li><strong>Calling hours.</strong> The FTC's Telemarketing Sales Rule treats outbound telemarketing calls before 8 a.m. or after 9 p.m. at the called person's local time as a violation unless they've agreed otherwise. Store a time zone on each record (from the property's state and zip) and have the queue show a record only inside its window.</li>
+<li><strong>Do Not Call.</strong> Sellers and telemarketers must update their call lists against the National Do Not Call Registry at least every 31 days. Keep a scrub date on each record, and a company do-not-call flag for people who ask you to stop. That flag must beat everything else and copy to duplicate records.</li>
+</ul>
+<p>Add a hard stop: a record with the flag set, or with a scrub date older than your limit, doesn't appear in a dial queue at all.</p>
+
+<h2 id="outcomes">What should the call outcome picklist look like?</h2>
+<p>Notes are for stories. Outcomes are for the system. Keep the list short, fixed and mutually exclusive, and let each value start the next step automatically.</p>
+<div class="tw"><table>
+<thead><tr><th>Outcome</th><th>What the system does next</th></tr></thead>
+<tbody>
+<tr><td>No answer</td><td>Increase the attempt count; schedule the next attempt per the plan</td></tr>
+<tr><td>Left voicemail</td><td>Same as above, and flag that a voicemail was left</td></tr>
+<tr><td>Wrong number</td><td>Remove that number; try the next phone on the record</td></tr>
+<tr><td>Not the owner, owner reachable</td><td>Task to get the right contact; note who was spoken to</td></tr>
+<tr><td>Spoke, not interested</td><td>Ask for the reason (picklist); move to nurture with a longer re-contact date</td></tr>
+<tr><td>Spoke, not now</td><td>Require a re-contact date and a reason; create the task</td></tr>
+<tr><td>Spoke, interested</td><td>Require the handoff fields; assign to acquisitions with a callback due time</td></tr>
+<tr><td>Appointment set</td><td>Create the appointment, confirm text if consent exists, notify the acquisitions rep</td></tr>
+<tr><td>Do not call</td><td>Set the company do-not-call flag everywhere; stop all sequences</td></tr>
+</tbody></table></div>
+<p>"Interested" is the value that needs the most care. If it can be picked with nothing filled in, your acquisitions team will receive "interested" leads that no one can act on. That is the single most common reason a hot-looking list produces nothing.</p>
+
+<h2 id="handoff">When and how should a lead be handed to acquisitions?</h2>
+<p>Hand off when there is a seller with a real reason and a next step, not when someone says "maybe". The required fields at handoff are in the <a href="cold-caller-handoff-checklist.html">handoff checklist</a>: reason for selling, timeline, condition, price expectation, who else decides and the agreed next step. Two system rules help:</p>
+<ul>
+<li>A handoff creates a task for acquisitions due within a set number of minutes, and the caller sees whether it was accepted.</li>
+<li>A handoff that sits unaccepted past its limit alerts the manager, and one that acquisitions rejects returns to the caller with a reason. This feedback loop is how callers learn what a good handoff looks like.</li>
+</ul>
+<p>The stage rules around the handoff are in <a href="wholesaling-pipeline-stages.html">pipeline stages</a>.</p>
+
+<h2 id="score">What should the daily scorecard show?</h2>
+<p>One line per caller per day, summed per week, from the CRM, with no spreadsheet:</p>
+<div class="tw"><table>
+<thead><tr><th>Measure</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>Dials</td><td>Effort and capacity, not performance</td></tr>
+<tr><td>Contact rate (conversations / dials)</td><td>Tells you about the list, the hours and the numbers as much as about the caller</td></tr>
+<tr><td>Interested rate (interested / conversations)</td><td>Script and qualification</td></tr>
+<tr><td>Handoffs accepted by acquisitions</td><td>The quality check: a handoff that is rejected didn't count</td></tr>
+<tr><td>Appointments set, and kept</td><td>The number that leads to offers</td></tr>
+<tr><td>Cost per appointment</td><td>Caller cost and list cost together</td></tr>
+</tbody></table></div>
+<p>Pay and praise follow the measures you choose. If you reward dials you'll get dials; if you reward appointments kept, you'll get callers who qualify and confirm. It also gives you an answer when someone asks about a VA who makes thousands of calls a week with nothing to show: look at contact rate and handoffs accepted first.</p>
+
+<h2 id="coach">How should you coach callers?</h2>
+<ul>
+<li><strong>Sample recordings weekly.</strong> Listen to five calls per caller: two good, two weak, one random. Compare against the outcomes they logged. Mismatches (logged "not interested" when the seller asked for a callback) are the most common problem.</li>
+<li><strong>Review by outcome, not by caller.</strong> Pull ten "spoke, not interested" calls and listen for the pattern in the first thirty seconds.</li>
+<li><strong>Change one thing at a time.</strong> A new script and a new list in the same week tell you nothing.</li>
+<li><strong>Limit what callers can export.</strong> A caller needs their queue, not your database; see <a href="stop-reps-exporting-leads-salesforce.html">stopping reps exporting your list</a>.</li>
+</ul>
+
+<h2 id="stuck">What if the numbers are bad?</h2>
+<p>Work down the chain, from the top, before the caller:</p>
+<ol>
+<li><strong>Is the list the problem?</strong> Low contact rate on a new list usually points to stale numbers or the wrong hours.</li>
+<li><strong>Is the data clean?</strong> Duplicates mean the same owner got called repeatedly and some stopped answering.</li>
+<li><strong>Are outcomes honest?</strong> Compare logged outcomes against recordings.</li>
+<li><strong>Is the handoff working?</strong> A high interested rate and a low acceptance rate means the qualifying standard differs between caller and acquisitions.</li>
+<li><strong>Is acquisitions calling back fast enough?</strong> A great handoff that waits a day is a lost one; see <a href="speed-to-lead-real-estate-investors.html">speed to lead</a>.</li>
+<li><strong>Only then, the script and the caller.</strong></li>
+</ol>
+<p>If you'd like to check how many reps you need behind the callers, the <a href="acquisitions-team-capacity-calculator.html">acquisitions team capacity calculator</a> shows the load.</p>
+</section>
+<section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>What CRM workflow should a new cold caller start with?</h3><p>A queue of assigned records, a short outcome picklist, a few required fields before a handoff, and a daily view of their own numbers. Add rules only when you see a repeated mistake.</p></div><div class="cq"><h3>How do I monitor my cold callers' metrics and calls?</h3><p>Make sure the dialer logs every call to the seller's record with an outcome and attempt number, then report dials, contact rate, interested rate, handoffs accepted and appointments set and kept per caller per week. Sample recordings weekly to check logged outcomes.</p></div><div class="cq"><h3>What hours can I legally cold call sellers?</h3><p>The FTC's Telemarketing Sales Rule treats outbound telemarketing calls before 8 a.m. or after 9 p.m. at the called person's local time as a violation, unless they've agreed otherwise. State rules can be stricter. This is information, not legal advice.</p></div><div class="cq"><h3>How often do I need to scrub my call list against the Do Not Call registry?</h3><p>The FTC says sellers and telemarketers must update their call lists, removing numbers on the National Do Not Call Registry, at least every 31 days. Keep the scrub date on each record and your own do-not-call flag as well.</p></div><div class="cq"><h3>Why does my VA make thousands of calls and get no leads?</h3><p>Check in this order: list quality and contact rate, duplicates, whether logged outcomes match the recordings, whether acquisitions accepts the handoffs and calls back quickly, and only then the script. Dial counts alone say very little.</p></div><div class="cq"><h3>What should a cold caller be paid on?</h3><p>Whatever you pay on, you'll get more of. Dials reward dialing. Appointments set and kept, and handoffs accepted by acquisitions, reward the work that leads to offers. Choose measures your CRM can report without a spreadsheet.</p></div><div class="cq"><h3>How many times should I call a cold list?</h3><p>Set the number from your own data: look at which attempt produced your appointments and where the curve flattens, then retire the record to nurture with a re-contact date. A starting plan is in the cadence builder.</p></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="cold-caller-handoff-checklist.html"><b>Cold caller handoff checklist</b><span>The fields and rules between caller and acquisitions.</span></a><a href="salesforce-dialer-real-estate.html"><b>Salesforce dialers</b><span>How the main dialers connect and what they should log.</span></a><a href="skip-traced-list-import-salesforce.html"><b>Importing a list</b><span>Clean, split, tag, test and load.</span></a><a href="seller-follow-up-cadence.html"><b>Follow-up cadence builder</b><span>A touch plan by seller type.</span></a><a href="acquisitions-team-capacity-calculator.html"><b>Acquisitions capacity</b><span>How many reps your lead volume needs.</span></a><a href="wholesaling-team-roles-crm.html"><b>Team roles and the CRM</b><span>Who owns what, and who sees what.</span></a></div></section>
+<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Compliance notes are information, not legal advice; state rules can be stricter.</p><ol class="src"><li><a href="https://www.ftc.gov/business-guidance/resources/complying-telemarketing-sales-rule" rel="noopener" target="_blank">FTC: Complying with the Telemarketing Sales Rule</a>. Calling hours 8 a.m. to 9 p.m. local time; update call lists against the Do Not Call Registry at least every 31 days</li><li><a href="https://consumer.ftc.gov/articles/national-do-not-call-registry-faqs" rel="noopener" target="_blank">FTC: National Do Not Call Registry FAQs</a>. Telemarketers can't call before 8 a.m. or after 9 p.m. local time</li></ol></section>
+<div class="cta"><h2>Want your callers' numbers on one screen?</h2><p>The CRM Revenue Audit (USD 1,500, fixed price) checks how calls, outcomes and handoffs are logged in your org and shows where appointments leak. It's for teams already on Salesforce.</p>
+<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Cold%20calling%20team%20setup%20in%20Salesforce%3A%20lists%2C%20outcomes%20and%20a...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/cold-calling-team-setup-salesforce.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Cold%20calling%20team%20setup%20in%20Salesforce%3A%20lists%2C%20outcomes%20and%20a...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+</div></main>
+
+
+<section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
+<img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<footer class="foot"><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
+    <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
+      <li><a href="crm-revenue-audit.html">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report.html">Sample audit report</a></li>
+      <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
+      <li><a href="crm-revenue-audit-terms.html">Audit scope and terms</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
+      <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
+      <li><a href="wholesale-deal-analyzer.html">Wholesale deal analyzer</a></li>
+      <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
+      <li><a href="resources.html">All free tools</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
+      <li><a href="real-estate-crm-guide.html">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers.html">Moving off Podio</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="blog.html">All guides</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
+      <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
+      <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
+      <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate.html">Canada</a> · <a href="salesforce-consultant-uk-estate-agents.html">UK</a></li>
+      <li><a href="about.html">About me</a></li>
+      <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
+    </ul></nav>
+  </div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy.html">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+</div></footer>
+
+<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="crm-revenue-audit.html">$1,500 audit</a><a class="g" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></div>
+<script src="assets/chrome.js" defer></script>
+
+<script src="booking.js" defer></script>
+</body>
+</html>
