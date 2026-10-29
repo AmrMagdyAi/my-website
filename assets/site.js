@@ -58,15 +58,34 @@
   var sayOn=body.getAttribute('data-say-on')||'Showing the Monday with a system.';
   var sayOff=body.getAttribute('data-say-off')||'Showing the Monday without a system.';
   var touched=false;
-  function set(on,source){
+  function set(on,source,quiet){
     if(on===body.classList.contains('with')) return;
     body.classList.toggle('with',on);
     btns.forEach(function(b){ b.setAttribute('aria-pressed',String((b.getAttribute('data-state')==='with')===on)); });
+    if(quiet) return;
     if(live) live.textContent=on?sayOn:sayOff;
     ev('before_after_toggle',{state:on?'with':'without',source:source});
   }
-  btns.forEach(function(b){ b.addEventListener('click',function(){ touched=true; set(b.getAttribute('data-state')==='with','switch'); }); });
-  [].forEach.call(d.querySelectorAll('[data-flip]'),function(b){ b.addEventListener('click',function(){ touched=true; set(!body.classList.contains('with'),'button'); }); });
+  function touch(){ touched=true; body.classList.add('touched'); }
+  btns.forEach(function(b){ b.addEventListener('click',function(){ touch(); set(b.getAttribute('data-state')==='with','switch'); }); });
+  [].forEach.call(d.querySelectorAll('[data-flip]'),function(b){ b.addEventListener('click',function(){ touch(); set(!body.classList.contains('with'),'button'); }); });
+
+  /* a short preview for visitors who haven't found the switch: after a few seconds on the first screen it flips to
+     "with a system" for a moment and back, with no announcement and no analytics event. It never runs for visitors
+     who asked for less motion, scrolled, pressed a key or touched anything, and runs once per browser tab. */
+  if(btns.length&&d.getElementById('monday')&&!(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)){
+    var seen=false; try{ seen=sessionStorage.getItem('ba_demo')==='1'; }catch(e){}
+    if(!seen){
+      var busy=false, stopDemo=function(){ busy=true; };
+      ['wheel','touchstart','keydown','pointerdown','scroll'].forEach(function(n){ window.addEventListener(n,stopDemo,{passive:true,once:true}); });
+      setTimeout(function(){
+        if(busy||touched||d.hidden||(window.scrollY||root.scrollTop)>8) return;
+        try{ sessionStorage.setItem('ba_demo','1'); }catch(e){}
+        set(true,'demo',true);
+        setTimeout(function(){ if(!touched) set(false,'demo',true); },2600);
+      },5000);
+    }
+  }
 
   /* if the visitor reaches the proof without touching the switch, flip it once so the "with" side isn't missed.
      Only for visitors scrolling with a mouse or a finger who haven't asked for less motion. Keyboard and
@@ -85,7 +104,7 @@
           timer=setTimeout(function(){
             io.disconnect();
             if(touched) return;
-            if(scrolled&&!still){ touched=true; set(true,'auto'); }
+            if(scrolled&&!still){ touch(); set(true,'auto'); }
             var sw=d.querySelector('.sw');
             if(sw){ sw.classList.add('nudge'); setTimeout(function(){ sw.classList.remove('nudge'); },1800); }
           },900);
@@ -95,14 +114,16 @@
     io.observe(target);
   }
 
-  /* phone call-to-action bar: after the first screen, until the contact or request section */
+  /* phone call-to-action bar: after a short scroll, until the contact or request section */
   var bar=d.getElementById('mcta');
   if(bar){
     var stop=d.querySelector(bar.getAttribute('data-stop')||'#contact'), ticking=false;
+    /* guides and tools: the bar shows after a short scroll, so a booking button is never far away on a phone. Pages whose first screen already has one set data-after="0.85" */
+    var after=parseFloat(bar.getAttribute('data-after'))||0.4;
     var upd=function(){
       ticking=false;
       var y=window.scrollY||root.scrollTop;
-      var on=y>window.innerHeight*0.85&&!(stop&&stop.getBoundingClientRect().top<window.innerHeight);
+      var on=y>window.innerHeight*after&&!(stop&&stop.getBoundingClientRect().top<window.innerHeight);
       bar.classList.toggle('on',on);
     };
     window.addEventListener('scroll',function(){ if(!ticking){ ticking=true; requestAnimationFrame(upd); } },{passive:true});

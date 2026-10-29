@@ -192,6 +192,7 @@ C.set('hl',C.money(Math.max(left,0)),'big');C.set('r_cost',C.money(cost));C.set(
 C.set('r_coc',coc===null?(cf>0?'Infinite (no cash left in)':'—'):C.pct(coc));C.set('r_eq',C.money(arv-loan));
 C.set('msg',left<=0?'The refinance returns all your cash'+(left<0?' plus '+C.money(-left)+' extra':'')+'. That is a full BRRRR, if the appraisal comes in at your ARV.':(cf<0?'The rent does not cover the new payment and costs. Check the rent, the rate or the loan-to-value.':C.money(left)+' of your cash stays in the deal, earning '+C.pct(coc)+' a year in cash flow.'));
 }C.init('brrrr',compute);})();</script>
+<div class="mcta" id="mcta" data-stop=".cta,.foot" data-after="0.85"><a class="f" href="crm-revenue-audit.html">$1,500 audit</a><a class="g" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></div>
 <script src="assets/chrome.js" defer></script>
 <script src="booking.js" defer></script>
 </body>

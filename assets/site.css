@@ -621,3 +621,32 @@ main:has(#monday){isolation:isolate;overflow-x:clip}
 @media (max-width:940px){#monday{padding-block:40px 64px}}
 #monday .day{color:var(--ink)}
 #monday .day .day-h h2,#monday .day .day-h h3,#monday .day h2,#monday .day h3{color:var(--ink)}
+
+/* the switch should look like something to press: a labelled switch in the Monday card, a gentle pulse until the visitor first flips it */
+.sw-label{display:flex;align-items:center;gap:10px}
+@media (max-width:900px){.sw-label{display:none}}
+.sw-arrow{flex:none;width:34px;height:2px;background:var(--ink3);position:relative;animation:swarrow 1.6s ease-in-out 3}
+.sw-arrow::after{content:"";position:absolute;right:0;top:-4px;width:9px;height:9px;border-top:2px solid var(--ink3);border-right:2px solid var(--ink3);transform:rotate(45deg)}
+@keyframes swarrow{0%,100%{transform:translateX(0)}50%{transform:translateX(7px)}}
+.flipchip{display:inline-flex;align-items:center;gap:10px;flex:none;min-height:44px;padding:4px 6px 4px 4px;border-radius:999px;border:1.5px solid var(--state-line);background:var(--state-soft);color:var(--state-ink);font:700 .72rem/1 var(--f-body);letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;cursor:pointer;transition:background-color .4s,border-color .4s,color .4s,box-shadow .2s}
+.flipchip .st{padding:8px 4px 8px 11px;background:none!important;color:inherit!important}
+.flipchip:hover{box-shadow:0 0 0 3px var(--state-line)}
+.flipchip:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.flipchip .trk{position:relative;flex:none;width:42px;height:24px;border-radius:999px;background:var(--rose);transition:background-color .35s}
+.flipchip .trk i{position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:50%;background:#fffdf9;box-shadow:0 1px 3px rgba(0,0,0,.35);transition:transform .35s cubic-bezier(.3,.7,.2,1)}
+body.with .flipchip .trk{background:var(--teal)}
+body.with .flipchip .trk i{transform:translateX(18px)}
+.flipchip .tap{position:absolute;right:6px;top:calc(100% + 8px);padding:5px 9px;border-radius:8px;background:#22201d;color:#f7f4ef;font:600 .72rem/1 var(--f-body);letter-spacing:.02em;text-transform:none;pointer-events:none;opacity:0;transform:translateY(-4px);transition:opacity .25s,transform .25s;z-index:2}
+.flipchip .tap::before{content:"";position:absolute;right:16px;top:-4px;width:8px;height:8px;background:#22201d;transform:rotate(45deg)}
+.day-h{position:relative}
+.flipchip{position:relative}
+body:not(.touched) .flipchip .tap{opacity:1;transform:none;animation:taphide .3s ease 6.5s forwards}
+@keyframes taphide{to{opacity:0;transform:translateY(-4px)}}
+body:not(.touched) .flipchip .trk{animation:trkpulse 2.2s ease-in-out 1.2s 4}
+body:not(.touched) .sw{animation:swpulse 2.2s ease-in-out 1.2s 4}
+@keyframes trkpulse{0%,100%{box-shadow:0 0 0 0 transparent}40%{box-shadow:0 0 0 7px var(--rose-line)}}
+@keyframes swpulse{0%,100%{box-shadow:0 0 0 0 transparent}40%{box-shadow:0 0 0 7px var(--rose-line)}}
+@media (max-width:420px){.flipchip{gap:6px}.flipchip .st{padding-left:9px;font-size:.66rem}}
+@media (prefers-reduced-motion:reduce){.sw-arrow,body:not(.touched) .flipchip .trk,body:not(.touched) .sw{animation:none}body:not(.touched) .flipchip .tap{animation:none}}
+.no-js .flipchip{display:none}
+@media print{.flipchip{display:none!important}}

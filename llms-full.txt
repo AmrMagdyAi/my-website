@@ -8,10 +8,11 @@
 ## Amr Magdy | Salesforce CRM Consultant for Real Estate Investors
 URL: https://amrmagdy.com/
 
-Same Monday, two ways
+Tap to flip the same Monday
+Try it: flip the same Monday
 For home-buying companies, wholesalers and investor teams of 10 to 50
 Monday, 8am. Do you know what last month's mail actually bought?
-At most investor teams the honest answer is “I think it's working.” I'm Amr Magdy, a Salesforce CRM Consultant . Flip the switch to see the same Monday with the system I build.
+At most investor teams the honest answer is “I think it's working.” I'm Amr Magdy, a Salesforce CRM Consultant . Switch to “With a system” above to see the same Monday with the system I build.
 With the right Salesforce setup, the answer is on one screen before your first call. I'm Amr Magdy, a Salesforce CRM Consultant , and I build that Monday for owners and ops leads.
 The audit is for teams already on Salesforce. On Podio, REsimpli, GoHighLevel or spreadsheets, the first step is a move to Salesforce , and the free call is where we plan it.
 Monday morning
@@ -3388,7 +3389,7 @@ The fixed-price CRM Revenue Audit (USD 1,500) ties your leads to the campaigns t
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
-## Move to Salesforce from Podio, REsimpli or GoHighLevel | Amr Magdy
+## Move to Salesforce from Podio, REsimpli or GoHighLevel
 URL: https://amrmagdy.com/move-to-salesforce.html
 
 Outgrown Podio, REsimpli or GoHighLevel? Move to Salesforce without losing a lead .
@@ -7927,7 +7928,7 @@ Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighL
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
-## Wholesale Deal Analyzer: MAO, Your Fee & the Buyer's Profit
+## Wholesale Deal Analyzer: MAO, Your Fee & Buyer Profit
 URL: https://amrmagdy.com/wholesale-deal-analyzer.html
 
 Wholesale deal analyzer.
