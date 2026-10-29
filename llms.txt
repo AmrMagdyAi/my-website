@@ -132,6 +132,9 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Cold calling team setup in Salesforce: https://amrmagdy.com/cold-calling-team-setup-salesforce.html (list ownership, calling hours, call outcomes that trigger the next step, the handoff, a scorecard and coaching)
 - Seller follow-up message templates: https://amrmagdy.com/seller-follow-up-message-templates.html (12 text, voicemail and email templates for missed calls, appointments, offers, not-now sellers and reactivation, with the triggers and consent rules)
 - Wholesaling SOPs inside your CRM: https://amrmagdy.com/sops-inside-your-crm-wholesaling.html (a five-line SOP format, SOPs by role, where each part lives in Salesforce and how to check compliance)
+- Call tracking for real estate investors: https://amrmagdy.com/call-tracking-real-estate-investors-salesforce.html (source numbers vs dynamic number pools, which number for which channel, what each call writes to Salesforce, setup, pitfalls and reports)
+- Motivated seller questions and CRM fields: https://amrmagdy.com/motivated-seller-questions-crm-fields.html (questions in five groups, the CRM field each answer fills and what to do with the answers)
+- Wholesaling funnel math from your CRM: https://amrmagdy.com/wholesaling-funnel-math-from-your-crm.html (leads, conversations, appointments, offers, contracts and closings by source, step rates, running the math backward, traps)
 - Missed-call alerts in Salesforce: https://amrmagdy.com/missed-call-alerts-salesforce.html (phone integration prerequisites, a 7-step record-triggered Flow, Slack alerts, escalation, after-hours rules, text-back cautions, a daily report)
 - Adding acquisitions reps in Salesforce: https://amrmagdy.com/add-acquisitions-reps-crm.html (an 11-step checklist: user and permissions, phone and texting under the rep's own user, assignment from the first calling day, list views, templates, speed-to-lead alert, ramp report, offboarding)
 - Real estate investor KPIs by role (updated): https://amrmagdy.com/blog-salesforce-kpis-real-estate.html (marketing, first contact, acquisitions, dispositions, transaction coordination and owner KPIs, each with a definition and how to build it in Salesforce; tying spend and profit to the books)
@@ -172,6 +175,9 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - How should I set up a cold calling team and track its numbers in a CRM? https://amrmagdy.com/cold-calling-team-setup-salesforce.html
 - What should I text or say to a seller after a missed call, an offer or silence? https://amrmagdy.com/seller-follow-up-message-templates.html
 - How do I get my wholesaling team to follow SOPs? https://amrmagdy.com/sops-inside-your-crm-wholesaling.html
+- How do I track which marketing is making my phone ring? https://amrmagdy.com/call-tracking-real-estate-investors-salesforce.html
+- What questions should I ask a motivated seller and where do the answers go? https://amrmagdy.com/motivated-seller-questions-crm-fields.html
+- How many leads does it take to close a wholesale deal? https://amrmagdy.com/wholesaling-funnel-math-from-your-crm.html
 - What KPIs should a real estate investor or wholesaler track? https://amrmagdy.com/blog-salesforce-kpis-real-estate.html
 - How do I build a pipeline dashboard in Salesforce for a home-buying company? https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html
 - How do round robin and call routing work in Salesforce for investors? https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html

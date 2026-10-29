@@ -1557,6 +1557,10 @@ Moving off Podio
 Signs you've outgrown your setup, three options, and a 10-step migration that keeps lead source history.
 Podio's New Automation Limit: What It Means for a Wholesaling Team
 What counts as an automation, when the cap applies, what happens when you hit it and five options.
+Call Tracking for Real Estate Investors and Salesforce
+Source numbers vs dynamic pools, which number for which channel, what each call should write to Salesforce and what goes wrong.
+Motivated Seller Questions and the CRM Field for Each
+Five groups of questions a caller or acquisitions rep asks, and the field each answer should land in instead of notes.
 Seller Follow-Up Messages: 12 Text, Voicemail and Email Templates
 Wording for the missed call, appointment, offer, not-now and reactivation moments, with the rule that sends each.
 Cold Calling Team Setup in Salesforce: Lists, Outcomes and a Scorecard
@@ -1605,6 +1609,8 @@ New wholesaling laws: what your CRM has to track
 Ohio, Connecticut, Louisiana, Missouri, Maryland and more in plain words, with the fields, automations and report to track each rule.
 Salesforce for private and DSCR lenders
 The loan pipeline from inquiry to payoff: conditions, draws, repeat borrowers and the owner reports.
+How Many Leads to Close a Wholesale Deal? Use Your Own Data
+Count each stage by source, work out step rates and leads per deal, run it backward from a target and avoid the traps.
 Real Estate Investor KPIs: What Each Role Should Track
 Marketing, first contact, acquisitions, dispo, TC and owner KPIs, each defined and built in Salesforce, tied to the books.
 How to Build a Real Estate Pipeline Dashboard in Salesforce
@@ -1725,6 +1731,80 @@ Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighL
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
+## Call Tracking for Real Estate Investors and Salesforce
+URL: https://amrmagdy.com/call-tracking-real-estate-investors-salesforce.html
+
+Call tracking for real estate investors: every seller call tied to the campaign that rang the phone
+A motivated seller usually picks up the phone. That is good for you and bad for your numbers: a web form tells you where a lead came from, and a phone call tells you nothing unless you set something up. The seller says "I got a letter" or "I saw your sign", the rep types "mailer" into the notes, and three months later you can't say which mailer wave paid for itself. Call tracking fixes it by giving each source its own phone number, or a number that changes by visitor, and writing the source to the seller's record. This guide explains the two kinds of tracking number, which one fits each channel, what to log in Salesforce and what goes wrong.
+Use a dedicated tracking number for each offline source (each mailer wave, sign, billboard, Google Business Profile listing) and a pool of numbers swapped in by script for website visitors. Route all of them to your real line, and log the source, campaign, caller number, duration, recording link and whether the caller is new or returning on the seller's record in Salesforce. Match callers to existing sellers by phone before creating a record, and keep every printed number live for months.
+Why are phone calls your biggest blind spot?
+Marketing for sellers is full of channels that end in a call: direct mail, yard and bandit signs, cold-call callbacks, text blasts, a Google Business Profile listing, a pay-per-click ad with a call button. A form submission carries the page and the campaign with it. A call arrives as a phone number and a voice. Without tracking, the source of every call comes from what the seller remembers and what a rep types, which are both unreliable. The cost shows up in your attribution: calls are often the best leads, and they end up filed as "unknown" or "referral". You then cut the channel that was working or fund the one that only looked good on forms. The attribution rules for what to do with the data are in which campaign gets credit .
+What are the two kinds of tracking number?
+These are the two types call-tracking vendors offer; I'll use CallRail's definitions as one example, and other vendors work the same way.
+Source tracking number: a single, static number that tracks one source, such as one mailer wave, a billboard or a Google ad extension. Every call to it is that source.
+Website pool with dynamic number insertion (DNI): a set of numbers that a small script swaps onto your web pages in place of your normal number, based on how each visitor arrived. It stores the source in a cookie so the same visitor sees the same number on return visits. A pool captures visitor-level detail such as pages visited and paid keywords, which source numbers can't.
+One practical caveat on DNI: the script looks for your phone number on the page, so the number must be visible in the page's HTML or an image in a normal format such as (111) 222-3333.
+Which number should each channel use?
+Channel | Number type | Note
+Direct mail | A source number per mailer wave or per list | Print it big; keep it live for months. Late callers are common
+Yard and bandit signs | A source number per sign type or market | Often your cheapest calls; name the market in the label
+Paid search and social to your website | A website pool, plus a source number on any call extension or call-only ad | Feed the call result back to the ad platform; see Google Ads offline conversions
+Organic search (SEO) | A website pool | Pool separates organic from paid on the same page
+Google Business Profile | Its own source number | Calls from the listing, not the site
+Cold-call and text-list callbacks | The number the caller shows, tracked as its own source per list | Callbacks to a dialer number are inbound calls too; log them to the list
+Referrals and direct | Your main number, untracked | Whatever is left is a clue: a high "direct" share usually means a channel is missing a number
+What should each call write to Salesforce?
+Source and campaign from the number dialed, mapped to a Salesforce campaign. This is what makes cost per contract a normal report.
+Caller's phone number, in the cleaned format your duplicate rule matches on.
+New or returning caller. A call from a known seller should reopen their record and notify the owner, not create a new lead (see duplicate seller leads ).
+Call duration, direction and a recording link, for coaching and for settling "I never got a call back" arguments.
+For web pool calls, the keyword or landing page, when your vendor provides it.
+Missed or unanswered flag, which should create a callback task straight away; see missed-call alerts .
+How data reaches Salesforce depends on the vendor. CallRail's page for its Salesforce integration says calls are tied to campaigns and recordings can be listened to in Salesforce, and lists a Salesforce Enterprise or Unlimited plan as a requirement. If your edition doesn't qualify, a Zapier or webhook connection that writes the same fields can do the job; see Salesforce integrations and Zapier with Salesforce . Check the vendor's current requirements before you buy.
+What is the setup, in order?
+List your channels and decide how finely you want to split them. One number per mailer wave is plenty; one per envelope color is not.
+Buy and label numbers in a naming scheme that sorts (channel, market, month).
+Create a Salesforce campaign for each and store the number on it, so incoming calls can look up their campaign.
+Route every number to your real line and play a short recording notice if you record (see the note on recording below).
+Install the website script and check that the number swap works on every page that shows a phone number.
+Connect to Salesforce, test with five calls from different phones, and check that each lands on the right record with the right campaign.
+Add the numbers to your SOPs so no one prints a mailer without a tracked number; see SOPs inside your CRM .
+What goes wrong?
+Releasing a number too soon. A seller may keep a letter for months. Keep printed numbers live until you're sure the campaign is dead, and forward them to your real line.
+Too many numbers. Split sources only as far as you will report on them.
+Tracking the first touch and ignoring the rest. A seller can see a sign, get a letter and call after a text. Decide your credit rule before you read the report.
+Creating a lead for every call. Repeat callers and wrong numbers inflate counts; match on phone first.
+Recording laws. States differ on consent to record calls, and several require all parties to agree. Add a recording notice at the start of tracked calls, and check the rules for the states you operate in. This is information, not legal advice.
+Treating the call as the lead's start. If the call went unanswered, the clock for speed to lead began when it rang.
+What reports should call tracking give you?
+Calls by source and market, weekly, with answered and missed split.
+Calls to appointments to contracts by source. The reason to track at all.
+Cost per call and cost per contract by campaign, using the spend on each campaign; see the cost per deal calculator .
+Missed calls by hour, which tells you when to staff the phone.
+Share of "direct" or "unknown" calls. If it creeps up, a channel is missing a number.
+Questions
+How do I track which marketing is making my phone ring?
+Give each offline source its own tracking number (each mailer wave, sign type, Google Business Profile listing) and use a dynamic number pool on your website. Route all numbers to your real line and write the source and campaign to the seller's record, so you can report calls, appointments and contracts by source.
+What is dynamic number insertion?
+A script on your website that swaps your normal phone number for a tracking number based on how the visitor arrived, and remembers the source in a cookie. It captures details such as pages visited and paid keywords. The number must be visible on the page in a standard format for the swap to work.
+Do I need a different phone number for each mailer?
+One per mailer wave or list is enough to learn which mailing pays. Don't split finer than you'll report on, and keep each printed number live for months because sellers keep letters.
+Can call tracking connect to Salesforce?
+Yes. CallRail, for example, has a Salesforce integration that ties calls to campaigns and lets you hear recordings in Salesforce; its page lists a Salesforce Enterprise or Unlimited plan as a requirement. Other vendors differ, and Zapier or a webhook can write the same fields on other editions. Check the vendor's current requirements.
+Is it legal to record calls from sellers?
+It depends on the state. Several states require all parties to consent to recording, so add a recording notice at the start of tracked calls and check the rules where you operate. This is information, not legal advice.
+How do I stop duplicate leads from repeat callers?
+Match the caller's cleaned phone number against existing sellers before creating a record, reopen the existing record and notify its owner, and keep the original source and the new one. See the duplicate seller guide.
+Related guides
+Sources
+Vendor details were read from the vendors' pages in October 2026 and change; check the linked pages. CallRail is an example, not a recommendation. Compliance notes are information, not legal advice.
+CallRail Support: Dynamic number insertion overview . How DNI works; source tracking numbers vs website pools; number must be visible on the page
+CallRail: Salesforce integration . Calls tied to campaigns, recordings in Salesforce; Lightning Enterprise or Unlimited plan listed as a requirement
+Not sure which of your calls come from where?
+The CRM Revenue Audit (USD 1,500, fixed price) checks how your sources and campaigns are recorded, including calls, and shows what unknown sources are costing you. It's for teams already on Salesforce.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
 ## Cash Buyers List Template for Wholesalers (Free CSV)
 URL: https://amrmagdy.com/cash-buyers-list-template.html
 
@@ -1765,7 +1845,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/cold-caller-handoff-checklist.html
 
 Cold caller to acquisitions handoff: the fields and rules.
-Most cold calling teams lose deals at the handoff, not on the call. The caller marks a lead "warm", acquisitions calls back with no context, and the seller has to start over. Fix it with three things: a short fixed list of call outcomes, fields that must be filled before a lead can be passed, and a callback time rule your CRM enforces. The stage rules on either side of the handoff are in wholesaling pipeline stages . The queue, outcome and scorecard side is in cold-calling team setup .
+Most cold calling teams lose deals at the handoff, not on the call. The caller marks a lead "warm", acquisitions calls back with no context, and the seller has to start over. Fix it with three things: a short fixed list of call outcomes, fields that must be filled before a lead can be passed, and a callback time rule your CRM enforces. The stage rules on either side of the handoff are in wholesaling pipeline stages . The queue, outcome and scorecard side is in cold-calling team setup . The questions behind those fields are in motivated seller questions and the CRM field for each .
 1. A fixed list of call outcomes
 Not interested · Wrong number · Call back later · Warm · Hot
 Five options, picked from a list, never typed. Free text makes reporting impossible.
@@ -3385,6 +3465,77 @@ Speed to lead and follow-up statistics for real estate (this site) . Harvard Bus
 HUD: Housing discrimination under the Fair Housing Act . The seven characteristics the Fair Housing Act protects
 Want your leads ranked by what actually closes for you?
 The fixed-price CRM Revenue Audit (USD 1,500) ties your leads to the campaigns that paid for them and finds the ones going cold, such as offers with no activity and appointments with no next step, with a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Motivated Seller Questions and the CRM Field for Each
+URL: https://amrmagdy.com/motivated-seller-questions-crm-fields.html
+
+Motivated seller questions: what to ask, and where each answer goes in the CRM
+Most seller-question lists stop at the questions. The part that decides whether a call becomes an offer is what happens to the answer: if it lands in a notes box, the next person starts again, the lead can't be scored, and nobody can report on why sellers sell. This page pairs each question with the CRM field it should fill, why that field matters later, and a plain way to ask it. The questions are the kind a cold caller or an acquisitions rep asks in a first conversation. They're written for a seller who may be having a hard time, so they ask rather than push.
+Ask in five groups: situation (why they're selling and by when), property (condition and who lives there), money (what they'd accept and what's owed), people (who owns it and who decides) and process (other offers and how to reach them). Give each answer its own field, a picklist where you'll count it, so leads can be scored, the handoff is complete and the offer is based on facts. Ask for consent to text on the same call, and record it with the date.
+How should you ask?
+Listen first. Ask one open question, then let the seller talk. The answers to later questions often come up without asking.
+Don't interrogate. Five or six well-placed questions beat twenty. Record what you learned, not what you asked.
+Be honest about the purpose. You're trying to see whether you can make an offer that works for them. Sellers in hardship notice pressure.
+Write down what they said in the field right away, in their words where it helps ("needs to move before school starts").
+Situation: why, and by when
+Question | Field | Why it matters
+"What's making you think about selling?" | Reason for selling (picklist, plus a short text) | Drives scoring and the tone of every later message; see lead scoring
+"When would you want this done by?" | Timeline (picklist: under 30 days, 1 to 3 months, later, no date) | Decides the follow-up cadence and who calls first
+"What happens if it doesn't sell by then?" | Consequence or deadline (text) | Reveals real urgency: a hearing date, a payment, a move
+"Have you tried to sell it already?" | Previous attempts (checkbox plus text) | Listed, expired or fell through: tells you what the seller has already heard
+Property: what it is and what shape it's in
+Question | Field | Why it matters
+"Can you tell me about the condition?" | Condition (picklist: move-in, light work, heavy work, unknown) plus notes | Needed for your repair estimate and offer
+"Does anyone live there, or is it vacant or rented?" | Occupancy (picklist) | Affects access, timing and what the seller must do
+"What repairs or updates have been done, and what's needed?" | Repairs needed (text) | Cross-check against what you see at the appointment
+"How would we get in to see it?" | Access notes (text) | Saves a failed appointment; see no-shows
+Money: price and what's owed
+Question | Field | Why it matters
+"Do you have a price in mind?" | Asking price (currency) | The gap between asking price and your maximum allowable offer tells you whether to continue
+"Is there a mortgage on it, and roughly what's left?" | Mortgage balance (currency, approximate) | Whether any offer can clear what's owed
+"Are there back taxes, liens or other debts on it?" | Liens or arrears (checkbox plus text) | Title problems found early are cheaper than found late
+"Are you behind on payments or facing a foreclosure date?" | Foreclosure status and date | A hard deadline changes the whole plan; handle it with care
+People: who owns it and who decides
+Question | Field | Why it matters
+"Whose names are on the title?" | Owners on title (text, plus related contacts) | Everyone on title has to sign
+"Is anyone else involved in the decision, like a spouse, sibling or attorney?" | Other decision makers (text, and flag) | The most common reason an offer stalls. Get them on the appointment
+"Is the estate in probate, and who is the personal representative?" | Probate status and representative | Sets the timeline; see probate leads
+Process: other offers and how to reach them
+Question | Field | Why it matters
+"Have you had other offers or talked to other buyers?" | Other offers (checkbox plus text) | Tells you how fast to move and what to beat
+"What's the best way and time to reach you?" | Preferred contact method and time | Drives the follow-up rule and avoids calls at bad times
+"Is it okay if I text you updates?" | Text consent (checkbox), date and source | Consent must be asked and recorded; see texting and consent
+"What's the next step you'd be comfortable with?" | Agreed next step and date | The one field every open lead must have
+How do you make them fields in Salesforce?
+Picklists for anything you'll count (reason, timeline, condition, occupancy), with a short list you've defined; see tags, fields or campaigns .
+Currency fields for asking price and mortgage balance, marked as approximate.
+Required fields tied to the stage: not everything on first contact. The handoff needs reason, timeline, condition, price and who decides; see the handoff checklist .
+A screen flow that walks through the questions in order, so the caller fills the fields while talking instead of afterwards.
+Page layout that shows the answered and unanswered fields at a glance, so the next person asks only what's missing.
+What should you do with the answers?
+Score the lead from reason, timeline and equity, and call the highest first.
+Route it: a probate or foreclosure lead may go to a specific person.
+Set the follow-up cadence from the timeline and the preferred contact method ( cadence builder ).
+Fill the offer worksheet from property and money fields, not from memory.
+Report on reasons: which situations produce contracts, and which sources bring those sellers.
+Questions
+What questions should I ask a motivated seller?
+Ask in five groups: why and by when they're selling, what the property is like, what they'd accept and what's owed, who owns it and who decides, and whether there are other offers and how to reach them. Record each answer in its own field, not in notes.
+What information do I need before making an offer on a wholesale deal?
+Reason and timeline, condition and occupancy, asking price, mortgage balance and any liens, every person on title and other decision makers, and the agreed next step. These are the facts the handoff and the offer worksheet depend on.
+How do I qualify a seller lead without sounding pushy?
+Ask one open question and listen, ask five or six questions rather than twenty, and explain you're trying to see whether you can make an offer that works for them. Let the answers fill fields afterwards.
+Which seller answers should be required fields in a CRM?
+Require reason for selling, timeline, condition, price expectation, who else decides and the agreed next step before a lead is handed to acquisitions, and require consent and its date before texting. Don't require all of it on the first touch.
+How do I find out who else decides on the sale?
+Ask who is on the title and whether anyone else is involved, such as a spouse, sibling, heir or attorney, and invite them to the appointment. It's the most common reason offers stall, so give it its own field.
+Where should I record whether a seller agreed to texts?
+In a consent checkbox with a date and the source of the consent, separate from notes. Make every tool that texts read it, and copy opt-outs to every duplicate record.
+Related guides
+Want these answers to fill fields, not notes?
+The CRM Revenue Audit (USD 1,500, fixed price) checks which of these facts your CRM captures today and which are lost in notes, and returns a fix plan. It's for teams already on Salesforce.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -6256,7 +6407,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-lead-sources-real-estate.html
 
 Every lead source into Salesforce, tagged.
-Real estate investors get leads into Salesforce through Web-to-Lead for website forms, Lead Capture for Facebook lead ads, CallRail for calls, and imports for lists . Google Ads can then learn from which leads became contracts. Here’s each route, what it needs, and the rules that keep the source on the record to the closed deal. How to label sources, situations and campaigns without a mess: tags, fields or campaigns . Loading a purchased or skip-traced list: import without duplicates .
+Real estate investors get leads into Salesforce through Web-to-Lead for website forms, Lead Capture for Facebook lead ads, CallRail for calls, and imports for lists . Google Ads can then learn from which leads became contracts. Here’s each route, what it needs, and the rules that keep the source on the record to the closed deal. How to label sources, situations and campaigns without a mess: tags, fields or campaigns . Loading a purchased or skip-traced list: import without duplicates . For phone calls, see call tracking for real estate investors .
 Web-to-Lead turns your website form into Salesforce leads, up to 500 a day. source
 Lead Capture imports Facebook lead forms into Sales Cloud (Professional and up). source
 Google Ads Conversion Import for Salesforce sends contract stages back to Google Ads, so ads learn which clicks became contracts. source
@@ -6548,7 +6699,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-reports-wholesalers.html
 
 20 Salesforce reports for a wholesaling team.
-The Salesforce reports that matter most to wholesalers show where leads come from, how fast they’re called, which offers become contracts, and what each source costs per closed deal. Here are 20 report recipes written as report type, filter, grouping and measure, the limits to know, and which five belong on the Monday dashboard.
+The Salesforce reports that matter most to wholesalers show where leads come from, how fast they’re called, which offers become contracts, and what each source costs per closed deal. Here are 20 report recipes written as report type, filter, grouping and measure, the limits to know, and which five belong on the Monday dashboard. To turn the stage counts into leads per deal, see funnel math from your own CRM .
 These are 20 reports a wholesaling team can build in Salesforce, written as report type → filter → group by → measure , so you or your admin can build them in an afternoon.
 Three features make them possible: custom report types (Property, Offer, Buyer), cross filters (“leads without activities”) and reporting snapshots (trends over time). source · snapshots
 Most need fields that exist and are filled in: lead source as a picklist, call outcome, MAO, contract and assignment price, dead reason. Start with the CRM field kit .
@@ -7971,7 +8122,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html
 
 Wholesaling cost per deal, by lead source.
-Put in last month's (or last quarter's) numbers for each marketing channel. The calculator shows cost per lead, cost per contract, cost per closed deal and ROI side by side, so you can see which channel is actually paying for itself. Nothing you type leaves your browser.
+Put in last month's (or last quarter's) numbers for each marketing channel. The calculator shows cost per lead, cost per contract, cost per closed deal and ROI side by side, so you can see which channel is actually paying for itself. Nothing you type leaves your browser. To turn the numbers into leads per closed deal, see funnel math from your own CRM .
 Channel | Spend ($) | Leads | Contracts | Closed deals | Gross profit ($)
 Results
 Channel | Cost / lead | Lead → contract | Cost / contract | Cost / deal | ROI
@@ -8162,6 +8313,93 @@ Last updated October 2026.
 Want this checklist built into your CRM?
 I build Salesforce for real estate investors and wholesalers: every stage above, with the fields, automations and Monday report. Moving from a spreadsheet, Podio, REsimpli or GoHighLevel? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
 Already on Salesforce? The CRM Revenue Audit (USD 1,500, fixed price) is the place to start. Here’s a sample report .
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## How Many Leads to Close a Wholesale Deal? Use Your Own Data
+URL: https://amrmagdy.com/wholesaling-funnel-math-from-your-crm.html
+
+How many leads does it take to close a wholesale deal? Work it out from your own data
+Everyone selling a course will tell you a number: so many leads for one deal. It is usually a number from their market, their marketing and their closing process, and it will be wrong for yours. The honest answer is that it depends on your lead source, your speed to first call, your offer quality and your follow-up, which is why the only useful number is the one from your own CRM. This guide shows how to get it: the seven steps in your funnel, the conversion rate of each by source, how to run the math backward from the deals you want, a worked example with made-up numbers, and the traps (small samples, slow deals, averaging sources) that make funnel math lie.
+Count the records that reach each stage (lead, conversation, appointment, offer, contract, closing) over the last 90 to 180 days, by lead source. Divide each stage by the one before it to get step rates, and multiply the rates to get leads per closed deal. Run it backward from your target to find the leads, calls and budget you need. Treat small counts as ranges, not exact numbers, and do it by source, because averages hide the channel that carries you.
+Why do borrowed funnel numbers fail?
+Different lead sources. Direct-mail responders, pay-per-click callers and cold-call connections behave very differently.
+Different speed. A team that calls back in minutes converts more than one that calls the next day; see the sourced lead response statistics .
+Different offers and markets. Your price discipline and your market's margins change the offer-to-contract step.
+Different definitions. One company's "lead" is a form fill, another's is a qualified conversation. If the definitions differ, the ratios can't be compared.
+What are the stages of the funnel?
+Leads: unique sellers (not records) who reached you.
+Conversations: sellers you actually spoke to.
+Appointments set: a call or visit booked.
+Appointments kept: it happened.
+Offers made.
+Contracts signed.
+Deals closed or assigned, with fee.
+These line up with the stages in the pipeline stage guide . If your CRM can't tell you the count at each one, the system is the first thing to fix, not the math.
+What is the method?
+Pick a window. Ninety to 180 days is usually enough. Shorter is noisy, longer includes old behavior.
+Count each stage by source, for sellers who entered the funnel in that window. For the recent leads, many deals won't have finished yet; either wait or only count stages that a lead has had time to reach.
+Calculate the step rate for each stage: stage count divided by the previous stage count.
+Multiply the rates from lead to closing. Leads per closed deal is one divided by that product.
+Add cost. Spend on the source divided by closed deals is cost per deal; the cost per deal calculator does it by source.
+Write it as a range. If you closed three deals from a source, "about one in 40" could easily be one in 25 or one in 70. Say so.
+What does it look like with numbers?
+These are invented numbers to show the arithmetic. They are not a benchmark for any market.
+Stage (one source, 120 days) | Count | Step rate
+Leads | 400 | 
+Conversations | 200 | 50%
+Appointments set | 50 | 25%
+Appointments kept | 40 | 80%
+Offers made | 35 | 88%
+Contracts | 7 | 20%
+Closed | 5 | 71%
+From 400 leads to 5 closings: 80 leads per deal. If that source cost a set amount over the period, divide by 5 for cost per deal. The same sheet for a second source might show 150 leads per deal but twice the average fee, which changes which one you scale. This is why you do it by source.
+How do you run it backward from a target?
+Say the goal is 8 closings a month. Working back with the invented rates above: 8 closings need about 11 contracts, which need about 55 offers, about 63 appointments set, about 250 conversations, and about 500 leads. Now you can ask practical questions:
+Do I have the lead flow for 500 leads a month, and from which sources?
+How many callers does 250 conversations need? The capacity calculator helps with the acquisitions side.
+Can acquisitions handle 63 appointments, and at what point will speed suffer?
+What marketing budget does 500 leads imply at my cost per lead?
+That conversation is more useful than a vague "I want more deals".
+What traps make funnel math lie?
+Small samples. A rate from five contracts is a guess. Combine periods or report ranges.
+Deal lag. A lead from last week can't have closed yet. Measure cohorts that have had time to finish, or count each stage separately.
+Duplicates. Counting records instead of sellers makes your lead count too high and your rates too low; see duplicate seller leads .
+Changing definitions. If "appointment" meant a phone call in March and a visit in June, the trend is meaningless.
+Averaging sources. The average hides that one source is great and another loses money.
+Counting activity as progress. Dials and texts are inputs. Judge the funnel on stages reached.
+Seasonality. Motivated-seller volume moves through the year; compare like with like.
+What does the CRM have to track?
+Lead source and campaign on every lead from the first minute.
+A date for each stage reached (stage history on the opportunity gives you this).
+One record per seller, so counts are people, not rows.
+Appointment kept or missed as its own fact.
+Offer amount and date, and the reason a contract didn't follow.
+Marketing spend on the campaign.
+The reports to build are in 20 Salesforce reports for wholesalers , and the five numbers for the owner's screen are in the Monday 5 .
+Where should you improve first?
+Look at the step with the biggest drop that you can influence cheaply. In practice, that's often one of these:
+Lead to conversation: speed to first call, call windows, list quality, missed calls.
+Appointment set to kept: confirmations and reminders.
+Offer to contract: follow-up discipline and offer quality; see offer follow-up .
+Contract to closing: dispo speed and title coordination.
+A modest improvement at an early, cheap step lifts everything after it. Fix one step, run it for a month, and rerun the math. If you'd like a second pair of eyes on your funnel, the Deal Leak Score is a quick first estimate.
+Questions
+How many leads does it take to close a wholesale deal?
+It depends on your source, speed, offers and follow-up, so use your own CRM numbers. Count leads, conversations, appointments, offers, contracts and closings by source over 90 to 180 days, calculate each step rate, and multiply them. Treat small samples as ranges.
+What is a good conversion rate for wholesaling?
+There's no universal figure, because definitions, lead sources and markets differ. Compare your own rate at each step over time and by source, and improve the step with the biggest drop that costs least to fix.
+How do I work out how many leads I need to hit my deal goal?
+Run the funnel backward: divide your target closings by each step rate in turn to find the contracts, offers, appointments, conversations and leads needed, then check capacity and budget against those numbers.
+Why is my cost per lead low but my cost per deal high?
+Cheap leads often convert poorly further down the funnel, because of slower contact, worse fit or more shoppers. Measure each source to contracts and closings, not leads, and compare cost per deal.
+How long should I measure my funnel before trusting it?
+Ninety to 180 days is a common window, long enough for most deals to finish. For leads from the last few weeks, count only the stages they've had time to reach, and report ranges when you have few contracts.
+What CRM fields do I need to calculate funnel conversion rates?
+Lead source and campaign, a date for each stage reached, one record per seller, appointment kept or missed, offer amount and date, a dead or lost reason, and spend on the campaign.
+Related guides
+Want your funnel numbers without a spreadsheet?
+The CRM Revenue Audit (USD 1,500, fixed price) checks whether your CRM can produce these step rates by source today and what is missing, with a fix plan. It's for teams already on Salesforce.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
