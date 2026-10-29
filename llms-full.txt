@@ -1557,6 +1557,12 @@ Moving off Podio
 Signs you've outgrown your setup, three options, and a 10-step migration that keeps lead source history.
 Podio's New Automation Limit: What It Means for a Wholesaling Team
 What counts as an automation, when the cap applies, what happens when you hit it and five options.
+Seller Follow-Up Messages: 12 Text, Voicemail and Email Templates
+Wording for the missed call, appointment, offer, not-now and reactivation moments, with the rule that sends each.
+Cold Calling Team Setup in Salesforce: Lists, Outcomes and a Scorecard
+List ownership, calling hours, outcomes that trigger the next step, the handoff and a scorecard that pays for appointments.
+Import a Skip-Traced List into Salesforce Without Duplicates
+Clean, split new from existing, map, tag, test and load a PropStream or BatchLeads list.
 Wholesaling Pipeline Stages: What Must Be True to Enter and Leave Each One
 Eight stages with an entry rule, exit rule, owner and time limit, and how to build them in Salesforce.
 AI for Wholesalers: The Follow-Up Jobs to Automate First
@@ -1631,6 +1637,8 @@ QuickBooks + Salesforce
 Assignment fees invoiced from the deal; paid status and cost per deal in reports.
 Duplicate Seller Leads in Salesforce: Rules That Catch Them Without Losing Leads
 Match on phone, email and property, alert people but never block integrations, clean list imports and merge on a schedule.
+Wholesaling SOPs That Live Inside Your CRM, Not a Doc
+A five-line SOP format, SOPs by role, and where each part lives in Salesforce so it is shown, required and checked.
 Wholesaling Team Roles: Who Owns What in Your CRM
 Lead manager, acquisitions, underwriting, dispo and TC: what each owns, the handoffs where deals leak, and the screens each role needs.
 Adding Acquisitions Reps? Set This Up in Salesforce Before Their First Call
@@ -1757,7 +1765,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/cold-caller-handoff-checklist.html
 
 Cold caller to acquisitions handoff: the fields and rules.
-Most cold calling teams lose deals at the handoff, not on the call. The caller marks a lead "warm", acquisitions calls back with no context, and the seller has to start over. Fix it with three things: a short fixed list of call outcomes, fields that must be filled before a lead can be passed, and a callback time rule your CRM enforces. The stage rules on either side of the handoff are in wholesaling pipeline stages .
+Most cold calling teams lose deals at the handoff, not on the call. The caller marks a lead "warm", acquisitions calls back with no context, and the seller has to start over. Fix it with three things: a short fixed list of call outcomes, fields that must be filled before a lead can be passed, and a callback time rule your CRM enforces. The stage rules on either side of the handoff are in wholesaling pipeline stages . The queue, outcome and scorecard side is in cold-calling team setup .
 1. A fixed list of call outcomes
 Not interested · Wrong number · Call back later · Warm · Hot
 Five options, picked from a list, never typed. Free text makes reporting impossible.
@@ -1793,6 +1801,98 @@ Last updated October 2026.
 Want this built into your CRM?
 I build Salesforce for real estate investors and wholesalers, and the same rules work in any CRM. Outgrowing Podio, REsimpli, GoHighLevel or a spreadsheet? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
 Already on Salesforce? The CRM Revenue Audit (USD 1,500, fixed price) is the place to start. Here’s a sample report .
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Cold Calling Team Setup in Salesforce: Queues and Scorecard
+URL: https://amrmagdy.com/cold-calling-team-setup-salesforce.html
+
+Cold calling team setup in Salesforce: lists, outcomes and a scorecard that pays for appointments
+The usual cold-calling complaint sounds like this: "my caller makes thousands of calls a week and I get no real leads." Sometimes the caller is the problem. More often the setup is: two callers dial the same owner, nobody knows which list is worn out, "interested" means five different things, calls are logged in a dialer that doesn't talk to the CRM, and the only number anyone watches is dials. This guide is the system around the calls: who owns which list, when to call, what each outcome does next, where the handoff happens, and the scorecard I'd use. It is written for owners and ops leads running one to ten callers, in-house or VAs, on Salesforce or any CRM you can shape.
+Give every list one owner and a fixed number of attempts. Call inside legal hours (8 a.m. to 9 p.m. in the person's local time) and scrub against the Do Not Call registry at least every 31 days. Replace vague call notes with a short outcome picklist where every value triggers the next step on its own. Hand off to acquisitions only when required fields are filled in, and score callers on appointments set, accepted handoffs and appointments kept, not on dials.
+What are the six parts of a cold-calling system?
+List: where the names came from and how clean they are ( importing a list ).
+Queue: who calls which records, in what order, how many times.
+Call: the dialer and the script, logged back to the seller's record ( dialers and Salesforce ).
+Outcome: one value that says what happened and decides what happens next.
+Handoff: a real appointment or a warm seller passed to acquisitions with the facts attached ( handoff checklist ).
+Scorecard: the few numbers that tell you whether the machine works.
+The calls themselves are part 3 of 6. If results are poor, there are five other places to look before blaming the caller.
+Who should own a list, and how long?
+One owner per record. Set the record's owner when the list is loaded, to a caller or a queue with a claim rule. Two people calling one owner is the fastest way to annoy a seller and start an argument about credit.
+A fixed attempt plan per list. For example, a set number of attempts across a number of weeks, at different times of day, then retire the record to nurture with a date. Choose it from your own history: look at which attempt number produced your appointments and where the curve flattens. The cadence builder gives a starting plan.
+Record the attempt number on every call, so you can see contact rate by attempt, by list and by time of day.
+Retire lists on purpose. When a list's contact rate has dropped for several weeks, stop and ask whether the list, the numbers or the hours are the cause, before you buy a bigger list.
+Keep one list per campaign. Mixing a pre-foreclosure list with a probate list in one queue hides which one works.
+Which calling rules belong in the system?
+Put the rules where a tired caller can't skip them. Two federal ones to build around (this is information, not legal advice; check state rules as well):
+Calling hours. The FTC's Telemarketing Sales Rule treats outbound telemarketing calls before 8 a.m. or after 9 p.m. at the called person's local time as a violation unless they've agreed otherwise. Store a time zone on each record (from the property's state and zip) and have the queue show a record only inside its window.
+Do Not Call. Sellers and telemarketers must update their call lists against the National Do Not Call Registry at least every 31 days. Keep a scrub date on each record, and a company do-not-call flag for people who ask you to stop. That flag must beat everything else and copy to duplicate records.
+Add a hard stop: a record with the flag set, or with a scrub date older than your limit, doesn't appear in a dial queue at all.
+What should the call outcome picklist look like?
+Notes are for stories. Outcomes are for the system. Keep the list short, fixed and mutually exclusive, and let each value start the next step automatically.
+Outcome | What the system does next
+No answer | Increase the attempt count; schedule the next attempt per the plan
+Left voicemail | Same as above, and flag that a voicemail was left
+Wrong number | Remove that number; try the next phone on the record
+Not the owner, owner reachable | Task to get the right contact; note who was spoken to
+Spoke, not interested | Ask for the reason (picklist); move to nurture with a longer re-contact date
+Spoke, not now | Require a re-contact date and a reason; create the task
+Spoke, interested | Require the handoff fields; assign to acquisitions with a callback due time
+Appointment set | Create the appointment, confirm text if consent exists, notify the acquisitions rep
+Do not call | Set the company do-not-call flag everywhere; stop all sequences
+"Interested" is the value that needs the most care. If it can be picked with nothing filled in, your acquisitions team will receive "interested" leads that no one can act on. That is the single most common reason a hot-looking list produces nothing.
+When and how should a lead be handed to acquisitions?
+Hand off when there is a seller with a real reason and a next step, not when someone says "maybe". The required fields at handoff are in the handoff checklist : reason for selling, timeline, condition, price expectation, who else decides and the agreed next step. Two system rules help:
+A handoff creates a task for acquisitions due within a set number of minutes, and the caller sees whether it was accepted.
+A handoff that sits unaccepted past its limit alerts the manager, and one that acquisitions rejects returns to the caller with a reason. This feedback loop is how callers learn what a good handoff looks like.
+The stage rules around the handoff are in pipeline stages .
+What should the daily scorecard show?
+One line per caller per day, summed per week, from the CRM, with no spreadsheet:
+Measure | Why
+Dials | Effort and capacity, not performance
+Contact rate (conversations / dials) | Tells you about the list, the hours and the numbers as much as about the caller
+Interested rate (interested / conversations) | Script and qualification
+Handoffs accepted by acquisitions | The quality check: a handoff that is rejected didn't count
+Appointments set, and kept | The number that leads to offers
+Cost per appointment | Caller cost and list cost together
+Pay and praise follow the measures you choose. If you reward dials you'll get dials; if you reward appointments kept, you'll get callers who qualify and confirm. It also gives you an answer when someone asks about a VA who makes thousands of calls a week with nothing to show: look at contact rate and handoffs accepted first.
+How should you coach callers?
+Sample recordings weekly. Listen to five calls per caller: two good, two weak, one random. Compare against the outcomes they logged. Mismatches (logged "not interested" when the seller asked for a callback) are the most common problem.
+Review by outcome, not by caller. Pull ten "spoke, not interested" calls and listen for the pattern in the first thirty seconds.
+Change one thing at a time. A new script and a new list in the same week tell you nothing.
+Limit what callers can export. A caller needs their queue, not your database; see stopping reps exporting your list .
+What if the numbers are bad?
+Work down the chain, from the top, before the caller:
+Is the list the problem? Low contact rate on a new list usually points to stale numbers or the wrong hours.
+Is the data clean? Duplicates mean the same owner got called repeatedly and some stopped answering.
+Are outcomes honest? Compare logged outcomes against recordings.
+Is the handoff working? A high interested rate and a low acceptance rate means the qualifying standard differs between caller and acquisitions.
+Is acquisitions calling back fast enough? A great handoff that waits a day is a lost one; see speed to lead .
+Only then, the script and the caller.
+If you'd like to check how many reps you need behind the callers, the acquisitions team capacity calculator shows the load.
+Questions
+What CRM workflow should a new cold caller start with?
+A queue of assigned records, a short outcome picklist, a few required fields before a handoff, and a daily view of their own numbers. Add rules only when you see a repeated mistake.
+How do I monitor my cold callers' metrics and calls?
+Make sure the dialer logs every call to the seller's record with an outcome and attempt number, then report dials, contact rate, interested rate, handoffs accepted and appointments set and kept per caller per week. Sample recordings weekly to check logged outcomes.
+What hours can I legally cold call sellers?
+The FTC's Telemarketing Sales Rule treats outbound telemarketing calls before 8 a.m. or after 9 p.m. at the called person's local time as a violation, unless they've agreed otherwise. State rules can be stricter. This is information, not legal advice.
+How often do I need to scrub my call list against the Do Not Call registry?
+The FTC says sellers and telemarketers must update their call lists, removing numbers on the National Do Not Call Registry, at least every 31 days. Keep the scrub date on each record and your own do-not-call flag as well.
+Why does my VA make thousands of calls and get no leads?
+Check in this order: list quality and contact rate, duplicates, whether logged outcomes match the recordings, whether acquisitions accepts the handoffs and calls back quickly, and only then the script. Dial counts alone say very little.
+What should a cold caller be paid on?
+Whatever you pay on, you'll get more of. Dials reward dialing. Appointments set and kept, and handoffs accepted by acquisitions, reward the work that leads to offers. Choose measures your CRM can report without a spreadsheet.
+How many times should I call a cold list?
+Set the number from your own data: look at which attempt produced your appointments and where the curve flattens, then retire the record to nurture with a re-contact date. A starting plan is in the cadence builder.
+Related guides
+Sources
+Checked in October 2026. Compliance notes are information, not legal advice; state rules can be stricter.
+FTC: Complying with the Telemarketing Sales Rule . Calling hours 8 a.m. to 9 p.m. local time; update call lists against the Do Not Call Registry at least every 31 days
+FTC: National Do Not Call Registry FAQs . Telemarketers can't call before 8 a.m. or after 9 p.m. local time
+Want your callers' numbers on one screen?
+The CRM Revenue Audit (USD 1,500, fixed price) checks how calls, outcomes and handoffs are logged in your org and shows where appointments leak. It's for teams already on Salesforce.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5104,7 +5204,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-dialer-real-estate.html
 
 Dialers in Salesforce for real estate teams.
-RingCentral, Aircall, Dialpad and Twilio all log calls into Salesforce, but Salesforce’s Open CTI, which many of them use, reaches end of life on February 28, 2028. Here’s how each dialer connects, which edition it needs, what a wholesaling team should log, and how to plan for 2028.
+RingCentral, Aircall, Dialpad and Twilio all log calls into Salesforce, but Salesforce’s Open CTI, which many of them use, reaches end of life on February 28, 2028. Here’s how each dialer connects, which edition it needs, what a wholesaling team should log, and how to plan for 2028. The system around the calls (queues, outcomes and a caller scorecard) is in cold-calling team setup .
 Salesforce says Open CTI reaches end of life on February 28, 2028, and existing implementations stop working after that. Salesforce Voice is the recommended replacement. source
 Many dialer integrations use Open CTI; Twilio Flex’s docs say its Salesforce integration will stop working after that date. source
 Edition matters: RingCentral supports Professional and above; Aircall and Dialpad require Enterprise or Unlimited. RingCentral · Aircall · Dialpad
@@ -6023,7 +6123,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-integrations-real-estate.html
 
 Salesforce integrations for real estate investors.
-Salesforce connects to almost every tool investors use , including DocuSign, QuickBooks, RingCentral, Gmail, Facebook lead ads, Google Ads and Slack, through AppExchange packages, the API or tools like Zapier. Below: what each connection syncs, which edition it needs, and what it changes for a wholesaling team.
+Salesforce connects to almost every tool investors use , including DocuSign, QuickBooks, RingCentral, Gmail, Facebook lead ads, Google Ads and Slack, through AppExchange packages, the API or tools like Zapier. Below: what each connection syncs, which edition it needs, and what it changes for a wholesaling team. Loading a PropStream or skip-traced list without duplicates: the import routine .
 Most investor tools connect to Salesforce through an AppExchange package or the API. The API is on by default only in Enterprise, Unlimited, Performance and Developer ; Professional needs an add-on. Check this first. source
 The connections that change results most for wholesalers: phone and text logging , lead source capture , e-signature on the deal and accounting for assignment fees .
 Open CTI, which many dialers use inside Salesforce, reaches end of life on February 28, 2028. Ask any dialer vendor what their plan is. source
@@ -6156,7 +6256,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-lead-sources-real-estate.html
 
 Every lead source into Salesforce, tagged.
-Real estate investors get leads into Salesforce through Web-to-Lead for website forms, Lead Capture for Facebook lead ads, CallRail for calls, and imports for lists . Google Ads can then learn from which leads became contracts. Here’s each route, what it needs, and the rules that keep the source on the record to the closed deal. How to label sources, situations and campaigns without a mess: tags, fields or campaigns .
+Real estate investors get leads into Salesforce through Web-to-Lead for website forms, Lead Capture for Facebook lead ads, CallRail for calls, and imports for lists . Google Ads can then learn from which leads became contracts. Here’s each route, what it needs, and the rules that keep the source on the record to the closed deal. How to label sources, situations and campaigns without a mess: tags, fields or campaigns . Loading a purchased or skip-traced list: import without duplicates .
 Web-to-Lead turns your website form into Salesforce leads, up to 500 a day. source
 Lead Capture imports Facebook lead forms into Sales Cloud (Professional and up). source
 Google Ads Conversion Import for Salesforce sends contract stages back to Google Ads, so ads learn which clicks became contracts. source
@@ -6518,7 +6618,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-texting-real-estate.html
 
 Texting sellers from Salesforce: 10DLC, consent and tools.
-To text sellers from Salesforce in the US, you need a texting tool that logs to Salesforce, a registered 10DLC brand and campaign, and consent and opt-out fields every tool respects. Here are the tools, the registration steps, what CTIA’s guidelines say about lists, and how I set up the fields. This is not legal advice.
+To text sellers from Salesforce in the US, you need a texting tool that logs to Salesforce, a registered 10DLC brand and campaign, and consent and opt-out fields every tool respects. Here are the tools, the registration steps, what CTIA’s guidelines say about lists, and how I set up the fields. This is not legal advice. Ready-made wording for each moment: seller follow-up message templates .
 Twilio: “Anyone sending SMS/MMS messages over a 10DLC number from an application to the US must register for A2P 10DLC.” Registration has a brand and a campaign. source
 CTIA’s guidelines say marketing texts need express written consent and senders “should not use rented, sold, or shared lists.” That matters for skip-traced lists. source
 Salesforce retired its standard SMS channels on February 14, 2026; US long code registration takes 1–4 weeks. source
@@ -7145,7 +7245,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/seller-follow-up-cadence.html
 
 Seller follow-up cadence builder.
-Silence is not a no. Pick how hot the lead is, the date you first spoke, and the channels you use. You get a dated touch plan you can follow by hand or import into your CRM as tasks. It is a starting template: adjust it to your market and your own results.
+Silence is not a no. Pick how hot the lead is, the date you first spoke, and the channels you use. You get a dated touch plan you can follow by hand or import into your CRM as tasks. It is a starting template: adjust it to your market and your own results. The words for each touch are in 12 follow-up message templates .
 Your touch plan
 # | Date | Day | Channel | Purpose
 Rules that make any cadence work
@@ -7174,6 +7274,94 @@ Last updated October 2026. A planning template, not legal advice. Nothing you en
 Want the next task created automatically?
 I build Salesforce for real estate investors and wholesalers: required next touch dates, cadences that restart when a lead's temperature changes, dead-lead reasons with revisit dates, and a Monday report of leads with no next step. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Seller Follow-Up Messages: Text, Voicemail, Email Templates
+URL: https://amrmagdy.com/seller-follow-up-message-templates.html
+
+Seller follow-up messages: 12 templates, and the rules that decide when they send
+Most wholesalers don't have a follow-up problem, they have a message problem and a trigger problem. The messages sound like a form letter, and they go out when someone remembers rather than when the seller's situation calls for them. This page gives you twelve short templates for the moments that matter (a missed call, a confirmed appointment, a quiet offer, a seller who said "not now"), written to sound like a person typed them. Under each is the rule that should send it, so the CRM does the remembering and a human does the talking. Timing for the whole sequence is in the cadence builder; this page is the words and the triggers.
+Keep each message short, from a named person, with one question or one next step. Send a text only to sellers who've agreed to be texted, identify yourself, and honor STOP. Let the CRM trigger each message from an event (missed call, appointment set, offer sent, re-contact date reached), stop the sequence the moment the seller replies, and log every message on the record. Use the templates below as a starting point and change the words to sound like you.
+What rules should every message follow?
+Short and human. Text messages of one to three sentences. Written the way you'd text a neighbor, not a lead.
+One ask. A question they can answer in a word, or a single next step. Never two.
+No pressure and no promises. Don't state prices, timelines or terms you haven't agreed. Don't invent urgency.
+Name yourself and your company in the first message to someone, and include an easy way to stop (a "reply STOP" line) in texts, as your texting provider requires.
+Consent first for texts. A skip-traced number is not agreement to be texted. See texting sellers: 10DLC and consent . If you're unsure, call or send mail instead and ask for text permission on the call.
+Honor opt-outs everywhere. One STOP covers every duplicate record and every channel you control. Opt-outs must be processed within 10 business days at the latest under the FCC's rules since April 2025; do it immediately.
+Quiet hours. Send in the seller's daytime, in their time zone.
+This is information, not legal advice; confirm the rules for your states and your texting provider. Merge fields appear as {first_name}, {address}, {rep_name} and {company}.
+Missed call and new lead
+1. Missed call text-back (sends within minutes, only with consent)
+Hi {first_name}, it's {rep_name} with {company}. Sorry I missed your call. Are you still looking to sell {address}? Reply STOP to opt out.
+Trigger: missed inbound call from a known seller who has agreed to texts. Owner: the lead owner, who also gets a callback task. Stops when: the seller replies or a person calls them.
+2. First reply after a web form or ad lead
+Hi {first_name}, {rep_name} here from {company}. Got your note about {address}. Good time for a quick call today, or is later better?
+Trigger: new lead with consent recorded on the form. Stops when: they reply or a call connects.
+3. After the first conversation
+Thanks for talking with me, {first_name}. I'll {next_step} by {date}. If anything changes before then, text me here.
+Trigger: outcome set to "spoke, interested" with a next step and a date. The text uses the fields the caller filled in, which is another reason to require them.
+Appointment
+4. Appointment confirmation
+Confirming {day} at {time} at {address}. Anyone else who helps decide, like a spouse or heir, is welcome. See you then, {rep_name}.
+Trigger: appointment created. A second reminder the morning of, from the same rule. Asking about other decision-makers here is a system trick: it fills the "who else decides" field before the visit.
+5. No-show or missed appointment
+Hi {first_name}, we missed each other today. No problem. Want to pick a new time, or should I check back in a few weeks?
+Trigger: appointment time passed with no outcome. Gives the seller an easy way out and keeps the lead alive. More in seller no-shows .
+Offer
+6. Offer sent, day one
+Hi {first_name}, I just emailed the offer for {address}. Any questions on it, text or call me. I'm around today.
+Trigger: offer date set. Also creates the follow-up task with a date; the pipeline needs that date to leave the stage ( pipeline stages ).
+7. Offer gone quiet
+Hi {first_name}, checking back on the offer for {address}. Is there anything I can answer, or is the timing off right now?
+Trigger: a set number of days after the offer with no activity. Gives two honest ways to answer, and the second ("timing") feeds your not-now reason field. More in offer follow-up .
+8. Seller says yes
+Great, {first_name}. I'll send the agreement now. Once it's signed, I'll introduce you to {tc_name}, who will handle the title side.
+Trigger: stage moved to Under contract. Starts dispo and the transaction checklist on the same day.
+Not now and reactivation
+9. Not-now check-in on the re-contact date
+Hi {first_name}, it's {rep_name}. You mentioned {date_reason} would be the time to talk about {address}. Is now better?
+Trigger: re-contact date reached. The reason field written weeks ago is what makes this feel like memory rather than automation.
+10. Reactivation wave for a quiet lead
+Hi {first_name}, {rep_name} with {company}. We spoke a while back about {address}. Is it still something you're thinking about?
+Trigger: a person-approved segment, in small waves, consent confirmed. Never run on the whole database at once; see reactivating dead seller leads .
+Voicemail
+11. Voicemail script (about 15 seconds)
+Hi {first_name}, this is {rep_name} with {company}, calling about {address}. No pressure. If it's still something you're considering, call or text me back at {number}. Thanks.
+Trigger: call outcome "left voicemail". Say the number slowly, once at the end. Don't leave a voicemail on every attempt; one on the first and another much later is plenty.
+Email
+12. Email after the offer
+Subject: Your offer for {address}
+Hi {first_name}, thanks for your time. The offer is attached. In short: {offer_summary}. If something in it doesn't work, tell me which part and I'll see what I can do. I'll check back on {date}. {rep_name}, {number}
+Trigger: offer sent. Email is the place for detail, and it leaves a record the seller can show a family member.
+How should the CRM send them?
+Trigger from events, not from calendars. Each template above starts from something that happened: a missed call, an appointment, an offer date, a re-contact date.
+Check consent and opt-out before every send, in the same step that sends.
+Stop on reply. Any inbound text, call or email ends the automated sequence and creates a task for the owner.
+One channel per touch. Don't text, email and call within the same hour. It reads as pressure and as spam.
+Log it all on the seller's record: what, when and how they responded, so the next person doesn't repeat it.
+Keep templates in one place with an owner. Edit them as a team, review replies monthly and retire the ones that get "stop" responses.
+The same pieces also tell you what to ask of an AI tool that drafts messages: the triggers, the consent check and the stop rule stay yours. See AI for wholesalers . When to send what, across weeks, is in the follow-up cadence builder .
+Questions
+What should I text a motivated seller after a missed call?
+Keep it short and human: say who you are, that you missed their call, and ask one question, such as whether they're still looking to sell the property. Only text people who have agreed to be texted, and include a way to opt out.
+How do I follow up with a seller who went quiet after an offer?
+Send a short message a few days after the offer asking whether you can answer anything or whether the timing is off, and record their answer in a reason field. Make the follow-up date required when the offer is sent so it never depends on memory.
+Do I need consent to text seller leads?
+Generally yes. A skip-traced phone number isn't permission to text. Get consent on the form or during a call, record it on the record, include opt-out language and check the rules for your states. This is information, not legal advice.
+What should a follow-up voicemail for a seller say?
+Say your name and company, the property you're calling about, that there's no pressure, and your number, slowly, once. Keep it around 15 seconds, and don't leave one on every attempt.
+How often should I send follow-up messages to sellers?
+Space them by event and by seller type rather than a fixed rhythm, use one channel per touch, and stop the automation when the seller replies. The cadence builder gives a touch plan by seller type.
+Can AI write my seller follow-up messages?
+It can draft them for a person to review, which is a low-risk use. The triggers, the consent check, opt-out handling and the rule that stops a sequence on reply should stay in your CRM, whatever writes the words.
+Related guides
+Sources
+Checked in October 2026. Templates are examples to adapt, and compliance notes are information, not legal advice.
+National Law Review: TCPA global revocation rule extended to January 2027 . Opt-outs processed within 10 business days since April 11, 2025
+Want these sent by the CRM, not by memory?
+The CRM Revenue Audit (USD 1,500, fixed price) reviews your follow-up triggers, consent fields and message logging, and returns a fix plan. It's for teams already on Salesforce.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7249,6 +7437,165 @@ When a second person needs it, when lists reach thousands of rows, when you need
 Related guides
 Outgrowing the sheet?
 A free 30-minute call will tell you whether to move to an investor CRM or build on Salesforce, and I'll tell you if the answer is to stay on the sheet a while longer. If you're already on Salesforce, the fixed-price CRM Revenue Audit (USD 1,500) shows where deals leak.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Import a Skip-Traced List into Salesforce Without Duplicates
+URL: https://amrmagdy.com/skip-traced-list-import-salesforce.html
+
+Import a skip-traced list into Salesforce: clean, split, tag, test, then load
+A list from PropStream, BatchLeads or a skip-tracing service is the cheapest way to fill a cold-calling queue, and the fastest way to wreck a Salesforce org. The file arrives with three phone numbers per owner, the same owner on four rows, addresses spelled five ways, and half the people already in your system from last month's list. Loaded straight in, it creates thousands of duplicates, triggers thousands of tasks at once and buries the history of sellers you already know. This guide is the routine I'd run before every list goes in: what to clean, how to split new sellers from existing ones, how to map and tag the file, and how to test and check the load. It works for any list source.
+Don't load the file as it comes. Clean phone numbers to digits, standardize the property address, scrub against the Do Not Call registry, and build a match key for each row. Export your existing leads, compare keys, and split the file into new sellers and sellers you already have. Tag every row with a campaign, load 50 rows as a test, check them, then load the rest with the Data Import Wizard (up to 50,000 records at a time) or Data Loader. Hold automations during the load so thousands of tasks don't fire at once.
+What should one row in the file mean?
+Decide this before anything else. List providers usually give you one row per property, with the owner's name and several phone numbers and emails across columns. Salesforce wants one seller record with one main phone, and the other numbers stored somewhere you can still use them. A workable rule for most teams:
+One row = one property and its owner. The property address is the key, because it is the one thing that is stable. Owners change numbers, and spellings of names vary.
+Best phone in Phone, the others in their own fields (Phone 2, Phone 3, or a related record if your setup uses one), so a caller can try the next number without a second lead.
+Owners with several properties get several rows. Whether they become one seller with several deals depends on your data model; see Lead, Opportunity or Property .
+How do you clean the file before it goes in?
+Phones to digits. One column per phone, ten digits, no brackets or dashes. This is the same cleaned-phone key your duplicate rule should match on; see duplicate seller leads .
+Standardize the address. One street column, one city, state and zip. "123 N Main St" and "123 North Main Street" should be one value. A free address-cleaning step in your list tool or spreadsheet is worth the ten minutes.
+Remove rows with no usable number or address. A row you can't call or mail only adds noise.
+Scrub against the Do Not Call registry. The FTC says sellers and telemarketers must update their call lists, deleting numbers on the National Do Not Call Registry, at least every 31 days. Do it before you load and keep a flag for your own internal do-not-call list too. Load the result as a field, so it travels with the record.
+Set consent to "no" by default. A skip-traced number is not permission to text. Leave the text-consent field empty or "No" until the seller gives it, and see texting sellers .
+De-duplicate inside the file. Salesforce doesn't compare rows saved together, so the same owner twice in one file becomes two records. Sort by property key and remove repeats first.
+How do you split new sellers from sellers you already have?
+Build a match key in the file: cleaned property street plus zip, and separately each cleaned phone.
+Export your existing leads, contacts and open deals with the same keys (add the cleaned phone and a property key field in Salesforce if you don't have them).
+Compare the two. A lookup in a spreadsheet works; so does a database or Power Query. Mark each row new (no match on property or phone), existing (matches a known seller) or conflict (matches on phone but not property, or the other way round).
+Handle each group on purpose. New: load as new leads. Existing: don't create a lead. Add them to the new campaign, and update fields such as a better phone number, keeping the record and its history. Conflict: review by hand. Same phone and a different property is often a seller with a second house.
+This is the step most teams skip, and it is what keeps a returning seller from becoming a stranger in your system. Without it, a duplicate rule that blocks the load will fail the import instead of warning anyone, which is the cause of imports that stop with a duplicates-detected error.
+How should the columns map to Salesforce fields?
+In the list | In Salesforce | Note
+Owner name | First and last name on the Lead | If the list gives one string, split it first. Companies and trusts go in a separate field.
+Cleaned phone 1, 2, 3 | Phone, Phone 2, Phone 3 | Digits only; add a column for phone type if the list has it
+Email | Email | Often wrong on skip-traced lists; mark the source
+Property street, city, state, zip | Property address fields | Not the owner's mailing address, which goes in its own fields
+Owner mailing address | Mailing address fields | Absentee owners are your best signal
+List filters (equity, years owned, absentee, tax delinquent) | One field each, or a single picklist for situation | Keep what you'll score or filter on; drop the rest
+DNC result and date | Do-not-call checkbox and scrub date | So you know how stale the scrub is
+(you add) Lead source | Lead Source picklist | For example "Cold call list"
+(you add) Campaign | Campaign member | See below
+Use the lead source, campaign, market and status fields from the CRM field kit as your base, add the phone and address fields above, and take picklist values from the tagging rules , so a list never invents a new category.
+How do you tag which list produced the deal?
+Create one campaign per list pull, named so it sorts: provider, filter, date and market. Add every loaded row as a campaign member with a status such as "Loaded". Put the cost of the list on the campaign. Then your reports can answer the question that matters later, which is not "how many leads did this list give me" but "how many contracts, and what did each cost". The campaign setup is covered in lead sources in Salesforce , and the arithmetic in the cost per deal calculator .
+What should you hold back during the load?
+An import is an event your automations will react to. Imagine a flow that creates a call task for every new lead, an assignment rule that spreads leads across reps, and a text sequence that starts on a new record. Load 8,000 rows and you create 8,000 tasks, assign them in one lump and possibly send messages you didn't mean to. Before you load:
+Decide who owns the list (one caller group or queue), and set the owner in the file, so assignment doesn't scatter it.
+Add a "list import" flag your flows can check, so call-now tasks and speed-to-lead alerts skip it; those are for inbound sellers.
+Make sure nothing sends a message to a record just because it was created.
+Switch on duplicate reporting, so any match is logged rather than lost.
+How do you test, load and check?
+Test with 50 rows. Pick a mix: new, existing and a few ugly ones. Load them and open ten records. Check phones, addresses, source, campaign, owner and consent.
+Load the rest. The Data Import Wizard handles up to 50,000 records at a time. For more, or when you need to update existing records by ID, use Data Loader.
+Check the counts. Rows in the file equal records created plus records updated plus rows you set aside. If the numbers don't add up, find the gap before anyone starts dialing.
+Run a duplicate report. Group the new leads by cleaned phone and by property key. Anything with two or more records goes to the clean-up list.
+Spot-check 20. Pick twenty at random, find each in the CRM and compare with the file.
+Keep the file. Store the original and the cleaned version with the campaign. If a seller disputes where you got their number, you'll want it.
+Then let the callers in, with their queue set up as in the cold-calling team setup .
+Questions
+Can I connect PropStream to Salesforce?
+I found no native PropStream integration with Salesforce. PropStream exports lists as spreadsheets, which you clean and then import with the Data Import Wizard (up to 50,000 records at a time) or Data Loader. The same approach works for BatchLeads and other skip-tracing exports.
+How do I import a list into Salesforce without creating duplicates?
+Clean phone numbers and addresses, build match keys, export your existing leads and compare, then split the file into new sellers, existing sellers and conflicts. Load only the new ones as leads, and update or add existing ones to the campaign. Also remove repeats inside the file, because Salesforce doesn't compare rows saved together.
+How many records can I import with the Data Import Wizard?
+Up to 50,000 records at a time, according to Salesforce Help. For larger files, or to update existing records by ID, use Data Loader.
+Should every row of a skip-traced list become a lead?
+No. Remove rows with no usable number, scrub against the Do Not Call registry, and don't create a new lead for someone you already have. Add known sellers to the campaign instead, so their history stays on one record.
+How do I track which list produced a deal?
+Create one campaign per list with the cost on it, add every loaded record as a campaign member, and keep the lead source on the record. Then report contracts and cost per contract by campaign.
+How often do I have to scrub a list against the Do Not Call registry?
+The FTC says sellers and telemarketers must update their call lists, removing numbers on the National Do Not Call Registry, at least every 31 days. Store the scrub date on the record so you can see how old it is. This is information, not legal advice.
+Why did my Salesforce import fail with a duplicates error?
+An active duplicate rule matched records in your file. Imports can't show an alert to a person, so the rule can stop those records from being saved. Split new from existing sellers before the load, so the file doesn't contain records that match.
+Related guides
+Sources
+Checked in October 2026. Compliance notes are information, not legal advice.
+Salesforce Help: Data Import Wizard, how many records . Up to 50,000 records at a time
+FTC: Complying with the Telemarketing Sales Rule . Update call lists against the National Do Not Call Registry at least every 31 days
+Salesforce Help: Things to know about duplicate rules . Records saved together aren't compared; imports can't show alerts
+Want lists to load cleanly every time?
+The CRM Revenue Audit (USD 1,500, fixed price) checks how lists, duplicates and campaigns behave in your org today and returns a fix plan. It's for teams already on Salesforce. On another CRM and moving? List loading is the first routine we set up.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Wholesaling SOPs That Live Inside Your CRM, Not a Doc
+URL: https://amrmagdy.com/sops-inside-your-crm-wholesaling.html
+
+Wholesaling SOPs that live inside your CRM: shown at the moment of the task, checked without a meeting
+Every wholesaling company eventually writes SOPs: a shared document with how a cold caller handles a lead, how acquisitions runs an appointment, how dispo sends a deal. A month later, nobody opens it. New hires read it once, the team drifts, and the owner is back to correcting the same mistakes by message. The fix isn't a better document, it's moving each rule to the place the work happens, so the CRM shows it when it matters, requires it when it must be right and reports on whether it was followed. This guide shows the five-line format I use for an SOP, the SOPs a 10 to 50 person team needs by role, and where in Salesforce each part belongs.
+Write each SOP in five lines: the trigger, the owner, up to seven steps, a done-when check and a clock. Then put each piece where work happens: the steps as guidance on the Path or as tasks a flow creates, the must-haves as required fields and validation messages, the clock as an alert, and the done-when check as a report that shows how often it was met. Keep a short document only as an index and for the why.
+Why do SOP documents stop being used?
+They live somewhere else. The rule is in a document and the work is in the CRM, so reading the rule is an extra step nobody takes under pressure.
+They're too long. A ten-page SOP is read once. A seven-step one is used.
+Nothing checks them. If skipping a step costs nothing and shows nowhere, it gets skipped.
+They go stale. The process changes, the document doesn't, and the team learns to ignore it.
+They describe an ideal, not the job. They say what should happen, not what the system shows, requires and records.
+What is the five-line SOP?
+Trigger: the event that starts it. "A seller sets an appointment."
+Owner: one role or person. "The acquisitions rep on the lead."
+Steps: seven at most, each starting with a verb. If it needs more than seven, it's two SOPs.
+Done when: the observable result. "The appointment has a date, a confirmed address and every decision maker named."
+Clock: how long it may take, and what happens if it doesn't. "Confirmed by the morning of; alert to the manager if not."
+A "done-when" that you can't check in the CRM is a warning sign. Either the CRM is missing a field or the SOP is too vague.
+Which SOPs does each role need?
+Role | SOPs (one each)
+Cold caller or VA | Working a list; logging a call outcome; handing off an interested seller; handling do-not-call and wrong numbers
+Lead manager | First response to an inbound lead or missed call; reassigning an unclaimed lead; weekly duplicate clean-up
+Acquisitions | Running an appointment; making and sending an offer; following up an offer; closing out a dead deal with a reason and a date
+Dispositions | Marketing a contract to buyers; recording buyer responses; assigning and collecting the fee
+Transaction coordinator | Opening title; tracking closing dates; confirming funding; filing documents on the deal
+Marketing | Launching a campaign with its cost and source tags; loading a list ( importing a list )
+Ops or admin | Adding a user and their access; checking automations for errors; changing a field or stage safely
+That's about twenty SOPs for a full team, and a new company doesn't need all of them on day one; see "start with three" below. Who owns what in more detail is on team roles and the CRM .
+Where does each part live in Salesforce?
+SOP part | Where it lives
+Trigger | A record-triggered flow or a stage change, so the SOP starts itself
+Owner | The record owner or a queue with a claim rule
+Steps | Guidance on the Path step (up to 1,000 characters), or tasks created by a flow, one per step, with the instruction in the task description
+Must-haves | Required fields and validation rules with specific messages ("Add the closing date before moving to Under contract")
+Done when | The fields filled in, plus a checkbox or status that a manager can report on
+Clock | A date field and a scheduled flow that creates a task or alerts a manager when it's late
+Guided data entry | A screen flow for multi-step jobs such as logging an offer, so the user fills in the right things in the right order
+The why and the exceptions | A short document linked from the record or the Path, kept to a page
+The pipeline stage rules in pipeline stages are SOPs in this form: entry, exit, owner and clock for each stage. The call outcomes in the cold-calling setup are another.
+How do you check that SOPs are followed?
+For each SOP, pick one measure the CRM can report and put it on a manager's screen:
+Appointment SOP: percentage of appointments with all decision makers named.
+Offer SOP: percentage of offers with a follow-up date set within a day.
+Handoff SOP: percentage of handoffs accepted by acquisitions without being sent back.
+Dispo SOP: time from contract to buyers contacted.
+Do-not-call SOP: number of records with a do-not-call flag that still have an open task.
+A weekly look, five minutes, with one question per measure: who needs help? Not who to blame. If most of the team misses a step, the SOP or the system is wrong, not the people. The Monday numbers in the Monday 5 give the owner's view on top.
+How should you train and update?
+Day one, on a practice record. A new hire works a test lead from new to closed, with the Path and tasks guiding them. They learn the SOPs by doing them, and you see where they stumble.
+One owner per SOP, who reviews it every quarter and whenever a mistake repeats.
+Change the system and the guidance together. If you rename a stage or add a field, update the Path guidance in the same change.
+Write down the reason. One line, "we require the closing date here because title can't open without it", saves a lot of arguments.
+Keep access narrow. People follow the SOP for their role more easily when they see only what that role needs; see who sees what .
+What are the three to write first?
+First response to a new lead or missed call. It's where most money leaks ( speed to lead ).
+The cold-caller-to-acquisitions handoff. It's where most deals get lost between two people ( handoff checklist ).
+Offer sent to offer answered. It's where the pipeline sits longest ( offer follow-up ).
+Write those three in the five-line form, build each into the CRM, run them for a month and look at the measures. Then add the next three. If you want the setup done once and properly, that's included in an audit and in ongoing support.
+Questions
+What SOPs does a wholesaling company need?
+Roughly twenty for a full team, grouped by role: caller and VA, lead manager, acquisitions, dispositions, transaction coordinator, marketing and ops. A new company can start with three: first response to a new lead, the caller-to-acquisitions handoff, and offer follow-up.
+How do I make my team actually follow SOPs?
+Put each step where the work happens: guidance on the Path, tasks a flow creates, required fields with clear messages, and a manager report on whether it was followed. A document nobody opens can't change behavior; a field that won't save without the right data does.
+How long should an SOP be?
+Seven steps at most. If it needs more, it's two SOPs. Add a trigger, an owner, a done-when check and a clock, and keep the explanation of why on one page.
+Where should SOPs live, in a doc or in the CRM?
+In the CRM wherever possible, because that's where the work is done. Keep a short document as an index and for the reasons behind the rules, and link it from the record or the Path.
+How do I train a new VA on my CRM?
+Give them a practice record to work from new to closed, with the Path guidance and tasks leading them, limited access to what their role needs and a manager who checks their first week of work against the SOP measures.
+How do I know whether an SOP is being followed?
+Pick one measure per SOP that the CRM can report, such as the percentage of offers with a follow-up date set within a day, and review it weekly. If most people miss a step, fix the SOP or the system rather than blaming the team.
+Related guides
+Sources
+Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.
+Trailhead: Visualize Success with Path and Kanban . Up to five key fields and up to 1,000 characters of guidance per path step
+Want your SOPs built into the system?
+The CRM Revenue Audit (USD 1,500, fixed price) shows which of your rules the CRM already enforces and which only live in people's heads, with a fix plan. It's for teams already on Salesforce.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7777,7 +8124,7 @@ See also: the wholesaling CRM checklist , stage by stage.
 URL: https://amrmagdy.com/wholesaling-crm.html
 
 Wholesaling CRM: what it must track, stage by stage.
-A wholesaling CRM earns its cost when it shows where deals leak between the marketing dollar and the closing table. Check yours against five stages: spend, answer, follow-up, offer and keep. Each stage needs a few required fields, one or two automations, and one number you review every Monday. Stage rules are in wholesaling pipeline stages , and the seven jobs for a home-buying company are in CRM for a we buy houses company .
+A wholesaling CRM earns its cost when it shows where deals leak between the marketing dollar and the closing table. Check yours against five stages: spend, answer, follow-up, offer and keep. Each stage needs a few required fields, one or two automations, and one number you review every Monday. Stage rules are in wholesaling pipeline stages , and the seven jobs for a home-buying company are in CRM for a we buy houses company . Turn the checklist into rules your team follows: SOPs inside your CRM .
 The checklist
 1. Spend: Know what each closed deal cost
 ☐ Lead source and campaign on every lead, required ☐ Monthly spend per campaign ☐ Source carried through to the closed deal Monday number: Cost per kept deal by campaign
