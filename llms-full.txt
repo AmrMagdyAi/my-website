@@ -73,6 +73,7 @@ Monthly Retainer · no long-term contract
 Your part-time Salesforce admin, for less than a full-time hire: new automations, fast fixes, monitoring and a monthly report.
 Same-week changes
 Monthly automation check
+Monthly block of hours that rolls over
 Monthly report
 New-hire setup and training
 Today Every change waits on a developer ticket, or on someone with time.
@@ -91,7 +92,7 @@ Fixed price For teams already on Salesforce
 I go through your org with the checklist from two years of running an investor team's Salesforce. You get the leaks in writing, what each one is likely costing you and what to fix first.
 Findings report and 30 / 60 / 90 fix plan
 Spec for a 5-number Monday dashboard
-Fee credited if you build within 30 days
+Fee credited if you build or start monthly support within 30 days
 Money back if it doesn't find 5 fixable issues worth more than the fee
 Today You guess which leaks cost the most, and fix whatever is loudest.
 With me You know which leaks cost the most, and the order to fix them.
@@ -220,7 +221,7 @@ If you can, yes. More leads through the same leaks means more money lost the sam
 We're on Podio, REsimpli or GoHighLevel. Can you audit that?
 No. The audit is built for Salesforce. If you're outgrowing another CRM or spreadsheets, the right first step is a move to Salesforce: I map what you track today, move your data and build around how your team works. See how a move to Salesforce works , or plan it on a free call.
 What does it cost?
-Ongoing support is a monthly retainer with no long-term contract, quoted after a free call. A full implementation is quoted as a project after a free call. For a first look at your org, the CRM Revenue Audit is a fixed price shown on its page, and the full fee comes off the build if you go ahead within 30 days. Salesforce licenses are billed by Salesforce, so ask your account manager for a quote for your team size; teams can often get a discount.
+Ongoing support is a monthly block of hours, month to month, with the price shared on a free call. A full implementation is quoted as a project after a free call. For a first look at your org, the CRM Revenue Audit is a fixed price shown on its page, and the full fee comes off a build, or your first three months of support, if you go ahead within 30 days. Salesforce licenses are billed by Salesforce, so ask your account manager for a quote for your team size; teams can often get a discount.
 You're in Cairo. How does that work?
 I work US hours, 9am to 6pm Eastern, Monday to Friday, and reply within one business day. That's how I've worked with a home-buying company in Ohio for two years. Calls are booked at a time that suits you.
 You're one person. Why not an agency?
@@ -2191,7 +2192,7 @@ After the audit You know what each contract costs, by channel.
 Not on Salesforce? You need a move to Salesforce , not an audit. Book a free call and we'll scope it.
 CRM Revenue Audit
 $1,500 USD, fixed
-One price for teams already on Salesforce. Credited in full to the build if you go ahead within 30 days of the walkthrough.
+One price for teams already on Salesforce. Credited to a build, or to your first three months of support, if you go ahead within 30 days of the walkthrough.
 1 Written findings report
 5+ Fixable issues worth more than the fee, or your money back
 up to 3 Quick fixes made during the audit
@@ -2258,7 +2259,7 @@ up to 3 | Quick fixes, done Small, safe fixes like a broken alert or a wrong rep
 5 | Monday numbers Your “Monday 5” owner dashboard, defined field by field for your org and ready to build.
 3 | Roadmap stages A 30 / 60 / 90 plan with the fixes in the order I'd do them and rough effort for each.
 2 | Calls A kick-off call and a recorded findings walkthrough the rest of your team can watch.
-100% | Of the fee credited If you hire me for the build within 30 days, the whole fee comes off the project.
+100% | Of the fee credited If you hire me for the build or for monthly support within 30 days, the whole fee comes off the project or your first three months of fees.
 How it works
 Five steps, two calls
 About two hours of your time in total. I do the rest.
@@ -2295,7 +2296,7 @@ Yes. Every Salesforce login uses a license, even a read-only one. If you have a 
 How long does it take?
 We set the walkthrough date together on the kick-off call, so you know the finish date before the review starts. In between: my review, up to 3 agreed quick fixes, and the report, which reaches you before the walkthrough. Your part is about two hours in total.
 Do we have to hire you for the fixes?
-No. The roadmap is written so your team, or anyone you choose, can follow it. If you do hire me for the build within 30 days, the full audit fee comes off the project.
+No. The roadmap is written so your team, or anyone you choose, can follow it. If you hire me for the build or for monthly support within 30 days, the full audit fee comes off the project or your first three months of fees.
 What if we're not on Salesforce?
 Then the audit isn't the right step. You need a move to Salesforce: I map what you track today, move your data and build around how your team works. Book a free call and we'll scope it.
 You're in Cairo. How does the time difference work?
@@ -2918,7 +2919,7 @@ Org health check or audit | $5,000 to $20,000
 Managed support (retainer) | $2,500 to $15,000+ a month
 Two things the rate card hides. First, hours spent learning your business are hours you pay for, so a cheaper consultant who has never seen a wholesaling pipeline can cost more in the end. Second, the cheapest quote is often the one with the vaguest scope, and vague scope is where projects drag.
 Salesforce licenses are a separate cost, paid to Salesforce. I don't quote list prices here because they change and they're negotiable. Teams can often get a discount through their Salesforce account executive, depending on the business and the number of users, so ask before you sign.
-For what it's worth, here's what I charge. The CRM Revenue Audit is a fixed USD 1,500 for teams already on Salesforce, and the full fee comes off a build if you go ahead within 30 days. Builds and moves are quoted as projects once the scope is written down. Ongoing support is a monthly retainer with no long-term contract.
+For what it's worth, here's what I charge. The CRM Revenue Audit is a fixed USD 1,500 for teams already on Salesforce, and the full fee comes off a build, or your first three months of support, if you go ahead within 30 days. Builds and moves are quoted as projects once the scope is written down. Ongoing support is a monthly retainer with no long-term contract.
 Eleven questions to ask any Salesforce consultant
 Have you worked inside a home-buying or wholesaling company's Salesforce? What did you build? Listen for specifics: missed-call handling, lead source by marketing number, offers and contract dates, buyer lists. "We've done lots of real estate" usually means brokerages, which is a different business.
 Who will actually do the work? Get names. If it's a firm, ask to meet the person building it.
@@ -6614,7 +6615,7 @@ In 2026, US median base pay for Salesforce admins is about $110,000 to $120,000 
 Can we get a discount on Salesforce licenses?
 Often, yes. Ask your Salesforce account executive, especially at renewal or when you add users. Discounts depend on the business and the number of users, so get a quote for your real team instead of comparing list prices.
 What does the CRM Revenue Audit cost?
-USD 1,500, fixed, for teams already on Salesforce. If the report doesn't find at least five fixable issues worth more than the fee, you get a full refund. If you hire me for the build within 30 days of the walkthrough, the full fee comes off the project. See the CRM Revenue Audit .
+USD 1,500, fixed, for teams already on Salesforce. If the report doesn't find at least five fixable issues worth more than the fee, you get a full refund. If you hire me for the build or for monthly support within 30 days of the walkthrough, the full fee comes off the project or your first three months of fees. See the CRM Revenue Audit .
 Moving to Salesforce
 How do we move from Podio to Salesforce?
 Map what you track in Podio to Salesforce objects and fields, decide which history to bring, rebuild the automations that matter, then move every web form and phone number on one cutover day and check daily that no leads landed in the old system. Podio's Excel export leaves out comments and files, so plan those separately. The switch guide has the field map.
