@@ -55,8 +55,8 @@
 
   /* the before/after switch: one class on <body> flips every pair on the page */
   var btns=[].slice.call(d.querySelectorAll('.sw button')), live=d.getElementById('sw-live');
-  var sayOn=body.getAttribute('data-say-on')||'Showing the Monday with Salesforce set up right.';
-  var sayOff=body.getAttribute('data-say-off')||'Showing the Monday with Salesforce as it is now.';
+  var sayOn=body.getAttribute('data-say-on')||'Showing a change done this week.';
+  var sayOff=body.getAttribute('data-say-off')||'Showing a change waiting on a ticket.';
   var touched=false;
   function set(on,source,quiet){
     if(on===body.classList.contains('with')) return;
@@ -71,7 +71,7 @@
   [].forEach.call(d.querySelectorAll('[data-flip]'),function(b){ b.addEventListener('click',function(){ touch(); set(!body.classList.contains('with'),'button'); }); });
 
   /* a short preview for visitors who haven't found the switch: after a few seconds on the first screen it flips to
-     "set up right" for a moment and back, with no announcement and no analytics event. It never runs for visitors
+     "done this week" for a moment and back, with no announcement and no analytics event. It never runs for visitors
      who asked for less motion, scrolled, pressed a key or touched anything, and runs once per browser tab. */
   if(btns.length&&d.getElementById('monday')&&!(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)){
     var seen=false; try{ seen=sessionStorage.getItem('ba_demo')==='1'; }catch(e){}
