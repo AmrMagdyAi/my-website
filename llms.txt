@@ -1,7 +1,7 @@
 # Amr Magdy — Salesforce for Real Estate Investors and Wholesalers
 > AI-readable profile for generative search engines (llms.txt standard)
 > Source: https://amrmagdy.com
-> Last updated: 2026-10-25
+> Last updated: 2026-10-30
 > Full text of key pages: https://amrmagdy.com/llms-full.txt
 
 ## Identity
@@ -32,7 +32,7 @@ disappears between the marketing dollar and the kept deal at five points a CRM c
 Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagdy.com/kept-deal-map.html
 
 ## Current focus (October 2026)
-- Who he works with: real estate investors, home-buying companies and wholesalers in the United States first, and in Canada and Europe (including the UK).
+- Who he works with: real estate investors, home-buying companies and wholesalers in the United States first, and in Canada and Europe (including the UK). Most of his clients already run Salesforce: he audits and fixes the org (leaks, missed follow-ups, reports nobody trusts). Teams on Podio, REsimpli, GoHighLevel or spreadsheets get a move to Salesforce first.
 - What he builds: the Salesforce system a home-buying company runs on, from marketing campaign to closed deal: campaign ROI by market, speed to lead, missed-call alerts, shared lead queues, underwriting on the opportunity, a transactions board, RingCentral call sync, DocuSign alerts and a no-code rules engine.
 - Proof: for the last two years he has built and run the Salesforce org behind a two-market home-buying company in Ohio.
 - Working hours: 9am to 6pm US Eastern on US weekdays (16:00 to 01:00 Cairo). He replies within one business day.
