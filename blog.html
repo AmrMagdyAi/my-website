@@ -73,7 +73,7 @@
 @media(max-width:960px){.articles{grid-template-columns:1fr 1fr}}
 @media(max-width:640px){.articles{grid-template-columns:1fr}.hero{padding:calc(var(--nav) + 36px) 0 44px}}
 </style>
-<script>if((function(){try{var t=localStorage.getItem('theme');if(t)return t}catch(e){}var m=document.cookie.match(/(?:^|; )theme=(\w+)/);return m&&m[1]})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script>if((function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t)try{var m=document.cookie.match(/(?:^|; )theme=(\w+)/);t=m&&m[1]}catch(e){}if(!t)try{t=sessionStorage.getItem('theme')}catch(e){}if(!t&&/^theme-(dark|light)$/.test(window.name))t=window.name.slice(6);return t})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
 </head>
 <body>
 <header class="top"><div class="wrap">
