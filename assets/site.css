@@ -554,8 +554,8 @@ body.with .pair{border-color:var(--teal-line)}
 .no-js .pair>.flip>.b::before{content:"At most teams";background:var(--rose-soft);color:var(--rose-ink)}
 .no-js .pair>.flip>.a::before{content:"At Central City";background:var(--teal-soft);color:var(--teal-ink)}
 .no-js .pair>.flip>.a{margin-top:18px;padding-top:16px;border-top:1px dashed var(--line2)}
-.no-js .tl .flip>.b::before,.no-js .lede>.b::before,.no-js .sum>.b::before{content:"As it is now: ";font-weight:700;color:var(--rose-ink);font-family:var(--f-body);font-size:.9rem}
-.no-js .tl .flip>.a::before,.no-js .lede>.a::before,.no-js .sum>.a::before{content:"Set up right: ";font-weight:700;color:var(--teal-ink);font-family:var(--f-body);font-size:.9rem}
+.no-js .tl .flip>.b::before,.no-js .lede>.b::before,.no-js .sum>.b::before{content:"Waiting on a ticket: ";font-weight:700;color:var(--rose-ink);font-family:var(--f-body);font-size:.9rem}
+.no-js .tl .flip>.a::before,.no-js .lede>.a::before,.no-js .sum>.a::before{content:"Done this week: ";font-weight:700;color:var(--teal-ink);font-family:var(--f-body);font-size:.9rem}
 .no-js .mk{border-color:var(--line2)}
 .no-js .goal thead .st{display:block}
 .no-js .mk::before{background:var(--line2)}
@@ -574,8 +574,8 @@ body.with .pair{border-color:var(--teal-line)}
   .flip,.flip.in{display:block}
   .flip>.st{visibility:visible!important;opacity:1!important;transform:none!important}
   .flip>.st+.st{margin-top:6px}
-  .tl .flip>.b::before,.lede>.b::before,.sum>.b::before{content:"As it is now: ";font-weight:700}
-  .tl .flip>.a::before,.lede>.a::before,.sum>.a::before{content:"Set up right: ";font-weight:700}
+  .tl .flip>.b::before,.lede>.b::before,.sum>.b::before{content:"Waiting on a ticket: ";font-weight:700}
+  .tl .flip>.a::before,.lede>.a::before,.sum>.a::before{content:"Done this week: ";font-weight:700}
   .pair>.flip>.b::before{content:"At most teams: ";font-weight:700}
   .pair>.flip>.a::before{content:"At Central City: ";font-weight:700}
   .goal thead .st{display:block}
@@ -650,3 +650,14 @@ body:not(.touched) .sw{animation:swpulse 2.2s ease-in-out 1.2s 4}
 @media (prefers-reduced-motion:reduce){.sw-arrow,body:not(.touched) .flipchip .trk,body:not(.touched) .sw{animation:none}body:not(.touched) .flipchip .tap{animation:none}}
 .no-js .flipchip{display:none}
 @media print{.flipchip{display:none!important}}
+
+/* the homepage after the partner rework: proof chips on the dark hero, and the "how working together works" row */
+#monday .proof{list-style:none;margin:22px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+#monday .proof li{font:600 .84rem/1.2 var(--f-body);padding:9px 13px;border-radius:999px;border:1px solid rgba(247,244,239,.3);color:#e8e2d8}
+.how{padding:44px 0 6px}
+.how h2{font:400 clamp(1.5rem,3vw,1.9rem)/1.2 var(--f-head);margin:0 0 18px}
+.how ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.how li{padding:20px;border:1px solid var(--line2);border-radius:16px;background:var(--paper)}
+.how li b{display:block;font:400 1.25rem/1.2 var(--f-head);margin-bottom:8px}
+.how li span{color:var(--ink2);font-size:.97rem;line-height:1.5}
+@media (max-width:760px){.how ol{grid-template-columns:minmax(0,1fr)}}
