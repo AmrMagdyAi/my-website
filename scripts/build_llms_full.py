@@ -3,7 +3,7 @@
 import glob, os, re, datetime
 from bs4 import BeautifulSoup
 os.chdir(os.path.join(os.path.dirname(__file__), '..'))
-pages = [p for p in sorted(glob.glob('*.html')) if p != '404.html' and 'http-equiv="refresh"' not in open(p).read()]
+pages = [p for p in sorted(glob.glob('*.html')) if p not in ('404.html','theme-check.html') and 'http-equiv="refresh"' not in open(p).read()]
 pages.remove('index.html'); pages.insert(0, 'index.html')
 out = ['# Amr Magdy — full text of key pages (llms-full.txt)',
        '> Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.',

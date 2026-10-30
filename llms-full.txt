@@ -40,7 +40,7 @@ Based in Cairo, working US hours: 9am to 6pm Eastern, Monday to Friday . I reply
 NDA before I log in. I’m happy to sign yours first.
 Read-only access. A read-only user covers most of an audit. You create it and can switch it off any time.
 You own everything. Every build is written down, so another admin could take it over.
-50/50 or escrow. Half to start and half on delivery by invoice, or an Upwork contract that holds your payment until you approve.
+50/50, held by Upwork. Half to start and half on delivery, through an Upwork contract that holds each payment until you approve it.
 Your money back. The audit is refunded in full if it doesn’t find five fixable issues worth more than the fee.
 Verify my certifications Salesforce Certified Administrator, Platform App Builder, Associate and AI Associate
 Who this is for
@@ -2079,8 +2079,13 @@ A 60-minute walkthrough call.
 Not included
 Building fixes beyond the quick fixes (up to 3), data migration and new integrations. Those are scoped separately if you want them.
 Fee and payment
-$1,500 USD, fixed. 50% to start and 50% when the report is delivered, by bank transfer or card through an invoice. Escrow through an Upwork contract is available on request; the payment is then held until you approve the report.
-If you hire me for the build within 30 days of the walkthrough, the full $1,500 comes off that project.
+$1,500 USD, fixed. Paid through an Upwork contract: 50% to start and 50% when the report is delivered. Upwork holds each payment until you approve it. You need a free Upwork account; I send the contract.
+If you hire me for ongoing support within 30 days of the walkthrough, up to the full $1,500 comes off your first three months of fees, an equal amount each month. If you hire me for a build, it comes off that project.
+If we continue with ongoing support
+Monthly plans, month to month. Either of us can stop with 30 days’ notice.
+You fund the month’s milestone on Upwork at the start of the month. I start once it is funded and you release it with the monthly report.
+Unused hours carry into the next month, up to half of your plan. After that they expire.
+Anything I estimate above 2 hours gets a short written estimate you approve first. Extra hours are also approved first.
 My promise
 If the report doesn’t give you at least five specific, fixable issues worth more to you than the fee, say so on the walkthrough call and I’ll refund it in full.
 Direct line to me
@@ -2090,7 +2095,7 @@ I work from a read-only user and change nothing without your OK. The user only g
 Urgent findings
 If I find something actively losing leads, like an alert that silently stopped, I tell you the same day.
 Agreeing
-Paying the first invoice, or accepting the Upwork contract, means you accept these terms.
+Accepting the Upwork contract means you accept these terms.
 
 ---
 ## Salesforce CRM Audit for Real Estate Investors and Wholesalers
@@ -2123,7 +2128,7 @@ Sean Grabow , Founder, Central City Solutions
 NDA before I log in. I’m happy to sign yours first.
 Read-only access. A read-only user covers most of an audit. You create it and can switch it off any time.
 You own everything. Every build is written down, so another admin could take it over.
-50/50 or escrow. Half to start and half on delivery by invoice, or an Upwork contract that holds your payment until you approve.
+50/50, held by Upwork. Half to start and half on delivery, through an Upwork contract that holds each payment until you approve it.
 Your money back. The audit is refunded in full if it doesn’t find five fixable issues worth more than the fee.
 Verify my certifications Salesforce Certified Administrator, Platform App Builder, Associate and AI Associate
 Why I built this
@@ -2200,7 +2205,7 @@ If the report doesn't give you at least five specific, fixable issues worth more
 Direct line to me
 You get a direct WhatsApp line to me for questions about your org, during the audit and for 30 days after the walkthrough. At handover I'll ask for a short review on Upwork or LinkedIn. A case study or a quote only if you're happy to, and I may count your findings, without your name, in totals I publish.
 Paying
-50% to start, 50% when the report is delivered, by invoice. Prefer escrow? It can run as an Upwork contract, so your payment is held until you approve the report.
+50% to start, 50% when the report is delivered, through an Upwork contract that holds each payment until you approve it.
 Questions
 Before you ask
 What access do you need?
@@ -2216,7 +2221,7 @@ Then the audit isn't the right step. You need a move to Salesforce: I map what y
 You're in Cairo. How does the time difference work?
 I work US hours, 9am to 6pm Eastern, Monday to Friday, and reply within one business day. That's how I've worked with a home-buying company in Ohio for two years. Both calls are booked at a time that suits you.
 How do we pay?
-50% to start and 50% when the report is delivered, by bank transfer or card through an invoice. Prefer escrow? It can run as an Upwork contract instead, so your payment is held until you approve the report. The full scope and terms are on one page.
+Paid through an Upwork contract: 50% to start and 50% when the report is delivered. Upwork holds each payment until you approve it. The full scope and terms are on one page.
 What if the audit doesn't find much?
 Then you shouldn't pay for it. If the report doesn't give you at least five specific, fixable issues worth more than the fee, tell me on the walkthrough and I refund it in full. No forms, no argument.
 Request the audit
@@ -3413,7 +3418,7 @@ Based in Cairo, working US hours: 9am to 6pm Eastern, Monday to Friday . I reply
 NDA before I log in. I’m happy to sign yours first.
 Your logins, your control. You create my users and can switch them off any time. Your current CRM keeps running until the switch.
 You own everything. Every build is written down, so another admin could take it over.
-Fixed price, in writing. A written scope and price before anything starts, by invoice or through an Upwork contract that holds your payment until you approve.
+Fixed price, in writing. A written scope and price before anything starts, through an Upwork contract that holds each payment until you approve it.
 No dead week. Your team keeps working in the old system until Salesforce is ready for them.
 Verify my certifications Salesforce Certified Administrator, Platform App Builder, Associate and AI Associate
 Signs you’ve outgrown it
@@ -3464,7 +3469,7 @@ No. Both systems run side by side until your team is comfortable in Salesforce.
 Is Salesforce overkill for us?
 Sometimes it is. If you’re a one-person shop with a few deals a month, I’ll tell you on the call and you’ll stay where you are.
 How do we pay?
-Part to start and the rest at milestones written into the scope, by invoice.
+Part to start and the rest at milestones written into the scope, through an Upwork contract.
 Tell me what you’re on today
 Book a free 30-minute scoping call, or send the form and I’ll reply within one working day with a couple of questions.
 Book a free scoping call →
