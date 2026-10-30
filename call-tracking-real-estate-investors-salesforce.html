@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>if(/\.html$/.test(location.pathname))try{history.replaceState(null,'',location.pathname.replace(/(^|\/)index\.html$/,'$1').replace(/\.html$/,'')+location.search+location.hash)}catch(e){}</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script src="assets/consent.js" defer></script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');else if(h.indexOf('.csv')>-1||h.indexOf('.pdf')>-1)gtag('event','file_download',{file_name:h});});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Call Tracking for Real Estate Investors and Salesforce</title>
+<meta name="description" content="How call tracking works for wholesalers and home buyers: source numbers vs dynamic number pools, which number for which channel, what to log in Salesforce, pitfalls and reports.">
+<link rel="canonical" href="https://amrmagdy.com/call-tracking-real-estate-investors-salesforce">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ef">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://amrmagdy.com/call-tracking-real-estate-investors-salesforce">
+<meta property="og:title" content="Call tracking for real estate investors: tie every seller call to a campaign and to Salesforce">
+<meta property="og:description" content="How call tracking works for wholesalers and home buyers: source numbers vs dynamic number pools, which number for which channel, what to log in Salesforce, pitfalls and reports.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-call-tracking-real-estate-investors-salesforce.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Call tracking for real estate investors: tie every seller call to a campaign">
+<meta property="og:site_name" content="Amr Magdy">
+<meta property="article:published_time" content="2026-10-29">
+<meta property="article:modified_time" content="2026-10-29">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Call tracking for real estate investors: tie every seller call to a campaign and to Salesforce">
+<meta name="twitter:description" content="How call tracking works for wholesalers and home buyers: source numbers vs dynamic number pools, which number for which channel, what to log in Salesforce, pitfalls and reports.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-call-tracking-real-estate-investors-salesforce.jpg">
+<link rel="stylesheet" href="styles.css">
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.sec2{margin-top:44px;max-width:820px}
+.sec2 h2{font-size:1.5rem;margin:34px 0 8px;scroll-margin-top:calc(var(--nav) + 16px)}
+.sec2 h3{font-size:1.08rem;margin:22px 0 6px}
+.sec2 p,.sec2 li{color:var(--txt2);line-height:1.78}
+.sec2 p{margin:8px 0}
+.sec2 ul,.sec2 ol{padding-left:1.2rem;margin:8px 0}
+.sec2 li{margin:4px 0}
+.sec2 a{color:var(--sf);text-decoration:underline;text-underline-offset:2px}
+.sec2 strong{color:var(--txt)}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:18px}
+.card h3{margin-top:0}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;border:1px solid var(--bd);border-radius:14px;background:var(--bg2)}
+.tw table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:560px}
+.tw th,.tw td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--bd);color:var(--txt2);line-height:1.55}
+.tw th{color:var(--txt);font-weight:700;background:var(--bg);position:sticky;top:0}
+.tw td:first-child{color:var(--txt);font-weight:600}
+.dl dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:12px}
+.dl dd{color:var(--txt2);line-height:1.7;margin:2px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.toc a{border:1px solid var(--bd2);border-radius:999px;padding:5px 12px;font-size:.82rem;color:var(--txt)}
+.fig{margin:18px 0;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:16px}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{font-size:.84rem;color:var(--txt3);margin-top:8px;line-height:1.6}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:var(--band-ink);border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:var(--band-ink);font-size:1.35rem;margin:0 0 8px}.cta p{color:var(--band-ink2);line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--bg);border:1px solid var(--bd2);color:var(--txt2);margin-right:6px}
+.warn{background:var(--bg2);border:1.5px solid var(--gold);border-left-width:6px;border-radius:14px;padding:14px 18px;margin:18px 0 0;color:var(--txt2);line-height:1.7;max-width:820px}
+.dlbox{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--bg2);border:1.5px dashed var(--gold);border-radius:16px;padding:16px 18px;margin:18px 0}
+.dlbox p{margin:0;flex:1 1 240px}
+
+.ans{background:var(--bg2);border:1px solid var(--bd);border-left:6px solid var(--sf);border-radius:14px;padding:16px 20px;margin:22px 0 0;max-width:820px}
+.ans p{margin:0;color:var(--txt2);line-height:1.75}.ans .k{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--txt3);font-weight:700;margin-bottom:4px}
+.chk{list-style:none;padding-left:0!important}.chk li{position:relative;padding-left:1.6rem}.chk li::before{content:'';position:absolute;left:0;top:.45em;width:.9rem;height:.9rem;border:1.5px solid var(--sf);border-radius:4px}
+.rel2{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:12px}
+.rel2 a{display:block;border:1px solid var(--bd);border-radius:14px;padding:14px 16px;background:var(--bg2);text-decoration:none!important;color:var(--txt)!important}
+.rel2 a b{display:block;font-size:.95rem;margin-bottom:4px}.rel2 a span{display:block;font-size:.84rem;color:var(--txt3);line-height:1.5}
+.src{font-size:.86rem}.src li{margin:6px 0}
+.ex{font-size:.86rem;color:var(--txt3);font-style:italic}
+.faqcat{margin-top:40px}
+</style>
+<script>if((function(){try{var t=localStorage.getItem('theme');if(t)return t}catch(e){}var m=document.cookie.match(/(?:^|; )theme=(\w+)/);return m&&m[1]})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Call tracking for real estate investors: tie every seller call to a campaign and to Salesforce", "description": "How call tracking works for wholesalers and home buyers: source numbers vs dynamic number pools, which number for which channel, what to log in Salesforce, pitfalls and reports.", "url": "https://amrmagdy.com/call-tracking-real-estate-investors-salesforce", "mainEntityOfPage": "https://amrmagdy.com/call-tracking-real-estate-investors-salesforce", "inLanguage": "en-US", "datePublished": "2026-10-29", "dateModified": "2026-10-29", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-call-tracking-real-estate-investors-salesforce.jpg", "about": [{"@type": "Thing", "name": "Call tracking"}, {"@type": "Thing", "name": "Marketing attribution"}, {"@type": "Thing", "name": "Salesforce"}, {"@type": "Thing", "name": "Wholesaling real estate"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I track which marketing is making my phone ring?", "acceptedAnswer": {"@type": "Answer", "text": "Give each offline source its own tracking number (each mailer wave, sign type, Google Business Profile listing) and use a dynamic number pool on your website. Route all numbers to your real line and write the source and campaign to the seller's record, so you can report calls, appointments and contracts by source."}}, {"@type": "Question", "name": "What is dynamic number insertion?", "acceptedAnswer": {"@type": "Answer", "text": "A script on your website that swaps your normal phone number for a tracking number based on how the visitor arrived, and remembers the source in a cookie. It captures details such as pages visited and paid keywords. The number must be visible on the page in a standard format for the swap to work."}}, {"@type": "Question", "name": "Do I need a different phone number for each mailer?", "acceptedAnswer": {"@type": "Answer", "text": "One per mailer wave or list is enough to learn which mailing pays. Don't split finer than you'll report on, and keep each printed number live for months because sellers keep letters."}}, {"@type": "Question", "name": "Can call tracking connect to Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CallRail, for example, has a Salesforce integration that ties calls to campaigns and lets you hear recordings in Salesforce; its page lists a Salesforce Enterprise or Unlimited plan as a requirement. Other vendors differ, and Zapier or a webhook can write the same fields on other editions. Check the vendor's current requirements."}}, {"@type": "Question", "name": "Is it legal to record calls from sellers?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the state. Several states require all parties to consent to recording, so add a recording notice at the start of tracked calls and check the rules where you operate. This is information, not legal advice."}}, {"@type": "Question", "name": "How do I stop duplicate leads from repeat callers?", "acceptedAnswer": {"@type": "Answer", "text": "Match the caller's cleaned phone number against existing sellers before creating a record, reopen the existing record and notify its owner, and keep the original source and the new one. See the duplicate seller guide."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Call tracking for real estate investors", "item": "https://amrmagdy.com/call-tracking-real-estate-investors-salesforce"}]}]}</script>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="about">About</a>
+    <a href="./#services">Services</a>
+    <a href="./#cases">Proof</a>
+    <a href="resources">Free tools</a>
+    <a href="blog">Guides</a>
+    <a href="crm-revenue-audit">Revenue Audit</a>
+    <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
+  </nav>
+  <div class="top-act">
+    <button class="icon-btn theme" id="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+    </button>
+    <a class="btn sm ghost" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a>
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span class="bars" aria-hidden="true"></span><span class="txt">Menu</span></button>
+  </div>
+</div></header>
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Guide · by Amr Magdy · Oct 2026</span>
+<h1>Call tracking for real estate investors: <em>every seller call tied to the campaign that rang the phone</em></h1>
+<p class="lead">A motivated seller usually picks up the phone. That is good for you and bad for your numbers: a web form tells you where a lead came from, and a phone call tells you nothing unless you set something up. The seller says "I got a letter" or "I saw your sign", the rep types "mailer" into the notes, and three months later you can't say which mailer wave paid for itself. Call tracking fixes it by giving each source its own phone number, or a number that changes by visitor, and writing the source to the seller's record. This guide explains the two kinds of tracking number, which one fits each channel, what to log in Salesforce and what goes wrong.</p>
+<div class="ans"><span class="k">Short answer</span><p>Use a dedicated tracking number for each offline source (each mailer wave, sign, billboard, Google Business Profile listing) and a pool of numbers swapped in by script for website visitors. Route all of them to your real line, and log the source, campaign, caller number, duration, recording link and whether the caller is new or returning on the seller's record in Salesforce. Match callers to existing sellers by phone before creating a record, and keep every printed number live for months.</p></div>
+<div class="toc"><a href="#why">Why calls need tracking</a><a href="#types">Two kinds of number</a><a href="#map">Which number for which channel</a><a href="#log">What to log in Salesforce</a><a href="#setup">Setup in order</a><a href="#pitfalls">What goes wrong</a><a href="#reports">Reports</a><a href="#faq">Questions</a></div>
+<section class="sec2">
+<h2 id="why">Why are phone calls your biggest blind spot?</h2>
+<p>Marketing for sellers is full of channels that end in a call: direct mail, yard and bandit signs, cold-call callbacks, text blasts, a Google Business Profile listing, a pay-per-click ad with a call button. A form submission carries the page and the campaign with it. A call arrives as a phone number and a voice. Without tracking, the source of every call comes from what the seller remembers and what a rep types, which are both unreliable. The cost shows up in your attribution: calls are often the best leads, and they end up filed as "unknown" or "referral". You then cut the channel that was working or fund the one that only looked good on forms. The attribution rules for what to do with the data are in <a href="real-estate-lead-attribution">which campaign gets credit</a>.</p>
+
+<h2 id="types">What are the two kinds of tracking number?</h2>
+<p>These are the two types call-tracking vendors offer; I'll use CallRail's definitions as one example, and other vendors work the same way.</p>
+<ul>
+<li><strong>Source tracking number:</strong> a single, static number that tracks one source, such as one mailer wave, a billboard or a Google ad extension. Every call to it is that source.</li>
+<li><strong>Website pool with dynamic number insertion (DNI):</strong> a set of numbers that a small script swaps onto your web pages in place of your normal number, based on how each visitor arrived. It stores the source in a cookie so the same visitor sees the same number on return visits. A pool captures visitor-level detail such as pages visited and paid keywords, which source numbers can't.</li>
+</ul>
+<p>One practical caveat on DNI: the script looks for your phone number on the page, so the number must be visible in the page's HTML or an image in a normal format such as (111) 222-3333.</p>
+
+<h2 id="map">Which number should each channel use?</h2>
+<div class="tw"><table>
+<thead><tr><th>Channel</th><th>Number type</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td>Direct mail</td><td>A source number per mailer wave or per list</td><td>Print it big; keep it live for months. Late callers are common</td></tr>
+<tr><td>Yard and bandit signs</td><td>A source number per sign type or market</td><td>Often your cheapest calls; name the market in the label</td></tr>
+<tr><td>Paid search and social to your website</td><td>A website pool, plus a source number on any call extension or call-only ad</td><td>Feed the call result back to the ad platform; see <a href="google-ads-offline-conversions-salesforce">Google Ads offline conversions</a></td></tr>
+<tr><td>Organic search (SEO)</td><td>A website pool</td><td>Pool separates organic from paid on the same page</td></tr>
+<tr><td>Google Business Profile</td><td>Its own source number</td><td>Calls from the listing, not the site</td></tr>
+<tr><td>Cold-call and text-list callbacks</td><td>The number the caller shows, tracked as its own source per list</td><td>Callbacks to a dialer number are inbound calls too; log them to the list</td></tr>
+<tr><td>Referrals and direct</td><td>Your main number, untracked</td><td>Whatever is left is a clue: a high "direct" share usually means a channel is missing a number</td></tr>
+</tbody></table></div>
+
+<h2 id="log">What should each call write to Salesforce?</h2>
+<ul>
+<li><strong>Source and campaign</strong> from the number dialed, mapped to a Salesforce campaign. This is what makes cost per contract a normal report.</li>
+<li><strong>Caller's phone number,</strong> in the cleaned format your duplicate rule matches on.</li>
+<li><strong>New or returning caller.</strong> A call from a known seller should reopen their record and notify the owner, not create a new lead (see <a href="salesforce-duplicate-sellers">duplicate seller leads</a>).</li>
+<li><strong>Call duration, direction and a recording link,</strong> for coaching and for settling "I never got a call back" arguments.</li>
+<li><strong>For web pool calls, the keyword or landing page,</strong> when your vendor provides it.</li>
+<li><strong>Missed or unanswered flag,</strong> which should create a callback task straight away; see <a href="missed-call-alerts-salesforce">missed-call alerts</a>.</li>
+</ul>
+<p>How data reaches Salesforce depends on the vendor. CallRail's page for its Salesforce integration says calls are tied to campaigns and recordings can be listened to in Salesforce, and lists a Salesforce Enterprise or Unlimited plan as a requirement. If your edition doesn't qualify, a Zapier or webhook connection that writes the same fields can do the job; see <a href="salesforce-integrations-real-estate">Salesforce integrations</a> and <a href="blog-zapier-salesforce-real-estate">Zapier with Salesforce</a>. Check the vendor's current requirements before you buy.</p>
+
+<h2 id="setup">What is the setup, in order?</h2>
+<ol>
+<li><strong>List your channels</strong> and decide how finely you want to split them. One number per mailer wave is plenty; one per envelope color is not.</li>
+<li><strong>Buy and label numbers</strong> in a naming scheme that sorts (channel, market, month).</li>
+<li><strong>Create a Salesforce campaign for each</strong> and store the number on it, so incoming calls can look up their campaign.</li>
+<li><strong>Route every number to your real line</strong> and play a short recording notice if you record (see the note on recording below).</li>
+<li><strong>Install the website script</strong> and check that the number swap works on every page that shows a phone number.</li>
+<li><strong>Connect to Salesforce,</strong> test with five calls from different phones, and check that each lands on the right record with the right campaign.</li>
+<li><strong>Add the numbers to your SOPs</strong> so no one prints a mailer without a tracked number; see <a href="sops-inside-your-crm-wholesaling">SOPs inside your CRM</a>.</li>
+</ol>
+
+<h2 id="pitfalls">What goes wrong?</h2>
+<ul>
+<li><strong>Releasing a number too soon.</strong> A seller may keep a letter for months. Keep printed numbers live until you're sure the campaign is dead, and forward them to your real line.</li>
+<li><strong>Too many numbers.</strong> Split sources only as far as you will report on them.</li>
+<li><strong>Tracking the first touch and ignoring the rest.</strong> A seller can see a sign, get a letter and call after a text. Decide your credit rule before you read the report.</li>
+<li><strong>Creating a lead for every call.</strong> Repeat callers and wrong numbers inflate counts; match on phone first.</li>
+<li><strong>Recording laws.</strong> States differ on consent to record calls, and several require all parties to agree. Add a recording notice at the start of tracked calls, and check the rules for the states you operate in. This is information, not legal advice.</li>
+<li><strong>Treating the call as the lead's start.</strong> If the call went unanswered, the clock for <a href="speed-to-lead-real-estate-investors">speed to lead</a> began when it rang.</li>
+</ul>
+
+<h2 id="reports">What reports should call tracking give you?</h2>
+<ol>
+<li><strong>Calls by source and market,</strong> weekly, with answered and missed split.</li>
+<li><strong>Calls to appointments to contracts by source.</strong> The reason to track at all.</li>
+<li><strong>Cost per call and cost per contract</strong> by campaign, using the spend on each campaign; see the <a href="wholesaling-cost-per-deal-calculator">cost per deal calculator</a>.</li>
+<li><strong>Missed calls by hour,</strong> which tells you when to staff the phone.</li>
+<li><strong>Share of "direct" or "unknown" calls.</strong> If it creeps up, a channel is missing a number.</li>
+</ol>
+</section>
+<section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>How do I track which marketing is making my phone ring?</h3><p>Give each offline source its own tracking number (each mailer wave, sign type, Google Business Profile listing) and use a dynamic number pool on your website. Route all numbers to your real line and write the source and campaign to the seller's record, so you can report calls, appointments and contracts by source.</p></div><div class="cq"><h3>What is dynamic number insertion?</h3><p>A script on your website that swaps your normal phone number for a tracking number based on how the visitor arrived, and remembers the source in a cookie. It captures details such as pages visited and paid keywords. The number must be visible on the page in a standard format for the swap to work.</p></div><div class="cq"><h3>Do I need a different phone number for each mailer?</h3><p>One per mailer wave or list is enough to learn which mailing pays. Don't split finer than you'll report on, and keep each printed number live for months because sellers keep letters.</p></div><div class="cq"><h3>Can call tracking connect to Salesforce?</h3><p>Yes. CallRail, for example, has a Salesforce integration that ties calls to campaigns and lets you hear recordings in Salesforce; its page lists a Salesforce Enterprise or Unlimited plan as a requirement. Other vendors differ, and Zapier or a webhook can write the same fields on other editions. Check the vendor's current requirements.</p></div><div class="cq"><h3>Is it legal to record calls from sellers?</h3><p>It depends on the state. Several states require all parties to consent to recording, so add a recording notice at the start of tracked calls and check the rules where you operate. This is information, not legal advice.</p></div><div class="cq"><h3>How do I stop duplicate leads from repeat callers?</h3><p>Match the caller's cleaned phone number against existing sellers before creating a record, reopen the existing record and notify its owner, and keep the original source and the new one. See the duplicate seller guide.</p></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="real-estate-lead-attribution"><b>Which campaign gets credit?</b><span>Credit rules when a seller touches several channels.</span></a><a href="salesforce-lead-sources-real-estate"><b>Lead sources in Salesforce</b><span>Campaigns, sources and cost per contract.</span></a><a href="missed-call-alerts-salesforce"><b>Missed-call alerts</b><span>Turn every missed call into a task.</span></a><a href="google-ads-offline-conversions-salesforce"><b>Google Ads offline conversions</b><span>Send contracts back to the ad platform.</span></a><a href="wholesaling-cost-per-deal-calculator"><b>Cost per deal calculator</b><span>Spend by source to cost per contract.</span></a><a href="salesforce-duplicate-sellers"><b>Duplicate seller leads</b><span>One record per seller, including repeat callers.</span></a></div></section>
+<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Vendor details were read from the vendors' pages in October 2026 and change; check the linked pages. CallRail is an example, not a recommendation. Compliance notes are information, not legal advice.</p><ol class="src"><li><a href="https://support.callrail.com/hc/en-us/articles/5711814948877-Dynamic-number-insertion-overview" rel="noopener" target="_blank">CallRail Support: Dynamic number insertion overview</a>. How DNI works; source tracking numbers vs website pools; number must be visible on the page</li><li><a href="https://www.callrail.com/integrations/salesforce" rel="noopener" target="_blank">CallRail: Salesforce integration</a>. Calls tied to campaigns, recordings in Salesforce; Lightning Enterprise or Unlimited plan listed as a requirement</li></ol></section>
+<div class="cta"><h2>Not sure which of your calls come from where?</h2><p>The CRM Revenue Audit (USD 1,500, fixed price) checks how your sources and campaigns are recorded, including calls, and shows what unknown sources are costing you. It's for teams already on Salesforce.</p>
+<a href="./#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Call%20tracking%20for%20real%20estate%20investors%3A%20every%20seller%20call%20tied%20to...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/call-tracking-real-estate-investors-salesforce%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Call%20tracking%20for%20real%20estate%20investors%3A%20every%20seller%20call%20tied%20to...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+</div></main>
+
+
+<section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
+<img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources">Free tools</a> · <a href="crm-revenue-audit">CRM Revenue Audit</a></p></div></div></section>
+<footer class="foot"><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
+    <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
+      <li><a href="crm-revenue-audit">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report">Sample audit report</a></li>
+      <li><a href="move-to-salesforce">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors">Admin or retainer?</a></li>
+      <li><a href="crm-revenue-audit-terms">Audit scope and terms</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
+      <li><a href="deal-leak-score">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator">Cost per deal calculator</a></li>
+      <li><a href="wholesale-deal-analyzer">Wholesale deal analyzer</a></li>
+      <li><a href="kept-deal-map">Kept-Deal Map</a></li>
+      <li><a href="resources">All free tools</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
+      <li><a href="real-estate-crm-guide">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers">Moving off Podio</a></li>
+      <li><a href="videos">Videos</a></li>
+      <li><a href="blog">All guides</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
+      <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
+      <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
+      <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate">Canada</a> · <a href="salesforce-consultant-uk-estate-agents">UK</a></li>
+      <li><a href="about">About me</a></li>
+      <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
+    </ul></nav>
+  </div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+</div></footer>
+
+<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="crm-revenue-audit">$1,500 audit</a><a class="g" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></div>
+<script src="assets/chrome.js" defer></script>
+
+<script src="booking.js" defer></script>
+</body>
+</html>
