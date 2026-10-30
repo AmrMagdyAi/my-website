@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>if(/\.html$/.test(location.pathname))try{history.replaceState(null,'',location.pathname.replace(/(^|\/)index\.html$/,'$1').replace(/\.html$/,'')+location.search+location.hash)}catch(e){}</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
@@ -10,12 +11,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Build a Real Estate Pipeline Dashboard in Salesforce</title>
 <meta name="description" content="How a home-buying or wholesaling team builds a pipeline dashboard in Salesforce: the components, one dashboard per role, days in stage and the transaction pipeline.">
-<link rel="canonical" href="https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html">
+<link rel="canonical" href="https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
 <meta name="theme-color" content="#f7f4ef">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html">
+<meta property="og:url" content="https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard">
 <meta property="og:title" content="How to build a real estate pipeline dashboard in Salesforce, for investors and wholesalers">
 <meta property="og:description" content="How a home-buying or wholesaling team builds a pipeline dashboard in Salesforce: the components, one dashboard per role, days in stage and the transaction pipeline.">
 <meta property="og:image" content="https://amrmagdy.com/imgs/og-blog-salesforce-real-estate-pipeline-dashboard.jpg?v=3">
@@ -79,18 +80,18 @@
 .faqcat{margin-top:40px}
 </style>
 <script>if((function(){try{var t=localStorage.getItem('theme');if(t)return t}catch(e){}var m=document.cookie.match(/(?:^|; )theme=(\w+)/);return m&&m[1]})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BlogPosting", "headline": "How to build a real estate pipeline dashboard in Salesforce, for home-buying and wholesaling teams", "description": "How a home-buying or wholesaling team builds a pipeline dashboard in Salesforce: the components, one dashboard per role, days in stage and the transaction pipeline.", "url": "https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html", "mainEntityOfPage": "https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html", "inLanguage": "en-US", "datePublished": "2025-05-05", "dateModified": "2026-10-25", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-blog-salesforce-real-estate-pipeline-dashboard.jpg?v=3", "about": [{"@type": "Thing", "name": "Salesforce dashboards"}, {"@type": "Thing", "name": "Sales pipeline"}, {"@type": "Thing", "name": "Real estate investing"}, {"@type": "Thing", "name": "Wholesaling real estate"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I build a pipeline dashboard in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Decide the few questions it should answer, build one report per question, add each report to the dashboard as a component, set it to run as a user who can see every record it counts, and schedule a refresh before the meeting that uses it."}}, {"@type": "Question", "name": "What should a real estate investor's pipeline dashboard include?", "acceptedAnswer": {"@type": "Answer", "text": "Leads and appointments by source this month, open deals by stage with days in stage, deals under contract by closing date, booked revenue against the forecast, offers waiting and open leads with no next step."}}, {"@type": "Question", "name": "Do Salesforce dashboards update in real time?", "acceptedAnswer": {"@type": "Answer", "text": "No. A dashboard shows data as of its last refresh. Viewers can click Refresh, and users with the Schedule Dashboards permission can schedule refreshes daily, weekly or monthly."}}, {"@type": "Question", "name": "How do I track days in stage in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "On Opportunities, use the standard Stage Duration field, which tracks how long each one has been in its current stage. On a custom deal object, stamp the date each stage started with a Flow and use a formula for the days since then."}}, {"@type": "Question", "name": "Can each rep see only their own numbers on a Salesforce dashboard?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, with dynamic dashboards, which are limited by edition: five on Enterprise and ten on Unlimited and Performance. A dashboard filter on owner is often a simpler way to do the same thing."}}, {"@type": "Question", "name": "What is a transaction pipeline dashboard?", "acceptedAnswer": {"@type": "Answer", "text": "A view of deals under contract: every file by stage, files missing a key date, closings in the next two weeks, hours from contract to the first call to the seller, and cancellations with their reasons."}}, {"@type": "Question", "name": "Do I need Tableau for real estate reporting?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not at first. Salesforce dashboards cover the daily and weekly view. Tableau makes more sense for multi-year trends or for combining Salesforce with data from other systems."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://amrmagdy.com/blog.html"}, {"@type": "ListItem", "position": 3, "name": "Real estate pipeline dashboard in Salesforce", "item": "https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BlogPosting", "headline": "How to build a real estate pipeline dashboard in Salesforce, for home-buying and wholesaling teams", "description": "How a home-buying or wholesaling team builds a pipeline dashboard in Salesforce: the components, one dashboard per role, days in stage and the transaction pipeline.", "url": "https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard", "mainEntityOfPage": "https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard", "inLanguage": "en-US", "datePublished": "2025-05-05", "dateModified": "2026-10-25", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-blog-salesforce-real-estate-pipeline-dashboard.jpg?v=3", "about": [{"@type": "Thing", "name": "Salesforce dashboards"}, {"@type": "Thing", "name": "Sales pipeline"}, {"@type": "Thing", "name": "Real estate investing"}, {"@type": "Thing", "name": "Wholesaling real estate"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I build a pipeline dashboard in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Decide the few questions it should answer, build one report per question, add each report to the dashboard as a component, set it to run as a user who can see every record it counts, and schedule a refresh before the meeting that uses it."}}, {"@type": "Question", "name": "What should a real estate investor's pipeline dashboard include?", "acceptedAnswer": {"@type": "Answer", "text": "Leads and appointments by source this month, open deals by stage with days in stage, deals under contract by closing date, booked revenue against the forecast, offers waiting and open leads with no next step."}}, {"@type": "Question", "name": "Do Salesforce dashboards update in real time?", "acceptedAnswer": {"@type": "Answer", "text": "No. A dashboard shows data as of its last refresh. Viewers can click Refresh, and users with the Schedule Dashboards permission can schedule refreshes daily, weekly or monthly."}}, {"@type": "Question", "name": "How do I track days in stage in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "On Opportunities, use the standard Stage Duration field, which tracks how long each one has been in its current stage. On a custom deal object, stamp the date each stage started with a Flow and use a formula for the days since then."}}, {"@type": "Question", "name": "Can each rep see only their own numbers on a Salesforce dashboard?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, with dynamic dashboards, which are limited by edition: five on Enterprise and ten on Unlimited and Performance. A dashboard filter on owner is often a simpler way to do the same thing."}}, {"@type": "Question", "name": "What is a transaction pipeline dashboard?", "acceptedAnswer": {"@type": "Answer", "text": "A view of deals under contract: every file by stage, files missing a key date, closings in the next two weeks, hours from contract to the first call to the seller, and cancellations with their reasons."}}, {"@type": "Question", "name": "Do I need Tableau for real estate reporting?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not at first. Salesforce dashboards cover the daily and weekly view. Tableau makes more sense for multi-year trends or for combining Salesforce with data from other systems."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://amrmagdy.com/blog"}, {"@type": "ListItem", "position": 3, "name": "Real estate pipeline dashboard in Salesforce", "item": "https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard"}]}]}</script>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
   <nav class="nav" id="nav" aria-label="Main">
-    <a href="about.html">About</a>
+    <a href="about">About</a>
     <a href="./#services">Services</a>
     <a href="./#cases">Proof</a>
-    <a href="resources.html">Free tools</a>
-    <a href="blog.html">Guides</a>
-    <a href="crm-revenue-audit.html">Revenue Audit</a>
+    <a href="resources">Free tools</a>
+    <a href="blog">Guides</a>
+    <a href="crm-revenue-audit">Revenue Audit</a>
     <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
   </nav>
   <div class="top-act">
@@ -133,7 +134,7 @@
 <tr><td>Activity by rep</td><td>Who needs help</td><td>Calls, conversations, appointments and offers by rep, this week</td><td>Table</td></tr>
 <tr><td>Leads with no next step</td><td>What's quietly dying</td><td>Open leads without a future task (a cross filter)</td><td>One number, with a target of zero</td></tr>
 </tbody></table></div>
-<p>Each component is a report underneath. The exact report type, filter and grouping for most of these are in my <a href="salesforce-reports-wholesalers.html">20 Salesforce report recipes for wholesalers</a>, and the fields they rely on are in the <a href="crm-field-kit.html">CRM field kit</a>.</p>
+<p>Each component is a report underneath. The exact report type, filter and grouping for most of these are in my <a href="salesforce-reports-wholesalers">20 Salesforce report recipes for wholesalers</a>, and the fields they rely on are in the <a href="crm-field-kit">CRM field kit</a>.</p>
 
 <h2 id="aging">How do you show days in stage?</h2>
 <p>Days in stage is the number that turns a pipeline chart into something you can act on. Two ways to get it:</p>
@@ -149,10 +150,10 @@
 <li>Every file under contract by stage, such as inspection, title, clear to close and scheduled.</li>
 <li>Files missing a key date or detail: inspection deadline, closing date, title company.</li>
 <li>Closings in the next two weeks, soonest first.</li>
-<li>Hours from contract to the first call to the seller, by coordinator. It's one of my <a href="monday-5-real-estate-kpis.html">Monday 5</a> numbers, because deals where nobody calls the seller for days are where cancellations start.</li>
+<li>Hours from contract to the first call to the seller, by coordinator. It's one of my <a href="monday-5-real-estate-kpis">Monday 5</a> numbers, because deals where nobody calls the seller for days are where cancellations start.</li>
 <li>Cancellations this month, with the reason for each.</li>
 </ul>
-<p>In the org I run, transaction coordination works from its own board and scorecard. How that side is set up is in <a href="salesforce-transaction-coordination-real-estate.html">transaction coordination in Salesforce</a>.</p>
+<p>In the org I run, transaction coordination works from its own board and scorecard. How that side is set up is in <a href="salesforce-transaction-coordination-real-estate">transaction coordination in Salesforce</a>.</p>
 
 <h2 id="roles">Why one dashboard per role works better</h2>
 <p>An owner's weekly questions and a rep's daily ones are different, and putting them on one screen makes it worse for both.</p>
@@ -165,72 +166,72 @@
 <tr><td>Dispositions</td><td>Dispositions manager, weekly</td><td>Deals ready to market, days to assign, projected against actual fee</td></tr>
 <tr><td>Marketing</td><td>Whoever runs marketing, weekly</td><td>Leads, appointments and contracts by campaign, cost per appointment and per contract</td></tr>
 </tbody></table></div>
-<p>If you want each rep to see their own numbers on one shared dashboard, Salesforce has dynamic dashboards, but they're limited by edition: five on Enterprise, ten on Unlimited and Performance. A dashboard filter on owner often does the job just as well. Who owns which numbers is covered in <a href="wholesaling-team-roles-crm.html">wholesaling team roles</a>.</p>
+<p>If you want each rep to see their own numbers on one shared dashboard, Salesforce has dynamic dashboards, but they're limited by edition: five on Enterprise, ten on Unlimited and Performance. A dashboard filter on owner often does the job just as well. Who owns which numbers is covered in <a href="wholesaling-team-roles-crm">wholesaling team roles</a>.</p>
 
 <h2 id="refresh">Is a Salesforce dashboard live?</h2>
 <p>Not quite. A dashboard shows data as of its last refresh, and it says when that was. Anyone viewing it can click Refresh. Users with the Schedule Dashboards permission can schedule refreshes daily, weekly or monthly, and Salesforce emails the people you pick when the refresh is done. Schedule the owner's dashboard to refresh early on Monday, before the meeting.</p>
-<p>Every dashboard also runs as someone. If it runs as a user who can't see every record it's meant to count, it undercounts, and nobody can tell from looking at it. That's one of the ten causes in <a href="salesforce-dashboard-wrong-numbers.html">why Salesforce numbers don't match</a>.</p>
+<p>Every dashboard also runs as someone. If it runs as a user who can't see every record it's meant to count, it undercounts, and nobody can tell from looking at it. That's one of the ten causes in <a href="salesforce-dashboard-wrong-numbers">why Salesforce numbers don't match</a>.</p>
 
 <h2 id="accuracy">How do you keep the numbers right?</h2>
 <ul>
-<li><strong>Every lead arrives on its own.</strong> Calls, forms, texts and lists should create records through your phone system, forms and integrations, not when someone remembers to type them in. See <a href="salesforce-lead-sources-real-estate.html">getting every lead source into Salesforce</a>.</li>
+<li><strong>Every lead arrives on its own.</strong> Calls, forms, texts and lists should create records through your phone system, forms and integrations, not when someone remembers to type them in. See <a href="salesforce-lead-sources-real-estate">getting every lead source into Salesforce</a>.</li>
 <li><strong>Stages mean the same thing to everyone.</strong> Write down what "appointment", "under contract" and "closed" mean, and which date each report counts by.</li>
 <li><strong>Required fields by stage.</strong> A deal can't move to under contract without a closing date, or to closed without the final fee.</li>
-<li><strong>Money is checked against the books.</strong> Spend by campaign and profit on closed deals should match accounting every month. <a href="salesforce-quickbooks-real-estate.html">QuickBooks and Salesforce</a> covers the connection.</li>
+<li><strong>Money is checked against the books.</strong> Spend by campaign and profit on closed deals should match accounting every month. <a href="salesforce-quickbooks-real-estate">QuickBooks and Salesforce</a> covers the connection.</li>
 </ul>
 
 <h2 id="tableau">Do you need Tableau?</h2>
 <p>Usually not at first. Salesforce dashboards handle the daily and weekly operating view well. Tableau, which has a native Salesforce connector, makes more sense when leadership wants multi-year trends, market overlays, or data from systems outside Salesforce in one place. Get the Salesforce dashboards right first. Tableau on top of numbers nobody trusts only makes them look better.</p>
 </section>
 <section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>How do I build a pipeline dashboard in Salesforce?</h3><p>Decide the few questions it should answer, build one report per question, add each report to the dashboard as a component, set it to run as a user who can see every record it counts, and schedule a refresh before the meeting that uses it.</p></div><div class="cq"><h3>What should a real estate investor's pipeline dashboard include?</h3><p>Leads and appointments by source this month, open deals by stage with days in stage, deals under contract by closing date, booked revenue against the forecast, offers waiting and open leads with no next step.</p></div><div class="cq"><h3>Do Salesforce dashboards update in real time?</h3><p>No. A dashboard shows data as of its last refresh. Viewers can click Refresh, and users with the Schedule Dashboards permission can schedule refreshes daily, weekly or monthly.</p></div><div class="cq"><h3>How do I track days in stage in Salesforce?</h3><p>On Opportunities, use the standard Stage Duration field, which tracks how long each one has been in its current stage. On a custom deal object, stamp the date each stage started with a Flow and use a formula for the days since then.</p></div><div class="cq"><h3>Can each rep see only their own numbers on a Salesforce dashboard?</h3><p>Yes, with dynamic dashboards, which are limited by edition: five on Enterprise and ten on Unlimited and Performance. A dashboard filter on owner is often a simpler way to do the same thing.</p></div><div class="cq"><h3>What is a transaction pipeline dashboard?</h3><p>A view of deals under contract: every file by stage, files missing a key date, closings in the next two weeks, hours from contract to the first call to the seller, and cancellations with their reasons.</p></div><div class="cq"><h3>Do I need Tableau for real estate reporting?</h3><p>Usually not at first. Salesforce dashboards cover the daily and weekly view. Tableau makes more sense for multi-year trends or for combining Salesforce with data from other systems.</p></div></section>
-<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="monday-5-real-estate-kpis.html"><b>The Monday 5</b><span>The five numbers for the owner's dashboard.</span></a><a href="salesforce-reports-wholesalers.html"><b>20 report recipes</b><span>The reports underneath each component.</span></a><a href="blog-salesforce-kpis-real-estate.html"><b>KPIs by role</b><span>What each role on the team should be measured on.</span></a><a href="salesforce-dashboard-wrong-numbers.html"><b>Numbers that don't match</b><span>Ten reasons a dashboard is off, and how to check.</span></a><a href="offer-follow-up-salesforce.html"><b>Offer follow-up in Salesforce</b><span>What sits behind the "offers waiting" table.</span></a><a href="wholesaling-team-roles-crm.html"><b>Wholesaling team roles</b><span>Who owns what, and the screens each role needs.</span></a></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="monday-5-real-estate-kpis"><b>The Monday 5</b><span>The five numbers for the owner's dashboard.</span></a><a href="salesforce-reports-wholesalers"><b>20 report recipes</b><span>The reports underneath each component.</span></a><a href="blog-salesforce-kpis-real-estate"><b>KPIs by role</b><span>What each role on the team should be measured on.</span></a><a href="salesforce-dashboard-wrong-numbers"><b>Numbers that don't match</b><span>Ten reasons a dashboard is off, and how to check.</span></a><a href="offer-follow-up-salesforce"><b>Offer follow-up in Salesforce</b><span>What sits behind the "offers waiting" table.</span></a><a href="wholesaling-team-roles-crm"><b>Wholesaling team roles</b><span>Who owns what, and the screens each role needs.</span></a></div></section>
 <section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.</p><ol class="src"><li><a href="https://trailhead.salesforce.com/content/learn/modules/sales-deal-acceleration/identify-stuck-sales-deals" rel="noopener" target="_blank">Trailhead: Identify stuck sales deals</a>. The Stage Duration field on Opportunities</li><li><a href="https://resources.docs.salesforce.com/206/latest/en-us/sfdc/pdf/salesforce_dashboards_cheatsheet.pdf" rel="noopener" target="_blank">Salesforce: Tips for creating dashboards</a>. Manual refresh, and scheduled refreshes daily, weekly or monthly</li><li><a href="https://resources.docs.salesforce.com/216/latest/en-us/sfdc/pdf/salesforce_dynamic_dashboards_cheatsheet.pdf" rel="noopener" target="_blank">Salesforce: Dynamic dashboards cheat sheet</a>. Dynamic dashboard limits by edition, and the running user</li></ol></section>
 <div class="cta"><h2>Want a dashboard you'd actually open?</h2><p>The fixed-price CRM Revenue Audit (USD 1,500) checks the reports you open every week against the data underneath, and defines your Monday 5 field by field for your org. It's for teams already on Salesforce. On another CRM? A move to Salesforce can build the dashboard in from the start.</p>
-<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20How%20to%20build%20a%20real%20estate%20pipeline%20dashboard%20in%20Salesforce%3A%20for...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22How%20to%20build%20a%20real%20estate%20pipeline%20dashboard%20in%20Salesforce%3A%20for...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+<a href="./#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20How%20to%20build%20a%20real%20estate%20pipeline%20dashboard%20in%20Salesforce%3A%20for...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22How%20to%20build%20a%20real%20estate%20pipeline%20dashboard%20in%20Salesforce%3A%20for...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
 </div></main>
 
 
 <section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
 <img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
-<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
-<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources">Free tools</a> · <a href="crm-revenue-audit">CRM Revenue Audit</a></p></div></div></section>
 <footer class="foot"><div class="wrap">
   <div class="foot-grid">
     <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
     <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
-      <li><a href="crm-revenue-audit.html">CRM Revenue Audit</a></li>
-      <li><a href="sample-audit-report.html">Sample audit report</a></li>
-      <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
-      <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
-      <li><a href="crm-revenue-audit-terms.html">Audit scope and terms</a></li>
+      <li><a href="crm-revenue-audit">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report">Sample audit report</a></li>
+      <li><a href="move-to-salesforce">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors">Admin or retainer?</a></li>
+      <li><a href="crm-revenue-audit-terms">Audit scope and terms</a></li>
     </ul></nav>
     <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
-      <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
-      <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
-      <li><a href="wholesale-deal-analyzer.html">Wholesale deal analyzer</a></li>
-      <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
-      <li><a href="resources.html">All free tools</a></li>
+      <li><a href="deal-leak-score">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator">Cost per deal calculator</a></li>
+      <li><a href="wholesale-deal-analyzer">Wholesale deal analyzer</a></li>
+      <li><a href="kept-deal-map">Kept-Deal Map</a></li>
+      <li><a href="resources">All free tools</a></li>
     </ul></nav>
     <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
-      <li><a href="real-estate-crm-guide.html">Real estate CRM guide</a></li>
-      <li><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a></li>
-      <li><a href="podio-alternative-wholesalers.html">Moving off Podio</a></li>
-      <li><a href="videos.html">Videos</a></li>
-      <li><a href="blog.html">All guides</a></li>
+      <li><a href="real-estate-crm-guide">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers">Moving off Podio</a></li>
+      <li><a href="videos">Videos</a></li>
+      <li><a href="blog">All guides</a></li>
     </ul></nav>
     <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
       <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
       <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
       <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href="salesforce-consultant-canada-real-estate.html">Canada</a> · <a href="salesforce-consultant-uk-estate-agents.html">UK</a></li>
-      <li><a href="about.html">About me</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate">Canada</a> · <a href="salesforce-consultant-uk-estate-agents">UK</a></li>
+      <li><a href="about">About me</a></li>
       <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
     </ul></nav>
   </div>
-  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy.html">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
 </div></footer>
 
-<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit.html">The audit</a></div>
+<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit">The audit</a></div>
 <script src="assets/chrome.js" defer></script>
 
 <script src="booking.js" defer></script>

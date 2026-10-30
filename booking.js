@@ -15,7 +15,7 @@ function run(){
  if(BOOK_URL){
   document.querySelectorAll('a[href]').forEach(function(a){
    var h=a.getAttribute('href');
-   if(a.hasAttribute('data-book')||(/(^|index\.html)#contact$/.test(h)&&CALL.test(a.textContent))){var p=pos(a);ext(a,utm(BOOK_URL,p),'booking',p);}
+   if(a.hasAttribute('data-book')||(/(^|index\.html|\.\/)#contact$/.test(h)&&CALL.test(a.textContent))){var p=pos(a);ext(a,utm(BOOK_URL,p),'booking',p);}
   });
  }
  document.querySelectorAll('[data-book-only],[data-deposit-only]').forEach(function(el){

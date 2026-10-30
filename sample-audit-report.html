@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>if(/\.html$/.test(location.pathname))try{history.replaceState(null,'',location.pathname.replace(/(^|\/)index\.html$/,'$1').replace(/\.html$/,'')+location.search+location.hash)}catch(e){}</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
@@ -10,12 +11,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sample CRM Revenue Audit report | Amr Magdy</title>
 <meta name="description" content="A sample of the CRM Revenue Audit report for a made-up home-buying company on Salesforce: findings, a 30/60/90 roadmap, the Monday 5 dashboard spec and the quick fixes.">
-<link rel="canonical" href="https://amrmagdy.com/sample-audit-report.html">
+<link rel="canonical" href="https://amrmagdy.com/sample-audit-report">
 <meta name="robots" content="index, follow">
 <link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
 <meta name="theme-color" content="#f7f4ef">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://amrmagdy.com/sample-audit-report.html">
+<meta property="og:url" content="https://amrmagdy.com/sample-audit-report">
 <meta property="og:title" content="Sample CRM Revenue Audit report">
 <meta property="og:description" content="See the report before you buy: findings ranked by impact, a 30/60/90 roadmap and the quick fixes, for a made-up home-buying company on Salesforce.">
 <meta property="og:image" content="https://amrmagdy.com/imgs/og-sample-audit-report.jpg?v=3">
@@ -27,7 +28,7 @@
 <meta name="twitter:title" content="Sample CRM Revenue Audit report">
 <meta name="twitter:description" content="See the report before you buy: findings ranked by impact, a 30/60/90 roadmap and the quick fixes, for a made-up home-buying company on Salesforce.">
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-sample-audit-report.jpg?v=3">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://amrmagdy.com/sample-audit-report.html#page", "url": "https://amrmagdy.com/sample-audit-report.html", "name": "Sample Salesforce audit report for a home-buying company", "description": "A sample of the CRM Revenue Audit report for a made-up home-buying company on Salesforce: findings, a 30/60/90 roadmap, the Monday 5 dashboard spec and the quick fixes.", "inLanguage": "en", "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "about": {"@type": "Service", "name": "CRM Revenue Audit", "url": "https://amrmagdy.com/crm-revenue-audit.html"}, "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com"}, "breadcrumb": {"@id": "https://amrmagdy.com/sample-audit-report.html#breadcrumb"}}, {"@type": "BreadcrumbList", "@id": "https://amrmagdy.com/sample-audit-report.html#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "CRM Revenue Audit", "item": "https://amrmagdy.com/crm-revenue-audit.html"}, {"@type": "ListItem", "position": 3, "name": "Sample report", "item": "https://amrmagdy.com/sample-audit-report.html"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://amrmagdy.com/sample-audit-report#page", "url": "https://amrmagdy.com/sample-audit-report", "name": "Sample Salesforce audit report for a home-buying company", "description": "A sample of the CRM Revenue Audit report for a made-up home-buying company on Salesforce: findings, a 30/60/90 roadmap, the Monday 5 dashboard spec and the quick fixes.", "inLanguage": "en", "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "about": {"@type": "Service", "name": "CRM Revenue Audit", "url": "https://amrmagdy.com/crm-revenue-audit"}, "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com"}, "breadcrumb": {"@id": "https://amrmagdy.com/sample-audit-report#breadcrumb"}}, {"@type": "BreadcrumbList", "@id": "https://amrmagdy.com/sample-audit-report#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "CRM Revenue Audit", "item": "https://amrmagdy.com/crm-revenue-audit"}, {"@type": "ListItem", "position": 3, "name": "Sample report", "item": "https://amrmagdy.com/sample-audit-report"}]}]}</script>
 <link rel="stylesheet" href="styles.css">
 <style>
 .tm{max-width:760px;margin:0 auto;padding:calc(var(--nav) + 56px) 1.5rem 0}.tm h1{font-size:clamp(1.9rem,4vw,2.6rem);letter-spacing:-.02em;margin:12px 0 10px}.tm .sub{color:var(--txt2);line-height:1.8;margin-bottom:8px}.tm h2{font-size:1.15rem;margin:34px 0 10px}.tm p,.tm li{color:var(--txt2);line-height:1.8;font-size:.98rem}.tm ul,.tm ol{padding-left:1.3rem;display:flex;flex-direction:column;gap:6px}.tm .fee{background:var(--bg2);border:1px solid var(--bd);border-radius:16px;padding:20px 22px;margin-top:10px}.tm .cta{display:flex;flex-wrap:wrap;gap:12px;margin:36px 0 70px}.tm table{width:100%;border-collapse:collapse;margin-top:10px;font-size:.92rem}.tm th,.tm td{border:1px solid var(--bd);padding:9px 10px;text-align:left;vertical-align:top;color:var(--txt2);line-height:1.6}.tm th{background:var(--bg2);color:var(--txt)}.tm .tw{overflow-x:auto}.tm .tag{display:inline-block;font-size:.75rem;font-weight:700;padding:2px 8px;border-radius:99px;border:1px solid var(--bd)}.tm .note{background:var(--bg2);border:1px dashed var(--bd);border-radius:14px;padding:14px 18px;margin:16px 0}.tm a.in{color:var(--sf);text-decoration:underline}
@@ -124,12 +125,12 @@
 <header class="top"><div class="wrap">
   <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
   <nav class="nav" id="nav" aria-label="Main">
-    <a href="about.html">About</a>
+    <a href="about">About</a>
     <a href="./#services">Services</a>
     <a href="./#cases">Proof</a>
-    <a href="resources.html">Free tools</a>
-    <a href="blog.html">Guides</a>
-    <a href="crm-revenue-audit.html">Revenue Audit</a>
+    <a href="resources">Free tools</a>
+    <a href="blog">Guides</a>
+    <a href="crm-revenue-audit">Revenue Audit</a>
     <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
   </nav>
   <div class="top-act">
@@ -147,8 +148,8 @@
   <p class="sub">This is a shortened sample for a made-up company, &ldquo;Example Home Buyers&rdquo;, so you can see the format before you buy. It isn&rsquo;t a real client and there are no real numbers in it. A real report covers your org, uses your data and runs much longer.</p>
   <p style="margin:10px 0 0"><strong>$1,500 fixed</strong>, for teams already on Salesforce.</p>
   <div class="cta" style="margin:14px 0 8px">
-    <a href="crm-revenue-audit.html#request" class="btn btn-gold">Request the audit &rarr;</a>
-    <a href="index.html#contact" data-book class="btn">Book a free 30-minute call</a>
+    <a href="crm-revenue-audit#request" class="btn btn-gold">Request the audit &rarr;</a>
+    <a href="./#contact" data-book class="btn">Book a free 30-minute call</a>
   </div>
   <div class="note"><p><strong>The company in this sample:</strong> a home-buying team in two markets with 6 Salesforce users, acquisitions reps, a lead manager, a dispo lead and a transaction coordinator. Leads come from mail, PPC, cold calling and texting.</p></div>
 
@@ -199,47 +200,47 @@
 
   <p>If the report doesn&rsquo;t give you at least five specific, fixable issues worth more than the fee, you get the fee back.</p>
   <div class="cta">
-    <a href="crm-revenue-audit.html#request" class="btn btn-gold">Request the audit &rarr;</a>
-    <a href="index.html#contact" data-book class="btn">Book a free 30-minute call</a>
+    <a href="crm-revenue-audit#request" class="btn btn-gold">Request the audit &rarr;</a>
+    <a href="./#contact" data-book class="btn">Book a free 30-minute call</a>
   </div>
 </main>
 <footer class="foot"><div class="wrap">
   <div class="foot-grid">
     <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
     <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
-      <li><a href="crm-revenue-audit.html">CRM Revenue Audit</a></li>
-      <li><a href="sample-audit-report.html" aria-current="page">Sample audit report</a></li>
-      <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
-      <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
-      <li><a href="crm-revenue-audit-terms.html">Audit scope and terms</a></li>
+      <li><a href="crm-revenue-audit">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report" aria-current="page">Sample audit report</a></li>
+      <li><a href="move-to-salesforce">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors">Admin or retainer?</a></li>
+      <li><a href="crm-revenue-audit-terms">Audit scope and terms</a></li>
     </ul></nav>
     <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
-      <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
-      <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
-      <li><a href="wholesale-deal-analyzer.html">Wholesale deal analyzer</a></li>
-      <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
-      <li><a href="resources.html">All free tools</a></li>
+      <li><a href="deal-leak-score">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator">Cost per deal calculator</a></li>
+      <li><a href="wholesale-deal-analyzer">Wholesale deal analyzer</a></li>
+      <li><a href="kept-deal-map">Kept-Deal Map</a></li>
+      <li><a href="resources">All free tools</a></li>
     </ul></nav>
     <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
-      <li><a href="real-estate-crm-guide.html">Real estate CRM guide</a></li>
-      <li><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a></li>
-      <li><a href="podio-alternative-wholesalers.html">Moving off Podio</a></li>
-      <li><a href="videos.html">Videos</a></li>
-      <li><a href="blog.html">All guides</a></li>
+      <li><a href="real-estate-crm-guide">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers">Moving off Podio</a></li>
+      <li><a href="videos">Videos</a></li>
+      <li><a href="blog">All guides</a></li>
     </ul></nav>
     <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
       <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
       <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
       <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href="salesforce-consultant-canada-real-estate.html">Canada</a> · <a href="salesforce-consultant-uk-estate-agents.html">UK</a></li>
-      <li><a href="about.html">About me</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate">Canada</a> · <a href="salesforce-consultant-uk-estate-agents">UK</a></li>
+      <li><a href="about">About me</a></li>
       <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
     </ul></nav>
   </div>
-  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy.html">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
 </div></footer>
 
-<div class="mcta" id="mcta" data-after="0.85" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit.html">The audit</a></div>
+<div class="mcta" id="mcta" data-after="0.85" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit">The audit</a></div>
 <script src="assets/chrome.js" defer></script>
 <script src="booking.js" defer></script>
 </body>

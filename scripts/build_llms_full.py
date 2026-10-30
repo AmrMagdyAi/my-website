@@ -26,7 +26,7 @@ for p in pages:
         else:
             txt = re.sub(r'[ \t]+', ' ', el.get_text('\n' if el.name in ('div','pre') else ' ', strip=True)).strip()
         if txt and (not lines or lines[-1] != txt): lines.append(txt)
-    url = 'https://amrmagdy.com/' if p == 'index.html' else f'https://amrmagdy.com/{p}'
+    url = 'https://amrmagdy.com/' if p == 'index.html' else f'https://amrmagdy.com/{p[:-5]}'
     out += ['', '---', f'## {title}', f'URL: {url}', ''] + lines
 open('llms-full.txt', 'w').write('\n'.join(out) + '\n')
 print(len(pages), 'pages', os.path.getsize('llms-full.txt'), 'bytes')

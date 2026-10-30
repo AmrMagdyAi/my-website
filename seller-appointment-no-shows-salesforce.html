@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>if(/\.html$/.test(location.pathname))try{history.replaceState(null,'',location.pathname.replace(/(^|\/)index\.html$/,'$1').replace(/\.html$/,'')+location.search+location.hash)}catch(e){}</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
@@ -10,12 +11,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Seller Appointment No-Shows and Reminders in Salesforce</title>
 <meta name="description" content="How investor teams cut seller no-shows: confirmations, reminders timed to the appointment, an outcome on every appointment and a show-rate report in Salesforce.">
-<link rel="canonical" href="https://amrmagdy.com/seller-appointment-no-shows-salesforce.html">
+<link rel="canonical" href="https://amrmagdy.com/seller-appointment-no-shows-salesforce">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
 <meta name="theme-color" content="#f7f4ef">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://amrmagdy.com/seller-appointment-no-shows-salesforce.html">
+<meta property="og:url" content="https://amrmagdy.com/seller-appointment-no-shows-salesforce">
 <meta property="og:title" content="Fewer wasted drives: seller appointment reminders and no-show tracking in Salesforce">
 <meta property="og:description" content="How investor teams cut seller no-shows: confirmations, reminders timed to the appointment, an outcome on every appointment and a show-rate report in Salesforce.">
 <meta property="og:image" content="https://amrmagdy.com/imgs/og-seller-appointment-no-shows-salesforce.jpg?v=3">
@@ -79,18 +80,18 @@
 .faqcat{margin-top:40px}
 </style>
 <script>if((function(){try{var t=localStorage.getItem('theme');if(t)return t}catch(e){}var m=document.cookie.match(/(?:^|; )theme=(\w+)/);return m&&m[1]})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Fewer wasted drives: seller appointment reminders and no-show tracking in Salesforce", "description": "How investor teams cut seller no-shows: confirmations, reminders timed to the appointment, an outcome on every appointment and a show-rate report in Salesforce.", "url": "https://amrmagdy.com/seller-appointment-no-shows-salesforce.html", "mainEntityOfPage": "https://amrmagdy.com/seller-appointment-no-shows-salesforce.html", "inLanguage": "en-US", "datePublished": "2026-10-26", "dateModified": "2026-10-26", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-seller-appointment-no-shows-salesforce.jpg?v=3", "about": [{"@type": "Thing", "name": "Appointment no-shows"}, {"@type": "Thing", "name": "Appointment reminders"}, {"@type": "Thing", "name": "Salesforce"}, {"@type": "Thing", "name": "Real estate acquisitions"}, {"@type": "Thing", "name": "Real estate investing"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do you reduce no-shows for seller appointments?", "acceptedAnswer": {"@type": "Answer", "text": "Confirm in writing as soon as the appointment is booked, send reminders the day before and a couple of hours before, have the rep text on the way, and book as soon as the seller can meet. Then track the show rate by rep and source to find what else needs fixing."}}, {"@type": "Question", "name": "Can Salesforce send appointment reminder texts?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, through a texting app connected to Salesforce. A record-triggered Flow with scheduled paths can send reminders a set time before the appointment, and the reminders move automatically if the appointment is rescheduled."}}, {"@type": "Question", "name": "How do I track no-shows in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Add a required outcome field for each appointment, with values like held, no-show, rescheduled and canceled, and create a task the morning after any appointment that has no outcome yet. Report on held divided by held plus no-shows."}}, {"@type": "Question", "name": "What is a good show rate for seller appointments?", "acceptedAnswer": {"@type": "Answer", "text": "There's no reliable public benchmark for investor teams. Measure your own by rep, source and day, and work on the biggest gaps; the trend matters more than any outside number."}}, {"@type": "Question", "name": "Does Calendly work with Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Calendly's Salesforce integration can create leads and events and track cancellations and reschedules. Calendly says it requires Salesforce Enterprise Edition or higher."}}, {"@type": "Question", "name": "What should a rep do when a seller doesn't show?", "acceptedAnswer": {"@type": "Answer", "text": "Call and text from the driveway before leaving, then let Salesforce create a same-day reschedule task and a short follow-up offering a new time. After a second no-show, move the seller to a longer follow-up cadence."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Seller appointment no-shows", "item": "https://amrmagdy.com/seller-appointment-no-shows-salesforce.html"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Fewer wasted drives: seller appointment reminders and no-show tracking in Salesforce", "description": "How investor teams cut seller no-shows: confirmations, reminders timed to the appointment, an outcome on every appointment and a show-rate report in Salesforce.", "url": "https://amrmagdy.com/seller-appointment-no-shows-salesforce", "mainEntityOfPage": "https://amrmagdy.com/seller-appointment-no-shows-salesforce", "inLanguage": "en-US", "datePublished": "2026-10-26", "dateModified": "2026-10-26", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-seller-appointment-no-shows-salesforce.jpg?v=3", "about": [{"@type": "Thing", "name": "Appointment no-shows"}, {"@type": "Thing", "name": "Appointment reminders"}, {"@type": "Thing", "name": "Salesforce"}, {"@type": "Thing", "name": "Real estate acquisitions"}, {"@type": "Thing", "name": "Real estate investing"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do you reduce no-shows for seller appointments?", "acceptedAnswer": {"@type": "Answer", "text": "Confirm in writing as soon as the appointment is booked, send reminders the day before and a couple of hours before, have the rep text on the way, and book as soon as the seller can meet. Then track the show rate by rep and source to find what else needs fixing."}}, {"@type": "Question", "name": "Can Salesforce send appointment reminder texts?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, through a texting app connected to Salesforce. A record-triggered Flow with scheduled paths can send reminders a set time before the appointment, and the reminders move automatically if the appointment is rescheduled."}}, {"@type": "Question", "name": "How do I track no-shows in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Add a required outcome field for each appointment, with values like held, no-show, rescheduled and canceled, and create a task the morning after any appointment that has no outcome yet. Report on held divided by held plus no-shows."}}, {"@type": "Question", "name": "What is a good show rate for seller appointments?", "acceptedAnswer": {"@type": "Answer", "text": "There's no reliable public benchmark for investor teams. Measure your own by rep, source and day, and work on the biggest gaps; the trend matters more than any outside number."}}, {"@type": "Question", "name": "Does Calendly work with Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Calendly's Salesforce integration can create leads and events and track cancellations and reschedules. Calendly says it requires Salesforce Enterprise Edition or higher."}}, {"@type": "Question", "name": "What should a rep do when a seller doesn't show?", "acceptedAnswer": {"@type": "Answer", "text": "Call and text from the driveway before leaving, then let Salesforce create a same-day reschedule task and a short follow-up offering a new time. After a second no-show, move the seller to a longer follow-up cadence."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Seller appointment no-shows", "item": "https://amrmagdy.com/seller-appointment-no-shows-salesforce"}]}]}</script>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
   <nav class="nav" id="nav" aria-label="Main">
-    <a href="about.html">About</a>
+    <a href="about">About</a>
     <a href="./#services">Services</a>
     <a href="./#cases">Proof</a>
-    <a href="resources.html">Free tools</a>
-    <a href="blog.html">Guides</a>
-    <a href="crm-revenue-audit.html">Revenue Audit</a>
+    <a href="resources">Free tools</a>
+    <a href="blog">Guides</a>
+    <a href="crm-revenue-audit">Revenue Audit</a>
     <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
   </nav>
   <div class="top-act">
@@ -151,7 +152,7 @@
 <li>Canceled by the seller</li>
 <li>Canceled by us</li>
 </ul>
-<p>Then two rules. The morning after any appointment with no outcome, the rep gets a task to record it, and the manager sees the list. And a held appointment needs a next step before it can be saved: an offer, a follow-up date or a dead reason. That's how appointments stop vanishing between the calendar and the deal. The next step after "held" is usually an offer, and the <a href="offer-follow-up-salesforce.html">offer follow-up guide</a> picks up from there.</p>
+<p>Then two rules. The morning after any appointment with no outcome, the rep gets a task to record it, and the manager sees the list. And a held appointment needs a next step before it can be saved: an offer, a follow-up date or a dead reason. That's how appointments stop vanishing between the calendar and the deal. The next step after "held" is usually an offer, and the <a href="offer-follow-up-salesforce">offer follow-up guide</a> picks up from there.</p>
 
 <h2 id="noshow">What should happen after a no-show?</h2>
 <ol>
@@ -170,59 +171,59 @@
 <li><strong>Appointments with no outcome.</strong> It should be empty.</li>
 <li><strong>Held appointments with no next step.</strong> Also empty. If it isn't, offers are leaking.</li>
 <li><strong>Set versus held, by lead manager.</strong> If you pay on appointments, pay on held ones.</li>
-<li><strong>Cost per held appointment by source</strong>, next to cost per contract. For PPC, that's also the number worth <a href="google-ads-offline-conversions-salesforce.html">sending back to Google Ads</a>.</li>
+<li><strong>Cost per held appointment by source</strong>, next to cost per contract. For PPC, that's also the number worth <a href="google-ads-offline-conversions-salesforce">sending back to Google Ads</a>.</li>
 </ol>
-<p>To see whether your team has room for more appointments at all, try the <a href="acquisitions-team-capacity-calculator.html">acquisitions capacity calculator</a>.</p>
+<p>To see whether your team has room for more appointments at all, try the <a href="acquisitions-team-capacity-calculator">acquisitions capacity calculator</a>.</p>
 </section>
 <section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>How do you reduce no-shows for seller appointments?</h3><p>Confirm in writing as soon as the appointment is booked, send reminders the day before and a couple of hours before, have the rep text on the way, and book as soon as the seller can meet. Then track the show rate by rep and source to find what else needs fixing.</p></div><div class="cq"><h3>Can Salesforce send appointment reminder texts?</h3><p>Yes, through a texting app connected to Salesforce. A record-triggered Flow with scheduled paths can send reminders a set time before the appointment, and the reminders move automatically if the appointment is rescheduled.</p></div><div class="cq"><h3>How do I track no-shows in Salesforce?</h3><p>Add a required outcome field for each appointment, with values like held, no-show, rescheduled and canceled, and create a task the morning after any appointment that has no outcome yet. Report on held divided by held plus no-shows.</p></div><div class="cq"><h3>What is a good show rate for seller appointments?</h3><p>There's no reliable public benchmark for investor teams. Measure your own by rep, source and day, and work on the biggest gaps; the trend matters more than any outside number.</p></div><div class="cq"><h3>Does Calendly work with Salesforce?</h3><p>Yes. Calendly's Salesforce integration can create leads and events and track cancellations and reschedules. Calendly says it requires Salesforce Enterprise Edition or higher.</p></div><div class="cq"><h3>What should a rep do when a seller doesn't show?</h3><p>Call and text from the driveway before leaving, then let Salesforce create a same-day reschedule task and a short follow-up offering a new time. After a second no-show, move the seller to a longer follow-up cadence.</p></div></section>
-<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="offer-follow-up-salesforce.html"><b>Offer follow-up in Salesforce</b><span>Keep every open offer alive until it is signed or dead.</span></a><a href="speed-to-lead-real-estate-investors.html"><b>Speed to lead for investors</b><span>The first-hour rule and how to measure it.</span></a><a href="salesforce-texting-real-estate.html"><b>Texting in Salesforce</b><span>Text-back, cadences and 10DLC.</span></a><a href="acquisitions-team-capacity-calculator.html"><b>Acquisitions capacity calculator</b><span>How many appointments your team can really run.</span></a><a href="monday-5-real-estate-kpis.html"><b>The Monday 5</b><span>Five numbers an owner should see every week.</span></a><a href="google-ads-offline-conversions-salesforce.html"><b>Google Ads offline conversions</b><span>Send appointments and contracts back to Google Ads.</span></a></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="offer-follow-up-salesforce"><b>Offer follow-up in Salesforce</b><span>Keep every open offer alive until it is signed or dead.</span></a><a href="speed-to-lead-real-estate-investors"><b>Speed to lead for investors</b><span>The first-hour rule and how to measure it.</span></a><a href="salesforce-texting-real-estate"><b>Texting in Salesforce</b><span>Text-back, cadences and 10DLC.</span></a><a href="acquisitions-team-capacity-calculator"><b>Acquisitions capacity calculator</b><span>How many appointments your team can really run.</span></a><a href="monday-5-real-estate-kpis"><b>The Monday 5</b><span>Five numbers an owner should see every week.</span></a><a href="google-ads-offline-conversions-salesforce"><b>Google Ads offline conversions</b><span>Send appointments and contracts back to Google Ads.</span></a></div></section>
 <section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.</p><ol class="src"><li><a href="https://developer.salesforce.com/blogs/2021/03/schedule-your-path-in-salesforce-flow" rel="noopener" target="_blank">Salesforce Developers: Schedule your path in Salesforce Flow</a>. Reminders a day and an hour before an appointment, and how scheduled actions follow a changed appointment time</li><li><a href="https://help.calendly.com/hc/en-us/articles/223195548" rel="noopener" target="_blank">Calendly Help: How to integrate Calendly with Salesforce</a>. Leads and events by default, canceled and rescheduled events, and the Enterprise Edition requirement</li></ol></section>
 <div class="cta"><h2>Want to know how many appointments never turn into offers?</h2><p>The fixed-price CRM Revenue Audit (USD 1,500) finds appointments with no next step, offers with no activity and leads owned by someone who left, with what they're likely costing you, a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.</p>
-<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Fewer%20wasted%20drives.%20Seller%20appointment%20reminders%20and%20no-shows%20in...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/seller-appointment-no-shows-salesforce.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Fewer%20wasted%20drives.%20Seller%20appointment%20reminders%20and%20no-shows%20in...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+<a href="./#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Fewer%20wasted%20drives.%20Seller%20appointment%20reminders%20and%20no-shows%20in...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/seller-appointment-no-shows-salesforce%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Fewer%20wasted%20drives.%20Seller%20appointment%20reminders%20and%20no-shows%20in...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
 </div></main>
 
 
 <section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
 <img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
-<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
-<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources">Free tools</a> · <a href="crm-revenue-audit">CRM Revenue Audit</a></p></div></div></section>
 <footer class="foot"><div class="wrap">
   <div class="foot-grid">
     <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
     <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
-      <li><a href="crm-revenue-audit.html">CRM Revenue Audit</a></li>
-      <li><a href="sample-audit-report.html">Sample audit report</a></li>
-      <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
-      <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
-      <li><a href="crm-revenue-audit-terms.html">Audit scope and terms</a></li>
+      <li><a href="crm-revenue-audit">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report">Sample audit report</a></li>
+      <li><a href="move-to-salesforce">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors">Admin or retainer?</a></li>
+      <li><a href="crm-revenue-audit-terms">Audit scope and terms</a></li>
     </ul></nav>
     <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
-      <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
-      <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
-      <li><a href="wholesale-deal-analyzer.html">Wholesale deal analyzer</a></li>
-      <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
-      <li><a href="resources.html">All free tools</a></li>
+      <li><a href="deal-leak-score">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator">Cost per deal calculator</a></li>
+      <li><a href="wholesale-deal-analyzer">Wholesale deal analyzer</a></li>
+      <li><a href="kept-deal-map">Kept-Deal Map</a></li>
+      <li><a href="resources">All free tools</a></li>
     </ul></nav>
     <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
-      <li><a href="real-estate-crm-guide.html">Real estate CRM guide</a></li>
-      <li><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a></li>
-      <li><a href="podio-alternative-wholesalers.html">Moving off Podio</a></li>
-      <li><a href="videos.html">Videos</a></li>
-      <li><a href="blog.html">All guides</a></li>
+      <li><a href="real-estate-crm-guide">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers">Moving off Podio</a></li>
+      <li><a href="videos">Videos</a></li>
+      <li><a href="blog">All guides</a></li>
     </ul></nav>
     <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
       <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
       <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
       <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href="salesforce-consultant-canada-real-estate.html">Canada</a> · <a href="salesforce-consultant-uk-estate-agents.html">UK</a></li>
-      <li><a href="about.html">About me</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate">Canada</a> · <a href="salesforce-consultant-uk-estate-agents">UK</a></li>
+      <li><a href="about">About me</a></li>
       <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
     </ul></nav>
   </div>
-  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy.html">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
 </div></footer>
 
-<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit.html">The audit</a></div>
+<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit">The audit</a></div>
 <script src="assets/chrome.js" defer></script>
 
 <script src="booking.js" defer></script>

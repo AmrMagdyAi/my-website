@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>if(/\.html$/.test(location.pathname))try{history.replaceState(null,'',location.pathname.replace(/(^|\/)index\.html$/,'$1').replace(/\.html$/,'')+location.search+location.hash)}catch(e){}</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
@@ -10,12 +11,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Transaction Coordination in Salesforce for Investors</title>
 <meta name="description" content="How to run contract-to-close in Salesforce for a home-buying or wholesaling team: transaction stages, fields, automatic tasks, a Transactions Board and a weekly TC scorecard.">
-<link rel="canonical" href="https://amrmagdy.com/salesforce-transaction-coordination-real-estate.html">
+<link rel="canonical" href="https://amrmagdy.com/salesforce-transaction-coordination-real-estate">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
 <meta name="theme-color" content="#f7f4ef">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://amrmagdy.com/salesforce-transaction-coordination-real-estate.html">
+<meta property="og:url" content="https://amrmagdy.com/salesforce-transaction-coordination-real-estate">
 <meta property="og:title" content="Transaction coordination in Salesforce: contract to close on one board">
 <meta property="og:description" content="How to run contract-to-close in Salesforce for a home-buying or wholesaling team: transaction stages, fields, automatic tasks, a Transactions Board and a weekly TC scorecard.">
 <meta property="og:image" content="https://amrmagdy.com/imgs/og-salesforce-transaction-coordination-real-estate.jpg?v=3">
@@ -68,18 +69,18 @@
 
 </style>
 <script>if((function(){try{var t=localStorage.getItem('theme');if(t)return t}catch(e){}var m=document.cookie.match(/(?:^|; )theme=(\w+)/);return m&&m[1]})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Transaction coordination in Salesforce: contract to close on one board", "description": "How to run contract-to-close in Salesforce for a home-buying or wholesaling team: transaction stages, fields, automatic tasks, a Transactions Board and a weekly TC scorecard.", "url": "https://amrmagdy.com/salesforce-transaction-coordination-real-estate.html", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "image": "https://amrmagdy.com/imgs/og-salesforce-transaction-coordination-real-estate.jpg?v=3"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Should transaction coordination be a separate object in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "For most investor teams, yes, or at least a separate record type and stage set. Keeping acquisition stages and transaction stages apart makes both pipelines and their reports cleaner."}}, {"@type": "Question", "name": "Can Salesforce track wholesaling law deadlines like cancellation windows?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Store the dates on the transaction and let a Flow create reminders before each deadline. It's a tracking setup, not legal advice; check the rules with an attorney in your state."}}, {"@type": "Question", "name": "Do I need an app from AppExchange for this?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not. Stages, a few fields, record-triggered Flows and a Kanban list view cover most teams. An app makes sense only if you need something specific like document generation."}}, {"@type": "Question", "name": "We use a TC service outside the company. Does this still work?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Give the outside TC a limited user, or have them update a few fields through a form, so the owner still sees every file on one board."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Transaction coordination in Salesforce: contract to close on one board", "item": "https://amrmagdy.com/salesforce-transaction-coordination-real-estate.html"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Transaction coordination in Salesforce: contract to close on one board", "description": "How to run contract-to-close in Salesforce for a home-buying or wholesaling team: transaction stages, fields, automatic tasks, a Transactions Board and a weekly TC scorecard.", "url": "https://amrmagdy.com/salesforce-transaction-coordination-real-estate", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "image": "https://amrmagdy.com/imgs/og-salesforce-transaction-coordination-real-estate.jpg?v=3"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Should transaction coordination be a separate object in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "For most investor teams, yes, or at least a separate record type and stage set. Keeping acquisition stages and transaction stages apart makes both pipelines and their reports cleaner."}}, {"@type": "Question", "name": "Can Salesforce track wholesaling law deadlines like cancellation windows?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Store the dates on the transaction and let a Flow create reminders before each deadline. It's a tracking setup, not legal advice; check the rules with an attorney in your state."}}, {"@type": "Question", "name": "Do I need an app from AppExchange for this?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not. Stages, a few fields, record-triggered Flows and a Kanban list view cover most teams. An app makes sense only if you need something specific like document generation."}}, {"@type": "Question", "name": "We use a TC service outside the company. Does this still work?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Give the outside TC a limited user, or have them update a few fields through a form, so the owner still sees every file on one board."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Transaction coordination in Salesforce: contract to close on one board", "item": "https://amrmagdy.com/salesforce-transaction-coordination-real-estate"}]}]}</script>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
   <nav class="nav" id="nav" aria-label="Main">
-    <a href="about.html">About</a>
+    <a href="about">About</a>
     <a href="./#services">Services</a>
     <a href="./#cases">Proof</a>
-    <a href="resources.html">Free tools</a>
-    <a href="blog.html">Guides</a>
-    <a href="crm-revenue-audit.html">Revenue Audit</a>
+    <a href="resources">Free tools</a>
+    <a href="blog">Guides</a>
+    <a href="crm-revenue-audit">Revenue Audit</a>
     <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
   </nav>
   <div class="top-act">
@@ -100,7 +101,7 @@
 <section class="sec2">
 <h2 id="why">Why deals leak after the contract</h2>
 <p>Most CRM effort goes into the front of the funnel: leads, calls, appointments, offers. Then the contract gets signed and the CRM goes quiet. The deal is "Under Contract" for three weeks, and the only way to know where it really stands is to ask the TC.</p>
-<p>That's where the expensive problems are. A seller who doesn't hear from you for a week after signing starts taking other calls. Title is waiting on a document nobody knew they needed. The inspection window passes. In states with new wholesaling rules there are now cancellation windows and closing deadlines on top of that (see <a href="wholesaling-laws-crm-tracking.html">what your CRM has to track</a>).</p>
+<p>That's where the expensive problems are. A seller who doesn't hear from you for a week after signing starts taking other calls. Title is waiting on a document nobody knew they needed. The inspection window passes. In states with new wholesaling rules there are now cancellation windows and closing deadlines on top of that (see <a href="wholesaling-laws-crm-tracking">what your CRM has to track</a>).</p>
 
 <h2 id="stages">Stages that match how a deal really closes</h2>
 <p>I keep transaction stages separate from acquisition stages. The acquisitions pipeline ends at a signed contract. The transaction picks up from there. A simple version:</p>
@@ -138,7 +139,7 @@
 <li>Closed: request the settlement statement, update profit and exit, ask for a review if it went well.</li>
 <li>Fell through: reason required, then a task to put the lead back into follow-up if the seller still wants to sell.</li>
 </ol>
-<p>Every one of those is a normal record-triggered Flow. No code. If your team changes the rules often, the <a href="blog-salesforce-configuration-object-real-estate.html">Configuration Object approach</a> lets ops change them without a developer.</p>
+<p>Every one of those is a normal record-triggered Flow. No code. If your team changes the rules often, the <a href="blog-salesforce-configuration-object-real-estate">Configuration Object approach</a> lets ops change them without a developer.</p>
 
 <h2 id="board">One board for every file under contract</h2>
 <p>A Kanban view of transactions by stage, with the closing date, days in stage and last seller update on each card. That's it. At Central City Solutions every file under contract sits on one live Transactions Board, so nobody has to ask the TC where a deal stands.</p>
@@ -158,51 +159,51 @@
 </section>
 <section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>Should transaction coordination be a separate object in Salesforce?</h3><p>For most investor teams, yes, or at least a separate record type and stage set. Keeping acquisition stages and transaction stages apart makes both pipelines and their reports cleaner.</p></div><div class="cq"><h3>Can Salesforce track wholesaling law deadlines like cancellation windows?</h3><p>Yes. Store the dates on the transaction and let a Flow create reminders before each deadline. It's a tracking setup, not legal advice; check the rules with an attorney in your state.</p></div><div class="cq"><h3>Do I need an app from AppExchange for this?</h3><p>Usually not. Stages, a few fields, record-triggered Flows and a Kanban list view cover most teams. An app makes sense only if you need something specific like document generation.</p></div><div class="cq"><h3>We use a TC service outside the company. Does this still work?</h3><p>Yes. Give the outside TC a limited user, or have them update a few fields through a form, so the owner still sees every file on one board.</p></div></section>
 <div class="cta"><h2>Want your contract-to-close on one board?</h2><p>I build transaction coordination in Salesforce as part of a full implementation, and the CRM Revenue Audit (USD 1,500, for teams already on Salesforce) checks whether deals under contract are tracked, dated and followed up. Start with a free 30-minute call.</p>
-<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Transaction%20coordination%20in%20Salesforce%3A%20contract%20to%20close%20on%20one%20board&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/salesforce-transaction-coordination-real-estate.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Transaction%20coordination%20in%20Salesforce%3A%20contract%20to%20close%20on%20one%20board%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+<a href="./#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Transaction%20coordination%20in%20Salesforce%3A%20contract%20to%20close%20on%20one%20board&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/salesforce-transaction-coordination-real-estate%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Transaction%20coordination%20in%20Salesforce%3A%20contract%20to%20close%20on%20one%20board%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
 </div></main>
 
 
 <section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
 <img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
-<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
-<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources">Free tools</a> · <a href="crm-revenue-audit">CRM Revenue Audit</a></p></div></div></section>
 <footer class="foot"><div class="wrap">
   <div class="foot-grid">
     <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
     <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
-      <li><a href="crm-revenue-audit.html">CRM Revenue Audit</a></li>
-      <li><a href="sample-audit-report.html">Sample audit report</a></li>
-      <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
-      <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
-      <li><a href="crm-revenue-audit-terms.html">Audit scope and terms</a></li>
+      <li><a href="crm-revenue-audit">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report">Sample audit report</a></li>
+      <li><a href="move-to-salesforce">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors">Admin or retainer?</a></li>
+      <li><a href="crm-revenue-audit-terms">Audit scope and terms</a></li>
     </ul></nav>
     <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
-      <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
-      <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
-      <li><a href="wholesale-deal-analyzer.html">Wholesale deal analyzer</a></li>
-      <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
-      <li><a href="resources.html">All free tools</a></li>
+      <li><a href="deal-leak-score">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator">Cost per deal calculator</a></li>
+      <li><a href="wholesale-deal-analyzer">Wholesale deal analyzer</a></li>
+      <li><a href="kept-deal-map">Kept-Deal Map</a></li>
+      <li><a href="resources">All free tools</a></li>
     </ul></nav>
     <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
-      <li><a href="real-estate-crm-guide.html">Real estate CRM guide</a></li>
-      <li><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a></li>
-      <li><a href="podio-alternative-wholesalers.html">Moving off Podio</a></li>
-      <li><a href="videos.html">Videos</a></li>
-      <li><a href="blog.html">All guides</a></li>
+      <li><a href="real-estate-crm-guide">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers">Moving off Podio</a></li>
+      <li><a href="videos">Videos</a></li>
+      <li><a href="blog">All guides</a></li>
     </ul></nav>
     <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
       <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
       <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
       <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href="salesforce-consultant-canada-real-estate.html">Canada</a> · <a href="salesforce-consultant-uk-estate-agents.html">UK</a></li>
-      <li><a href="about.html">About me</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate">Canada</a> · <a href="salesforce-consultant-uk-estate-agents">UK</a></li>
+      <li><a href="about">About me</a></li>
       <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
     </ul></nav>
   </div>
-  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy.html">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
 </div></footer>
 
-<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit.html">The audit</a></div>
+<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit">The audit</a></div>
 <script src="assets/chrome.js" defer></script>
 
 <script src="booking.js" defer></script>

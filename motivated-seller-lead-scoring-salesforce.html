@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>if(/\.html$/.test(location.pathname))try{history.replaceState(null,'',location.pathname.replace(/(^|\/)index\.html$/,'$1').replace(/\.html$/,'')+location.search+location.hash)}catch(e){}</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
@@ -10,12 +11,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Motivated Seller Lead Scoring in Salesforce (Investor Guide)</title>
 <meta name="description" content="A simple points model for motivated seller leads in Salesforce: what to score, how to check it against closed deals, and when Einstein Lead Scoring is worth it.">
-<link rel="canonical" href="https://amrmagdy.com/motivated-seller-lead-scoring-salesforce.html">
+<link rel="canonical" href="https://amrmagdy.com/motivated-seller-lead-scoring-salesforce">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
 <meta name="theme-color" content="#f7f4ef">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://amrmagdy.com/motivated-seller-lead-scoring-salesforce.html">
+<meta property="og:url" content="https://amrmagdy.com/motivated-seller-lead-scoring-salesforce">
 <meta property="og:title" content="Which sellers should your team call first? Motivated seller lead scoring in Salesforce">
 <meta property="og:description" content="A simple points model for motivated seller leads in Salesforce: what to score, how to check it against closed deals, and when Einstein Lead Scoring is worth it.">
 <meta property="og:image" content="https://amrmagdy.com/imgs/og-motivated-seller-lead-scoring-salesforce.jpg?v=3">
@@ -79,18 +80,18 @@
 .faqcat{margin-top:40px}
 </style>
 <script>if((function(){try{var t=localStorage.getItem('theme');if(t)return t}catch(e){}var m=document.cookie.match(/(?:^|; )theme=(\w+)/);return m&&m[1]})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Which sellers should your team call first? Motivated seller lead scoring in Salesforce", "description": "A simple points model for motivated seller leads in Salesforce: what to score, how to check it against closed deals, and when Einstein Lead Scoring is worth it.", "url": "https://amrmagdy.com/motivated-seller-lead-scoring-salesforce.html", "mainEntityOfPage": "https://amrmagdy.com/motivated-seller-lead-scoring-salesforce.html", "inLanguage": "en-US", "datePublished": "2026-10-26", "dateModified": "2026-10-26", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-motivated-seller-lead-scoring-salesforce.jpg?v=3", "about": [{"@type": "Thing", "name": "Lead scoring"}, {"@type": "Thing", "name": "Motivated sellers"}, {"@type": "Thing", "name": "Salesforce"}, {"@type": "Thing", "name": "Einstein Lead Scoring"}, {"@type": "Thing", "name": "Real estate investing"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is motivated seller lead scoring?", "acceptedAnswer": {"@type": "Answer", "text": "A way to rank seller leads by how likely they are to sell to you soon, using answers your reps record, such as reason for selling, timeline, condition, occupancy and asking price against your maximum offer. The score decides who gets called first and by whom."}}, {"@type": "Question", "name": "How do you score leads in Salesforce without Einstein?", "acceptedAnswer": {"@type": "Answer", "text": "Add a picklist for each signal on the lead, add up points in a formula field, and turn the total into A, B, C and D bands. If automations should react to score changes, have a Flow store the score in a number field."}}, {"@type": "Question", "name": "What makes a seller motivated?", "acceptedAnswer": {"@type": "Answer", "text": "Usually a reason and a timeline: behind on payments, an inherited or vacant house, a tired landlord, major repairs or a move, combined with wanting to sell soon at a price that works for you. Score the situation and the property, never the person."}}, {"@type": "Question", "name": "How many leads do you need for Einstein Lead Scoring?", "acceptedAnswer": {"@type": "Answer", "text": "Salesforce says at least 1,000 leads created in the last 200 days, with at least 120 of them converted. Without that, Einstein uses a global model built from anonymous data across Salesforce customers."}}, {"@type": "Question", "name": "Is Einstein Lead Scoring included in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "It comes with Sales Cloud Einstein, which Salesforce includes in Performance and Unlimited Editions and sells as an extra on Enterprise Edition. Check your contract, because Salesforce renames its bundles often."}}, {"@type": "Question", "name": "How often should you update a lead scoring model?", "acceptedAnswer": {"@type": "Answer", "text": "Review it every quarter against leads created three to six months earlier, using each lead's score at first contact. Change one weight at a time and note the date."}}, {"@type": "Question", "name": "Should a low lead score mean we stop following up?", "acceptedAnswer": {"@type": "Answer", "text": "No. A low score means a slower cadence or a different person, not no follow-up. Many deals come from sellers who weren't ready the first time."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Motivated seller lead scoring", "item": "https://amrmagdy.com/motivated-seller-lead-scoring-salesforce.html"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Which sellers should your team call first? Motivated seller lead scoring in Salesforce", "description": "A simple points model for motivated seller leads in Salesforce: what to score, how to check it against closed deals, and when Einstein Lead Scoring is worth it.", "url": "https://amrmagdy.com/motivated-seller-lead-scoring-salesforce", "mainEntityOfPage": "https://amrmagdy.com/motivated-seller-lead-scoring-salesforce", "inLanguage": "en-US", "datePublished": "2026-10-26", "dateModified": "2026-10-26", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-motivated-seller-lead-scoring-salesforce.jpg?v=3", "about": [{"@type": "Thing", "name": "Lead scoring"}, {"@type": "Thing", "name": "Motivated sellers"}, {"@type": "Thing", "name": "Salesforce"}, {"@type": "Thing", "name": "Einstein Lead Scoring"}, {"@type": "Thing", "name": "Real estate investing"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is motivated seller lead scoring?", "acceptedAnswer": {"@type": "Answer", "text": "A way to rank seller leads by how likely they are to sell to you soon, using answers your reps record, such as reason for selling, timeline, condition, occupancy and asking price against your maximum offer. The score decides who gets called first and by whom."}}, {"@type": "Question", "name": "How do you score leads in Salesforce without Einstein?", "acceptedAnswer": {"@type": "Answer", "text": "Add a picklist for each signal on the lead, add up points in a formula field, and turn the total into A, B, C and D bands. If automations should react to score changes, have a Flow store the score in a number field."}}, {"@type": "Question", "name": "What makes a seller motivated?", "acceptedAnswer": {"@type": "Answer", "text": "Usually a reason and a timeline: behind on payments, an inherited or vacant house, a tired landlord, major repairs or a move, combined with wanting to sell soon at a price that works for you. Score the situation and the property, never the person."}}, {"@type": "Question", "name": "How many leads do you need for Einstein Lead Scoring?", "acceptedAnswer": {"@type": "Answer", "text": "Salesforce says at least 1,000 leads created in the last 200 days, with at least 120 of them converted. Without that, Einstein uses a global model built from anonymous data across Salesforce customers."}}, {"@type": "Question", "name": "Is Einstein Lead Scoring included in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "It comes with Sales Cloud Einstein, which Salesforce includes in Performance and Unlimited Editions and sells as an extra on Enterprise Edition. Check your contract, because Salesforce renames its bundles often."}}, {"@type": "Question", "name": "How often should you update a lead scoring model?", "acceptedAnswer": {"@type": "Answer", "text": "Review it every quarter against leads created three to six months earlier, using each lead's score at first contact. Change one weight at a time and note the date."}}, {"@type": "Question", "name": "Should a low lead score mean we stop following up?", "acceptedAnswer": {"@type": "Answer", "text": "No. A low score means a slower cadence or a different person, not no follow-up. Many deals come from sellers who weren't ready the first time."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Motivated seller lead scoring", "item": "https://amrmagdy.com/motivated-seller-lead-scoring-salesforce"}]}]}</script>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
   <nav class="nav" id="nav" aria-label="Main">
-    <a href="about.html">About</a>
+    <a href="about">About</a>
     <a href="./#services">Services</a>
     <a href="./#cases">Proof</a>
-    <a href="resources.html">Free tools</a>
-    <a href="blog.html">Guides</a>
-    <a href="crm-revenue-audit.html">Revenue Audit</a>
+    <a href="resources">Free tools</a>
+    <a href="blog">Guides</a>
+    <a href="crm-revenue-audit">Revenue Audit</a>
     <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
   </nav>
   <div class="top-act">
@@ -111,7 +112,7 @@
 <section class="sec2">
 <h2 id="why">Why score seller leads at all?</h2>
 <ul>
-<li><strong>Order matters when you can't call everyone at once.</strong> Response time is one of the most studied levers in lead conversion: in Harvard Business Review's 2011 study, firms that reached a lead within an hour were nearly seven times as likely to qualify it (<a href="real-estate-lead-response-statistics.html">sources here</a>). The best leads should get that first hour.</li>
+<li><strong>Order matters when you can't call everyone at once.</strong> Response time is one of the most studied levers in lead conversion: in Harvard Business Review's 2011 study, firms that reached a lead within an hour were nearly seven times as likely to qualify it (<a href="real-estate-lead-response-statistics">sources here</a>). The best leads should get that first hour.</li>
 <li><strong>It makes reps consistent.</strong> A new rep learns what your team thinks a good lead looks like on day one, instead of after fifty bad calls.</li>
 <li><strong>It decides who works what.</strong> Your strongest closer gets the A leads, and a VA or a cadence handles the C's.</li>
 </ul>
@@ -119,11 +120,11 @@
 <h2 id="inputs">What should a motivated seller score include?</h2>
 <p>The things your reps already ask on the first call, recorded as picklists rather than buried in notes:</p>
 <ul>
-<li><strong>Reason for selling:</strong> behind on payments, inherited or <a href="probate-leads-salesforce.html">in probate</a>, vacant, tired landlord, major repairs, relocating, or just curious.</li>
+<li><strong>Reason for selling:</strong> behind on payments, inherited or <a href="probate-leads-salesforce">in probate</a>, vacant, tired landlord, major repairs, relocating, or just curious.</li>
 <li><strong>Timeline:</strong> within 30 days, one to three months, three to six months, no timeline.</li>
 <li><strong>Condition:</strong> major repairs, some updates, move-in ready.</li>
 <li><strong>Occupancy:</strong> vacant, tenant, owner lives there.</li>
-<li><strong>Price:</strong> the seller's asking price against your maximum offer. See the <a href="wholesale-deal-analyzer.html">deal analyzer</a>.</li>
+<li><strong>Price:</strong> the seller's asking price against your maximum offer. See the <a href="wholesale-deal-analyzer">deal analyzer</a>.</li>
 <li><strong>Decision makers:</strong> whether everyone on title is on board.</li>
 <li><strong>Engagement:</strong> whether they called you, answered, or replied to a text.</li>
 </ul>
@@ -150,7 +151,7 @@
 <li><strong>Add the points up.</strong> A formula field with a CASE() for each picklist is enough for most teams. A second formula turns the total into a band.</li>
 <li><strong>Show why.</strong> A short text formula like "30 days · Vacant · Under MAO" next to the band. Reps trust a score they can read.</li>
 <li><strong>Use it everywhere reps look.</strong> Sort queues and list views by band, and put it on the lead page and the mobile layout.</li>
-<li><strong>Route on it.</strong> A leads go to your best closer with a task due now; B's the same day; C's into a follow-up cadence. More in <a href="blog-salesforce-lead-routing-real-estate.html">lead routing for real estate teams</a>.</li>
+<li><strong>Route on it.</strong> A leads go to your best closer with a task due now; B's the same day; C's into a follow-up cadence. More in <a href="blog-salesforce-lead-routing-real-estate">lead routing for real estate teams</a>.</li>
 </ol>
 <p>One technical catch: a formula is calculated when someone reads it, so a change in a formula score doesn't start an automation by itself. If routing should react when a score changes, have a Flow write the score into a regular number field and trigger from that.</p>
 <p>Keep a second, frozen copy: the score at first contact. Today's score changes as reps learn more. The first one is what you need to judge whether the model works.</p>
@@ -173,7 +174,7 @@
 <li>It comes with Sales Cloud Einstein, included in Performance and Unlimited Editions and an extra cost on Enterprise Edition.</li>
 </ul>
 <p>The catch for investor teams is the word "converted". Einstein predicts lead conversion, and in many investor orgs a lead converts when an appointment is set, or never, because the team works everything on the lead or on a custom deal record. So it learns to predict appointments, not contracts. And it doesn't know your MAO math unless that's on the lead.</p>
-<p>My view: start with rules everyone can read. If you have the volume and the license, run Einstein alongside them and compare both against closed deals each quarter. For where AI fits more broadly, see <a href="salesforce-ai-agentforce-real-estate.html">AI in Salesforce for real estate investors</a>.</p>
+<p>My view: start with rules everyone can read. If you have the volume and the license, run Einstein alongside them and compare both against closed deals each quarter. For where AI fits more broadly, see <a href="salesforce-ai-agentforce-real-estate">AI in Salesforce for real estate investors</a>.</p>
 
 <h2 id="wrong">What usually goes wrong</h2>
 <ul>
@@ -181,58 +182,58 @@
 <li><strong>Too many inputs.</strong> Fifteen picklists don't get filled in. Six or seven do.</li>
 <li><strong>Inflated answers.</strong> If whoever qualifies the lead is paid or praised on A leads, the answers drift upward. Score facts the rep records, and spot-check a few calls.</li>
 <li><strong>Never checking it.</strong> A score nobody tests against contracts is an opinion with a number on it.</li>
-<li><strong>Treating C's as dead.</strong> A low score means a different cadence, not no follow-up. Plenty of deals come from leads that weren't ready yet; see <a href="dead-seller-leads-salesforce.html">reactivating dead seller leads</a>.</li>
+<li><strong>Treating C's as dead.</strong> A low score means a different cadence, not no follow-up. Plenty of deals come from leads that weren't ready yet; see <a href="dead-seller-leads-salesforce">reactivating dead seller leads</a>.</li>
 </ul>
 </section>
 <section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>What is motivated seller lead scoring?</h3><p>A way to rank seller leads by how likely they are to sell to you soon, using answers your reps record, such as reason for selling, timeline, condition, occupancy and asking price against your maximum offer. The score decides who gets called first and by whom.</p></div><div class="cq"><h3>How do you score leads in Salesforce without Einstein?</h3><p>Add a picklist for each signal on the lead, add up points in a formula field, and turn the total into A, B, C and D bands. If automations should react to score changes, have a Flow store the score in a number field.</p></div><div class="cq"><h3>What makes a seller motivated?</h3><p>Usually a reason and a timeline: behind on payments, an inherited or vacant house, a tired landlord, major repairs or a move, combined with wanting to sell soon at a price that works for you. Score the situation and the property, never the person.</p></div><div class="cq"><h3>How many leads do you need for Einstein Lead Scoring?</h3><p>Salesforce says at least 1,000 leads created in the last 200 days, with at least 120 of them converted. Without that, Einstein uses a global model built from anonymous data across Salesforce customers.</p></div><div class="cq"><h3>Is Einstein Lead Scoring included in Salesforce?</h3><p>It comes with Sales Cloud Einstein, which Salesforce includes in Performance and Unlimited Editions and sells as an extra on Enterprise Edition. Check your contract, because Salesforce renames its bundles often.</p></div><div class="cq"><h3>How often should you update a lead scoring model?</h3><p>Review it every quarter against leads created three to six months earlier, using each lead's score at first contact. Change one weight at a time and note the date.</p></div><div class="cq"><h3>Should a low lead score mean we stop following up?</h3><p>No. A low score means a slower cadence or a different person, not no follow-up. Many deals come from sellers who weren't ready the first time.</p></div></section>
-<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="blog-salesforce-lead-routing-real-estate.html"><b>Lead and call routing</b><span>Round robin, queues, after-hours and escalation.</span></a><a href="speed-to-lead-real-estate-investors.html"><b>Speed to lead for investors</b><span>The first-hour rule and how to measure it.</span></a><a href="wholesale-deal-analyzer.html"><b>Deal analyzer</b><span>Maximum allowable offer from ARV and repairs.</span></a><a href="salesforce-ai-agentforce-real-estate.html"><b>AI in Salesforce for investors</b><span>Where Einstein and Agentforce fit.</span></a><a href="offer-follow-up-salesforce.html"><b>Offer follow-up in Salesforce</b><span>Keep every open offer alive until it is signed or dead.</span></a><a href="dead-seller-leads-salesforce.html"><b>Reactivating dead seller leads</b><span>Turn the list you already paid for into deals.</span></a></div></section>
-<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.</p><ol class="src"><li><a href="https://help.salesforce.com/s/articleView?id=sf.einstein_sales_els_setup_considerations.htm&language=en_US&type=5" rel="noopener" target="_blank">Salesforce Help: Considerations for setting up Einstein Lead Scoring</a>. The 1,000 and 120 lead thresholds in 200 days, segments, the global model, the 10-day refresh and editions</li><li><a href="real-estate-lead-response-statistics.html">Speed to lead and follow-up statistics for real estate (this site)</a>. Harvard Business Review 2011 response-time findings, with the source</li><li><a href="https://www.hud.gov/helping-americans/fair-housing-act-overview" rel="noopener" target="_blank">HUD: Housing discrimination under the Fair Housing Act</a>. The seven characteristics the Fair Housing Act protects</li></ol></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="blog-salesforce-lead-routing-real-estate"><b>Lead and call routing</b><span>Round robin, queues, after-hours and escalation.</span></a><a href="speed-to-lead-real-estate-investors"><b>Speed to lead for investors</b><span>The first-hour rule and how to measure it.</span></a><a href="wholesale-deal-analyzer"><b>Deal analyzer</b><span>Maximum allowable offer from ARV and repairs.</span></a><a href="salesforce-ai-agentforce-real-estate"><b>AI in Salesforce for investors</b><span>Where Einstein and Agentforce fit.</span></a><a href="offer-follow-up-salesforce"><b>Offer follow-up in Salesforce</b><span>Keep every open offer alive until it is signed or dead.</span></a><a href="dead-seller-leads-salesforce"><b>Reactivating dead seller leads</b><span>Turn the list you already paid for into deals.</span></a></div></section>
+<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.</p><ol class="src"><li><a href="https://help.salesforce.com/s/articleView?id=sf.einstein_sales_els_setup_considerations.htm&language=en_US&type=5" rel="noopener" target="_blank">Salesforce Help: Considerations for setting up Einstein Lead Scoring</a>. The 1,000 and 120 lead thresholds in 200 days, segments, the global model, the 10-day refresh and editions</li><li><a href="real-estate-lead-response-statistics">Speed to lead and follow-up statistics for real estate (this site)</a>. Harvard Business Review 2011 response-time findings, with the source</li><li><a href="https://www.hud.gov/helping-americans/fair-housing-act-overview" rel="noopener" target="_blank">HUD: Housing discrimination under the Fair Housing Act</a>. The seven characteristics the Fair Housing Act protects</li></ol></section>
 <div class="cta"><h2>Want your leads ranked by what actually closes for you?</h2><p>The fixed-price CRM Revenue Audit (USD 1,500) ties your leads to the campaigns that paid for them and finds the ones going cold, such as offers with no activity and appointments with no next step, with a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.</p>
-<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Which%20sellers%20should%20your%20team%20call%20first%3F%20Motivated%20seller%20lead...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/motivated-seller-lead-scoring-salesforce.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Which%20sellers%20should%20your%20team%20call%20first%3F%20Motivated%20seller%20lead...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+<a href="./#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Which%20sellers%20should%20your%20team%20call%20first%3F%20Motivated%20seller%20lead...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/motivated-seller-lead-scoring-salesforce%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Which%20sellers%20should%20your%20team%20call%20first%3F%20Motivated%20seller%20lead...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
 </div></main>
 
 
 <section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
 <img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
-<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
-<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources">Free tools</a> · <a href="crm-revenue-audit">CRM Revenue Audit</a></p></div></div></section>
 <footer class="foot"><div class="wrap">
   <div class="foot-grid">
     <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
     <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
-      <li><a href="crm-revenue-audit.html">CRM Revenue Audit</a></li>
-      <li><a href="sample-audit-report.html">Sample audit report</a></li>
-      <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
-      <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
-      <li><a href="crm-revenue-audit-terms.html">Audit scope and terms</a></li>
+      <li><a href="crm-revenue-audit">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report">Sample audit report</a></li>
+      <li><a href="move-to-salesforce">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors">Admin or retainer?</a></li>
+      <li><a href="crm-revenue-audit-terms">Audit scope and terms</a></li>
     </ul></nav>
     <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
-      <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
-      <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
-      <li><a href="wholesale-deal-analyzer.html">Wholesale deal analyzer</a></li>
-      <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
-      <li><a href="resources.html">All free tools</a></li>
+      <li><a href="deal-leak-score">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator">Cost per deal calculator</a></li>
+      <li><a href="wholesale-deal-analyzer">Wholesale deal analyzer</a></li>
+      <li><a href="kept-deal-map">Kept-Deal Map</a></li>
+      <li><a href="resources">All free tools</a></li>
     </ul></nav>
     <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
-      <li><a href="real-estate-crm-guide.html">Real estate CRM guide</a></li>
-      <li><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a></li>
-      <li><a href="podio-alternative-wholesalers.html">Moving off Podio</a></li>
-      <li><a href="videos.html">Videos</a></li>
-      <li><a href="blog.html">All guides</a></li>
+      <li><a href="real-estate-crm-guide">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers">Moving off Podio</a></li>
+      <li><a href="videos">Videos</a></li>
+      <li><a href="blog">All guides</a></li>
     </ul></nav>
     <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
       <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
       <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
       <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href="salesforce-consultant-canada-real-estate.html">Canada</a> · <a href="salesforce-consultant-uk-estate-agents.html">UK</a></li>
-      <li><a href="about.html">About me</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate">Canada</a> · <a href="salesforce-consultant-uk-estate-agents">UK</a></li>
+      <li><a href="about">About me</a></li>
       <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
     </ul></nav>
   </div>
-  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy.html">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
 </div></footer>
 
-<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit.html">The audit</a></div>
+<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit">The audit</a></div>
 <script src="assets/chrome.js" defer></script>
 
 <script src="booking.js" defer></script>
