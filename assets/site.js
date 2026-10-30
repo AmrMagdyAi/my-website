@@ -23,6 +23,7 @@
     var dark=root.getAttribute('data-theme')!=='dark';
     if(dark) root.setAttribute('data-theme','dark'); else root.removeAttribute('data-theme');
     try{localStorage.setItem('theme',dark?'dark':'light');}catch(e){}
+    try{document.cookie='theme='+(dark?'dark':'light')+';path=/;max-age=31536000;SameSite=Lax';}catch(e){}
     paint();
   });
   paint();
