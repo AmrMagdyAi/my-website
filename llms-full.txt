@@ -2080,7 +2080,7 @@ Not included
 Building fixes beyond the quick fixes (up to 3), data migration and new integrations. Those are scoped separately if you want them.
 Fee and payment
 $1,500 USD, fixed. Paid through an Upwork contract: 50% to start and 50% when the report is delivered. Upwork holds each payment until you approve it. You need a free Upwork account; I send the contract.
-If you hire me for ongoing support within 30 days of the walkthrough, the full $1,500 comes off your first two months. If you hire me for a build, it comes off that project.
+If you hire me for ongoing support within 30 days of the walkthrough, up to the full $1,500 comes off your first two months of fees. If you hire me for a build, it comes off that project.
 If we continue with ongoing support
 Monthly plans, month to month. Either of us can stop with 30 days’ notice.
 You fund the month’s milestone on Upwork at the start of the month. I start once it is funded and you release it with the monthly report.
