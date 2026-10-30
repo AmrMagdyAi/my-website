@@ -1605,6 +1605,8 @@ Texting sellers from Salesforce
 10DLC registration, CTIA consent guidance, opt-outs and the tools that log texts.
 Dialers in Salesforce (Open CTI ends 2028)
 RingCentral, Aircall, Dialpad, Twilio: editions, call logging and the 2028 deadline.
+How to Find Cash Buyers for Wholesale Deals and Keep Them
+Where wholesalers find cash buyers, how to verify a buyer before you count them, and what to record in the CRM.
 Wholesale dispositions in Salesforce
 Buyers with a buy box, which buyer saw which deal, deal blasts and dispo numbers.
 Transaction coordination in Salesforce
@@ -1817,7 +1819,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/cash-buyers-list-template
 
 Cash buyers list template for wholesalers.
-A cash buyers list works when every buyer's buy box is saved as fields, not buried in texts and DMs. Then each new deal goes to the 10 buyers who fit its area, price, property type and rehab level, instead of a blast to everyone. Download the free template below and fill it once per buyer.
+A cash buyers list works when every buyer's buy box is saved as fields, not buried in texts and DMs. Then each new deal goes to the 10 buyers who fit its area, price, property type and rehab level, instead of a blast to everyone. Download the free template below and fill it once per buyer. To find the buyers in the first place and verify them, see how to find cash buyers for wholesale deals .
 Download the CSV template Opens in Google Sheets, Excel or any CRM import.
 The fields to capture
 How to send each deal to the right buyers
@@ -2701,6 +2703,80 @@ Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
 I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit (USD 1,500).
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## How to Find Cash Buyers for Wholesale Deals and Keep Them
+URL: https://amrmagdy.com/find-cash-buyers-for-wholesale-deals
+
+How to find cash buyers for wholesale deals: find them, verify them, keep them in the CRM
+Search for how to find cash buyers and you get the same list: a data tool, a real estate investor association, the MLS, auctions, a classified ad. Those are real places to find names. What the lists skip is everything after the name: a person who paid cash once is not yet a buyer for your deal, and a name in a spreadsheet nobody owns goes stale in a quarter. This guide covers where wholesalers find cash buyers, the checks that turn a name into a buyer you can send a deal to, the fields to record, and the rules that keep the list alive.
+Find buyers in six places: a data tool's cash buyer list, county deed and sales records, investor association meetings, agents and property managers who work with investors, auctions, and other wholesalers. Then verify each one before you count it: recent purchases in your price band and area, proof of funds, a stated buy box and a working phone or email. Record source, buy box, verification date and owner in the CRM, send only matching deals, and retire buyers who stop answering.
+Why is a name not a buyer?
+"Cash buyer" is a label, not a promise. A tool marks someone who paid cash for a property. It does not know whether they want your deal.
+Buy boxes differ. A flipper who buys $180,000 three-bedrooms in two zip codes is no use for a $60,000 duplex across the county.
+Lists decay. Investors change markets, run out of funds or stop answering. A list nobody maintains is a list of the people who used to buy.
+The cost of a bad list shows up late. You send the deal to 200 names, get no offers and lose days on a contract with a closing date. The fix is a smaller list you know.
+Where do wholesalers find cash buyers?
+Source | What you get | What to check
+A data tool's cash buyer list | Recent cash purchasers in an area, often with skip-traced contact details. PropStream offers a "Cash Buyers" lead list, and Propwire has a "Cash Buyers" lead type | Verify each name; tool data can be out of date and phone numbers can be wrong
+County deed and sales records | Who bought what, when and whether it looks like an investor (an LLC, no mortgage recorded) | Access and format vary by county; match names to a real person
+Real estate investor association (REIA) meetings | Active local buyers you can meet and qualify in person | Ask for the buy box and a recent purchase, not just a card
+Agents and property managers | Agents who sell to investors and managers whose owners want more properties | Ask which of their owners buy, and let the agent or manager make the introduction
+Auctions | People who buy and pay quickly, in person | Local rules apply; many auction buyers are present for one deal only
+Other wholesalers | Shared buyers, joint deals, and a view of what is selling | Agree who owns the relationship before you share a name
+Online groups and classifieds | Wide reach for little cost | Check each group's rules on posting; expect a lot of people who are not buyers
+The tool vendors' own guides describe the same set. PropStream's guide lists in-person networking, online groups, public records, classified ads and its own lead list; Propwire's lists the lead type, investor associations, the MLS, property managers, auctions and classifieds (links under Sources).
+How do you verify a buyer before you count them?
+Recent purchases. At least one purchase in the last six to twelve months in your area, and the address and price in the record. Your own window may be shorter or longer.
+Price band and property type. Which kinds of deals they bought, not which they say they like.
+Funds. Ask for proof of funds or a lender letter once they're serious, and note the date you saw it. Funds change.
+Buy box in their words. Areas, condition they'll take, how fast they close, whether they take assignments or only direct purchases.
+A live contact. A call or email that gets an answer, with the consent you need for texting. Record the date you reached them.
+Until a buyer passes at least the first and last checks, keep the record as "unverified" and out of deal sends. A shorter list of verified buyers does more than a long list of names.
+What should the CRM record about each buyer?
+Who: person and entity, phone, email, preferred contact method and time, consent to be texted, with the date.
+Source: where you found them and who found them. This is how you learn which source brings buyers who close.
+Buy box: markets or zip codes, property types, price range, condition tolerance, funding type (cash, hard money) and closing speed.
+Verification: status (unverified, verified, retired), date, last purchase seen with address and price, proof of funds seen with date.
+Activity: deals sent, deals they offered on, deals they closed on with you, last contact date, owner.
+Do not send flag and the reason, so a buyer who asked to stop is never emailed again.
+The fields are the same ones the cash buyers list template starts from; the matching and sending are covered in wholesale dispositions in Salesforce .
+What about duplicates and LLC names?
+Investors buy in the names of LLCs, and the same investor can appear under three entities and two phone numbers. Match on phone, email and mailing address before you match on name, and keep the person as the record that owns the entities. It is the same problem as duplicate sellers : a buyer split across records gets the same deal three times and has no history.
+How do you keep the list alive?
+Send only matching deals. A buyer who gets ten deals that don't fit stops reading the eleventh.
+Tier by results, not by hope. Buyers who closed with you first, buyers who offered next, verified buyers who haven't offered after that.
+Track response. Record which deals a buyer opened, answered or ignored.
+Retire on a rule. For example, no response to five matching deals in a row moves a buyer to "retired", not deleted.
+Re-verify on a schedule. A quarterly check of the top tier, so proof of funds and buy box are current.
+Respect the channel rules. Calls, texts and emails to buyers are marketing contact too, so consent, opt-outs and do-not-call rules still apply. This is information, not legal advice.
+Which numbers should you watch?
+Verified buyers by market and by price band, so you can see where you have no one to send a deal to.
+Buyers by source, and closings by source.
+Deals sent per buyer and offers per deal sent.
+Days from contract to first offer, which feeds your assignment fee and your risk on a short closing window.
+If a market has strong seller flow and a thin buyer list, fix the buyer side before you buy more leads.
+Questions
+How do I find cash buyers for wholesale deals?
+Use a data tool's cash buyer list, county deed and sales records, investor association meetings, agents and property managers who work with investors, auctions and other wholesalers. Then verify each buyer's recent purchases, price band, funds and buy box before you count them.
+How do I know if a cash buyer is real?
+Check at least one purchase in your area in the last six to twelve months, ask for proof of funds or a lender letter, get their buy box in their own words and confirm a working phone or email. Record each check and its date in the CRM.
+What should be in a cash buyers list?
+Contact and consent, source, buy box (areas, property types, price range, condition, funding, closing speed), verification status and date, last purchase seen, deals sent and closed, last contact and a do-not-send flag.
+Is a cash buyers list from a tool enough?
+It is a starting list of names. Tools mark recent cash purchasers, but they don't know whether someone wants your deal, so verify each name, record the buy box and keep only matching deals going out.
+How many cash buyers do I need?
+There is no standard number. What matters is verified buyers for each market and price band you buy in. If a deal in a band has no one to send it to, that band is where to build next.
+How do I stop buyers getting deals that don't fit?
+Record each buyer's buy box in fields, match each deal to them by area, type and price, and send only matches. Retire buyers who stop answering matching deals so the list stays small and accurate.
+Related guides
+Sources
+Tool features were read from the vendors' own pages on October 30, 2026 and change; check them before you buy. PropStream and Propwire are examples, not recommendations. Compliance notes are information, not legal advice.
+PropStream: How to find cash buyers for wholesaling . Five ways: in-person networking, online groups, public records, classified ads and its Cash Buyers lead list; nurturing buyers
+Propwire: Ways to find cash buyers for wholesale deals . Cash Buyers lead type, REIA networking, MLS, property managers, auctions, classifieds
+Want a buyer list that sends the right deal to the right buyer?
+The CRM Revenue Audit (USD 1,500, fixed price) checks whether your CRM records buyers, buy boxes and deal history, and shows where deals stall at dispo. It's for teams already on Salesforce.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5427,7 +5503,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-dispositions-real-estate
 
 Wholesale dispositions in Salesforce.
-A dispo system in Salesforce has three parts: buyer records with a structured buy box, a record of every deal sent to every buyer, and a fast way to send new contracts to the best-matched buyers first. Here’s the data model, matching rules, sending options, automations and the numbers that show whether your buyer list is real.
+A dispo system in Salesforce has three parts: buyer records with a structured buy box, a record of every deal sent to every buyer, and a fast way to send new contracts to the best-matched buyers first. Here’s the data model, matching rules, sending options, automations and the numbers that show whether your buyer list is real. Where the buyers come from is covered in how to find cash buyers for wholesale deals .
 Dispo in a CRM means three things: buyers with a buy box , a record of which buyers saw which deal , and a fast way to send a new deal to the right buyers first .
 In Salesforce that’s a Buyer record, a junction object between Property and Buyer, and List Email or an email tool. List Email sends to up to 200 leads or contacts at once. source
 The payoff: when a contract is signed, the 10 buyers most likely to close get it in minutes, and you can see who actually buys.
@@ -8052,7 +8128,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/wholesale-assignment-fee
 
 Wholesale assignment fee: set it from the buyer's margin.
-An assignment fee is what a wholesaler is paid for assigning the purchase contract to a cash buyer. The fee that works is not a round number you pick in advance: it is whatever is left after the buyer's repairs, costs and required profit come out of the after-repair value, minus your contract price. Price it from the buyer's side and deals sell instead of sitting.
+An assignment fee is what a wholesaler is paid for assigning the purchase contract to a cash buyer. The fee that works is not a round number you pick in advance: it is whatever is left after the buyer's repairs, costs and required profit come out of the after-repair value, minus your contract price. Price it from the buyer's side and deals sell instead of sitting. To find buyers for the deal, see how to find cash buyers for wholesale deals .
 The max-fee formula
 Buyer's costs = ARV × closing, holding and selling %
 Buyer's profit = the profit active buyers in that market need on this kind of deal
