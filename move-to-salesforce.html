@@ -140,7 +140,7 @@
 @media (max-width:560px){.trust{padding:22px 18px}.trust-list,.trust.terms-only .trust-list{grid-template-columns:minmax(0,1fr)}}
 .ra .trust{margin-top:8px}
 </style>
-<script>if((function(){try{var t=localStorage.getItem('theme');if(t)return t}catch(e){}var m=document.cookie.match(/(?:^|; )theme=(\w+)/);return m&&m[1]})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script>if((function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t)try{var m=document.cookie.match(/(?:^|; )theme=(\w+)/);t=m&&m[1]}catch(e){}if(!t)try{t=sessionStorage.getItem('theme')}catch(e){}if(!t&&/^theme-(dark|light)$/.test(window.name))t=window.name.slice(6);return t})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
 </head>
 <body>
 <header class="top"><div class="wrap">

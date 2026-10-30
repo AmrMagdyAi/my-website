@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Theme check</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;margin:0;padding:24px;background:#f7f4ef;color:#22201d;max-width:640px}
+:root[data-theme="dark"] body{background:#161412;color:#f1ece5}
+button,a.b{font:inherit;padding:8px 14px;margin:4px 6px 4px 0;border:1px solid #8a8278;border-radius:8px;background:transparent;color:inherit;text-decoration:none;display:inline-block;cursor:pointer}
+pre{white-space:pre-wrap;background:rgba(127,127,127,.15);padding:12px;border-radius:8px}</style>
+<script>if((function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t)try{var m=document.cookie.match(/(?:^|; )theme=(\w+)/);t=m&&m[1]}catch(e){}if(!t)try{t=sessionStorage.getItem('theme')}catch(e){}if(!t&&/^theme-(dark|light)$/.test(window.name))t=window.name.slice(6);return t})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+</head><body>
+<h1>Theme check</h1>
+<p>Press <b>Set dark</b>, then press <b>Go to the guides</b>. On the guides page the theme should stay dark. Then come back here and send me a screenshot of this page.</p>
+<button id="d">Set dark</button><button id="l">Set light</button><a class="b" href="blog">Go to the guides</a><a class="b" href="./">Go to the home page</a>
+<pre id="out">Checking...</pre>
+<script>
+function set(v){
+  try{localStorage.setItem('theme',v)}catch(e){}
+  try{document.cookie='theme='+v+';path=/;max-age=31536000;SameSite=Lax'}catch(e){}
+  try{sessionStorage.setItem('theme',v)}catch(e){}
+  try{if(!window.name||/^theme-/.test(window.name))window.name='theme-'+v}catch(e){}
+  if(v==='dark')document.documentElement.setAttribute('data-theme','dark');else document.documentElement.removeAttribute('data-theme');
+  show();
+}
+function get(f){try{var v=f();return v==null||v===''?'(empty)':v}catch(e){return 'BLOCKED: '+e.name}}
+function show(){
+  document.getElementById('out').textContent=[
+    'Address: '+location.href,
+    'Page theme now: '+(document.documentElement.getAttribute('data-theme')||'light'),
+    'Local storage: '+get(function(){return localStorage.getItem('theme')}),
+    'Cookie: '+get(function(){var m=document.cookie.match(/(?:^|; )theme=(\w+)/);return m&&m[1]}),
+    'Session storage: '+get(function(){return sessionStorage.getItem('theme')}),
+    'Window name: '+get(function(){return window.name}),
+    'Cookies enabled: '+navigator.cookieEnabled,
+    'Browser: '+navigator.userAgent
+  ].join('\n');
+}
+document.getElementById('d').onclick=function(){set('dark')};
+document.getElementById('l').onclick=function(){set('light')};
+show();
+</script></body></html>

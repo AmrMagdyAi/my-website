@@ -24,6 +24,9 @@
     if(dark) root.setAttribute('data-theme','dark'); else root.removeAttribute('data-theme');
     try{localStorage.setItem('theme',dark?'dark':'light');}catch(e){}
     try{document.cookie='theme='+(dark?'dark':'light')+';path=/;max-age=31536000;SameSite=Lax';}catch(e){}
+    /* last resorts for browsers that block storage and cookies: this tab's session storage and its window name */
+    try{sessionStorage.setItem('theme',dark?'dark':'light');}catch(e){}
+    try{if(!window.name||/^theme-/.test(window.name))window.name='theme-'+(dark?'dark':'light');}catch(e){}
     paint();
   });
   paint();
