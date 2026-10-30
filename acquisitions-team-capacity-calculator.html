@@ -190,7 +190,7 @@ var need=(L*fc*fm+L*t*tm+o*om)/60,cap=h*d,rn=cap>0?need/cap:NaN,have=cap*r,load=
 C.set('hl',isFinite(rn)?rn.toFixed(1):'—','big');C.set('r_need',Math.round(need)+' h');C.set('r_cap',Math.round(cap)+' h');C.set('r_have',Math.round(have)+' h');C.set('r_load',isFinite(load)?Math.round(load*100)+'%':'—',load>1?'neg':'pos');C.set('r_per',isFinite(per)?Math.floor(per)+' leads':'—');
 C.set('msg',!isFinite(load)?'':(load>1?'Your team is '+Math.round((load-1)*100)+'% over capacity. Something is not getting done: usually the follow-up touches. Automate the touches that do not need a person, or add '+Math.ceil(rn-r)+' rep'+(Math.ceil(rn-r)>1?'s':'')+'.':'Your team has about '+Math.round(have-need)+' spare hours a month at this lead volume.'));
 }C.init('capacity',compute);})();</script>
-<div class="mcta" id="mcta" data-stop=".cta,.foot" data-after="0.85"><a class="f" href="crm-revenue-audit.html">$1,500 audit</a><a class="g" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></div>
+<div class="mcta" id="mcta" data-stop=".cta,.foot" data-after="0.85"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit.html">The audit</a></div>
 <script src="assets/chrome.js" defer></script>
 <script src="booking.js" defer></script>
 </body>
