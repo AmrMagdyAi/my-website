@@ -191,7 +191,7 @@ var maxPI=t>0?rent/t-tax-ins-hoa:0,maxL=0;if(maxPI>0){if(io)maxL=rate>0?maxPI*12
 C.set('hl',isFinite(d)?d.toFixed(2):'—','big '+(d<1?'neg':(d>=t?'pos':'')));C.set('r_pi',C.money(pi));C.set('r_pitia',C.money(pitia));C.set('r_cf',C.money(cf),cf<0?'neg':'pos');C.set('r_noi',isFinite(dn)?dn.toFixed(2):'—');C.set('r_max',C.money(maxL));
 C.set('msg',!isFinite(d)?'':(d<1?'The rent does not cover the full payment. Most DSCR lenders will need a smaller loan or a higher rent.':(d<t?'Covers the payment, but below your '+t.toFixed(2)+' target. The largest loan that meets the target is '+C.money(maxL)+'.':'Meets your '+t.toFixed(2)+' target with room to spare.')));
 }C.init('dscr',compute);})();</script>
-<div class="mcta" id="mcta" data-stop=".cta,.foot" data-after="0.85"><a class="f" href="crm-revenue-audit.html">$1,500 audit</a><a class="g" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></div>
+<div class="mcta" id="mcta" data-stop=".cta,.foot" data-after="0.85"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit.html">The audit</a></div>
 <script src="assets/chrome.js" defer></script>
 <script src="booking.js" defer></script>
 </body>
