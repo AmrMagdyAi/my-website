@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>if(/\.html$/.test(location.pathname))try{history.replaceState(null,'',location.pathname.replace(/(^|\/)index\.html$/,'$1').replace(/\.html$/,'')+location.search+location.hash)}catch(e){}</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
@@ -10,12 +11,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Missed-Call Alerts in Salesforce for Real Estate Investors</title>
 <meta name="description" content="How to build missed-call alerts in Salesforce for a home-buying team: the phone integration, the Flow, callback tasks, Slack alerts, escalation, after-hours and text-back.">
-<link rel="canonical" href="https://amrmagdy.com/missed-call-alerts-salesforce.html">
+<link rel="canonical" href="https://amrmagdy.com/missed-call-alerts-salesforce">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
 <meta name="theme-color" content="#f7f4ef">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://amrmagdy.com/missed-call-alerts-salesforce.html">
+<meta property="og:url" content="https://amrmagdy.com/missed-call-alerts-salesforce">
 <meta property="og:title" content="Missed-call alerts in Salesforce: turn every missed seller call into a callback">
 <meta property="og:description" content="How to build missed-call alerts in Salesforce for a home-buying team: the phone integration, the Flow, callback tasks, Slack alerts, escalation, after-hours and text-back.">
 <meta property="og:image" content="https://amrmagdy.com/imgs/og-missed-call-alerts-salesforce.jpg?v=3">
@@ -79,18 +80,18 @@
 .faqcat{margin-top:40px}
 </style>
 <script>if((function(){try{var t=localStorage.getItem('theme');if(t)return t}catch(e){}var m=document.cookie.match(/(?:^|; )theme=(\w+)/);return m&&m[1]})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Missed-call alerts in Salesforce: turn every missed seller call into a callback", "description": "How to build missed-call alerts in Salesforce for a home-buying team: the phone integration, the Flow, callback tasks, Slack alerts, escalation, after-hours and text-back.", "url": "https://amrmagdy.com/missed-call-alerts-salesforce.html", "mainEntityOfPage": "https://amrmagdy.com/missed-call-alerts-salesforce.html", "inLanguage": "en-US", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-missed-call-alerts-salesforce.jpg?v=3", "about": [{"@type": "Thing", "name": "Salesforce Flow"}, {"@type": "Thing", "name": "Missed call alerts"}, {"@type": "Thing", "name": "Speed to lead"}, {"@type": "Thing", "name": "Real estate investing"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I get missed-call alerts in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Make sure your phone system logs missed calls to Salesforce with the direction, result and number called. Then build a record-triggered Flow on those call records that creates a callback task, alerts the owner and a Slack channel, and escalates if the task isn't done in time."}}, {"@type": "Question", "name": "Can Salesforce send missed-call alerts to Slack?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Flow has Slack actions once Salesforce and Slack are connected through Salesforce's Slack app and users have the right permission set. Teams without that connection often post alerts through a Zap or their phone system's own Slack integration."}}, {"@type": "Question", "name": "Can Salesforce text a missed caller back automatically?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, if your texting tool is connected to Salesforce, a Flow can send a short text after a missed call. Check consent and opt-out handling with whoever advises you on TCPA, make sure your number is 10DLC registered, and keep the callback task too."}}, {"@type": "Question", "name": "What happens if the caller isn't in Salesforce yet?", "acceptedAnswer": {"@type": "Answer", "text": "Something has to create a lead from the call, with the source and market of the number they dialed. If nothing does, the missed call has no record to attach to, and the alert never fires for the sellers you most want to catch."}}, {"@type": "Question", "name": "How do I stop duplicate callback tasks when a seller calls several times?", "acceptedAnswer": {"@type": "Answer", "text": "Before creating a task, have the Flow check whether the seller already has an open callback task. If so, update that task (and its due time) instead of creating a new one."}}, {"@type": "Question", "name": "Why aren't missed calls showing up in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Usually because the phone integration only logs answered calls, the call is logged under a user without access to the record, or the caller's number doesn't match any record. Make a test call, let it ring out and check what gets created."}}, {"@type": "Question", "name": "How fast should a missed seller call be returned?", "acceptedAnswer": {"@type": "Answer", "text": "As fast as you can. In Harvard Business Review's 2011 study, firms that contacted a lead within an hour were nearly seven times as likely to qualify it as firms that waited longer. Set a time limit with your team and escalate when it's missed."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Missed-call alerts in Salesforce", "item": "https://amrmagdy.com/missed-call-alerts-salesforce.html"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Missed-call alerts in Salesforce: turn every missed seller call into a callback", "description": "How to build missed-call alerts in Salesforce for a home-buying team: the phone integration, the Flow, callback tasks, Slack alerts, escalation, after-hours and text-back.", "url": "https://amrmagdy.com/missed-call-alerts-salesforce", "mainEntityOfPage": "https://amrmagdy.com/missed-call-alerts-salesforce", "inLanguage": "en-US", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-missed-call-alerts-salesforce.jpg?v=3", "about": [{"@type": "Thing", "name": "Salesforce Flow"}, {"@type": "Thing", "name": "Missed call alerts"}, {"@type": "Thing", "name": "Speed to lead"}, {"@type": "Thing", "name": "Real estate investing"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I get missed-call alerts in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Make sure your phone system logs missed calls to Salesforce with the direction, result and number called. Then build a record-triggered Flow on those call records that creates a callback task, alerts the owner and a Slack channel, and escalates if the task isn't done in time."}}, {"@type": "Question", "name": "Can Salesforce send missed-call alerts to Slack?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Flow has Slack actions once Salesforce and Slack are connected through Salesforce's Slack app and users have the right permission set. Teams without that connection often post alerts through a Zap or their phone system's own Slack integration."}}, {"@type": "Question", "name": "Can Salesforce text a missed caller back automatically?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, if your texting tool is connected to Salesforce, a Flow can send a short text after a missed call. Check consent and opt-out handling with whoever advises you on TCPA, make sure your number is 10DLC registered, and keep the callback task too."}}, {"@type": "Question", "name": "What happens if the caller isn't in Salesforce yet?", "acceptedAnswer": {"@type": "Answer", "text": "Something has to create a lead from the call, with the source and market of the number they dialed. If nothing does, the missed call has no record to attach to, and the alert never fires for the sellers you most want to catch."}}, {"@type": "Question", "name": "How do I stop duplicate callback tasks when a seller calls several times?", "acceptedAnswer": {"@type": "Answer", "text": "Before creating a task, have the Flow check whether the seller already has an open callback task. If so, update that task (and its due time) instead of creating a new one."}}, {"@type": "Question", "name": "Why aren't missed calls showing up in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Usually because the phone integration only logs answered calls, the call is logged under a user without access to the record, or the caller's number doesn't match any record. Make a test call, let it ring out and check what gets created."}}, {"@type": "Question", "name": "How fast should a missed seller call be returned?", "acceptedAnswer": {"@type": "Answer", "text": "As fast as you can. In Harvard Business Review's 2011 study, firms that contacted a lead within an hour were nearly seven times as likely to qualify it as firms that waited longer. Set a time limit with your team and escalate when it's missed."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Missed-call alerts in Salesforce", "item": "https://amrmagdy.com/missed-call-alerts-salesforce"}]}]}</script>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
   <nav class="nav" id="nav" aria-label="Main">
-    <a href="about.html">About</a>
+    <a href="about">About</a>
     <a href="./#services">Services</a>
     <a href="./#cases">Proof</a>
-    <a href="resources.html">Free tools</a>
-    <a href="blog.html">Guides</a>
-    <a href="crm-revenue-audit.html">Revenue Audit</a>
+    <a href="resources">Free tools</a>
+    <a href="blog">Guides</a>
+    <a href="crm-revenue-audit">Revenue Audit</a>
     <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
   </nav>
   <div class="top-act">
@@ -114,9 +115,9 @@
 <ol>
 <li><strong>Missed calls reach Salesforce.</strong> Most phone systems investor teams use connect to Salesforce, but some only log calls that were answered. Make a test call, let it ring out, and see whether a call record shows up on the lead, with a direction (inbound) and a result (missed or no answer).</li>
 <li><strong>The call lands on the right seller.</strong> The integration should match the caller's number to an existing lead or contact. If the caller is new, something has to create a lead, or the missed call has nowhere to live.</li>
-<li><strong>The number they called is captured.</strong> That's what tells you the source and market. Each marketing number should map to one campaign. See <a href="salesforce-lead-sources-real-estate.html">lead sources in Salesforce</a>.</li>
+<li><strong>The number they called is captured.</strong> That's what tells you the source and market. Each marketing number should map to one campaign. See <a href="salesforce-lead-sources-real-estate">lead sources in Salesforce</a>.</li>
 </ol>
-<p>If any of those fail, fix the integration first. More on that side in <a href="salesforce-dialer-real-estate.html">dialers in Salesforce</a> and the <a href="blog-ringcentral-salesforce-integration-real-estate.html">RingCentral integration guide</a>.</p>
+<p>If any of those fail, fix the integration first. More on that side in <a href="salesforce-dialer-real-estate">dialers in Salesforce</a> and the <a href="blog-ringcentral-salesforce-integration-real-estate">RingCentral integration guide</a>.</p>
 <p>In the org I run, calls create leads and every marketing number sends a missed-call alert to Slack. Everything below assumes the same starting point.</p>
 
 <h2 id="flow">How the automation works</h2>
@@ -133,7 +134,7 @@
 <tr><td>7. Escalate</td><td>A scheduled path checks again after your time limit. If the callback task is still open, it alerts the manager and can move the lead to a shared queue.</td></tr>
 </tbody></table></div>
 <p>Slack alerts from a Flow need Salesforce and Slack connected through Salesforce's Slack app, with the right permission set on the users involved. Without that, a Zap or your phone system's own Slack integration can post the message, but then you have one more thing to monitor.</p>
-<p>When a notification turns out to be noisy, ops should be able to switch it off without editing the Flow. I build that with a <a href="blog-salesforce-configuration-object-real-estate.html">configuration object</a>, a settings record that turns individual alerts on or off.</p>
+<p>When a notification turns out to be noisy, ops should be able to switch it off without editing the Flow. I build that with a <a href="blog-salesforce-configuration-object-real-estate">configuration object</a>, a settings record that turns individual alerts on or off.</p>
 
 <h2 id="who">Who should get the alert?</h2>
 <ul>
@@ -166,9 +167,9 @@
 <li><strong>The integration only logs answered calls</strong>, so missed calls never reach Salesforce.</li>
 <li><strong>Calls from new numbers create nothing</strong>, so the sellers you most want to catch are the ones that slip.</li>
 <li><strong>Three calls, three tasks.</strong> Without step 3 above, reps get a pile of tasks for one seller and start ignoring them.</li>
-<li><strong>Alerts go to someone who left.</strong> See the <a href="salesforce-admin-left.html">admin handover plan</a> for everything that keeps pointing at a former user.</li>
+<li><strong>Alerts go to someone who left.</strong> See the <a href="salesforce-admin-left">admin handover plan</a> for everything that keeps pointing at a former user.</li>
 <li><strong>The Slack channel is muted.</strong> Ask the team. Honestly.</li>
-<li><strong>Nobody tests it.</strong> It worked the day it was built, and then a picklist value changed. A test call once a week catches that. More in <a href="salesforce-automation-monitoring.html">monitoring Salesforce automations</a>.</li>
+<li><strong>Nobody tests it.</strong> It worked the day it was built, and then a picklist value changed. A test call once a week catches that. More in <a href="salesforce-automation-monitoring">monitoring Salesforce automations</a>.</li>
 </ul>
 
 <h2 id="measure">How do you know it's working?</h2>
@@ -178,57 +179,57 @@
 <li><strong>Time from missed call to callback</strong>, by rep, measured from the next business morning for overnight calls.</li>
 <li><strong>A test call every week</strong> to one of your numbers, left to ring out, to see the task and the alert appear.</li>
 </ul>
-<p>To put a dollar figure on what missed calls cost you each month, use the <a href="missed-call-cost-calculator.html">missed call cost calculator</a>. For the research on response times, see my <a href="real-estate-lead-response-statistics.html">lead response statistics</a>.</p>
+<p>To put a dollar figure on what missed calls cost you each month, use the <a href="missed-call-cost-calculator">missed call cost calculator</a>. For the research on response times, see my <a href="real-estate-lead-response-statistics">lead response statistics</a>.</p>
 </section>
 <section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>How do I get missed-call alerts in Salesforce?</h3><p>Make sure your phone system logs missed calls to Salesforce with the direction, result and number called. Then build a record-triggered Flow on those call records that creates a callback task, alerts the owner and a Slack channel, and escalates if the task isn't done in time.</p></div><div class="cq"><h3>Can Salesforce send missed-call alerts to Slack?</h3><p>Yes. Flow has Slack actions once Salesforce and Slack are connected through Salesforce's Slack app and users have the right permission set. Teams without that connection often post alerts through a Zap or their phone system's own Slack integration.</p></div><div class="cq"><h3>Can Salesforce text a missed caller back automatically?</h3><p>Yes, if your texting tool is connected to Salesforce, a Flow can send a short text after a missed call. Check consent and opt-out handling with whoever advises you on TCPA, make sure your number is 10DLC registered, and keep the callback task too.</p></div><div class="cq"><h3>What happens if the caller isn't in Salesforce yet?</h3><p>Something has to create a lead from the call, with the source and market of the number they dialed. If nothing does, the missed call has no record to attach to, and the alert never fires for the sellers you most want to catch.</p></div><div class="cq"><h3>How do I stop duplicate callback tasks when a seller calls several times?</h3><p>Before creating a task, have the Flow check whether the seller already has an open callback task. If so, update that task (and its due time) instead of creating a new one.</p></div><div class="cq"><h3>Why aren't missed calls showing up in Salesforce?</h3><p>Usually because the phone integration only logs answered calls, the call is logged under a user without access to the record, or the caller's number doesn't match any record. Make a test call, let it ring out and check what gets created.</p></div><div class="cq"><h3>How fast should a missed seller call be returned?</h3><p>As fast as you can. In Harvard Business Review's 2011 study, firms that contacted a lead within an hour were nearly seven times as likely to qualify it as firms that waited longer. Set a time limit with your team and escalate when it's missed.</p></div></section>
-<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="speed-to-lead-real-estate-investors.html"><b>Speed to lead for investors</b><span>The first-hour rule and how to measure it.</span></a><a href="blog-salesforce-lead-routing-real-estate.html"><b>Lead and call routing</b><span>Round robin, queues, after-hours and escalation.</span></a><a href="missed-call-cost-calculator.html"><b>Missed call cost calculator</b><span>What missed calls cost you each month.</span></a><a href="salesforce-dialer-real-estate.html"><b>Dialers in Salesforce</b><span>Getting every call onto the seller record.</span></a><a href="salesforce-texting-real-estate.html"><b>Texting in Salesforce</b><span>Text-back, cadences and 10DLC.</span></a><a href="salesforce-automation-monitoring.html"><b>Monitoring automations</b><span>How to know when an alert stops firing.</span></a></div></section>
-<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.</p><ol class="src"><li><a href="real-estate-lead-response-statistics.html">Speed to lead and follow-up statistics for real estate (this site)</a>. Invoca 2021 voicemail figure and HBR 2011 response-time figures, each with its source</li><li><a href="https://www.salesforceben.com/ultimate-guide-to-slack-actions-in-salesforce-flow/" rel="noopener" target="_blank">Salesforce Ben: Slack actions in Salesforce Flow</a>. Sending Slack messages from Flow, and the Slack app and permission set it needs</li></ol></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="speed-to-lead-real-estate-investors"><b>Speed to lead for investors</b><span>The first-hour rule and how to measure it.</span></a><a href="blog-salesforce-lead-routing-real-estate"><b>Lead and call routing</b><span>Round robin, queues, after-hours and escalation.</span></a><a href="missed-call-cost-calculator"><b>Missed call cost calculator</b><span>What missed calls cost you each month.</span></a><a href="salesforce-dialer-real-estate"><b>Dialers in Salesforce</b><span>Getting every call onto the seller record.</span></a><a href="salesforce-texting-real-estate"><b>Texting in Salesforce</b><span>Text-back, cadences and 10DLC.</span></a><a href="salesforce-automation-monitoring"><b>Monitoring automations</b><span>How to know when an alert stops firing.</span></a></div></section>
+<section class="sec2"><h2 id="sources">Sources</h2><p class="note">Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.</p><ol class="src"><li><a href="real-estate-lead-response-statistics">Speed to lead and follow-up statistics for real estate (this site)</a>. Invoca 2021 voicemail figure and HBR 2011 response-time figures, each with its source</li><li><a href="https://www.salesforceben.com/ultimate-guide-to-slack-actions-in-salesforce-flow/" rel="noopener" target="_blank">Salesforce Ben: Slack actions in Salesforce Flow</a>. Sending Slack messages from Flow, and the Slack app and permission set it needs</li></ol></section>
 <div class="cta"><h2>Want to know how many calls you're missing?</h2><p>Missed-call handling is one of the first things the fixed-price CRM Revenue Audit (USD 1,500) checks, with the likely cost and a fix plan, plus up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.</p>
-<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Missed-call%20alerts%20in%20Salesforce%3A%20turn%20every%20missed%20seller%20call...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/missed-call-alerts-salesforce.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Missed-call%20alerts%20in%20Salesforce%3A%20turn%20every%20missed%20seller%20call...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+<a href="./#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Missed-call%20alerts%20in%20Salesforce%3A%20turn%20every%20missed%20seller%20call...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/missed-call-alerts-salesforce%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Missed-call%20alerts%20in%20Salesforce%3A%20turn%20every%20missed%20seller%20call...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
 </div></main>
 
 
 <section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
 <img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
-<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
-<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources">Free tools</a> · <a href="crm-revenue-audit">CRM Revenue Audit</a></p></div></div></section>
 <footer class="foot"><div class="wrap">
   <div class="foot-grid">
     <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
     <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
-      <li><a href="crm-revenue-audit.html">CRM Revenue Audit</a></li>
-      <li><a href="sample-audit-report.html">Sample audit report</a></li>
-      <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
-      <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
-      <li><a href="crm-revenue-audit-terms.html">Audit scope and terms</a></li>
+      <li><a href="crm-revenue-audit">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report">Sample audit report</a></li>
+      <li><a href="move-to-salesforce">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors">Admin or retainer?</a></li>
+      <li><a href="crm-revenue-audit-terms">Audit scope and terms</a></li>
     </ul></nav>
     <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
-      <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
-      <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
-      <li><a href="wholesale-deal-analyzer.html">Wholesale deal analyzer</a></li>
-      <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
-      <li><a href="resources.html">All free tools</a></li>
+      <li><a href="deal-leak-score">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator">Cost per deal calculator</a></li>
+      <li><a href="wholesale-deal-analyzer">Wholesale deal analyzer</a></li>
+      <li><a href="kept-deal-map">Kept-Deal Map</a></li>
+      <li><a href="resources">All free tools</a></li>
     </ul></nav>
     <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
-      <li><a href="real-estate-crm-guide.html">Real estate CRM guide</a></li>
-      <li><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a></li>
-      <li><a href="podio-alternative-wholesalers.html">Moving off Podio</a></li>
-      <li><a href="videos.html">Videos</a></li>
-      <li><a href="blog.html">All guides</a></li>
+      <li><a href="real-estate-crm-guide">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers">Moving off Podio</a></li>
+      <li><a href="videos">Videos</a></li>
+      <li><a href="blog">All guides</a></li>
     </ul></nav>
     <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
       <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
       <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
       <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href="salesforce-consultant-canada-real-estate.html">Canada</a> · <a href="salesforce-consultant-uk-estate-agents.html">UK</a></li>
-      <li><a href="about.html">About me</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate">Canada</a> · <a href="salesforce-consultant-uk-estate-agents">UK</a></li>
+      <li><a href="about">About me</a></li>
       <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
     </ul></nav>
   </div>
-  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy.html">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
 </div></footer>
 
-<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit.html">The audit</a></div>
+<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit">The audit</a></div>
 <script src="assets/chrome.js" defer></script>
 
 <script src="booking.js" defer></script>

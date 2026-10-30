@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>if(/\.html$/.test(location.pathname))try{history.replaceState(null,'',location.pathname.replace(/(^|\/)index\.html$/,'$1').replace(/\.html$/,'')+location.search+location.hash)}catch(e){}</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
@@ -10,12 +11,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Real Estate Investor KPIs: What to Track in Salesforce</title>
 <meta name="description" content="The KPIs a home-buying or wholesaling team should track by role, from marketing to the owner, how each is defined and built in Salesforce, and how to tie them to the books.">
-<link rel="canonical" href="https://amrmagdy.com/blog-salesforce-kpis-real-estate.html">
+<link rel="canonical" href="https://amrmagdy.com/blog-salesforce-kpis-real-estate">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
 <meta name="theme-color" content="#f7f4ef">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://amrmagdy.com/blog-salesforce-kpis-real-estate.html">
+<meta property="og:url" content="https://amrmagdy.com/blog-salesforce-kpis-real-estate">
 <meta property="og:title" content="Real estate investor KPIs: what each role should track, and how to build it in Salesforce">
 <meta property="og:description" content="The KPIs a home-buying or wholesaling team should track by role, from marketing to the owner, how each is defined and built in Salesforce, and how to tie them to the books.">
 <meta property="og:image" content="https://amrmagdy.com/imgs/og-blog-salesforce-kpis-real-estate.jpg?v=3">
@@ -79,18 +80,18 @@
 .faqcat{margin-top:40px}
 </style>
 <script>if((function(){try{var t=localStorage.getItem('theme');if(t)return t}catch(e){}var m=document.cookie.match(/(?:^|; )theme=(\w+)/);return m&&m[1]})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BlogPosting", "headline": "Real estate investor KPIs: what each role should track, and how to build it in Salesforce", "description": "The KPIs a home-buying or wholesaling team should track by role, from marketing to the owner, how each is defined and built in Salesforce, and how to tie them to the books.", "url": "https://amrmagdy.com/blog-salesforce-kpis-real-estate.html", "mainEntityOfPage": "https://amrmagdy.com/blog-salesforce-kpis-real-estate.html", "inLanguage": "en-US", "datePublished": "2025-03-28", "dateModified": "2026-10-26", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about.html"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-blog-salesforce-kpis-real-estate.jpg?v=3", "about": [{"@type": "Thing", "name": "Key performance indicators"}, {"@type": "Thing", "name": "Real estate investing"}, {"@type": "Thing", "name": "Wholesaling real estate"}, {"@type": "Thing", "name": "Salesforce reports"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What KPIs should a real estate investor track?", "acceptedAnswer": {"@type": "Answer", "text": "By role: cost per appointment and per contract by campaign for marketing, time to first contact for the lead manager, appointments, offers and contracts for acquisitions, days to assign for dispositions, on-time closings and cancellations for the transaction coordinator, and profit on closed deals by campaign and market for the owner."}}, {"@type": "Question", "name": "What KPIs should a wholesaling acquisitions team track?", "acceptedAnswer": {"@type": "Answer", "text": "Appointments set and completed, offers made, offer to contract rate and contracts signed, by rep. Also track open leads with no next step and overdue follow-ups, because those are the leads that quietly die."}}, {"@type": "Question", "name": "What KPIs does a dispositions manager track?", "acceptedAnswer": {"@type": "Answer", "text": "Days from contract to an assigned buyer, projected against actual fee, deals with no buyer after a set number of days, and repeat buyers over the last 12 months."}}, {"@type": "Question", "name": "How do I measure speed to lead in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Stamp the time of the first logged call or text on the lead with a Flow, and use a formula for the minutes since the lead arrived. Flag leads that arrive after hours and measure them from the next business morning, so they don't distort the number."}}, {"@type": "Question", "name": "Should I track cost per lead or cost per contract?", "acceptedAnswer": {"@type": "Answer", "text": "Both, but judge channels on cost per appointment and cost per contract, and settle budgets on ROI from deals that actually closed. A cheap lead that never answers costs more than an expensive one that signs."}}, {"@type": "Question", "name": "Can Salesforce track real estate KPIs with accounting data?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Enter or sync monthly spend per campaign and the final fee or profit on each closed deal from your accounting system, for example QuickBooks Online through a connector, and reconcile monthly so ROI matches the books."}}, {"@type": "Question", "name": "How many KPIs should a real estate team track?", "acceptedAnswer": {"@type": "Answer", "text": "One or two per role, and about five for the owner's weekly meeting. Past that, people stop reading them."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://amrmagdy.com/blog.html"}, {"@type": "ListItem", "position": 3, "name": "Real estate investor KPIs in Salesforce", "item": "https://amrmagdy.com/blog-salesforce-kpis-real-estate.html"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BlogPosting", "headline": "Real estate investor KPIs: what each role should track, and how to build it in Salesforce", "description": "The KPIs a home-buying or wholesaling team should track by role, from marketing to the owner, how each is defined and built in Salesforce, and how to tie them to the books.", "url": "https://amrmagdy.com/blog-salesforce-kpis-real-estate", "mainEntityOfPage": "https://amrmagdy.com/blog-salesforce-kpis-real-estate", "inLanguage": "en-US", "datePublished": "2025-03-28", "dateModified": "2026-10-26", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-blog-salesforce-kpis-real-estate.jpg?v=3", "about": [{"@type": "Thing", "name": "Key performance indicators"}, {"@type": "Thing", "name": "Real estate investing"}, {"@type": "Thing", "name": "Wholesaling real estate"}, {"@type": "Thing", "name": "Salesforce reports"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What KPIs should a real estate investor track?", "acceptedAnswer": {"@type": "Answer", "text": "By role: cost per appointment and per contract by campaign for marketing, time to first contact for the lead manager, appointments, offers and contracts for acquisitions, days to assign for dispositions, on-time closings and cancellations for the transaction coordinator, and profit on closed deals by campaign and market for the owner."}}, {"@type": "Question", "name": "What KPIs should a wholesaling acquisitions team track?", "acceptedAnswer": {"@type": "Answer", "text": "Appointments set and completed, offers made, offer to contract rate and contracts signed, by rep. Also track open leads with no next step and overdue follow-ups, because those are the leads that quietly die."}}, {"@type": "Question", "name": "What KPIs does a dispositions manager track?", "acceptedAnswer": {"@type": "Answer", "text": "Days from contract to an assigned buyer, projected against actual fee, deals with no buyer after a set number of days, and repeat buyers over the last 12 months."}}, {"@type": "Question", "name": "How do I measure speed to lead in Salesforce?", "acceptedAnswer": {"@type": "Answer", "text": "Stamp the time of the first logged call or text on the lead with a Flow, and use a formula for the minutes since the lead arrived. Flag leads that arrive after hours and measure them from the next business morning, so they don't distort the number."}}, {"@type": "Question", "name": "Should I track cost per lead or cost per contract?", "acceptedAnswer": {"@type": "Answer", "text": "Both, but judge channels on cost per appointment and cost per contract, and settle budgets on ROI from deals that actually closed. A cheap lead that never answers costs more than an expensive one that signs."}}, {"@type": "Question", "name": "Can Salesforce track real estate KPIs with accounting data?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Enter or sync monthly spend per campaign and the final fee or profit on each closed deal from your accounting system, for example QuickBooks Online through a connector, and reconcile monthly so ROI matches the books."}}, {"@type": "Question", "name": "How many KPIs should a real estate team track?", "acceptedAnswer": {"@type": "Answer", "text": "One or two per role, and about five for the owner's weekly meeting. Past that, people stop reading them."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://amrmagdy.com/blog"}, {"@type": "ListItem", "position": 3, "name": "Real estate investor KPIs in Salesforce", "item": "https://amrmagdy.com/blog-salesforce-kpis-real-estate"}]}]}</script>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
   <nav class="nav" id="nav" aria-label="Main">
-    <a href="about.html">About</a>
+    <a href="about">About</a>
     <a href="./#services">Services</a>
     <a href="./#cases">Proof</a>
-    <a href="resources.html">Free tools</a>
-    <a href="blog.html">Guides</a>
-    <a href="crm-revenue-audit.html">Revenue Audit</a>
+    <a href="resources">Free tools</a>
+    <a href="blog">Guides</a>
+    <a href="crm-revenue-audit">Revenue Audit</a>
     <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
   </nav>
   <div class="top-act">
@@ -117,7 +118,7 @@
 <li><strong>It leads to a decision.</strong> If nobody would do anything differently when it moves, drop it.</li>
 <li><strong>It counts what you keep.</strong> Closed deals, not signed contracts. Contracts that fall apart shouldn't make a campaign look good.</li>
 </ul>
-<p>The rest of this page is laid out by role. For who does what on a typical team, see <a href="wholesaling-team-roles-crm.html">wholesaling team roles</a>.</p>
+<p>The rest of this page is laid out by role. For who does what on a typical team, see <a href="wholesaling-team-roles-crm">wholesaling team roles</a>.</p>
 
 <h2 id="marketing">Marketing KPIs</h2>
 <div class="tw"><table>
@@ -130,7 +131,7 @@
 <tr><td>Cost per closed deal</td><td>Spend ÷ deals that actually closed, cancellations left out</td><td>Closed deals by original campaign</td></tr>
 <tr><td>ROI on kept deals</td><td>(Profit from closed deals + equity in houses you kept − spend) ÷ spend</td><td>Final profit on each closed deal, and a kept flag with an equity value (after-repair value minus all-in cost)</td></tr>
 </tbody></table></div>
-<p>Cost per lead is the most quoted and the least useful on its own. A cheap lead that never answers costs more than an expensive one that signs. Judge channels on cost per appointment and cost per contract, and settle budgets on ROI. Which campaign gets credit when a seller responds to several is its own question, covered in <a href="real-estate-lead-attribution.html">lead attribution for investors</a>.</p>
+<p>Cost per lead is the most quoted and the least useful on its own. A cheap lead that never answers costs more than an expensive one that signs. Judge channels on cost per appointment and cost per contract, and settle budgets on ROI. Which campaign gets credit when a seller responds to several is its own question, covered in <a href="real-estate-lead-attribution">lead attribution for investors</a>.</p>
 
 <h2 id="first-contact">First contact: lead manager and cold callers</h2>
 <div class="tw"><table>
@@ -141,7 +142,7 @@
 <tr><td>Missed calls without a callback</td><td>Missed seller calls with no callback inside your time limit</td><td>Missed calls logged by the phone system, with a callback task; target zero</td></tr>
 <tr><td>Qualified leads passed</td><td>Handoffs to acquisitions with every required field filled</td><td>Required fields on the handoff stage</td></tr>
 </tbody></table></div>
-<p>Leads that arrive at night make time to first contact look worse than the team's real performance. Flag them and measure them from the start of the next business morning. The org I run tracks time until contacted, and flags leads that arrive overnight. Set the target with your team; the research on response times is in my <a href="real-estate-lead-response-statistics.html">lead response statistics</a>, and the setup is in <a href="speed-to-lead-real-estate-investors.html">speed to lead for investors</a>.</p>
+<p>Leads that arrive at night make time to first contact look worse than the team's real performance. Flag them and measure them from the start of the next business morning. The org I run tracks time until contacted, and flags leads that arrive overnight. Set the target with your team; the research on response times is in my <a href="real-estate-lead-response-statistics">lead response statistics</a>, and the setup is in <a href="speed-to-lead-real-estate-investors">speed to lead for investors</a>.</p>
 
 <h2 id="acquisitions">Acquisitions KPIs</h2>
 <div class="tw"><table>
@@ -154,7 +155,7 @@
 <tr><td>Open leads with no next step</td><td>Open leads without a future task</td><td>A cross filter: leads without open activities</td></tr>
 <tr><td>Overdue follow-ups</td><td>Follow-up tasks past their due date, by rep</td><td>Task report, due date before today, not completed</td></tr>
 </tbody></table></div>
-<p>Dials and talk time help when you're coaching a new rep. Judge experienced reps on what turns into money: appointments, offers and contracts, and on not letting leads go quiet. For the fields and tasks behind two of these, see <a href="seller-appointment-no-shows-salesforce.html">appointment no-shows</a> and <a href="offer-follow-up-salesforce.html">offer follow-up</a>. If you're about to add reps, see <a href="add-acquisitions-reps-crm.html">what to set up before a new rep starts</a>, including a ramp report.</p>
+<p>Dials and talk time help when you're coaching a new rep. Judge experienced reps on what turns into money: appointments, offers and contracts, and on not letting leads go quiet. For the fields and tasks behind two of these, see <a href="seller-appointment-no-shows-salesforce">appointment no-shows</a> and <a href="offer-follow-up-salesforce">offer follow-up</a>. If you're about to add reps, see <a href="add-acquisitions-reps-crm">what to set up before a new rep starts</a>, including a ramp report.</p>
 
 <h2 id="dispositions">Dispositions KPIs</h2>
 <div class="tw"><table>
@@ -165,7 +166,7 @@
 <tr><td>Deals with no buyer after a set number of days</td><td>Deals under contract with no buyer past your limit</td><td>A report filtered on days since contract and no buyer</td></tr>
 <tr><td>Repeat buyers</td><td>Buyers who closed more than one deal with you in the last 12 months</td><td>Buyers and deals in one custom report type</td></tr>
 </tbody></table></div>
-<p>More on the buyer side in <a href="salesforce-dispositions-real-estate.html">dispositions in Salesforce</a>.</p>
+<p>More on the buyer side in <a href="salesforce-dispositions-real-estate">dispositions in Salesforce</a>.</p>
 
 <h2 id="transactions">Transaction coordination KPIs</h2>
 <div class="tw"><table>
@@ -186,7 +187,7 @@
 <li><strong>Deals closed per month</strong>, by market.</li>
 <li><strong>Profit per acquisitions rep</strong>, over a quarter rather than a week.</li>
 </ul>
-<p>For the Monday meeting, the short version is the <a href="monday-5-real-estate-kpis.html">Monday 5</a>: cost per appointment by campaign, contracts per campaign, contract to first seller call, booked vs. kept profit, and campaign ROI that includes the houses you keep.</p>
+<p>For the Monday meeting, the short version is the <a href="monday-5-real-estate-kpis">Monday 5</a>: cost per appointment by campaign, contracts per campaign, contract to first seller call, booked vs. kept profit, and campaign ROI that includes the houses you keep.</p>
 
 <h2 id="accounting">How do you tie KPIs to your accounting?</h2>
 <p>Salesforce isn't accounting software, and it shouldn't try to be. The CRM should know what each deal was expected to make and what it actually made. The books hold the money. Two connections keep the KPIs honest:</p>
@@ -194,7 +195,7 @@
 <li><strong>Spend by campaign, every month</strong>, entered from the books or synced from them.</li>
 <li><strong>The final fee or profit on every closed deal</strong>, matching what accounting recorded.</li>
 </ol>
-<p>Some teams type both in once a month. Others connect QuickBooks Online through a connector, which is covered in <a href="salesforce-quickbooks-real-estate.html">QuickBooks and Salesforce for investors</a>. Either way, reconcile once a month, because ROI built on spend that doesn't match the books is wrong however good the rest is. Campaign ROI by market and source, checked against the books, is one of the things I built for a two-market home-buying company in Ohio.</p>
+<p>Some teams type both in once a month. Others connect QuickBooks Online through a connector, which is covered in <a href="salesforce-quickbooks-real-estate">QuickBooks and Salesforce for investors</a>. Either way, reconcile once a month, because ROI built on spend that doesn't match the books is wrong however good the rest is. Campaign ROI by market and source, checked against the books, is one of the things I built for a two-market home-buying company in Ohio.</p>
 
 <h2 id="build">How do you build KPIs people trust?</h2>
 <ul>
@@ -204,57 +205,57 @@
 <li><strong>Require fields by stage</strong>, so a deal can't reach "under contract" without a closing date or "closed" without the final fee.</li>
 <li><strong>Save the history.</strong> Reporting snapshots store a report's results on a schedule, so you can chart trends week by week.</li>
 </ul>
-<p>The reports behind most of these are in my <a href="salesforce-reports-wholesalers.html">20 Salesforce report recipes</a>. How to lay them out for each role is in the <a href="blog-salesforce-real-estate-pipeline-dashboard.html">pipeline dashboard guide</a>, and if a number looks off, start with <a href="salesforce-dashboard-wrong-numbers.html">why Salesforce numbers don't match</a>.</p>
+<p>The reports behind most of these are in my <a href="salesforce-reports-wholesalers">20 Salesforce report recipes</a>. How to lay them out for each role is in the <a href="blog-salesforce-real-estate-pipeline-dashboard">pipeline dashboard guide</a>, and if a number looks off, start with <a href="salesforce-dashboard-wrong-numbers">why Salesforce numbers don't match</a>.</p>
 </section>
 <section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>What KPIs should a real estate investor track?</h3><p>By role: cost per appointment and per contract by campaign for marketing, time to first contact for the lead manager, appointments, offers and contracts for acquisitions, days to assign for dispositions, on-time closings and cancellations for the transaction coordinator, and profit on closed deals by campaign and market for the owner.</p></div><div class="cq"><h3>What KPIs should a wholesaling acquisitions team track?</h3><p>Appointments set and completed, offers made, offer to contract rate and contracts signed, by rep. Also track open leads with no next step and overdue follow-ups, because those are the leads that quietly die.</p></div><div class="cq"><h3>What KPIs does a dispositions manager track?</h3><p>Days from contract to an assigned buyer, projected against actual fee, deals with no buyer after a set number of days, and repeat buyers over the last 12 months.</p></div><div class="cq"><h3>How do I measure speed to lead in Salesforce?</h3><p>Stamp the time of the first logged call or text on the lead with a Flow, and use a formula for the minutes since the lead arrived. Flag leads that arrive after hours and measure them from the next business morning, so they don't distort the number.</p></div><div class="cq"><h3>Should I track cost per lead or cost per contract?</h3><p>Both, but judge channels on cost per appointment and cost per contract, and settle budgets on ROI from deals that actually closed. A cheap lead that never answers costs more than an expensive one that signs.</p></div><div class="cq"><h3>Can Salesforce track real estate KPIs with accounting data?</h3><p>Yes. Enter or sync monthly spend per campaign and the final fee or profit on each closed deal from your accounting system, for example QuickBooks Online through a connector, and reconcile monthly so ROI matches the books.</p></div><div class="cq"><h3>How many KPIs should a real estate team track?</h3><p>One or two per role, and about five for the owner's weekly meeting. Past that, people stop reading them.</p></div></section>
-<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="monday-5-real-estate-kpis.html"><b>The Monday 5</b><span>The five numbers for the owner's weekly meeting.</span></a><a href="blog-salesforce-real-estate-pipeline-dashboard.html"><b>Pipeline dashboard guide</b><span>How to lay the numbers out for each role.</span></a><a href="salesforce-reports-wholesalers.html"><b>20 report recipes</b><span>The reports behind most of these KPIs.</span></a><a href="blog-salesforce-financial-analytics-real-estate.html"><b>Deal profit and campaign ROI</b><span>The fields and formulas for profit by campaign.</span></a><a href="salesforce-quickbooks-real-estate.html"><b>QuickBooks and Salesforce</b><span>Getting spend and fees into one report.</span></a><a href="offer-follow-up-salesforce.html"><b>Offer follow-up in Salesforce</b><span>The fields and tasks behind offers made and offer to contract rate.</span></a></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="monday-5-real-estate-kpis"><b>The Monday 5</b><span>The five numbers for the owner's weekly meeting.</span></a><a href="blog-salesforce-real-estate-pipeline-dashboard"><b>Pipeline dashboard guide</b><span>How to lay the numbers out for each role.</span></a><a href="salesforce-reports-wholesalers"><b>20 report recipes</b><span>The reports behind most of these KPIs.</span></a><a href="blog-salesforce-financial-analytics-real-estate"><b>Deal profit and campaign ROI</b><span>The fields and formulas for profit by campaign.</span></a><a href="salesforce-quickbooks-real-estate"><b>QuickBooks and Salesforce</b><span>Getting spend and fees into one report.</span></a><a href="offer-follow-up-salesforce"><b>Offer follow-up in Salesforce</b><span>The fields and tasks behind offers made and offer to contract rate.</span></a></div></section>
 
 <div class="cta"><h2>Not sure your numbers add up?</h2><p>The fixed-price CRM Revenue Audit (USD 1,500) checks the numbers you run the business on against the data underneath, and defines your Monday 5 field by field for your org. It's for teams already on Salesforce. On another CRM? A move to Salesforce can build these in from the start.</p>
-<a href="index.html#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit.html" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Real%20estate%20investor%20KPIs%3A%20what%20each%20role%20should%20track%2C%20and%20how%20to...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog-salesforce-kpis-real-estate.html%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Real%20estate%20investor%20KPIs%3A%20what%20each%20role%20should%20track%2C%20and%20how%20to...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+<a href="./#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Real%20estate%20investor%20KPIs%3A%20what%20each%20role%20should%20track%2C%20and%20how%20to...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/blog-salesforce-kpis-real-estate%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Real%20estate%20investor%20KPIs%3A%20what%20each%20role%20should%20track%2C%20and%20how%20to...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
 </div></main>
 
 
 <section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
 <img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
-<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about.html">Amr Magdy</a></p>
-<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources.html">Free tools</a> · <a href="crm-revenue-audit.html">CRM Revenue Audit</a></p></div></div></section>
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources">Free tools</a> · <a href="crm-revenue-audit">CRM Revenue Audit</a></p></div></div></section>
 <footer class="foot"><div class="wrap">
   <div class="foot-grid">
     <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
     <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
-      <li><a href="crm-revenue-audit.html">CRM Revenue Audit</a></li>
-      <li><a href="sample-audit-report.html">Sample audit report</a></li>
-      <li><a href="move-to-salesforce.html">Move to Salesforce</a></li>
-      <li><a href="salesforce-admin-real-estate-investors.html">Admin or retainer?</a></li>
-      <li><a href="crm-revenue-audit-terms.html">Audit scope and terms</a></li>
+      <li><a href="crm-revenue-audit">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report">Sample audit report</a></li>
+      <li><a href="move-to-salesforce">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors">Admin or retainer?</a></li>
+      <li><a href="crm-revenue-audit-terms">Audit scope and terms</a></li>
     </ul></nav>
     <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
-      <li><a href="deal-leak-score.html">Deal Leak Score</a></li>
-      <li><a href="wholesaling-cost-per-deal-calculator.html">Cost per deal calculator</a></li>
-      <li><a href="wholesale-deal-analyzer.html">Wholesale deal analyzer</a></li>
-      <li><a href="kept-deal-map.html">Kept-Deal Map</a></li>
-      <li><a href="resources.html">All free tools</a></li>
+      <li><a href="deal-leak-score">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator">Cost per deal calculator</a></li>
+      <li><a href="wholesale-deal-analyzer">Wholesale deal analyzer</a></li>
+      <li><a href="kept-deal-map">Kept-Deal Map</a></li>
+      <li><a href="resources">All free tools</a></li>
     </ul></nav>
     <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
-      <li><a href="real-estate-crm-guide.html">Real estate CRM guide</a></li>
-      <li><a href="salesforce-vs-investor-crms.html">Salesforce vs investor CRMs</a></li>
-      <li><a href="podio-alternative-wholesalers.html">Moving off Podio</a></li>
-      <li><a href="videos.html">Videos</a></li>
-      <li><a href="blog.html">All guides</a></li>
+      <li><a href="real-estate-crm-guide">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers">Moving off Podio</a></li>
+      <li><a href="videos">Videos</a></li>
+      <li><a href="blog">All guides</a></li>
     </ul></nav>
     <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
       <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
       <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
       <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href="salesforce-consultant-canada-real-estate.html">Canada</a> · <a href="salesforce-consultant-uk-estate-agents.html">UK</a></li>
-      <li><a href="about.html">About me</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate">Canada</a> · <a href="salesforce-consultant-uk-estate-agents">UK</a></li>
+      <li><a href="about">About me</a></li>
       <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
     </ul></nav>
   </div>
-  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy.html">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
 </div></footer>
 
-<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit.html">The audit</a></div>
+<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit">The audit</a></div>
 <script src="assets/chrome.js" defer></script>
 
 <script src="booking.js" defer></script>

@@ -250,7 +250,7 @@ Connect on LinkedIn linkedin.com/in/amrmagdyai
 
 ---
 ## About Amr Magdy | Salesforce CRM Consultant
-URL: https://amrmagdy.com/about.html
+URL: https://amrmagdy.com/about
 
 About
 Amr Magdy , Salesforce CRM Consultant for real estate investor teams
@@ -322,7 +322,7 @@ Connect on LinkedIn linkedin.com/in/amrmagdyai
 
 ---
 ## Acquisitions Team Capacity Calculator for Wholesalers
-URL: https://amrmagdy.com/acquisitions-team-capacity-calculator.html
+URL: https://amrmagdy.com/acquisitions-team-capacity-calculator
 
 How many acquisition reps do you need?
 Add up the hours your seller leads actually need each month (first calls, follow-up and offers) and compare them with what your team can cover. When the hours needed are higher than the hours available, leads go uncalled, whatever your CRM says.
@@ -357,7 +357,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Adding Acquisitions Reps: What to Set Up in Salesforce First
-URL: https://amrmagdy.com/add-acquisitions-reps-crm.html
+URL: https://amrmagdy.com/add-acquisitions-reps-crm
 
 Adding acquisitions reps? Set this up in Salesforce before their first call
 Adding a rep usually goes like this: a login, a dialer seat, a couple of days listening to calls, and then leads. The first weeks are when leads slip the most, and nobody notices until the owner asks about a seller who never got a callback. This checklist is for owners and acquisitions managers on Salesforce who are about to hire. It's what I'd want in place before a new rep's first call, plus two short check-ins after.
@@ -431,7 +431,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## AI for Wholesalers: Lead Follow-Up Jobs to Automate First
-URL: https://amrmagdy.com/ai-for-wholesalers-lead-follow-up.html
+URL: https://amrmagdy.com/ai-for-wholesalers-lead-follow-up
 
 AI for wholesalers: the follow-up jobs to automate first, and the ones to leave alone
 Every vendor now promises an AI that answers calls, qualifies sellers and follows up for you. Some of it works. The part nobody mentions is that AI is only as good as the system underneath it: if your CRM has duplicate sellers, no stage rules and no consent flags, an AI will follow up on the wrong people, in the wrong order, at the wrong time, faster than a person could. This guide ranks the follow-up jobs by how much they give back and how much they can go wrong, covers the rules for AI calls and texts, and gives a 30-day plan. It's written from a systems view, not a product view: I'm not selling an AI tool, so there is no ranking of brands here.
@@ -512,7 +512,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Assignment vs Double Close Calculator for Wholesalers
-URL: https://amrmagdy.com/assignment-vs-double-close-calculator.html
+URL: https://amrmagdy.com/assignment-vs-double-close-calculator
 
 Assignment vs double close calculator.
 Should you assign the contract or double close? Enter your contract price, the end buyer's price and your costs for each route to see what you actually keep, and how big the spread has to be before a double close is worth it.
@@ -546,7 +546,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Best CRM for Wholesalers (2026): 11 Options Compared
-URL: https://amrmagdy.com/best-crm-for-wholesalers.html
+URL: https://amrmagdy.com/best-crm-for-wholesalers
 
 Best CRM for wholesalers in 2026.
 There isn’t one best CRM for wholesalers. There’s a best one for your team size and the tools you already use. Below are 11 options compared on the things that matter for wholesaling, with every feature and price linked to the vendor’s own site.
@@ -671,7 +671,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Zapier to Salesforce Flow: What to Move First
-URL: https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate.html
+URL: https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate
 
 How I moved a home-buying team’s Zapier automations to native Salesforce
 Zapier is the right tool when you're connecting two systems that don't have a native integration. But when your Salesforce org has matured and you're using Zapier primarily to send Slack messages from Salesforce, create tasks, or trigger emails — you're paying for a middleman you don't need.
@@ -732,7 +732,7 @@ Salesforce CRM Consultant for US real estate investors, wholesalers and home-buy
 
 ---
 ## RingCentral to Salesforce Call Sync with Apex
-URL: https://amrmagdy.com/blog-ringcentral-salesforce-integration-real-estate.html
+URL: https://amrmagdy.com/blog-ringcentral-salesforce-integration-real-estate
 
 How to Build a RingCentral–Salesforce Daily Call Sync with Apex (Real Estate Case Study)
 A real estate acquisition team makes dozens of calls per day — to motivated sellers, to follow up on leads, to check in on contracts. Logging all of those calls manually in Salesforce is hours of administrative work that takes agents away from their actual job. And if calls aren't logged, reports are wrong, accountability breaks down, and management can't see what's actually happening.
@@ -793,7 +793,7 @@ Salesforce CRM Consultant for US real estate investors, wholesalers and home-buy
 
 ---
 ## Why Your Team Isn't Using Salesforce (and the Fix)
-URL: https://amrmagdy.com/blog-salesforce-adoption-real-estate.html
+URL: https://amrmagdy.com/blog-salesforce-adoption-real-estate
 
 Why Your Real Estate Agents Aren't Using Salesforce (And How to Fix It)
 Here is the uncomfortable truth about Salesforce adoption in real estate: the system is not the problem. In almost every case, agents are not using Salesforce because using it is harder than not using it. That is a configuration problem, not a people problem.
@@ -837,7 +837,7 @@ Salesforce CRM Consultant for US real estate investors, wholesalers and home-buy
 
 ---
 ## Manage Salesforce Automations Without a Developer
-URL: https://amrmagdy.com/blog-salesforce-configuration-object-real-estate.html
+URL: https://amrmagdy.com/blog-salesforce-configuration-object-real-estate
 
 The Salesforce Configuration Object: How to Manage Automations Without Touching Code
 By the time a real estate company's Salesforce has been live for a year, it has accumulated dozens of automation rules — tasks triggered on status changes, Slack notifications for new leads, email alerts when contracts are signed, SMS messages for follow-ups. Every time a business rule changes, someone has to open Flow Builder and modify code.
@@ -899,7 +899,7 @@ Salesforce CRM Consultant for US real estate investors, wholesalers and home-buy
 
 ---
 ## Track Deal Profit and Campaign ROI in Salesforce
-URL: https://amrmagdy.com/blog-salesforce-financial-analytics-real-estate.html
+URL: https://amrmagdy.com/blog-salesforce-financial-analytics-real-estate
 
 How to Track Real Estate Deal Profitability, Cost Per Lead, and Campaign ROI in Salesforce
 Real estate companies track leads and deals in Salesforce. Their marketing spend — on direct mail, dialers, PPC, TV, and referral programs — lives in spreadsheets. At the end of the month, someone manually calculates which campaigns made money and which didn't.
@@ -990,7 +990,7 @@ Salesforce CRM Consultant for US real estate investors, wholesalers and home-buy
 
 ---
 ## Real Estate Investor KPIs: What to Track in Salesforce
-URL: https://amrmagdy.com/blog-salesforce-kpis-real-estate.html
+URL: https://amrmagdy.com/blog-salesforce-kpis-real-estate
 
 Real estate investor KPIs: what each role should track, and how to build it in Salesforce
 Not everything you can measure in Salesforce is worth measuring. Teams that track everything end up with dashboards nobody opens and reports that don't change a decision. This guide is for owners and ops leads at home-buying and wholesaling companies who want a short list instead: the numbers each role should be judged on, how each one is defined, and how to build it so the numbers can be trusted.
@@ -1082,7 +1082,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce Lead Routing for Real Estate Investors
-URL: https://amrmagdy.com/blog-salesforce-lead-routing-real-estate.html
+URL: https://amrmagdy.com/blog-salesforce-lead-routing-real-estate
 
 Salesforce lead routing for real estate investors: round robin, queues and missed calls
 Routing decides who calls a seller back, and how fast. For a home-buying company spending thousands a month on mail, PPC and cold calling, it's the cheapest place to lose a deal: the lead was paid for, it came in, and it sat with the wrong person or nobody. This guide covers how lead routing works in Salesforce, four ways to do round robin, what your phone system should handle versus Salesforce, after-hours and escalation, and how to check that routing is actually working.
@@ -1192,7 +1192,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## 50+ Real Salesforce Requests From an Acquisitions Team
-URL: https://amrmagdy.com/blog-salesforce-real-estate-acquisition-case-log.html
+URL: https://amrmagdy.com/blog-salesforce-real-estate-acquisition-case-log
 
 50+ Real Salesforce Requests From a Real Estate Acquisition Company
 If you've never worked with a Salesforce consultant, it's hard to picture what the engagement actually looks like. Is it one big project? A list of tickets? Strategy calls?
@@ -1272,7 +1272,7 @@ Salesforce CRM Consultant for US real estate investors, wholesalers and home-buy
 
 ---
 ## Build a Real Estate Pipeline Dashboard in Salesforce
-URL: https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard.html
+URL: https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard
 
 How to build a real estate pipeline dashboard in Salesforce: for home-buying and wholesaling teams
 In a lot of home-buying companies, the Monday meeting starts with the same questions. What's under contract? What's stuck? What closes this month? Then someone goes to find out. A Salesforce dashboard can answer those questions every time you open it, as long as it's built around the questions rather than around whatever reports already exist. This guide is for owners and ops leads at investor and wholesaling teams: what to put on the dashboard, how to build each part, and how to keep the numbers right.
@@ -1355,7 +1355,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce for Real Estate Brokers: Setup Guide
-URL: https://amrmagdy.com/blog-salesforce-setup-real-estate-brokerage.html
+URL: https://amrmagdy.com/blog-salesforce-setup-real-estate-brokerage
 
 How to Set Up Salesforce for a Real Estate Brokerage (Step-by-Step)
 Setting up Salesforce for a real estate brokerage is not the same as setting up a generic sales CRM. The objects are different, the workflows are different, and the way agents think about their work is different. This guide walks through the steps from initial setup to a fully operational brokerage CRM.
@@ -1409,7 +1409,7 @@ Salesforce CRM Consultant for US real estate investors, wholesalers and home-buy
 
 ---
 ## Salesforce vs Follow Up Boss for Real Estate
-URL: https://amrmagdy.com/blog-salesforce-vs-follow-up-boss-real-estate.html
+URL: https://amrmagdy.com/blog-salesforce-vs-follow-up-boss-real-estate
 
 Salesforce vs Follow Up Boss for Real Estate: Which CRM Is Right for You?
 Two CRMs dominate the real estate conversation: Follow Up Boss — purpose-built for residential real estate teams — and Salesforce — the world's most powerful CRM platform. Both can run a real estate business. They're built for very different ones.
@@ -1465,7 +1465,7 @@ Salesforce CRM Consultant for US real estate investors, wholesalers and home-buy
 
 ---
 ## Connect Your Real Estate Stack to Salesforce with Zapier
-URL: https://amrmagdy.com/blog-zapier-salesforce-real-estate.html
+URL: https://amrmagdy.com/blog-zapier-salesforce-real-estate
 
 Connecting Salesforce to Your Real Estate Stack with Zapier
 The average real estate company uses 8-12 software tools. Their CRM is one of them. And most of the time, none of these tools talk to each other — which means data gets manually copied between systems, leads get lost in transitions, and nobody has a complete picture. Zapier is the connective tissue that makes Salesforce the center of your entire operation without writing a single line of code.
@@ -1513,7 +1513,7 @@ Salesforce CRM Consultant for US real estate investors, wholesalers and home-buy
 
 ---
 ## Salesforce CRM Guides for Real Estate | Amr Magdy
-URL: https://amrmagdy.com/blog.html
+URL: https://amrmagdy.com/blog
 
 Salesforce and CRM guides for Real Estate Investors
 Practical guides written from hands-on work inside a home-buying company's Salesforce: leads and follow-up, automation, reports, comparisons, moving CRMs and hiring help.
@@ -1690,7 +1690,7 @@ Salesforce CRM Consultant for US real estate investors, wholesalers and home-buy
 
 ---
 ## Book a free 30-minute call | Amr Magdy
-URL: https://amrmagdy.com/book.html
+URL: https://amrmagdy.com/book
 
 amrmagdy.com
 Book a free 30-minute call
@@ -1698,7 +1698,7 @@ Opening my calendar on Calendly. If it doesn't open, use the button.
 
 ---
 ## BRRRR Calculator: Cash Left In, Cash Flow & ROI (Free)
-URL: https://amrmagdy.com/brrrr-calculator.html
+URL: https://amrmagdy.com/brrrr-calculator
 
 BRRRR calculator.
 Buy, rehab, rent, refinance, repeat. Enter the purchase, rehab and refinance terms to see how much of your cash stays in the deal, the new loan payment, monthly cash flow and your cash-on-cash return. Built for real estate investors in the United States, Canada, the UK and Europe. Pick your currency; the math is the same everywhere.
@@ -1733,7 +1733,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Cash Buyers List Template for Wholesalers (Free CSV)
-URL: https://amrmagdy.com/cash-buyers-list-template.html
+URL: https://amrmagdy.com/cash-buyers-list-template
 
 Cash buyers list template for wholesalers.
 A cash buyers list works when every buyer's buy box is saved as fields, not buried in texts and DMs. Then each new deal goes to the 10 buyers who fit its area, price, property type and rehab level, instead of a blast to everyone. Download the free template below and fill it once per buyer.
@@ -1769,7 +1769,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Cold Caller to Acquisitions Handoff: Fields & Rules
-URL: https://amrmagdy.com/cold-caller-handoff-checklist.html
+URL: https://amrmagdy.com/cold-caller-handoff-checklist
 
 Cold caller to acquisitions handoff: the fields and rules.
 Most cold calling teams lose deals at the handoff, not on the call. The caller marks a lead "warm", acquisitions calls back with no context, and the seller has to start over. Fix it with three things: a short fixed list of call outcomes, fields that must be filled before a lead can be passed, and a callback time rule your CRM enforces. The stage rules on either side of the handoff are in wholesaling pipeline stages . The queue, outcome and scorecard side is in cold-calling team setup .
@@ -1812,7 +1812,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Cold Calling Team Setup in Salesforce: Queues and Scorecard
-URL: https://amrmagdy.com/cold-calling-team-setup-salesforce.html
+URL: https://amrmagdy.com/cold-calling-team-setup-salesforce
 
 Cold calling team setup in Salesforce: lists, outcomes and a scorecard that pays for appointments
 The usual cold-calling complaint sounds like this: "my caller makes thousands of calls a week and I get no real leads." Sometimes the caller is the problem. More often the setup is: two callers dial the same owner, nobody knows which list is worn out, "interested" means five different things, calls are logged in a dialer that doesn't talk to the CRM, and the only number anyone watches is dials. This guide is the system around the calls: who owns which list, when to call, what each outcome does next, where the handoff happens, and the scorecard I'd use. It is written for owners and ops leads running one to ten callers, in-house or VAs, on Salesforce or any CRM you can shape.
@@ -1904,7 +1904,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Free Wholesaling CRM Field Kit: Fields, Picklists, Rules
-URL: https://amrmagdy.com/crm-field-kit.html
+URL: https://amrmagdy.com/crm-field-kit
 
 The wholesaling CRM field kit.
 The fields, picklists, automation rules and Monday report that keep deals from leaking between the marketing dollar and the closed deal. Copy them into Salesforce, REsimpli, Podio, HubSpot or a spreadsheet. Free to use and change.
@@ -1972,7 +1972,7 @@ See also: the wholesaling CRM checklist , stage by stage.
 
 ---
 ## CRM for a We Buy Houses Company: What It Must Do
-URL: https://amrmagdy.com/crm-for-we-buy-houses-company.html
+URL: https://amrmagdy.com/crm-for-we-buy-houses-company
 
 CRM for a "we buy houses" company: the seven jobs it has to do
 A we-buy-houses company runs on a very particular loop: spend on marketing, get seller inquiries by phone, text and form, get a person on the phone fast, set an appointment, make an offer, get a contract, then sell the contract or fix and sell the house. Most CRMs weren't built around that loop, and most of the trouble owners describe comes from the gaps between the steps rather than from the steps themselves. This guide describes what a CRM has to do for a cash home-buying company in plain terms, what it should connect to, who needs access, and ends with a ten-question check you can run on your own setup this afternoon. The advice holds on any CRM. I build on Salesforce, and I'll point out where that choice matters.
@@ -2056,7 +2056,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## CRM Revenue Audit: scope and terms | Amr Magdy
-URL: https://amrmagdy.com/crm-revenue-audit-terms.html
+URL: https://amrmagdy.com/crm-revenue-audit-terms
 
 What you’re agreeing to
 Plain terms for the fixed-price audit. If anything here doesn’t fit how you work, tell me before we start and we’ll sort it out.
@@ -2094,7 +2094,7 @@ Paying the first invoice, or accepting the Upwork contract, means you accept the
 
 ---
 ## Salesforce CRM Audit for Real Estate Investors and Wholesalers
-URL: https://amrmagdy.com/crm-revenue-audit.html
+URL: https://amrmagdy.com/crm-revenue-audit
 
 Your CRM, before and after
 Start here CRM Revenue Audit · for teams already on Salesforce
@@ -2227,7 +2227,7 @@ info@AmrMagdy.com Prefer email? That works too
 
 ---
 ## CRM Tags for Wholesalers: Tags, Fields or Campaigns?
-URL: https://amrmagdy.com/crm-tags-wholesale-real-estate.html
+URL: https://amrmagdy.com/crm-tags-wholesale-real-estate
 
 CRM tags for wholesalers: what belongs in a tag, a field or a campaign
 Tags are the easiest thing to add to a CRM and the hardest to keep clean. Within a year you have "hot", "Hot", "hot lead", "HOT!!", three versions of "probate" and a list of 400 tags nobody can search. The cause isn't sloppy people. It's that tags get used for jobs that need a field, a campaign or a flag, so each person invents their own. This guide sorts what a wholesaling or home-buying team actually needs to label, tells you which container fits each, and gives naming rules and a Salesforce setup. Use it whether you're on an investor CRM with tags built in or on Salesforce, which is built around structured fields rather than free-form tags.
@@ -2301,7 +2301,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Reactivating Dead Seller Leads in Salesforce for Investors
-URL: https://amrmagdy.com/dead-seller-leads-salesforce.html
+URL: https://amrmagdy.com/dead-seller-leads-salesforce
 
 The leads you already paid for. Reactivating dead seller leads in Salesforce
 Every home-buying company that has marketed for a few years is sitting on hundreds, often thousands, of seller leads marked dead, lost or not interested. You paid for every one of them. Some of those sellers are ready now: the tenant moved out, the repairs got worse, the estate got settled. This page is for owners and acquisitions managers who want to work that list on purpose, without bothering people who asked you to stop.
@@ -2394,7 +2394,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Deal Leak Score: 10-Point Check for Wholesalers (Free)
-URL: https://amrmagdy.com/deal-leak-score.html
+URL: https://amrmagdy.com/deal-leak-score
 
 What's your Deal Leak Score?
 Ten yes/no checks for wholesalers and home-buying companies, two for each point where money leaks between the marketing dollar and the kept deal. Each yes is 10 points. Then send it to your acquisitions manager and see if your answers match.
@@ -2439,7 +2439,7 @@ See also: the wholesaling CRM checklist , stage by stage.
 
 ---
 ## Do I Need a CRM Yet? Spreadsheet vs CRM for Wholesalers
-URL: https://amrmagdy.com/do-i-need-a-crm-wholesaling.html
+URL: https://amrmagdy.com/do-i-need-a-crm-wholesaling
 
 Do I need a CRM yet? Spreadsheet vs CRM for wholesalers.
 You need a CRM when a lead can be forgotten without anyone noticing. Deal count matters less than people, follow-up and lead source. If one person works every lead and checks the sheet daily, a spreadsheet can carry you. Once two people touch leads, follow-ups run past a week, or you can't say which list paid for your last deal, the sheet starts costing you deals. Not ready to pay for one yet? Use the free seller lead tracker and read where free CRMs stop working .
@@ -2476,7 +2476,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Double Closing Costs: What You Pay on Both Sides
-URL: https://amrmagdy.com/double-closing-costs.html
+URL: https://amrmagdy.com/double-closing-costs
 
 Double closing costs: both sides, one formula.
 In a double close you buy the property from the seller and resell it to your end buyer, usually the same day. You pay buyer-side costs on the first closing and seller-side costs on the second, plus transactional funding if you borrow the purchase money. What you keep is the resale price minus your contract price minus all of that.
@@ -2521,7 +2521,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Driving for Dollars with Salesforce: Mobile & Maps
-URL: https://amrmagdy.com/driving-for-dollars-salesforce.html
+URL: https://amrmagdy.com/driving-for-dollars-salesforce
 
 Driving for dollars with Salesforce.
 You can run driving for dollars from the Salesforce mobile app, which works offline and syncs later, and add Salesforce Maps or a partner app like Geopointe for routes. Here’s what to capture on each property, what the mobile app and map tools do, and what happens after the drive so the house becomes a lead you can measure.
@@ -2584,7 +2584,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## DSCR Calculator for Rental Property Loans (Free)
-URL: https://amrmagdy.com/dscr-calculator.html
+URL: https://amrmagdy.com/dscr-calculator
 
 DSCR calculator.
 Debt service coverage ratio for a rental property loan: monthly rent divided by the full payment (principal, interest, taxes, insurance and association dues). It also shows the stricter NOI-based ratio and the largest loan that still meets your target DSCR. DSCR loans are mainly a US product; the ratio itself works anywhere.
@@ -2619,7 +2619,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Free CRM for Wholesalers: Where Free Stops Working
-URL: https://amrmagdy.com/free-crm-for-wholesalers.html
+URL: https://amrmagdy.com/free-crm-for-wholesalers
 
 Free CRM for wholesalers: what free gets you and where it stops working
 If you're searching for a free CRM, you're probably right to start small. One person, a few leads a week and a spreadsheet can run a wholesaling business for a while. The trouble is that free tools are built for a general business, and wholesaling puts strain on exactly the places where free plans are thin: lots of records at once, several people touching the same seller, calls and texts that need to be logged and honored, and a need to know which marketing produced a contract. This guide is a plain look at what a free setup can do, the limits that bite first, and the signs it is time to move. I build Salesforce for home-buying teams, so I'll say up front that for a solo wholesaler, free is often the right answer.
@@ -2702,7 +2702,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Google Ads Offline Conversions from Salesforce for Investors
-URL: https://amrmagdy.com/google-ads-offline-conversions-salesforce.html
+URL: https://amrmagdy.com/google-ads-offline-conversions-salesforce
 
 Send your Salesforce deals back to Google Ads. Offline conversions for investor PPC
 If your Google Ads account counts a form fill as a conversion, Google is learning to find people who fill in forms. Some of them are motivated sellers. Many are retail sellers who want full price, agents, renters and spam. The answer to which clicks turned into contracts lives in Salesforce, and Google never sees it. This page is for owners and marketing leads at home-buying and wholesaling companies who spend real money on PPC and want Google to bid for deals, not leads.
@@ -2799,7 +2799,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## How to Choose a Salesforce Consultant for Real Estate Investors
-URL: https://amrmagdy.com/hire-salesforce-consultant-real-estate.html
+URL: https://amrmagdy.com/hire-salesforce-consultant-real-estate
 
 Choosing a Salesforce consultant for an investor team, and what it should cost
 This is for owners and ops leads about to hire someone to build, fix or move their Salesforce. I'm one of the people you might hire, so read it with that in mind. I've tried to write what I'd tell a friend who runs a home-buying company: how to tell the good ones from the expensive ones, what the market charges in 2026, and what you should never sign away.
@@ -2898,7 +2898,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Investor CRM Audit Checklist: 60 Checks for Home Buyers
-URL: https://amrmagdy.com/investor-crm-audit-checklist.html
+URL: https://amrmagdy.com/investor-crm-audit-checklist
 
 The investor CRM audit checklist: 60 checks you can run yourself
 This is for owners and ops leads at home-buying and wholesaling companies who want to know how well their CRM actually runs the business. It works for any CRM: Salesforce, Podio, REsimpli, GoHighLevel or an investor CRM. The checks follow a deal from the marketing that paid for it to the closing that paid you back, plus the health of the system underneath.
@@ -3007,7 +3007,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## The Kept-Deal Map: 5 Places Wholesaling Deals Leak
-URL: https://amrmagdy.com/kept-deal-map.html
+URL: https://amrmagdy.com/kept-deal-map
 
 The Kept-Deal Map: find where your deals leak.
 Most investors don't have a lead problem, they have a leak problem. Money disappears between the marketing dollar and the kept deal, at five points a CRM can measure if it's set up to. This map names the five leak points, what each looks like, what a system that closes it does, and the free tool to measure it from your own numbers.
@@ -3083,7 +3083,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Lead, Opportunity or Property? Sellers in Salesforce
-URL: https://amrmagdy.com/lead-vs-opportunity-salesforce-real-estate.html
+URL: https://amrmagdy.com/lead-vs-opportunity-salesforce-real-estate
 
 Lead, Opportunity or Property: how to model a seller and a deal in Salesforce
 Salesforce was built around a sales story that doesn't quite fit a home-buying company: a company becomes a prospect, a prospect becomes an account, and a deal belongs to that account. Your story is different. A person calls about a house, one person can own several houses, one house can have several owners (heirs, ex-spouses), and a seller who said no in March can come back in September with a new number. How you model that on day one decides what your reports can say two years later. This guide is for ops leads and owners on Salesforce, or about to be: what each standard object should mean, when to convert, what conversion carries across, and when a custom Property object earns its place.
@@ -3161,7 +3161,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Missed-Call Alerts in Salesforce for Real Estate Investors
-URL: https://amrmagdy.com/missed-call-alerts-salesforce.html
+URL: https://amrmagdy.com/missed-call-alerts-salesforce
 
 Missed-call alerts in Salesforce: turn every missed seller call into a callback
 A seller calls one of your marketing numbers, nobody picks up, and the seller hangs up. Almost nobody leaves a voicemail: in Invoca's 2021 data, only 2% of unanswered callers did. So unless something tells a rep right away, that paid lead is gone, and the next investor on the seller's list gets the deal. This guide is for ops leads and acquisitions managers on Salesforce: what has to be in place first, how the automation works, who should get the alert, and how to know it's working.
@@ -3241,7 +3241,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Missed Seller Call Cost Calculator (Speed to Lead)
-URL: https://amrmagdy.com/missed-call-cost-calculator.html
+URL: https://amrmagdy.com/missed-call-cost-calculator
 
 What do missed seller calls cost you?
 Use your own numbers from your phone system and CRM. The calculator turns unanswered calls into lost deals and lost profit, per month and per year. Nothing you type leaves your browser.
@@ -3264,7 +3264,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## The Monday 5: KPIs for Real Estate Investors
-URL: https://amrmagdy.com/monday-5-real-estate-kpis.html
+URL: https://amrmagdy.com/monday-5-real-estate-kpis
 
 The Monday 5: five numbers to see before the week starts.
 For teams that buy houses and pay for their own seller marketing. You know what these numbers mean for your business, so this page sticks to the Salesforce side: what each one needs so it's on one dashboard Monday morning, without a spreadsheet.
@@ -3311,7 +3311,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Motivated Seller Lead Scoring in Salesforce (Investor Guide)
-URL: https://amrmagdy.com/motivated-seller-lead-scoring-salesforce.html
+URL: https://amrmagdy.com/motivated-seller-lead-scoring-salesforce
 
 Which sellers should your team call first? Motivated seller lead scoring in Salesforce
 When a team gets more leads than it can work, someone decides who gets called first. Usually it's whoever came in last, or whoever the rep likes the sound of. A lead score makes that call the same way every time. This page is for owners and acquisitions managers who want a score their reps trust, built from what actually leads to contracts in their market rather than from a template.
@@ -3396,7 +3396,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Move to Salesforce from Podio, REsimpli or GoHighLevel
-URL: https://amrmagdy.com/move-to-salesforce.html
+URL: https://amrmagdy.com/move-to-salesforce
 
 Outgrown Podio, REsimpli or GoHighLevel? Move to Salesforce without losing a lead .
 Your history comes with you, your team keeps working while we switch, and the new system is built around how you already buy houses. Not the other way round.
@@ -3472,7 +3472,7 @@ Prefer email? info@AmrMagdy.com
 
 ---
 ## Opening a New Market? A CRM Checklist for Home Buyers
-URL: https://amrmagdy.com/new-market-crm-checklist.html
+URL: https://amrmagdy.com/new-market-crm-checklist
 
 Opening a new market? Set up your CRM before the first mailer drops.
 When a home-buying company opens a second market, the marketing usually goes live before the CRM is ready for it. Leads from both markets land in the same lists, reps get leads from a city they've never seen, and three months in, nobody can say whether the new market is making money. I run the Salesforce for a two-market home-buying company in Ohio, so this is the checklist I'd work through before the first mailer, ad or cold call goes out.
@@ -3576,7 +3576,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Offer Follow-Up in Salesforce for Real Estate Investors
-URL: https://amrmagdy.com/offer-follow-up-salesforce.html
+URL: https://amrmagdy.com/offer-follow-up-salesforce
 
 The offer went out. Then what? Offer follow-up in Salesforce
 Most wholesaling and home-buying teams track leads well and offers badly. The offer gets made on the phone or at the kitchen table, the seller says they need to think about it, and a week later nobody is sure who was supposed to call back. This page is for owners and acquisitions managers who want every open offer on one list, with a named owner and a next step, until it's signed or truly dead.
@@ -3667,7 +3667,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Moving Off Podio: A Migration Checklist for Wholesalers
-URL: https://amrmagdy.com/podio-alternative-wholesalers.html
+URL: https://amrmagdy.com/podio-alternative-wholesalers
 
 Moving off Podio: a migration checklist for wholesalers.
 Leaving Podio is mostly a data decision, not a software one. Decide what history you keep, carry lead source through to every closed deal, plan for what Podio's Excel export leaves out, and test with 50 records before you move the rest. The checklist below covers it in ten steps.
@@ -3715,7 +3715,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Podio's 25,000 Automation Limit: What Wholesalers Can Do
-URL: https://amrmagdy.com/podio-automation-limit.html
+URL: https://amrmagdy.com/podio-automation-limit
 
 Podio's new automation limit: what it means for a wholesaling team
 A lot of wholesaling companies run on Podio, and most of the work in those setups is done by Podio Workflow Automation, the tool many teams still call Globiflow. Since September 1, 2026, that automation comes with a monthly allowance. If your Podio was built by a template vendor or a consultant a few years ago, you may not know how close you are to it. This page explains what changed, what counts, what happens when you hit the cap and how to decide what to do.
@@ -3807,7 +3807,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Privacy | Amr Magdy
-URL: https://amrmagdy.com/privacy.html
+URL: https://amrmagdy.com/privacy
 
 Privacy
 What this site collects, and why
@@ -3844,7 +3844,7 @@ If I change this page, the date at the top changes too.
 
 ---
 ## Probate Leads in Salesforce: A CRM Setup for Investors
-URL: https://amrmagdy.com/probate-leads-salesforce.html
+URL: https://amrmagdy.com/probate-leads-salesforce
 
 Probate deals run on the court's clock. Tracking probate leads in Salesforce
 Probate is one of the steadiest lead sources in investing, and one of the easiest to work badly. The person you need to reach is grieving, the decision may belong to someone other than the person you're talking to, and the court sets the pace. A CRM built for "call fast and close in two weeks" loses these deals. This page is for owners and acquisitions managers who work probate leads, or want to, and need Salesforce to keep track of a deal that can take most of a year.
@@ -3938,7 +3938,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Wholesaling CRM Questions, Answered Plainly | Amr Magdy
-URL: https://amrmagdy.com/questions-from-wholesalers.html
+URL: https://amrmagdy.com/questions-from-wholesalers
 
 Wholesaling CRM questions, answered plainly.
 Fifteen questions wholesalers and investors asked in Facebook groups, BiggerPockets and Quora in October 2026, paraphrased with names removed. Each answer is short, practical advice with one concrete step to set up in your CRM, whichever CRM you use, and a link to the free tool or video that goes deeper. Any dollar figure here is an example, not a result. For short answers on 40 more pain points, by topic, see the wholesaling systems FAQ .
@@ -4023,7 +4023,7 @@ On Salesforce and want it checked in your own org? Here's what the audit covers 
 
 ---
 ## Real Estate CRM for Investors: The Complete Guide (2026)
-URL: https://amrmagdy.com/real-estate-crm-guide.html
+URL: https://amrmagdy.com/real-estate-crm-guide
 
 Real estate CRM for investors: the complete guide.
 A real estate CRM for investors is the system that tracks every seller, property, offer and buyer and makes sure no lead is forgotten. This guide covers how to choose one, the records and stages it needs, what to automate and connect, the numbers to review weekly, compliance, and a 30-day setup plan, with links to every free tool on this site.
@@ -4155,7 +4155,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Real Estate Lead Attribution: Which Campaign Gets Credit?
-URL: https://amrmagdy.com/real-estate-lead-attribution.html
+URL: https://amrmagdy.com/real-estate-lead-attribution
 
 Which campaign gets credit for the deal? Lead attribution for real estate investors
 A seller gets six of your mailers, sees your ad on Google, calls the number on your website and tells your rep, "I got your letter." The deal closes. Which campaign earned it? If you can't answer that the same way every time, your cost per deal by channel is a guess, and so is your marketing budget. This page is for owners and marketing leads at home-buying and wholesaling companies who want a rule they can apply consistently, and the fields and reports that make it work.
@@ -4233,7 +4233,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Lead Response Time Statistics (2026): 50+ Sourced Stats
-URL: https://amrmagdy.com/real-estate-lead-response-statistics.html
+URL: https://amrmagdy.com/real-estate-lead-response-statistics
 
 Speed to lead & follow-up statistics for real estate investors (2026).
 Speed to lead is the time between a seller reaching out and a real person responding. Below are 62 statistics on lead response, follow-up, missed calls, CRM data and the 2026 investor market, each linked to the page it came from, plus 8 widely quoted “stats” I couldn’t verify.
@@ -4350,7 +4350,7 @@ Flip ROI fell to 25.5% in 2025, the lowest since 2008, and investor purchases ar
 How these were checked
 Every statistic was read on the linked page in October 2026. Where the original was paywalled or blocked (the HBR article and the Velocify study), I used a contemporaneous report of it and say so. Vendor research (InsideSales, Velocify, Invoca, CallRail, Validity, HubSpot, Carrot, BatchData) is labeled by publisher so you can weigh it. Most lead-response research is not specific to real estate. Spotted an error or a newer source? Email a correction .
 Cite this page
-Amr Magdy, “Speed to Lead & Follow-Up Statistics for Real Estate Investors (2026),” amrmagdy.com, October 2026, https://amrmagdy.com/real-estate-lead-response-statistics.html
+Amr Magdy, “Speed to Lead & Follow-Up Statistics for Real Estate Investors (2026),” amrmagdy.com, October 2026, https://amrmagdy.com/real-estate-lead-response-statistics
 Related
 Real estate CRM guide · Speed to lead guide · Missed call cost calculator · Follow-up cadence builder · Cold caller handoff checklist · Reactivating dead seller leads · All guides · All free tools
 Want your own speed-to-lead number?
@@ -4360,7 +4360,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Rental Yield & Cap Rate Calculator (USD, CAD, GBP, EUR)
-URL: https://amrmagdy.com/rental-yield-calculator.html
+URL: https://amrmagdy.com/rental-yield-calculator
 
 Rental yield & cap rate calculator.
 Gross yield, net yield, cap rate and cash-on-cash return for any rental or buy-to-let property. Include purchase costs such as closing costs, stamp duty or transfer tax as one figure. Built for real estate investors in the United States, Canada, the UK and Europe. Pick your currency; the math is the same everywhere.
@@ -4395,7 +4395,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Free Tools for Real Estate Investors & Wholesalers
-URL: https://amrmagdy.com/resources.html
+URL: https://amrmagdy.com/resources
 
 Free tools for real estate investors & wholesalers.
 Calculators, self-checks, templates and a weekly KPI framework I built from working inside a home-buying company's Salesforce. Use them on your own numbers in US dollars, Canadian dollars, pounds or euros; nothing you type into a calculator leaves your browser. Looking for something to read? See the guides .
@@ -4456,7 +4456,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Your Salesforce Admin Left: A 2-Week Handover Plan
-URL: https://amrmagdy.com/salesforce-admin-left.html
+URL: https://amrmagdy.com/salesforce-admin-left
 
 Your Salesforce admin just left. Here are the first two weeks.
 This is for the owner or ops lead at a home-buying or wholesaling company whose Salesforce person just quit, gave notice or stopped answering. Salesforce keeps running for a while on its own, which is the dangerous part: the things that break first are the quiet ones, and you usually find out from a seller who never got a callback. Here's what I'd do, in order.
@@ -4587,7 +4587,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce Admin for Real Estate Investors: Hire or Retainer?
-URL: https://amrmagdy.com/salesforce-admin-real-estate-investors.html
+URL: https://amrmagdy.com/salesforce-admin-real-estate-investors
 
 A Salesforce admin for your investor team: hire, freelancer or retainer?
 Most home-buying and wholesaling teams of 10 to 50 people reach the same point. Salesforce runs the business, the person who set it up has moved on, and every change now waits on a support ticket or a favor. This page is for the owner or ops lead deciding what to do about it: what an admin actually does in an investor org, the three ways to cover it, and how to tell which one fits. If you decide to hire, it has a job post you can copy, interview questions you can ask without knowing Salesforce yourself, a short paid test for finalists, what admins are paid in 2026 and what their first month should look like.
@@ -4739,7 +4739,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce AI & Agentforce for Real Estate Investors
-URL: https://amrmagdy.com/salesforce-ai-agentforce-real-estate.html
+URL: https://amrmagdy.com/salesforce-ai-agentforce-real-estate
 
 Salesforce AI and Agentforce for real estate investors.
 Salesforce’s 2026 AI for sales is Agentforce, plus Einstein features like Conversation Insights and Lead Scoring. For real estate investors, the useful parts today are call analysis and activity capture on data you already have; agents that write to sellers need consent rules first. Here’s what each feature does, where it’s available and how to get your CRM ready. Which follow-up jobs to hand to AI first, and the consent rules, are in AI for wholesalers .
@@ -4800,7 +4800,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## How to Know When Salesforce Automations Fail (and Zaps)
-URL: https://amrmagdy.com/salesforce-automation-monitoring.html
+URL: https://amrmagdy.com/salesforce-automation-monitoring
 
 Your automations fail quietly. Here's how to find out before a seller does.
 In an investor company, automations do the work nobody remembers to do: the callback task after a missed call, the text that stops when a seller replies, the reminder about a contract nobody signed. When one of them breaks, nothing looks wrong. The CRM still opens, the dashboards still load, and leads quietly stop getting followed up. This guide is for owners and ops leads who want to know about a failure the day it happens, not a month later.
@@ -4891,7 +4891,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## 15 Salesforce Automations for Wholesalers (Recipes)
-URL: https://amrmagdy.com/salesforce-automation-recipes-wholesalers.html
+URL: https://amrmagdy.com/salesforce-automation-recipes-wholesalers
 
 15 automation recipes for a wholesaling CRM.
 The automations that pay off first in a wholesaling CRM are a call task for every new lead, a callback for every missed call, required fields before a lead is passed, and long follow-up for “not now” leads. Here are 15 recipes written as trigger → action, which Salesforce tool to use for each, and the order to build them.
@@ -4959,7 +4959,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce CRM for Canadian Real Estate Investors
-URL: https://amrmagdy.com/salesforce-consultant-canada-real-estate.html
+URL: https://amrmagdy.com/salesforce-consultant-canada-real-estate
 
 Salesforce for Canadian real estate investors: the same deal system, set up for Canadian rules
 I build Salesforce for home-buying companies and wholesalers. If you run an investing business in Canada, two questions matter before anything else: does the same system work there, and what has to change? This page answers both, for owners of home-buying, wholesaling and BRRRR businesses. I work remotely, and Eastern and Central business hours fall inside my working day.
@@ -5031,7 +5031,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce CRM for UK Property Investors & Deal Sourcers
-URL: https://amrmagdy.com/salesforce-consultant-uk-estate-agents.html
+URL: https://amrmagdy.com/salesforce-consultant-uk-estate-agents
 
 Salesforce for UK property investors and deal sourcers: the same deal system, set up for UK rules
 I build Salesforce for property businesses that buy direct from owners. If you run an investing or deal sourcing business in the UK, two questions matter before anything else: does the system fit how you work, and what has to change? This page answers both, for buy-to-let, HMO and BRR investors, deal sourcers and packagers. I work remotely, and UK afternoons sit inside my working day.
@@ -5116,7 +5116,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce Dashboard Numbers Wrong? 10 Causes and a Fix
-URL: https://amrmagdy.com/salesforce-dashboard-wrong-numbers.html
+URL: https://amrmagdy.com/salesforce-dashboard-wrong-numbers
 
 Your Salesforce dashboard and your bank account disagree. Here's why.
 Every owner I talk to has a version of this: the dashboard says cost per contract is fine, but the money doesn't feel that way. Or the report says 14 contracts last month, the acquisitions manager says 17 and the title company closed 11. This page is for owners and ops leads at home-buying and wholesaling companies who want numbers they can make decisions on. It covers the ten causes I see most in investor orgs, how to check each one, and a 20-minute check you can run this week.
@@ -5208,7 +5208,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce Dialers for Real Estate: Open CTI Ends 2028
-URL: https://amrmagdy.com/salesforce-dialer-real-estate.html
+URL: https://amrmagdy.com/salesforce-dialer-real-estate
 
 Dialers in Salesforce for real estate teams.
 RingCentral, Aircall, Dialpad and Twilio all log calls into Salesforce, but Salesforce’s Open CTI, which many of them use, reaches end of life on February 28, 2028. Here’s how each dialer connects, which edition it needs, what a wholesaling team should log, and how to plan for 2028. The system around the calls (queues, outcomes and a caller scorecard) is in cold-calling team setup .
@@ -5267,7 +5267,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Wholesale Dispositions in Salesforce: Buyers & Deals
-URL: https://amrmagdy.com/salesforce-dispositions-real-estate.html
+URL: https://amrmagdy.com/salesforce-dispositions-real-estate
 
 Wholesale dispositions in Salesforce.
 A dispo system in Salesforce has three parts: buyer records with a structured buy box, a record of every deal sent to every buyer, and a fast way to send new contracts to the best-matched buyers first. Here’s the data model, matching rules, sending options, automations and the numbers that show whether your buyer list is real.
@@ -5339,7 +5339,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## DocuSign + Salesforce for Real Estate Investors
-URL: https://amrmagdy.com/salesforce-docusign-real-estate.html
+URL: https://amrmagdy.com/salesforce-docusign-real-estate
 
 DocuSign + Salesforce for real estate investors.
 DocuSign connects to Salesforce through Docusign’s own AppExchange package : you send purchase and assignment contracts from the deal record, templates fill themselves from Salesforce fields, and signed documents come back to the record. Here’s what it does, what it needs and how I set it up for wholesalers.
@@ -5392,7 +5392,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Duplicate Seller Leads in Salesforce: Rules That Work
-URL: https://amrmagdy.com/salesforce-duplicate-sellers.html
+URL: https://amrmagdy.com/salesforce-duplicate-sellers
 
 Duplicate seller leads in Salesforce: rules that catch them without losing leads
 A home-buying company creates duplicates faster than almost any other kind of business. The same owner gets six mailers and calls from a different phone each time, cold-call lists get re-imported every month, and a seller who went quiet in March calls a new number in September. Each copy inflates your lead count, splits the history and can put two reps on the same seller. This guide is for ops leads and acquisitions managers on Salesforce: how duplicate management actually works, where it quietly doesn't, and the setup I'd use for an investor team.
@@ -5493,7 +5493,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Edition Picker for Salesforce: Real Estate Investor Teams
-URL: https://amrmagdy.com/salesforce-edition-picker.html
+URL: https://amrmagdy.com/salesforce-edition-picker
 
 Edition picker for Salesforce.
 Answer nine questions about your team and tools, and the picker shows which Salesforce edition to start from , why, and what to ask your Salesforce account executive. It uses Salesforce’s published limits and shows no list prices. Nothing you enter leaves your browser.
@@ -5535,7 +5535,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Which Salesforce Edition Do Real Estate Investors Need?
-URL: https://amrmagdy.com/salesforce-edition-real-estate-investors.html
+URL: https://amrmagdy.com/salesforce-edition-real-estate-investors
 
 Which Salesforce edition do real estate investors need?
 Most real estate investing teams need Salesforce Enterprise , because it allows 200 custom objects for properties, offers and buyers, 2,000 active flows and API access for integrations. Professional can work for small teams that fit in 5 flows; Starter can’t hold property records at all. Here’s the comparison, from Salesforce’s own limits pages.
@@ -5608,7 +5608,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## 12 Salesforce Features Real Estate Investor Orgs Don't Use
-URL: https://amrmagdy.com/salesforce-features-real-estate-investors.html
+URL: https://amrmagdy.com/salesforce-features-real-estate-investors
 
 12 Salesforce features your real estate org is probably not using.
 Most investor teams on Salesforce use leads, opportunities, a few reports and a couple of flows. These 12 features are already in many of the editions you pay for, and each one closes a specific leak: duplicate sellers, missed calls, offers above MAO, profit nobody ties to a campaign. Each comes with the investor use case, setup in six lines, the edition (checked against Salesforce Help on October 20, 2026), a gotcha, and how to tell if your org already uses it.
@@ -5782,7 +5782,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce Features for Real Estate Investors (2026)
-URL: https://amrmagdy.com/salesforce-features-real-estate.html
+URL: https://amrmagdy.com/salesforce-features-real-estate
 
 Salesforce features that matter for real estate investors.
 For real estate investors, the Salesforce features that pay off are custom objects, Flow automation, validation rules, lead routing and reporting : they turn a contact list into a system that tracks every property, offer and buyer. Below are 37 features, what each does for a wholesaling or investing team, and the edition limits that decide whether you can use it.
@@ -5964,7 +5964,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce for Real Estate Investors and Home-Buying Companies
-URL: https://amrmagdy.com/salesforce-for-real-estate-investors.html
+URL: https://amrmagdy.com/salesforce-for-real-estate-investors
 
 Salesforce for real estate investors and home-buying companies.
 Salesforce makes sense for an investor team when deals leak between steps nobody owns: missed calls, follow-ups that stop at touch two, offers made outside the system, and profit nobody ties back to the campaign that paid for the lead. This page shows how a home-buying operation maps into Salesforce, the ten builds that pay for themselves, what it really costs in 2026, and when you should not use it.
@@ -6127,7 +6127,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce Integrations for Real Estate Investors (2026)
-URL: https://amrmagdy.com/salesforce-integrations-real-estate.html
+URL: https://amrmagdy.com/salesforce-integrations-real-estate
 
 Salesforce integrations for real estate investors.
 Salesforce connects to almost every tool investors use , including DocuSign, QuickBooks, RingCentral, Gmail, Facebook lead ads, Google Ads and Slack, through AppExchange packages, the API or tools like Zapier. Below: what each connection syncs, which edition it needs, and what it changes for a wholesaling team. Loading a PropStream or skip-traced list without duplicates: the import routine .
@@ -6260,7 +6260,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Get Every Real Estate Lead Source into Salesforce
-URL: https://amrmagdy.com/salesforce-lead-sources-real-estate.html
+URL: https://amrmagdy.com/salesforce-lead-sources-real-estate
 
 Every lead source into Salesforce, tagged.
 Real estate investors get leads into Salesforce through Web-to-Lead for website forms, Lead Capture for Facebook lead ads, CallRail for calls, and imports for lists . Google Ads can then learn from which leads became contracts. Here’s each route, what it needs, and the rules that keep the source on the record to the closed deal. How to label sources, situations and campaigns without a mess: tags, fields or campaigns . Loading a purchased or skip-traced list: import without duplicates .
@@ -6318,7 +6318,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce for Private and DSCR Lenders: Loan Pipeline
-URL: https://amrmagdy.com/salesforce-private-lenders-dscr.html
+URL: https://amrmagdy.com/salesforce-private-lenders-dscr
 
 Salesforce for private and DSCR lenders: the loan pipeline, borrower to payoff.
 If you lend to investors, your borrowers are home-buying companies, flippers and landlords, and their deals move fast. Most small lending shops track that in a mix of email, a loan servicing tool and a spreadsheet of who's in the pipe. This page is how I'd lay out a private, hard money or DSCR lender's pipeline in Salesforce, using the same patterns I use for investor teams.
@@ -6375,7 +6375,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## QuickBooks + Salesforce for Real Estate Investors
-URL: https://amrmagdy.com/salesforce-quickbooks-real-estate.html
+URL: https://amrmagdy.com/salesforce-quickbooks-real-estate
 
 QuickBooks + Salesforce for real estate investors.
 QuickBooks Online connects to Salesforce through third-party connectors like Breadwinner, DBSync or Workato , which sync invoices, payments and customers. For investors, the payoff is assignment fees invoiced from the deal and paid status in Salesforce reports, so you see realized revenue and cost per deal by lead source.
@@ -6430,7 +6430,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce for Real Estate Investors: 50 Questions Answered
-URL: https://amrmagdy.com/salesforce-real-estate-faq.html
+URL: https://amrmagdy.com/salesforce-real-estate-faq
 
 Salesforce for real estate investors: 50 questions, answered plainly
 These are the questions that come up most when owners, ops leads and acquisitions managers at home-buying and wholesaling companies look at Salesforce. Each answer is short and leads with the answer itself. Where there's more to say, there's a link to a full guide. I run the Salesforce for a two-market home-buying company in Ohio, so the answers come from that work, not from a brochure.
@@ -6552,7 +6552,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## 20 Salesforce Reports for Wholesalers (Recipes)
-URL: https://amrmagdy.com/salesforce-reports-wholesalers.html
+URL: https://amrmagdy.com/salesforce-reports-wholesalers
 
 20 Salesforce reports for a wholesaling team.
 The Salesforce reports that matter most to wholesalers show where leads come from, how fast they’re called, which offers become contracts, and what each source costs per closed deal. Here are 20 report recipes written as report type, filter, grouping and measure, the limits to know, and which five belong on the Monday dashboard.
@@ -6622,7 +6622,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Texting Sellers from Salesforce: 10DLC and Consent
-URL: https://amrmagdy.com/salesforce-texting-real-estate.html
+URL: https://amrmagdy.com/salesforce-texting-real-estate
 
 Texting sellers from Salesforce: 10DLC, consent and tools.
 To text sellers from Salesforce in the US, you need a texting tool that logs to Salesforce, a registered 10DLC brand and campaign, and consent and opt-out fields every tool respects. Here are the tools, the registration steps, what CTIA’s guidelines say about lists, and how I set up the fields. This is not legal advice. Ready-made wording for each moment: seller follow-up message templates .
@@ -6679,7 +6679,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Transaction Coordination in Salesforce for Investors
-URL: https://amrmagdy.com/salesforce-transaction-coordination-real-estate.html
+URL: https://amrmagdy.com/salesforce-transaction-coordination-real-estate
 
 Transaction coordination in Salesforce: contract to close on one board.
 The seller signed. Now title needs the contract, someone has to get the keys, the buyer wants a walkthrough and the closing date is three weeks out. In a lot of investor teams that part lives in a TC's head, a spreadsheet and a group text. This page is how I set it up in Salesforce instead: the stages, the fields, the automatic tasks and the one report the owner should look at.
@@ -6741,7 +6741,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce Access for VAs and Cold Callers
-URL: https://amrmagdy.com/salesforce-va-access-real-estate.html
+URL: https://amrmagdy.com/salesforce-va-access-real-estate
 
 Salesforce access for VAs and cold callers.
 Real estate teams can give VAs and cold callers exactly the Salesforce access they need with profiles, permission sets, sharing rules and field-level security, and protect the lead list by removing export rights. Here’s what each role should see, which features do it, and a VA onboarding and offboarding checklist.
@@ -6806,7 +6806,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce vs GoHighLevel for Real Estate Investors
-URL: https://amrmagdy.com/salesforce-vs-gohighlevel.html
+URL: https://amrmagdy.com/salesforce-vs-gohighlevel
 
 Salesforce vs GoHighLevel for investors.
 GoHighLevel is a marketing platform with a CRM inside. Salesforce is a CRM platform you shape to your process. Neither has wholesaling data built in. Here’s how they compare, with every claim linked to the source.
@@ -6867,7 +6867,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce vs HubSpot for Real Estate Investors (2026)
-URL: https://amrmagdy.com/salesforce-vs-hubspot-real-estate-investors.html
+URL: https://amrmagdy.com/salesforce-vs-hubspot-real-estate-investors
 
 Salesforce vs HubSpot for real estate investors and wholesalers
 HubSpot comes up a lot when investor teams outgrow spreadsheets or an all-in-one tool, usually because someone on the team used it at a previous job. It's a good CRM. The question is whether it fits a business where the records that matter are properties, offers, contracts and buyers, as well as contacts and deals. I build Salesforce for investor teams, so weigh my view with that in mind. I've tried to give HubSpot its due.
@@ -6935,7 +6935,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce vs Investor CRMs (Podio, REsimpli and Others)
-URL: https://amrmagdy.com/salesforce-vs-investor-crms.html
+URL: https://amrmagdy.com/salesforce-vs-investor-crms
 
 Salesforce vs investor CRMs: how far each one goes.
 Investor CRMs like REsimpli come ready for wholesaling and are the faster start. Podio lets you build your own apps. Salesforce goes furthest on data model, automation, reporting and testing, but costs more and needs to be set up. The right pick depends on your team size, markets and the reports you need.
@@ -6986,7 +6986,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce vs Podio for Wholesalers (2026)
-URL: https://amrmagdy.com/salesforce-vs-podio.html
+URL: https://amrmagdy.com/salesforce-vs-podio
 
 Salesforce vs Podio for wholesalers. Where each one wins in 2026
 Podio has been the default first CRM for wholesalers for years: cheap, flexible and full of workspaces other investors built. Salesforce is what many of those teams look at once they have several reps, a second market or an owner who wants real numbers. This page compares the two honestly, with Podio's own published limits linked, and says when staying on Podio is the right call. I build on Salesforce, so weigh my view with that in mind.
@@ -7072,7 +7072,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Salesforce vs REsimpli for Wholesalers (2026)
-URL: https://amrmagdy.com/salesforce-vs-resimpli.html
+URL: https://amrmagdy.com/salesforce-vs-resimpli
 
 Salesforce vs REsimpli for wholesalers.
 REsimpli is an investor CRM with the dialer, texting and data already inside. Salesforce is a CRM you build around your own process. Here’s where each one wins, with every claim linked to the vendor’s own page.
@@ -7136,7 +7136,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Sample CRM Revenue Audit report | Amr Magdy
-URL: https://amrmagdy.com/sample-audit-report.html
+URL: https://amrmagdy.com/sample-audit-report
 
 Sample Salesforce audit report for a home-buying company
 This is a shortened sample for a made-up company, “Example Home Buyers”, so you can see the format before you buy. It isn’t a real client and there are no real numbers in it. A real report covers your org, uses your data and runs much longer.
@@ -7177,7 +7177,7 @@ If the report doesn’t give you at least five specific, fixable issues worth mo
 
 ---
 ## Seller Appointment No-Shows and Reminders in Salesforce
-URL: https://amrmagdy.com/seller-appointment-no-shows-salesforce.html
+URL: https://amrmagdy.com/seller-appointment-no-shows-salesforce
 
 Fewer wasted drives. Seller appointment reminders and no-shows in Salesforce
 An acquisitions rep who drives across town to a house where nobody answers loses half a morning, and the seller who didn't show is often talking to someone else. Most teams can't say how often it happens, because the appointment just quietly disappears from the calendar. This page is for owners and acquisitions managers who want fewer no-shows and an honest number for the ones that still happen.
@@ -7249,7 +7249,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Seller Lead Follow-Up Cadence Builder for Investors (Free)
-URL: https://amrmagdy.com/seller-follow-up-cadence.html
+URL: https://amrmagdy.com/seller-follow-up-cadence
 
 Seller follow-up cadence builder.
 Silence is not a no. Pick how hot the lead is, the date you first spoke, and the channels you use. You get a dated touch plan you can follow by hand or import into your CRM as tasks. It is a starting template: adjust it to your market and your own results. The words for each touch are in 12 follow-up message templates .
@@ -7285,7 +7285,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Seller Follow-Up Messages: Text, Voicemail, Email Templates
-URL: https://amrmagdy.com/seller-follow-up-message-templates.html
+URL: https://amrmagdy.com/seller-follow-up-message-templates
 
 Seller follow-up messages: 12 templates, and the rules that decide when they send
 Most wholesalers don't have a follow-up problem, they have a message problem and a trigger problem. The messages sound like a form letter, and they go out when someone remembers rather than when the seller's situation calls for them. This page gives you twelve short templates for the moments that matter (a missed call, a confirmed appointment, a quiet offer, a seller who said "not now"), written to sound like a person typed them. Under each is the rule that should send it, so the CRM does the remembering and a human does the talking. Timing for the whole sequence is in the cadence builder; this page is the words and the triggers.
@@ -7373,7 +7373,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Seller Lead Tracker Spreadsheet (Free CSV) for Wholesalers
-URL: https://amrmagdy.com/seller-lead-tracker-spreadsheet.html
+URL: https://amrmagdy.com/seller-lead-tracker-spreadsheet
 
 Seller lead tracker spreadsheet: a free CSV, a daily routine, and when to leave it
 If you are tracking seller leads on paper, in your phone or across three half-finished sheets, a good spreadsheet is a real upgrade, and it costs nothing. This page gives you a seller lead tracker with 28 columns set up the way a wholesaling or home-buying business actually works: source on every lead, a next follow-up date, consent, offers and dead reasons. It also gives you the dropdown lists, the two formulas that matter, a 15-minute daily routine and the weekly counts. Then, because I build CRMs for a living, an honest list of five signs the sheet has stopped being enough.
@@ -7448,7 +7448,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Import a Skip-Traced List into Salesforce Without Duplicates
-URL: https://amrmagdy.com/skip-traced-list-import-salesforce.html
+URL: https://amrmagdy.com/skip-traced-list-import-salesforce
 
 Import a skip-traced list into Salesforce: clean, split, tag, test, then load
 A list from PropStream, BatchLeads or a skip-tracing service is the cheapest way to fill a cold-calling queue, and the fastest way to wreck a Salesforce org. The file arrives with three phone numbers per owner, the same owner on four rows, addresses spelled five ways, and half the people already in your system from last month's list. Loaded straight in, it creates thousands of duplicates, triggers thousands of tasks at once and buries the history of sellers you already know. This guide is the routine I'd run before every list goes in: what to clean, how to split new sellers from existing ones, how to map and tag the file, and how to test and check the load. It works for any list source.
@@ -7526,7 +7526,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Wholesaling SOPs That Live Inside Your CRM, Not a Doc
-URL: https://amrmagdy.com/sops-inside-your-crm-wholesaling.html
+URL: https://amrmagdy.com/sops-inside-your-crm-wholesaling
 
 Wholesaling SOPs that live inside your CRM: shown at the moment of the task, checked without a meeting
 Every wholesaling company eventually writes SOPs: a shared document with how a cold caller handles a lead, how acquisitions runs an appointment, how dispo sends a deal. A month later, nobody opens it. New hires read it once, the team drifts, and the owner is back to correcting the same mistakes by message. The fix isn't a better document, it's moving each rule to the place the work happens, so the CRM shows it when it matters, requires it when it must be right and reports on whether it was followed. This guide shows the five-line format I use for an SOP, the SOPs a 10 to 50 person team needs by role, and where in Salesforce each part belongs.
@@ -7607,7 +7607,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Speed to Lead for Real Estate Investors: The First-Hour Rule
-URL: https://amrmagdy.com/speed-to-lead-real-estate-investors.html
+URL: https://amrmagdy.com/speed-to-lead-real-estate-investors
 
 Speed to lead for real estate investors: the first-hour rule.
 Speed to lead is the time between a seller reaching out and a real person on your team talking to them. For investors and wholesalers it decides who gets the deal: motivated sellers usually contact several buyers, and they often go with the first one who answers and sounds able to help. Aim to reach every inbound lead within the hour, and measure it.
@@ -7654,7 +7654,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Stop Reps Exporting Your Seller List from Salesforce
-URL: https://amrmagdy.com/stop-reps-exporting-leads-salesforce.html
+URL: https://amrmagdy.com/stop-reps-exporting-leads-salesforce
 
 Your seller list is the business. Stopping reps from exporting it in Salesforce
 Every owner who has watched a rep leave for a competitor, or start their own wholesaling company, has wondered what walked out the door with them. Your seller list, with years of conversations, numbers and reasons to sell, is one of the most valuable things the business owns. This page is for owners and ops managers who want to know what a rep can actually take out of Salesforce, what to switch off, and what to do when someone gives notice.
@@ -7735,7 +7735,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Podio, REsimpli or GoHighLevel to Salesforce: Switch Guide
-URL: https://amrmagdy.com/switch-to-salesforce-real-estate-investors.html
+URL: https://amrmagdy.com/switch-to-salesforce-real-estate-investors
 
 Moving from Podio, REsimpli or GoHighLevel to Salesforce.
 A switch to Salesforce is mostly a data and habits project. The software part is the easy bit. This guide gives you an honest side-by-side with prices checked on each vendor's site, a field map from each tool to Salesforce, what usually breaks, and a 30-60-90 day plan that keeps new leads flowing while both systems run.
@@ -7827,7 +7827,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Wholesaling CRM Videos: Deal Leak & Systems That Pay
-URL: https://amrmagdy.com/videos.html
+URL: https://amrmagdy.com/videos
 
 Deal Leak: where wholesaling deals leak.
 Twelve short videos in two series. The first six take one leak each, on the places money slips away between paying for a seller lead and keeping a closed deal. Each one ends with a fix you can set up in any CRM and links to the free tool that measures that leak from your own numbers.
@@ -7892,7 +7892,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Wholesale Assignment Fee: Set It So the Deal Still Sells
-URL: https://amrmagdy.com/wholesale-assignment-fee.html
+URL: https://amrmagdy.com/wholesale-assignment-fee
 
 Wholesale assignment fee: set it from the buyer's margin.
 An assignment fee is what a wholesaler is paid for assigning the purchase contract to a cash buyer. The fee that works is not a round number you pick in advance: it is whatever is left after the buyer's repairs, costs and required profit come out of the after-repair value, minus your contract price. Price it from the buyer's side and deals sell instead of sitting.
@@ -7935,7 +7935,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Wholesale Deal Analyzer: MAO, Your Fee & Buyer Profit
-URL: https://amrmagdy.com/wholesale-deal-analyzer.html
+URL: https://amrmagdy.com/wholesale-deal-analyzer
 
 Wholesale deal analyzer.
 One sheet for one deal: your maximum allowable offer, how much room your contract price leaves, what your cash buyer pays, and whether there is still enough profit in it for them to close. A deal that only works for you does not close. Built for real estate investors in the United States, Canada, the UK and Europe. Pick your currency; the math is the same everywhere.
@@ -7975,7 +7975,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Wholesaling Cost Per Deal Calculator by Lead Source
-URL: https://amrmagdy.com/wholesaling-cost-per-deal-calculator.html
+URL: https://amrmagdy.com/wholesaling-cost-per-deal-calculator
 
 Wholesaling cost per deal, by lead source.
 Put in last month's (or last quarter's) numbers for each marketing channel. The calculator shows cost per lead, cost per contract, cost per closed deal and ROI side by side, so you can see which channel is actually paying for itself. Nothing you type leaves your browser.
@@ -8002,7 +8002,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Wholesaling CRM Glossary: ARV, MAO, Cost per Deal
-URL: https://amrmagdy.com/wholesaling-crm-glossary.html
+URL: https://amrmagdy.com/wholesaling-crm-glossary
 
 Wholesaling & investor CRM glossary.
 Plain-English definitions of the terms acquisitions and dispo teams use every day, and where it helps, what each one looks like inside a CRM.
@@ -8128,7 +8128,7 @@ See also: the wholesaling CRM checklist , stage by stage.
 
 ---
 ## Wholesaling CRM: What It Must Track, Stage by Stage
-URL: https://amrmagdy.com/wholesaling-crm.html
+URL: https://amrmagdy.com/wholesaling-crm
 
 Wholesaling CRM: what it must track, stage by stage.
 A wholesaling CRM earns its cost when it shows where deals leak between the marketing dollar and the closing table. Check yours against five stages: spend, answer, follow-up, offer and keep. Each stage needs a few required fields, one or two automations, and one number you review every Monday. Stage rules are in wholesaling pipeline stages , and the seven jobs for a home-buying company are in CRM for a we buy houses company . Turn the checklist into rules your team follows: SOPs inside your CRM .
@@ -8173,7 +8173,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Wholesaling Laws 2026: What Your CRM Has to Track
-URL: https://amrmagdy.com/wholesaling-laws-crm-tracking.html
+URL: https://amrmagdy.com/wholesaling-laws-crm-tracking
 
 New wholesaling laws: what your CRM has to track.
 Since 2025, a run of states has put rules on wholesaling homes: a written disclosure before the contract, a window for the seller to cancel, and in some states a registration, a license, a deposit in escrow or a deadline to close. Each rule comes with a date someone has to remember. This page lists what each state asks for in plain words, then the fields, automations and report that let your CRM remember those dates for you.
@@ -8328,7 +8328,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Wholesaling Pipeline Stages: Entry and Exit Rules
-URL: https://amrmagdy.com/wholesaling-pipeline-stages.html
+URL: https://amrmagdy.com/wholesaling-pipeline-stages
 
 Wholesaling pipeline stages: what must be true to enter and leave each one
 Most wholesaling pipelines have the right names and no rules. A deal sits in "Offer made" for five weeks because nobody owns it, another jumps to "Under contract" with no contract on file, and the Monday report shows a pipeline that looks fuller than it is. The stage names aren't the problem. A stage is only useful if there is a rule for getting in, a rule for getting out, a person responsible and a time limit. This guide gives you all four for each stage a home-buying or wholesaling team needs, plus how to build them in Salesforce so the system enforces them instead of memory.
@@ -8415,7 +8415,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Wholesaling Systems FAQ: 40 Pain Points Answered
-URL: https://amrmagdy.com/wholesaling-systems-faq.html
+URL: https://amrmagdy.com/wholesaling-systems-faq
 
 Wholesaling systems FAQ: 40 pain points, answered from a systems view
 These are the questions I hear from owners and ops leads at wholesaling and home-buying companies, in my calls, in investor groups and in the replies to my own posts. They sound different on the surface ("my VA makes 4,500 calls a week and I get nothing", "deals die between the offer and the contract", "my dashboard doesn't match my bank"), but nearly all of them are systems problems: a missing owner, a missing date, a field that isn't required, two records for one seller. Each answer below is short and points to the full guide. For the questions behind Salesforce specifically, there is a separate page with 50 Salesforce answers , and for the very practical "how do I" questions from owners, questions from wholesalers .
@@ -8520,7 +8520,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Wholesaling Team Roles: Who Owns What in Your CRM
-URL: https://amrmagdy.com/wholesaling-team-roles-crm.html
+URL: https://amrmagdy.com/wholesaling-team-roles-crm
 
 Wholesaling team roles: who owns what in your CRM, and where deals fall between them
 When a wholesaling or home-buying company grows past five or six people, the jobs split: someone answers leads, someone makes offers, someone sells the deal, someone gets it to closing. That's when deals start falling into the gaps between people. This page is for owners and ops leads building or fixing that structure: the usual roles, what each one owns, what they need to see in the CRM every day, the number each is judged on, and the handoffs where deals leak.
