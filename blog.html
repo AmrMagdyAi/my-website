@@ -72,7 +72,7 @@
 @media(max-width:960px){.articles{grid-template-columns:1fr 1fr}}
 @media(max-width:640px){.articles{grid-template-columns:1fr}.hero{padding:calc(var(--nav) + 36px) 0 44px}}
 </style>
-<script>if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script>if((function(){try{var t=localStorage.getItem('theme');if(t)return t}catch(e){}var m=document.cookie.match(/(?:^|; )theme=(\w+)/);return m&&m[1]})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
 </head>
 <body>
 <header class="top"><div class="wrap">
@@ -335,7 +335,7 @@
         .then(function(d){
           if(!(d && d.success)) throw new Error('send');
           if(window.gtag) gtag('event','generate_lead',{method:'form',form:'newsletter',page_path:location.pathname});
-          ns.style.color = 'var(--teal-ink)'; ns.textContent = 'You\'re in! First guide coming soon.'; nf.reset();
+          ns.style.color = 'var(--teal-ink)'; ns.textContent = 'You\'re in! New guides will reach your inbox.'; nf.reset();
         })
         .catch(nlFail);
     });
