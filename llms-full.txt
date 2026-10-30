@@ -1,27 +1,27 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-10-29
+> Generated: 2026-10-30
 
 
 ---
 ## Amr Magdy | Salesforce CRM Consultant for Real Estate Investors
 URL: https://amrmagdy.com/
 
-Tap to flip the same Monday
-Try it: flip the same Monday
-For home-buying companies, wholesalers and investor teams of 10 to 50
+Same Salesforce. Tap to flip the Monday
+Same Salesforce, two Mondays
+For home-buying and wholesaling teams of 10 to 50 already on Salesforce
 Monday, 8am. Do you know what last month's mail actually bought?
-At most investor teams the honest answer is “I think it's working.” I'm Amr Magdy, a Salesforce CRM Consultant . Switch to “With a system” above to see the same Monday with the system I build.
-With the right Salesforce setup, the answer is on one screen before your first call. I'm Amr Magdy, a Salesforce CRM Consultant , and I build that Monday for owners and ops leads.
+At most investor teams the honest answer is “I think it's working.” I'm Amr Magdy, a Salesforce CRM Consultant . Switch to “Set up right” above to see the same Monday after I fix your Salesforce.
+With Salesforce set up right, the answer is on one screen before your first call. I'm Amr Magdy, a Salesforce CRM Consultant , and I fix Salesforce for owners and ops leads so Monday looks like this.
 The audit is for teams already on Salesforce. On Podio, REsimpli, GoHighLevel or spreadsheets, the first step is a move to Salesforce , and the free call is where we plan it.
 Monday morning
-8:00 Your numbers Three spreadsheets and a dashboard nobody trusts. Best guess: “I think the mail is working.” Your five Monday numbers are in your inbox: cost per contract by channel, last month's mail included.
-8:15 Weekend calls A seller called the mailer number Friday at 6:40pm. Voicemail. Nobody heard it. Friday's 6:40pm call set off an alert and a callback task. A rep called back that night.
-8:40 Offers An offer went out last week and went quiet. Nobody noticed, so nobody followed up. Offers with no activity are on one list, each with an owner and a due date.
-9:00 Texts A seller who replied on Saturday still gets this morning's follow-up text. Cadences stopped when sellers replied. Nobody texts a seller who already answered.
-9:20 Automations A Zap stopped firing two weeks ago. You hear about it today, from a rep. The Zaps are native Flows now. If one stops firing, you know within a day.
-9:45 A change You need a new lead source set up. That's a developer ticket and a week. The new lead source goes live this week. Ops turned on its alerts, no developer.
+8:00 Your numbers Salesforce is full of data and the dashboard still can't say what the mail bought. Best guess: “I think it's working.” Your five Monday numbers are in your inbox: cost per contract by channel, last month's mail included.
+8:15 Weekend calls A seller called the mailer number Friday at 6:40pm. Voicemail, and nothing in Salesforce. Nobody heard it. Friday's 6:40pm call set off an alert and a callback task. A rep called back that night.
+8:40 Offers An offer went out last week and went quiet. Salesforce shows it open, with no task and no owner. Offers with no activity are on one list, each with an owner and a due date.
+9:00 Texts A seller who replied on Saturday still gets this morning's follow-up text. The cadence never stopped. Cadences stopped when sellers replied. Nobody texts a seller who already answered.
+9:20 Automations A Flow or a Zap stopped firing two weeks ago. You hear about it today, from a rep. The automations are native Flows with failure alerts. If one stops firing, you know within a day.
+9:45 A change You need a new lead source set up. It's a developer ticket and a week, and nobody is sure what is safe to change. The new lead source goes live this week. Ops turned on its alerts, no developer.
 10am: money spent, sellers missed, and nobody sure why.
 10am: you know what the mail bought, and every seller has an owner.
 “Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.”
@@ -44,7 +44,7 @@ About to hire a Salesforce admin See how much work there really is before you ad
 Adding acquisitions reps Close the leaks before more leads run through them.
 Opening a new market or channel Track return by market from the first mailer.
 Watch
-The Monday without a system, in two short videos
+Two Mondays where Salesforce leaks, in two short videos
 The 6:40pm call 43 seconds
 The 5 leaks 1 minute 45 seconds
 Read both videos as text
@@ -59,7 +59,7 @@ Follow-up. Of five open leads, only two have a next step: a call on Tuesday and 
 Offer. Three reps offer $118k, $131k and $142k on the same house. On the example deal, ARV $250,000 × 70% is $175,000, minus $40,000 of repairs and a $10,000 fee, so the max offer is $125,000 and two of the three offers are over it. The fix: MAO lives on the deal as a formula, not in someone's head.
 Keep. Ten contracts signed this month and three fell out, so you kept 7, not 10, and ROI is overstated by 43%. The fix: ROI counts kept deals only.
 Which one is yours? Score yours in 30 seconds, free, with the kept-deal map .
-How you get to the Monday with a system
+How you get to a Monday you can trust
 Three ways to work together
 On Salesforce? Start with the audit. Not sure what you need? The free call is where we work it out.
 CRM Revenue Audit
@@ -157,7 +157,7 @@ Built
 What it changed
 Net profit per deal, visible as it happens.
 How it works
-From a free call to the Monday with a system
+From a free call to a Monday you can trust
 You decide every step after the first. Start with a free 30-minute call.
 Free · 30 minutes Free call You tell me how a deal moves through your team today. We agree whether there's a fit, and the right first step.
 $1,500 fixed CRM Revenue Audit The leaks in writing, what each one is likely costing you, and a 30 / 60 / 90 fix plan you can hand to anyone. Not on Salesforce? This step is the move to Salesforce instead.
@@ -235,7 +235,7 @@ A Flow runs the moment a lead is created: it assigns the lead to the right rep o
 How long does a Salesforce implementation take?
 Most focused builds take 6 to 12 weeks, scoped up front: the design first, then the core build (lead routing, pipeline, automations and integrations), then reports and training. Bigger builds take longer and are scoped before they start.
 Next Monday
-Make next Monday the one with a system.
+Make next Monday the one you can trust.
 Book a free 30-minute call and tell me how your team works today, on Salesforce, Podio, REsimpli, GoHighLevel or spreadsheets. We'll find the quick wins and the right next step. No pressure.
 info@AmrMagdy.com I reply within one working day
 Message me on WhatsApp +20 103 327 5250
@@ -307,7 +307,7 @@ Product Hunt Maker profile
 Quora Answers
 Crunchbase Amr Magdy CRM Consulting
 Next Monday
-Make next Monday the one with a system.
+Make next Monday the one you can trust.
 Book a free 30-minute call and tell me how your team works today, on Salesforce, Podio, REsimpli, GoHighLevel or spreadsheets. We'll find the quick wins and the right next step. No pressure.
 info@AmrMagdy.com I reply within one working day
 Message me on WhatsApp +20 103 327 5250
