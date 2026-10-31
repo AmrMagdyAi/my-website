@@ -554,8 +554,8 @@ body.with .pair{border-color:var(--teal-line)}
 .no-js .pair>.flip>.b::before{content:"At most teams";background:var(--rose-soft);color:var(--rose-ink)}
 .no-js .pair>.flip>.a::before{content:"At Central City";background:var(--teal-soft);color:var(--teal-ink)}
 .no-js .pair>.flip>.a{margin-top:18px;padding-top:16px;border-top:1px dashed var(--line2)}
-.no-js .tl .flip>.b::before,.no-js .lede>.b::before,.no-js .sum>.b::before{content:"Without a system: ";font-weight:700;color:var(--rose-ink);font-family:var(--f-body);font-size:.9rem}
-.no-js .tl .flip>.a::before,.no-js .lede>.a::before,.no-js .sum>.a::before{content:"With a system: ";font-weight:700;color:var(--teal-ink);font-family:var(--f-body);font-size:.9rem}
+.no-js .tl .flip>.b::before,.no-js .lede>.b::before,.no-js .sum>.b::before{content:"Waiting on a ticket: ";font-weight:700;color:var(--rose-ink);font-family:var(--f-body);font-size:.9rem}
+.no-js .tl .flip>.a::before,.no-js .lede>.a::before,.no-js .sum>.a::before{content:"Done this week: ";font-weight:700;color:var(--teal-ink);font-family:var(--f-body);font-size:.9rem}
 .no-js .mk{border-color:var(--line2)}
 .no-js .goal thead .st{display:block}
 .no-js .mk::before{background:var(--line2)}
@@ -574,8 +574,8 @@ body.with .pair{border-color:var(--teal-line)}
   .flip,.flip.in{display:block}
   .flip>.st{visibility:visible!important;opacity:1!important;transform:none!important}
   .flip>.st+.st{margin-top:6px}
-  .tl .flip>.b::before,.lede>.b::before,.sum>.b::before{content:"Without a system: ";font-weight:700}
-  .tl .flip>.a::before,.lede>.a::before,.sum>.a::before{content:"With a system: ";font-weight:700}
+  .tl .flip>.b::before,.lede>.b::before,.sum>.b::before{content:"Waiting on a ticket: ";font-weight:700}
+  .tl .flip>.a::before,.lede>.a::before,.sum>.a::before{content:"Done this week: ";font-weight:700}
   .pair>.flip>.b::before{content:"At most teams: ";font-weight:700}
   .pair>.flip>.a::before{content:"At Central City: ";font-weight:700}
   .goal thead .st{display:block}
@@ -621,3 +621,43 @@ main:has(#monday){isolation:isolate;overflow-x:clip}
 @media (max-width:940px){#monday{padding-block:40px 64px}}
 #monday .day{color:var(--ink)}
 #monday .day .day-h h2,#monday .day .day-h h3,#monday .day h2,#monday .day h3{color:var(--ink)}
+
+/* the switch should look like something to press: a labelled switch in the Monday card, a gentle pulse until the visitor first flips it */
+.sw-label{display:flex;align-items:center;gap:10px}
+@media (max-width:900px){.sw-label{display:none}}
+.sw-arrow{flex:none;width:34px;height:2px;background:var(--ink3);position:relative;animation:swarrow 1.6s ease-in-out 3}
+.sw-arrow::after{content:"";position:absolute;right:0;top:-4px;width:9px;height:9px;border-top:2px solid var(--ink3);border-right:2px solid var(--ink3);transform:rotate(45deg)}
+@keyframes swarrow{0%,100%{transform:translateX(0)}50%{transform:translateX(7px)}}
+.flipchip{display:inline-flex;align-items:center;gap:10px;flex:none;min-height:44px;padding:4px 6px 4px 4px;border-radius:999px;border:1.5px solid var(--state-line);background:var(--state-soft);color:var(--state-ink);font:700 .72rem/1 var(--f-body);letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;cursor:pointer;transition:background-color .4s,border-color .4s,color .4s,box-shadow .2s}
+.flipchip .st{padding:8px 4px 8px 11px;background:none!important;color:inherit!important}
+.flipchip:hover{box-shadow:0 0 0 3px var(--state-line)}
+.flipchip:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.flipchip .trk{position:relative;flex:none;width:42px;height:24px;border-radius:999px;background:var(--rose);transition:background-color .35s}
+.flipchip .trk i{position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:50%;background:#fffdf9;box-shadow:0 1px 3px rgba(0,0,0,.35);transition:transform .35s cubic-bezier(.3,.7,.2,1)}
+body.with .flipchip .trk{background:var(--teal)}
+body.with .flipchip .trk i{transform:translateX(18px)}
+.flipchip .tap{position:absolute;right:6px;top:calc(100% + 8px);padding:5px 9px;border-radius:8px;background:#22201d;color:#f7f4ef;font:600 .72rem/1 var(--f-body);letter-spacing:.02em;text-transform:none;pointer-events:none;opacity:0;transform:translateY(-4px);transition:opacity .25s,transform .25s;z-index:2}
+.flipchip .tap::before{content:"";position:absolute;right:16px;top:-4px;width:8px;height:8px;background:#22201d;transform:rotate(45deg)}
+.day-h{position:relative}
+.flipchip{position:relative}
+body:not(.touched) .flipchip .tap{opacity:1;transform:none;animation:taphide .3s ease 6.5s forwards}
+@keyframes taphide{to{opacity:0;transform:translateY(-4px)}}
+body:not(.touched) .flipchip .trk{animation:trkpulse 2.2s ease-in-out 1.2s 4}
+body:not(.touched) .sw{animation:swpulse 2.2s ease-in-out 1.2s 4}
+@keyframes trkpulse{0%,100%{box-shadow:0 0 0 0 transparent}40%{box-shadow:0 0 0 7px var(--rose-line)}}
+@keyframes swpulse{0%,100%{box-shadow:0 0 0 0 transparent}40%{box-shadow:0 0 0 7px var(--rose-line)}}
+@media (max-width:420px){.flipchip{gap:6px}.flipchip .st{padding-left:9px;font-size:.66rem}}
+@media (prefers-reduced-motion:reduce){.sw-arrow,body:not(.touched) .flipchip .trk,body:not(.touched) .sw{animation:none}body:not(.touched) .flipchip .tap{animation:none}}
+.no-js .flipchip{display:none}
+@media print{.flipchip{display:none!important}}
+
+/* the homepage after the partner rework: proof chips on the dark hero, and the "how working together works" row */
+#monday .proof{list-style:none;margin:22px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+#monday .proof li{font:600 .84rem/1.2 var(--f-body);padding:9px 13px;border-radius:999px;border:1px solid rgba(247,244,239,.3);color:#e8e2d8}
+.how{padding:44px 0 6px}
+.how h2{font:400 clamp(1.5rem,3vw,1.9rem)/1.2 var(--f-head);margin:0 0 18px}
+.how ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.how li{padding:20px;border:1px solid var(--line2);border-radius:16px;background:var(--paper)}
+.how li b{display:block;font:400 1.25rem/1.2 var(--f-head);margin-bottom:8px}
+.how li span{color:var(--ink2);font-size:.97rem;line-height:1.5}
+@media (max-width:760px){.how ol{grid-template-columns:minmax(0,1fr)}}

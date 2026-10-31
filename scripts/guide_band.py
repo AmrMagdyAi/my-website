@@ -12,7 +12,7 @@ D = json.load(open('scripts/guide_band_data.json'))
 ICONS, PAGES = D['icons'], D['pages']
 
 # the guides on the Guides page (blog.html); tools stay light
-GUIDES = set(re.findall(r'<a href="([a-z0-9-]+)\.html" class="ac">', open('blog.html', encoding='utf-8').read()))
+GUIDES = set(re.findall(r'<a href="([a-z0-9-]+)(?:\.html)?" class="ac">', open('blog.html', encoding='utf-8').read()))
 
 
 def svg(name):

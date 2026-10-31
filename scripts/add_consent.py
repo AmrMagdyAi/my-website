@@ -24,7 +24,7 @@ for p in sorted(glob.glob('*.html')):
     if 'assets/consent.js' not in s:
         m = re.search(r"<script>window\.dataLayer=window\.dataLayer\|\|\[\];function gtag\(\).*?</script>", s)
         s = s[:m.end()] + f'\n<script src="{root}assets/consent.js" defer></script>' + s[m.end():]
-    if 'privacy.html">Privacy</a>' not in s and p != 'privacy.html':
+    if 'privacy.html">Privacy</a>' not in s and 'privacy">Privacy</a>' not in s and p != 'privacy.html':
         if BASE in s:      # Before & After footer
             s = s.replace(BASE, BASE[:-7] + ' · <a href="privacy.html">Privacy</a></span>')
         elif '<div class="fl">' in s:   # older footer: last link in the row
