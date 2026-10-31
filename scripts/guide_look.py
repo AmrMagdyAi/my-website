@@ -3,7 +3,7 @@
 For each page that links styles.css:
 - header: the main site's header (About, Services, Proof, Free tools, Guides, Revenue Audit, dark mode, Book a free call, phone menu)
 - footer: the main site's footer
-- phone bar: the main site's "$1,500 audit / Book a free call" bar, except where the page has its own bottom bar
+- phone bar: the main site's "Book a free call / The audit" bar, except where the page has its own bottom bar
 - the page's own <style>: the old fonts and the hard-coded navy, blue, gold and red become the main site's tokens
 - the dark call-to-action boxes' inline colors, the same
 - the old dark-mode script becomes assets/chrome.js, and theme-color matches the main site
@@ -85,7 +85,7 @@ def phone_bar(page):
     elif page in MOVE_FIRST:
         links = f'<a class="f" href="move-to-salesforce.html">Move to Salesforce</a><a class="g" href="{BOOK}" target="_blank" rel="noopener" data-book>Book a free call</a>'
     else:
-        links = f'<a class="f" href="crm-revenue-audit.html">$1,500 audit</a><a class="g" href="{BOOK}" target="_blank" rel="noopener" data-book>Book a free call</a>'
+        links = f'<a class="f" href="{BOOK}" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit.html">The audit</a>'
     return f'<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot">{links}</div>'
 
 
