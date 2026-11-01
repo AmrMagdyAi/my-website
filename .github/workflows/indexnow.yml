@@ -35,7 +35,7 @@ jobs:
             case "$f" in
               index.html) u="https://amrmagdy.com/";;
               */*) continue;;
-              *) u="https://amrmagdy.com/$f";;
+              *) u="https://amrmagdy.com/${f%.html}";;
             esac
             URLS="$URLS\"$u\","
           done

@@ -55,7 +55,7 @@
       banner.className='cc';
       banner.setAttribute('aria-label','Cookie choice');
       banner.tabIndex=-1;
-      banner.innerHTML='<p>Can I use Google Analytics cookies to see which pages help visitors? They don\'t tell me who you are. <span class="cc-now"></span><a href="/privacy.html#cookies">More about cookies</a></p>'+
+      banner.innerHTML='<p>Can I use Google Analytics cookies to see which pages help visitors? They don\'t tell me who you are. <span class="cc-now"></span><a href="/privacy#cookies">More about cookies</a></p>'+
         '<div class="cc-b"><button type="button" data-v="granted">Accept</button><button type="button" data-v="denied">No thanks</button></div>';
       banner.addEventListener('click',function(e){ var b=e.target.closest('button[data-v]'); if(b) choose(b.getAttribute('data-v')); });
       banner.addEventListener('keydown',function(e){ if(e.key==='Escape'&&opener){ banner.hidden=true; opener.focus(); opener=null; } });
@@ -79,7 +79,7 @@
     var f=d.querySelector('footer'); if(!f) return;
     var b=d.createElement('button');
     b.type='button'; b.className='cc-open'; b.textContent='Cookie choices';
-    var p=f.querySelector('a[href$="privacy.html"]');
+    var p=f.querySelector('a[href$="privacy"]');
     if(p){
       var prev=p.previousSibling, dot=prev&&prev.nodeType===3&&/\u00b7\s*$/.test(prev.nodeValue);
       p.parentNode.insertBefore(b,p.nextSibling);

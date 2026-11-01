@@ -16,6 +16,10 @@
     var dark=root.getAttribute('data-theme')!=='dark';
     if(dark) root.setAttribute('data-theme','dark'); else root.removeAttribute('data-theme');
     try{localStorage.setItem('theme',dark?'dark':'light');}catch(e){}
+    try{document.cookie='theme='+(dark?'dark':'light')+';path=/;max-age=31536000;SameSite=Lax';}catch(e){}
+    /* last resorts for browsers that block storage and cookies: this tab's session storage and its window name */
+    try{sessionStorage.setItem('theme',dark?'dark':'light');}catch(e){}
+    try{if(!window.name||/^theme-/.test(window.name))window.name='theme-'+(dark?'dark':'light');}catch(e){}
     paint();
   });
   paint();
@@ -46,14 +50,16 @@
     window.addEventListener('resize',function(){ if(window.innerWidth>900) closeMenu(false); });
   }
 
-  /* phone call-to-action bar: after the first screen, until the page's own call-to-action box or the footer */
+  /* phone call-to-action bar: after a short scroll, until the page's own call-to-action box or the footer */
   var bar=d.getElementById('mcta');
   if(bar){
     var stop=d.querySelector(bar.getAttribute('data-stop')||'footer'), ticking=false;
+    /* the bar shows after a short scroll, so a booking button is never far away on a phone; pages whose first screen already has one set data-after="0.85" */
+    var after=parseFloat(bar.getAttribute('data-after'))||0.4;
     var upd=function(){
       ticking=false;
       var y=window.scrollY||root.scrollTop;
-      var on=y>window.innerHeight*0.85&&!(stop&&stop.getBoundingClientRect().top<window.innerHeight);
+      var on=y>window.innerHeight*after&&!(stop&&stop.getBoundingClientRect().top<window.innerHeight);
       bar.classList.toggle('on',on);
     };
     window.addEventListener('scroll',function(){ if(!ticking){ ticking=true; requestAnimationFrame(upd); } },{passive:true});
