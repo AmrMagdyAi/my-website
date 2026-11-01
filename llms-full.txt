@@ -1,7 +1,7 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-10-30
+> Generated: 2026-11-01
 
 
 ---
@@ -550,7 +550,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/best-crm-for-wholesalers
 
 Best CRM for wholesalers in 2026.
-There isn’t one best CRM for wholesalers. There’s a best one for your team size and the tools you already use. Below are 11 options compared on the things that matter for wholesaling, with every feature and price linked to the vendor’s own site.
+There isn’t one best CRM for wholesalers. There’s a best one for your team size and the tools you already use. Below are 11 options compared on the things that matter for wholesaling, with every feature and price linked to the vendor’s own site. If budget is the question, read where a free CRM for wholesalers stops ; if you run a home-buying company, read the CRM a we-buy-houses company needs .
 Want calling, texting, lists, skip tracing and buyer sites in one login? Look at the all-in-one investor CRMs: REsimpli , FreedomSoft , REI BlackBook .
 Already have a dialer and data, and want strict follow-up workflows? InvestorFuse / CarrotCRM .
 Want to build your own process as you grow past a few reps or markets? Salesforce , with setup help.
@@ -4259,7 +4259,7 @@ On Salesforce and want it checked in your own org? Here's what the audit covers 
 URL: https://amrmagdy.com/real-estate-crm-guide
 
 Real estate CRM for investors: the complete guide.
-A real estate CRM for investors is the system that tracks every seller, property, offer and buyer and makes sure no lead is forgotten. This guide covers how to choose one, the records and stages it needs, what to automate and connect, the numbers to review weekly, compliance, and a 30-day setup plan, with links to every free tool on this site.
+A real estate CRM for investors is the system that tracks every seller, property, offer and buyer and makes sure no lead is forgotten. This guide covers how to choose one, the records and stages it needs, what to automate and connect, the numbers to review weekly, compliance, and a 30-day setup plan, with links to every free tool on this site. Two specific cases have their own guides: free CRMs for wholesalers and a CRM for a we-buy-houses company .
 A real estate CRM is the system that holds every seller, property, offer and buyer, and makes sure no lead is forgotten . For investors it replaces sticky notes, spreadsheets and memory.
 The parts that matter: a data model built around properties, pipeline stages with rules, automation for follow-up, integrations with your phone and lead sources, and five numbers you review every week.
 This guide links every free tool, checklist and deep dive on this site, so you can build or fix your CRM in order.
@@ -7171,7 +7171,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-vs-investor-crms
 
 Salesforce vs investor CRMs: how far each one goes.
-Investor CRMs like REsimpli come ready for wholesaling and are the faster start. Podio lets you build your own apps. Salesforce goes furthest on data model, automation, reporting and testing, but costs more and needs to be set up. The right pick depends on your team size, markets and the reports you need.
+Investor CRMs like REsimpli come ready for wholesaling and are the faster start. Podio lets you build your own apps. Salesforce goes furthest on data model, automation, reporting and testing, but costs more and needs to be set up. The right pick depends on your team size, markets and the reports you need. If cost is what is pushing you toward an investor CRM, first see where a free CRM for wholesalers stops .
 Side by side
 What you need | Salesforce | Podio | Wholesaling CRMs
 Built for wholesaling out of the box | No. You build the objects, stages and automations (or hire someone to). | No. You build your own apps. | Yes. Pipeline, stages and seller fields come ready.
@@ -8364,7 +8364,7 @@ See also: the wholesaling CRM checklist , stage by stage.
 URL: https://amrmagdy.com/wholesaling-crm
 
 Wholesaling CRM: what it must track, stage by stage.
-A wholesaling CRM earns its cost when it shows where deals leak between the marketing dollar and the closing table. Check yours against five stages: spend, answer, follow-up, offer and keep. Each stage needs a few required fields, one or two automations, and one number you review every Monday. Stage rules are in wholesaling pipeline stages , and the seven jobs for a home-buying company are in CRM for a we buy houses company . Turn the checklist into rules your team follows: SOPs inside your CRM .
+A wholesaling CRM earns its cost when it shows where deals leak between the marketing dollar and the closing table. Check yours against five stages: spend, answer, follow-up, offer and keep. Each stage needs a few required fields, one or two automations, and one number you review every Monday. Stage rules are in wholesaling pipeline stages , and the seven jobs for a home-buying company are in CRM for a we buy houses company . Turn the checklist into rules your team follows: SOPs inside your CRM . Two related guides: where a free wholesaling CRM stops and what a CRM for a we-buy-houses company has to do . For the buyer side, see how to find cash buyers and keep them in the CRM .
 The checklist
 1. Spend: Know what each closed deal cost
 ☐ Lead source and campaign on every lead, required ☐ Monthly spend per campaign ☐ Source carried through to the closed deal Monday number: Cost per kept deal by campaign
