@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Give every tracked page the cookie choice: Google consent defaults (off for the EEA, the UK and Switzerland until the
-visitor accepts, plus their saved choice) in the inline gtag snippet, assets/consent.js right after it, and a Privacy link
+visitor accepts, plus their saved choice) in the inline gtag snippet (plus the switch that keeps automated visits out of Analytics), assets/consent.js right after it, and a Privacy link
 in the footer. Run it after adding pages. Pages already done are skipped. Usage: python3 scripts/add_consent.py"""
 import glob, os, re, sys
 os.chdir(os.path.join(os.path.dirname(__file__), '..'))
 REGIONS = "'AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH'"
 CONSENT = ("gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:[" + REGIONS + "]});"
            "try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}")
+# automated visits (site checks, JavaScript-rendering scrapers, headless browsers) are kept out of Google Analytics: Google's own per-property switch, set before any hit is sent
+BOT = "try{if(navigator.webdriver||/HeadlessChrome|Firecrawl|Chrome-Lighthouse/i.test(navigator.userAgent))window['ga-disable-G-66PK4JKWSF']=true;}catch(e){}"
 GTAG = "function gtag(){dataLayer.push(arguments);}"
 BASE = '<span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant</span>'
 SKIP = {'book.html'}  # a sub-second stop on the way to Calendly: it keeps its consent defaults, with no prompt and no footer
@@ -21,6 +23,10 @@ for p in sorted(glob.glob('*.html')):
         if s.count(GTAG + "gtag('js',new Date());") != 1:
             sys.exit(f'{p}: expected one inline gtag snippet')
         s = s.replace(GTAG + "gtag('js',new Date());", GTAG + CONSENT + "gtag('js',new Date());")
+    if 'ga-disable-G-66PK4JKWSF' not in s:
+        if s.count("gtag('consent','default'") != 1:
+            sys.exit(f'{p}: expected one consent default')
+        s = s.replace("gtag('consent','default'", BOT + "gtag('consent','default'", 1)
     if 'assets/consent.js' not in s:
         m = re.search(r"<script>window\.dataLayer=window\.dataLayer\|\|\[\];function gtag\(\).*?</script>", s)
         s = s[:m.end()] + f'\n<script src="{root}assets/consent.js" defer></script>' + s[m.end():]
