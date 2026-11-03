@@ -456,6 +456,7 @@ I rank these by two questions: how much time do they give back, and what's the w
 6 | Answer inbound calls and book the appointment | Hand-off to a person on any complication | Medium to high: seller trust
 7 | Call or text sellers on its own, outbound | Nobody in the moment | High: consent, opt-outs, reputation
 Jobs 1 to 3 can start this month with little risk and often give the biggest return, because they remove the typing that reps skip. Job 4 isn't AI, but it's worth doing first because it catches the leads you're already losing; see missed-call alerts and speed to lead . Jobs 6 and 7 are where vendors sell hardest and where mistakes cost the most, so they belong after the basics.
+Want me to look at how yours is set up? Bring your current fields and the tool you are considering, and I will tell you what to fix first. Book a free 30-minute call .
 What rules apply to AI calls and texts?
 This is a summary, not legal advice. Talk to a lawyer who knows the TCPA and your states before you launch anything that contacts sellers on its own.
 AI voices count as artificial voices. In a February 2024 declaratory ruling (FCC 24-17), the FCC said AI technologies that resemble human voices are "artificial" under the TCPA. Calls using them need the called party's prior express consent, and when the call includes an advertisement or telemarketing, prior express written consent.
@@ -485,6 +486,13 @@ It reactivates the wrong people. Sellers who said stop on another record, or who
 It sounds like a script. Sellers in a hard situation can tell. Keep wording plain and short, and let a person take over early.
 Nobody owns it. If no one reads the logs, small errors repeat for weeks.
 It's measured by activity. More messages sent isn't the goal. Appointments set and contracts signed are.
+Where should an AI tool read from and write to?
+An AI follow-up tool is one more tool that holds a copy of your sellers. Decide before you switch it on which tool owns each record, or it will quietly start its own version of the truth.
+Read from the CRM: the seller's status, owner, consent to call or text, opt-out and last contact. If the CRM says do not contact, the tool must see that before it sends.
+Write back to the CRM: a call or text summary, the next step, any new phone number it finds and any opt-out it receives, the same day.
+Never let it change the status on its own without a rule you have written, and log every change it makes.
+One owner per record. The table in the wholesaling tech stack map shows how to write that down.
+Consent rules for the calls and texts themselves are covered under "What rules apply to AI calls and texts?" above. This is information, not legal advice.
 Questions
 What is the best AI for real estate wholesalers?
 The best one is the one that reads and writes to your CRM, respects your consent and opt-out fields, and hands off to a person cleanly. I don't rank brands, because the right fit depends on your CRM, your lead sources and your states. Check how it handles opt-outs and what it bills by use.
@@ -2348,6 +2356,7 @@ Stage and status | The stage or status field, with rules | This drives your pipe
 Consent, do not call, opt-out | A checkbox plus date and source , never a tag | A compliance fact needs a record of when and how
 Short-lived working labels | A tag if you have them, from a fixed list | The one place free tags are fine, because nothing important depends on them
 The test: will I want to count it? If yes, it's a field, and probably a picklist. If it only helps someone find a record this week, a tag is fine.
+Want me to look at how yours are set up? Bring your tag list or a screenshot, and I will show which should be fields and which can go. Book a free 30-minute call .
 What naming rules keep it clean?
 One list, one owner. One person (ops or an admin) approves new values. Reps can ask, but they can't create.
 Lowercase or one consistent style. Pick it once and never mix.
@@ -2373,6 +2382,13 @@ Check anything that triggers automation, and test it on one record.
 Archive campaigns that finished, and keep the results.
 Update the one-line definitions and tell the team what changed.
 It's the same weekly-and-quarterly rhythm that keeps duplicates from piling up. If your tags are already out of hand, the CRM audit checklist shows where to start.
+How do you audit your tags in 15 minutes?
+Export the tag list with a count of records on each.
+Find the near-duplicates, such as "Hot", "hot lead" and "HOT". Pick one spelling and merge the rest.
+Find tags on fewer than a handful of records. They are usually one-offs nobody will search for.
+Find tags that are really a status or a date. "Offer sent" or "Called Tuesday" belongs in a field you can report on, not in a tag.
+List every tag that triggers an automation, and who owns it. Renaming one of those breaks something.
+Check which tags come from other tools. Dialers, list tools and forms often add their own. Decide whether the CRM or the other tool owns the tag; the tech stack map shows how.
 Questions
 How should I tag leads in a wholesaling CRM?
 Don't use one tag for everything. Put lead source, seller situation and property type in picklist fields you can report on, record marketing waves as campaigns with cost, and keep consent as a checkbox with a date. Use free tags only for short-lived working labels from a fixed list.
@@ -6311,6 +6327,7 @@ Nobody has to remember to update the stage, so the contract-to-first-call clock 
 How it is built
 An e-signature integration (I use DocuSign) writes the envelope status to Salesforce; a record-triggered flow updates the stage, stamps the date and notifies the transaction coordinator.
 Edition matters: Pro Suite allows 5 flows in total ( Salesforce Help ), which is fewer than this list needs. Joined reports and approval processes are documented for Enterprise and above ( joined reports , approvals ). Already on Salesforce? See the 12 features most investor orgs don't use .
+Want me to look at how you run today? A short call is enough to say whether it would pay off and what I would build first. Book a free 30-minute call .
 What it really costs
 Licenses are the smallest part of the bill. Salesforce pricing depends on the edition and the number of users, and most businesses can get a discount through their Salesforce account manager, so get a quote for your team before you compare. What matters more is which edition your plan needs, because the limits below decide what you can build. In September 2026 Salesforce introduced Core, Advanced and Max and positions Core against the older Enterprise edition ( announcement ); Salesforce Help still documents limits under the older names.
 Edition | What matters for an investor team
@@ -6330,6 +6347,11 @@ Weeks 3–6 | Objects and fields, lead intake, shared queue, missed-call alert, 
 Weeks 7–8 | Import history, run both systems side by side, fix what the team finds | New leads go to Salesforce; old tool is read-only
 Weeks 9–12 | Cadences, transactions board, buyer matching, campaign ROI and the Monday dashboard | Monday meeting runs from one dashboard
 The five numbers to put on that dashboard are in the free Monday 5 . Already on Salesforce and not sure what's working? Check your Deal Leak Score , then the 12 features most investor orgs don't use .
+What should you settle before the first build?
+Which tool owns each record. If a list tool, a dialer and a spreadsheet all hold sellers, decide which one is the owner first; see the wholesaling tech stack map .
+Your stage rules. Salesforce will show whatever stages you give it, so write what must be true to enter and leave each one; see wholesaling pipeline stages .
+A reason on every dead deal. It is the cheapest field to add and the one that tells you what to build next; see why wholesale deals fall through .
+Source and campaign on every lead, so cost per contract can be calculated; see call tracking .
 Questions
 Is Salesforce worth it for a real estate investor, or is it too expensive?
 It is worth it when a team of roughly three or more people loses deals between steps and needs reporting its current tool can't give. License cost depends on the edition and the number of users, and most businesses can get a discount through their Salesforce account manager. In year one, the build and upkeep often cost more than the licenses. A solo wholesaler is usually better served by an investor CRM.
@@ -8382,6 +8404,7 @@ The checklist
 ☐ Contract and closing dates ☐ Exit type: assignment or double close ☐ Fall-out reason when a deal dies Monday number: Kept deals; fall-out rate and reasons
 Every field above, with picklist values and automation rules, is in the free CRM field kit . To score your current setup in two minutes, take the Deal Leak Score .
 Wholesaling in Ohio, Connecticut, Louisiana, Missouri or another state with a new law? See what your CRM has to track for the new wholesaling laws . Thinking about Salesforce for all of this? Read Salesforce for real estate investors first; it says plainly when it is overkill.
+Tell me how you run today and I will say which I would use and why, even if it is not Salesforce. Book a free 30-minute call .
 How to choose: spreadsheet, investor CRM or Salesforce
 Spreadsheet
 Fine for one person and a handful of deals. It breaks when several people work leads, when missed calls must become tasks on their own, or when you need cost per closed deal without rebuilding it each month.
@@ -8389,6 +8412,8 @@ An investor CRM
 Built for wholesaling and quick to start, with dialers, texting and pipelines included. Check it against the checklist above before you buy, especially lead source carried to the closed deal and fall-out reasons.
 Salesforce
 More setup, but it fits teams with their own process, several markets or custom reporting, and it grows with the business. I build on Salesforce, so weigh that: the checklist matters more than the brand.
+Where does the CRM sit among your other tools?
+Most wholesaling teams also run a list or data tool, a dialer, a texting app and an e-sign tool. The CRM earns its place by being the one tool that owns the seller, the buyer, the deal status and the consent to contact. The others feed it or read from it. The wholesaling tech stack map gives the table for who owns which record. If deals still die after the contract, why wholesale deals fall through lists the eight common causes and the CRM field that shows each one.
 Questions
 What is a wholesaling CRM?
 The system a wholesaler uses to track sellers, properties, offers, contracts and cash buyers from the first call to the closed assignment or double close. A good one also ties every closed deal back to the marketing that produced it.
@@ -8402,7 +8427,7 @@ How do I check my current CRM?
 Go stage by stage through the checklist on this page and mark each line yes or no. The free Deal Leak Score does the same in ten questions and gives a score out of 100.
 Related
 Real estate CRM guide · Do I need a CRM yet? · CRM field kit · Deal Leak Score · Speed to lead · Follow-up cadence builder · Wholesaling CRM glossary · Moving off Podio · All guides · All free tools
-Last updated October 2026.
+Last updated November 2026.
 Want this checklist built into your CRM?
 I build Salesforce for real estate investors and wholesalers: every stage above, with the fields, automations and Monday report. Moving from a spreadsheet, Podio, REsimpli or GoHighLevel? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
 Already on Salesforce? The CRM Revenue Audit (fixed price) is the place to start. Here’s a sample report .
@@ -8676,6 +8701,7 @@ Marketing to buyers | Dispo has started | Assignment ask, buyers sent, buyer res
 Closed | A buyer signed or you closed | Buyer, assignment price, fee and exit type | Transaction coordinator | Until funded
 Dead | The deal is truly over | Dead reason from a short picklist | Whoever closes it | None
 If your pipeline has a lot more stages than this, check whether some are really tasks or statuses. "Waiting on title" is a task. "Seller thinking about it" is a follow-up date. A stage should change what you do with a deal, not describe a to-do on it.
+Want me to look at how yours is set up? Bring your current stages and one deal that got stuck, and I will tell you which stage rule I would write first. Book a free 30-minute call .
 What are the four rules every stage needs?
 An entry rule: one sentence a new rep could apply without asking you. "The seller signed" is an entry rule. "Looks good" is not.
 An exit rule: the fields that must be filled in before the deal can move on. This is what makes the data usable later. If you need the offer date to measure speed to offer, the exit rule from "Appointment" has to ask for it.
@@ -8713,6 +8739,14 @@ Dead as a parking lot. If nothing leaves Dead, you are throwing away your cheape
 Changing stage names without migrating history. Renaming a stage can break reports and any automation or ad-platform feed keyed to it. Plan stage changes like a small project.
 No review. Walk through the oldest ten deals in each stage once a week. It takes 15 minutes and it is the cheapest quality control you have.
 If you want a second pair of eyes on your stages, this is exactly what the CRM Revenue Audit looks at first.
+How do you check your stages against your own deals?
+Do this once on the last 90 days of deals before you change anything. It takes about an hour and tells you which rule to write first.
+List every deal that reached Closed or Dead, with the stage history for each.
+Count the deals that skipped a stage. A deal that went from New lead straight to Under contract either had a stage that was not a real decision, or had it filled in afterward. Either way the rule is not being followed.
+Compare days in each stage with the limit you set. A stage where most deals run over is the first place to look for a missing owner.
+Count Dead deals by the stage they died in, and write down why each one died. If many die after Under contract, read why wholesale deals fall through .
+Pick one stage and write its four rules. Change only that stage for a month, then count again.
+The conversion rates between stages feed funnel math from your CRM , and the tool that holds each record is the subject of the wholesaling tech stack map .
 Questions
 What are the stages of a wholesale real estate deal in a CRM?
 A workable set is New lead, Contacted, Appointment set, Offer made, Under contract, Marketing to buyers, Closed and Dead. Each stage needs a rule for entering it, the fields required to leave it, an owner and a time limit, so a stage change means something.
