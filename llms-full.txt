@@ -1,7 +1,7 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-10-31
+> Generated: 2026-11-03
 
 
 ---
@@ -1605,6 +1605,8 @@ Texting sellers from Salesforce
 10DLC registration, CTIA consent guidance, opt-outs and the tools that log texts.
 Dialers in Salesforce (Open CTI ends 2028)
 RingCentral, Aircall, Dialpad, Twilio: editions, call logging and the 2028 deadline.
+Why Wholesale Deals Fall Through Before Closing
+Eight common causes, the early sign for each, the CRM field that shows it, and one field to add to every dead deal.
 How to Find Cash Buyers for Wholesale Deals and Keep Them
 Where wholesalers find cash buyers, how to verify a buyer before you count them, and what to record in the CRM.
 Wholesale dispositions in Salesforce
@@ -1633,6 +1635,8 @@ A first-response rule, the fields to lock, sellers who come back months later, a
 Report type, filter, grouping and measure for leads, speed to lead, offers, cost per deal and dispo.
 Your Salesforce Dashboard and Your Bank Account Disagree. Here's Why.
 Ten causes, from the running user to date fields, a 20-minute check and how to stop it happening again.
+Wholesaling Tech Stack: Which Tool Owns What
+The layers of a wholesaling stack, which tool should own each record, the sync rules and a checklist to cut duplicates.
 Lead, Opportunity or Property: How to Model a Seller in Salesforce
 When to convert a lead, what conversion carries over, three patterns and how to handle returning sellers.
 CRM Tags for Wholesalers: Tags, Fields or Campaigns?
@@ -5444,7 +5448,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-dialer-real-estate
 
 Dialers in Salesforce for real estate teams.
-RingCentral, Aircall, Dialpad and Twilio all log calls into Salesforce, but Salesforce’s Open CTI, which many of them use, reaches end of life on February 28, 2028. Here’s how each dialer connects, which edition it needs, what a wholesaling team should log, and how to plan for 2028. The system around the calls (queues, outcomes and a caller scorecard) is in cold-calling team setup .
+RingCentral, Aircall, Dialpad and Twilio all log calls into Salesforce, but Salesforce’s Open CTI, which many of them use, reaches end of life on February 28, 2028. Here’s how each dialer connects, which edition it needs, what a wholesaling team should log, and how to plan for 2028. The system around the calls (queues, outcomes and a caller scorecard) is in cold-calling team setup . Which tool owns the seller's status, the dialer or the CRM: the wholesaling tech stack map .
 Salesforce says Open CTI reaches end of life on February 28, 2028, and existing implementations stop working after that. Salesforce Voice is the recommended replacement. source
 Many dialer integrations use Open CTI; Twilio Flex’s docs say its Salesforce integration will stop working after that date. source
 Edition matters: RingCentral supports Professional and above; Aircall and Dialpad require Enterprise or Unlimited. RingCentral · Aircall · Dialpad
@@ -5503,7 +5507,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-dispositions-real-estate
 
 Wholesale dispositions in Salesforce.
-A dispo system in Salesforce has three parts: buyer records with a structured buy box, a record of every deal sent to every buyer, and a fast way to send new contracts to the best-matched buyers first. Here’s the data model, matching rules, sending options, automations and the numbers that show whether your buyer list is real. Where the buyers come from is covered in how to find cash buyers for wholesale deals .
+A dispo system in Salesforce has three parts: buyer records with a structured buy box, a record of every deal sent to every buyer, and a fast way to send new contracts to the best-matched buyers first. Here’s the data model, matching rules, sending options, automations and the numbers that show whether your buyer list is real. Where the buyers come from is covered in how to find cash buyers for wholesale deals . When a deal dies after the contract, here are the common causes and the CRM signs .
 Dispo in a CRM means three things: buyers with a buy box , a record of which buyers saw which deal , and a fast way to send a new deal to the right buyers first .
 In Salesforce that’s a Buyer record, a junction object between Property and Buyer, and List Email or an email tool. List Email sends to up to 200 leads or contacts at once. source
 The payoff: when a contract is signed, the 10 buyers most likely to close get it in minutes, and you can see who actually buys.
@@ -5575,7 +5579,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-docusign-real-estate
 
 DocuSign + Salesforce for real estate investors.
-DocuSign connects to Salesforce through Docusign’s own AppExchange package : you send purchase and assignment contracts from the deal record, templates fill themselves from Salesforce fields, and signed documents come back to the record. Here’s what it does, what it needs and how I set it up for wholesalers.
+DocuSign connects to Salesforce through Docusign’s own AppExchange package : you send purchase and assignment contracts from the deal record, templates fill themselves from Salesforce fields, and signed documents come back to the record. Here’s what it does, what it needs and how I set it up for wholesalers. Which tool owns the signed contract and which owns the deal status: the wholesaling tech stack map .
 Docusign builds Docusign eSignature for Salesforce , an AppExchange package that sends agreements from Salesforce records and writes signed documents and signer data back. source
 Templates pull record fields through merge fields, so seller name, property address and price fill themselves. source
 Salesforce lists it as working with Professional, Enterprise, Unlimited, Developer, Starter and Performance. It needs a separate Docusign subscription. source
@@ -6363,7 +6367,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-integrations-real-estate
 
 Salesforce integrations for real estate investors.
-Salesforce connects to almost every tool investors use , including DocuSign, QuickBooks, RingCentral, Gmail, Facebook lead ads, Google Ads and Slack, through AppExchange packages, the API or tools like Zapier. Below: what each connection syncs, which edition it needs, and what it changes for a wholesaling team. Loading a PropStream or skip-traced list without duplicates: the import routine .
+Salesforce connects to almost every tool investors use , including DocuSign, QuickBooks, RingCentral, Gmail, Facebook lead ads, Google Ads and Slack, through AppExchange packages, the API or tools like Zapier. Below: what each connection syncs, which edition it needs, and what it changes for a wholesaling team. Loading a PropStream or skip-traced list without duplicates: the import routine . Which tool should own each record once they are connected: the wholesaling tech stack map .
 Most investor tools connect to Salesforce through an AppExchange package or the API. The API is on by default only in Enterprise, Unlimited, Performance and Developer ; Professional needs an add-on. Check this first. source
 The connections that change results most for wholesalers: phone and text logging , lead source capture , e-signature on the deal and accounting for assignment fees .
 Open CTI, which many dialers use inside Salesforce, reaches end of life on February 28, 2028. Ask any dialer vendor what their plan is. source
@@ -6611,7 +6615,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-quickbooks-real-estate
 
 QuickBooks + Salesforce for real estate investors.
-QuickBooks Online connects to Salesforce through third-party connectors like Breadwinner, DBSync or Workato , which sync invoices, payments and customers. For investors, the payoff is assignment fees invoiced from the deal and paid status in Salesforce reports, so you see realized revenue and cost per deal by lead source.
+QuickBooks Online connects to Salesforce through third-party connectors like Breadwinner, DBSync or Workato , which sync invoices, payments and customers. For investors, the payoff is assignment fees invoiced from the deal and paid status in Salesforce reports, so you see realized revenue and cost per deal by lead source. Which tool owns the fee, the CRM or the books: the wholesaling tech stack map .
 The common QuickBooks connectors are third party: Breadwinner and DBSync (packages) or Workato and Zapier (integration platforms). Breadwinner · DBSync · Workato
 For investors the point is realized revenue on the deal : the assignment fee invoiced from Salesforce, and paid status visible in Salesforce reports.
 Mapping fees and marketing costs is a design decision. No connector does it out of the box.
@@ -6915,7 +6919,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-transaction-coordination-real-estate
 
 Transaction coordination in Salesforce: contract to close on one board.
-The seller signed. Now title needs the contract, someone has to get the keys, the buyer wants a walkthrough and the closing date is three weeks out. In a lot of investor teams that part lives in a TC's head, a spreadsheet and a group text. This page is how I set it up in Salesforce instead: the stages, the fields, the automatic tasks and the one report the owner should look at.
+The seller signed. Now title needs the contract, someone has to get the keys, the buyer wants a walkthrough and the closing date is three weeks out. In a lot of investor teams that part lives in a TC's head, a spreadsheet and a group text. This page is how I set it up in Salesforce instead: the stages, the fields, the automatic tasks and the one report the owner should look at. If deals keep dying after the contract and you do not know why: why wholesale deals fall through .
 Why deals leak after the contract
 Most CRM effort goes into the front of the funnel: leads, calls, appointments, offers. Then the contract gets signed and the CRM goes quiet. The deal is "Under Contract" for three weeks, and the only way to know where it really stands is to ask the TC.
 That's where the expensive problems are. A seller who doesn't hear from you for a week after signing starts taking other calls. Title is waiting on a document nobody knew they needed. The inspection window passes. In states with new wholesaling rules there are now cancellation windows and closing deadlines on top of that (see what your CRM has to track ).
@@ -8171,7 +8175,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/wholesale-deal-analyzer
 
 Wholesale deal analyzer.
-One sheet for one deal: your maximum allowable offer, how much room your contract price leaves, what your cash buyer pays, and whether there is still enough profit in it for them to close. A deal that only works for you does not close. Built for real estate investors in the United States, Canada, the UK and Europe. Pick your currency; the math is the same everywhere.
+One sheet for one deal: your maximum allowable offer, how much room your contract price leaves, what your cash buyer pays, and whether there is still enough profit in it for them to close. A deal that only works for you does not close. Built for real estate investors in the United States, Canada, the UK and Europe. Pick your currency; the math is the same everywhere. A deal that dies after the contract still costs you the work: why wholesale deals fall through .
 The formula
 MAO = ARV × rule % − repairs − your fee
 Room under MAO = MAO − your contract price
@@ -8496,7 +8500,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/wholesaling-laws-crm-tracking
 
 New wholesaling laws: what your CRM has to track.
-Since 2025, a run of states has put rules on wholesaling homes: a written disclosure before the contract, a window for the seller to cancel, and in some states a registration, a license, a deposit in escrow or a deadline to close. Each rule comes with a date someone has to remember. This page lists what each state asks for in plain words, then the fields, automations and report that let your CRM remember those dates for you.
+Since 2025, a run of states has put rules on wholesaling homes: a written disclosure before the contract, a window for the seller to cancel, and in some states a registration, a license, a deposit in escrow or a deadline to close. Each rule comes with a date someone has to remember. This page lists what each state asks for in plain words, then the fields, automations and report that let your CRM remember those dates for you. When a signed deal still does not close, the usual causes are in why wholesale deals fall through .
 The short version
 Ten states with wholesaling rules that took effect from 2025 on, in date order. "Cancel" means the seller's right to cancel without penalty.
 State | In force from | Main rules | Dates your CRM has to hold
@@ -8909,4 +8913,147 @@ Only owners and ops should export or delete. VAs and cold callers should see onl
 Related guides
 Growing the team?
 Book a free call and tell me how your team is split today. I'll tell you where I'd expect deals to fall between roles, and what I'd change in the CRM first. Already on Salesforce? The fixed-price CRM Revenue Audit checks every handoff in writing.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Wholesaling Tech Stack: Which Tool Owns What
+URL: https://amrmagdy.com/wholesaling-tech-stack-system-of-record
+
+Your wholesaling tech stack: which tool owns each record, and where the truth lives
+A typical wholesaling team has a list tool, a dialer, a texting tool, a CRM, an e-sign tool, a spreadsheet for buyers and an accounting app. Each one holds a piece of the same seller or deal, and when two of them disagree nobody knows which is right. The status says "offer sent" in one place and "dead" in another, a seller who opted out is still in the dialer, and the buyer you promised a deal to has three phone numbers. The fix is not another tool. It is a short written rule for each record: one tool owns it, the others read from it or feed it, and conflicts are settled the same way every time. This guide gives the map, the rules, and a checklist for cutting the duplicates.
+Choose one system of record, usually the CRM, for sellers, buyers, deals and their status. Treat every other tool as an input (lead and data tools, dialers, texting, e-sign) or an output (accounting, reports). For each record type write down who owns it, what may be edited elsewhere, which field matches records (phone, email or property address) and what wins in a conflict. Then remove any tool whose job another tool already does.
+Why does a stack drift into five versions of the truth?
+Tools are added one problem at a time. A list tool for leads, a dialer for calls, a texting app for follow-up. Each one starts its own contact list.
+Nobody wrote down who owns what. So every tool is edited by whoever has it open.
+Integrations copy, they don't decide. A sync that copies a status both ways will happily copy the wrong one.
+The cost shows up in the numbers. Counts don't match across tools, follow-up goes to people who opted out, and reports have to be rebuilt by hand. The systems FAQ lists the symptoms.
+What are the layers of a wholesaling stack?
+Layer | Typical job | Should own | Should never own
+Lead and data tools | Find owners, run lists, skip trace, show cash buyers (PropStream, DealMachine and BatchLeads are examples) | The raw list and the source of each record | Status, notes, follow-up dates
+Dialer | Call lists, log calls and outcomes | The call itself and its recording | The seller's status
+Texting and email | Send and receive messages | The message thread | Consent state (it reads it from the CRM)
+CRM | Sellers, buyers, deals, tasks, stages, reports | People, properties, deals, status, consent, owner, next step | Raw call audio, accounting entries
+E-sign and documents | Contracts and assignments | The signed document | Deal status (the CRM records that it was signed)
+Title and closing partners | Closing the deal | The closing file | Buyer and seller contact records
+Accounting | Money in and out | Invoices, payments, books | Deal stages (it reads the closed deal and fee)
+Spreadsheets | Quick analysis | Nothing long term | Anything someone else needs
+For the CRM layer on its own, see what a wholesaling CRM must track and how the options compare .
+How do you pick one owner for each record?
+Write a short table, one line per record, and put it in your SOPs ( SOPs inside your CRM ).
+Record | Owner | May be edited elsewhere? | If two tools disagree
+Seller person and phone numbers | CRM | No; other tools receive updates | CRM wins; fix the other tool
+Property and its facts | CRM, seeded from the data tool | Data tool may refresh facts | Newer verified fact wins
+Deal status and stage | CRM | No | CRM wins; see pipeline stages
+Consent to call or text, and opt-outs | CRM | Opt-outs may be captured in any tool, then copied to the CRM the same day | The most restrictive state wins
+Calls, texts, emails | The sending tool | No | Logged to the CRM as activity
+Buyer and buy box | CRM | No | CRM wins; see finding and verifying buyers
+Signed contract | E-sign tool | No | The signed copy wins; status updated in the CRM
+Assignment fee received | Accounting | No | Accounting wins; the CRM shows the amount
+What sync rules keep the copies honest?
+One match key per record type, cleaned the same way everywhere: phone for sellers, email or phone for buyers, address for properties. See duplicate sellers .
+One-way by default. Data flows from the owner to the others. Two-way sync only where both sides must edit the same field, and then only for that field.
+Imports go through a staging step. A list from a data tool is cleaned and matched before it creates records; see importing a skip-traced list .
+Source and campaign travel with the record, so cost per contract is calculable; see call tracking .
+A failed sync alerts someone. A silent failure is how a list stops updating for a month.
+Native, middleware or custom. The ways to connect Salesforce to other tools are covered in Salesforce integrations .
+Where do AI tools fit?
+Treat them as inputs and helpers, not as a second source of truth. An AI tool that drafts notes, summarizes calls or scores leads should write its output back to the CRM, in fields, and read the consent state from the CRM before it contacts anyone. See AI for wholesalers' lead follow-up for the jobs, and texting and consent for the rules.
+What should you cut?
+List every tool, who uses it and what it costs per month.
+Mark the records each one holds. If two tools hold the same record and neither is the owner, one of them is a copy.
+Remove tools whose job another tool already does, or whose output nobody reads.
+Count manual handoffs. Every place a person copies a status from one tool to another is a place for error.
+Move in order: consent and status first, then buyers, then documents.
+Re-check in a month. Look for records that exist in a tool but not in the CRM.
+Checklist
+A one-page table says which tool owns each record.
+The CRM holds status, owner, next step and consent for every seller and buyer.
+Every tool that contacts people reads consent from the CRM.
+Records match on one cleaned key.
+Imports are staged, not loaded directly.
+Failed syncs alert a named person.
+No two tools both edit the same field without a rule.
+Each tool earns its monthly cost by a job no other tool does.
+Questions
+What tech stack does a wholesaling business need?
+A way to find and skip trace leads, a dialer, texting and email, a CRM, an e-sign tool, a place for buyers and accounting. What matters more than the list is which tool owns each record, with the CRM usually holding sellers, buyers, deals, status and consent.
+What is a system of record?
+The one tool where the official version of a record lives. Other tools read from it or feed it, and if they disagree the system of record wins. For most wholesaling teams it is the CRM.
+Should my lead tool or my CRM hold the seller's status?
+The CRM. A lead or data tool should own the raw list and the source of each record. Status, notes, owner, next step and consent belong in the CRM so everyone reads the same version.
+How do I stop my dialer and my CRM disagreeing?
+Make the CRM the owner of the seller record and status, sync one-way from the CRM to the dialer, log calls from the dialer back to the CRM as activities, and match records on one cleaned phone number.
+Where should consent to text live?
+In the CRM, as a field with a date and source. Any tool that contacts people should read it before sending, and an opt-out captured anywhere should be copied to the CRM the same day. This is information, not legal advice.
+How many tools is too many?
+There is no fixed number. A tool is too many when another tool already does its job, when nobody reads its output, or when it holds records that disagree with the owner's. Count the manual copy steps between tools as well.
+Related guides
+Not sure which of your tools holds the truth?
+The fixed-price CRM Revenue Audit checks which tool holds each record today, where copies disagree, and what that is costing you, then gives you a fix plan. It's for teams already on Salesforce.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Why Wholesale Deals Fall Through Before Closing
+URL: https://amrmagdy.com/why-wholesale-deals-fall-through
+
+Why wholesale deals fall through before closing: eight causes, and how to tell which one hit yours
+A wholesale deal is under contract and the work is mostly done, so when it dies in the next two weeks it feels like bad luck. It usually is not one thing. A buyer who was never verified goes quiet. The clock on your contract runs out while nobody watches it. Title turns up a lien. The seller's mind changes. Each cause leaves an early sign in your own records, and the sign is usually there days before the deal dies. This guide lists eight common causes, the early sign for each, what the CRM should show, and how to find which cause is yours by recording one field on every dead deal.
+Wholesale deals most often fall through for eight reasons: the buyer was never verified, no buyer was lined up before the inspection or option period ended, nobody owned the closing date, title or liens surprised the team, the seller changed their mind or found another offer, the contract price rested on a weak after-repair value, the buyer re-traded after inspection, or the contract itself could not be assigned. Record a single cause on every dead deal, count them for a quarter, and fix the most common one first.
+Why does a deal that was under contract still die?
+A contract is not a closing. A wholesaler holds a right to buy or to assign, usually with a short window to inspect, find a buyer and close. The window is the risk.
+The deal has several owners. The acquisitions rep who signed it, the dispo person who sells it, a title company and a transaction coordinator each hold a piece. When nobody owns the date, the date passes.
+Dead deals are not recorded as a cause. Most teams write "dead" and move on. Without a cause, every lost deal is a one-off and the same thing happens next month.
+The sign appears in your records first. A deal with no verified buyer at day five, no title order at day three, or no contact with the seller in a week is already telling you what will happen.
+What are the eight common causes?
+Cause | Early sign | What the CRM should show | Fix
+1. The buyer was never verified | The buyer says yes but cannot show funds or has not bought in that area | Buyer verification status, last purchase seen, proof of funds date | Send deals only to verified buyers; see finding and verifying cash buyers
+2. No buyer lined up before the window closes | Days under contract keep rising with no offers | Days to first offer, number of buyers the deal went to, offers received | A rule such as "no offer by day N means reprice, extend or release"
+3. Nobody owns the date | The closing or option date sits in a note, not a field | Option end date, closing date and an owner on the deal | Dates as fields with tasks that fire before them; see transaction coordination
+4. Title or lien surprise | Title has not been ordered, or it came back and nobody read it | Title ordered date, title result, open issues | Order title early and track the result as a stage gate
+5. The seller changes their mind | The seller stops answering, or asks "what if I sell it another way" | Last contact date, last conversation summary, seller's stated reason to sell | Contact on a set rhythm after signing; record the reason they sold in their words
+6. The price rested on a weak value | Buyers' offers are well under the number you assumed | ARV source, comps used, buyer feedback | Record how value was set; see the deal analyzer and assignment fee
+7. The buyer re-trades after inspection | The buyer asks for a lower price after walking the property | Inspection date, buyer's requests, repair estimate | Set the expectation before the walk-through and keep a backup buyer
+8. The contract cannot be assigned as written | The contract has a clause or a state rule that limits assignment | Contract type, assignability flag, state | Check at contract time, not at dispo; see wholesaling laws by state
+The causes overlap. A weak buyer list (1) makes a missed window (2) more likely, and an unowned date (3) hides both. That is why one field per dead deal, described below, is more useful than a long list of reasons.
+What early signs should your CRM show?
+Days under contract and days left in the option or inspection period , on every deal in the pipeline view.
+Buyers sent, offers received and days to first offer for each deal.
+Title ordered, title back and any issue found, as dated fields, not notes.
+Last contact with the seller, with a task if it has been more than a few days.
+The closing date and its owner, so a date cannot belong to everyone.
+A "deals at risk" list that pulls any deal with no offer by your chosen day, no title ordered, or no seller contact in a set number of days. The stages these fields sit in are in wholesaling pipeline stages .
+What is the one field to add to every dead deal?
+Add a required picklist, "Reason it did not close", that appears when a deal moves to a dead or released stage. Use one value per cause above, plus "Seller sold elsewhere" and "Other" (with a text box). Add a second field for the day the deal first showed a warning sign, if you can tell. Rules that keep it honest:
+Required, with one value. Choosing the first cause that fits is better than a blank.
+Filled in by the person who owned the deal, not by someone reading notes afterward.
+Fixed values. Free text cannot be counted. Keep the picklist short and review it once a quarter.
+Kept next to the dead-seller process. A deal that died is still a person who may sell later; see dead seller leads .
+How do you review the pattern each month?
+Count dead deals by reason for the last quarter. The biggest bar is the first thing to fix.
+Split by owner and by market. If one market or one person holds most of one reason, the fix is specific.
+Check the early signs against what happened. Did the deals that died show them first?
+Write one rule from the biggest cause and add it to your SOPs inside the CRM .
+Re-count next quarter. If the bar did not shrink, the rule is not being used or is the wrong rule.
+The math behind this, from leads to closings, is in funnel math from your CRM : a deal that dies after the contract still cost you the lead, the appointment and the offer.
+What should you do when a deal is already dying?
+Find the cause today, not at the end of the window. Use the table above: which early sign is on this deal?
+Talk to the seller and the buyer separately, and write down what each says.
+Look at your options before the date, not after it: extend, reprice, bring another buyer, or release the contract. Check what your contract and your state allow. This is information, not legal advice; ask your attorney or title company about your own deal.
+Record what you did and why, so the next deal starts from a rule instead of a memory.
+Questions
+Why do wholesale deals fall through?
+Common causes are an unverified buyer, no buyer lined up before the inspection or option period ends, nobody owning the closing date, a title or lien surprise, the seller changing their mind, a price based on a weak after-repair value, a buyer re-trading after inspection and a contract that cannot be assigned. The causes overlap, so record one for each dead deal and count them.
+How do I stop wholesale deals from falling through?
+Verify buyers before you send deals, put the option and closing dates in fields with an owner and tasks, order title early, keep in touch with the seller on a set rhythm, record how the value was set and check the contract's assignment terms when you sign it. Then review the reasons on dead deals each month.
+What is the most common reason a wholesale deal dies?
+It depends on the team, which is why the cause should be recorded. For many teams it is the buyer side: no verified buyer, or no offer before the window closes. Count your own dead deals by reason for a quarter and fix the largest cause first.
+What should I track on a deal under contract?
+Days under contract, days left in the option period, buyers sent, offers received, days to first offer, title ordered and result, last contact with the seller, the closing date and who owns it.
+What is a deals-at-risk list?
+A saved view in your CRM that pulls any deal under contract that has no offer by a chosen day, no title order, or no seller contact in a set number of days, so someone looks at it before the window closes.
+Is it legal to walk away from a wholesale contract?
+That depends on the contract terms, your state's rules and what the contract says about inspection and cancellation. Check both before you sign and before you release a deal. This is information, not legal advice; ask your attorney or title company about your own deal.
+Related guides
+Want to see where your deals really die?
+The fixed-price CRM Revenue Audit looks at the deals your CRM shows as lost and under contract, where they stalled and which records were missing at that point, then gives you a fix plan. It's for teams already on Salesforce.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
