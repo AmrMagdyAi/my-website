@@ -5536,7 +5536,7 @@ The junction record is the part most teams skip. In Salesforce it’s two master
 How do you match a deal to the right buyers?
 Start with the buy box
 A list view or report filtered by the deal’s zip, price band and property type gives the candidate buyers. Keep the buy box as picklists and numbers, not a notes field, or the filter can’t work.
-Rank by behaviour, not list size
+Rank by behavior, not list size
 Sort candidates by deals closed in the last 12 months, then by offers made. A roll-up on the buyer record makes this one column.
 Send to the top 10 first
 Give your best buyers a head start, then widen. The Deal Sent records show who had the chance, which settles “I never got that one.”
