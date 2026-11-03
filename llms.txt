@@ -136,6 +136,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Motivated seller questions and CRM fields: https://amrmagdy.com/motivated-seller-questions-crm-fields (questions in five groups, the CRM field each answer fills and what to do with the answers)
 - Wholesaling funnel math from your CRM: https://amrmagdy.com/wholesaling-funnel-math-from-your-crm (leads, conversations, appointments, offers, contracts and closings by source, step rates, running the math backward, traps)
 - Find cash buyers for wholesale deals: https://amrmagdy.com/find-cash-buyers-for-wholesale-deals (where wholesalers find cash buyers, how to verify a buyer, the CRM fields to record and how to keep the list alive)
+- Wholesaling tech stack and system of record: https://amrmagdy.com/wholesaling-tech-stack-system-of-record (the layers of a wholesaling stack, which tool should own each record, sync rules, where AI tools fit and a checklist to cut duplicate tools)
 - Missed-call alerts in Salesforce: https://amrmagdy.com/missed-call-alerts-salesforce (phone integration prerequisites, a 7-step record-triggered Flow, Slack alerts, escalation, after-hours rules, text-back cautions, a daily report)
 - Adding acquisitions reps in Salesforce: https://amrmagdy.com/add-acquisitions-reps-crm (an 11-step checklist: user and permissions, phone and texting under the rep's own user, assignment from the first calling day, list views, templates, speed-to-lead alert, ramp report, offboarding)
 - Real estate investor KPIs by role (updated): https://amrmagdy.com/blog-salesforce-kpis-real-estate (marketing, first contact, acquisitions, dispositions, transaction coordination and owner KPIs, each with a definition and how to build it in Salesforce; tying spend and profit to the books)
@@ -180,6 +181,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - What questions should I ask a motivated seller and where do the answers go? https://amrmagdy.com/motivated-seller-questions-crm-fields
 - How many leads does it take to close a wholesale deal? https://amrmagdy.com/wholesaling-funnel-math-from-your-crm
 - How do I find cash buyers for my wholesale deals? https://amrmagdy.com/find-cash-buyers-for-wholesale-deals
+- Which tool should hold the truth when I use five tools to run my wholesaling business? https://amrmagdy.com/wholesaling-tech-stack-system-of-record
 - What KPIs should a real estate investor or wholesaler track? https://amrmagdy.com/blog-salesforce-kpis-real-estate
 - How do I build a pipeline dashboard in Salesforce for a home-buying company? https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard
 - How do round robin and call routing work in Salesforce for investors? https://amrmagdy.com/blog-salesforce-lead-routing-real-estate

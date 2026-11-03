@@ -1,7 +1,7 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-10-31
+> Generated: 2026-11-03
 
 
 ---
@@ -1633,6 +1633,8 @@ A first-response rule, the fields to lock, sellers who come back months later, a
 Report type, filter, grouping and measure for leads, speed to lead, offers, cost per deal and dispo.
 Your Salesforce Dashboard and Your Bank Account Disagree. Here's Why.
 Ten causes, from the running user to date fields, a 20-minute check and how to stop it happening again.
+Wholesaling Tech Stack: Which Tool Owns What
+The layers of a wholesaling stack, which tool should own each record, the sync rules and a checklist to cut duplicates.
 Lead, Opportunity or Property: How to Model a Seller in Salesforce
 When to convert a lead, what conversion carries over, three patterns and how to handle returning sellers.
 CRM Tags for Wholesalers: Tags, Fields or Campaigns?
@@ -5444,7 +5446,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-dialer-real-estate
 
 Dialers in Salesforce for real estate teams.
-RingCentral, Aircall, Dialpad and Twilio all log calls into Salesforce, but Salesforce’s Open CTI, which many of them use, reaches end of life on February 28, 2028. Here’s how each dialer connects, which edition it needs, what a wholesaling team should log, and how to plan for 2028. The system around the calls (queues, outcomes and a caller scorecard) is in cold-calling team setup .
+RingCentral, Aircall, Dialpad and Twilio all log calls into Salesforce, but Salesforce’s Open CTI, which many of them use, reaches end of life on February 28, 2028. Here’s how each dialer connects, which edition it needs, what a wholesaling team should log, and how to plan for 2028. The system around the calls (queues, outcomes and a caller scorecard) is in cold-calling team setup . Which tool owns the seller's status, the dialer or the CRM: the wholesaling tech stack map .
 Salesforce says Open CTI reaches end of life on February 28, 2028, and existing implementations stop working after that. Salesforce Voice is the recommended replacement. source
 Many dialer integrations use Open CTI; Twilio Flex’s docs say its Salesforce integration will stop working after that date. source
 Edition matters: RingCentral supports Professional and above; Aircall and Dialpad require Enterprise or Unlimited. RingCentral · Aircall · Dialpad
@@ -5575,7 +5577,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-docusign-real-estate
 
 DocuSign + Salesforce for real estate investors.
-DocuSign connects to Salesforce through Docusign’s own AppExchange package : you send purchase and assignment contracts from the deal record, templates fill themselves from Salesforce fields, and signed documents come back to the record. Here’s what it does, what it needs and how I set it up for wholesalers.
+DocuSign connects to Salesforce through Docusign’s own AppExchange package : you send purchase and assignment contracts from the deal record, templates fill themselves from Salesforce fields, and signed documents come back to the record. Here’s what it does, what it needs and how I set it up for wholesalers. Which tool owns the signed contract and which owns the deal status: the wholesaling tech stack map .
 Docusign builds Docusign eSignature for Salesforce , an AppExchange package that sends agreements from Salesforce records and writes signed documents and signer data back. source
 Templates pull record fields through merge fields, so seller name, property address and price fill themselves. source
 Salesforce lists it as working with Professional, Enterprise, Unlimited, Developer, Starter and Performance. It needs a separate Docusign subscription. source
@@ -6363,7 +6365,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-integrations-real-estate
 
 Salesforce integrations for real estate investors.
-Salesforce connects to almost every tool investors use , including DocuSign, QuickBooks, RingCentral, Gmail, Facebook lead ads, Google Ads and Slack, through AppExchange packages, the API or tools like Zapier. Below: what each connection syncs, which edition it needs, and what it changes for a wholesaling team. Loading a PropStream or skip-traced list without duplicates: the import routine .
+Salesforce connects to almost every tool investors use , including DocuSign, QuickBooks, RingCentral, Gmail, Facebook lead ads, Google Ads and Slack, through AppExchange packages, the API or tools like Zapier. Below: what each connection syncs, which edition it needs, and what it changes for a wholesaling team. Loading a PropStream or skip-traced list without duplicates: the import routine . Which tool should own each record once they are connected: the wholesaling tech stack map .
 Most investor tools connect to Salesforce through an AppExchange package or the API. The API is on by default only in Enterprise, Unlimited, Performance and Developer ; Professional needs an add-on. Check this first. source
 The connections that change results most for wholesalers: phone and text logging , lead source capture , e-signature on the deal and accounting for assignment fees .
 Open CTI, which many dialers use inside Salesforce, reaches end of life on February 28, 2028. Ask any dialer vendor what their plan is. source
@@ -6611,7 +6613,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-quickbooks-real-estate
 
 QuickBooks + Salesforce for real estate investors.
-QuickBooks Online connects to Salesforce through third-party connectors like Breadwinner, DBSync or Workato , which sync invoices, payments and customers. For investors, the payoff is assignment fees invoiced from the deal and paid status in Salesforce reports, so you see realized revenue and cost per deal by lead source.
+QuickBooks Online connects to Salesforce through third-party connectors like Breadwinner, DBSync or Workato , which sync invoices, payments and customers. For investors, the payoff is assignment fees invoiced from the deal and paid status in Salesforce reports, so you see realized revenue and cost per deal by lead source. Which tool owns the fee, the CRM or the books: the wholesaling tech stack map .
 The common QuickBooks connectors are third party: Breadwinner and DBSync (packages) or Workato and Zapier (integration platforms). Breadwinner · DBSync · Workato
 For investors the point is realized revenue on the deal : the assignment fee invoiced from Salesforce, and paid status visible in Salesforce reports.
 Mapping fees and marketing costs is a design decision. No connector does it out of the box.
@@ -8909,4 +8911,81 @@ Only owners and ops should export or delete. VAs and cold callers should see onl
 Related guides
 Growing the team?
 Book a free call and tell me how your team is split today. I'll tell you where I'd expect deals to fall between roles, and what I'd change in the CRM first. Already on Salesforce? The fixed-price CRM Revenue Audit checks every handoff in writing.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Wholesaling Tech Stack: Which Tool Owns What
+URL: https://amrmagdy.com/wholesaling-tech-stack-system-of-record
+
+Your wholesaling tech stack: which tool owns each record, and where the truth lives
+A typical wholesaling team has a list tool, a dialer, a texting tool, a CRM, an e-sign tool, a spreadsheet for buyers and an accounting app. Each one holds a piece of the same seller or deal, and when two of them disagree nobody knows which is right. The status says "offer sent" in one place and "dead" in another, a seller who opted out is still in the dialer, and the buyer you promised a deal to has three phone numbers. The fix is not another tool. It is a short written rule for each record: one tool owns it, the others read from it or feed it, and conflicts are settled the same way every time. This guide gives the map, the rules, and a checklist for cutting the duplicates.
+Choose one system of record, usually the CRM, for sellers, buyers, deals and their status. Treat every other tool as an input (lead and data tools, dialers, texting, e-sign) or an output (accounting, reports). For each record type write down who owns it, what may be edited elsewhere, which field matches records (phone, email or property address) and what wins in a conflict. Then remove any tool whose job another tool already does.
+Why does a stack drift into five versions of the truth?
+Tools are added one problem at a time. A list tool for leads, a dialer for calls, a texting app for follow-up. Each one starts its own contact list.
+Nobody wrote down who owns what. So every tool is edited by whoever has it open.
+Integrations copy, they don't decide. A sync that copies a status both ways will happily copy the wrong one.
+The cost shows up in the numbers. Counts don't match across tools, follow-up goes to people who opted out, and reports have to be rebuilt by hand. The systems FAQ lists the symptoms.
+What are the layers of a wholesaling stack?
+Layer | Typical job | Should own | Should never own
+Lead and data tools | Find owners, run lists, skip trace, show cash buyers (PropStream, DealMachine and BatchLeads are examples) | The raw list and the source of each record | Status, notes, follow-up dates
+Dialer | Call lists, log calls and outcomes | The call itself and its recording | The seller's status
+Texting and email | Send and receive messages | The message thread | Consent state (it reads it from the CRM)
+CRM | Sellers, buyers, deals, tasks, stages, reports | People, properties, deals, status, consent, owner, next step | Raw call audio, accounting entries
+E-sign and documents | Contracts and assignments | The signed document | Deal status (the CRM records that it was signed)
+Title and closing partners | Closing the deal | The closing file | Buyer and seller contact records
+Accounting | Money in and out | Invoices, payments, books | Deal stages (it reads the closed deal and fee)
+Spreadsheets | Quick analysis | Nothing long term | Anything someone else needs
+For the CRM layer on its own, see what a wholesaling CRM must track and how the options compare .
+How do you pick one owner for each record?
+Write a short table, one line per record, and put it in your SOPs ( SOPs inside your CRM ).
+Record | Owner | May be edited elsewhere? | If two tools disagree
+Seller person and phone numbers | CRM | No; other tools receive updates | CRM wins; fix the other tool
+Property and its facts | CRM, seeded from the data tool | Data tool may refresh facts | Newer verified fact wins
+Deal status and stage | CRM | No | CRM wins; see pipeline stages
+Consent to call or text, and opt-outs | CRM | Opt-outs may be captured in any tool, then copied to the CRM the same day | The most restrictive state wins
+Calls, texts, emails | The sending tool | No | Logged to the CRM as activity
+Buyer and buy box | CRM | No | CRM wins; see finding and verifying buyers
+Signed contract | E-sign tool | No | The signed copy wins; status updated in the CRM
+Assignment fee received | Accounting | No | Accounting wins; the CRM shows the amount
+What sync rules keep the copies honest?
+One match key per record type, cleaned the same way everywhere: phone for sellers, email or phone for buyers, address for properties. See duplicate sellers .
+One-way by default. Data flows from the owner to the others. Two-way sync only where both sides must edit the same field, and then only for that field.
+Imports go through a staging step. A list from a data tool is cleaned and matched before it creates records; see importing a skip-traced list .
+Source and campaign travel with the record, so cost per contract is calculable; see call tracking .
+A failed sync alerts someone. A silent failure is how a list stops updating for a month.
+Native, middleware or custom. The ways to connect Salesforce to other tools are covered in Salesforce integrations .
+Where do AI tools fit?
+Treat them as inputs and helpers, not as a second source of truth. An AI tool that drafts notes, summarizes calls or scores leads should write its output back to the CRM, in fields, and read the consent state from the CRM before it contacts anyone. See AI for wholesalers' lead follow-up for the jobs, and texting and consent for the rules.
+What should you cut?
+List every tool, who uses it and what it costs per month.
+Mark the records each one holds. If two tools hold the same record and neither is the owner, one of them is a copy.
+Remove tools whose job another tool already does, or whose output nobody reads.
+Count manual handoffs. Every place a person copies a status from one tool to another is a place for error.
+Move in order: consent and status first, then buyers, then documents.
+Re-check in a month. Look for records that exist in a tool but not in the CRM.
+Checklist
+A one-page table says which tool owns each record.
+The CRM holds status, owner, next step and consent for every seller and buyer.
+Every tool that contacts people reads consent from the CRM.
+Records match on one cleaned key.
+Imports are staged, not loaded directly.
+Failed syncs alert a named person.
+No two tools both edit the same field without a rule.
+Each tool earns its monthly cost by a job no other tool does.
+Questions
+What tech stack does a wholesaling business need?
+A way to find and skip trace leads, a dialer, texting and email, a CRM, an e-sign tool, a place for buyers and accounting. What matters more than the list is which tool owns each record, with the CRM usually holding sellers, buyers, deals, status and consent.
+What is a system of record?
+The one tool where the official version of a record lives. Other tools read from it or feed it, and if they disagree the system of record wins. For most wholesaling teams it is the CRM.
+Should my lead tool or my CRM hold the seller's status?
+The CRM. A lead or data tool should own the raw list and the source of each record. Status, notes, owner, next step and consent belong in the CRM so everyone reads the same version.
+How do I stop my dialer and my CRM disagreeing?
+Make the CRM the owner of the seller record and status, sync one-way from the CRM to the dialer, log calls from the dialer back to the CRM as activities, and match records on one cleaned phone number.
+Where should consent to text live?
+In the CRM, as a field with a date and source. Any tool that contacts people should read it before sending, and an opt-out captured anywhere should be copied to the CRM the same day. This is information, not legal advice.
+How many tools is too many?
+There is no fixed number. A tool is too many when another tool already does its job, when nobody reads its output, or when it holds records that disagree with the owner's. Count the manual copy steps between tools as well.
+Related guides
+Not sure which of your tools holds the truth?
+The fixed-price CRM Revenue Audit checks which tool holds each record today, where copies disagree, and what that is costing you, then gives you a fix plan. It's for teams already on Salesforce.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn

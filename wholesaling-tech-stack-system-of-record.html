@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>if(/\.html$/.test(location.pathname))try{history.replaceState(null,'',location.pathname.replace(/(^|\/)index\.html$/,'$1').replace(/\.html$/,'')+location.search+location.hash)}catch(e){}</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}try{if(navigator.webdriver||/HeadlessChrome|Firecrawl|Chrome-Lighthouse/i.test(navigator.userAgent))window['ga-disable-G-66PK4JKWSF']=true;}catch(e){}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF');</script>
+<script src="assets/consent.js" defer></script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'';if(h.indexOf('wa.me')>-1)gtag('event','generate_lead',{method:'whatsapp'});else if(h.indexOf('mailto:')===0)gtag('event','generate_lead',{method:'email'});else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click');else if(h.indexOf('crm-revenue-audit')>-1)gtag('event','cta_audit_click');else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click');else if(h.indexOf('.csv')>-1||h.indexOf('.pdf')>-1)gtag('event','file_download',{file_name:h});});</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wholesaling Tech Stack: Which Tool Owns What</title>
+<meta name="description" content="A wholesaling tech stack map: the layers (data, dialer, texting, CRM, e-sign, accounting), which tool should own each record, sync rules, AI tools and a checklist to cut the duplicates.">
+<link rel="canonical" href="https://amrmagdy.com/wholesaling-tech-stack-system-of-record">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
+<meta name="theme-color" content="#f7f4ef">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://amrmagdy.com/wholesaling-tech-stack-system-of-record">
+<meta property="og:title" content="Your wholesaling tech stack: which tool owns each record, and where the truth lives">
+<meta property="og:description" content="A wholesaling tech stack map: the layers (data, dialer, texting, CRM, e-sign, accounting), which tool should own each record, sync rules, AI tools and a checklist to cut the duplicates.">
+<meta property="og:image" content="https://amrmagdy.com/imgs/og-wholesaling-tech-stack-system-of-record.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Wholesaling tech stack: which tool owns what, and where the truth lives">
+<meta property="og:site_name" content="Amr Magdy">
+<meta property="article:published_time" content="2026-11-03">
+<meta property="article:modified_time" content="2026-11-03">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Your wholesaling tech stack: which tool owns each record, and where the truth lives">
+<meta name="twitter:description" content="A wholesaling tech stack map: the layers (data, dialer, texting, CRM, e-sign, accounting), which tool should own each record, sync rules, AI tools and a checklist to cut the duplicates.">
+<meta name="twitter:image" content="https://amrmagdy.com/imgs/og-wholesaling-tech-stack-system-of-record.jpg">
+<link rel="stylesheet" href="styles.css">
+<style>
+.pg{padding:calc(var(--nav) + 56px) 0 70px}
+.pg-w{max-width:1100px;margin:0 auto;padding:0 1rem}
+.pg h1{font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.12;letter-spacing:-.02em;margin:10px 0 14px}
+.pg h1 em{font-style:italic;font-weight:400;color:var(--sf)}
+.pg .lead{color:var(--txt2);font-size:1.03rem;line-height:1.8;max-width:760px}
+.sec2{margin-top:44px;max-width:820px}
+.sec2 h2{font-size:1.5rem;margin:34px 0 8px;scroll-margin-top:calc(var(--nav) + 16px)}
+.sec2 h3{font-size:1.08rem;margin:22px 0 6px}
+.sec2 p,.sec2 li{color:var(--txt2);line-height:1.78}
+.sec2 p{margin:8px 0}
+.sec2 ul,.sec2 ol{padding-left:1.2rem;margin:8px 0}
+.sec2 li{margin:4px 0}
+.sec2 a{color:var(--sf);text-decoration:underline;text-underline-offset:2px}
+.sec2 strong{color:var(--txt)}
+.card{background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:22px;box-shadow:var(--sh-md);margin-top:18px}
+.card h3{margin-top:0}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:14px 0;border:1px solid var(--bd);border-radius:14px;background:var(--bg2)}
+.tw table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:560px}
+.tw th,.tw td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--bd);color:var(--txt2);line-height:1.55}
+.tw th{color:var(--txt);font-weight:700;background:var(--bg);position:sticky;top:0}
+.tw td:first-child{color:var(--txt);font-weight:600}
+.dl dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--txt3);font-weight:700;margin-top:12px}
+.dl dd{color:var(--txt2);line-height:1.7;margin:2px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.toc a{border:1px solid var(--bd2);border-radius:999px;padding:5px 12px;font-size:.82rem;color:var(--txt)}
+.fig{margin:18px 0;background:var(--bg2);border:1px solid var(--bd);border-radius:18px;padding:16px}
+.fig svg{width:100%;height:auto;display:block}
+.fig figcaption{font-size:.84rem;color:var(--txt3);margin-top:8px;line-height:1.6}
+.note{font-size:.85rem;color:var(--txt2);margin-top:12px;line-height:1.7}
+.cq{margin-top:20px}.cq h3{font-size:1.05rem;margin-bottom:6px}.cq p{color:var(--txt2);line-height:1.75}
+.cta{background:var(--navy);color:var(--band-ink);border-radius:18px;padding:26px;margin-top:40px}
+.cta h2{color:var(--band-ink);font-size:1.35rem;margin:0 0 8px}.cta p{color:var(--band-ink2);line-height:1.7}.cta a.btn{margin:14px 8px 0 0}
+.pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--bg);border:1px solid var(--bd2);color:var(--txt2);margin-right:6px}
+.warn{background:var(--bg2);border:1.5px solid var(--gold);border-left-width:6px;border-radius:14px;padding:14px 18px;margin:18px 0 0;color:var(--txt2);line-height:1.7;max-width:820px}
+.dlbox{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--bg2);border:1.5px dashed var(--gold);border-radius:16px;padding:16px 18px;margin:18px 0}
+.dlbox p{margin:0;flex:1 1 240px}
+
+.ans{background:var(--bg2);border:1px solid var(--bd);border-left:6px solid var(--sf);border-radius:14px;padding:16px 20px;margin:22px 0 0;max-width:820px}
+.ans p{margin:0;color:var(--txt2);line-height:1.75}.ans .k{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--txt3);font-weight:700;margin-bottom:4px}
+.chk{list-style:none;padding-left:0!important}.chk li{position:relative;padding-left:1.6rem}.chk li::before{content:'';position:absolute;left:0;top:.45em;width:.9rem;height:.9rem;border:1.5px solid var(--sf);border-radius:4px}
+.rel2{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:12px}
+.rel2 a{display:block;border:1px solid var(--bd);border-radius:14px;padding:14px 16px;background:var(--bg2);text-decoration:none!important;color:var(--txt)!important}
+.rel2 a b{display:block;font-size:.95rem;margin-bottom:4px}.rel2 a span{display:block;font-size:.84rem;color:var(--txt3);line-height:1.5}
+.src{font-size:.86rem}.src li{margin:6px 0}
+.ex{font-size:.86rem;color:var(--txt3);font-style:italic}
+.faqcat{margin-top:40px}
+</style>
+<script>if((function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t)try{var m=document.cookie.match(/(?:^|; )theme=(\w+)/);t=m&&m[1]}catch(e){}if(!t)try{t=sessionStorage.getItem('theme')}catch(e){}if(!t&&/^theme-(dark|light)$/.test(window.name))t=window.name.slice(6);return t})()==='dark')document.documentElement.setAttribute('data-theme','dark');</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Your wholesaling tech stack: which tool owns each record, and where the truth lives", "description": "A wholesaling tech stack map: the layers (data, dialer, texting, CRM, e-sign, accounting), which tool should own each record, sync rules, AI tools and a checklist to cut the duplicates.", "url": "https://amrmagdy.com/wholesaling-tech-stack-system-of-record", "mainEntityOfPage": "https://amrmagdy.com/wholesaling-tech-stack-system-of-record", "inLanguage": "en-US", "datePublished": "2026-11-03", "dateModified": "2026-11-03", "author": {"@type": "Person", "@id": "https://amrmagdy.com/#person", "name": "Amr Magdy", "url": "https://amrmagdy.com/about"}, "publisher": {"@id": "https://amrmagdy.com/#person"}, "isPartOf": {"@id": "https://amrmagdy.com/#website"}, "image": "https://amrmagdy.com/imgs/og-wholesaling-tech-stack-system-of-record.jpg", "about": [{"@type": "Thing", "name": "Tech stack"}, {"@type": "Thing", "name": "System of record"}, {"@type": "Thing", "name": "Wholesaling real estate"}, {"@type": "Thing", "name": "CRM"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What tech stack does a wholesaling business need?", "acceptedAnswer": {"@type": "Answer", "text": "A way to find and skip trace leads, a dialer, texting and email, a CRM, an e-sign tool, a place for buyers and accounting. What matters more than the list is which tool owns each record, with the CRM usually holding sellers, buyers, deals, status and consent."}}, {"@type": "Question", "name": "What is a system of record?", "acceptedAnswer": {"@type": "Answer", "text": "The one tool where the official version of a record lives. Other tools read from it or feed it, and if they disagree the system of record wins. For most wholesaling teams it is the CRM."}}, {"@type": "Question", "name": "Should my lead tool or my CRM hold the seller's status?", "acceptedAnswer": {"@type": "Answer", "text": "The CRM. A lead or data tool should own the raw list and the source of each record. Status, notes, owner, next step and consent belong in the CRM so everyone reads the same version."}}, {"@type": "Question", "name": "How do I stop my dialer and my CRM disagreeing?", "acceptedAnswer": {"@type": "Answer", "text": "Make the CRM the owner of the seller record and status, sync one-way from the CRM to the dialer, log calls from the dialer back to the CRM as activities, and match records on one cleaned phone number."}}, {"@type": "Question", "name": "Where should consent to text live?", "acceptedAnswer": {"@type": "Answer", "text": "In the CRM, as a field with a date and source. Any tool that contacts people should read it before sending, and an opt-out captured anywhere should be copied to the CRM the same day. This is information, not legal advice."}}, {"@type": "Question", "name": "How many tools is too many?", "acceptedAnswer": {"@type": "Answer", "text": "There is no fixed number. A tool is too many when another tool already does its job, when nobody reads its output, or when it holds records that disagree with the owner's. Count the manual copy steps between tools as well."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://amrmagdy.com/"}, {"@type": "ListItem", "position": 2, "name": "Wholesaling tech stack and system of record", "item": "https://amrmagdy.com/wholesaling-tech-stack-system-of-record"}]}]}</script>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="about">About</a>
+    <a href="./#services">Services</a>
+    <a href="./#cases">Proof</a>
+    <a href="resources">Free tools</a>
+    <a href="blog">Guides</a>
+    <a href="crm-revenue-audit">Revenue Audit</a>
+    <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
+  </nav>
+  <div class="top-act">
+    <button class="icon-btn theme" id="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+    </button>
+    <a class="btn sm ghost" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a>
+    <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span class="bars" aria-hidden="true"></span><span class="txt">Menu</span></button>
+  </div>
+</div></header>
+<main class="pg"><div class="pg-w">
+<span class="eyebrow">Guide · by Amr Magdy · Oct 2026</span>
+<h1>Your wholesaling tech stack: <em>which tool owns each record, and where the truth lives</em></h1>
+<p class="lead">A typical wholesaling team has a list tool, a dialer, a texting tool, a CRM, an e-sign tool, a spreadsheet for buyers and an accounting app. Each one holds a piece of the same seller or deal, and when two of them disagree nobody knows which is right. The status says "offer sent" in one place and "dead" in another, a seller who opted out is still in the dialer, and the buyer you promised a deal to has three phone numbers. The fix is not another tool. It is a short written rule for each record: one tool owns it, the others read from it or feed it, and conflicts are settled the same way every time. This guide gives the map, the rules, and a checklist for cutting the duplicates.</p>
+<div class="ans"><span class="k">Short answer</span><p>Choose one system of record, usually the CRM, for sellers, buyers, deals and their status. Treat every other tool as an input (lead and data tools, dialers, texting, e-sign) or an output (accounting, reports). For each record type write down who owns it, what may be edited elsewhere, which field matches records (phone, email or property address) and what wins in a conflict. Then remove any tool whose job another tool already does.</p></div>
+<div class="toc"><a href="#why">Why stacks drift</a><a href="#layers">The layers</a><a href="#owner">One owner per record</a><a href="#sync">Sync rules</a><a href="#ai">AI tools</a><a href="#cut">What to cut</a><a href="#check">Checklist</a><a href="#faq">Questions</a></div>
+<section class="sec2">
+<h2 id="why">Why does a stack drift into five versions of the truth?</h2>
+<ul>
+<li><strong>Tools are added one problem at a time.</strong> A list tool for leads, a dialer for calls, a texting app for follow-up. Each one starts its own contact list.</li>
+<li><strong>Nobody wrote down who owns what.</strong> So every tool is edited by whoever has it open.</li>
+<li><strong>Integrations copy, they don't decide.</strong> A sync that copies a status both ways will happily copy the wrong one.</li>
+<li><strong>The cost shows up in the numbers.</strong> Counts don't match across tools, follow-up goes to people who opted out, and reports have to be rebuilt by hand. The <a href="wholesaling-systems-faq">systems FAQ</a> lists the symptoms.</li>
+</ul>
+
+<h2 id="layers">What are the layers of a wholesaling stack?</h2>
+<div class="tw"><table>
+<thead><tr><th>Layer</th><th>Typical job</th><th>Should own</th><th>Should never own</th></tr></thead>
+<tbody>
+<tr><td>Lead and data tools</td><td>Find owners, run lists, skip trace, show cash buyers (PropStream, DealMachine and BatchLeads are examples)</td><td>The raw list and the source of each record</td><td>Status, notes, follow-up dates</td></tr>
+<tr><td>Dialer</td><td>Call lists, log calls and outcomes</td><td>The call itself and its recording</td><td>The seller's status</td></tr>
+<tr><td>Texting and email</td><td>Send and receive messages</td><td>The message thread</td><td>Consent state (it reads it from the CRM)</td></tr>
+<tr><td>CRM</td><td>Sellers, buyers, deals, tasks, stages, reports</td><td>People, properties, deals, status, consent, owner, next step</td><td>Raw call audio, accounting entries</td></tr>
+<tr><td>E-sign and documents</td><td>Contracts and assignments</td><td>The signed document</td><td>Deal status (the CRM records that it was signed)</td></tr>
+<tr><td>Title and closing partners</td><td>Closing the deal</td><td>The closing file</td><td>Buyer and seller contact records</td></tr>
+<tr><td>Accounting</td><td>Money in and out</td><td>Invoices, payments, books</td><td>Deal stages (it reads the closed deal and fee)</td></tr>
+<tr><td>Spreadsheets</td><td>Quick analysis</td><td>Nothing long term</td><td>Anything someone else needs</td></tr>
+</tbody></table></div>
+<p>For the CRM layer on its own, see <a href="wholesaling-crm">what a wholesaling CRM must track</a> and <a href="best-crm-for-wholesalers">how the options compare</a>.</p>
+
+<h2 id="owner">How do you pick one owner for each record?</h2>
+<p>Write a short table, one line per record, and put it in your SOPs (<a href="sops-inside-your-crm-wholesaling">SOPs inside your CRM</a>).</p>
+<div class="tw"><table>
+<thead><tr><th>Record</th><th>Owner</th><th>May be edited elsewhere?</th><th>If two tools disagree</th></tr></thead>
+<tbody>
+<tr><td>Seller person and phone numbers</td><td>CRM</td><td>No; other tools receive updates</td><td>CRM wins; fix the other tool</td></tr>
+<tr><td>Property and its facts</td><td>CRM, seeded from the data tool</td><td>Data tool may refresh facts</td><td>Newer verified fact wins</td></tr>
+<tr><td>Deal status and stage</td><td>CRM</td><td>No</td><td>CRM wins; see <a href="wholesaling-pipeline-stages">pipeline stages</a></td></tr>
+<tr><td>Consent to call or text, and opt-outs</td><td>CRM</td><td>Opt-outs may be captured in any tool, then copied to the CRM the same day</td><td>The most restrictive state wins</td></tr>
+<tr><td>Calls, texts, emails</td><td>The sending tool</td><td>No</td><td>Logged to the CRM as activity</td></tr>
+<tr><td>Buyer and buy box</td><td>CRM</td><td>No</td><td>CRM wins; see <a href="find-cash-buyers-for-wholesale-deals">finding and verifying buyers</a></td></tr>
+<tr><td>Signed contract</td><td>E-sign tool</td><td>No</td><td>The signed copy wins; status updated in the CRM</td></tr>
+<tr><td>Assignment fee received</td><td>Accounting</td><td>No</td><td>Accounting wins; the CRM shows the amount</td></tr>
+</tbody></table></div>
+
+<h2 id="sync">What sync rules keep the copies honest?</h2>
+<ul class="chk">
+<li><strong>One match key per record type,</strong> cleaned the same way everywhere: phone for sellers, email or phone for buyers, address for properties. See <a href="salesforce-duplicate-sellers">duplicate sellers</a>.</li>
+<li><strong>One-way by default.</strong> Data flows from the owner to the others. Two-way sync only where both sides must edit the same field, and then only for that field.</li>
+<li><strong>Imports go through a staging step.</strong> A list from a data tool is cleaned and matched before it creates records; see <a href="skip-traced-list-import-salesforce">importing a skip-traced list</a>.</li>
+<li><strong>Source and campaign travel with the record,</strong> so cost per contract is calculable; see <a href="call-tracking-real-estate-investors-salesforce">call tracking</a>.</li>
+<li><strong>A failed sync alerts someone.</strong> A silent failure is how a list stops updating for a month.</li>
+<li><strong>Native, middleware or custom.</strong> The ways to connect Salesforce to other tools are covered in <a href="salesforce-integrations-real-estate">Salesforce integrations</a>.</li>
+</ul>
+
+<h2 id="ai">Where do AI tools fit?</h2>
+<p>Treat them as inputs and helpers, not as a second source of truth. An AI tool that drafts notes, summarizes calls or scores leads should write its output back to the CRM, in fields, and read the consent state from the CRM before it contacts anyone. See <a href="ai-for-wholesalers-lead-follow-up">AI for wholesalers' lead follow-up</a> for the jobs, and <a href="salesforce-texting-real-estate">texting and consent</a> for the rules.</p>
+
+<h2 id="cut">What should you cut?</h2>
+<ol>
+<li><strong>List every tool, who uses it and what it costs per month.</strong></li>
+<li><strong>Mark the records each one holds.</strong> If two tools hold the same record and neither is the owner, one of them is a copy.</li>
+<li><strong>Remove tools whose job another tool already does,</strong> or whose output nobody reads.</li>
+<li><strong>Count manual handoffs.</strong> Every place a person copies a status from one tool to another is a place for error.</li>
+<li><strong>Move in order:</strong> consent and status first, then buyers, then documents.</li>
+<li><strong>Re-check in a month.</strong> Look for records that exist in a tool but not in the CRM.</li>
+</ol>
+
+<h2 id="check">Checklist</h2>
+<ul class="chk">
+<li>A one-page table says which tool owns each record.</li>
+<li>The CRM holds status, owner, next step and consent for every seller and buyer.</li>
+<li>Every tool that contacts people reads consent from the CRM.</li>
+<li>Records match on one cleaned key.</li>
+<li>Imports are staged, not loaded directly.</li>
+<li>Failed syncs alert a named person.</li>
+<li>No two tools both edit the same field without a rule.</li>
+<li>Each tool earns its monthly cost by a job no other tool does.</li>
+</ul>
+</section>
+<section class="sec2"><h2 id="faq">Questions</h2><div class="cq"><h3>What tech stack does a wholesaling business need?</h3><p>A way to find and skip trace leads, a dialer, texting and email, a CRM, an e-sign tool, a place for buyers and accounting. What matters more than the list is which tool owns each record, with the CRM usually holding sellers, buyers, deals, status and consent.</p></div><div class="cq"><h3>What is a system of record?</h3><p>The one tool where the official version of a record lives. Other tools read from it or feed it, and if they disagree the system of record wins. For most wholesaling teams it is the CRM.</p></div><div class="cq"><h3>Should my lead tool or my CRM hold the seller's status?</h3><p>The CRM. A lead or data tool should own the raw list and the source of each record. Status, notes, owner, next step and consent belong in the CRM so everyone reads the same version.</p></div><div class="cq"><h3>How do I stop my dialer and my CRM disagreeing?</h3><p>Make the CRM the owner of the seller record and status, sync one-way from the CRM to the dialer, log calls from the dialer back to the CRM as activities, and match records on one cleaned phone number.</p></div><div class="cq"><h3>Where should consent to text live?</h3><p>In the CRM, as a field with a date and source. Any tool that contacts people should read it before sending, and an opt-out captured anywhere should be copied to the CRM the same day. This is information, not legal advice.</p></div><div class="cq"><h3>How many tools is too many?</h3><p>There is no fixed number. A tool is too many when another tool already does its job, when nobody reads its output, or when it holds records that disagree with the owner's. Count the manual copy steps between tools as well.</p></div></section>
+<section class="sec2"><h2 id="related">Related guides</h2><div class="rel2"><a href="wholesaling-crm"><b>What a wholesaling CRM must track</b><span>The records and stages the CRM owns.</span></a><a href="salesforce-integrations-real-estate"><b>Salesforce integrations</b><span>Native, middleware and custom ways to connect tools.</span></a><a href="skip-traced-list-import-salesforce"><b>Import a skip-traced list</b><span>Clean, match and load lists without duplicates.</span></a><a href="best-crm-for-wholesalers"><b>Best CRM for wholesalers</b><span>How the options compare.</span></a><a href="sops-inside-your-crm-wholesaling"><b>SOPs inside your CRM</b><span>Put the ownership table where people work.</span></a><a href="wholesaling-systems-faq"><b>Wholesaling systems FAQ</b><span>40 pain points answered from a systems view.</span></a></div></section>
+
+<div class="cta"><h2>Not sure which of your tools holds the truth?</h2><p>The fixed-price CRM Revenue Audit checks which tool holds each record today, where copies disagree, and what that is costing you, then gives you a fix plan. It's for teams already on Salesforce.</p>
+<a href="./#contact" class="btn btn-gold">Book a free call</a><a href="crm-revenue-audit" class="btn btn-blue">See the Revenue Audit</a><!-- ask-inline:start --><p style="margin:16px 0 0;font-size:.95rem;color:var(--band-ink2)">Or just ask one question about your setup: <a href="mailto:info@amrmagdy.com?subject=Question%20about%3A%20Your%20wholesaling%20tech%20stack%3A%20which%20tool%20owns%20each%20record%2C%20and...&amp;body=Hi%20Amr%2C%0A%0AI%20read%20https%3A//amrmagdy.com/wholesaling-tech-stack-system-of-record%20and%20have%20a%20question%20about%20our%20setup%3A%0A%0A" onclick="if(window.gtag)gtag('event','contact_click',{method:'email',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">email</a> · <a href="https://wa.me/201033275250?text=Hi%20Amr%2C%20I%20read%20your%20page%20%22Your%20wholesaling%20tech%20stack%3A%20which%20tool%20owns%20each%20record%2C%20and...%22%20and%20have%20a%20question%3A%20" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'whatsapp',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">WhatsApp</a> · <a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener" onclick="if(window.gtag)gtag('event','contact_click',{method:'linkedin',page_path:location.pathname})" style="color:var(--band-ink);font-weight:700;text-decoration:underline">LinkedIn</a></p><!-- ask-inline:end --></div>
+</div></main>
+
+
+<section aria-label="About the author" style="max-width:760px;margin:40px auto 0;padding:0 20px"><div style="display:flex;gap:18px;align-items:flex-start;border:1px solid var(--bd,#ddd);border-radius:14px;padding:20px 22px">
+<img src="imgs/AmrMagdyPic.webp" width="64" height="64" alt="Amr Magdy" loading="lazy" style="border-radius:50%;object-fit:cover;flex:none">
+<div><p style="margin:0 0 6px;font-weight:700">About the author: <a href="about">Amr Magdy</a></p>
+<p style="margin:0;font-size:.95rem;line-height:1.55">Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. <a href="https://www.linkedin.com/in/amrmagdyai/" rel="noopener">LinkedIn</a> · <a href="resources">Free tools</a> · <a href="crm-revenue-audit">CRM Revenue Audit</a></p></div></div></section>
+<footer class="foot"><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
+    <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
+      <li><a href="crm-revenue-audit">CRM Revenue Audit</a></li>
+      <li><a href="sample-audit-report">Sample audit report</a></li>
+      <li><a href="move-to-salesforce">Move to Salesforce</a></li>
+      <li><a href="salesforce-admin-real-estate-investors">Admin or retainer?</a></li>
+      <li><a href="crm-revenue-audit-terms">Audit scope and terms</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
+      <li><a href="deal-leak-score">Deal Leak Score</a></li>
+      <li><a href="wholesaling-cost-per-deal-calculator">Cost per deal calculator</a></li>
+      <li><a href="wholesale-deal-analyzer">Wholesale deal analyzer</a></li>
+      <li><a href="kept-deal-map">Kept-Deal Map</a></li>
+      <li><a href="resources">All free tools</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
+      <li><a href="real-estate-crm-guide">Real estate CRM guide</a></li>
+      <li><a href="salesforce-vs-investor-crms">Salesforce vs investor CRMs</a></li>
+      <li><a href="podio-alternative-wholesalers">Moving off Podio</a></li>
+      <li><a href="videos">Videos</a></li>
+      <li><a href="blog">All guides</a></li>
+    </ul></nav>
+    <nav aria-labelledby="f4"><h2 id="f4">Contact</h2><ul>
+      <li><a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a></li>
+      <li><a href="mailto:info@AmrMagdy.com">info@AmrMagdy.com</a></li>
+      <li><a href="https://www.linkedin.com/in/amrmagdyai/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="salesforce-consultant-canada-real-estate">Canada</a> · <a href="salesforce-consultant-uk-estate-agents">UK</a></li>
+      <li><a href="about">About me</a></li>
+      <li><a href="Amr_Magdy_CV.pdf" download>CV (PDF)</a></li>
+    </ul></nav>
+  </div>
+  <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
+</div></footer>
+
+<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit">The audit</a></div>
+<script src="assets/chrome.js" defer></script>
+
+<script src="booking.js" defer></script>
+</body>
+</html>
