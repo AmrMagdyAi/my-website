@@ -1605,6 +1605,8 @@ Texting sellers from Salesforce
 10DLC registration, CTIA consent guidance, opt-outs and the tools that log texts.
 Dialers in Salesforce (Open CTI ends 2028)
 RingCentral, Aircall, Dialpad, Twilio: editions, call logging and the 2028 deadline.
+Why Wholesale Deals Fall Through Before Closing
+Eight common causes, the early sign for each, the CRM field that shows it, and one field to add to every dead deal.
 How to Find Cash Buyers for Wholesale Deals and Keep Them
 Where wholesalers find cash buyers, how to verify a buyer before you count them, and what to record in the CRM.
 Wholesale dispositions in Salesforce
@@ -5505,7 +5507,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-dispositions-real-estate
 
 Wholesale dispositions in Salesforce.
-A dispo system in Salesforce has three parts: buyer records with a structured buy box, a record of every deal sent to every buyer, and a fast way to send new contracts to the best-matched buyers first. Here’s the data model, matching rules, sending options, automations and the numbers that show whether your buyer list is real. Where the buyers come from is covered in how to find cash buyers for wholesale deals .
+A dispo system in Salesforce has three parts: buyer records with a structured buy box, a record of every deal sent to every buyer, and a fast way to send new contracts to the best-matched buyers first. Here’s the data model, matching rules, sending options, automations and the numbers that show whether your buyer list is real. Where the buyers come from is covered in how to find cash buyers for wholesale deals . When a deal dies after the contract, here are the common causes and the CRM signs .
 Dispo in a CRM means three things: buyers with a buy box , a record of which buyers saw which deal , and a fast way to send a new deal to the right buyers first .
 In Salesforce that’s a Buyer record, a junction object between Property and Buyer, and List Email or an email tool. List Email sends to up to 200 leads or contacts at once. source
 The payoff: when a contract is signed, the 10 buyers most likely to close get it in minutes, and you can see who actually buys.
@@ -6917,7 +6919,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-transaction-coordination-real-estate
 
 Transaction coordination in Salesforce: contract to close on one board.
-The seller signed. Now title needs the contract, someone has to get the keys, the buyer wants a walkthrough and the closing date is three weeks out. In a lot of investor teams that part lives in a TC's head, a spreadsheet and a group text. This page is how I set it up in Salesforce instead: the stages, the fields, the automatic tasks and the one report the owner should look at.
+The seller signed. Now title needs the contract, someone has to get the keys, the buyer wants a walkthrough and the closing date is three weeks out. In a lot of investor teams that part lives in a TC's head, a spreadsheet and a group text. This page is how I set it up in Salesforce instead: the stages, the fields, the automatic tasks and the one report the owner should look at. If deals keep dying after the contract and you do not know why: why wholesale deals fall through .
 Why deals leak after the contract
 Most CRM effort goes into the front of the funnel: leads, calls, appointments, offers. Then the contract gets signed and the CRM goes quiet. The deal is "Under Contract" for three weeks, and the only way to know where it really stands is to ask the TC.
 That's where the expensive problems are. A seller who doesn't hear from you for a week after signing starts taking other calls. Title is waiting on a document nobody knew they needed. The inspection window passes. In states with new wholesaling rules there are now cancellation windows and closing deadlines on top of that (see what your CRM has to track ).
@@ -8173,7 +8175,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/wholesale-deal-analyzer
 
 Wholesale deal analyzer.
-One sheet for one deal: your maximum allowable offer, how much room your contract price leaves, what your cash buyer pays, and whether there is still enough profit in it for them to close. A deal that only works for you does not close. Built for real estate investors in the United States, Canada, the UK and Europe. Pick your currency; the math is the same everywhere.
+One sheet for one deal: your maximum allowable offer, how much room your contract price leaves, what your cash buyer pays, and whether there is still enough profit in it for them to close. A deal that only works for you does not close. Built for real estate investors in the United States, Canada, the UK and Europe. Pick your currency; the math is the same everywhere. A deal that dies after the contract still costs you the work: why wholesale deals fall through .
 The formula
 MAO = ARV × rule % − repairs − your fee
 Room under MAO = MAO − your contract price
@@ -8498,7 +8500,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/wholesaling-laws-crm-tracking
 
 New wholesaling laws: what your CRM has to track.
-Since 2025, a run of states has put rules on wholesaling homes: a written disclosure before the contract, a window for the seller to cancel, and in some states a registration, a license, a deposit in escrow or a deadline to close. Each rule comes with a date someone has to remember. This page lists what each state asks for in plain words, then the fields, automations and report that let your CRM remember those dates for you.
+Since 2025, a run of states has put rules on wholesaling homes: a written disclosure before the contract, a window for the seller to cancel, and in some states a registration, a license, a deposit in escrow or a deadline to close. Each rule comes with a date someone has to remember. This page lists what each state asks for in plain words, then the fields, automations and report that let your CRM remember those dates for you. When a signed deal still does not close, the usual causes are in why wholesale deals fall through .
 The short version
 Ten states with wholesaling rules that took effect from 2025 on, in date order. "Cancel" means the seller's right to cancel without penalty.
 State | In force from | Main rules | Dates your CRM has to hold
@@ -8988,4 +8990,70 @@ There is no fixed number. A tool is too many when another tool already does its 
 Related guides
 Not sure which of your tools holds the truth?
 The fixed-price CRM Revenue Audit checks which tool holds each record today, where copies disagree, and what that is costing you, then gives you a fix plan. It's for teams already on Salesforce.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Why Wholesale Deals Fall Through Before Closing
+URL: https://amrmagdy.com/why-wholesale-deals-fall-through
+
+Why wholesale deals fall through before closing: eight causes, and how to tell which one hit yours
+A wholesale deal is under contract and the work is mostly done, so when it dies in the next two weeks it feels like bad luck. It usually is not one thing. A buyer who was never verified goes quiet. The clock on your contract runs out while nobody watches it. Title turns up a lien. The seller's mind changes. Each cause leaves an early sign in your own records, and the sign is usually there days before the deal dies. This guide lists eight common causes, the early sign for each, what the CRM should show, and how to find which cause is yours by recording one field on every dead deal.
+Wholesale deals most often fall through for eight reasons: the buyer was never verified, no buyer was lined up before the inspection or option period ended, nobody owned the closing date, title or liens surprised the team, the seller changed their mind or found another offer, the contract price rested on a weak after-repair value, the buyer re-traded after inspection, or the contract itself could not be assigned. Record a single cause on every dead deal, count them for a quarter, and fix the most common one first.
+Why does a deal that was under contract still die?
+A contract is not a closing. A wholesaler holds a right to buy or to assign, usually with a short window to inspect, find a buyer and close. The window is the risk.
+The deal has several owners. The acquisitions rep who signed it, the dispo person who sells it, a title company and a transaction coordinator each hold a piece. When nobody owns the date, the date passes.
+Dead deals are not recorded as a cause. Most teams write "dead" and move on. Without a cause, every lost deal is a one-off and the same thing happens next month.
+The sign appears in your records first. A deal with no verified buyer at day five, no title order at day three, or no contact with the seller in a week is already telling you what will happen.
+What are the eight common causes?
+Cause | Early sign | What the CRM should show | Fix
+1. The buyer was never verified | The buyer says yes but cannot show funds or has not bought in that area | Buyer verification status, last purchase seen, proof of funds date | Send deals only to verified buyers; see finding and verifying cash buyers
+2. No buyer lined up before the window closes | Days under contract keep rising with no offers | Days to first offer, number of buyers the deal went to, offers received | A rule such as "no offer by day N means reprice, extend or release"
+3. Nobody owns the date | The closing or option date sits in a note, not a field | Option end date, closing date and an owner on the deal | Dates as fields with tasks that fire before them; see transaction coordination
+4. Title or lien surprise | Title has not been ordered, or it came back and nobody read it | Title ordered date, title result, open issues | Order title early and track the result as a stage gate
+5. The seller changes their mind | The seller stops answering, or asks "what if I sell it another way" | Last contact date, last conversation summary, seller's stated reason to sell | Contact on a set rhythm after signing; record the reason they sold in their words
+6. The price rested on a weak value | Buyers' offers are well under the number you assumed | ARV source, comps used, buyer feedback | Record how value was set; see the deal analyzer and assignment fee
+7. The buyer re-trades after inspection | The buyer asks for a lower price after walking the property | Inspection date, buyer's requests, repair estimate | Set the expectation before the walk-through and keep a backup buyer
+8. The contract cannot be assigned as written | The contract has a clause or a state rule that limits assignment | Contract type, assignability flag, state | Check at contract time, not at dispo; see wholesaling laws by state
+The causes overlap. A weak buyer list (1) makes a missed window (2) more likely, and an unowned date (3) hides both. That is why one field per dead deal, described below, is more useful than a long list of reasons.
+What early signs should your CRM show?
+Days under contract and days left in the option or inspection period , on every deal in the pipeline view.
+Buyers sent, offers received and days to first offer for each deal.
+Title ordered, title back and any issue found, as dated fields, not notes.
+Last contact with the seller, with a task if it has been more than a few days.
+The closing date and its owner, so a date cannot belong to everyone.
+A "deals at risk" list that pulls any deal with no offer by your chosen day, no title ordered, or no seller contact in a set number of days. The stages these fields sit in are in wholesaling pipeline stages .
+What is the one field to add to every dead deal?
+Add a required picklist, "Reason it did not close", that appears when a deal moves to a dead or released stage. Use one value per cause above, plus "Seller sold elsewhere" and "Other" (with a text box). Add a second field for the day the deal first showed a warning sign, if you can tell. Rules that keep it honest:
+Required, with one value. Choosing the first cause that fits is better than a blank.
+Filled in by the person who owned the deal, not by someone reading notes afterward.
+Fixed values. Free text cannot be counted. Keep the picklist short and review it once a quarter.
+Kept next to the dead-seller process. A deal that died is still a person who may sell later; see dead seller leads .
+How do you review the pattern each month?
+Count dead deals by reason for the last quarter. The biggest bar is the first thing to fix.
+Split by owner and by market. If one market or one person holds most of one reason, the fix is specific.
+Check the early signs against what happened. Did the deals that died show them first?
+Write one rule from the biggest cause and add it to your SOPs inside the CRM .
+Re-count next quarter. If the bar did not shrink, the rule is not being used or is the wrong rule.
+The math behind this, from leads to closings, is in funnel math from your CRM : a deal that dies after the contract still cost you the lead, the appointment and the offer.
+What should you do when a deal is already dying?
+Find the cause today, not at the end of the window. Use the table above: which early sign is on this deal?
+Talk to the seller and the buyer separately, and write down what each says.
+Look at your options before the date, not after it: extend, reprice, bring another buyer, or release the contract. Check what your contract and your state allow. This is information, not legal advice; ask your attorney or title company about your own deal.
+Record what you did and why, so the next deal starts from a rule instead of a memory.
+Questions
+Why do wholesale deals fall through?
+Common causes are an unverified buyer, no buyer lined up before the inspection or option period ends, nobody owning the closing date, a title or lien surprise, the seller changing their mind, a price based on a weak after-repair value, a buyer re-trading after inspection and a contract that cannot be assigned. The causes overlap, so record one for each dead deal and count them.
+How do I stop wholesale deals from falling through?
+Verify buyers before you send deals, put the option and closing dates in fields with an owner and tasks, order title early, keep in touch with the seller on a set rhythm, record how the value was set and check the contract's assignment terms when you sign it. Then review the reasons on dead deals each month.
+What is the most common reason a wholesale deal dies?
+It depends on the team, which is why the cause should be recorded. For many teams it is the buyer side: no verified buyer, or no offer before the window closes. Count your own dead deals by reason for a quarter and fix the largest cause first.
+What should I track on a deal under contract?
+Days under contract, days left in the option period, buyers sent, offers received, days to first offer, title ordered and result, last contact with the seller, the closing date and who owns it.
+What is a deals-at-risk list?
+A saved view in your CRM that pulls any deal under contract that has no offer by a chosen day, no title order, or no seller contact in a set number of days, so someone looks at it before the window closes.
+Is it legal to walk away from a wholesale contract?
+That depends on the contract terms, your state's rules and what the contract says about inspection and cancellation. Check both before you sign and before you release a deal. This is information, not legal advice; ask your attorney or title company about your own deal.
+Related guides
+Want to see where your deals really die?
+The fixed-price CRM Revenue Audit looks at the deals your CRM shows as lost and under contract, where they stalled and which records were missing at that point, then gives you a fix plan. It's for teams already on Salesforce.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
