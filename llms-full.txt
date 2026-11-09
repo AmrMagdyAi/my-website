@@ -8,24 +8,61 @@
 ## Amr Magdy | Salesforce CRM Consultant for Real Estate Investors
 URL: https://amrmagdy.com/
 
-A change request, two ways. Tap to flip
-A change request, two ways
-Your ongoing Salesforce partner · home-buying and wholesaling teams already on Salesforce
-A new market. A new hire. A broken alert. Who do you call?
-I'm Amr Magdy, a Salesforce CRM Consultant . I'm the Salesforce person for home-buying and wholesaling teams: I keep your org working, change it when the business changes, and tell you what to fix before it costs you. Same week, no developer tickets.
-Two years as the Salesforce person for a home-buying company
-Changes done the same week
-No long-term contract
-On Podio, REsimpli, GoHighLevel or spreadsheets, the first step is a move to Salesforce . Want a first look at your org before committing? Start with the CRM Revenue Audit .
-A normal month
-New lead source A new mail campaign launches. Its calls and leads don't show up by source for weeks. Live before the first mailer drops: calls create leads, the source is tracked, alerts are on.
-New hire A new acquisitions rep starts Monday. Access, phone and permissions are sorted by Wednesday, maybe. Set up the day before: profile, phone sync, lead queue and a short training.
-Broken alert A Flow failed two weeks ago. You hear about it today, from a rep. Monitoring catches it the same day, and it's fixed that week.
-New market Opening a market means copying and patching, and the reports mix both markets together. The market is a field, so every report splits by market from day one.
-A number you need The owner asks for one number. Someone builds a spreadsheet, again. A report or dashboard on request, same week, and it stays.
-Clean-up Duplicates and bad phone numbers pile up until the dialer and the reports suffer. A monthly clean-up keeps the data worth trusting.
-A month of tickets: some done, some stuck, nobody sure what is safe to change.
-A month of changes: done the same week, written down, and you see what changed.
+Salesforce CRM Consultant · Amr Magdy
+Your Salesforce person, for home-buying and wholesaling teams
+Integrations, automation, reports and the everyday changes, from one person who has run a home-buying company's Salesforce for two years. Monthly, without hiring an admin.
+Salesforce work for Central City Solutions and Pezon Properties . Changes done the same week. US hours, NDA first.
+Want a first look before committing? Start with the CRM Revenue Audit .
+What's stuck in your Salesforce right now?
+Pick one to see what I do about it.
+"Sellers call back and nobody calls them."
+Lead routing, missed-call alerts and follow-up queues, so every new lead has an owner and a next step within minutes.
+Who keeps your Salesforce working?
+Most 10 to 50 person teams can't justify a full-time admin. Here's what else there is.
+A full-time admin
+Knows real-estate investing
+Learns your business on the job
+How you pay
+A salary and benefits for one person
+A small change
+Fast, when they have time
+Covers
+Depends on what one person knows
+If they leave
+You start over and explain it all again
+An agency
+Knows real-estate investing
+Usually general, many industries
+How you pay
+Projects and minimums
+A small change
+A ticket, then a queue
+Covers
+Yes, often split across people
+If they leave
+Your contact changes
+Your CRM vendor's support
+Knows real-estate investing
+Knows their product
+How you pay
+Part of your subscription
+A small change
+A ticket for their part
+Covers
+Only their part of the org
+If they leave
+Nothing outside their product
+Me, monthly
+Knows real-estate investing
+Two years running a home-buying company's Salesforce
+How you pay
+A monthly block of hours
+A small change
+Done the same week, no tickets
+Covers
+Integrations, automation, reports and admin
+If they leave
+Everything is written down, so you are never stuck
 How working together works
 1. You tell me what changed A new hire, a new source, something broken. Slack or email, no ticket system, no form.
 2. I make the change that week Built so ops can switch it on or off later, and written down so another admin could take it over.

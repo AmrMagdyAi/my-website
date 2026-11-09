@@ -1,0 +1,53 @@
+/* Homepage only (Nov 2026): a dark front door with the "What's stuck?" picker, then the "who keeps your Salesforce working" comparison.
+   Navy is the homepage's front-door color; teal stays the action color. Everything else comes from site.css tokens. */
+:root{--h-navy:#0e1b2c;--h-navy2:#16263b;--h-ink:#eef2f6;--h-ink2:#b3c0cf;--h-line:rgba(238,242,246,.16);--h-hi:#4fc4b6}
+:root[data-theme="dark"]{--h-navy:#09121e;--h-navy2:#111d2e}
+.hhero{position:relative;background:var(--h-navy);color:var(--h-ink);overflow:hidden}
+.hhero .scene{position:absolute;right:0;top:0;width:58%;height:100%;object-fit:cover;object-position:70% 40%;opacity:.36;-webkit-mask-image:linear-gradient(90deg,transparent,#000 45%);mask-image:linear-gradient(90deg,transparent,#000 45%)}
+.hhero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--h-navy) 36%,rgba(14,27,44,.62) 62%,rgba(14,27,44,.25))}
+.hhero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1.02fr;gap:44px;align-items:start;padding-block:56px 72px}
+.hhero .copy{display:grid;gap:20px;min-width:0}
+.hhero .kicker{color:var(--h-ink2)}
+.hhero h1{font-size:clamp(2.35rem,4.9vw,4rem);line-height:1.06;color:var(--h-ink);margin:0}
+.hhero h1 em{color:var(--h-hi)}
+.hhero .sub{color:var(--h-ink2);font-size:1.15rem;max-width:34em;margin:0}
+.hhero .ctas{margin-top:4px}
+.hhero .btn{background:var(--h-hi);border-color:var(--h-hi);color:#0c1816}
+.hhero .btn.ghost{background:transparent;color:var(--h-ink);border-color:rgba(238,242,246,.45)}
+.hhero .btn.ghost:hover{border-color:var(--h-ink)}
+.hhero .hwho{display:flex;align-items:center;gap:12px;border-top:1px solid var(--h-line);padding-top:16px;font-size:.92rem;color:var(--h-ink2);margin:0}
+.hhero .hwho img{width:44px;height:44px;border-radius:50%;object-fit:cover;flex:none}
+.hhero .hwho b{color:var(--h-ink);font-weight:600}
+.hhero .fine{font-size:.9rem;color:var(--h-ink2);margin:0}
+.hhero .fine a{color:var(--h-hi)}
+.pick{background:var(--paper);color:var(--ink);border-radius:22px;padding:22px;box-shadow:0 40px 80px -40px rgba(0,0,0,.8);display:grid;gap:14px;min-width:0}
+.pick h2{font:700 1.2rem/1.3 var(--f-body);margin:0}
+.pick .pnote{font-size:.82rem;color:var(--ink3);margin:-8px 0 0}
+.pick .chips{display:flex;flex-wrap:wrap;gap:8px;margin:0}
+.chip-pick{font:500 .92rem/1.2 var(--f-body);min-height:44px;padding:8px 14px;border-radius:999px;border:1px solid var(--line2);background:var(--bg);color:var(--ink);cursor:pointer;text-align:left}
+.chip-pick:hover{border-color:var(--teal)}
+.chip-pick[aria-pressed="true"]{background:var(--h-navy);border-color:var(--h-navy);color:var(--h-ink)}
+:root[data-theme="dark"] .chip-pick[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:var(--on-accent)}
+.panel{border-top:1px solid var(--line);padding-top:14px}
+.pane{display:grid;gap:8px}
+.pane[hidden]{display:none}
+.pane .say{font:400 1.45rem/1.25 var(--f-head);margin:0}
+.pane p{color:var(--ink2);margin:0}
+.pane .lbl{font:700 .7rem/1 var(--f-body);letter-spacing:.12em;text-transform:uppercase;color:var(--teal)}
+.pane .ctas{margin-top:6px;align-items:center}
+.pane .btn{background:var(--teal);border-color:var(--teal);color:var(--on-accent)}
+.pane .alt{font-weight:600;font-size:.92rem}
+@media (max-width:960px){.hhero .wrap{grid-template-columns:1fr;padding-block:40px 48px}.hhero .scene{width:100%;opacity:.2}}
+.cmp-sec .head{max-width:46em}
+.cmp{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:28px}
+.cmp article{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px;display:grid;gap:12px;align-content:start;min-width:0}
+.cmp h3{font-size:1.4rem;margin:0}
+.cmp dl{margin:0;display:grid;gap:10px}
+.cmp dt{font:700 .66rem/1.2 var(--f-body);letter-spacing:.1em;text-transform:uppercase;color:var(--ink3)}
+.cmp dd{margin:2px 0 0;font-size:.92rem;color:var(--ink2)}
+.cmp .mine{background:var(--h-navy);border-color:var(--h-navy);color:var(--h-ink);box-shadow:0 30px 60px -36px rgba(14,27,44,.9)}
+.cmp .mine h3{color:var(--h-ink)}
+.cmp .mine dt{color:var(--h-hi)} .cmp .mine dd{color:var(--h-ink)}
+.cmp .mine .btn{background:var(--h-hi);border-color:var(--h-hi);color:#0c1816;justify-self:start;margin-top:4px}
+@media (max-width:1000px){.cmp{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.cmp{grid-template-columns:1fr}.cmp .mine{order:-1}}
