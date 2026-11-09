@@ -1,7 +1,7 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-11-08
+> Generated: 2026-11-09
 
 
 ---
@@ -211,6 +211,8 @@ Missed-call alerts in Salesforce Guide
 Wholesaling CRM questions, answered Answers
 Salesforce for real estate investors Guide
 Lead routing for real estate teams Article
+Stop wholesale leads falling through the cracks Guide
+Find and verify cash buyers Guide
 Questions
 Before you book
 Working with me
@@ -4703,7 +4705,7 @@ Plain-English definitions of the metrics and terms acquisitions teams use, and h
 Deal Leak videos
 Six short videos, one leak each, from the missed seller call to fall-outs in your ROI, with the tool to measure each.
 Prefer to read?
-The 68 guides cover choosing a CRM, follow-up, automation, reports, moving off Podio, REsimpli or GoHighLevel, and hiring help. Browse all guides · Cost per lead and campaign ROI in Salesforce · Lead routing and speed to lead
+The 87 guides cover choosing a CRM, follow-up, automation, reports, moving off Podio, REsimpli or GoHighLevel, and hiring help. Browse all guides · Stop leads falling through the cracks · CRM for a we-buy-houses company · Find and verify cash buyers · Which Salesforce edition for investors · Salesforce integrations for real estate · Cost per lead and campaign ROI in Salesforce · Lead routing and speed to lead
 Rather have it built into your CRM?
 Every tool here is something I build as live reporting in Salesforce for investors and wholesalers. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit.
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
