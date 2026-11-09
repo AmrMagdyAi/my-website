@@ -67,6 +67,10 @@ How working together works
 1. You tell me what changed A new hire, a new source, something broken. Slack or email, no ticket system, no form.
 2. I make the change that week Built so ops can switch it on or off later, and written down so another admin could take it over.
 3. Every month you see what changed A short report: what I changed, what I'm watching, and what I'd fix next.
+What the first year looks like
+Month 1: I learn your org I read what runs today: flows, integrations, who owns what. I fix whatever is breaking now and write a plain map of the rest, so nothing depends on my memory.
+Months 2 to 3: changes get fast Requests go straight to me and get done that week. Monitoring is on, the monthly report starts, and you get a short list of what I'd fix next.
+Months 4 to 12: I'm the person you call A new market, a new lead source, a new hire, a broken alert. Each one is handled as it comes, and once a quarter we remove what the team stopped using.
 “Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.”
 Sean Grabow , Founder, Central City Solutions
 Salesforce work for
