@@ -1,7 +1,7 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-11-03
+> Generated: 2026-11-08
 
 
 ---
@@ -1573,6 +1573,8 @@ Moving off Podio
 Signs you've outgrown your setup, three options, and a 10-step migration that keeps lead source history.
 Podio's New Automation Limit: What It Means for a Wholesaling Team
 What counts as an automation, when the cap applies, what happens when you hit it and five options.
+Stop Wholesale Leads Falling Through the Cracks
+Seven places leads leak, three rules that stop it, and an hour-long check on your own CRM.
 Call Tracking for Real Estate Investors and Salesforce
 Source numbers vs dynamic pools, which number for which channel, what each call should write to Salesforce and what goes wrong.
 Motivated Seller Questions and the CRM Field for Each
@@ -1867,7 +1869,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/cold-caller-handoff-checklist
 
 Cold caller to acquisitions handoff: the fields and rules.
-Most cold calling teams lose deals at the handoff, not on the call. The caller marks a lead "warm", acquisitions calls back with no context, and the seller has to start over. Fix it with three things: a short fixed list of call outcomes, fields that must be filled before a lead can be passed, and a callback time rule your CRM enforces. The stage rules on either side of the handoff are in wholesaling pipeline stages . The queue, outcome and scorecard side is in cold-calling team setup . The questions behind those fields are in motivated seller questions and the CRM field for each .
+Most cold calling teams lose deals at the handoff, not on the call. The caller marks a lead "warm", acquisitions calls back with no context, and the seller has to start over. Fix it with three things: a short fixed list of call outcomes, fields that must be filled before a lead can be passed, and a callback time rule your CRM enforces. The stage rules on either side of the handoff are in wholesaling pipeline stages . The queue, outcome and scorecard side is in cold-calling team setup . The questions behind those fields are in motivated seller questions and the CRM field for each . The same owner, next step and date rule applies to every open lead: stop leads falling through the cracks .
 1. A fixed list of call outcomes
 Not interested · Wrong number · Call back later · Warm · Hot
 Five options, picked from a list, never typed. Free text makes reporting impossible.
@@ -2505,7 +2507,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/deal-leak-score
 
 What's your Deal Leak Score?
-Ten yes/no checks for wholesalers and home-buying companies, two for each point where money leaks between the marketing dollar and the kept deal. Each yes is 10 points. Then send it to your acquisitions manager and see if your answers match.
+Ten yes/no checks for wholesalers and home-buying companies, two for each point where money leaks between the marketing dollar and the kept deal. Each yes is 10 points. Then send it to your acquisitions manager and see if your answers match. To fix the leaks it finds in follow-up, read how to stop leads falling through the cracks .
 Lead source stays on the record all the way to the closed deal.
 If the source is lost at contract, every ROI number after that is a guess. Field kit: lead and deal fields →
 You can see cost per kept deal by campaign without opening a spreadsheet.
@@ -6339,6 +6341,16 @@ What goes into year one
 Ask your Salesforce account manager to quote the edition your plan needs for your number of users, with API access if you connect a phone or e-signature tool. On top of the licenses come the build (scoped per project; my CRM Revenue Audit is a fixed price and ends with a roadmap you can build with anyone), your phone and texting provider, and whoever owns the system after launch.
 For comparison, and to be fair to the other side: REsimpli lists its Team plan at $699 a month billed annually for 5 users, with dialer, list stacking and direct mail included ( REsimpli's own comparison , Oct 2026). GoHighLevel's Unlimited plan is $297 a month with unlimited users, plus usage fees for calls and texts ( GoHighLevel pricing ). If those tools answer your Monday questions, they are cheaper. Salesforce earns its cost when they can't. The switching guide has the full side-by-side.
 Want to size the leak before the cost? The missed-call cost calculator and the cost per deal calculator take two minutes each.
+How do you set up Salesforce for a real estate investing company?
+Set it up in this order, and each step stays small enough to finish and check before the next one starts.
+Write down how a deal moves today. Stages, who owns each, and what has to be true to move on; see wholesaling pipeline stages .
+Decide what is a lead, an opportunity and a property. Getting this wrong is the most common reason reports are wrong later; see lead, opportunity or property .
+Build the required fields and stage rules, so a record cannot move without the information the next person needs.
+Load your existing sellers cleanly. Match before you import, or you start with duplicates; see importing a skip-traced list and duplicate sellers .
+Connect the tools that touch sellers: phone, texting and e-sign; see Salesforce integrations .
+Build three reports first, then add more when someone asks for them; see Salesforce reports for wholesalers .
+Train the team on one workflow, check it after two weeks and fix what people skip; see getting a team to use Salesforce .
+The timeline below shows how long each stage usually takes.
 A realistic timeline
 This is the plan I'd propose to a 3 to 30 person team with one phone system and one e-signature tool. Data quality and the number of integrations move it more than anything else.
 When | What happens | What the team feels
@@ -7511,7 +7523,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/seller-follow-up-cadence
 
 Seller follow-up cadence builder.
-Silence is not a no. Pick how hot the lead is, the date you first spoke, and the channels you use. You get a dated touch plan you can follow by hand or import into your CRM as tasks. It is a starting template: adjust it to your market and your own results. The words for each touch are in 12 follow-up message templates .
+Silence is not a no. Pick how hot the lead is, the date you first spoke, and the channels you use. You get a dated touch plan you can follow by hand or import into your CRM as tasks. It is a starting template: adjust it to your market and your own results. The words for each touch are in 12 follow-up message templates . For leads that have no owner or no date at all, see how to stop leads falling through the cracks .
 Your touch plan
 # | Date | Day | Channel | Purpose
 Rules that make any cadence work
@@ -7869,7 +7881,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/speed-to-lead-real-estate-investors
 
 Speed to lead for real estate investors: the first-hour rule.
-Speed to lead is the time between a seller reaching out and a real person on your team talking to them. For investors and wholesalers it decides who gets the deal: motivated sellers usually contact several buyers, and they often go with the first one who answers and sounds able to help. Aim to reach every inbound lead within the hour, and measure it.
+Speed to lead is the time between a seller reaching out and a real person on your team talking to them. For investors and wholesalers it decides who gets the deal: motivated sellers usually contact several buyers, and they often go with the first one who answers and sounds able to help. Aim to reach every inbound lead within the hour, and measure it. A fast first call is not enough if the lead is then forgotten: how to stop leads falling through the cracks .
 What the research says
 The best-known study is The Short Life of Online Sales Leads (Harvard Business Review, March 2011) by James Oldroyd, Kristina McElheran and David Elkington. Looking at 1.25 million leads across 42 US companies, firms that contacted a lead within an hour were nearly seven times as likely to qualify it as firms that waited longer, and more than 60 times as likely as firms that waited 24 hours or more. In a separate audit of 2,241 US companies, only 37% responded within an hour and 23% never responded.
 That study covered web leads in general, not seller calls. A missed seller call is the same problem in a sharper form: the seller already reached out, and the clock is running against every other investor they called.
@@ -8230,6 +8242,73 @@ Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
 I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Stop Wholesale Leads Falling Through the Cracks
+URL: https://amrmagdy.com/wholesale-leads-falling-through-the-cracks
+
+How to stop leads falling through the cracks in a wholesaling business: one owner, one next step, one date
+Almost every wholesaling team says the same thing: we are getting leads, and some of them just disappear. A seller said call me back in two weeks and nobody did. An offer went out and nobody followed up. A lead sat in a queue over a weekend. It feels like carelessness, but it is usually a systems problem. The lead had no owner, no next step, or no date, so nothing in the CRM could notice it was late. This guide shows the seven places leads leak, three rules that close them, how to make the CRM enforce the rules, and a one-hour check you can run on your own data today.
+Leads fall through the cracks when a record has no owner, no next step or no due date. Fix that with three rules: every open lead has one named owner, one next step and one date; nobody can save a lead without them; and a daily view shows every lead that is overdue or missing any of the three. Then check your own CRM for open leads with no owner, no next-step date or a date in the past. That count is the size of the leak.
+Why do leads disappear even when everyone is working hard?
+"Working on it" is not a state the CRM can see. A lead that is being handled and a lead that has been forgotten look the same until someone asks.
+A conversation without a next step ends in silence. "Call me later" is a promise only if a date and a person are attached to it.
+Handoffs drop things. Between a cold caller and an acquisitions rep, or between acquisitions and dispo, a lead changes hands and the follow-up belongs to nobody.
+More leads make it worse, not better. Buying more leads into a system with no owners just adds to the pile nobody is watching. Fix the leak first.
+Where do leads leak in a wholesaling business?
+Where it leaks | What it looks like | Rule that closes it
+1. New lead, nobody called | A web or list lead sits unassigned, especially at night or on a weekend | Assign on creation; an unassigned lead alerts a manager after a set time. See speed to lead
+2. Talked once, no next step | The call is logged, the next call is not | A lead cannot be saved after a call without a next step and date
+3. Seller said "not now" | The lead is marked dead, or left open with no date | A re-contact date is required; see dead seller leads
+4. Offer made, then silence | The offer goes out and nobody asks the seller what they think | An offer starts a follow-up sequence automatically; see offer follow-up
+5. The handoff | A caller passes a lead to acquisitions with half the story | A handoff checklist and a named receiver; see the handoff checklist
+6. A new list dumped in | Thousands of records arrive at once and bury the sellers you were already talking to | Stage and match the list first; see importing a skip-traced list
+7. Texts and replies unread | A seller answers a text or voicemail and the reply sits in someone's inbox | Replies create a task for the owner and show in the overdue view
+What are the three rules?
+One owner. Every open lead has exactly one named person responsible, not a team and not a queue. A queue is where leads wait for an owner; once they have one it is that person's lead.
+One next step. Written so that someone else could do it: "call Ana about the roof estimate", not "follow up".
+One date. The date by which the next step happens. A lead with a date in the past is overdue, and overdue is a thing the CRM can show.
+These are the same four things a stage needs in wholesaling pipeline stages : a rule to enter, a rule to leave, an owner and a time limit. The lead rules above are the version for a single record.
+How do you make the CRM enforce the rules?
+Required fields. Owner, next step and next-step date cannot be empty on an open lead; a validation rule blocks the save.
+Default owner. Assign automatically on creation (round robin, by market or by source), so no lead starts unowned.
+An overdue view per person. Every lead whose next-step date is today or earlier, sorted oldest first. This is the list each person starts the day with.
+A "no next step" view for managers. Open leads missing an owner, a step or a date.
+Stage age alerts. A lead that sits in one stage longer than its limit alerts the owner and then the manager.
+Reply tasks. An inbound text, email or missed call creates a task for the owner with a due time.
+A reason on every dead lead, so "gone" is a decision and not a drift.
+What should the daily and weekly check look like?
+Each morning, each person: clear the overdue view, then set a next step and date on every lead they touched yesterday.
+Each Monday, the manager:
+Count open leads with no owner, no next step or no date. The goal is zero.
+Count overdue leads by owner. A person with a long list needs help, not a reminder.
+Read the "not now" list for the coming week, so nobody who asked for a call back is forgotten.
+Look at how many leads died this week, and why.
+The numbers behind the Monday review are in the five Monday numbers .
+How do you find your own leaks in an hour?
+Export every open lead with owner, status, next step, next-step date, last activity and source.
+Count the ones with no owner, then no next step, then no date, then a date in the past. Four numbers.
+Sort by last activity. Leads untouched for longer than your own follow-up rhythm are the oldest leaks.
+Split by source and by person. If one source or one person holds most of the problem, the fix is specific.
+Fix the rules before the records. Add the required fields and the overdue view first, then work through the backlog.
+The free Deal Leak Score gives a quick read on where your own process is weakest. If deals also die after the contract, see why wholesale deals fall through ; for the questions behind all of this, the wholesaling systems FAQ answers forty.
+Questions
+How do I stop leads falling through the cracks in a wholesaling business?
+Give every open lead one owner, one next step and one date, make the CRM refuse to save a lead without them, and give each person a daily view of overdue leads. Managers review leads with no owner, no step or no date every Monday.
+Why do my wholesale leads keep getting lost?
+Usually because they have no owner, no next step or no due date, so nothing in the system can tell they are late. Handoffs between callers, acquisitions and dispo, and 'call me later' conversations with no date attached, are the most common places.
+What should I track to find leads that are slipping?
+Open leads with no owner, no next-step date or a date in the past, the time since last activity, and which source and which person each problem lead belongs to.
+Will a CRM stop leads falling through the cracks by itself?
+No. A CRM only shows what you record. It helps once you make owner, next step and date required, assign leads on creation and build an overdue view; without those rules it is a place to store forgotten leads.
+What do I do with a seller who says call me later?
+Record the date they gave, the reason in their words, and a task for the owner on that date. A re-contact date is what separates a lead that is waiting from one that is lost.
+Should I buy more leads if some are falling through?
+Fix the leak first. More leads into a system with no owners and no dates adds to the pile nobody is watching. Count your open leads with no owner, no next step or no date, and bring that number to zero.
+Related guides
+Want to see where your leads are leaking?
+The fixed-price CRM Revenue Audit counts open leads with no owner, no next step or no date, shows where they stall and which records were missing, then gives you a fix plan. It's for teams already on Salesforce.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8772,10 +8851,10 @@ The fixed-price CRM Revenue Audit reads your pipeline as it runs today: where de
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
-## Wholesaling Systems FAQ: 40 Pain Points Answered
+## Real Estate Wholesaling Systems FAQ: 40 Problems Answered
 URL: https://amrmagdy.com/wholesaling-systems-faq
 
-Wholesaling systems FAQ: 40 pain points, answered from a systems view
+Real estate wholesaling systems FAQ: 40 pain points, answered from a systems view
 These are the questions I hear from owners and ops leads at wholesaling and home-buying companies, in my calls, in investor groups and in the replies to my own posts. They sound different on the surface ("my VA makes 4,500 calls a week and I get nothing", "deals die between the offer and the contract", "my dashboard doesn't match my bank"), but nearly all of them are systems problems: a missing owner, a missing date, a field that isn't required, two records for one seller. Each answer below is short and points to the full guide. For the questions behind Salesforce specifically, there is a separate page with 50 Salesforce answers , and for the very practical "how do I" questions from owners, questions from wholesalers .
 Most wholesaling pain points trace back to five system gaps: no owner and no clock on a new lead, no dated next step on an open lead, no rules for moving a deal between stages, more than one record for the same seller, and no source tracked through to the contract. Fix those five and the symptoms (cold leads, stalled offers, wrong numbers, wasted marketing) mostly ease. The answers below take each symptom in turn.
 How to use this page: find the symptom that sounds like your week, read the short answer, and follow the link if you want the full version with steps. If your problem isn't here, ask me . Real questions are how this page grows.
