@@ -880,7 +880,7 @@ A single Record-Triggered Flow on each object queries the Configuration Object f
 Adding a new automation means adding one record to the Configuration Object. That's it. No Flow Builder, no deployment, no sandbox testing cycle.
 The Business Impact
 After deploying the Configuration Object at Central City Solutions, the Salesforce admin bottleneck essentially disappeared. Business users could add notification rules themselves. When a new team member joined, their task triggers were added by their manager in under a minute. When business rules changed — a new task for a new role, a Slack message redirected to a different channel — it happened in real time.
-The Configuration Object became the single most referenced system at Central City Solutions. Every new automation request — from transaction coordinators, from acquisitions, from dispositions — was handled by adding or modifying Configuration records rather than building new Flows.
+The Configuration Object became the single most referenced system at a two-market home-buying company in Ohio. Every new automation request — from transaction coordinators, from acquisitions, from dispositions — was handled by adding or modifying Configuration records rather than building new Flows.
 When to Build a Configuration Object
 This pattern is worth building when your Salesforce org has more than 15-20 distinct automation rules that business users want to control, when you're receiving frequent requests to modify notification text or recipients, or when the same automation logic repeats across multiple triggers with slightly different parameters. If those conditions don't apply yet, a direct Flow approach is simpler. But if your org is growing and your automation library is expanding, a Configuration Object pays for itself within weeks.
 Want this built for your real estate Salesforce?
@@ -1490,7 +1490,7 @@ Facebook Lead Ads is one of the most effective lead generation tools for real es
 When an opportunity is marked Closed Won, Zapier automatically updates your financial tracking spreadsheet, notifies the transaction team, and creates a record in your commission calculation system. Zero manual handoff between CRM and finance.
 5. Stale Lead Alert to Slack
 Combined with a Salesforce Flow flagging leads with no activity in 72 hours, Zapier posts an automatic Slack message to the relevant channel with the lead name, assigned agent, and days since last contact. This makes the invisible visible in real time — without anyone having to run a report.
-Zapier is great until it isn’t — at Central City Solutions I eventually moved most of their Zaps to native Flows. Start simple, plan the graduation path. See the full case study →
+Zapier is great until it isn’t — at a two-market home-buying company in Ohio I eventually moved most of their Zaps to native Flows. Start simple, plan the graduation path. See the full case study →
 Zapier vs Native Salesforce Integrations
 When a well-maintained native AppExchange integration exists for a tool you use, prefer it over Zapier — native integrations tend to be more reliable with tighter field mapping. Use Zapier for everything that lacks a quality native connector, or where the native connector is missing specific functionality you need.
 Building Your Integration Map
