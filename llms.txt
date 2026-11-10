@@ -139,6 +139,10 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Wholesaling tech stack and system of record: https://amrmagdy.com/wholesaling-tech-stack-system-of-record (the layers of a wholesaling stack, which tool should own each record, sync rules, where AI tools fit and a checklist to cut duplicate tools)
 - Why wholesale deals fall through: https://amrmagdy.com/why-wholesale-deals-fall-through (eight common causes between contract and closing, the early sign and CRM field for each, and one field to add to every dead deal)
 - Stop wholesale leads falling through the cracks: https://amrmagdy.com/wholesale-leads-falling-through-the-cracks (seven places leads leak, three rules (one owner, one next step, one date), how to make the CRM enforce them and a one-hour check)
+- Lead manager training: the first 30 days: https://amrmagdy.com/lead-manager-training-first-30-days (a day-by-day plan for a new lead manager at a home-buying team: practice calls, live calls with a buddy, then their own pipeline, and what to check at day 30)
+- How to role-play seller calls with new reps: https://amrmagdy.com/role-play-seller-calls-new-reps (a 15-minute huddle format with one seller line, one rep and a quick vote, where the lines come from and five lines to start with)
+- New lead manager checklist: https://amrmagdy.com/new-lead-manager-checklist (a one-page checklist for onboarding a lead manager from before day 1 to day 30)
+- 5 seller calls to practice before day one: https://amrmagdy.com/seller-calls-to-practice-before-day-one (the five calls that trip up new lead managers and what a good answer sounds like)
 - Missed-call alerts in Salesforce: https://amrmagdy.com/missed-call-alerts-salesforce (phone integration prerequisites, a 7-step record-triggered Flow, Slack alerts, escalation, after-hours rules, text-back cautions, a daily report)
 - Adding acquisitions reps in Salesforce: https://amrmagdy.com/add-acquisitions-reps-crm (an 11-step checklist: user and permissions, phone and texting under the rep's own user, assignment from the first calling day, list views, templates, speed-to-lead alert, ramp report, offboarding)
 - Real estate investor KPIs by role (updated): https://amrmagdy.com/blog-salesforce-kpis-real-estate (marketing, first contact, acquisitions, dispositions, transaction coordination and owner KPIs, each with a definition and how to build it in Salesforce; tying spend and profit to the books)
@@ -186,6 +190,10 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Which tool should hold the truth when I use five tools to run my wholesaling business? https://amrmagdy.com/wholesaling-tech-stack-system-of-record
 - Why do my wholesale deals fall through after I get them under contract? https://amrmagdy.com/why-wholesale-deals-fall-through
 - How do I stop leads falling through the cracks in my wholesaling business? https://amrmagdy.com/wholesale-leads-falling-through-the-cracks
+- What should a new lead manager do in their first 30 days? https://amrmagdy.com/lead-manager-training-first-30-days
+- How do I role-play seller calls with new reps? https://amrmagdy.com/role-play-seller-calls-new-reps
+- What goes on a new lead manager onboarding checklist? https://amrmagdy.com/new-lead-manager-checklist
+- Which seller calls should a new lead manager practice first? https://amrmagdy.com/seller-calls-to-practice-before-day-one
 - What KPIs should a real estate investor or wholesaler track? https://amrmagdy.com/blog-salesforce-kpis-real-estate
 - How do I build a pipeline dashboard in Salesforce for a home-buying company? https://amrmagdy.com/blog-salesforce-real-estate-pipeline-dashboard
 - How do round robin and call routing work in Salesforce for investors? https://amrmagdy.com/blog-salesforce-lead-routing-real-estate
