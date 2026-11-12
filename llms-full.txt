@@ -1,7 +1,7 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-11-10
+> Generated: 2026-11-12
 
 
 ---
@@ -4744,6 +4744,14 @@ Rental yield & cap rate
 Gross and net yield, cap rate and cash-on-cash for rentals and buy-to-let. USD, CAD, GBP or EUR.
 DSCR calculator
 Debt service coverage from rent and PITIA, the NOI-based ratio, and the largest loan that meets your target.
+Train your reps
+Free practice before the live calls. Every seller in it is made up.
+Ready to Dial
+Seven job paths for lead managers, acquisitions, dispo, follow-up, cold calling, coordinators and team leads. Practice calls with sellers who react to what you say, and a rep table that shows the owner who is ready.
+Lead manager training
+Five short levels from the first seller call to leading other reps. Try a 3-minute seller call with no sign-up.
+Acquisitions rep training
+The visit, the offer talk, contract to close, and what to do when the seller says no.
 Check your CRM
 Score your setup in a few minutes and see what to fix first.
 Deal Leak Score
