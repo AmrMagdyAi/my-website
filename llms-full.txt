@@ -3010,6 +3010,7 @@ URL: https://amrmagdy.com/hire-salesforce-consultant-real-estate
 Choosing a Salesforce consultant for an investor team, and what it should cost
 This is for owners and ops leads about to hire someone to build, fix or move their Salesforce. I'm one of the people you might hire, so read it with that in mind. I've tried to write what I'd tell a friend who runs a home-buying company: how to tell the good ones from the expensive ones, what the market charges in 2026, and what you should never sign away.
 Pick someone who has worked inside a home-buying or wholesaling pipeline, start with a small fixed-price piece of work before any big build, and make sure you keep the org, admin access and the documentation. Compare quotes by what's included, not the hourly rate. In 2026, freelancers commonly charge $50 to $150 an hour and US partner firms $100 to $250, and small-business implementations often land between $10,000 and $30,000.
+Bring it to a call. I will tell you what looks reasonable, what is missing and what to ask before you sign anything. Book a free 30-minute call .
 What kind of help do you actually need?
 Most bad consulting projects start with the wrong kind of help. Work out which of these you're buying before you talk to anyone:
 Your situation | What you're buying | Usual shape
@@ -6808,6 +6809,7 @@ URL: https://amrmagdy.com/salesforce-real-estate-faq
 
 Salesforce for real estate investors: 50 questions, answered plainly
 These are the questions that come up most when owners, ops leads and acquisitions managers at home-buying and wholesaling companies look at Salesforce. Each answer is short and leads with the answer itself. Where there's more to say, there's a link to a full guide. I run the Salesforce for a two-market home-buying company in Ohio, so the answers come from that work, not from a brochure.
+Tell me how your team runs today and I will answer it for your setup. Book a free 30-minute call .
 Prices, limits and features below were checked in October 2026. Salesforce and other vendors change them, so check the linked guide or the vendor before you rely on a number. Nothing here is legal advice.
 Is Salesforce right for your team?
 Is Salesforce good for real estate investors and wholesalers?
@@ -7365,6 +7367,7 @@ URL: https://amrmagdy.com/salesforce-vs-podio
 Salesforce vs Podio for wholesalers. Where each one wins in 2026
 Podio has been the default first CRM for wholesalers for years: cheap, flexible and full of workspaces other investors built. Salesforce is what many of those teams look at once they have several reps, a second market or an owner who wants real numbers. This page compares the two honestly, with Podio's own published limits linked, and says when staying on Podio is the right call. I build on Salesforce, so weigh my view with that in mind.
 Stay on Podio if you're a small team, your workspace works and you're under its automation allowance. Look at Salesforce when you have several reps or markets, need reports like cost per contract by source that you can't get from Podio, need per-field and per-record permissions, or keep running into Podio's limits, such as 25,000 Workflow Automation actions a month (since September 2026), 100 fields per app and 20,000 rows per Excel export. Salesforce costs more to set up and run, so a move only pays when one of those is costing you deals.
+Tell me how your workspace runs today, with the reps, markets and automations you have, and I will say plainly whether staying makes sense and what a move would involve. Book a free 30-minute call .
 Salesforce and Podio side by side
  | Podio | Salesforce
 Owned by | Progress Software | Salesforce
