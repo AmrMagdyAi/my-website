@@ -1,7 +1,7 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-11-11
+> Generated: 2026-11-12
 
 
 ---
@@ -1587,6 +1587,14 @@ Moving off Podio
 Signs you've outgrown your setup, three options, and a 10-step migration that keeps lead source history.
 Podio's New Automation Limit: What It Means for a Wholesaling Team
 What counts as an automation, when the cap applies, what happens when you hit it and five options.
+Lead Manager Training: The First 30 Days
+A day-by-day plan for a new lead manager: practice calls first, live calls with a buddy, then their own pipeline.
+How to Role-Play Seller Calls With New Reps
+A 15-minute huddle format: one seller line, one rep, a quick vote, and the line that works.
+New Lead Manager Checklist: Day 1 to Day 30
+A one-page checklist for onboarding a lead manager at a home-buying or wholesaling team.
+5 Seller Calls Every New Lead Manager Should Practice
+The five calls that trip up new lead managers, and what a good answer sounds like.
 Stop Wholesale Leads Falling Through the Cracks
 Seven places leads leak, three rules that stop it, and an hour-long check on your own CRM.
 Call Tracking for Real Estate Investors and Salesforce
@@ -3280,6 +3288,28 @@ On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works . Already 
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
+## Lead Manager Training: The First 30 Days
+URL: https://amrmagdy.com/lead-manager-training-first-30-days
+
+Lead manager training: what a new hire should do in the first 30 days
+A new lead manager should practice seller calls before taking a live lead. Then they take live calls with someone listening, and only after that get a pipeline of their own. Here is a plan that fits around a normal week.
+What should a new lead manager do in the first 30 days?
+Day 1. Give the new hire access on the first morning: the CRM, the dialer, the shared inbox and the team chat. Then about 30 minutes of practice on the four things every first call has to find out: why they're selling, how soon, the condition of the house and the price they have in mind. They finish by booking a made-up seller for a visit.
+Day 2. Push-back and follow-up. The seller says "just give me a number", "I need to talk to my wife" or "you'll lowball me". The new hire practices answers that keep the call going without guessing a price.
+Days 3 to 5. Live calls with a buddy listening. Before each calling block, 10 minutes of practice on whatever went wrong the day before. At the end of each day, the buddy and the new hire look at the notes left for the closer. Could the closer walk into the visit knowing the seller?
+Weeks 2 to 4. The new hire owns a small list. Every lead needs a dated next step, and the team lead checks the list twice a week. Two 15-minute team huddles a week cover the skill the team missed most. The huddle format is in how to role-play seller calls with new reps .
+What to check at day 30
+Every lead they touched has a next step with a date.
+Their notes answer the four questions without a follow-up call.
+They book visits with a name and a time, not "someone will call you".
+They can say what they'd do differently on their worst call this month.
+Want this on one page to print? Use the new lead manager checklist .
+Related guides
+Want your new reps to practice this before a live lead?
+Ready to Dial is free practice for lead managers and closers. The first seller call takes about 3 minutes, with no sign-up: readytodial.amrmagdy.com
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
 ## Lead, Opportunity or Property? Sellers in Salesforce
 URL: https://amrmagdy.com/lead-vs-opportunity-salesforce-real-estate
 
@@ -3738,6 +3768,32 @@ Tell me what you’re on today
 Book a free 30-minute scoping call, or send the form and I’ll reply within one working day with a couple of questions.
 Book a free scoping call →
 Prefer email? info@AmrMagdy.com
+
+---
+## New Lead Manager Checklist: Day 1 to Day 30
+URL: https://amrmagdy.com/new-lead-manager-checklist
+
+New lead manager checklist: day 1 to day 30
+One page, four stages: before day 1, week 1, weeks 2 to 4, and day 30. Print it or paste it into your team chat. The reasoning behind each line is in the first 30 days plan .
+Before day 1
+Logins for the CRM, the dialer and the team chat
+The call window and team rules written down in one place
+A buddy picked for live calls in week 1
+Week 1
+Practice calls finished before the first live lead
+First live calls with the buddy listening
+Notes for the closer reviewed each day
+Weeks 2 to 4
+Owns a small list, every lead with a dated next step
+Two 15-minute huddles a week
+A short weekly check-in with the team lead
+Day 30
+The team lead reviews 3 of their calls
+Agreed on one skill to work on next month
+Related guides
+Want your new reps to practice this before a live lead?
+Ready to Dial is free practice for lead managers and closers. The first seller call takes about 3 minutes, with no sign-up: readytodial.amrmagdy.com
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
 ## Opening a New Market? A CRM Checklist for Home Buyers
@@ -4729,6 +4785,31 @@ The 87 guides cover choosing a CRM, follow-up, automation, reports, moving off P
 Rather have it built into your CRM?
 Every tool here is something I build as live reporting in Salesforce for investors and wholesalers. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit.
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## How to Role-Play Seller Calls With New Reps
+URL: https://amrmagdy.com/role-play-seller-calls-new-reps
+
+How to role-play seller calls with new reps in 15 minutes
+Role-play works when it is short and happens often. Long sessions where one rep performs for the whole room work less well. A 15-minute huddle twice a week is enough.
+The format
+The team lead reads one seller line out loud, for example "Just give me a number. What would you pay?"
+They point at a rep, who answers on the spot in one or two sentences.
+The team gives a thumbs up or down, and the lead reads the line that works.
+Next line, next rep. Six or seven lines fit in 15 minutes.
+Where the lines come from
+Use what the team fumbled last week: a seller who went quiet, a price question, a spouse who wasn't on the call. Keep a running list in the team chat so anyone can add one.
+Five lines to start with
+"Just give me a number."
+"I need to talk to my husband first."
+"Another company already offered me more."
+"I'm not in a rush."
+"Can you just text me the offer?"
+For what a good answer sounds like on the five calls that trip up new hires, see 5 seller calls to practice before day one .
+Related guides
+Want your new reps to practice this before a live lead?
+Ready to Dial is free practice for lead managers and closers. The first seller call takes about 3 minutes, with no sign-up: readytodial.amrmagdy.com
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7538,6 +7619,24 @@ Salesforce Developers: Schedule your path in Salesforce Flow . Reminders a day a
 Calendly Help: How to integrate Calendly with Salesforce . Leads and events by default, canceled and rescheduled events, and the Enterprise Edition requirement
 Want to know how many appointments never turn into offers?
 The fixed-price CRM Revenue Audit finds appointments with no next step, offers with no activity and leads owned by someone who left, with what they're likely costing you, a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## 5 Seller Calls Every New Lead Manager Should Practice
+URL: https://amrmagdy.com/seller-calls-to-practice-before-day-one
+
+5 seller calls every new lead manager should practice before day one
+These are the five calls that trip up new lead managers most. For each one: what the seller says, and what a good answer sounds like.
+Which seller calls should a new lead manager practice first?
+The fresh web lead. The seller filled out a form 4 minutes ago. A good call opens with who you are, why you're calling and whether now is still a good time.
+The price question. "Just give me a number." A good answer doesn't guess. It explains that the acquisitions manager comes back with a real offer, and asks if the seller has a number in mind.
+The upset seller. Someone already called them three times today. A good call says sorry once, keeps it short and asks permission to continue.
+The spouse. "I need to talk to my wife." A good call books a time when both can be on the phone.
+The no-show. The seller missed the visit. A good call is friendly, asks what came up and offers two new times.
+Ready to Dial has practice calls for the first two (Marcus, the fresh web lead, and Gloria, who anchors on a price), with sellers who react to what the rep picks. Use the huddle format for the other three.
+Related guides
+Want your new reps to practice this before a live lead?
+Ready to Dial is free practice for lead managers and closers. The first seller call takes about 3 minutes, with no sign-up: readytodial.amrmagdy.com
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
