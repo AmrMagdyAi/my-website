@@ -24,7 +24,7 @@ FOOT = [
                             ('crm-revenue-audit-terms.html', 'Audit scope and terms')]),
     ('f2', 'Free tools', [('deal-leak-score.html', 'Deal Leak Score'), ('wholesaling-cost-per-deal-calculator.html', 'Cost per deal calculator'),
                           ('wholesale-deal-analyzer.html', 'Wholesale deal analyzer'), ('kept-deal-map.html', 'Kept-Deal Map'),
-                          ('https://readytodial.amrmagdy.com/', 'Ready to Dial: rep training'), ('resources.html', 'All free tools')]),
+                          ('https://climbmark.com/', 'Climbmark: rep training'), ('resources.html', 'All free tools')]),
     ('f3', 'Learn', [('real-estate-crm-guide.html', 'Real estate CRM guide'), ('salesforce-vs-investor-crms.html', 'Salesforce vs investor CRMs'),
                      ('podio-alternative-wholesalers.html', 'Moving off Podio'), ('videos.html', 'Videos'), ('blog.html', 'All guides')]),
 ]
