@@ -256,7 +256,7 @@ How long does a Salesforce implementation take?
 Most focused builds take 6 to 12 weeks, scoped up front: the design first, then the core build (lead routing, pipeline, automations and integrations), then reports and training. Bigger builds take longer and are scoped before they start.
 Next Monday
 Make next Monday the one you can trust.
-Book a free 30-minute call and tell me how your team works today, on Salesforce, Podio, REsimpli, GoHighLevel or spreadsheets. We'll find the quick wins and the right next step. No pressure.
+Book a free 15-minute call and tell me how your team works today, on Salesforce, Podio, REsimpli, GoHighLevel or spreadsheets. We'll find the quick wins and the right next step. No pressure.
 info@AmrMagdy.com I reply within one working day
 Message me on WhatsApp +20 103 327 5250
 Connect on LinkedIn linkedin.com/in/amrmagdyai
@@ -329,7 +329,7 @@ Quora Answers
 Crunchbase Amr Magdy CRM Consulting
 Next Monday
 Make next Monday the one you can trust.
-Book a free 30-minute call and tell me how your team works today, on Salesforce, Podio, REsimpli, GoHighLevel or spreadsheets. We'll find the quick wins and the right next step. No pressure.
+Book a free 15-minute call and tell me how your team works today, on Salesforce, Podio, REsimpli, GoHighLevel or spreadsheets. We'll find the quick wins and the right next step. No pressure.
 info@AmrMagdy.com I reply within one working day
 Message me on WhatsApp +20 103 327 5250
 Connect on LinkedIn linkedin.com/in/amrmagdyai
@@ -366,7 +366,7 @@ Last updated October 2026. For planning only, not financial, tax or legal advice
 Add this calculator to your site
 Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
-I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -470,7 +470,7 @@ I rank these by two questions: how much time do they give back, and what's the w
 6 | Answer inbound calls and book the appointment | Hand-off to a person on any complication | Medium to high: seller trust
 7 | Call or text sellers on its own, outbound | Nobody in the moment | High: consent, opt-outs, reputation
 Jobs 1 to 3 can start this month with little risk and often give the biggest return, because they remove the typing that reps skip. Job 4 isn't AI, but it's worth doing first because it catches the leads you're already losing; see missed-call alerts and speed to lead . Jobs 6 and 7 are where vendors sell hardest and where mistakes cost the most, so they belong after the basics.
-Want me to look at how yours is set up? Bring your current fields and the tool you are considering, and I will tell you what to fix first. Book a free 30-minute call .
+Want me to look at how yours is set up? Bring your current fields and the tool you are considering, and I will tell you what to fix first. Book a free 15-minute call .
 What rules apply to AI calls and texts?
 This is a summary, not legal advice. Talk to a lawyer who knows the TCPA and your states before you launch anything that contacts sellers on its own.
 AI voices count as artificial voices. In a February 2024 declaratory ruling (FCC 24-17), the FCC said AI technologies that resemble human voices are "artificial" under the TCPA. Calls using them need the called party's prior express consent, and when the call includes an advertisement or telemarketing, prior express written consent.
@@ -563,7 +563,7 @@ Last updated October 2026. For planning only, not financial, tax or legal advice
 Add this calculator to your site
 Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
-I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -688,7 +688,7 @@ Related
 Real estate CRM guide · Salesforce vs investor CRMs · Edition picker for Salesforce · Salesforce vs REsimpli · Salesforce vs GoHighLevel · Salesforce vs Podio · Podio alternatives
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want a second opinion on your shortlist?
-Tell me your team size, lead sources and tools and I’ll tell you which two I’d trial, including when Salesforce isn’t the answer. Start with a free 30-minute call.
+Tell me your team size, lead sources and tools and I’ll tell you which two I’d trial, including when Salesforce isn’t the answer. Start with a free 15-minute call.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -731,7 +731,7 @@ For a real estate company where speed-to-lead is critical, the difference betwee
 When to Keep Zapier
 Zapier is still the right tool for connecting Salesforce to external platforms that don't have native connectors. If you're connecting to Zillow, Facebook Lead Ads, custom forms, or niche real estate software — Zapier is the fastest and most reliable bridge. The goal isn't to eliminate Zapier. It's to use it only where it's irreplaceable.
 Want this built for your real estate Salesforce?
-Book a free 30-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
+Book a free 15-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
 More Articles
 How to Build a RingCentral–Salesforce Daily Call Sync with Apex (Real Estate Case Study)
 6 min read
@@ -790,7 +790,7 @@ One unexpected benefit: because call recordings were now attached to the Salesfo
 What You Need to Implement This
 To replicate this in your Salesforce org, you'll need: a RingCentral account with API access enabled (Platform plan or higher), RingCentral extension IDs mapped to Salesforce User records, Salesforce API access enabled for the integration user, and a Named Credential or Custom Setting to store the OAuth tokens securely. The Apex classes themselves need to be deployed to your org and the scheduled job activated.
 Want this built for your real estate Salesforce?
-Book a free 30-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
+Book a free 15-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
 More Articles
 Why Your Real Estate Agents Aren't Using Salesforce (And How to Fix It)
 4 min read
@@ -836,7 +836,7 @@ Your buyer's agent, acquisitions manager, and transaction coordinator all use Sa
 The Metric That Tells You If It Is Working
 Do not measure adoption by login frequency. Measure data completeness: what percentage of leads have a next activity date set, and what percentage of deals have been updated in the last 7 days. These numbers tell you whether Salesforce is being used as a working tool — or just occasionally checked.
 Need help with your real estate Salesforce?
-Book a free 30-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
+Book a free 15-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
 More Articles
 Salesforce Integrations for Real Estate Investors (2026)
 10 min read
@@ -898,7 +898,7 @@ The Configuration Object became the single most referenced system at a two-marke
 When to Build a Configuration Object
 This pattern is worth building when your Salesforce org has more than 15-20 distinct automation rules that business users want to control, when you're receiving frequent requests to modify notification text or recipients, or when the same automation logic repeats across multiple triggers with slightly different parameters. If those conditions don't apply yet, a direct Flow approach is simpler. But if your org is growing and your automation library is expanding, a Configuration Object pays for itself within weeks.
 Want this built for your real estate Salesforce?
-Book a free 30-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
+Book a free 15-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
 More Articles
 Moving from Podio, REsimpli or GoHighLevel to Salesforce
 9 min read
@@ -987,7 +987,7 @@ Step 4 — Add marketing spend fields to Campaigns and start populating them mon
 Step 5 — Build the reports and dashboard once you have 30-60 days of data
 The whole system can be live in 2-4 weeks. After that, every closed deal automatically feeds the financial analytics — no spreadsheets, no manual data pulls, no end-of-month scramble.
 Want this built for your real estate company?
-Book a free 30-minute call, check your Deal Leak Score , try the free cost per deal calculator , see all free tools , or connect your CRM to Climbmark free.
+Book a free 15-minute call, check your Deal Leak Score , try the free cost per deal calculator , see all free tools , or connect your CRM to Climbmark free.
 More Articles
 Salesforce for Real Estate Investors and Home-Buying Companies
 15 min read
@@ -1271,7 +1271,7 @@ First: almost nothing on it is exotic. It's flows, validation rules, formula fie
 Second: the requests compound. Call-tracking attribution feeds the ROI dashboard; conversion gates feed clean transaction data; clean transaction data feeds net profit per deal. A consultant who only does tickets in isolation builds none of that compounding.
 Third: this is what "ongoing CRM management" means in practice. Not a retainer for emergencies — a steady cadence of improvements, each small enough to ship in days, each making the next one more valuable.
 Want a request log like this for your company?
-Book a free 30-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
+Book a free 15-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
 More Articles
 How to Build a Real Estate Pipeline Dashboard in Salesforce
 3 min read
@@ -1408,7 +1408,7 @@ Every lead source should feed automatically into Salesforce. Use Zapier for: you
 Step 7: Train Your Team
 Role-specific training — not one-size-fits-all. Agents need to know: how to update a lead, how to log a contact attempt, how to advance a deal stage. Managers need to know: how to read dashboards, how to reassign leads, how to run pipeline reports. Give each person exactly what they need and nothing more.
 Run an investor or home-buying team?
-I work with real estate investors, wholesalers and home-buying companies, not brokerages or agent teams. If that’s you, book a free 30-minute call, check your Deal Leak Score , or connect your CRM to Climbmark free.
+I work with real estate investors, wholesalers and home-buying companies, not brokerages or agent teams. If that’s you, book a free 15-minute call, check your Deal Leak Score , or connect your CRM to Climbmark free.
 More Articles
 Salesforce vs Follow Up Boss for Real Estate: Which CRM Is Right for You?
 4 min read
@@ -1464,7 +1464,7 @@ If you're running a small residential team today and don't plan to grow signific
 If you're building toward scale — more agents, more properties, more data, more business lines — Salesforce is worth the investment. A well-configured Salesforce setup grows with you indefinitely. You'll never outgrow it.
 The question isn't which CRM is better. It's which one fits where your business is going.
 Run an investor or home-buying team?
-I work with real estate investors, wholesalers and home-buying companies, not brokerages or agent teams. If that’s you, book a free 30-minute call, check your Deal Leak Score , or connect your CRM to Climbmark free.
+I work with real estate investors, wholesalers and home-buying companies, not brokerages or agent teams. If that’s you, book a free 15-minute call, check your Deal Leak Score , or connect your CRM to Climbmark free.
 More Articles
 Connecting Salesforce to Your Real Estate Stack with Zapier
 4 min read
@@ -1510,7 +1510,7 @@ When a well-maintained native AppExchange integration exists for a tool you use,
 Building Your Integration Map
 Before touching Zapier, document every tool your team uses and every data flow between them. Identify which flows are currently manual. Start with the one that involves the most manual work or the longest delays — that is your highest-value first integration.
 Need help with your real estate Salesforce?
-Book a free 30-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
+Book a free 15-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
 More Articles
 Climbmark: your CRM already has the answers
 2 min read
@@ -1724,7 +1724,7 @@ A step-by-step breakdown of the Apex class that auto-syncs RingCentral call logs
 One useful Salesforce guide. At most weekly.
 New playbooks on lead routing, automation, and CRM ROI for real estate teams — straight to your inbox. No fluff, unsubscribe anytime.
 Ready to Fix Your Real Estate Salesforce?
-Book a free 30-minute call, check your Deal Leak Score , or connect your CRM to Climbmark free.
+Book a free 15-minute call, check your Deal Leak Score , or connect your CRM to Climbmark free.
 Or check your free Deal Leak Score in two minutes →
 Found this useful?
 Ask me how this would work in your CRM.
@@ -1732,11 +1732,11 @@ Send one question about your setup, whether you're on Podio, an investor CRM, sp
 Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.
 
 ---
-## Book a free 30-minute call | Amr Magdy
+## Book a free 15-minute call | Amr Magdy
 URL: https://amrmagdy.com/book
 
 amrmagdy.com
-Book a free 30-minute call
+Book a free 15-minute call
 Opening my calendar on Calendly. If it doesn't open, use the button.
 
 ---
@@ -1770,7 +1770,7 @@ Last updated October 2026. For planning only, not financial, tax or legal advice
 Add this calculator to your site
 Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
-I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -1880,7 +1880,7 @@ Related free tools
 Dispositions in Salesforce · CRM field kit · Wholesale deal analyzer · Assignment vs double close · All free tools
 Last updated October 2026. The example rows in the CSV are made up; delete them before use.
 Want deals matched to buyers automatically?
-I build Salesforce for real estate investors and wholesalers: buyer records with buy boxes, deal-to-buyer matching, send and reply tracking, and a report of which buyers actually close. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers: buyer records with buy boxes, deal-to-buyer matching, send and reply tracking, and a report of which buyers actually close. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -1918,7 +1918,7 @@ Anyone can delete their account and data from the account page.
 Getting started
 Connect your CRM. Look back 13 weeks. Then decide.
 On GoHighLevel or Salesforce? Connect it to Climbmark free and see your last 13 weeks of Money by source. If it's worth it, move to Growth Team.
-Want a hand connecting it? Book a free 30-minute call and I'll walk you through it.
+Want a hand connecting it? Book a free 15-minute call and I'll walk you through it.
 
 ---
 ## Cold Caller to Acquisitions Handoff: Fields & Rules
@@ -1959,7 +1959,7 @@ Related
 Wholesaling team roles and handoffs · Salesforce access for VAs · 15 automation recipes · Speed to lead & follow-up statistics · Speed to lead · Seller appointment no-shows · Acquisitions team capacity calculator · CRM field kit · Wholesaling CRM checklist · All free tools
 Last updated October 2026.
 Want this built into your CRM?
-I build Salesforce for real estate investors and wholesalers, and the same rules work in any CRM. Outgrowing Podio, REsimpli, GoHighLevel or a spreadsheet? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
+I build Salesforce for real estate investors and wholesalers, and the same rules work in any CRM. Outgrowing Podio, REsimpli, GoHighLevel or a spreadsheet? I move teams to Salesforce at a fixed price, history included. Start with a free 15-minute call.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -2238,7 +2238,7 @@ Stage and status | The stage or status field, with rules | This drives your pipe
 Consent, do not call, opt-out | A checkbox plus date and source , never a tag | A compliance fact needs a record of when and how
 Short-lived working labels | A tag if you have them, from a fixed list | The one place free tags are fine, because nothing important depends on them
 The test: will I want to count it? If yes, it's a field, and probably a picklist. If it only helps someone find a record this week, a tag is fine.
-Want me to look at how yours are set up? Bring your tag list or a screenshot, and I will show which should be fields and which can go. Book a free 30-minute call .
+Want me to look at how yours are set up? Bring your tag list or a screenshot, and I will show which should be fields and which can go. Book a free 15-minute call .
 What naming rules keep it clean?
 One list, one owner. One person (ops or an admin) approves new values. Reps can ask, but they can't create.
 Lowercase or one consistent style. Pick it once and never mix.
@@ -2422,7 +2422,7 @@ No. Every check can be set up in any investor CRM. The score measures the proces
 Related
 The full 60-point audit checklist · The Kept-Deal Map · CRM field kit · Deal Leak videos · All free tools
 Want each leak sized from your own data?
-On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks. Or start with a free 30-minute call.
+On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks. Or start with a free 15-minute call.
 On Podio, REsimpli or spreadsheets? See how a move to Salesforce works . On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 See also: the wholesaling CRM checklist , stage by stage.
@@ -2460,7 +2460,7 @@ Related
 Real estate CRM guide · Speed to lead & follow-up statistics · Wholesaling CRM checklist · Salesforce vs investor CRMs · Follow-up cadence builder · Missed call cost · All guides · All free tools
 Last updated October 2026.
 Want this built into your CRM?
-I build Salesforce for real estate investors and wholesalers, and the same rules work in any CRM. Outgrowing a spreadsheet, Podio, REsimpli or GoHighLevel? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
+I build Salesforce for real estate investors and wholesalers, and the same rules work in any CRM. Outgrowing a spreadsheet, Podio, REsimpli or GoHighLevel? I move teams to Salesforce at a fixed price, history included. Start with a free 15-minute call.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -2505,7 +2505,7 @@ Related
 Assignment vs double close · Assignment fee guide · Wholesale deal analyzer · All guides · All free tools
 Last updated October 2026. Not legal or tax advice.
 Want every deal's real profit in one report?
-I build Salesforce for real estate investors and wholesalers: exit type on every deal, both sets of closing costs, and a report of what each lead source actually earns. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers: exit type on every deal, both sets of closing costs, and a report of what each lead source actually earns. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -2568,7 +2568,7 @@ Related
 Real estate CRM guide · Salesforce features · Integrations · Lead sources into Salesforce · CRM field kit · Probate leads in Salesforce
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want field leads that become measurable deals?
-I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -2603,7 +2603,7 @@ Last updated October 2026. For planning only, not financial, tax or legal advice
 Add this calculator to your site
 Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
-I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -2761,7 +2761,7 @@ Free plans change often. Limits were read from each vendor's page in October 202
 HubSpot: Free CRM and tools pricing page . Free plan limits: users, contacts, automation, reporting (checked October 2026)
 Zoho CRM: Free edition page . Free for up to 3 users; reporting and mass email on paid plans (checked October 2026)
 Not sure what you need yet?
-A free 30-minute call is enough to tell you whether to stay on what you have, move to an investor CRM, or build on Salesforce. I'll say so if the answer is "stay put". Already on GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks.
+A free 15-minute call is enough to tell you whether to stay on what you have, move to an investor CRM, or build on Salesforce. I'll say so if the answer is "stay put". Already on GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2868,7 +2868,7 @@ URL: https://amrmagdy.com/hire-salesforce-consultant-real-estate
 Hiring a Salesforce consultant for a real estate investor team, and what it should cost
 This is for owners and ops leads about to hire someone to build, fix or move their Salesforce. I'm one of the people you might hire, so read it with that in mind. I've tried to write what I'd tell a friend who runs a home-buying company: how to tell the good ones from the expensive ones, what the market charges in 2026, and what you should never sign away.
 Pick someone who has worked inside a home-buying or wholesaling pipeline, start with a small fixed-price piece of work before any big build, and make sure you keep the org, admin access and the documentation. Compare quotes by what's included, not the hourly rate. In 2026, freelancers commonly charge $50 to $150 an hour and US partner firms $100 to $250, and small-business implementations often land between $10,000 and $30,000.
-Bring it to a call. I will tell you what looks reasonable, what is missing and what to ask before you sign anything. Book a free 30-minute call .
+Bring it to a call. I will tell you what looks reasonable, what is missing and what to ask before you sign anything. Book a free 15-minute call .
 What kind of help do you actually need?
 Most bad consulting projects start with the wrong kind of help. Work out which of these you're buying before you talk to anyone:
 Your situation | What you're buying | Usual shape
@@ -2877,7 +2877,7 @@ You're on Podio, REsimpli, GoHighLevel or spreadsheets and outgrowing it | A mov
 Someone built your org, left, and nobody knows how it works | A handover and clean-up | Documentation first, then fixes, often followed by a retainer
 You have a steady stream of changes and no admin | Ongoing admin and development | A monthly retainer
 One specific job: dialer sync, accounting, a dashboard | A specialist for one project | Fixed scope, fixed price
-If you can't tell which row you're in, that's normal, and it's what a free first call is for. Any consultant worth hiring should be able to tell you in 30 minutes which row fits, including when the answer is "you don't need me yet".
+If you can't tell which row you're in, that's normal, and it's what a free first call is for. Any consultant worth hiring should be able to tell you in 15 minutes which row fits, including when the answer is "you don't need me yet".
 Freelancer, partner firm or offshore team?
 All three can work. They fail in different ways, so pick the failure you can live with.
  | Independent consultant | Salesforce partner firm | Offshore development team
@@ -2958,7 +2958,7 @@ Sources
 Checked in October 2026. Rates are market ranges from one consultancy's published guide, not quotes.
 Codleo: Salesforce consulting cost (October 22, 2026) . Hourly ranges by provider type, implementation, audit and managed support ranges
 Want a second opinion before you hire anyone?
-Book a free 30-minute call. Tell me how a deal moves through your team today and what you've been quoted, and I'll tell you what I'd do, even if it's not hiring me. On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks.
+Book a free 15-minute call. Tell me how a deal moves through your team today and what you've been quoted, and I'll tell you what I'd do, even if it's not hiring me. On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3138,7 +3138,7 @@ Related
 Investor CRM audit checklist (60 checks) · Which campaign gets credit? · Google Ads offline conversions · Offer follow-up in Salesforce · Reactivating dead seller leads · All free tools · Wholesaling CRM glossary · Climbmark
 Last updated October 2026.
 Want the leaks sized from your own data?
-On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks. Or start with a free 30-minute call.
+On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks. Or start with a free 15-minute call.
 On Podio, REsimpli or spreadsheets? See how a move to Salesforce works . On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -3341,7 +3341,7 @@ When a call to a marketing number is missed, the CRM creates a task on the lead 
 Related free tools
 Missed-call alerts in Salesforce · Speed to lead & follow-up statistics · Cost per deal by lead source · Wholesale deal analyzer · The Monday 5
 Want every missed call to become a task in minutes?
-I build missed-call alerts, shared lead queues and RingCentral call sync in Salesforce for home-buying companies. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build missed-call alerts, shared lead queues and RingCentral call sync in Salesforce for home-buying companies. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -3388,7 +3388,7 @@ Cost per deal by lead source · Missed seller call cost · Glossary
 Build it in Salesforce
 KPIs for every role on the team · Pipeline dashboard guide · Which campaign gets credit? · 20 report recipes for wholesalers · 15 automation recipes
 Want all five on one Salesforce dashboard?
-Climbmark reads your GoHighLevel or Salesforce and puts your money by lead source in front of you every Monday. Connect it free, or start with a free 30-minute call.
+Climbmark reads your GoHighLevel or Salesforce and puts your money by lead source in front of you every Monday. Connect it free, or start with a free 15-minute call.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -3600,7 +3600,7 @@ Leads lost: the goal
 That’s the point of mapping first, moving in batches and checking every batch with you.
 Six steps, no dead week
 Your team keeps working the whole time. You know the full cost before step three.
-1 Free scoping call You show me how a deal moves through your team today. You: a 30-minute call.
+1 Free scoping call You show me how a deal moves through your team today. You: a 15-minute call.
 2 Scope and price A written scope with a fixed price. No surprises later. You: a read and a yes or no.
 3 Map and build I build Salesforce around your process, using the same fields as the free CRM field kit . You: a few questions answered.
 4 Move and check Your data comes over in tested batches, and you spot-check each one. You: a check of records you know well.
@@ -3889,7 +3889,7 @@ Related
 Podio's new automation limit · Salesforce vs Podio · Do I need a CRM yet? · Wholesaling CRM checklist · CRM field kit · Deal Leak Score · Salesforce vs investor CRMs · Podio, REsimpli or GoHighLevel to Salesforce: field map and 30-60-90 plan · All guides · All free tools
 Last updated October 2026. Podio is a trademark of its owner; this page is independent.
 Moving off Podio?
-I build Salesforce for real estate investors and wholesalers, including the move from Podio: field mapping, history you keep, deduplication and a Monday report on day one, at a fixed price agreed before anything starts. Start with a free 30-minute call.
+I build Salesforce for real estate investors and wholesalers, including the move from Podio: field mapping, history you keep, deduplication and a Monday report on day one, at a fixed price agreed before anything starts. Start with a free 15-minute call.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -4113,7 +4113,7 @@ LegalZoom: How to buy and sell probate property . Who can sell, court approval a
 Trust & Will: Are probate records public? . What probate records contain and how the public can see them
 Salesforce Developers: Schedule your path in Salesforce Flow . Tasks scheduled from a date field that move when the date changes
 Working probate leads in Salesforce?
-I build Salesforce for investor teams. For probate, that means case records, contact roles, a pipeline that matches the court's timeline and follow-up driven by the case dates. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for investor teams. For probate, that means case records, contact roles, a pipeline that matches the court's timeline and follow-up driven by the case dates. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -4329,7 +4329,7 @@ Related
 Best CRM for wholesalers (2026) · Salesforce vs REsimpli · Salesforce vs GoHighLevel · Salesforce features · Integrations · Statistics · All guides · All free tools
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want this built for your team?
-I build Salesforce for real estate investors and wholesalers: the data model, stages, automation, integrations and Monday numbers in this guide, set up around your process. Moving from Podio, REsimpli, GoHighLevel or a spreadsheet? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
+I build Salesforce for real estate investors and wholesalers: the data model, stages, automation, integrations and Monday numbers in this guide, set up around your process. Moving from Podio, REsimpli, GoHighLevel or a spreadsheet? I move teams to Salesforce at a fixed price, history included. Start with a free 15-minute call.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -4534,7 +4534,7 @@ Amr Magdy, “Speed to Lead & Follow-Up Statistics for Real Estate Investors (20
 Related
 Real estate CRM guide · Speed to lead guide · Missed call cost calculator · Follow-up cadence builder · Cold caller handoff checklist · Reactivating dead seller leads · All guides · All free tools
 Want your own speed-to-lead number?
-I build Salesforce for real estate investors and wholesalers with lead response time, follow-up attempts and missed calls measured automatically. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers with lead response time, follow-up attempts and missed calls measured automatically. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -4569,7 +4569,7 @@ Last updated October 2026. For planning only, not financial, tax or legal advice
 Add this calculator to your site
 Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
-I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -4638,7 +4638,7 @@ Six short videos, one leak each, from the missed seller call to fall-outs in you
 Prefer to read?
 The 87 guides cover choosing a CRM, follow-up, automation, reports, moving off Podio, REsimpli or GoHighLevel, and hiring help. Browse all guides · Stop leads falling through the cracks · CRM for a we-buy-houses company · Find and verify cash buyers · Which Salesforce edition for investors · Salesforce integrations for real estate · Cost per lead and campaign ROI in Salesforce · Lead routing and speed to lead
 Rather have it built into your CRM?
-Every tool here is something I build as live reporting in Salesforce for investors and wholesalers. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+Every tool here is something I build as live reporting in Salesforce for investors and wholesalers. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -5007,7 +5007,7 @@ Related
 Real estate CRM guide · Salesforce features · Integrations · Motivated seller lead scoring · Deal Leak Score
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want AI on a CRM you can trust?
-I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -5166,7 +5166,7 @@ Related
 Real estate CRM guide · Salesforce features · Integrations · Follow-up cadence builder · Offer follow-up in Salesforce · Appointment reminders and no-shows
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want these automations built and tested?
-I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -5474,7 +5474,7 @@ Related
 All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · RingCentral call sync with Apex · Texting sellers from Salesforce
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want every call on the lead?
-I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -5546,7 +5546,7 @@ Related
 Real estate CRM guide · Salesforce features · Integrations · Cash buyers list template · Assignment fee guide
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want dispo that sends the right deal to the right buyer?
-I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -5599,7 +5599,7 @@ Related
 All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Assignment fee guide · QuickBooks + Salesforce
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want contracts on every deal, automatically?
-I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -5742,7 +5742,7 @@ Related
 Real estate CRM guide · Salesforce features · Integrations · Which edition: full guide · Salesforce vs investor CRMs
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want a second opinion before you sign?
-Send me your team, lead sources and tools and I’ll tell you which edition fits and what to ask for. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+Send me your team, lead sources and tools and I’ll tell you which edition fits and what to ask for. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -5815,7 +5815,7 @@ Related
 Salesforce features for investors · Integrations · Salesforce vs investor CRMs · Is Salesforce worth it? · Real estate CRM guide
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Not sure which edition you need?
-Tell me your team, lead sources and tools, and I’ll tell you which edition fits and what to ask your Salesforce account executive. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+Tell me your team, lead sources and tools, and I’ll tell you which edition fits and what to ask your Salesforce account executive. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -5990,7 +5990,7 @@ Is there a printable version?
 Yes. The REI feature checklist for Salesforce is a free 2-page PDF with all 12 features and a score box. On your phone, the Using it and Not yet buttons on this page do the same.
 Feature names, editions and limits checked against help.salesforce.com, admin.salesforce.com and salesforce.com on October 20, 2026 (Winter '27 release). Salesforce Help still documents editions under the older names (Professional, Enterprise, Unlimited); in September 2026 Salesforce began selling Core, Advanced and Max. Salesforce is a trademark of Salesforce, Inc.; this page is independent.
 Scored under 6?
-That usually means the org was set up once and never revisited. I build and run Salesforce for home-buying companies. Book a 30-minute call and I'll walk through your org with you and point at the two features that would pay back fastest.
+That usually means the org was set up once and never revisited. I build and run Salesforce for home-buying companies. Book a 15-minute call and I'll walk through your org with you and point at the two features that would pay back fastest.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -6171,7 +6171,7 @@ Related
 Salesforce integrations for investors · Which edition you need · Salesforce vs investor CRMs · Is Salesforce worth it for investors? · Real estate CRM guide · CRM glossary
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want these features set up around your process?
-I build Salesforce for real estate investors and wholesalers: Property, Offer and Buyer objects, follow-up automation, routing and the reports your Monday meeting needs. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers: Property, Offer and Buyer objects, follow-up automation, routing and the reports your Monday meeting needs. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -6287,7 +6287,7 @@ Nobody has to remember to update the stage, so the contract-to-first-call clock 
 How it is built
 An e-signature integration (I use DocuSign) writes the envelope status to Salesforce; a record-triggered flow updates the stage, stamps the date and notifies the transaction coordinator.
 Edition matters: Pro Suite allows 5 flows in total ( Salesforce Help ), which is fewer than this list needs. Joined reports and approval processes are documented for Enterprise and above ( joined reports , approvals ). Already on Salesforce? See the 12 features most investor orgs don't use .
-Want me to look at how you run today? A short call is enough to say whether it would pay off and what I would build first. Book a free 30-minute call .
+Want me to look at how you run today? A short call is enough to say whether it would pay off and what I would build first. Book a free 15-minute call .
 What it really costs
 Licenses are the smallest part of the bill. Salesforce pricing depends on the edition and the number of users, and most businesses can get a discount through their Salesforce account manager, so get a quote for your team before you compare. What matters more is which edition your plan needs, because the limits below decide what you can build. In September 2026 Salesforce introduced Core, Advanced and Max and positions Core against the older Enterprise edition ( announcement ); Salesforce Help still documents limits under the older names.
 Edition | What matters for an investor team
@@ -6351,7 +6351,7 @@ Related
 50 questions about Salesforce for investors · Investor CRM audit checklist · Moving from Podio, REsimpli or GoHighLevel to Salesforce · 12 Salesforce features investor orgs don't use · Moving off Podio · Salesforce vs Podio · Wholesaling CRM checklist · Lead routing in Salesforce · Offer follow-up in Salesforce · Reactivating dead seller leads · Motivated seller lead scoring · Google Ads offline conversions · RingCentral and Salesforce · Questions from wholesalers
 Edition limits checked on salesforce.com and help.salesforce.com on October 20, 2026. Other vendors' prices are their own published prices on that date and can change. Salesforce, Podio, REsimpli and GoHighLevel are trademarks of their owners; this page is independent. Nothing here is legal advice.
 Want to know if Salesforce fits your team?
-Tell me your team size, your current tool and the one number you can't get on Monday. On a free 30-minute call I'll tell you honestly whether to switch, fix what you have, or stay put.
+Tell me your team size, your current tool and the one number you can't get on Monday. On a free 15-minute call I'll tell you honestly whether to switch, fix what you have, or stay put.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -6483,7 +6483,7 @@ Related
 Salesforce features for investors · DocuSign · QuickBooks · Dialers · Texting · Lead sources · Google Ads offline conversions · Real estate CRM guide
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want your tools connected to one source of truth?
-I connect Salesforce to the phone, text, e-signature, accounting and lead-source tools real estate investors already use, with every call, contract and fee on the right record. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I connect Salesforce to the phone, text, e-signature, accounting and lead-source tools real estate investors already use, with every call, contract and fee on the right record. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -6541,7 +6541,7 @@ Related
 Which campaign gets credit? · Google Ads offline conversions · Duplicate sellers in Salesforce · All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Cost per deal calculator · Kept deal map · Driving for dollars
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want every lead tagged from click to close?
-I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -6599,7 +6599,7 @@ Yes. A web form or an Experience Cloud page can create the loan request or draw 
 Do you work with lenders?
 My main work is with home-buying and wholesaling companies, and lenders who serve them are a natural fit. Start with a free call.
 Lending to investors and already on Salesforce?
-Tell me how loans move through your team today on a free 30-minute call, and I'll tell you what I'd build first.
+Tell me how loans move through your team today on a free 15-minute call, and I'll tell you what I'd build first.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -6653,7 +6653,7 @@ Related
 All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Cost per deal calculator · Financial analytics in Salesforce
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want fees and spend in one report?
-I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -6663,7 +6663,7 @@ URL: https://amrmagdy.com/salesforce-real-estate-faq
 
 Salesforce for real estate investors: 50 questions, answered plainly
 These are the questions that come up most when owners, ops leads and acquisitions managers at home-buying and wholesaling companies look at Salesforce. Each answer is short and leads with the answer itself. Where there's more to say, there's a link to a full guide. I run the Salesforce for a two-market home-buying company in Ohio, so the answers come from that work, not from a brochure.
-Tell me how your team runs today and I will answer it for your setup. Book a free 30-minute call .
+Tell me how your team runs today and I will answer it for your setup. Book a free 15-minute call .
 Prices, limits and features below were checked in October 2026. Salesforce and other vendors change them, so check the linked guide or the vendor before you rely on a number. Nothing here is legal advice.
 Is Salesforce right for your team?
 Is Salesforce good for real estate investors and wholesalers?
@@ -6773,7 +6773,7 @@ Do you work with teams outside the US?
 Yes. My main focus is US investors, and I also work with teams in Canada and the UK and Europe. I work US hours, 9am to 6pm Eastern, Monday to Friday, which overlaps the UK afternoon.
 Related guides
 Have a question that isn't here?
-Ask it. Email, WhatsApp or LinkedIn, whatever's easiest, and you'll get a straight answer. If it turns into a bigger conversation, the free 30-minute call is where we work out the right first step.
+Ask it. Email, WhatsApp or LinkedIn, whatever's easiest, and you'll get a straight answer. If it turns into a bigger conversation, the free 15-minute call is where we work out the right first step.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -6842,7 +6842,7 @@ Related
 Why Salesforce numbers don't match · Pipeline dashboard guide · Offer follow-up in Salesforce · Real estate CRM guide · Salesforce features · Integrations · 15 automation recipes · The Monday 5
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want these reports built on clean data?
-I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -6899,7 +6899,7 @@ Related
 All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Dialers in Salesforce · Seller follow-up cadence · Reactivating dead seller leads · Appointment reminders and no-shows
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want texting that’s logged and compliant by design?
-I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -6962,7 +6962,7 @@ Usually not. Stages, a few fields, record-triggered Flows and a Kanban list view
 We use a TC service outside the company. Does this still work?
 Yes. Give the outside TC a limited user, or have them update a few fields through a form, so the owner still sees every file on one board.
 Want your contract-to-close on one board?
-I build transaction coordination in Salesforce as part of a full implementation. On GoHighLevel or Salesforce, Climbmark 's Deal rescue watch checks every deal under contract for what is slipping and who owns the next step. Start with a free 30-minute call.
+I build transaction coordination in Salesforce as part of a full implementation. On GoHighLevel or Salesforce, Climbmark 's Deal rescue watch checks every deal under contract for what is slipping and who owns the next step. Start with a free 15-minute call.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7026,7 +7026,7 @@ Related
 Stop reps exporting your seller list · Adding acquisitions reps · When your Salesforce admin leaves · Real estate CRM guide · Salesforce features · Integrations · Cold caller handoff checklist · Team capacity calculator
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want your team’s access set up right?
-I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -7087,7 +7087,7 @@ Related
 Real estate CRM guide · Salesforce vs investor CRMs · Edition picker for Salesforce · Best CRM for wholesalers · Salesforce vs REsimpli · Salesforce vs Podio
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Running GoHighLevel and feeling the limits?
-Tell me what you can’t see or do today and I’ll tell you whether Salesforce fixes it or whether a better GoHighLevel setup will. Start with a free 30-minute call.
+Tell me what you can’t see or do today and I’ll tell you whether Salesforce fixes it or whether a better GoHighLevel setup will. Start with a free 15-minute call.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -7206,7 +7206,7 @@ Related
 Salesforce vs HubSpot · Salesforce vs Podio · Best CRM for wholesalers (2026) · Salesforce vs REsimpli · Salesforce vs GoHighLevel · Edition picker tool · Salesforce features for investors · Which Salesforce edition · Do I need a CRM yet? · Moving off Podio · Wholesaling CRM checklist · Salesforce vs Follow Up Boss · Salesforce for real estate investors · All guides · All free tools
 Last updated October 2026. Salesforce, Podio and REsimpli are trademarks of their owners; this page is independent. I build Salesforce for real estate investors, so I'm not neutral, and I've tried to keep every claim to what the vendors publish.
 Not sure which side you're on?
-I build Salesforce for real estate investors and wholesalers. Outgrowing Podio, REsimpli or another investor CRM? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
+I build Salesforce for real estate investors and wholesalers. Outgrowing Podio, REsimpli or another investor CRM? I move teams to Salesforce at a fixed price, history included. Start with a free 15-minute call.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -7217,7 +7217,7 @@ URL: https://amrmagdy.com/salesforce-vs-podio
 Salesforce vs Podio for wholesalers. Where each one wins in 2026
 Podio has been the default first CRM for wholesalers for years: cheap, flexible and full of workspaces other investors built. Salesforce is what many of those teams look at once they have several reps, a second market or an owner who wants real numbers. This page compares the two honestly, with Podio's own published limits linked, and says when staying on Podio is the right call. I build on Salesforce, so weigh my view with that in mind.
 Stay on Podio if you're a small team, your workspace works and you're under its automation allowance. Look at Salesforce when you have several reps or markets, need reports like cost per contract by source that you can't get from Podio, need per-field and per-record permissions, or keep running into Podio's limits, such as 25,000 Workflow Automation actions a month (since September 2026), 100 fields per app and 20,000 rows per Excel export. Salesforce costs more to set up and run, so a move only pays when one of those is costing you deals.
-Tell me how your workspace runs today, with the reps, markets and automations you have, and I will say plainly whether staying makes sense and what a move would involve. Book a free 30-minute call .
+Tell me how your workspace runs today, with the reps, markets and automations you have, and I will say plainly whether staying makes sense and what a move would involve. Book a free 15-minute call .
 Salesforce and Podio side by side
  | Podio | Salesforce
 Owned by | Progress Software | Salesforce
@@ -7357,7 +7357,7 @@ Related
 Real estate CRM guide · Salesforce vs investor CRMs · Edition picker for Salesforce · Best CRM for wholesalers · Salesforce vs GoHighLevel · Salesforce vs Podio
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Trying to decide?
-Send me your team size and tools and I’ll tell you which one I’d pick, even if it’s REsimpli. Start with a free 30-minute call.
+Send me your team size and tools and I’ll tell you which one I’d pick, even if it’s REsimpli. Start with a free 15-minute call.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -7483,7 +7483,7 @@ Related free tools
 15 automation recipes · Speed to lead & follow-up statistics · Speed to lead guide · Missed seller call cost · Acquisitions team capacity · CRM field kit · Offer follow-up in Salesforce · Reactivating dead seller leads · All free tools
 Last updated October 2026. A planning template, not legal advice. Nothing you enter leaves your browser.
 Want the next task created automatically?
-I build Salesforce for real estate investors and wholesalers: required next touch dates, cadences that restart when a lead's temperature changes, dead-lead reasons with revisit dates, and a Monday report of leads with no next step. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers: required next touch dates, cadences that restart when a lead's temperature changes, dead-lead reasons with revisit dates, and a Monday report of leads with no next step. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -7647,7 +7647,7 @@ When is a spreadsheet no longer enough for wholesaling?
 When a second person needs it, when lists reach thousands of rows, when you need automatic follow-up tasks or call and text logging, or when you can't tell which marketing produced contracts in a few minutes.
 Related guides
 Outgrowing the sheet?
-A free 30-minute call will tell you whether to move to an investor CRM or build on Salesforce, and I'll tell you if the answer is to stay on the sheet a while longer. Already on GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks.
+A free 15-minute call will tell you whether to move to an investor CRM or build on Salesforce, and I'll tell you if the answer is to stay on the sheet a while longer. Already on GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7852,7 +7852,7 @@ Related
 Missed-call alerts in Salesforce · Motivated seller lead scoring · Seller appointment no-shows · Lead sources into Salesforce · Speed to lead & follow-up statistics · Cold caller handoff checklist · Missed seller call cost · Acquisitions team capacity · Deal Leak Score · The Monday 5 · Follow-up cadence builder · All guides · All free tools
 Last updated October 2026.
 Want missed calls and speed to lead tracked automatically?
-I build Salesforce for real estate investors and wholesalers: missed-call tasks, routing to the next available rep, escalation and a Monday report. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers: missed-call tasks, routing to the next available rep, escalation and a Monday report. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -8026,7 +8026,7 @@ Related
 Salesforce for real estate investors · Moving off Podio checklist · Salesforce vs Podio · CRM field kit · Wholesaling CRM checklist · 12 Salesforce features investor orgs don't use
 Vendor prices and export details checked on each vendor's own site on October 20, 2026. Podio, REsimpli, CarrotCRM, InvestorFuse, GoHighLevel, Follow Up Boss and Salesforce are trademarks of their owners; this page is independent. I build Salesforce for investors, so weigh my view with that in mind.
 Switch or stay?
-Send me your current tool, team size and the one thing it can't do. On a free 30-minute call I'll tell you whether to switch, rebuild, or stay, and what the move would involve.
+Send me your current tool, team size and the one thing it can't do. On a free 15-minute call I'll tell you whether to switch, rebuild, or stay, and what the move would involve.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8090,7 +8090,7 @@ Require a reason when a lead goes dead, and put "price too far" and "not ready" 
 Related
 The Kept-Deal Map · All free tools · Wholesaling CRM glossary · Climbmark
 Want the leaks sized from your own data?
-On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks. Or start with a free 30-minute call.
+On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks. Or start with a free 15-minute call.
 On Podio, REsimpli or spreadsheets? See how a move to Salesforce works . On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -8133,7 +8133,7 @@ DocuSign contracts from the deal · Invoicing fees with QuickBooks · Wholesale 
 Several states now regulate how you contract and assign, with disclosures, cancellation windows and closing deadlines. See new wholesaling laws: what your CRM has to track , state by state.
 Last updated October 2026. Not legal or tax advice. Oklahoma law source: press release on SB 1075 .
 Want every fee tracked by source?
-I build Salesforce for real estate investors and wholesalers: deal records with planned and closed fees, assignment or double close, and a report of what each lead source actually earns. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers: deal records with planned and closed fees, assignment or double close, and a report of what each lead source actually earns. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -8173,7 +8173,7 @@ Last updated October 2026. For planning only, not financial, tax or legal advice
 Add this calculator to your site
 Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
-I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -8267,7 +8267,7 @@ From your CRM. Every lead needs a lead source, every contract and closed deal ne
 Why most wholesalers can't fill this in
 The usual gap is attribution: leads come in from mail, PPC, cold calls and texts, but the closed deal is never tied back to the original lead source in the CRM. That's the first thing Climbmark reads in your CRM, and it's the first check in the free Deal Leak Score .
 Want these numbers live in your CRM every Monday?
-I build Salesforce for real estate investors and wholesalers so cost per deal by source updates on its own. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers so cost per deal by source updates on its own. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -8392,7 +8392,7 @@ Salesforce’s built-in way to turn website form submissions into leads, up to 5
 Put the terms to work
 Wholesale deal analyzer · Cost per deal calculator · Missed call cost · The Monday 5
 Want these numbers tracked, not just defined?
-I build Salesforce for real estate investors and wholesalers: attribution, speed to lead, underwriting and ROI that counts kept deals. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I build Salesforce for real estate investors and wholesalers: attribution, speed to lead, underwriting and ROI that counts kept deals. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 See also: the wholesaling CRM checklist , stage by stage.
@@ -8416,7 +8416,7 @@ The checklist
 ☐ Contract and closing dates ☐ Exit type: assignment or double close ☐ Fall-out reason when a deal dies Monday number: Kept deals; fall-out rate and reasons
 Every field above, with picklist values and automation rules, is in the free CRM field kit . To score your current setup in two minutes, take the Deal Leak Score .
 Wholesaling in Ohio, Connecticut, Louisiana, Missouri or another state with a new law? See what your CRM has to track for the new wholesaling laws . Thinking about Salesforce for all of this? Read Salesforce for real estate investors first; it says plainly when it is overkill.
-Tell me how you run today and I will say which I would use and why, even if it is not Salesforce. Book a free 30-minute call .
+Tell me how you run today and I will say which I would use and why, even if it is not Salesforce. Book a free 15-minute call .
 How to choose: spreadsheet, investor CRM or Salesforce
 Spreadsheet
 Fine for one person and a handful of deals. It breaks when several people work leads, when missed calls must become tasks on their own, or when you need cost per closed deal without rebuilding it each month.
@@ -8441,7 +8441,7 @@ Related
 Real estate CRM guide · Do I need a CRM yet? · CRM field kit · Deal Leak Score · Speed to lead · Follow-up cadence builder · Wholesaling CRM glossary · Moving off Podio · All guides · All free tools
 Last updated November 2026.
 Want this checklist built into your CRM?
-I build Salesforce for real estate investors and wholesalers: every stage above, with the fields, automations and Monday report. Moving from a spreadsheet, Podio, REsimpli or GoHighLevel? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
+I build Salesforce for real estate investors and wholesalers: every stage above, with the fields, automations and Monday report. Moving from a spreadsheet, Podio, REsimpli or GoHighLevel? I move teams to Salesforce at a fixed price, history included. Start with a free 15-minute call.
 On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
@@ -8684,7 +8684,7 @@ Tennessee Real Estate Commission newsletter, Spring 2025
 State-by-state roundup (CrowdfundedWealth)
 Last checked: Oct 2026. Every law above was read in the bill text, a state agency or legislature page, or a law firm article linked next to it. Not legal advice. Check with a real estate attorney in your state before you rely on any of it.
 Want your CRM to track this for you?
-I can check whether disclosures, cancellation windows and closing deadlines are tracked in the states you work in. It is a tracking check, not legal advice. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+I can check whether disclosures, cancellation windows and closing deadlines are tracked in the states you work in. It is a tracking check, not legal advice. Start with a free 15-minute call, or connect your CRM to Climbmark free.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8713,7 +8713,7 @@ Marketing to buyers | Dispo has started | Assignment ask, buyers sent, buyer res
 Closed | A buyer signed or you closed | Buyer, assignment price, fee and exit type | Transaction coordinator | Until funded
 Dead | The deal is truly over | Dead reason from a short picklist | Whoever closes it | None
 If your pipeline has a lot more stages than this, check whether some are really tasks or statuses. "Waiting on title" is a task. "Seller thinking about it" is a follow-up date. A stage should change what you do with a deal, not describe a to-do on it.
-Want me to look at how yours is set up? Bring your current stages and one deal that got stuck, and I will tell you which stage rule I would write first. Book a free 30-minute call .
+Want me to look at how yours is set up? Bring your current stages and one deal that got stuck, and I will tell you which stage rule I would write first. Book a free 15-minute call .
 What are the four rules every stage needs?
 An entry rule: one sentence a new rep could apply without asking you. "The seller signed" is an entry rule. "Looks good" is not.
 An exit rule: the fields that must be filled in before the deal can move on. This is what makes the data usable later. If you need the offer date to measure speed to offer, the exit rule from "Appointment" has to ask for it.
