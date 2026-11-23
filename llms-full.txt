@@ -1904,14 +1904,14 @@ $299 a month for Growth Team, up to 15 reps
 You pay for the company, not for each seat. Smaller and bigger plans are on the plans page .
 What an owner sees
 Three blind spots, from your own numbers
-Climbmark reads what's already in your CRM. You add what each lead source costs.
+Already tracking some of this? Good. Climbmark does the digging for you. It reads what's already in your CRM, and you add what each lead source costs.
 Which sources pay you back
 Money by source: the fees you kept from each lead source next to what it cost, with a plan for the week.
 Deals that drift
 Deal rescue watch: every deal under contract checked for what is slipping and who owns the next step.
 Sellers worth another call
-New public code violations and permits on leads already in your CRM, in the US cities and counties whose records it reads today. On GoHighLevel, those leads go to the top of each rep's list.
-All three are in Growth Team, along with your recorded calls scored, with one thing to fix on each (your CRM has to record and transcribe calls). Money by source and Deal rescue watch start on the smaller Starter plan.
+New public code violations and permits on leads already in your CRM, in the 10 US cities and counties whose records it reads today. On GoHighLevel, those leads go to the top of each rep's list.
+All three are in Growth Team. So is AI scoring of your team's recorded calls, with one thing to fix on each (your CRM has to record and transcribe calls). Money by source and Deal rescue watch start on the smaller Starter plan.
 Plain facts
 What it does, and what it doesn't
 No new CRM and no migration. It runs on top of GoHighLevel or Salesforce, and your team keeps working where it works now.
