@@ -12,7 +12,7 @@ For US teams of 10 to 50, most already on Salesforce
 Your Salesforce person, for home-buying and wholesaling teams
 Integrations, automation, reports and the everyday changes, from one person who has run a home-buying company's Salesforce for two years. Monthly, without hiring an admin.
 Salesforce work for Central City Solutions and Pezon Properties . Changes done the same week. US hours, NDA first.
-Want a first look before committing? Start with the CRM Revenue Audit .
+Want a first look at your own numbers? Connect your CRM to Climbmark free and look back 13 weeks.
 What's stuck in your Salesforce right now?
 Pick one to see what I do about it.
 "Sellers call back and nobody calls them."
@@ -79,10 +79,9 @@ Salesforce Certified Administrator and Platform App Builder · Trailhead Double 
 You work with me directly
 Based in Cairo, working US hours: 9am to 6pm Eastern, Monday to Friday . I reply within one business day.
 NDA before I log in. I’m happy to sign yours first.
-Read-only access. A read-only user covers most of an audit. You create it and can switch it off any time.
+Read-only access first. A review starts with a read-only user. You create it and can switch it off any time.
 You own everything. Every build is written down, so another admin could take it over.
 50/50, held by Upwork. Half to start and half on delivery, through an Upwork contract that holds each payment until you approve it.
-Your money back. The audit is refunded in full if it doesn’t find five fixable issues worth more than the fee.
 Verify my certifications Salesforce Certified Administrator, Platform App Builder, Associate and AI Associate
 Three ways to work with me
 Three ways to work together
@@ -106,17 +105,16 @@ Dialer, DocuSign, QuickBooks, Slack
 Team training
 Today A CRM someone else built, and nobody is sure what it does anymore.
 With me The same pieces I built at Central City, fitted to how your team works.
-CRM Revenue Audit
-Fixed price For teams already on Salesforce
-I go through your org with the checklist from two years of running an investor team's Salesforce. You get the leaks in writing, what each one is likely costing you and what to fix first.
-Findings report and 30 / 60 / 90 fix plan
-Spec for a 5-number Monday dashboard
-Fee credited if you build or start monthly support within 30 days
-Money back if it doesn't find 5 fixable issues worth more than the fee
-Today You guess which leaks cost the most, and fix whatever is loudest.
-With me You know which leaks cost the most, and the order to fix them.
-On Podio, REsimpli, GoHighLevel or spreadsheets? The audit is built for Salesforce. If you're outgrowing another CRM, you need a move to Salesforce: I map what you track, move the data and build around how your team works.
-Want your Monday numbers without a project? I also built Climbmark . It runs on top of your GoHighLevel or Salesforce and does the digging: which sources bring back fees, which signed deals are slipping and which sellers to call first. Connect your CRM free and look back 13 weeks.
+Climbmark
+Free Growth Team $299 a month
+The app I built. It runs on top of your GoHighLevel or Salesforce and does the digging every Monday: which lead sources bring back fees, which signed deals are slipping and which sellers to call first.
+No migration, nothing new for your team to fill in
+Free: 13 weeks of Money by source, once
+Growth Team: Deal rescue watch on every signed deal
+Growth Team: AI scoring of your recorded calls
+Today The answers are in the CRM, and nobody has time to dig them out.
+With Climbmark A plan for the week from your own numbers, every Monday.
+Outgrowing Podio, REsimpli or spreadsheets? You need a move to Salesforce: I map what you track, move the data and build around how your team works.
 Proof · Central City Solutions
 What I built, and what it changed
 A home-buying company in Columbus and Cincinnati, Ohio. For two years I've been the person they call when anything in Salesforce needs to change: a new market, a new lead source, a new hire, a broken alert.
@@ -230,19 +228,19 @@ Questions
 Before you book
 Working with me
 We're about to hire a full-time Salesforce admin. Should we?
-Maybe later. At a team of 10 to 50, most of the work is small changes every week: a new lead source, a new hire, an alert that broke. A retainer covers that for less than a salary, and the audit shows how much work there really is. Hire an admin or use a retainer compares the two. If you do hire, here's how to hire a Salesforce admin , with interview questions and a paid test.
+Maybe later. At a team of 10 to 50, most of the work is small changes every week: a new lead source, a new hire, an alert that broke. A retainer covers that for less than a salary. Hire an admin or use a retainer compares the two. If you do hire, here's how to hire a Salesforce admin , with interview questions and a paid test.
 We're adding reps or opening a new market. Should we fix the CRM first?
-If you can, yes. More leads through the same leaks means more money lost the same way. The audit tells you what to fix before you scale, in the order I'd fix it. For the setup itself, use the checklists for adding acquisitions reps and opening a new market .
-We're on Podio, REsimpli or GoHighLevel. Can you audit that?
-No. The audit is built for Salesforce. If you're outgrowing another CRM or spreadsheets, the right first step is a move to Salesforce: I map what you track today, move your data and build around how your team works. See how a move to Salesforce works , or plan it on a free call.
+If you can, yes. More leads through the same leaks means more money lost the same way. Look at what your current sources bring back before you add more. Climbmark shows it free from your own CRM. For the setup itself, use the checklists for adding acquisitions reps and opening a new market .
+We're on Podio, REsimpli or GoHighLevel. Can you help?
+On GoHighLevel, connect it to Climbmark free and look back 13 weeks. If you're outgrowing another CRM or spreadsheets, the right next step is a move to Salesforce: I map what you track today, move your data and build around how your team works. See how a move to Salesforce works , or plan it on a free call.
 What does it cost?
-Ongoing support is a monthly block of hours, month to month, with the price shared on a free call. A full implementation is quoted as a project after a free call. For a first look at your org, the CRM Revenue Audit is a fixed price shown on its page, and the full fee comes off a build, or your first three months of support, if you go ahead within 30 days. Salesforce licenses are billed by Salesforce, so ask your account manager for a quote for your team size; teams can often get a discount.
+Ongoing support is a monthly block of hours, month to month, with the price shared on a free call. A full implementation is quoted as a project after a free call. Salesforce licenses are billed by Salesforce, so ask your account manager for a quote for your team size; teams can often get a discount.
 You're in Cairo. How does that work?
 I work US hours, 9am to 6pm Eastern, Monday to Friday, and reply within one business day. That's how I've worked with a home-buying company in Ohio for two years. Calls are booked at a time that suits you.
 You're one person. Why not an agency?
 With an agency, your project often goes through a project manager to a consultant who may never have worked in real estate. With me, the person who answers your message is the person who builds it. The honest trade-off: I'm one specialist, not a ten-person team, so I'll tell you straight on the first call what fits this week. Everything I build lives in your org and belongs to you, and I write down how each piece works so another admin could take it over.
 What access do you need, and is our data safe?
-For the audit, a read-only Salesforce user covers most of the review. You create the user, so you can see what it does and switch it off at any time. It does use one of your Salesforce licenses; if none is spare, we can free one or do the review on screen shares instead. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first. Your data stays in your org, and I'm happy to sign your NDA before I log in.
+For a review, a read-only Salesforce user covers most of it. You create the user, so you can see what it does and switch it off at any time. It does use one of your Salesforce licenses; if none is spare, we can free one or do the review on screen shares instead. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first. Your data stays in your org, and I'm happy to sign your NDA before I log in.
 What have you actually built?
 For two years I've run the Salesforce for a two-market home-buying company in Ohio: campaign ROI by market checked against the books, missed-call alerts on every marketing number, follow-up that stops when a seller replies, a Transactions Board for every file under contract, and settings ops can change without a developer. At Pezon Properties in Pennsylvania I delivered 50+ requests, including a campaign ROI dashboard with 25 funnel metrics and a rebuilt transaction coordination app.
 Do you work with teams outside the US?
@@ -368,8 +366,8 @@ Last updated October 2026. For planning only, not financial, tax or legal advice
 Add this calculator to your site
 Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
-I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -443,7 +441,7 @@ Salesforce Help: Considerations for deactivating users . What can stop a user be
 Salesforce Developers: Lead management formulas . The round robin formula pattern
 VA access in Salesforce (this site) . MFA enforcement for employee logins, with Salesforce's dates
 Hiring soon?
-New-hire setup is part of Ongoing Support & Development, a monthly retainer with no long-term contract. Or book a free call and we'll go through this list for your team before the new rep starts. Not sure your routing and alerts would hold up as it is? The fixed-price CRM Revenue Audit checks them for every rep, for teams already on Salesforce.
+New-hire setup is part of Ongoing Support & Development, a monthly retainer with no long-term contract. Or book a free call and we'll go through this list for your team before the new rep starts. Want to see what your CRM shows today first? Connect it to Climbmark free and look back 13 weeks.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -532,7 +530,7 @@ Rules were checked in October 2026 and can change. This page is information, not
 FCC: Declaratory Ruling FCC 24-17 (AI-generated voices under the TCPA, February 2024) . AI voices are artificial voices; prior express consent, and written consent for telemarketing (CG Docket No. 23-362)
 National Law Review: TCPA global revocation rule extended to January 2027 . Opt-out processing within 10 business days since April 11, 2025; global revocation rule effective January 31, 2027
 Want your data ready before you add AI?
-The fixed-price CRM Revenue Audit checks the things AI depends on: duplicates, stage rules, consent fields and lead sources, and gives you a fix plan. It's for teams already on Salesforce.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -565,8 +563,8 @@ Last updated October 2026. For planning only, not financial, tax or legal advice
 Add this calculator to your site
 Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
-I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -691,7 +689,7 @@ Real estate CRM guide · Salesforce vs investor CRMs · Edition picker for Sales
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want a second opinion on your shortlist?
 Tell me your team size, lead sources and tools and I’ll tell you which two I’d trial, including when Salesforce isn’t the answer. Start with a free 30-minute call.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -733,7 +731,7 @@ For a real estate company where speed-to-lead is critical, the difference betwee
 When to Keep Zapier
 Zapier is still the right tool for connecting Salesforce to external platforms that don't have native connectors. If you're connecting to Zillow, Facebook Lead Ads, custom forms, or niche real estate software — Zapier is the fastest and most reliable bridge. The goal isn't to eliminate Zapier. It's to use it only where it's irreplaceable.
 Want this built for your real estate Salesforce?
-Book a free 30-minute call, check your Deal Leak Score , see all free tools , or the fixed-price CRM Revenue Audit for investor teams already on Salesforce.
+Book a free 30-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
 More Articles
 How to Build a RingCentral–Salesforce Daily Call Sync with Apex (Real Estate Case Study)
 6 min read
@@ -752,7 +750,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · Climbmark
 Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.
 
 ---
@@ -792,7 +790,7 @@ One unexpected benefit: because call recordings were now attached to the Salesfo
 What You Need to Implement This
 To replicate this in your Salesforce org, you'll need: a RingCentral account with API access enabled (Platform plan or higher), RingCentral extension IDs mapped to Salesforce User records, Salesforce API access enabled for the integration user, and a Named Credential or Custom Setting to store the OAuth tokens securely. The Apex classes themselves need to be deployed to your org and the scheduled job activated.
 Want this built for your real estate Salesforce?
-Book a free 30-minute call, check your Deal Leak Score , see all free tools , or the fixed-price CRM Revenue Audit for investor teams already on Salesforce.
+Book a free 30-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
 More Articles
 Why Your Real Estate Agents Aren't Using Salesforce (And How to Fix It)
 4 min read
@@ -813,7 +811,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · Climbmark
 Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.
 
 ---
@@ -838,7 +836,7 @@ Your buyer's agent, acquisitions manager, and transaction coordinator all use Sa
 The Metric That Tells You If It Is Working
 Do not measure adoption by login frequency. Measure data completeness: what percentage of leads have a next activity date set, and what percentage of deals have been updated in the last 7 days. These numbers tell you whether Salesforce is being used as a working tool — or just occasionally checked.
 Need help with your real estate Salesforce?
-Book a free 30-minute call, check your Deal Leak Score , see all free tools , or the fixed-price CRM Revenue Audit for investor teams already on Salesforce.
+Book a free 30-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
 More Articles
 Salesforce Integrations for Real Estate Investors (2026)
 10 min read
@@ -857,7 +855,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · Climbmark
 Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.
 
 ---
@@ -900,7 +898,7 @@ The Configuration Object became the single most referenced system at a two-marke
 When to Build a Configuration Object
 This pattern is worth building when your Salesforce org has more than 15-20 distinct automation rules that business users want to control, when you're receiving frequent requests to modify notification text or recipients, or when the same automation logic repeats across multiple triggers with slightly different parameters. If those conditions don't apply yet, a direct Flow approach is simpler. But if your org is growing and your automation library is expanding, a Configuration Object pays for itself within weeks.
 Want this built for your real estate Salesforce?
-Book a free 30-minute call, check your Deal Leak Score , see all free tools , or the fixed-price CRM Revenue Audit for investor teams already on Salesforce.
+Book a free 30-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
 More Articles
 Moving from Podio, REsimpli or GoHighLevel to Salesforce
 9 min read
@@ -919,7 +917,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · Climbmark
 Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.
 
 ---
@@ -989,7 +987,7 @@ Step 4 — Add marketing spend fields to Campaigns and start populating them mon
 Step 5 — Build the reports and dashboard once you have 30-60 days of data
 The whole system can be live in 2-4 weeks. After that, every closed deal automatically feeds the financial analytics — no spreadsheets, no manual data pulls, no end-of-month scramble.
 Want this built for your real estate company?
-Book a free 30-minute call, check your Deal Leak Score , try the free cost per deal calculator , see all free tools , or the fixed-price CRM Revenue Audit for investor teams already on Salesforce.
+Book a free 30-minute call, check your Deal Leak Score , try the free cost per deal calculator , see all free tools , or connect your CRM to Climbmark free.
 More Articles
 Salesforce for Real Estate Investors and Home-Buying Companies
 15 min read
@@ -1010,7 +1008,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · Climbmark
 Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.
 
 ---
@@ -1102,7 +1100,7 @@ How many KPIs should a real estate team track?
 One or two per role, and about five for the owner's weekly meeting. Past that, people stop reading them.
 Related guides
 Not sure your numbers add up?
-The fixed-price CRM Revenue Audit checks the numbers you run the business on against the data underneath, and defines your Monday 5 field by field for your org. It's for teams already on Salesforce. On another CRM? A move to Salesforce can build these in from the start.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM? A move to Salesforce can build these in from the start.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -1212,7 +1210,7 @@ Salesforce Ben: lead routing software buyer's guide . No native round robin for 
 Trailhead: Get started with Omni-Channel . What Omni-Channel routes, including leads
 Speed to lead and follow-up statistics for real estate (this site) . Invoca 2021 voicemail figure, with its source
 Want to know where your leads wait?
-The fixed-price CRM Revenue Audit checks your routing, missed-call handling and speed to lead against how your team actually works, and comes with a written fix plan and up to three quick fixes. It's for teams already on Salesforce. On another CRM, or not sure? Book a free call.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM, or not sure? Book a free call.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -1273,7 +1271,7 @@ First: almost nothing on it is exotic. It's flows, validation rules, formula fie
 Second: the requests compound. Call-tracking attribution feeds the ROI dashboard; conversion gates feed clean transaction data; clean transaction data feeds net profit per deal. A consultant who only does tickets in isolation builds none of that compounding.
 Third: this is what "ongoing CRM management" means in practice. Not a retainer for emergencies — a steady cadence of improvements, each small enough to ship in days, each making the next one more valuable.
 Want a request log like this for your company?
-Book a free 30-minute call, check your Deal Leak Score , see all free tools , or the fixed-price CRM Revenue Audit for investor teams already on Salesforce.
+Book a free 30-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
 More Articles
 How to Build a Real Estate Pipeline Dashboard in Salesforce
 3 min read
@@ -1292,7 +1290,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · Climbmark
 Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.
 
 ---
@@ -1375,7 +1373,7 @@ Trailhead: Identify stuck sales deals . The Stage Duration field on Opportunitie
 Salesforce: Tips for creating dashboards . Manual refresh, and scheduled refreshes daily, weekly or monthly
 Salesforce: Dynamic dashboards cheat sheet . Dynamic dashboard limits by edition, and the running user
 Want a dashboard you'd actually open?
-The fixed-price CRM Revenue Audit checks the reports you open every week against the data underneath, and defines your Monday 5 field by field for your org. It's for teams already on Salesforce. On another CRM? A move to Salesforce can build the dashboard in from the start.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM? A move to Salesforce can build the dashboard in from the start.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -1410,7 +1408,7 @@ Every lead source should feed automatically into Salesforce. Use Zapier for: you
 Step 7: Train Your Team
 Role-specific training — not one-size-fits-all. Agents need to know: how to update a lead, how to log a contact attempt, how to advance a deal stage. Managers need to know: how to read dashboards, how to reassign leads, how to run pipeline reports. Give each person exactly what they need and nothing more.
 Run an investor or home-buying team?
-I work with real estate investors, wholesalers and home-buying companies, not brokerages or agent teams. If that’s you, book a free 30-minute call, check your Deal Leak Score , or see the fixed-price CRM Revenue Audit for teams already on Salesforce.
+I work with real estate investors, wholesalers and home-buying companies, not brokerages or agent teams. If that’s you, book a free 30-minute call, check your Deal Leak Score , or connect your CRM to Climbmark free.
 More Articles
 Salesforce vs Follow Up Boss for Real Estate: Which CRM Is Right for You?
 4 min read
@@ -1429,7 +1427,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Run an investor, wholesaling or home-buying team? Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · Climbmark
 Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.
 
 ---
@@ -1466,12 +1464,12 @@ If you're running a small residential team today and don't plan to grow signific
 If you're building toward scale — more agents, more properties, more data, more business lines — Salesforce is worth the investment. A well-configured Salesforce setup grows with you indefinitely. You'll never outgrow it.
 The question isn't which CRM is better. It's which one fits where your business is going.
 Run an investor or home-buying team?
-I work with real estate investors, wholesalers and home-buying companies, not brokerages or agent teams. If that’s you, book a free 30-minute call, check your Deal Leak Score , or see the fixed-price CRM Revenue Audit for teams already on Salesforce.
+I work with real estate investors, wholesalers and home-buying companies, not brokerages or agent teams. If that’s you, book a free 30-minute call, check your Deal Leak Score , or connect your CRM to Climbmark free.
 More Articles
 Connecting Salesforce to Your Real Estate Stack with Zapier
 4 min read
-Sample Salesforce Audit Report for a Home-Buying Company
-3 min read
+Climbmark: your CRM already has the answers
+2 min read
 15 Automation Recipes for a Wholesaling CRM
 5 min read
 Free for investors and wholesalers
@@ -1485,7 +1483,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Run an investor, wholesaling or home-buying team? Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · Climbmark
 Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.
 
 ---
@@ -1512,10 +1510,10 @@ When a well-maintained native AppExchange integration exists for a tool you use,
 Building Your Integration Map
 Before touching Zapier, document every tool your team uses and every data flow between them. Identify which flows are currently manual. Start with the one that involves the most manual work or the longest delays — that is your highest-value first integration.
 Need help with your real estate Salesforce?
-Book a free 30-minute call, check your Deal Leak Score , see all free tools , or the fixed-price CRM Revenue Audit for investor teams already on Salesforce.
+Book a free 30-minute call, check your Deal Leak Score , see all free tools , or connect your CRM to Climbmark free.
 More Articles
-Sample Salesforce Audit Report for a Home-Buying Company
-3 min read
+Climbmark: your CRM already has the answers
+2 min read
 How I Moved a Home-Buying Team’s Zapier Automations to Native Salesforce
 5 min read
 The Salesforce Configuration Object: How to Manage Automations Without Touching Code
@@ -1533,7 +1531,7 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 About the author: Amr Magdy
-Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · CRM Revenue Audit
+Amr Magdy is a Salesforce CRM Consultant for US real estate investors and wholesalers. He runs the Salesforce for a two-market home-buying company in Ohio, where he built campaign ROI by market, missed-call alerts, shared lead queues and underwriting on the deal record, and he builds the same system for other investor teams. LinkedIn · Free tools · Climbmark
 Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.
 
 ---
@@ -1723,12 +1721,10 @@ How I Moved a Home-Buying Team’s Zapier Automations to Native Salesforce
 A home-buying team was hitting Zapier API limits every month. Here's how I moved its Zaps to Salesforce Flows, cutting costs and delays and making the automations more reliable.
 How to Build a RingCentral–Salesforce Daily Call Sync with Apex
 A step-by-step breakdown of the Apex class that auto-syncs RingCentral call logs into Salesforce daily — eliminating 2+ hours of manual logging per user per week.
-Sample Salesforce Audit Report for a Home-Buying Company
-What the CRM Revenue Audit hands over, for a made-up company: findings, a 30/60/90 roadmap, the Monday 5 dashboard spec and the quick fixes.
 One useful Salesforce guide. At most weekly.
 New playbooks on lead routing, automation, and CRM ROI for real estate teams — straight to your inbox. No fluff, unsubscribe anytime.
 Ready to Fix Your Real Estate Salesforce?
-Book a free 30-minute call, check your Deal Leak Score , or see the fixed-price CRM Revenue Audit for teams already on Salesforce.
+Book a free 30-minute call, check your Deal Leak Score , or connect your CRM to Climbmark free.
 Or check your free Deal Leak Score in two minutes →
 Found this useful?
 Ask me how this would work in your CRM.
@@ -1774,8 +1770,8 @@ Last updated October 2026. For planning only, not financial, tax or legal advice
 Add this calculator to your site
 Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
-I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -1849,7 +1845,7 @@ Vendor details were read from the vendors' pages in October 2026 and change; che
 CallRail Support: Dynamic number insertion overview . How DNI works; source tracking numbers vs website pools; number must be visible on the page
 CallRail: Salesforce integration . Calls tied to campaigns, recordings in Salesforce; Lightning Enterprise or Unlimited plan listed as a requirement
 Not sure which of your calls come from where?
-The fixed-price CRM Revenue Audit checks how your sources and campaigns are recorded, including calls, and shows what unknown sources are costing you. It's for teams already on Salesforce.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -1884,8 +1880,8 @@ Related free tools
 Dispositions in Salesforce · CRM field kit · Wholesale deal analyzer · Assignment vs double close · All free tools
 Last updated October 2026. The example rows in the CSV are made up; delete them before use.
 Want deals matched to buyers automatically?
-I build Salesforce for real estate investors and wholesalers: buyer records with buy boxes, deal-to-buyer matching, send and reply tracking, and a report of which buyers actually close. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers: buyer records with buy boxes, deal-to-buyer matching, send and reply tracking, and a report of which buyers actually close. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -1964,7 +1960,7 @@ Wholesaling team roles and handoffs · Salesforce access for VAs · 15 automatio
 Last updated October 2026.
 Want this built into your CRM?
 I build Salesforce for real estate investors and wholesalers, and the same rules work in any CRM. Outgrowing Podio, REsimpli, GoHighLevel or a spreadsheet? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
-Already on Salesforce? The CRM Revenue Audit (fixed price) is the place to start. Here’s a sample report .
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2056,7 +2052,7 @@ Checked in October 2026. Compliance notes are information, not legal advice; sta
 FTC: Complying with the Telemarketing Sales Rule . Calling hours 8 a.m. to 9 p.m. local time; update call lists against the Do Not Call Registry at least every 31 days
 FTC: National Do Not Call Registry FAQs . Telemarketers can't call before 8 a.m. or after 9 p.m. local time
 Want your callers' numbers on one screen?
-The fixed-price CRM Revenue Audit checks how calls, outcomes and handoffs are logged in your org and shows where appointments leak. It's for teams already on Salesforce.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2124,7 +2120,7 @@ Where should I start if I can only do one thing?
 Make Lead Source required before a lead leaves New, and make Next Task Date required on every open lead. Those two fields fix the most common leaks: not knowing which marketing pays, and leads nobody follows up.
 Why these fields and not others?
 Each one exists so a specific weekly number can be counted: cost per appointment by campaign, contracts per campaign, time from contract to first seller call, booked vs. kept profit, and campaign ROI including the houses you keep.
-On Salesforce and want it checked in your own org? Here's what the audit covers , or see a sample report . On another CRM? See how a move to Salesforce works .
+On GoHighLevel or Salesforce and want your own numbers dug out? Connect it to Climbmark free . On another CRM? See how a move to Salesforce works .
 See also: the wholesaling CRM checklist , stage by stage.
 
 ---
@@ -2208,184 +2204,8 @@ Should my cold callers and VAs have full CRM access?
 No. Give them the access their job needs: usually their own leads, not exports of the whole database. Limit who can see all phone numbers, export lists or change closed deals, and keep a log of changes.
 Related guides
 Want the ten answers turned into a fix list?
-The fixed-price CRM Revenue Audit goes through your setup against these seven jobs and returns a ranked fix list with the cost of each leak. It's for teams already on Salesforce. On another CRM? A free call will tell you whether a move makes sense.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM? A free call will tell you whether a move makes sense.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
-
----
-## CRM Revenue Audit: scope and terms | Amr Magdy
-URL: https://amrmagdy.com/crm-revenue-audit-terms
-
-What you’re agreeing to
-Plain terms for the fixed-price audit. If anything here doesn’t fit how you work, tell me before we start and we’ll sort it out.
-Amr Magdy CRM Consulting · info@AmrMagdy.com
-Who it’s for
-Real estate investor, wholesaler and home-buying teams already on Salesforce. On another CRM? See moving to Salesforce instead.
-What’s reviewed
-Marketing and campaign ROI, speed to lead, acquisitions and follow-up, data health, automations and integrations, and the reports and dashboards you run the business on.
-What you get
-A written findings report: every issue, where it is, what it’s likely costing you and how big the fix is.
-A 30 / 60 / 90 roadmap with the fixes in order and rough effort for each.
-A field-by-field spec for a “Monday 5” owner dashboard.
-Up to 3 small, safe fixes made during the audit, each agreed with you first.
-A kick-off call and a recorded findings walkthrough with your team.
-What I need from you
-A 45-minute kick-off call.
-A read-only Salesforce login (I send simple steps).
-A yes or no on each quick fix.
-A 60-minute walkthrough call.
-Not included
-Building fixes beyond the quick fixes (up to 3), data migration and new integrations. Those are scoped separately if you want them.
-Fee and payment
-$1,500 USD, fixed. Paid through an Upwork contract: 50% to start and 50% when the report is delivered. Upwork holds each payment until you approve it. You need a free Upwork account; I send the contract.
-If you hire me for ongoing support within 30 days of the walkthrough, up to the full $1,500 comes off your first three months of fees, an equal amount each month. If you hire me for a build, it comes off that project.
-If we continue with ongoing support
-Monthly plans, month to month. Either of us can stop with 30 days’ notice.
-You fund the month’s milestone on Upwork at the start of the month. I start once it is funded and you release it with the monthly report.
-Unused hours carry into the next month, up to half of your plan. After that they expire.
-Anything I estimate above 2 hours gets a short written estimate you approve first. Extra hours are also approved first.
-My promise
-If the report doesn’t give you at least five specific, fixable issues worth more to you than the fee, say so on the walkthrough call and I’ll refund it in full.
-Direct line to me
-You get a direct WhatsApp line to me for questions about your org, during the audit and for 30 days after the walkthrough. At handover I’ll ask for a short review on Upwork or LinkedIn. A case study or a quote only if you’re happy to, and I may count your findings, without your name, in totals I publish.
-Access and your data
-I work from a read-only user and change nothing without your OK. The user only gets edit access while I make the quick fixes you approve. It uses one of your Salesforce licenses; if none is spare, we free one together or do the review on screen shares with whoever runs Salesforce on your side. Your data stays in your org. I don’t copy it out except what the report needs, and I keep it confidential. I’m happy to sign your NDA before I log in. Remove my login any time after the walkthrough.
-Urgent findings
-If I find something actively losing leads, like an alert that silently stopped, I tell you the same day.
-Agreeing
-Accepting the Upwork contract means you accept these terms.
-
----
-## Salesforce CRM Audit for Real Estate Investors and Wholesalers
-URL: https://amrmagdy.com/crm-revenue-audit
-
-Your CRM, before and after
-Start here CRM Revenue Audit · for teams already on Salesforce
-Find where your Salesforce is losing deals , before you buy more leads.
-Most investor teams don't have a lead problem. They have a few quiet leaks: a missed call nobody saw, an offer that went cold, a campaign that gets credit for someone else's deal.
-I go through your Salesforce and hand you a plain-English report: what's leaking, what it's likely costing you and what to fix first.
-Today “I think the mail is working.”
-After the audit You know what each contract costs, by channel.
-Not on Salesforce? You need a move to Salesforce , not an audit. Book a free call and we'll scope it.
-CRM Revenue Audit
-$1,500 USD, fixed
-One price for teams already on Salesforce. Credited to a build, or to your first three months of support, if you go ahead within 30 days of the walkthrough.
-1 Written findings report
-5+ Fixable issues worth more than the fee, or your money back
-up to 3 Quick fixes made during the audit
-5 Numbers for your Monday dashboard, defined for your org
-2 Calls: kick-off and recorded walkthrough
-Full refund if it doesn't find five fixable issues worth more than the fee. Scope and terms
-Who does the audit
-Who does the audit: Amr Magdy , Salesforce CRM Consultant for US real estate investors and wholesalers.
-Based in Cairo, working US hours: 9am to 6pm Eastern, Monday to Friday . I reply within one business day.
-For two years I've run the Salesforce for a two-market home-buying company in Ohio: campaign ROI by market, missed-call alerts, a Transactions Board and same-week changes. Salesforce Certified Administrator and Platform App Builder.
-More about me
-“Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.”
-Sean Grabow , Founder, Central City Solutions
-NDA before I log in. I’m happy to sign yours first.
-Read-only access. A read-only user covers most of an audit. You create it and can switch it off any time.
-You own everything. Every build is written down, so another admin could take it over.
-50/50, held by Upwork. Half to start and half on delivery, through an Upwork contract that holds each payment until you approve it.
-Your money back. The audit is refunded in full if it doesn’t find five fixable issues worth more than the fee.
-Verify my certifications Salesforce Certified Administrator, Platform App Builder, Associate and AI Associate
-Why I built this
-The question I hear most
-“We spend thousands a month on mail, cold calling and PPC. Which of it is actually working?”
-It's a fair question, and the CRM should answer it in under a minute. Usually it can't, and not because anyone did anything wrong. Teams grow, people add a field here and a Zap there, and two years later the numbers on the dashboard are slightly off and nobody is quite sure why.
-I've spent the last two years building and running the Salesforce system behind a home-buying company in Ohio, from the first call on a marketing number to the closing table. This audit is the checklist I wish someone had handed me on day one.
-The end goal
-Where you'll be when it's done
-Five questions most owners can't answer from their CRM today. Flip the switch to see each one after the audit.
-Area | Today: what you'd say After: what you'll know
-Marketing | “I think the mail is working.” You know which campaigns produce contracts and what each contract costs, by channel.
-Speed to lead | “We call everyone back fast.” You know how long sellers really wait, and where missed calls and weekend forms fall through.
-Follow-up | “The reps are on top of it.” You have the list of offers and appointments going cold right now, and who owns each.
-Reporting | “The dashboard is probably right.” You know which numbers you can trust, which are off, and why.
-The plan | “We need to fix the CRM at some point.” You have a ranked fix plan you can hand to me, your own team or anyone else.
-You're seeing what most owners say today.
-You're seeing what you'll know when the audit is done.
-What I check
-Six areas, one question each
-Each area comes back with a straight answer, the evidence behind it, and what the fix would take.
-Marketing and ROI
-Is every lead tied to the campaign that paid for it? Do the deals you keep, like rentals, count toward that campaign's return?
-Can you see cost per contract by channel, and trust it?
-Speed to lead
-What happens to a missed call, a weekend web form, a text reply? Who gets told, and how fast?
-How many sellers waited, and for how long?
-Acquisitions and follow-up
-Offers with no activity, appointments with no next step, leads owned by someone who left. In states with new wholesaling rules, whether disclosures and cancellation dates are tracked. A tracking check, not legal advice.
-Which deals are quietly going cold right now?
-Data health
-Broken phone numbers, duplicate sellers, deals with no lead behind them, lead sources anyone can change.
-How much of your list can you actually reach?
-Automations and integrations
-Flows, Zaps, dialer and e-signature syncs, alerts. What fires, what fails quietly, what overlaps, and whether dialer and AI follow-up lands in the CRM with consent recorded.
-What's running that nobody would notice if it stopped?
-Reporting
-The reports and dashboards you open every week, checked against the raw data underneath.
-Do the five numbers you run the business on add up?
-What you get
-Everything you get, counted
-Things you can act on, not a slide deck. Each one is yours to keep, whether you build the fixes with me or not.
-1 | Findings report Every issue in plain English: where it is, what it's likely costing you in leads, deals or hours, and how big the fix is.
-5+ | Fixable issues Specific, sized and worth more than the fee, or you get the fee back.
-up to 3 | Quick fixes, done Small, safe fixes like a broken alert or a wrong report filter, agreed with you first.
-6 | Areas reviewed Marketing ROI, speed to lead, acquisitions, data health, automations and reporting.
-5 | Monday numbers Your “Monday 5” owner dashboard, defined field by field for your org and ready to build.
-3 | Roadmap stages A 30 / 60 / 90 plan with the fixes in the order I'd do them and rough effort for each.
-2 | Calls A kick-off call and a recorded findings walkthrough the rest of your team can watch.
-100% | Of the fee credited If you hire me for the build or for monthly support within 30 days, the whole fee comes off the project or your first three months of fees.
-How it works
-Five steps, two calls
-About two hours of your time in total. I do the rest.
-Step 1 Kick-off call You walk me through how a deal moves through your team, and what's bugging you. You: a 45-minute call and a read-only login (I send simple steps).
-Step 2 The review I work through all six areas in your org. If I find something urgent, like an automation that's failing quietly, you hear about it the same day. You: nothing, unless I have a question.
-Step 3 Quick fixes I send you up to 3 small fixes I'd make first. Once you say yes, I make them, so you see results before the walkthrough. You: a yes or no on each fix.
-Step 4 Report delivered The findings report, the roadmap and the dashboard spec arrive before we meet, so you can read them first. You: a read, at your own pace.
-Step 5 Walkthrough We go through the findings with whoever on your team should be in the room, and agree what happens next. You: a 60-minute call, recorded.
-Is this for you?
-A good fit, and not
-A good fit if you…
-Buy houses or wholesale, and your team works out of Salesforce, including investor CRMs built on it
-Spend real money on marketing and want to know what's working
-Have a CRM someone else built, and aren't sure what it does anymore
-Are about to hire, add reps, open a market or change lead sources
-Probably not yet if you…
-Run on Podio, REsimpli, GoHighLevel or spreadsheets. You need a move to Salesforce , scoped on a free call
-Need the fixes built this week. That's a build project, which we can scope
-Want a full rebuild price before anyone has looked at your setup
-The terms
-Your money back if it finds too little
-The promise
-If the report doesn't give you at least five specific, fixable issues worth more than the fee, tell me on the walkthrough and I refund it in full. No forms, no argument.
-Direct line to me
-You get a direct WhatsApp line to me for questions about your org, during the audit and for 30 days after the walkthrough. At handover I'll ask for a short review on Upwork or LinkedIn. A case study or a quote only if you're happy to, and I may count your findings, without your name, in totals I publish.
-Paying
-50% to start, 50% when the report is delivered, through an Upwork contract that holds each payment until you approve it.
-Questions
-Before you ask
-What access do you need?
-A read-only Salesforce user covers most of the review, and I ask before I need anything else. You create it, so you can see what it does and switch it off at any time. Nothing in your org changes without your OK. The quick fixes (up to 3) are each agreed with you first, and the user only gets edit access while I make them. Your data stays in your org, and I'm happy to sign your NDA before I log in.
-Does that login use one of our paid Salesforce licenses?
-Yes. Every Salesforce login uses a license, even a read-only one. If you have a spare license, we use it. If not, a former employee's user can often be deactivated to free one. We check together first that nothing still runs under their name, because deactivating a user too early can break things. If neither works, we do the review on screen shares with whoever runs Salesforce on your side. It takes more of their time, and nothing else about the audit changes.
-How long does it take?
-We set the walkthrough date together on the kick-off call, so you know the finish date before the review starts. In between: my review, up to 3 agreed quick fixes, and the report, which reaches you before the walkthrough. Your part is about two hours in total.
-Do we have to hire you for the fixes?
-No. The roadmap is written so your team, or anyone you choose, can follow it. If you hire me for the build or for monthly support within 30 days, the full audit fee comes off the project or your first three months of fees.
-What if we're not on Salesforce?
-Then the audit isn't the right step. You need a move to Salesforce: I map what you track today, move your data and build around how your team works. Book a free call and we'll scope it.
-You're in Cairo. How does the time difference work?
-I work US hours, 9am to 6pm Eastern, Monday to Friday, and reply within one business day. That's how I've worked with a home-buying company in Ohio for two years. Both calls are booked at a time that suits you.
-How do we pay?
-Paid through an Upwork contract: 50% to start and 50% when the report is delivered. Upwork holds each payment until you approve it. The full scope and terms are on one page.
-What if the audit doesn't find much?
-Then you shouldn't pay for it. If the report doesn't give you at least five specific, fixable issues worth more than the fee, tell me on the walkthrough and I refund it in full. No forms, no argument.
-Request the audit
-Tell me a bit about your team.
-I'll reply within one working day with a couple of questions and a start date. I do every audit myself, so each one gets proper attention.
-Rather talk first? Book a 30-minute call Free, on my calendar, no back and forth
-info@AmrMagdy.com Prefer email? That works too
 
 ---
 ## CRM Tags for Wholesalers: Tags, Fields or Campaigns?
@@ -2466,7 +2286,7 @@ How do I clean up a messy tag list?
 Export every tag with its count, merge near-duplicates, retire unused ones, test anything that triggers automation, and write a one-line definition for each remaining value. Do it quarterly and give one person ownership of the list.
 Related guides
 Want your tags and fields sorted once?
-Data structure is part of the fixed-price CRM Revenue Audit: your fields, sources and tags reviewed against how you report, with a clean-up plan. It's for teams already on Salesforce.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2559,7 +2379,7 @@ Mac Murray & Shuster: FCC delays the TCPA revoke-all rule to January 31, 2027 . 
 RulesOfCivilProcedure.com: TCPA robocalls and texts . Statutory damages of $500 per violation, up to $1,500 for willful violations, under 47 U.S.C. 227
 Salesforce Ben: Tips for working with campaign member statuses . Custom member statuses per campaign and the Responded flag
 Want to know how many sellers are sitting in your dead pile?
-The fixed-price CRM Revenue Audit checks your data health, including duplicate sellers, broken numbers and leads with no source, and shows which parts of your list you can actually reach, with a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM? Book a free call and we'll talk about a move.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2602,8 +2422,8 @@ No. Every check can be set up in any investor CRM. The score measures the proces
 Related
 The full 60-point audit checklist · The Kept-Deal Map · CRM field kit · Deal Leak videos · All free tools
 Want each leak sized from your own data?
-On Salesforce already? The fixed-price CRM Revenue Audit goes through your org and call data leak point by leak point and gives you a prioritized fix list. On another CRM, the move to Salesforce comes first. Or start with a free 30-minute call.
-On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works . Already on Salesforce? See a sample audit report .
+On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks. Or start with a free 30-minute call.
+On Podio, REsimpli or spreadsheets? See how a move to Salesforce works . On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 See also: the wholesaling CRM checklist , stage by stage.
 
@@ -2641,7 +2461,7 @@ Real estate CRM guide · Speed to lead & follow-up statistics · Wholesaling CRM
 Last updated October 2026.
 Want this built into your CRM?
 I build Salesforce for real estate investors and wholesalers, and the same rules work in any CRM. Outgrowing a spreadsheet, Podio, REsimpli or GoHighLevel? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
-Already on Salesforce? The CRM Revenue Audit (fixed price) is the place to start. Here’s a sample report .
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2685,8 +2505,8 @@ Related
 Assignment vs double close · Assignment fee guide · Wholesale deal analyzer · All guides · All free tools
 Last updated October 2026. Not legal or tax advice.
 Want every deal's real profit in one report?
-I build Salesforce for real estate investors and wholesalers: exit type on every deal, both sets of closing costs, and a report of what each lead source actually earns. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers: exit type on every deal, both sets of closing costs, and a report of what each lead source actually earns. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2748,8 +2568,8 @@ Related
 Real estate CRM guide · Salesforce features · Integrations · Lead sources into Salesforce · CRM field kit · Probate leads in Salesforce
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want field leads that become measurable deals?
-I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2783,8 +2603,8 @@ Last updated October 2026. For planning only, not financial, tax or legal advice
 Add this calculator to your site
 Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
-I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2858,7 +2678,7 @@ Tool features were read from the vendors' own pages on October 30, 2026 and chan
 PropStream: How to find cash buyers for wholesaling . Five ways: in-person networking, online groups, public records, classified ads and its Cash Buyers lead list; nurturing buyers
 Propwire: Ways to find cash buyers for wholesale deals . Cash Buyers lead type, REIA networking, MLS, property managers, auctions, classifieds
 Want a buyer list that sends the right deal to the right buyer?
-The fixed-price CRM Revenue Audit checks whether your CRM records buyers, buy boxes and deal history, and shows where deals stall at dispo. It's for teams already on Salesforce.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -2941,7 +2761,7 @@ Free plans change often. Limits were read from each vendor's page in October 202
 HubSpot: Free CRM and tools pricing page . Free plan limits: users, contacts, automation, reporting (checked October 2026)
 Zoho CRM: Free edition page . Free for up to 3 users; reporting and mass email on paid plans (checked October 2026)
 Not sure what you need yet?
-A free 30-minute call is enough to tell you whether to stay on what you have, move to an investor CRM, or build on Salesforce. I'll say so if the answer is "stay put". If you're already on Salesforce, the fixed-price CRM Revenue Audit shows what it's costing you today.
+A free 30-minute call is enough to tell you whether to stay on what you have, move to an investor CRM, or build on Salesforce. I'll say so if the answer is "stay put". Already on GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3038,7 +2858,7 @@ Google Ads Help: About primary and secondary conversion actions . Primary action
 Google Ads Help: Import phone call conversions . Caller number and call start time, Google forwarding numbers, and imported call conversions that can't be removed
 WhatConverts: Dynamic number insertion . How number pools tie website calls back to ad clicks
 Want to know what your PPC really costs per contract?
-The fixed-price CRM Revenue Audit traces each lead source, PPC included, from first call to closed deal, shows where the source gets lost on the way, and comes with a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM? Book a free call and we'll talk about a move.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3052,7 +2872,7 @@ Bring it to a call. I will tell you what looks reasonable, what is missing and w
 What kind of help do you actually need?
 Most bad consulting projects start with the wrong kind of help. Work out which of these you're buying before you talk to anyone:
 Your situation | What you're buying | Usual shape
-You're on Salesforce, it mostly works, but leads slip and the numbers feel wrong | A review and targeted fixes | A fixed-price audit, then a short list of fixes
+You're on Salesforce, it mostly works, but leads slip and the numbers feel wrong | A review and targeted fixes | A short review, then a short list of fixes
 You're on Podio, REsimpli, GoHighLevel or spreadsheets and outgrowing it | A move to Salesforce | A scoped project with phases and a switch-over plan
 Someone built your org, left, and nobody knows how it works | A handover and clean-up | Documentation first, then fixes, often followed by a retainer
 You have a steady stream of changes and no admin | Ongoing admin and development | A monthly retainer
@@ -3078,7 +2898,7 @@ Org health check or audit | $5,000 to $20,000
 Managed support (retainer) | $2,500 to $15,000+ a month
 Two things the rate card hides. First, hours spent learning your business are hours you pay for, so a cheaper consultant who has never seen a wholesaling pipeline can cost more in the end. Second, the cheapest quote is often the one with the vaguest scope, and vague scope is where projects drag.
 Salesforce licenses are a separate cost, paid to Salesforce. I don't quote list prices here because they change and they're negotiable. Teams can often get a discount through their Salesforce account executive, depending on the business and the number of users, so ask before you sign.
-For what it's worth, here's how I price it. The CRM Revenue Audit is a fixed price for teams already on Salesforce, and the full fee comes off a build, or your first three months of support, if you go ahead within 30 days. Builds and moves are quoted as projects once the scope is written down. Ongoing support is a monthly retainer with no long-term contract.
+For what it's worth, here's how I price it. Builds and moves are quoted as projects once the scope is written down. Ongoing support is a monthly retainer with no long-term contract.
 Eleven questions to ask any Salesforce consultant
 Have you worked inside a home-buying or wholesaling company's Salesforce? What did you build? Listen for specifics: missed-call handling, lead source by marketing number, offers and contract dates, buyer lists. "We've done lots of real estate" usually means brokerages, which is a different business.
 Who will actually do the work? Get names. If it's a firm, ask to meet the person building it.
@@ -3105,7 +2925,7 @@ A good first project ends with something you can use even if you never hire them
 A written list of what's broken or leaking, with what each one is likely costing you.
 A plan in order of impact, so you know what to fix first.
 A couple of quick fixes done, so you can judge the quality of their work.
-That's how I built my own audit, but the advice holds whoever you hire.
+The advice holds whoever you hire.
 What you should always own
 Whoever you hire, keep these in your company's hands from day one:
 The Salesforce contract, in your company's name
@@ -3116,7 +2936,7 @@ Everything built in your org in a form your next admin can open and edit
 Passwords for your dialer, texting and other tools, held by you
 If a consultant leaves and you can't run your org without them, you didn't hire a consultant, you hired a dependency. My admin handover plan shows what it takes to untangle that after the fact.
 How to judge me
-Hold me to the same list. I'm in Cairo and I work US business hours. I've spent two years running the Salesforce for a two-market home-buying company in Ohio: missed-call alerts on every marketing number, shared lead queues, follow-up that stops when a seller replies, campaign ROI checked against the books and a board for every file under contract. I do the work myself. The first paid step is a fixed-price audit for teams already on Salesforce, with a full refund if it doesn't find at least five fixable issues worth more than the fee. If you're on another CRM, the first step is a scoping call for a move to Salesforce instead.
+Hold me to the same list. I'm in Cairo and I work US business hours. I've spent two years running the Salesforce for a two-market home-buying company in Ohio: missed-call alerts on every marketing number, shared lead queues, follow-up that stops when a seller replies, campaign ROI checked against the books and a board for every file under contract. I do the work myself. If you're on another CRM, the first step is a scoping call for a move to Salesforce instead.
 And if a free call shows you don't need me yet, I'll say so.
 Questions
 How much does a Salesforce consultant cost in 2026?
@@ -3138,7 +2958,7 @@ Sources
 Checked in October 2026. Rates are market ranges from one consultancy's published guide, not quotes.
 Codleo: Salesforce consulting cost (October 22, 2026) . Hourly ranges by provider type, implementation, audit and managed support ranges
 Want a second opinion before you hire anyone?
-Book a free 30-minute call. Tell me how a deal moves through your team today and what you've been quoted, and I'll tell you what I'd do, even if it's not hiring me. On Salesforce already? The fixed-price CRM Revenue Audit is the low-risk first step.
+Book a free 30-minute call. Tell me how a deal moves through your team today and what you've been quoted, and I'll tell you what I'd do, even if it's not hiring me. On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3231,7 +3051,7 @@ Pick three. The three no's that cost you the most, usually in Answer, Follow-up 
 Write down what each one costs. Missed calls a week times your close rate times your average fee is a start. The missed call cost calculator does that math.
 Fix them in order , and check the list again in a month.
 Want a quicker version first? The Deal Leak Score takes two minutes, and the 12-feature check is a short one for Salesforce orgs.
-This list covers the same ground as my paid audit. The difference is that the audit is done in your org, by me, and ends with what each leak is likely costing, a 30/60/90-day fix plan and up to three fixes done. You can see what that looks like in the sample report , which uses a made-up company.
+Some of these checks you can stop running by hand. On GoHighLevel or Salesforce, Climbmark reads your CRM every week and shows which lead sources bring back fees and which signed deals are slipping.
 Questions
 What should an investor CRM audit cover?
 Whether every deal traces back to the marketing that paid for it, whether every seller gets answered and followed up, whether offers come from the same numbers, whether contracts become closings, whether reports can be trusted, and whether the system itself is healthy: admins, automations, duplicates and access.
@@ -3241,13 +3061,11 @@ How often should a real estate team audit its CRM?
 A full pass once or twice a year, and after any big change: a new market, new reps, a new dialer or a move to a new CRM. The weekly checks of failed automations and leads with no next step should run all the time.
 Does this checklist work for Podio, REsimpli or GoHighLevel?
 Yes. The checks are about outcomes, like whether every missed call gets a callback task, not about any one product's features. Some answers will just be harder to find in some tools.
-What's the difference between this checklist and the CRM Revenue Audit?
-The checklist is free and you run it yourself, on any CRM. The CRM Revenue Audit is done by me in your Salesforce org, for a fixed price, and ends with what each leak is likely costing, a 30/60/90-day plan and up to three fixes done. It's only for teams already on Salesforce.
 Which CRM problems should a wholesaling team check first?
 The ones closest to the money: missed calls with no callback task, open leads with no next step, and deals with no source. Each one costs paid leads or makes your marketing numbers wrong.
 Related guides
-Rather have someone run it for you?
-On Salesforce? The fixed-price CRM Revenue Audit covers all of this in your org, puts a likely cost on each leak and ends with a fix plan and up to three fixes done, with a full refund if it doesn't find at least five fixable issues worth more than the fee. On another CRM, the next step is a free call about a move to Salesforce.
+Rather not run it by hand?
+On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks. Climbmark does the digging every Monday: which lead sources bring back fees and which signed deals are slipping.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3316,14 +3134,12 @@ Is speed to lead really that important?
 The best-known study (InsideSales.com with MIT's Dr. James Oldroyd, 2007, about 15,000 web leads across six companies, not real estate) found that calling within 5 minutes instead of 30 gave roughly 100x higher odds of making contact and 21x higher odds of qualifying the lead. A Harvard Business Review study (2011) found firms that responded within an hour were about 7x more likely to qualify the lead. No comparable study exists yet for real estate investors.
 Do I need Salesforce to close these leaks?
 No. Any CRM can close most of them if lead source carries through to closing, every lead has a next task, underwriting lives on the deal, and ROI is calculated on kept deals. Salesforce makes sense when you run several markets, teams or channels and have outgrown simpler investor CRMs.
-What does the CRM Revenue Audit do with this map?
-The audit (fixed price) goes through your CRM and phone data leak point by leak point, sizes each leak from your own numbers, and gives you a prioritized fix list. You can implement it yourself or with me.
 Related
-Investor CRM audit checklist (60 checks) · Which campaign gets credit? · Google Ads offline conversions · Offer follow-up in Salesforce · Reactivating dead seller leads · All free tools · Wholesaling CRM glossary · CRM Revenue Audit
+Investor CRM audit checklist (60 checks) · Which campaign gets credit? · Google Ads offline conversions · Offer follow-up in Salesforce · Reactivating dead seller leads · All free tools · Wholesaling CRM glossary · Climbmark
 Last updated October 2026.
 Want the leaks sized from your own data?
-On Salesforce already? The fixed-price CRM Revenue Audit goes leak point by leak point through your org and call data and gives you a prioritized fix list. On another CRM, the move to Salesforce comes first. Or start with a free 30-minute call.
-On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works . Already on Salesforce? See a sample audit report .
+On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks. Or start with a free 30-minute call.
+On Podio, REsimpli or spreadsheets? See how a move to Salesforce works . On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3399,7 +3215,7 @@ Lead source and campaign are set, and will map across.
 Consent and opt-out flags are correct and will carry to the contact.
 Key facts from notes are copied into fields.
 An owner is assigned for the opportunity, and a next step is dated.
-Put these in a screen flow or a validation rule instead of a document, so reps can't skip them under pressure. And if you'd like someone to review your setup against these questions, that's what the CRM Revenue Audit does.
+Put these in a screen flow or a validation rule instead of a document, so reps can't skip them under pressure.
 Questions
 How do I track leads in Salesforce as a real estate investor?
 Record every inquiry as a Lead with a source and campaign, assign an owner, log calls and tasks against it, and report on leads by source and status. Convert to a contact and opportunity when there is a real deal, so the pipeline report counts deals instead of inquiries.
@@ -3423,7 +3239,7 @@ Checked in October 2026. Salesforce and vendor features change with each release
 Salesforce Help: Considerations for Converting Leads . What carries over on conversion; person accounts and the Company field; notes
 Salesforce Help: Things to know about duplicate rules . Duplicate rules and lead conversion
 Not sure your model will hold up?
-The fixed-price CRM Revenue Audit checks how your leads, contacts, deals and properties fit together and where your numbers break. It's for teams already on Salesforce. On another CRM and planning a move? The data model is the first thing we design.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM and planning a move? The data model is the first thing we design.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3503,7 +3319,7 @@ Checked in October 2026. Salesforce and vendor features change with each release
 Speed to lead and follow-up statistics for real estate (this site) . Invoca 2021 voicemail figure and HBR 2011 response-time figures, each with its source
 Salesforce Ben: Slack actions in Salesforce Flow . Sending Slack messages from Flow, and the Slack app and permission set it needs
 Want to know how many calls you're missing?
-Missed-call handling is one of the first things the fixed-price CRM Revenue Audit checks, with the likely cost and a fix plan, plus up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM? Book a free call and we'll talk about a move.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3525,8 +3341,8 @@ When a call to a marketing number is missed, the CRM creates a task on the lead 
 Related free tools
 Missed-call alerts in Salesforce · Speed to lead & follow-up statistics · Cost per deal by lead source · Wholesale deal analyzer · The Monday 5
 Want every missed call to become a task in minutes?
-I build missed-call alerts, shared lead queues and RingCentral call sync in Salesforce for home-buying companies. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build missed-call alerts, shared lead queues and RingCentral call sync in Salesforce for home-buying companies. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3572,8 +3388,8 @@ Cost per deal by lead source · Missed seller call cost · Glossary
 Build it in Salesforce
 KPIs for every role on the team · Pipeline dashboard guide · Which campaign gets credit? · 20 report recipes for wholesalers · 15 automation recipes
 Want all five on one Salesforce dashboard?
-A “Monday 5” dashboard spec is part of every CRM Revenue Audit (fixed price), along with a findings report, a 30/60/90-day roadmap and three quick fixes done. Or start with a free 30-minute call.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Climbmark reads your GoHighLevel or Salesforce and puts your money by lead source in front of you every Monday. Connect it free, or start with a free 30-minute call.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3658,7 +3474,7 @@ Salesforce Help: Considerations for setting up Einstein Lead Scoring . The 1,000
 Speed to lead and follow-up statistics for real estate (this site) . Harvard Business Review 2011 response-time findings, with the source
 HUD: Housing discrimination under the Fair Housing Act . The seven characteristics the Fair Housing Act protects
 Want your leads ranked by what actually closes for you?
-The fixed-price CRM Revenue Audit ties your leads to the campaigns that paid for them and finds the ones going cold, such as offers with no activity and appointments with no next step, with a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM? Book a free call and we'll talk about a move.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3729,7 +3545,7 @@ Where should I record whether a seller agreed to texts?
 In a consent checkbox with a date and the source of the consent, separate from notes. Make every tool that texts read it, and copy opt-outs to every duplicate record.
 Related guides
 Want these answers to fill fields, not notes?
-The fixed-price CRM Revenue Audit checks which of these facts your CRM captures today and which are lost in notes, and returns a fix plan. It's for teams already on Salesforce.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3745,7 +3561,7 @@ Leads, sellers, deals, buyers and history moved and checked
 Routing, missed-call alerts and follow-up tasks on day one
 A Monday owner dashboard by channel
 Training for every role before the old tool goes
-Already on Salesforce? The CRM Revenue Audit is the place to start.
+Already on Salesforce or GoHighLevel? Connect it to Climbmark free and look back 13 weeks.
 You work with me directly
 Based in Cairo, working US hours: 9am to 6pm Eastern, Monday to Friday . I reply within one business day.
 NDA before I log in. I’m happy to sign yours first.
@@ -3762,7 +3578,7 @@ Are hiring reps or opening a market and need routing that doesn’t depend on on
 Pay for Zaps just to hold it all together
 Probably not yet if you…
 Run a one-person shop with a few deals a month. Stay where you are
-Already use Salesforce. Start with the audit instead
+Already use Salesforce. Connect it to Climbmark free instead
 Want a price before anyone has seen how your team works
 Everything you get, counted
 A working system your team uses on day one, not a blank Salesforce org.
@@ -3935,7 +3751,7 @@ When should a new market get its own dashboard?
 From day one, but as a filter on your existing dashboards rather than a separate set. Everyone looks at the same numbers, split by market, so the new market can't hide inside the old one.
 Related guides
 Opening a market soon?
-Book a free call and I'll go through this checklist against your setup. If you're already on Salesforce, the fixed-price CRM Revenue Audit covers campaign ROI, routing and reporting in writing, with a fix plan. On another CRM? A move to Salesforce can be planned around the launch.
+Book a free call and I'll go through this checklist against your setup. Already on GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks. On another CRM? A move to Salesforce can be planned around the launch.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -4026,7 +3842,7 @@ Salesforce Ben: Field history tracking . 20 tracked fields per object, 18 months
 Salesforce Developers: Schedule your path in Salesforce Flow . Scheduled paths relative to a date field, and how they move when the date changes
 Salesforce Ben: Why Last Activity Date can mislead . Last Activity follows the primary contact on a task or event
 Want the list of offers going cold right now?
-The fixed-price CRM Revenue Audit finds offers with no activity, appointments with no next step and leads owned by someone who left, with what they're likely costing you, a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM? Book a free call and we'll talk about a move.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -4074,7 +3890,7 @@ Podio's new automation limit · Salesforce vs Podio · Do I need a CRM yet? · W
 Last updated October 2026. Podio is a trademark of its owner; this page is independent.
 Moving off Podio?
 I build Salesforce for real estate investors and wholesalers, including the move from Podio: field mapping, history you keep, deduplication and a Monday report on day one, at a fixed price agreed before anything starts. Start with a free 30-minute call.
-Already on Salesforce? The CRM Revenue Audit (fixed price) is the place to start. Here’s a sample report .
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -4180,7 +3996,7 @@ Updated October 27, 2026
 Who runs this site
 I'm Amr Magdy, an independent Salesforce CRM Consultant working from Cairo, Egypt, as Amr Magdy CRM Consulting. I decide what happens to the details collected here. Questions about them go to info@AmrMagdy.com .
 What I collect and why
-Forms. When you ask for an audit or a move to Salesforce, send a question or join the newsletter, I get what you type: your name and email, and where the form asks for them, your company, phone, CRM and message. Web3Forms delivers it to my inbox. I use it to reply, to send what you asked for and, if you joined the newsletter, to send the newsletter.
+Forms. When you ask about a move to Salesforce, send a question or join the newsletter, I get what you type: your name and email, and where the form asks for them, your company, phone, CRM and message. Web3Forms delivers it to my inbox. I use it to reply, to send what you asked for and, if you joined the newsletter, to send the newsletter.
 Calls. When you book a call, Calendly takes your booking details on its own site and shares them with me so we can meet.
 Email, WhatsApp and LinkedIn. If you message me there, I get what you send. Those services have their own privacy rules.
 Visit counts. Google Analytics shows me which pages get read, which buttons and forms get used, your rough location (city or country), your device and browser, and the site that sent you. It doesn't tell me who you are. Form sends and booking clicks are counted there as leads, without names or emails.
@@ -4297,7 +4113,7 @@ LegalZoom: How to buy and sell probate property . Who can sell, court approval a
 Trust & Will: Are probate records public? . What probate records contain and how the public can see them
 Salesforce Developers: Schedule your path in Salesforce Flow . Tasks scheduled from a date field that move when the date changes
 Working probate leads in Salesforce?
-I build Salesforce for investor teams. For probate, that means case records, contact roles, a pipeline that matches the court's timeline and follow-up driven by the case dates. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit if you're already on Salesforce.
+I build Salesforce for investor teams. For probate, that means case records, contact roles, a pipeline that matches the court's timeline and follow-up driven by the case dates. Start with a free 30-minute call, or connect your CRM to Climbmark free.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -4383,7 +4199,7 @@ The refinance doesn't make the debt go away, it replaces it, and the rent pays i
 Do this in your CRM: Keep purchase, rehab, appraisal, new loan and rent as fields on each property, with cash left in the deal and monthly cash flow as formulas, so every refinance is checked the same way.
 BRRRR calculator → DSCR calculator →
 Last updated October 17, 2026. More free tools: all free tools · wholesaling CRM checklist · wholesaling CRM glossary · Deal Leak videos .
-On Salesforce and want it checked in your own org? Here's what the audit covers , or see a sample report . On another CRM? See how a move to Salesforce works .
+On GoHighLevel or Salesforce and want your own numbers dug out? Connect it to Climbmark free . On another CRM? See how a move to Salesforce works .
 
 ---
 ## Real Estate CRM for Investors: The Complete Guide (2026)
@@ -4486,7 +4302,7 @@ Connect | Integrations hub · Zapier · RingCentral
 Respond | Speed to lead · Statistics · Follow-up cadence · Lead routing
 Deal math | MAO and deal analyzer · Assignment fee · Assignment vs double close · Double closing costs · Cash buyers list
 Rentals | BRRRR · DSCR · Rental yield
-Measure | 20 report recipes · Monday 5 · Deal Leak Score · Sample audit report
+Measure | 20 report recipes · Monday 5 · Deal Leak Score · Climbmark
 Outside the US | Canada · UK
 Questions
 What is the best CRM for real estate investors?
@@ -4514,7 +4330,7 @@ Best CRM for wholesalers (2026) · Salesforce vs REsimpli · Salesforce vs GoHig
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want this built for your team?
 I build Salesforce for real estate investors and wholesalers: the data model, stages, automation, integrations and Monday numbers in this guide, set up around your process. Moving from Podio, REsimpli, GoHighLevel or a spreadsheet? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
-Already on Salesforce? The CRM Revenue Audit (fixed price) is the place to start. Here’s a sample report .
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -4592,7 +4408,7 @@ Should marketing ROI count contracts or closed deals?
 Closed deals. Contracts that fall apart cost you marketing money and produce nothing. ROI that counts only kept deals shows which channels produce deals that actually close.
 Related guides
 Want to know which marketing actually pays?
-Campaign ROI is the first thing the fixed-price CRM Revenue Audit checks: whether every deal carries its source, whether spend matches the books and what your kept-deal ROI really is. It's for teams already on Salesforce. On another CRM? A move to Salesforce can build this in from day one.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM? A move to Salesforce can build this in from day one.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -4718,8 +4534,8 @@ Amr Magdy, “Speed to Lead & Follow-Up Statistics for Real Estate Investors (20
 Related
 Real estate CRM guide · Speed to lead guide · Missed call cost calculator · Follow-up cadence builder · Cold caller handoff checklist · Reactivating dead seller leads · All guides · All free tools
 Want your own speed-to-lead number?
-I build Salesforce for real estate investors and wholesalers with lead response time, follow-up attempts and missed calls measured automatically. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers with lead response time, follow-up attempts and missed calls measured automatically. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -4753,8 +4569,8 @@ Last updated October 2026. For planning only, not financial, tax or legal advice
 Add this calculator to your site
 Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
-I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -4822,8 +4638,8 @@ Six short videos, one leak each, from the missed seller call to fall-outs in you
 Prefer to read?
 The 87 guides cover choosing a CRM, follow-up, automation, reports, moving off Podio, REsimpli or GoHighLevel, and hiring help. Browse all guides · Stop leads falling through the cracks · CRM for a we-buy-houses company · Find and verify cash buyers · Which Salesforce edition for investors · Salesforce integrations for real estate · Cost per lead and campaign ROI in Salesforce · Lead routing and speed to lead
 Rather have it built into your CRM?
-Every tool here is something I build as live reporting in Salesforce for investors and wholesalers. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Every tool here is something I build as live reporting in Salesforce for investors and wholesalers. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -4979,7 +4795,7 @@ Salesforce Developers: Setup Audit Trail (admin security workshop) . Setup histo
 Gearset: Salesforce audit trail . 180 days of setup history
 Milestone: Spring '25 release notes . The Automation app and its Monitor tab for failed and paused flow runs
 Lost your Salesforce person?
-I can take over the handover and keep things running while you decide what's next. Ongoing Support & Development is a monthly retainer with no long-term contract. If you'd rather start by finding out what's broken, the fixed-price CRM Revenue Audit is for teams already on Salesforce.
+I can take over the handover and keep things running while you decide what's next. Ongoing Support & Development is a monthly retainer with no long-term contract. If you'd rather start by seeing what your numbers say, connect your Salesforce to Climbmark free and look back 13 weeks.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5131,7 +4947,7 @@ Sources
 Salary figures checked in October 2026. The interview questions come from my own screening kit, written from running the Salesforce for a home-buying company in Ohio.
 Salesforce Ben: The State of Salesforce Salaries in 2026 (Henry Martin, August 12, 2026) . US data from Mason Frank, Stott and May and the Salesforce Ben survey
 Need an admin but not a full-time one?
-Ongoing Support & Development is a monthly retainer: new automations, fast fixes, monthly monitoring and reports, and training for new hires, with no long-term contract. On Salesforce and not sure what you have? Start with the fixed-price CRM Revenue Audit.
+Ongoing Support & Development is a monthly retainer: new automations, fast fixes, monthly monitoring and reports, and training for new hires, with no long-term contract. On Salesforce and not sure what your numbers say? Connect it to Climbmark free and look back 13 weeks.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5191,8 +5007,8 @@ Related
 Real estate CRM guide · Salesforce features · Integrations · Motivated seller lead scoring · Deal Leak Score
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want AI on a CRM you can trust?
-I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5283,7 +5099,7 @@ Milestone: Spring '25 release notes . The Automation app and its Monitor tab
 Zapier: error handling . Zap history, notifications, and the automatic turn-off at a 95% error ratio over seven days
 Gearset: Salesforce audit trail . 180 days of setup history
 Want someone watching your automations?
-Ongoing Support & Development includes monthly monitoring and a written report, plus fixes when something breaks, with no long-term contract. Not sure what's running in your org today? The fixed-price CRM Revenue Audit checks what's running, what fails quietly and what overlaps, for teams already on Salesforce.
+Ongoing Support & Development includes monthly monitoring and a written report, plus fixes when something breaks, with no long-term contract.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5350,8 +5166,8 @@ Related
 Real estate CRM guide · Salesforce features · Integrations · Follow-up cadence builder · Offer follow-up in Salesforce · Appointment reminders and no-shows
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want these automations built and tested?
-I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5397,8 +5213,8 @@ Assignment and wholesaling rules. They differ by province, and some have changed
 BRRRR investors: count the properties you keep
 If you run BRRRR and keep properties as rentals, an ROI report that only counts assignment fees makes the campaigns that found your rentals look worse than they are. The ROI in my Monday 5 adds the equity in the houses you keep for exactly this reason. Flag kept deals, give each one an equity value (after-repair value minus all-in cost), and include them in campaign ROI. The BRRRR calculator and the rental yield and cap rate calculator both work in CAD.
 How working together works
-Already on Salesforce? Start with the fixed-price CRM Revenue Audit , on the same terms as for US teams, including the refund if it doesn't find at least five fixable issues worth more than the fee.
-On Podio, REsimpli, GoHighLevel or spreadsheets? The audit isn't for you. The next step is a free call about a move to Salesforce , and the free CRM field kit works in any CRM in the meantime.
+Already on Salesforce? Connect it to Climbmark free and look back 13 weeks.
+On Podio, REsimpli or spreadsheets? The next step is a free call about a move to Salesforce , and the free CRM field kit works in any CRM in the meantime.
 Need someone to run it? Ongoing Support & Development is a monthly retainer with no long-term contract.
 I run the Salesforce for a two-market home-buying company in Ohio, with campaign ROI by market, a callback task for every missed seller call, and one board for every deal under contract. More about me and how I work .
 Questions
@@ -5413,9 +5229,9 @@ Texts and emails meant to get someone to do business with you are commercial ele
 Can Salesforce handle both CAD and USD?
 Yes. Set CAD as the corporate currency, and turn on multiple currencies if you buy on both sides of the border, so each deal carries its own currency. Multiple currencies can't be turned off once enabled, so plan it before you build.
 I don't use Salesforce yet. Can you still help?
-Yes, with a move. The CRM Revenue Audit is only for teams already on Salesforce. If you're on Podio, REsimpli, GoHighLevel or spreadsheets, book a free call about a move to Salesforce, and use the free CRM field kit in the meantime.
+Yes, with a move. If you're on Podio, REsimpli, GoHighLevel or spreadsheets, book a free call about a move to Salesforce, and use the free CRM field kit in the meantime.
 How do we start?
-Book a free call and tell me what you track today and where deals slip. If you're already on Salesforce, the fixed-price CRM Revenue Audit is a good first look.
+Book a free call and tell me what you track today and where deals slip. If you're already on Salesforce or GoHighLevel, connect it to Climbmark free and look back 13 weeks.
 Related guides
 Sources
 Checked in October 2026. This page explains how to set up a CRM, not the law. Rules change, so confirm how they apply to your business with a Canadian lawyer.
@@ -5423,7 +5239,7 @@ CRTC: Key Unsolicited Telecommunications Rules . DNCL registration and subscript
 CRTC: Frequently asked questions about Canada's Anti-Spam Legislation . Commercial electronic messages, consent, unsubscribe timing, penalties, proof of consent
 Trailhead: Discover multiple currency settings . Corporate currency, and multiple currencies can't be disabled once enabled
 Tell me where your deals slip
-Book a free call and tell me how your Canadian business runs today. Already on Salesforce? The fixed-price CRM Revenue Audit finds what's leaking, with a fix plan and up to three quick fixes done. On another CRM? We'll talk about a move.
+Book a free call and tell me how your Canadian business runs today. Already on Salesforce or GoHighLevel? Connect it to Climbmark free and look back 13 weeks. On another CRM? We'll talk about a move.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5481,8 +5297,8 @@ Areas. Store the postcode district on every lead, deal and investor. It's the si
 Sources. Give each letter campaign, leaflet drop, portal and PPC campaign its own tracking number or landing page, so every lead arrives with its source.
 Tax and legal figures. I don't give tax or legal advice. If you want stamp duty or other figures in your reports, store the numbers your accountant gives you on the deal.
 How working together works
-Already on Salesforce? Start with the fixed-price CRM Revenue Audit , on the same terms as for US teams, including the refund if it doesn't find at least five fixable issues worth more than the fee.
-On another CRM, or spreadsheets? The audit isn't for you. The next step is a free call about a move to Salesforce , and the free CRM field kit works in any CRM in the meantime.
+Already on Salesforce? Connect it to Climbmark free and look back 13 weeks.
+On another CRM, or spreadsheets? The next step is a free call about a move to Salesforce , and the free CRM field kit works in any CRM in the meantime.
 Need someone to run it? Ongoing Support & Development is a monthly retainer with no long-term contract.
 I run the Salesforce for a two-market home-buying company in Ohio, with campaign ROI by market, a callback task for every missed seller call, and one board for every deal under contract. More about me and how I work .
 Questions
@@ -5499,7 +5315,7 @@ Yes. Store each investor's strategy, areas, budget and finance type, log every d
 Do you handle stamp duty, tax or legal advice?
 No. I build the CRM and the reporting. Tax, legal and mortgage questions go to your accountant, solicitor or broker.
 I don't use Salesforce yet. Can you still help?
-Yes, with a move. The CRM Revenue Audit is only for teams already on Salesforce. If you're on another CRM or spreadsheets, book a free call about a move to Salesforce, and use the free CRM field kit in the meantime.
+Yes, with a move. If you're on another CRM or spreadsheets, book a free call about a move to Salesforce, and use the free CRM field kit in the meantime.
 Related guides
 Sources
 Checked in October 2026. This page explains how to set up a CRM, not the law. Rules change, so confirm how they apply to your business with a solicitor or adviser.
@@ -5508,7 +5324,7 @@ ICO: Electronic mail marketing (guide to PECR) . Consent for marketing texts and
 The Negotiator: Almost all property-sourcing agents 'breach AML rules' (December 2025) . Industry research on anti-money laundering compliance among sourcing agents
 Trailhead: Discover multiple currency settings . Corporate currency, and multiple currencies can't be disabled once enabled
 Tell me where your deals slip
-Book a free call and tell me how your UK business runs today. Already on Salesforce? The fixed-price CRM Revenue Audit finds what's leaking, with a fix plan and up to three quick fixes done. On another CRM? We'll talk about a move.
+Book a free call and tell me how your UK business runs today. Already on Salesforce? Connect it to Climbmark free and look back 13 weeks. On another CRM? We'll talk about a move.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5600,7 +5416,7 @@ Salesforce Ben: custom report types . Required vs optional related records
 Salesforce Ben: cross filters in Salesforce reporting . With and without filters, up to three per report
 Speed to lead and follow-up statistics for real estate (this site) . Validity 2025 CRM data accuracy figure, with its source
 Want numbers you can make decisions on?
-The fixed-price CRM Revenue Audit checks your campaign ROI, reports and data against how your business actually runs, and ends with a written fix plan and a Monday 5 dashboard spec. It's for teams already on Salesforce. Not sure if it fits? Start with a free call.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. Not sure if it fits? Start with a free call.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5658,8 +5474,8 @@ Related
 All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · RingCentral call sync with Apex · Texting sellers from Salesforce
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want every call on the lead?
-I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5730,8 +5546,8 @@ Related
 Real estate CRM guide · Salesforce features · Integrations · Cash buyers list template · Assignment fee guide
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want dispo that sends the right deal to the right buyer?
-I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5783,8 +5599,8 @@ Related
 All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Assignment fee guide · QuickBooks + Salesforce
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want contracts on every deal, automatically?
-I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5885,7 +5701,7 @@ DataLane: Salesforce duplicate rules . Standard lead matching rule fields and fu
 Salesforce Help: Merge duplicate leads . Up to three leads at a time, Delete permission required
 Salesforce Help: DUPLICATES_DETECTED on import (knowledge article 000391118) . Why an import fails when a duplicate rule matches
 Not sure how many duplicates you have?
-Data health is part of the fixed-price CRM Revenue Audit: duplicate counts, where they come from, and what they're doing to your numbers, with a fix plan and up to three quick fixes. It's for teams already on Salesforce. On another CRM and planning a move? Duplicates are the first thing we clean on the way in.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM and planning a move? Duplicates are the first thing we clean on the way in.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5926,8 +5742,8 @@ Related
 Real estate CRM guide · Salesforce features · Integrations · Which edition: full guide · Salesforce vs investor CRMs
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want a second opinion before you sign?
-Send me your team, lead sources and tools and I’ll tell you which edition fits and what to ask for. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Send me your team, lead sources and tools and I’ll tell you which edition fits and what to ask for. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -5999,8 +5815,8 @@ Related
 Salesforce features for investors · Integrations · Salesforce vs investor CRMs · Is Salesforce worth it? · Real estate CRM guide
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Not sure which edition you need?
-Tell me your team, lead sources and tools, and I’ll tell you which edition fits and what to ask your Salesforce account executive. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+Tell me your team, lead sources and tools, and I’ll tell you which edition fits and what to ask your Salesforce account executive. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -6355,8 +6171,8 @@ Related
 Salesforce integrations for investors · Which edition you need · Salesforce vs investor CRMs · Is Salesforce worth it for investors? · Real estate CRM guide · CRM glossary
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want these features set up around your process?
-I build Salesforce for real estate investors and wholesalers: Property, Offer and Buyer objects, follow-up automation, routing and the reports your Monday meeting needs. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers: Property, Offer and Buyer objects, follow-up automation, routing and the reports your Monday meeting needs. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -6480,7 +6296,7 @@ Pro Suite | 50 custom objects, but 5 flows in total ( limits ). API access is an
 Core | Salesforce's Enterprise-level edition. Help documents 2,000 active flows for Enterprise ( limits ), plus joined reports and approvals. Salesforce lists Premier Success and 500K Flex Credits a year with Core; confirm with your rep.
 Advanced / Max | More AI, security and data tools; Max includes Salesforce Maps and Agentforce for Sales. Rarely needed under 30 users.
 What goes into year one
-Ask your Salesforce account manager to quote the edition your plan needs for your number of users, with API access if you connect a phone or e-signature tool. On top of the licenses come the build (scoped per project; my CRM Revenue Audit is a fixed price and ends with a roadmap you can build with anyone), your phone and texting provider, and whoever owns the system after launch.
+Ask your Salesforce account manager to quote the edition your plan needs for your number of users, with API access if you connect a phone or e-signature tool. On top of the licenses come the build (scoped per project), your phone and texting provider, and whoever owns the system after launch.
 For comparison, and to be fair to the other side: REsimpli lists its Team plan at $699 a month billed annually for 5 users, with dialer, list stacking and direct mail included ( REsimpli's own comparison , Oct 2026). GoHighLevel's Unlimited plan is $297 a month with unlimited users, plus usage fees for calls and texts ( GoHighLevel pricing ). If those tools answer your Monday questions, they are cheaper. Salesforce earns its cost when they can't. The switching guide has the full side-by-side.
 Want to size the leak before the cost? The missed-call cost calculator and the cost per deal calculator take two minutes each.
 How do you set up Salesforce for a real estate investing company?
@@ -6667,8 +6483,8 @@ Related
 Salesforce features for investors · DocuSign · QuickBooks · Dialers · Texting · Lead sources · Google Ads offline conversions · Real estate CRM guide
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want your tools connected to one source of truth?
-I connect Salesforce to the phone, text, e-signature, accounting and lead-source tools real estate investors already use, with every call, contract and fee on the right record. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I connect Salesforce to the phone, text, e-signature, accounting and lead-source tools real estate investors already use, with every call, contract and fee on the right record. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -6725,8 +6541,8 @@ Related
 Which campaign gets credit? · Google Ads offline conversions · Duplicate sellers in Salesforce · All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Cost per deal calculator · Kept deal map · Driving for dollars
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want every lead tagged from click to close?
-I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -6781,9 +6597,9 @@ Usually not, and it doesn't need to. Use Salesforce for the pipeline, borrowers,
 Can borrowers submit deals and draw requests straight into Salesforce?
 Yes. A web form or an Experience Cloud page can create the loan request or draw record directly, so nothing gets retyped from email.
 Do you work with lenders?
-My main work is with home-buying and wholesaling companies, and lenders who serve them are a natural fit. If you're already on Salesforce, the CRM Revenue Audit works the same way; if not, start with a free call.
+My main work is with home-buying and wholesaling companies, and lenders who serve them are a natural fit. Start with a free call.
 Lending to investors and already on Salesforce?
-The fixed-price CRM Revenue Audit (for teams already on Salesforce) checks speed to term sheet, follow-up, data health and the reports you run the business on. On another system? We can scope a move to Salesforce on a free 30-minute call.
+Tell me how loans move through your team today on a free 30-minute call, and I'll tell you what I'd build first.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -6837,8 +6653,8 @@ Related
 All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Cost per deal calculator · Financial analytics in Salesforce
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want fees and spend in one report?
-I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -6871,8 +6687,6 @@ How much does a Salesforce admin cost?
 In 2026, US median base pay for Salesforce admins is about $110,000 to $120,000 depending on the survey, with juniors around $78,000, according to Salesforce Ben's August 2026 roundup. Contract admins charge about $75 to $135 an hour. Details in hiring a Salesforce admin .
 Can we get a discount on Salesforce licenses?
 Often, yes. Ask your Salesforce account executive, especially at renewal or when you add users. Discounts depend on the business and the number of users, so get a quote for your real team instead of comparing list prices.
-What does the CRM Revenue Audit cost?
-A fixed price, shown on the audit page, for teams already on Salesforce. If the report doesn't find at least five fixable issues worth more than the fee, you get a full refund. If you hire me for the build or for monthly support within 30 days of the walkthrough, the full fee comes off the project or your first three months of fees. See the CRM Revenue Audit .
 Moving to Salesforce
 How do we move from Podio to Salesforce?
 Map what you track in Podio to Salesforce objects and fields, decide which history to bring, rebuild the automations that matter, then move every web form and phone number on one cutover day and check daily that no leads landed in the old system. Podio's Excel export leaves out comments and files, so plan those separately. The switch guide has the field map.
@@ -6953,10 +6767,8 @@ Store the property's state on every deal and use it to pick the right contract t
 Working with me
 Who is Amr Magdy?
 I'm a Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies. For two years I've run the Salesforce for a two-market home-buying company in Ohio, and I build the same system for other investor teams. Before Salesforce I spent eight years as an Adobe Certified Instructor and trained more than 8,000 people. I work from Cairo during US business hours. More about me .
-Who is the CRM Revenue Audit for?
-Home-buying companies, wholesalers and investor teams of roughly 10 to 50 people who are already on Salesforce. It covers campaign ROI, speed to lead, acquisitions follow-up, data health, automations and reporting, and ends with a findings report, a 30/60/90-day plan, a Monday 5 dashboard spec and up to three quick fixes done. See the sample report .
 What if we're not on Salesforce yet?
-Then the audit isn't the right step. Teams on Podio, REsimpli, GoHighLevel or spreadsheets get a move to Salesforce instead: I map what you track today, move your data and build around how your team works. The scoping call is free. See move to Salesforce .
+On GoHighLevel, connect it to Climbmark free and look back 13 weeks. Teams outgrowing Podio, REsimpli or spreadsheets get a move to Salesforce: I map what you track today, move your data and build around how your team works. The scoping call is free. See move to Salesforce .
 Do you work with teams outside the US?
 Yes. My main focus is US investors, and I also work with teams in Canada and the UK and Europe. I work US hours, 9am to 6pm Eastern, Monday to Friday, which overlaps the UK afternoon.
 Related guides
@@ -7030,8 +6842,8 @@ Related
 Why Salesforce numbers don't match · Pipeline dashboard guide · Offer follow-up in Salesforce · Real estate CRM guide · Salesforce features · Integrations · 15 automation recipes · The Monday 5
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want these reports built on clean data?
-I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7087,8 +6899,8 @@ Related
 All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Dialers in Salesforce · Seller follow-up cadence · Reactivating dead seller leads · Appointment reminders and no-shows
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want texting that’s logged and compliant by design?
-I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7150,7 +6962,7 @@ Usually not. Stages, a few fields, record-triggered Flows and a Kanban list view
 We use a TC service outside the company. Does this still work?
 Yes. Give the outside TC a limited user, or have them update a few fields through a form, so the owner still sees every file on one board.
 Want your contract-to-close on one board?
-I build transaction coordination in Salesforce as part of a full implementation, and the fixed-price CRM Revenue Audit (for teams already on Salesforce) checks whether deals under contract are tracked, dated and followed up. Start with a free 30-minute call.
+I build transaction coordination in Salesforce as part of a full implementation. On GoHighLevel or Salesforce, Climbmark 's Deal rescue watch checks every deal under contract for what is slipping and who owns the next step. Start with a free 30-minute call.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7214,8 +7026,8 @@ Related
 Stop reps exporting your seller list · Adding acquisitions reps · When your Salesforce admin leaves · Real estate CRM guide · Salesforce features · Integrations · Cold caller handoff checklist · Team capacity calculator
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want your team’s access set up right?
-I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers, set up around how your team actually works. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7276,7 +7088,7 @@ Real estate CRM guide · Salesforce vs investor CRMs · Edition picker for Sales
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Running GoHighLevel and feeling the limits?
 Tell me what you can’t see or do today and I’ll tell you whether Salesforce fixes it or whether a better GoHighLevel setup will. Start with a free 30-minute call.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7344,7 +7156,7 @@ HubSpot: Sales Hub pricing (updated September 2026) . Per-seat prices, onboardin
 HubSpot Knowledge Base: Create custom objects . Custom objects require an Enterprise subscription
 Salesforce for real estate investors (this site) . Salesforce edition limits, each linked to Salesforce Help
 Deciding between them?
-Book a free call and tell me how your team works today. I'll tell you which one I'd pick for your situation, even if it's not Salesforce. Already on Salesforce and not getting what you hoped? The fixed-price CRM Revenue Audit shows what's missing.
+Book a free call and tell me how your team works today. I'll tell you which one I'd pick for your situation, even if it's not Salesforce. Already on Salesforce and not getting what you hoped? Connect it to Climbmark free and look back 13 weeks.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7395,7 +7207,7 @@ Salesforce vs HubSpot · Salesforce vs Podio · Best CRM for wholesalers (2026) 
 Last updated October 2026. Salesforce, Podio and REsimpli are trademarks of their owners; this page is independent. I build Salesforce for real estate investors, so I'm not neutral, and I've tried to keep every claim to what the vendors publish.
 Not sure which side you're on?
 I build Salesforce for real estate investors and wholesalers. Outgrowing Podio, REsimpli or another investor CRM? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
-Already on Salesforce? The CRM Revenue Audit (fixed price) is the place to start. Here’s a sample report .
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7546,49 +7358,8 @@ Real estate CRM guide · Salesforce vs investor CRMs · Edition picker for Sales
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Trying to decide?
 Send me your team size and tools and I’ll tell you which one I’d pick, even if it’s REsimpli. Start with a free 30-minute call.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
-
----
-## Sample CRM Revenue Audit report | Amr Magdy
-URL: https://amrmagdy.com/sample-audit-report
-
-Sample Salesforce audit report for a home-buying company
-This is a shortened sample for a made-up company, “Example Home Buyers”, so you can see the format before you buy. It isn’t a real client and there are no real numbers in it. A real report covers your org, uses your data and runs much longer.
-$1,500 fixed , for teams already on Salesforce.
-The company in this sample: a home-buying team in two markets with 6 Salesforce users, acquisitions reps, a lead manager, a dispo lead and a transaction coordinator. Leads come from mail, PPC, cold calling and texting.
-1. Summary for the owner
-The org is in decent shape for day-to-day work. The money leaks sit in three places: missed calls on marketing numbers that nobody gets alerted on, offers that go quiet because nobody owns the next step, and campaign ROI that counts contracts instead of deals that closed. Fixing those three comes first.
-2. Findings
-Every finding says where it is, why it matters, how much it matters and how big the fix is.
-# | Finding | Where | Why it matters | Impact | Fix size
-1 | The missed-call alert flow has been failing silently since a field was renamed | Flow “Missed Call Alert”, phone integration | Sellers who call after hours get no callback | High | Small
-2 | Offers sent with no follow-up task and no owner for the next step | Opportunity, stage “Offer Made” | Offers go cold while the seller shops other buyers | High | Small
-3 | Lead Source is a free-text field with many spellings of the same source | Lead and Opportunity | Campaign reports split one source into several rows | Medium | Medium
-4 | Campaign ROI counts signed contracts, including ones that fell out | Campaign reports and dashboard | Spend goes to sources that look good but don’t close | High | Medium
-5 | No duplicate rule on seller phone number | Duplicate and matching rules | Two reps call the same seller with two different offers | Medium | Small
-6 | Dead and lost deals have no required reason | Opportunity close | No way to see why deals are lost, by rep or by market | Low | Small
-7 | Three old automations still run on the same field and fight each other | Process Builder and Flow | Status changes back after a rep updates it | Medium | Medium
-8 | The owner dashboard runs on reports nobody has checked in months | Home dashboard | Monday decisions get made on wrong numbers | Medium | Medium
-3. The 30 / 60 / 90 roadmap
-First 30 days: fix the missed-call alert, add the follow-up task on every offer, and add the duplicate rule on phone. These stop the biggest leaks for the least work.
-Days 31 to 60: clean up Lead Source into one picklist and map the old values, add required lost reasons, and retire the old automations into one flow.
-Days 61 to 90: rebuild campaign ROI on closed deals only, then build the Monday 5 dashboard below.
-4. The Monday 5 dashboard spec (excerpt)
-Each number is defined field by field, so your team or anyone you hire can build it.
-Number | Report type | Filter | Grouped by
-Cost per appointment by campaign | Campaigns with Opportunities | Appointment date this month | Campaign
-Contracts per campaign | Opportunities with Campaign | Stage reached “Under Contract” | Campaign, market
-Time from contract to first seller call | Opportunities with Activities | Contract date last 30 days | Acquisitions rep
-The full spec also covers booked vs. kept profit and campaign ROI, including the houses you keep.
-5. Three quick fixes, done during the audit
-Repaired the missed-call alert so the lead manager gets a text and a task within minutes.
-Added an automatic follow-up task, owned by the rep, the moment a deal moves to “Offer Made”.
-Turned on a duplicate rule that warns a rep when a seller’s phone number is already in the system.
-The three fixes are agreed with you before I touch anything.
-6. The walkthrough
-A recorded call where I go through every finding with you and your team, answer questions and agree the order of the fixes.
-If the report doesn’t give you at least five specific, fixable issues worth more than the fee, you get the fee back.
 
 ---
 ## Seller Appointment No-Shows and Reminders in Salesforce
@@ -7659,7 +7430,7 @@ Checked in October 2026. Salesforce and vendor features change with each release
 Salesforce Developers: Schedule your path in Salesforce Flow . Reminders a day and an hour before an appointment, and how scheduled actions follow a changed appointment time
 Calendly Help: How to integrate Calendly with Salesforce . Leads and events by default, canceled and rescheduled events, and the Enterprise Edition requirement
 Want to know how many appointments never turn into offers?
-The fixed-price CRM Revenue Audit finds appointments with no next step, offers with no activity and leads owned by someone who left, with what they're likely costing you, a fix plan and up to three quick fixes done. It's for teams already on Salesforce. On another CRM? Book a free call and we'll talk about a move.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM? Book a free call and we'll talk about a move.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7712,8 +7483,8 @@ Related free tools
 15 automation recipes · Speed to lead & follow-up statistics · Speed to lead guide · Missed seller call cost · Acquisitions team capacity · CRM field kit · Offer follow-up in Salesforce · Reactivating dead seller leads · All free tools
 Last updated October 2026. A planning template, not legal advice. Nothing you enter leaves your browser.
 Want the next task created automatically?
-I build Salesforce for real estate investors and wholesalers: required next touch dates, cadences that restart when a lead's temperature changes, dead-lead reasons with revisit dates, and a Monday report of leads with no next step. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers: required next touch dates, cadences that restart when a lead's temperature changes, dead-lead reasons with revisit dates, and a Monday report of leads with no next step. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7801,7 +7572,7 @@ Sources
 Checked in October 2026. Templates are examples to adapt, and compliance notes are information, not legal advice.
 National Law Review: TCPA global revocation rule extended to January 2027 . Opt-outs processed within 10 business days since April 11, 2025
 Want these sent by the CRM, not by memory?
-The fixed-price CRM Revenue Audit reviews your follow-up triggers, consent fields and message logging, and returns a fix plan. It's for teams already on Salesforce.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7876,7 +7647,7 @@ When is a spreadsheet no longer enough for wholesaling?
 When a second person needs it, when lists reach thousands of rows, when you need automatic follow-up tasks or call and text logging, or when you can't tell which marketing produced contracts in a few minutes.
 Related guides
 Outgrowing the sheet?
-A free 30-minute call will tell you whether to move to an investor CRM or build on Salesforce, and I'll tell you if the answer is to stay on the sheet a while longer. If you're already on Salesforce, the fixed-price CRM Revenue Audit shows where deals leak.
+A free 30-minute call will tell you whether to move to an investor CRM or build on Salesforce, and I'll tell you if the answer is to stay on the sheet a while longer. Already on GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7954,7 +7725,7 @@ Salesforce Help: Data Import Wizard, how many records . Up to 50,000 records at 
 FTC: Complying with the Telemarketing Sales Rule . Update call lists against the National Do Not Call Registry at least every 31 days
 Salesforce Help: Things to know about duplicate rules . Records saved together aren't compared; imports can't show alerts
 Want lists to load cleanly every time?
-The fixed-price CRM Revenue Audit checks how lists, duplicates and campaigns behave in your org today and returns a fix plan. It's for teams already on Salesforce. On another CRM and moving? List loading is the first routine we set up.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM and moving? List loading is the first routine we set up.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8016,7 +7787,7 @@ What are the three to write first?
 First response to a new lead or missed call. It's where most money leaks ( speed to lead ).
 The cold-caller-to-acquisitions handoff. It's where most deals get lost between two people ( handoff checklist ).
 Offer sent to offer answered. It's where the pipeline sits longest ( offer follow-up ).
-Write those three in the five-line form, build each into the CRM, run them for a month and look at the measures. Then add the next three. If you want the setup done once and properly, that's included in an audit and in ongoing support.
+Write those three in the five-line form, build each into the CRM, run them for a month and look at the measures. Then add the next three. If you want the setup done once and properly, that's part of ongoing support.
 Questions
 What SOPs does a wholesaling company need?
 Roughly twenty for a full team, grouped by role: caller and VA, lead manager, acquisitions, dispositions, transaction coordinator, marketing and ops. A new company can start with three: first response to a new lead, the caller-to-acquisitions handoff, and offer follow-up.
@@ -8035,7 +7806,7 @@ Sources
 Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.
 Trailhead: Visualize Success with Path and Kanban . Up to five key fields and up to 1,000 characters of guidance per path step
 Want your SOPs built into the system?
-The fixed-price CRM Revenue Audit shows which of your rules the CRM already enforces and which only live in people's heads, with a fix plan. It's for teams already on Salesforce.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8081,8 +7852,8 @@ Related
 Missed-call alerts in Salesforce · Motivated seller lead scoring · Seller appointment no-shows · Lead sources into Salesforce · Speed to lead & follow-up statistics · Cold caller handoff checklist · Missed seller call cost · Acquisitions team capacity · Deal Leak Score · The Monday 5 · Follow-up cadence builder · All guides · All free tools
 Last updated October 2026.
 Want missed calls and speed to lead tracked automatically?
-I build Salesforce for real estate investors and wholesalers: missed-call tasks, routing to the next available rep, escalation and a Monday report. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers: missed-call tasks, routing to the next available rep, escalation and a Monday report. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8163,7 +7934,7 @@ Trailhead: Restrict login hours and IP ranges . Setting login hours on a profile
 Salesforce Help: Freeze or unfreeze user accounts . Freezing blocks login without freeing the license
 Ninth Circuit model jury instruction 23.16: trade secret defined (18 U.S.C. 1839(3)) . The reasonable-measures requirement
 Not sure who can export your list today?
-Tell me your team size and how your users are set up, and I'll tell you what I'd switch off first. The call is free. If you're already on Salesforce, the fixed-price CRM Revenue Audit finds leads still owned by people who left and lead sources anyone can change, along with your marketing ROI, follow-up and automations, with a fix plan and up to three quick fixes done.
+Tell me your team size and how your users are set up, and I'll tell you what I'd switch off first. The call is free.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8317,10 +8088,10 @@ You don't need 40 KPIs. The five numbers to check every Monday, and what a drop 
 Dead isn't dead
 Require a reason when a lead goes dead, and put "price too far" and "not ready" back in nurture every 60 to 90 days.
 Related
-The Kept-Deal Map · All free tools · Wholesaling CRM glossary · CRM Revenue Audit
+The Kept-Deal Map · All free tools · Wholesaling CRM glossary · Climbmark
 Want the leaks sized from your own data?
-On Salesforce already? The fixed-price CRM Revenue Audit goes leak point by leak point through your org and call data and gives you a prioritized fix list. On another CRM, the move to Salesforce comes first. Or start with a free 30-minute call.
-On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works . Already on Salesforce? See a sample audit report .
+On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks. Or start with a free 30-minute call.
+On Podio, REsimpli or spreadsheets? See how a move to Salesforce works . On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8362,8 +8133,8 @@ DocuSign contracts from the deal · Invoicing fees with QuickBooks · Wholesale 
 Several states now regulate how you contract and assign, with disclosures, cancellation windows and closing deadlines. See new wholesaling laws: what your CRM has to track , state by state.
 Last updated October 2026. Not legal or tax advice. Oklahoma law source: press release on SB 1075 .
 Want every fee tracked by source?
-I build Salesforce for real estate investors and wholesalers: deal records with planned and closed fees, assignment or double close, and a report of what each lead source actually earns. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers: deal records with planned and closed fees, assignment or double close, and a report of what each lead source actually earns. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8402,8 +8173,8 @@ Last updated October 2026. For planning only, not financial, tax or legal advice
 Add this calculator to your site
 Free to embed on your blog or investor site. Copy the code below.
 Want these numbers on every deal in your CRM?
-I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers with the underwriting on the record: the inputs as fields, the results as formulas, and a weekly report leadership actually reads. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8470,7 +8241,7 @@ Should I buy more leads if some are falling through?
 Fix the leak first. More leads into a system with no owners and no dates adds to the pile nobody is watching. Count your open leads with no owner, no next step or no date, and bring that number to zero.
 Related guides
 Want to see where your leads are leaking?
-The fixed-price CRM Revenue Audit counts open leads with no owner, no next step or no date, shows where they stall and which records were missing, then gives you a fix plan. It's for teams already on Salesforce.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8494,10 +8265,10 @@ ROI = (gross profit from closed deals − marketing spend) ÷ marketing spend. A
 Where should these numbers come from?
 From your CRM. Every lead needs a lead source, every contract and closed deal needs to be linked to the original lead, and spend needs to be logged per channel per month. If any link is missing, the numbers are guesses.
 Why most wholesalers can't fill this in
-The usual gap is attribution: leads come in from mail, PPC, cold calls and texts, but the closed deal is never tied back to the original lead source in the CRM. That's the first thing I check in a CRM Revenue Audit , and it's the first check in the free Deal Leak Score .
+The usual gap is attribution: leads come in from mail, PPC, cold calls and texts, but the closed deal is never tied back to the original lead source in the CRM. That's the first thing Climbmark reads in your CRM, and it's the first check in the free Deal Leak Score .
 Want these numbers live in your CRM every Monday?
-I build Salesforce for real estate investors and wholesalers so cost per deal by source updates on its own. Start with a free 30-minute call, or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers so cost per deal by source updates on its own. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8621,8 +8392,8 @@ Salesforce’s built-in way to turn website form submissions into leads, up to 5
 Put the terms to work
 Wholesale deal analyzer · Cost per deal calculator · Missed call cost · The Monday 5
 Want these numbers tracked, not just defined?
-I build Salesforce for real estate investors and wholesalers: attribution, speed to lead, underwriting and ROI that counts kept deals. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
-Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
+I build Salesforce for real estate investors and wholesalers: attribution, speed to lead, underwriting and ROI that counts kept deals. Start with a free 30-minute call, or connect your CRM to Climbmark free.
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM . On Podio, REsimpli or spreadsheets? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 See also: the wholesaling CRM checklist , stage by stage.
 
@@ -8671,7 +8442,7 @@ Real estate CRM guide · Do I need a CRM yet? · CRM field kit · Deal Leak Scor
 Last updated November 2026.
 Want this checklist built into your CRM?
 I build Salesforce for real estate investors and wholesalers: every stage above, with the fields, automations and Monday report. Moving from a spreadsheet, Podio, REsimpli or GoHighLevel? I move teams to Salesforce at a fixed price, history included. Start with a free 30-minute call.
-Already on Salesforce? The CRM Revenue Audit (fixed price) is the place to start. Here’s a sample report .
+On GoHighLevel or Salesforce? See what Climbmark finds in your CRM .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8758,7 +8529,7 @@ What CRM fields do I need to calculate funnel conversion rates?
 Lead source and campaign, a date for each stage reached, one record per seller, appointment kept or missed, offer amount and date, a dead or lost reason, and spend on the campaign.
 Related guides
 Want your funnel numbers without a spreadsheet?
-The fixed-price CRM Revenue Audit checks whether your CRM can produce these step rates by source today and what is missing, with a fix plan. It's for teams already on Salesforce.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8913,7 +8684,7 @@ Tennessee Real Estate Commission newsletter, Spring 2025
 State-by-state roundup (CrowdfundedWealth)
 Last checked: Oct 2026. Every law above was read in the bill text, a state agency or legislature page, or a law firm article linked next to it. Not legal advice. Check with a real estate attorney in your state before you rely on any of it.
 Want your CRM to track this for you?
-The CRM Revenue Audit now includes a wholesaling-law tracking check: whether disclosures, cancellation windows and closing deadlines are tracked in the states you work in. It is a tracking check, not legal advice. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
+I can check whether disclosures, cancellation windows and closing deadlines are tracked in the states you work in. It is a tracking check, not legal advice. Start with a free 30-minute call, or connect your CRM to Climbmark free.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8979,7 +8750,7 @@ Required fields on everything. If you require ten fields at stage one, reps will
 Dead as a parking lot. If nothing leaves Dead, you are throwing away your cheapest leads.
 Changing stage names without migrating history. Renaming a stage can break reports and any automation or ad-platform feed keyed to it. Plan stage changes like a small project.
 No review. Walk through the oldest ten deals in each stage once a week. It takes 15 minutes and it is the cheapest quality control you have.
-If you want a second pair of eyes on your stages, this is exactly what the CRM Revenue Audit looks at first.
+If you want a second pair of eyes on your stages, book a free call.
 How do you check your stages against your own deals?
 Do this once on the last 90 days of deals before you change anything. It takes about an hour and tells you which rule to write first.
 List every deal that reached Closed or Dead, with the stage history for each.
@@ -9009,7 +8780,7 @@ Checked in October 2026. Salesforce and vendor features change with each release
 Trailhead: Visualize Success with Path and Kanban . Up to five key fields and up to 1,000 characters of guidance per path step
 Salesforce Help: Create or Edit Key Fields Using Sales Path . Where Path settings and key fields are configured
 Want your stages checked against your real deals?
-The fixed-price CRM Revenue Audit reads your pipeline as it runs today: where deals stall, which fields are empty, and what it costs. It's for teams already on Salesforce. On another CRM and thinking about a move? Stage design is the first thing we map.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping. On another CRM and thinking about a move? Stage design is the first thing we map.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -9114,7 +8885,7 @@ Checked in October 2026. Compliance answers are information, not legal advice.
 Harvard Business Review: The Short Life of Online Sales Leads (2011) . Firms that contacted a lead within an hour were nearly seven times as likely to qualify it
 National Law Review: TCPA global revocation rule extended to January 2027 . Opt-outs processed within 10 business days since April 11, 2025
 Don't see your question?
-Send it to me and I'll answer it, and add it here if it helps other teams. If you'd like someone to look at your own setup, the fixed-price CRM Revenue Audit is for teams already on Salesforce.
+Send it to me and I'll answer it, and add it here if it helps other teams. On GoHighLevel or Salesforce? Connect it to Climbmark free and look back 13 weeks.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -9187,7 +8958,7 @@ How should CRM permissions differ by role?
 Only owners and ops should export or delete. VAs and cold callers should see only the leads they work. Managers should see their team's records. Source fields on deals should be locked for everyone once set.
 Related guides
 Growing the team?
-Book a free call and tell me how your team is split today. I'll tell you where I'd expect deals to fall between roles, and what I'd change in the CRM first. Already on Salesforce? The fixed-price CRM Revenue Audit checks every handoff in writing.
+Book a free call and tell me how your team is split today. I'll tell you where I'd expect deals to fall between roles, and what I'd change in the CRM first.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -9264,7 +9035,7 @@ How many tools is too many?
 There is no fixed number. A tool is too many when another tool already does its job, when nobody reads its output, or when it holds records that disagree with the owner's. Count the manual copy steps between tools as well.
 Related guides
 Not sure which of your tools holds the truth?
-The fixed-price CRM Revenue Audit checks which tool holds each record today, where copies disagree, and what that is costing you, then gives you a fix plan. It's for teams already on Salesforce.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -9330,5 +9101,5 @@ Is it legal to walk away from a wholesale contract?
 That depends on the contract terms, your state's rules and what the contract says about inspection and cancellation. Check both before you sign and before you release a deal. This is information, not legal advice; ask your attorney or title company about your own deal.
 Related guides
 Want to see where your deals really die?
-The fixed-price CRM Revenue Audit looks at the deals your CRM shows as lost and under contract, where they stalled and which records were missing at that point, then gives you a fix plan. It's for teams already on Salesforce.
+Connect your Salesforce or GoHighLevel to Climbmark free and it does the digging in your own CRM: which lead sources bring back fees and which signed deals are slipping.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn

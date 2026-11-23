@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Give the pages on styles.css (guides, tools, blog) the main site's look and chrome. Safe to rerun.
 For each page that links styles.css:
-- header: the main site's header (About, Services, Proof, Free tools, Guides, Revenue Audit, dark mode, Book a free call, phone menu)
+- header: the main site's header (About, Services, Proof, Free tools, Guides, Climbmark, dark mode, Book a free call, phone menu)
 - footer: the main site's footer
-- phone bar: the main site's "Book a free call / The audit" bar, except where the page has its own bottom bar
+- phone bar: the main site's "Book a free call / Climbmark" bar, except where the page has its own bottom bar
 - the page's own <style>: the old fonts and the hard-coded navy, blue, gold and red become the main site's tokens
 - the dark call-to-action boxes' inline colors, the same
 - the old dark-mode script becomes assets/chrome.js, and theme-color matches the main site
@@ -15,13 +15,12 @@ os.chdir(os.path.join(os.path.dirname(__file__), '..'))
 
 BOOK = 'https://calendly.com/amr-magdy-crm/30min'
 MENU = [('about.html', 'About'), ('./#services', 'Services'), ('./#cases', 'Proof'),
-        ('resources.html', 'Free tools'), ('blog.html', 'Guides'), ('crm-revenue-audit.html', 'Revenue Audit')]
+        ('resources.html', 'Free tools'), ('blog.html', 'Guides'), ('climbmark.html', 'Climbmark')]
 MOON = '<svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>'
 SUN = '<svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
 FOOT = [
-    ('f1', 'Work with me', [('crm-revenue-audit.html', 'CRM Revenue Audit'), ('sample-audit-report.html', 'Sample audit report'),
-                            ('move-to-salesforce.html', 'Move to Salesforce'), ('salesforce-admin-real-estate-investors.html', 'Admin or retainer?'),
-                            ('crm-revenue-audit-terms.html', 'Audit scope and terms')]),
+    ('f1', 'Work with me', [('climbmark.html', 'Climbmark'),
+                            ('move-to-salesforce.html', 'Move to Salesforce'), ('salesforce-admin-real-estate-investors.html', 'Admin or retainer?')]),
     ('f2', 'Free tools', [('deal-leak-score.html', 'Deal Leak Score'), ('wholesaling-cost-per-deal-calculator.html', 'Cost per deal calculator'),
                           ('wholesale-deal-analyzer.html', 'Wholesale deal analyzer'), ('kept-deal-map.html', 'Kept-Deal Map'),
                           ('https://climbmark.com/', 'Climbmark: rep training'), ('resources.html', 'All free tools')]),
@@ -85,7 +84,7 @@ def phone_bar(page):
     elif page in MOVE_FIRST:
         links = f'<a class="f" href="move-to-salesforce.html">Move to Salesforce</a><a class="g" href="{BOOK}" target="_blank" rel="noopener" data-book>Book a free call</a>'
     else:
-        links = f'<a class="f" href="{BOOK}" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit.html">The audit</a>'
+        links = f'<a class="f" href="{BOOK}" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="climbmark.html">Climbmark</a>'
     return f'<div class="mcta" id="mcta" data-stop=".cta,.article-cta,.ask-cta,.foot">{links}</div>'
 
 
