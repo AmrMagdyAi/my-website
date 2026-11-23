@@ -10,8 +10,8 @@
 <script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'',s=a.closest('#nav,.mcta,.switchbar,footer,header,section'),p={position:s?(s.id||s.className.split(' ')[0]||s.tagName.toLowerCase()):''};if(h.indexOf('wa.me')>-1){p.method='whatsapp';gtag('event','generate_lead',p);}else if(h.indexOf('mailto:')===0){p.method='email';gtag('event','generate_lead',p);}else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click',p);else if(h==='#request')gtag('event','cta_request_click',p);else if(h.indexOf('crm-revenue-audit')>-1&&h.indexOf('terms')<0)gtag('event','cta_audit_click',p);else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click',p);});</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <script>(function(r){r.className=r.className.replace('no-js','js');try{if((function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t)try{var m=document.cookie.match(/(?:^|; )theme=(\w+)/);t=m&&m[1]}catch(e){}if(!t)try{t=sessionStorage.getItem('theme')}catch(e){}if(!t&&/^theme-(dark|light)$/.test(window.name))t=window.name.slice(6);return t})()==='dark')r.setAttribute('data-theme','dark');}catch(e){}})(document.documentElement);</script>
-<title>Climbmark: the app I built for home-buying teams | Amr Magdy</title>
-<meta name="description" content="Climbmark reads the GoHighLevel or Salesforce your home-buying team already runs and shows you every Monday what each lead source kept and which deals are slipping. Free to start.">
+<title>Climbmark: which leads paid you back | Amr Magdy</title>
+<meta name="description" content="You already paid for the leads. Climbmark reads the GoHighLevel or Salesforce you already run and shows which sources paid you back, which signed deals are drifting and which sellers are worth another call. No new CRM.">
 <meta name="author" content="Amr Magdy">
 <link rel="canonical" href="https://amrmagdy.com/climbmark">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -20,16 +20,16 @@
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://amrmagdy.com/climbmark">
-<meta property="og:title" content="Climbmark, the app I built for home-buying teams">
-<meta property="og:description" content="The app I built for home-buying and wholesaling owners: what each lead source kept and which deals are slipping, from your own CRM, every Monday.">
+<meta property="og:title" content="Climbmark: which leads paid you back?">
+<meta property="og:description" content="You already paid for the leads. Which ones paid you back? Climbmark reads your own GoHighLevel or Salesforce every Monday. No new CRM, no migration.">
 <meta property="og:image" content="https://amrmagdy.com/imgs/og-about.jpg?v=4">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:site_name" content="Amr Magdy">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Climbmark, the app I built for home-buying teams">
-<meta name="twitter:description" content="The app I built for home-buying and wholesaling owners: what each lead source kept and which deals are slipping, from your own CRM, every Monday.">
+<meta name="twitter:title" content="Climbmark: which leads paid you back?">
+<meta name="twitter:description" content="You already paid for the leads. Which ones paid you back? Climbmark reads your own GoHighLevel or Salesforce every Monday. No new CRM, no migration.">
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-about.jpg?v=4">
 
 <link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
@@ -48,7 +48,7 @@
       "@type": "WebPage",
       "@id": "https://amrmagdy.com/climbmark#page",
       "url": "https://amrmagdy.com/climbmark",
-      "name": "Climbmark: the app I built for home-buying teams | Amr Magdy",
+      "name": "Climbmark: which leads paid you back | Amr Magdy",
       "inLanguage": "en",
       "dateCreated": "2026-11-23T10:30:00+00:00",
       "isPartOf": {"@id": "https://amrmagdy.com/#website"},
@@ -63,7 +63,7 @@
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Web",
       "creator": {"@id": "https://amrmagdy.com/#person"},
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free for a team owner and up to 2 reps"}
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free: connect your CRM and see 13 weeks of Money by source once"}
     },
     {
       "@type": "BreadcrumbList",
@@ -76,7 +76,7 @@
   ]
 }
 </script>
-<style>.tools>div{display:block;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px}#audit .move+.move{margin-top:14px}.price-card .counted li{grid-template-columns:64px minmax(0,1fr)}</style>
+<style>.tools>div{display:block;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px}#audit .move+.move{margin-top:14px}.price-card .counted li{grid-template-columns:64px minmax(0,1fr)}@media(min-width:900px){#what .tools{grid-template-columns:repeat(3,minmax(0,1fr))}}</style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
@@ -105,46 +105,43 @@
 <main id="main">
 <section class="wrap hero audit-hero" id="hero" aria-labelledby="ch">
   <div>
-    <p class="kicker"><span class="tag">The app I built</span>Climbmark · for home-buying and wholesaling teams</p>
-    <h1 id="ch">Your CRM already knows where the money <em>leaks</em>. Climbmark tells you every Monday.</h1>
+    <p class="kicker"><span class="tag">The app I built</span>Climbmark · for home-buying and wholesaling companies</p>
+    <h1 id="ch">You already paid for the leads. <em>Which ones paid you back?</em></h1>
     <div class="lede">
-      <p>Your team is already running: leads coming in, reps on the phones, deals under contract. What's hard to see from the owner's chair is the leak. A lead source that hasn't kept a fee in months. A signed deal that's quietly slipping. Recorded calls nobody has time to listen to.</p>
-      <p>Climbmark is the app I built for that. It connects to the GoHighLevel or Salesforce you already run, reads your own numbers and gives you a plan for the week every Monday. Your team keeps working the way it works.</p>
+      <p>Your company already runs. Leads come in, the team works them, deals get signed. The money answers are buried in the CRM: which source brings back fees, which signed deals are drifting, and which sellers you already paid for are worth another call.</p>
+      <p>Climbmark is the app I built to dig them out. It runs on top of the GoHighLevel or Salesforce you already use, so there's no new CRM and no migration. Every Monday it reads your own numbers and gives you a plan for the week.</p>
     </div>
-    <div class="ctas"><a class="btn" href="https://climbmark.com/app#start" target="_blank" rel="noopener" data-cm="hero-start">Start free</a><a class="btn ghost" href="https://climbmark.com/pricing" target="_blank" rel="noopener" data-cm="hero-plans">See the plans</a></div>
-    <p class="fine">Free for an owner and 2 reps. No card.</p>
+    <div class="ctas"><a class="btn" href="https://climbmark.com/app#start" target="_blank" rel="noopener" data-cm="hero-start">Connect your CRM free</a><a class="btn ghost" href="https://climbmark.com/pricing" target="_blank" rel="noopener" data-cm="hero-plans">See the plans</a></div>
+    <p class="fine">Connect your CRM. Look back 13 weeks. Then decide.</p>
   </div>
   <div class="price-card">
     <h2 id="pc-h">Two ways to start</h2>
     <ul class="counted">
-      <li><span class="num">$0</span>Free: an owner and up to 2 reps, no card</li>
+      <li><span class="num">$0</span>Free: connect your CRM and see your last 13 weeks of Money by source, once</li>
       <li><span class="num">$299</span>a month for Growth Team, up to 15 reps</li>
       <li><span class="num">14</span>days of Growth free, no card. It ends on its own.</li>
     </ul>
-    <div class="act"><a class="btn" href="https://climbmark.com/app#start" target="_blank" rel="noopener" data-cm="card-start">Start free</a><a class="btn ghost" href="https://climbmark.com/pricing" target="_blank" rel="noopener" data-cm="card-plans">Compare the plans</a></div>
-    <p class="refund">You pay for the team, not for each seat. Smaller and bigger team plans are on the <a href="https://climbmark.com/pricing" target="_blank" rel="noopener">plans page</a>.</p>
+    <div class="act"><a class="btn" href="https://climbmark.com/app#start" target="_blank" rel="noopener" data-cm="card-start">Connect your CRM free</a><a class="btn ghost" href="https://climbmark.com/pricing" target="_blank" rel="noopener" data-cm="card-plans">Compare the plans</a></div>
+    <p class="refund">You pay for the company, not for each seat. Smaller and bigger plans are on the <a href="https://climbmark.com/pricing" target="_blank" rel="noopener">plans page</a>.</p>
   </div>
 </section>
 
 <section class="block alt" id="what" aria-labelledby="what-h"><div class="wrap">
-  <div class="head"><p class="kicker">What an owner sees</p><h2 id="what-h">Your own CRM, read for you every week</h2><p>Climbmark sits beside your CRM and reads what's already in there. You add what each lead source costs.</p></div>
+  <div class="head"><p class="kicker">What an owner sees</p><h2 id="what-h">Three blind spots, from your own numbers</h2><p>Climbmark reads what's already in your CRM. You add what each lead source costs.</p></div>
   <div class="tools">
-    <div><span class="k">Every Monday</span><h3>Money by source</h3><p>The fees you kept from each lead source next to what it cost, with a plan for the week.</p></div>
-    <div><span class="k">Deals</span><h3>Deal rescue watch</h3><p>Every deal under contract checked for what is slipping and who owns the next step.</p></div>
-    <div><span class="k">Real calls</span><h3>Your recorded calls, scored</h3><p>Each recorded call scored, with one thing for the rep to fix next time. Your CRM has to record and transcribe calls.</p></div>
-    <div><span class="k">GoHighLevel</span><h3>Call These First</h3><p>Each rep's own leads with fresh public records, at the top of the list.</p></div>
-    <div><span class="k">Before the call</span><h3>Practice a tough lead first</h3><p>A rep can run a real lead with an AI seller before calling it, so the hard part happens in practice.</p></div>
+    <div><span class="k">1 · Every Monday</span><h3>Which sources pay you back</h3><p>Money by source: the fees you kept from each lead source next to what it cost, with a plan for the week.</p></div>
+    <div><span class="k">2 · Signed deals</span><h3>Deals that drift</h3><p>Deal rescue watch: every deal under contract checked for what is slipping and who owns the next step.</p></div>
+    <div><span class="k">3 · Leads you already have</span><h3>Sellers worth another call</h3><p>New public code violations and permits on leads already in your CRM, in the US cities and counties whose records it reads today. On GoHighLevel, those leads go to the top of each rep's list.</p></div>
   </div>
-  <p class="fine">All of these are in Growth Team. Money by source, Deal rescue watch and practicing a real lead start on the smaller Starter plan.</p>
+  <p class="fine">All three are in Growth Team, along with your recorded calls scored, with one thing to fix on each (your CRM has to record and transcribe calls). Money by source and Deal rescue watch start on the smaller Starter plan.</p>
 </div></section>
 
 <section class="block" id="facts" aria-labelledby="facts-h"><div class="wrap">
   <div class="head"><p class="kicker">Plain facts</p><h2 id="facts-h">What it does, and what it doesn't</h2></div>
   <ul class="ticks">
-    <li>It is not a dialer or a CRM. It sits beside the ones you use, and can work inside GoHighLevel and Salesforce.</li>
-    <li>Every person, team and number in the practice is made up. Nothing in the app calls or texts a real person.</li>
-    <li>Team owners and team leads need two-step sign-in before they see rep results.</li>
-    <li>It does not promise deals. It points to the work that is slipping, and you decide what to do.</li>
+    <li>No new CRM and no migration. It runs on top of GoHighLevel or Salesforce, and your team keeps working where it works now.</li>
+    <li>It is not a dialer. Nothing in the app calls or texts anyone.</li>
+    <li>It does not promise deals. It shows where the money went, and you decide what to do.</li>
     <li>Anyone can delete their account and data from the account page.</li>
   </ul>
 </div></section>
@@ -156,8 +153,8 @@
     <a class="btn sm" href="crm-revenue-audit">See the audit</a>
   </div>
   <div class="move">
-    <p><b>On GoHighLevel, or want the weekly numbers running without a project?</b> Start Climbmark free and connect your CRM when you're ready.</p>
-    <a class="btn ghost sm" href="https://climbmark.com/app#start" target="_blank" rel="noopener" data-cm="audit-start">Start Climbmark free</a>
+    <p><b>On GoHighLevel, or want the weekly numbers without a project?</b> Connect your CRM to Climbmark free and look back 13 weeks.</p>
+    <a class="btn ghost sm" href="https://climbmark.com/app#start" target="_blank" rel="noopener" data-cm="audit-start">Connect your CRM free</a>
   </div>
   <p class="fine">Not sure which one fits? <a href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book="climbmark-page">Book a free 30-minute call</a> and ask me.</p>
 </div></section>
