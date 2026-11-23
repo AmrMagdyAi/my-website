@@ -7,7 +7,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}try{if(navigator.webdriver||/HeadlessChrome|Firecrawl|Chrome-Lighthouse/i.test(navigator.userAgent))window['ga-disable-G-66PK4JKWSF']=true;}catch(e){}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());(function(f){var d=document,o=0,t,E=['pointerdown','keydown','scroll','touchstart','click'];function go(){if(o)return;o=1;clearTimeout(t);E.forEach(function(e){removeEventListener(e,go,true);});f();}E.forEach(function(e){addEventListener(e,go,{capture:true,passive:true});});t=setTimeout(function(){if(d.visibilityState==='visible')go();else addEventListener('visibilitychange',function(){if(d.visibilityState==='visible')go();});},8000);})(function(){gtag('config','G-66PK4JKWSF');});</script>
 <script src="assets/consent.js" defer></script>
-<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'',s=a.closest('#nav,.mcta,.switchbar,footer,header,section'),p={position:s?(s.id||s.className.split(' ')[0]||s.tagName.toLowerCase()):''};if(h.indexOf('wa.me')>-1){p.method='whatsapp';gtag('event','generate_lead',p);}else if(h.indexOf('mailto:')===0){p.method='email';gtag('event','generate_lead',p);}else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click',p);else if(h==='#request')gtag('event','cta_request_click',p);else if(h.indexOf('crm-revenue-audit')>-1&&h.indexOf('terms')<0)gtag('event','cta_audit_click',p);else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click',p);});</script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'',s=a.closest('#nav,.mcta,.switchbar,footer,header,section'),p={position:s?(s.id||s.className.split(' ')[0]||s.tagName.toLowerCase()):''};if(h.indexOf('wa.me')>-1){p.method='whatsapp';gtag('event','generate_lead',p);}else if(h.indexOf('mailto:')===0){p.method='email';gtag('event','generate_lead',p);}else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click',p);else if(h==='#request')gtag('event','cta_request_click',p);else if(h.indexOf('climbmark')>-1)gtag('event','cta_climbmark_click',p);else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click',p);});</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <script>(function(r){r.className=r.className.replace('no-js','js');try{if((function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t)try{var m=document.cookie.match(/(?:^|; )theme=(\w+)/);t=m&&m[1]}catch(e){}if(!t)try{t=sessionStorage.getItem('theme')}catch(e){}if(!t&&/^theme-(dark|light)$/.test(window.name))t=window.name.slice(6);return t})()==='dark')r.setAttribute('data-theme','dark');}catch(e){}})(document.documentElement);</script>
 <title>Privacy | Amr Magdy</title>
@@ -113,7 +113,7 @@
     <a href="./#cases">Proof</a>
     <a href="resources">Free tools</a>
     <a href="blog">Guides</a>
-    <a href="crm-revenue-audit">Revenue Audit</a>
+    <a href="climbmark">Climbmark</a>
     <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
   </nav>
   <div class="top-act">
@@ -138,7 +138,7 @@
 
   <h2 id="collect">What I collect and why</h2>
   <ul>
-    <li><b>Forms.</b> When you ask for an audit or a move to Salesforce, send a question or join the newsletter, I get what you type: your name and email, and where the form asks for them, your company, phone, CRM and message. Web3Forms delivers it to my inbox. I use it to reply, to send what you asked for and, if you joined the newsletter, to send the newsletter.</li>
+    <li><b>Forms.</b> When you ask about a move to Salesforce, send a question or join the newsletter, I get what you type: your name and email, and where the form asks for them, your company, phone, CRM and message. Web3Forms delivers it to my inbox. I use it to reply, to send what you asked for and, if you joined the newsletter, to send the newsletter.</li>
     <li><b>Calls.</b> When you book a call, Calendly takes your booking details on its own site and shares them with me so we can meet.</li>
     <li><b>Email, WhatsApp and LinkedIn.</b> If you message me there, I get what you send. Those services have their own privacy rules.</li>
     <li><b>Visit counts.</b> Google Analytics shows me which pages get read, which buttons and forms get used, your rough location (city or country), your device and browser, and the site that sent you. It doesn't tell me who you are. Form sends and booking clicks are counted there as leads, without names or emails.</li>
@@ -184,18 +184,15 @@
   <div class="foot-grid">
     <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
     <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
-      <li><a href="crm-revenue-audit">CRM Revenue Audit</a></li>
-      <li><a href="sample-audit-report">Sample audit report</a></li>
+      <li><a href="climbmark">Climbmark</a></li>
       <li><a href="move-to-salesforce">Move to Salesforce</a></li>
       <li><a href="salesforce-admin-real-estate-investors">Admin or retainer?</a></li>
-      <li><a href="crm-revenue-audit-terms">Audit scope and terms</a></li>
     </ul></nav>
     <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
       <li><a href="deal-leak-score">Deal Leak Score</a></li>
       <li><a href="wholesaling-cost-per-deal-calculator">Cost per deal calculator</a></li>
       <li><a href="wholesale-deal-analyzer">Wholesale deal analyzer</a></li>
       <li><a href="kept-deal-map">Kept-Deal Map</a></li>
-      <li><a href="climbmark">Climbmark, my app for your team</a></li>
       <li><a href="resources">All free tools</a></li>
     </ul></nav>
     <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>

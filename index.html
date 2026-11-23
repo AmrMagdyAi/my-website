@@ -7,7 +7,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}try{if(navigator.webdriver||/HeadlessChrome|Firecrawl|Chrome-Lighthouse/i.test(navigator.userAgent))window['ga-disable-G-66PK4JKWSF']=true;}catch(e){}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());(function(f){var d=document,o=0,t,E=['pointerdown','keydown','scroll','touchstart','click'];function go(){if(o)return;o=1;clearTimeout(t);E.forEach(function(e){removeEventListener(e,go,true);});f();}E.forEach(function(e){addEventListener(e,go,{capture:true,passive:true});});t=setTimeout(function(){if(d.visibilityState==='visible')go();else addEventListener('visibilitychange',function(){if(d.visibilityState==='visible')go();});},8000);})(function(){gtag('config','G-66PK4JKWSF',{page_location:location.href.replace(/\/index\.html(?=[?#]|$)/,'/')});});</script>
 <script src="assets/consent.js" defer></script>
-<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'',s=a.closest('#nav,.mcta,.switchbar,footer,header,section'),p={position:s?(s.id||s.className.split(' ')[0]||s.tagName.toLowerCase()):''};if(h.indexOf('wa.me')>-1){p.method='whatsapp';gtag('event','generate_lead',p);}else if(h.indexOf('mailto:')===0){p.method='email';gtag('event','generate_lead',p);}else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click',p);else if(h==='#request')gtag('event','cta_request_click',p);else if(h.indexOf('crm-revenue-audit')>-1&&h.indexOf('terms')<0)gtag('event','cta_audit_click',p);else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click',p);});</script>
+<script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||!window.gtag)return;var h=a.getAttribute('href')||'',s=a.closest('#nav,.mcta,.switchbar,footer,header,section'),p={position:s?(s.id||s.className.split(' ')[0]||s.tagName.toLowerCase()):''};if(h.indexOf('wa.me')>-1){p.method='whatsapp';gtag('event','generate_lead',p);}else if(h.indexOf('mailto:')===0){p.method='email';gtag('event','generate_lead',p);}else if(h.indexOf('#contact')>-1)gtag('event','cta_contact_click',p);else if(h==='#request')gtag('event','cta_request_click',p);else if(h.indexOf('climbmark')>-1)gtag('event','cta_climbmark_click',p);else if(h.indexOf('salesforce-health-check')>-1)gtag('event','cta_healthcheck_click',p);});</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <script>(function(r){r.className=r.className.replace('no-js','js');try{if((function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t)try{var m=document.cookie.match(/(?:^|; )theme=(\w+)/);t=m&&m[1]}catch(e){}if(!t)try{t=sessionStorage.getItem('theme')}catch(e){}if(!t&&/^theme-(dark|light)$/.test(window.name))t=window.name.slice(6);return t})()==='dark')r.setAttribute('data-theme','dark');}catch(e){}})(document.documentElement);</script>
 <title>Amr Magdy | Salesforce CRM Consultant for Real Estate Investors</title>
@@ -181,29 +181,20 @@
       "sameAs": [
         "https://www.crunchbase.com/organization/amr-magdy-crm-consulting"
       ],
-      "description": "Salesforce consulting for real estate investors, wholesalers and home-buying companies: a fixed-price CRM Revenue Audit, full implementation or a move to Salesforce, and ongoing support and development.",
+      "description": "Salesforce consulting for real estate investors, wholesalers and home-buying companies: full implementation or a move to Salesforce, ongoing support and development, and Climbmark, an app that reads your GoHighLevel or Salesforce every Monday.",
       "founder": {
         "@id": "https://amrmagdy.com/#person"
       },
       "image": "https://amrmagdy.com/imgs/og-home.jpg?v=5",
       "url": "https://amrmagdy.com/",
       "email": "info@AmrMagdy.com",
-      "areaServed": ["United States"],
+      "areaServed": [
+        "United States"
+      ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Salesforce consulting for real estate investor teams",
         "itemListElement": [
-          {
-            "@type": "Offer",
-            "url": "https://amrmagdy.com/crm-revenue-audit",
-            "price": "1500",
-            "priceCurrency": "USD",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "CRM Revenue Audit",
-              "description": "A fixed-price review of an existing Salesforce org for real estate investors and wholesalers: marketing ROI, speed to lead, acquisitions and follow-up, data health, automations and reporting. Delivered as a findings report, a 30/60/90 fix plan and a Monday 5 dashboard spec. USD 1,500, credited to a build or your first three months of support within 30 days."
-            }
-          },
           {
             "@type": "Offer",
             "itemOffered": {
@@ -232,7 +223,7 @@
           "name": "We're about to hire a full-time Salesforce admin. Should we?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Maybe later. At a team of 10 to 50, most of the work is small changes every week: a new lead source, a new hire, an alert that broke. A retainer covers that for less than a salary, and the audit shows how much work there really is. Hire an admin or use a retainer compares the two. If you do hire, here's how to hire a Salesforce admin, with interview questions and a paid test."
+            "text": "Maybe later. At a team of 10 to 50, most of the work is small changes every week: a new lead source, a new hire, an alert that broke. A retainer covers that for less than a salary. Hire an admin or use a retainer compares the two. If you do hire, here's how to hire a Salesforce admin, with interview questions and a paid test."
           }
         },
         {
@@ -240,15 +231,15 @@
           "name": "We're adding reps or opening a new market. Should we fix the CRM first?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "If you can, yes. More leads through the same leaks means more money lost the same way. The audit tells you what to fix before you scale, in the order I'd fix it. For the setup itself, use the checklists for adding acquisitions reps and opening a new market."
+            "text": "If you can, yes. More leads through the same leaks means more money lost the same way. Look at what your current sources bring back before you add more. Climbmark shows it free from your own CRM. For the setup itself, use the checklists for adding acquisitions reps and opening a new market."
           }
         },
         {
           "@type": "Question",
-          "name": "We're on Podio, REsimpli or GoHighLevel. Can you audit that?",
+          "name": "We're on Podio, REsimpli or GoHighLevel. Can you help?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. The audit is built for Salesforce. If you're outgrowing another CRM or spreadsheets, the right first step is a move to Salesforce: I map what you track today, move your data and build around how your team works. See how a move to Salesforce works, or plan it on a free call."
+            "text": "On GoHighLevel, connect it to Climbmark free and look back 13 weeks. If you're outgrowing another CRM or spreadsheets, the right next step is a move to Salesforce: I map what you track today, move your data and build around how your team works. See how a move to Salesforce works, or plan it on a free call."
           }
         },
         {
@@ -256,7 +247,7 @@
           "name": "What does it cost?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ongoing support is a monthly block of hours, month to month, with the price shared on a free call. A full implementation is quoted as a project after a free call. For a first look at your org, the CRM Revenue Audit is a fixed price shown on its page, and the full fee comes off a build, or your first three months of support, if you go ahead within 30 days. Salesforce licenses are billed by Salesforce, so ask your account manager for a quote for your team size; teams can often get a discount."
+            "text": "Ongoing support is a monthly block of hours, month to month, with the price shared on a free call. A full implementation is quoted as a project after a free call. Salesforce licenses are billed by Salesforce, so ask your account manager for a quote for your team size; teams can often get a discount."
           }
         },
         {
@@ -280,7 +271,7 @@
           "name": "What access do you need, and is our data safe?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "For the audit, a read-only Salesforce user covers most of the review. You create the user, so you can see what it does and switch it off at any time. It does use one of your Salesforce licenses; if none is spare, we can free one or do the review on screen shares instead. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first. Your data stays in your org, and I'm happy to sign your NDA before I log in."
+            "text": "For a review, a read-only Salesforce user covers most of it. You create the user, so you can see what it does and switch it off at any time. It does use one of your Salesforce licenses; if none is spare, we can free one or do the review on screen shares instead. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first. Your data stays in your org, and I'm happy to sign your NDA before I log in."
           }
         },
         {
@@ -348,7 +339,7 @@
     <a href="#cases">Proof</a>
     <a href="resources">Free tools</a>
     <a href="blog">Guides</a>
-    <a href="crm-revenue-audit">Revenue Audit</a>
+    <a href="climbmark">Climbmark</a>
     <a class="btn nav-cta" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
   </nav>
   <div class="top-act">
@@ -375,7 +366,7 @@
       <a class="btn ghost" href="#compare">Compare your options</a>
     </div>
     <p class="hwho"><img src="imgs/AmrMagdyPic-144.webp" alt="Amr Magdy" width="44" height="44"><span>Salesforce work for <b>Central City Solutions</b> and <b>Pezon Properties</b>. Changes done the same week. US hours, NDA first.</span></p>
-    <p class="fine">Want a first look before committing? Start with the <a href="crm-revenue-audit">CRM Revenue Audit</a>.</p>
+    <p class="fine">Want a first look at your own numbers? Connect your CRM to <a href="climbmark">Climbmark</a> free and look back 13 weeks.</p>
   </div>
   <div class="pick" aria-labelledby="pick-h">
     <h2 id="pick-h">What's stuck in your Salesforce right now?</h2>
@@ -470,10 +461,9 @@
     </div>
     <ul class="trust-list">
       <li><span><b>NDA before I log in.</b> I&rsquo;m happy to sign yours first.</span></li>
-      <li><span><b>Read-only access.</b> A read-only user covers most of an audit. You create it and can switch it off any time.</span></li>
+      <li><span><b>Read-only access first.</b> A review starts with a read-only user. You create it and can switch it off any time.</span></li>
       <li><span><b>You own everything.</b> Every build is written down, so another admin could take it over.</span></li>
       <li><span><b>50/50, held by Upwork.</b> Half to start and half on delivery, through an Upwork contract that holds each payment until you approve it.</span></li>
-      <li><span><b>Your money back.</b> The audit is refunded in full if it doesn&rsquo;t find five fixable issues worth more than the fee.</span></li>
     </ul>
     <p class="trust-verify"><a class="tlink" href="https://www.salesforce.com/trailblazer/amrmagdyai" target="_blank" rel="noopener">Verify my certifications</a> Salesforce Certified Administrator, Platform App Builder, Associate and AI Associate</p>
   </div>
@@ -503,23 +493,19 @@
       <a class="btn ghost" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book="implementation-card">Scope it on a free call</a></div>
     </article>
     <article class="offer" aria-labelledby="o1">
-      <span class="tag ghost" aria-hidden="true">First look</span>
-      <h3 id="o1">CRM Revenue Audit</h3>
-      <p class="price">Fixed price<small>For teams already on Salesforce</small></p>
-      <p class="desc">I go through your org with the checklist from two years of running an investor team's Salesforce. You get the leaks in writing, what each one is likely costing you and what to fix first.</p>
-      <ul class="ticks"><li>Findings report and 30 / 60 / 90 fix plan</li><li>Spec for a 5-number Monday dashboard</li><li>Fee credited if you build or start monthly support within 30 days</li><li>Money back if it doesn't find 5 fixable issues worth more than the fee</li></ul>
-      <div class="go"><div class="mini flip"><p class="st b"><span class="lab">Today</span>You guess which leaks cost the most, and fix whatever is loudest.</p><p class="st a"><span class="lab">With me</span>You know which leaks cost the most, and the order to fix them.</p></div>
-      <a class="btn" href="crm-revenue-audit">See the audit</a>
-      <a class="tlink side" href="sample-audit-report">See a sample report</a></div>
+      <span class="tag ghost" aria-hidden="true">Free to start</span>
+      <h3 id="o1">Climbmark</h3>
+      <p class="price">Free<small>Growth Team $299 a month</small></p>
+      <p class="desc">The app I built. It runs on top of your GoHighLevel or Salesforce and does the digging every Monday: which lead sources bring back fees, which signed deals are slipping and which sellers to call first.</p>
+      <ul class="ticks"><li>No migration, nothing new for your team to fill in</li><li>Free: 13 weeks of Money by source, once</li><li>Growth Team: Deal rescue watch on every signed deal</li><li>Growth Team: AI scoring of your recorded calls</li></ul>
+      <div class="go"><div class="mini flip"><p class="st b"><span class="lab">Today</span>The answers are in the CRM, and nobody has time to dig them out.</p><p class="st a"><span class="lab">With Climbmark</span>A plan for the week from your own numbers, every Monday.</p></div>
+      <a class="btn" href="climbmark">See Climbmark</a>
+      <a class="tlink side" href="https://climbmark.com/app#start" target="_blank" rel="noopener">Connect your CRM free</a></div>
     </article>
   </div>
   <div class="move">
-    <p><b>On Podio, REsimpli, GoHighLevel or spreadsheets?</b> The audit is built for Salesforce. If you're outgrowing another CRM, you need a move to Salesforce: I map what you track, move the data and build around how your team works.</p>
+    <p><b>Outgrowing Podio, REsimpli or spreadsheets?</b> You need a move to Salesforce: I map what you track, move the data and build around how your team works.</p>
     <a class="btn ghost sm" href="move-to-salesforce">How a move to Salesforce works</a>
-  </div>
-  <div class="move">
-    <p><b>Want your Monday numbers without a project?</b> I also built <a href="climbmark">Climbmark</a>. It runs on top of your GoHighLevel or Salesforce and does the digging: which sources bring back fees, which signed deals are slipping and which sellers to call first. Connect your CRM free and look back 13 weeks.</p>
-    <a class="btn ghost sm" href="climbmark">See Climbmark</a>
   </div>
 </div></section>
 
@@ -614,7 +600,7 @@
     <a href="missed-call-cost-calculator"><span class="k">Calculator</span><h3>Missed call cost</h3><p>What unanswered seller calls cost you a month.</p></a>
     <a href="monday-5-real-estate-kpis"><span class="k">Framework</span><h3>The Monday 5</h3><p>Five numbers every owner should see on Monday.</p></a>
   </div>
-  <div class="more"><a class="btn ghost sm" href="resources">All free tools</a><a class="tlink" href="sample-audit-report">See a sample audit report</a></div>
+  <div class="more"><a class="btn ghost sm" href="resources">All free tools</a><a class="tlink" href="climbmark">See Climbmark</a></div>
   <div class="reads">
     <h3>Read the guides</h3>
     <ul>
@@ -639,13 +625,13 @@
   <div class="head"><p class="kicker">Questions</p><h2 id="faq-h">Before you book</h2></div>
   <div class="faq">
     <h3>Working with me</h3>
-    <details><summary>We're about to hire a full-time Salesforce admin. Should we?</summary><p>Maybe later. At a team of 10 to 50, most of the work is small changes every week: a new lead source, a new hire, an alert that broke. A retainer covers that for less than a salary, and the audit shows how much work there really is. <a href="salesforce-admin-real-estate-investors">Hire an admin or use a retainer</a> compares the two. If you do hire, here's <a href="salesforce-admin-real-estate-investors#hiring">how to hire a Salesforce admin</a>, with interview questions and a paid test.</p></details>
-    <details><summary>We're adding reps or opening a new market. Should we fix the CRM first?</summary><p>If you can, yes. More leads through the same leaks means more money lost the same way. The audit tells you what to fix before you scale, in the order I'd fix it. For the setup itself, use the checklists for <a href="add-acquisitions-reps-crm">adding acquisitions reps</a> and <a href="new-market-crm-checklist">opening a new market</a>.</p></details>
-    <details><summary>We're on Podio, REsimpli or GoHighLevel. Can you audit that?</summary><p>No. The audit is built for Salesforce. If you're outgrowing another CRM or spreadsheets, the right first step is a move to Salesforce: I map what you track today, move your data and build around how your team works. See <a href="move-to-salesforce">how a move to Salesforce works</a>, or plan it on a free call.</p></details>
-    <details><summary>What does it cost?</summary><p>Ongoing support is a monthly block of hours, month to month, with the price shared on a free call. A full implementation is quoted as a project after a free call. For a first look at your org, the CRM Revenue Audit is a fixed price shown on its page, and the full fee comes off a build, or your first three months of support, if you go ahead within 30 days. Salesforce licenses are billed by Salesforce, so ask your account manager for a quote for your team size; teams can often get a discount.</p></details>
+    <details><summary>We're about to hire a full-time Salesforce admin. Should we?</summary><p>Maybe later. At a team of 10 to 50, most of the work is small changes every week: a new lead source, a new hire, an alert that broke. A retainer covers that for less than a salary. <a href="salesforce-admin-real-estate-investors">Hire an admin or use a retainer</a> compares the two. If you do hire, here's <a href="salesforce-admin-real-estate-investors#hiring">how to hire a Salesforce admin</a>, with interview questions and a paid test.</p></details>
+    <details><summary>We're adding reps or opening a new market. Should we fix the CRM first?</summary><p>If you can, yes. More leads through the same leaks means more money lost the same way. Look at what your current sources bring back before you add more. Climbmark shows it free from your own CRM. For the setup itself, use the checklists for <a href="add-acquisitions-reps-crm">adding acquisitions reps</a> and <a href="new-market-crm-checklist">opening a new market</a>.</p></details>
+    <details><summary>We're on Podio, REsimpli or GoHighLevel. Can you help?</summary><p>On GoHighLevel, connect it to Climbmark free and look back 13 weeks. If you're outgrowing another CRM or spreadsheets, the right next step is a move to Salesforce: I map what you track today, move your data and build around how your team works. See <a href="move-to-salesforce">how a move to Salesforce works</a>, or plan it on a free call.</p></details>
+    <details><summary>What does it cost?</summary><p>Ongoing support is a monthly block of hours, month to month, with the price shared on a free call. A full implementation is quoted as a project after a free call. Salesforce licenses are billed by Salesforce, so ask your account manager for a quote for your team size; teams can often get a discount.</p></details>
     <details><summary>You're in Cairo. How does that work?</summary><p>I work US hours, 9am to 6pm Eastern, Monday to Friday, and reply within one business day. That's how I've worked with a home-buying company in Ohio for two years. Calls are booked at a time that suits you.</p></details>
     <details><summary>You're one person. Why not an agency?</summary><p>With an agency, your project often goes through a project manager to a consultant who may never have worked in real estate. With me, the person who answers your message is the person who builds it. The honest trade-off: I'm one specialist, not a ten-person team, so I'll tell you straight on the first call what fits this week. Everything I build lives in your org and belongs to you, and I write down how each piece works so another admin could take it over.</p></details>
-    <details><summary>What access do you need, and is our data safe?</summary><p>For the audit, a read-only Salesforce user covers most of the review. You create the user, so you can see what it does and switch it off at any time. It does use one of your Salesforce licenses; if none is spare, we can free one or do the review on screen shares instead. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first. Your data stays in your org, and I'm happy to sign your NDA before I log in.</p></details>
+    <details><summary>What access do you need, and is our data safe?</summary><p>For a review, a read-only Salesforce user covers most of it. You create the user, so you can see what it does and switch it off at any time. It does use one of your Salesforce licenses; if none is spare, we can free one or do the review on screen shares instead. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first. Your data stays in your org, and I'm happy to sign your NDA before I log in.</p></details>
     <details><summary>What have you actually built?</summary><p>For two years I've run the Salesforce for a two-market home-buying company in Ohio: campaign ROI by market checked against the books, missed-call alerts on every marketing number, follow-up that stops when a seller replies, a Transactions Board for every file under contract, and settings ops can change without a developer. At Pezon Properties in Pennsylvania I delivered 50+ requests, including a campaign ROI dashboard with 25 funnel metrics and a rebuilt transaction coordination app.</p></details>
     <details><summary>Do you work with teams outside the US?</summary><p>Yes. Investors in Canada, the UK and Europe get the same offer and the same terms, and their working hours overlap with mine. See <a href="salesforce-consultant-canada-real-estate">Salesforce for Canadian investors</a> and <a href="salesforce-consultant-uk-estate-agents">Salesforce for UK property investors</a>.</p></details>
     <details><summary>Do you train the team too?</summary><p>Yes. Before Salesforce I spent eight years as an Adobe Certified Instructor and taught 8,000+ students, rated 4.9/5. Every build comes with training built around your team's daily work.</p></details>
@@ -663,7 +649,7 @@
     <p class="lead">Book a free 30-minute call and tell me how your team works today, on Salesforce, Podio, REsimpli, GoHighLevel or spreadsheets. We'll find the quick wins and the right next step. No pressure.</p>
     <div class="ctas">
       <a class="btn" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Pick a time for a free call</a>
-      <a class="btn ghost" href="crm-revenue-audit">See the audit</a>
+      <a class="btn ghost" href="climbmark">See Climbmark</a>
     </div>
     <ul class="reach">
       <li><a href="mailto:info@AmrMagdy.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg><span><b>info@AmrMagdy.com</b><small>I reply within one working day</small></span></a></li>
@@ -697,18 +683,15 @@
   <div class="foot-grid">
     <div class="foot-brand"><b>Amr Magdy</b><p>Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.</p></div>
     <nav aria-labelledby="f1"><h2 id="f1">Work with me</h2><ul>
-      <li><a href="crm-revenue-audit">CRM Revenue Audit</a></li>
-      <li><a href="sample-audit-report">Sample audit report</a></li>
+      <li><a href="climbmark">Climbmark</a></li>
       <li><a href="move-to-salesforce">Move to Salesforce</a></li>
       <li><a href="salesforce-admin-real-estate-investors">Admin or retainer?</a></li>
-      <li><a href="crm-revenue-audit-terms">Audit scope and terms</a></li>
     </ul></nav>
     <nav aria-labelledby="f2"><h2 id="f2">Free tools</h2><ul>
       <li><a href="deal-leak-score">Deal Leak Score</a></li>
       <li><a href="wholesaling-cost-per-deal-calculator">Cost per deal calculator</a></li>
       <li><a href="wholesale-deal-analyzer">Wholesale deal analyzer</a></li>
       <li><a href="kept-deal-map">Kept-Deal Map</a></li>
-      <li><a href="climbmark">Climbmark, my app for your team</a></li>
       <li><a href="resources">All free tools</a></li>
     </ul></nav>
     <nav aria-labelledby="f3"><h2 id="f3">Learn</h2><ul>
@@ -730,7 +713,7 @@
   <div class="base"><span>© <span data-year>2026</span> Amr Magdy · Salesforce CRM Consultant · <a href="privacy">Privacy</a></span><span>Remote from Cairo, for teams in the US, Canada, the UK and Europe</span></div>
 </div></footer>
 
-<div class="mcta" id="mcta" data-after="0.85" data-stop="#contact"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="crm-revenue-audit">The audit</a></div>
+<div class="mcta" id="mcta" data-after="0.85" data-stop="#contact"><a class="f" href="https://calendly.com/amr-magdy-crm/30min" target="_blank" rel="noopener" data-book>Book a free call</a><a class="g" href="climbmark">Climbmark</a></div>
 
 <script src="assets/site.js" defer></script>
 <script src="booking.js" defer></script>
