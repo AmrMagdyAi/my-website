@@ -1892,7 +1892,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 ## Climbmark: your CRM already has the answers | Amr Magdy
 URL: https://amrmagdy.com/climbmark
 
-The app I built Climbmark · for home-buying and wholesaling companies
+The app I built Climbmark, for home-buying and wholesaling companies
 Your CRM already has the answers. Climbmark does the digging.
 Climbmark runs on top of the GoHighLevel or Salesforce your team already uses. AI reads your team's recorded calls and text threads, and every Monday you see which sources bring back fees, which signed deals are slipping and which sellers to call first.
 No migration, and nothing new for your team to fill in. I built it for companies that already run, and want the answers without someone digging through reports.
@@ -1900,7 +1900,7 @@ Connect your CRM. Look back 13 weeks. Then decide.
 Two ways to start
 $0 Free: connect your CRM and see your last 13 weeks of Money by source, once
 $299 a month for Growth Team, up to 15 reps
-14 days of Growth free, no card. It ends on its own.
+14 days of Growth Team free, no card. It ends on its own.
 You pay for the company, not for each seat. Smaller and bigger plans are on the plans page .
 What an owner sees
 Three blind spots, from your own numbers
@@ -1910,8 +1910,8 @@ Money by source: the fees you kept from each lead source next to what it cost, w
 Deals that drift
 Deal rescue watch: every deal under contract checked for what is slipping and who owns the next step.
 Sellers worth another call
-New public code violations and permits on leads already in your CRM, in the 10 US cities and counties whose records it reads today. On GoHighLevel, those leads go to the top of each rep's list.
-All three are in Growth Team. So is AI scoring of your team's recorded calls, with one thing to fix on each (your CRM has to record and transcribe calls). Money by source and Deal rescue watch start on the smaller Starter plan.
+New public code violations and permits on leads already in your CRM, in the 10 US cities and counties whose records it reads today. On GoHighLevel, those leads go to the top of each rep's list in Call These First.
+All three are in Growth Team. So is AI scoring of your team's recorded calls, with one thing to work on next from each (your CRM has to record and transcribe calls). Money by source and Deal rescue watch start on the smaller Starter plan.
 Plain facts
 What it does, and what it doesn't
 No new CRM and no migration. It runs on top of GoHighLevel or Salesforce, and your team keeps working where it works now.
