@@ -1,7 +1,7 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-11-22
+> Generated: 2026-11-23
 
 
 ---
@@ -116,6 +116,7 @@ Money back if it doesn't find 5 fixable issues worth more than the fee
 Today You guess which leaks cost the most, and fix whatever is loudest.
 With me You know which leaks cost the most, and the order to fix them.
 On Podio, REsimpli, GoHighLevel or spreadsheets? The audit is built for Salesforce. If you're outgrowing another CRM, you need a move to Salesforce: I map what you track, move the data and build around how your team works.
+On GoHighLevel, or want your Monday numbers without a project? I also built Climbmark , an app that reads your GoHighLevel or Salesforce and shows what each lead source kept, which deals are slipping and which reps are ready. Free for an owner and 2 reps.
 Proof · Central City Solutions
 What I built, and what it changed
 A home-buying company in Columbus and Cincinnati, Ohio. For two years I've been the person they call when anything in Salesforce needs to change: a new market, a new lead source, a new hire, a broken alert.
@@ -1886,6 +1887,49 @@ Want deals matched to buyers automatically?
 I build Salesforce for real estate investors and wholesalers: buyer records with buy boxes, deal-to-buyer matching, send and reply tracking, and a report of which buyers actually close. Start with a free 30-minute call or the fixed-price CRM Revenue Audit.
 Already on Salesforce? See a sample audit report . On Podio, REsimpli or GoHighLevel? See how a move to Salesforce works .
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
+## Climbmark: the app I built for home-buying teams | Amr Magdy
+URL: https://amrmagdy.com/climbmark
+
+The app I built Climbmark · for home-buying and wholesaling teams
+See what your leads actually kept this week, and which reps are ready.
+A deal slips and you hear about it after it's gone. A lead source hasn't kept a fee in months and nobody had time to check. A new rep gets live leads before anyone knows if they're ready.
+Climbmark is the app I built for that. It connects to the GoHighLevel or Salesforce you already use, reads your own numbers and shows you on Monday what moved and what needs you. Each rep also gets practice for their job with made-up sellers, so a bad moment costs points, not a real deal.
+Free for an owner and 2 reps. No card.
+Two ways to start
+$0 Free: an owner and up to 2 reps, no card
+$299 Growth Team, a month: up to 15 reps
+14 Day Growth trial with no card. It ends on its own.
+You pay for the team, not for each seat. Smaller and bigger team plans are on the plans page .
+What an owner sees
+Your own CRM, read for you every week
+Climbmark sits beside your CRM and reads what's already in there. You add what each lead source costs.
+Money by source
+The fees you kept from each lead source next to what it cost, with a plan for the week.
+Deal rescue watch
+Every deal under contract checked for what is slipping and who owns the next step.
+Ready for live leads
+See which reps are ready before they take real leads.
+Coaching from recorded calls
+Each recorded call scored on the skills it trains, with one thing for the rep to fix. Your CRM has to record and transcribe calls.
+Call These First
+Each rep's own leads with fresh public records, at the top of the list.
+A path for each job
+Lead manager, acquisitions, dispo, follow-up, cold calling and more. Short levels on a phone, with made-up sellers who react to what the rep says.
+All of these are in Growth Team. Money by source and Deal rescue watch start on the smaller Starter plan.
+Plain facts
+What it does, and what it doesn't
+It is not a dialer or a CRM. It sits beside the ones you use, and can work inside GoHighLevel and Salesforce.
+Every person, team and number in the practice is made up. Nothing in the app calls or texts a real person.
+Team owners and team leads need two-step sign-in before they see rep results.
+It does not promise deals. It points to the work that is slipping, and you decide what to do.
+Anyone can delete their account and data from the account page.
+Climbmark or the audit?
+The app, or me going through your Salesforce
+On Salesforce and want a person to find the leaks? The CRM Revenue Audit is me going through your org by hand. You get what's leaking, what it's likely costing you and the order to fix it, in writing, for a fixed $1,500.
+On GoHighLevel, or want the weekly numbers and rep practice running without a project? Start Climbmark free and connect your CRM when you're ready.
+Not sure which one fits? Book a free 30-minute call and ask me.
 
 ---
 ## Cold Caller to Acquisitions Handoff: Fields & Rules
