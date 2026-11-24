@@ -8,9 +8,10 @@
 ## Amr Magdy | Salesforce CRM Consultant for Real Estate Investors
 URL: https://amrmagdy.com/
 
-For US teams of 10 to 50, most already on Salesforce
+For US home buyers and wholesalers, most already on Salesforce
 Your Salesforce person, for home-buying and wholesaling teams
 Integrations, automation, reports and the everyday changes, from one person who has run a home-buying company's Salesforce for two years. Monthly, without hiring an admin.
+On the call we connect your CRM to look at your last 13 weeks of money by lead source.
 Salesforce work for Central City Solutions and Pezon Properties . Changes done the same week. US hours, NDA first.
 Want a first look at your own numbers? Connect your CRM to Climbmark free and look back 13 weeks.
 What's stuck in your Salesforce right now?
@@ -106,7 +107,7 @@ Team training
 Today A CRM someone else built, and nobody is sure what it does anymore.
 With me Built around how your business runs, not copied from another client, and written down so another admin could take it over.
 Climbmark
-Free Growth Team $299 a month
+Free Paid plans: see climbmark.com/pricing
 The app I built. It runs on top of your GoHighLevel or Salesforce and does the digging every Monday: which lead sources bring back fees, which signed deals are slipping and which sellers to call first.
 No migration, nothing new for your team to fill in
 Free: 13 weeks of Money by source, once
