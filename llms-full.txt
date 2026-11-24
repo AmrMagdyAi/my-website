@@ -12,7 +12,7 @@ For US home buyers and wholesalers, most already on Salesforce
 Your Salesforce person, for home-buying and wholesaling teams
 Integrations, automation, reports and the everyday changes, from one person who has run a home-buying company's Salesforce for two years. Monthly, without hiring an admin.
 On the call we connect your CRM to look at your last 13 weeks of money by lead source.
-Independent Salesforce CRM consultant for home-buying and wholesaling teams. Changes done the same week. US hours, NDA first.
+I'm an independent Salesforce consultant for home-buying and wholesaling teams. Small changes done the same week. US hours, NDA first.
 Connect your Salesforce or GoHighLevel to Climbmark for free and look back 13 weeks.
 What's stuck in your Salesforce right now?
 Pick one to see what I do about it.
@@ -80,7 +80,7 @@ Months 2 to 3: changes get fast Requests go straight to me and get done that wee
 Months 4 to 12: I'm the person you call A new market, a new lead source, a new hire, a broken alert. Each one is handled as it comes, and once a quarter we remove what the team stopped using.
 “Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.”
 Founder, a two-market home-buying company in Ohio
-Independent Salesforce CRM consultant since 2024
+Salesforce work for investor teams in Ohio and Pennsylvania since 2024
 Salesforce Certified Administrator and Platform App Builder · Trailhead Double Star Ranger
 You work with me directly
 Based in Cairo, working US hours: 9am to 6pm Eastern, Monday to Friday . I reply within one business day.
@@ -101,7 +101,7 @@ Monthly block of hours that rolls over
 Monthly report
 New-hire setup and training
 Today Every change waits on a developer ticket, or on someone with time.
-With me What I do for a home-buying company in Ohio: new hires, fixes and reports, done the same week.
+With me What I do for a home-buying company in Ohio: new-hire setup, fixes and reports, done the same week.
 Full Implementation
 Per project Quoted after a free call
 A new build, a rebuild of an org someone else set up, or a move from Podio, REsimpli or GoHighLevel: lead routing, acquisitions, a transaction board, dashboards and training.
@@ -122,10 +122,10 @@ Today The answers are in the CRM, and nobody has time to dig them out.
 With Climbmark A plan for the week from your own numbers, every Monday.
 Outgrowing Podio, REsimpli or spreadsheets? You need a move to Salesforce: I map what you track, move the data and build around how your team works.
 Proof · A two-market home-buying company in Ohio
-The work I did for a home-buying company in Ohio
+The work I do for a home-buying company in Ohio
 A home-buying company in Columbus and Cincinnati, Ohio. For two years I've been the person they call when anything in Salesforce needs to change: a new market, a new lead source, a new hire, a broken alert.
-You're seeing the common problem at investor teams. Flip to see the work I did in Ohio.
-You're seeing the work I did in Ohio. Flip back to see the common problem.
+Each card shows a common problem at investor teams. Flip it to see how I handled it for the Ohio team.
+You're seeing how I handled it for the Ohio team. Flip back to see the common problem.
 Marketing ROI
 What owners say
 “I don't know my real cost per deal.”
@@ -181,8 +181,8 @@ New-hire setup, access, fixes and reports, handled the same week they're asked f
 What it changed
 The team keeps working, with no ticket queue and no full-time admin hire.
 Also
-A real estate acquisition company
-Real estate acquisition · Pennsylvania
+A real estate acquisition company in Pennsylvania
+Real estate acquisition · 2024 to 2025
 Built
 50+ delivered requests, including a campaign ROI dashboard with 25 funnel metrics, lead source tagged from call-tracking numbers, and a rebuilt transaction coordination app.
 What it changed
@@ -773,7 +773,7 @@ RCDailyCallLogSync.cls — Schedulable class that runs at 2 AM daily, authentica
 RCNextUserScheduler.cls — Queueable class that chains user processing with a 2-minute delay between users, preventing API governor limit violations
 Why Chained Processing?
 RingCentral rate-limits API requests. If you try to sync 15 users' call logs simultaneously, you'll hit rate limits. The solution: process one user at a time, with a 2-minute delay between users via chained Queueable jobs. Each job processes one user's calls, then enqueues the next user's job with a delay.
-This is a sync like the one I built: it takes manual call logging off the team. See the full case study →
+I built a sync like this for a home-buying company in Ohio. Reps stopped logging calls by hand. See the full case study →
 Authenticating with RingCentral
 RingCentral uses OAuth 2.0. The integration stores the access token in Salesforce Custom Settings or Named Credentials and refreshes it as needed. Each API call fetches call logs for a specific extension (stored as a custom field on the Salesforce User record) for the previous day:
 Creating Salesforce Tasks from Call Logs
