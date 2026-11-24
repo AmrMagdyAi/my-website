@@ -13,7 +13,7 @@ Usage: python3 scripts/guide_look.py [page.html ...]   (no arguments: every page
 import glob, os, re, sys
 os.chdir(os.path.join(os.path.dirname(__file__), '..'))
 
-BOOK = 'https://calendly.com/amr-magdy-crm/30min'
+BOOK = 'https://calendly.com/amr-magdy-crm/15-minute-climbmark-setup-help'
 MENU = [('about.html', 'About'), ('./#services', 'Services'), ('./#cases', 'Proof'),
         ('resources.html', 'Free tools'), ('blog.html', 'Guides'), ('climbmark.html', 'Climbmark')]
 MOON = '<svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>'
@@ -39,7 +39,7 @@ def header(page):
   <a class="brand" href="./"><b>Amr Magdy</b><span>Salesforce CRM Consultant</span></a>
   <nav class="nav" id="nav" aria-label="Main">
 {links}
-    <a class="btn nav-cta" href="{BOOK}" target="_blank" rel="noopener" data-book>Book a free 30-min call</a>
+    <a class="btn nav-cta" href="{BOOK}" target="_blank" rel="noopener" data-book>Book a free 15-min call</a>
   </nav>
   <div class="top-act">
     <button class="icon-btn theme" id="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">

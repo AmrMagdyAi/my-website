@@ -5,7 +5,7 @@
 (function(){
   'use strict';
   var d=document, root=d.documentElement, body=d.body;
-  var BOOK='https://calendly.com/amr-magdy-crm/30min';
+  var BOOK='https://calendly.com/amr-magdy-crm/15-minute-climbmark-setup-help';
   function ev(name,params){
     if(!window.gtag) return;
     params=params||{}; params.page_path=location.pathname;
@@ -194,7 +194,7 @@
         .then(function(j){
           if(!(j&&j.success)) throw new Error('send');
           st.className='status ok'; st.textContent='Thanks, got it. I’ll reply within one working day. Want to move faster? ';
-          st.appendChild(book('Pick a time for a free 30-minute call','form-success'));
+          st.appendChild(book('Pick a time for a free 15-minute call','form-success'));
           st.appendChild(d.createTextNode('.'));
           ev('generate_lead',{method:'form',form:name});
           form.reset();

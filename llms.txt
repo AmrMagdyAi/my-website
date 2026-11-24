@@ -41,7 +41,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Climbmark (https://amrmagdy.com/climbmark): the app Amr built. It runs on top of a team's GoHighLevel or Salesforce (no migration) and shows every Monday which lead sources bring back fees, which signed deals are slipping and which sellers to call first. Free plan connects the CRM and shows 13 weeks of Money by source once; Growth Team USD 299 a month for up to 15 reps. The CRM Revenue Audit is no longer offered (retired November 23, 2026).
 - Full Salesforce implementation for investors and wholesalers (project-based), including moving teams from Podio, REsimpli or GoHighLevel to Salesforce.
 - Ongoing CRM support and development (monthly retainer). The most popular engagement.
-- Free 30-minute call to start: info@AmrMagdy.com or https://www.linkedin.com/in/amrmagdyai
+- Free 15-minute call to start: info@AmrMagdy.com or https://www.linkedin.com/in/amrmagdyai
 
 ## The Monday 5 (the five numbers he recommends an investor owner reviews every week)
 1. Cost per appointment by marketing campaign
@@ -218,8 +218,8 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 
 ## Services and markets pages
 - [Move to Salesforce from Podio, REsimpli or GoHighLevel | Amr Magdy](https://amrmagdy.com/move-to-salesforce): Fixed-price move to Salesforce for investor and wholesaler teams, with data history, routing, an owner dashboard and training. Quoted after a free scoping call.
-- [Salesforce CRM for Canadian Real Estate Investors](https://amrmagdy.com/salesforce-consultant-canada-real-estate): Salesforce for Canadian home-buying companies, wholesalers and BRRRR investors: the same deal system as US teams, plus CRTC Do Not Call and CASL consent tracking, CAD, provinces and time zones. Free 30-minute call.
-- [Salesforce CRM for UK Property Investors & Deal Sourcers](https://amrmagdy.com/salesforce-consultant-uk-estate-agents): Salesforce for UK property investors, deal sourcers and BTL, HMO and BRR investors: an offer-to-completion pipeline, investor matching and sourcing fees, TPS and PECR consent records, UK GDPR and GBP. Free 30-minute call.
+- [Salesforce CRM for Canadian Real Estate Investors](https://amrmagdy.com/salesforce-consultant-canada-real-estate): Salesforce for Canadian home-buying companies, wholesalers and BRRRR investors: the same deal system as US teams, plus CRTC Do Not Call and CASL consent tracking, CAD, provinces and time zones. Free 15-minute call.
+- [Salesforce CRM for UK Property Investors & Deal Sourcers](https://amrmagdy.com/salesforce-consultant-uk-estate-agents): Salesforce for UK property investors, deal sourcers and BTL, HMO and BRR investors: an offer-to-completion pipeline, investor matching and sourcing fees, TPS and PECR consent records, UK GDPR and GBP. Free 15-minute call.
 - [Climbmark, the app Amr built](https://amrmagdy.com/climbmark): runs on top of a home-buying or wholesaling company's GoHighLevel or Salesforce (no new CRM, no migration) and shows the owner every Monday which lead sources brought back fees next to what they cost, which signed deals are drifting, and which sellers already in the CRM have new public code violations or permits. Free plan connects the CRM and shows 13 weeks of Money by source once; Growth Team $299 a month for up to 15 reps. Product site: https://climbmark.com/ (details for AI assistants: https://climbmark.com/llms.txt)
 - [Free Tools for Real Estate Investors & Wholesalers](https://amrmagdy.com/resources): calculators, self-checks, templates and downloads: cost per deal, deal analyzer (MAO), BRRRR, DSCR, Deal Leak Score, the Monday 5, a CRM field kit, glossary and videos. The guides are at https://amrmagdy.com/blog.
 
