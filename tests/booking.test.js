@@ -1,4 +1,4 @@
-// Run: node tests/booking.test.js. Checks booking.js turns call buttons into the Calendly link and keeps campaign tags.
+// Run: node tests/booking.test.js. Checks booking.js turns call buttons into a same-tab link to /book (the inline calendar) and keeps campaign tags.
 const fs = require('fs'), assert = require('assert');
 const src = fs.readFileSync(__dirname + '/../booking.js', 'utf8');
 function run(search, path, anchors, store) {
@@ -9,14 +9,15 @@ function run(search, path, anchors, store) {
   eval(src);
 }
 function a(href, text, attrs = {}) {
-  const o = { href, textContent: text, attrs, getAttribute(k) { return k === 'href' ? this.href : (this.attrs[k] || null); }, hasAttribute(k) { return k in this.attrs; }, closest() { return null; }, addEventListener() {} };
+  const o = { href, textContent: text, attrs, getAttribute(k) { return k === 'href' ? this.href : (this.attrs[k] || null); }, hasAttribute(k) { return k in this.attrs; }, removeAttribute(k) { delete this.attrs[k]; if (k === 'target') this._t = undefined; }, closest() { return null; }, addEventListener() {} };
   Object.defineProperty(o, 'target', { set(v) { o._t = v; }, get() { return o._t; } });
   return o;
 }
 // 1 the button text on the 44 calculator and guide pages matches
 for (const t of ['Book a free 15-minute call', 'Book a free 15-min call', 'Book a free call']) {
   const x = a('./#contact', t); run('', '/dscr-calculator', [x], {});
-  assert(x.href.startsWith('https://calendly.com/amr-magdy-crm/15-minute-climbmark-setup-help?'), t + ' not turned into the calendar link');
+  assert(x.href.startsWith('/book?'), t + ' not turned into the /book link: ' + x.href);
+  assert(x.target !== '_blank', t + ' opens a new tab; /book must open in the same tab');
   assert(x.href.includes('utm_source=amrmagdy.com') && x.href.includes('utm_campaign=dscr_calculator'), 'default tags: ' + x.href);
 }
 // 2 a link that is not a call button is left alone

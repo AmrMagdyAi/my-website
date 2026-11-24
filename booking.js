@@ -1,11 +1,13 @@
 /* Direct booking and deposit links for amrmagdy.com. Set the two URLs below; leave one empty and the site falls back to the contact form. */
 (function(){
 var BOOK_URL='https://calendly.com/amr-magdy-crm/15-minute-climbmark-setup-help';     // Calendly / Cal.com link for the free 15-minute call
+var BOOK_PAGE='/book';  // call buttons open this page in the same tab: the calendar sits on it, and a booking there fires the GA4 book_call event (book.html)
 var DEPOSIT_URL='';  // payment link for a paid project deposit; empty on purpose
 window.AMR_LINKS={book:BOOK_URL,deposit:DEPOSIT_URL};
 var CALL=/free (\d+[- ]?min(ute)?s? )?call/i;
 function ev(m,p){if(window.gtag)gtag('event','generate_lead',{method:m,position:p,page_path:location.pathname});}
 function ext(a,u,m,p){a.href=u;a.target='_blank';a.rel='noopener';a.addEventListener('click',function(){ev(m,p);});}
+function own(a,u,m,p){a.href=u;a.removeAttribute('target');a.addEventListener('click',function(){ev(m,p);});}
 // where on the page the link sits: data-book="name" if set, otherwise the nearest section, header, footer or bar
 function pos(a){var v=a.getAttribute('data-book');if(v)return v;var s=a.closest&&a.closest('#nav,.mcta,.switchbar,footer,header,section,article,aside');return s?(s.id||String(s.className).split(' ')[0]||s.tagName.toLowerCase()):'page';}
 // Calendly keeps UTM tags on each booking, so every booked call shows the page and button it came from.
@@ -24,7 +26,7 @@ function run(){
  if(BOOK_URL){
   document.querySelectorAll('a[href]').forEach(function(a){
    var h=a.getAttribute('href');
-   if(a.hasAttribute('data-book')||(/(^|index\.html|\.\/)#contact$/.test(h)&&CALL.test(a.textContent))){var p=pos(a);ext(a,utm(BOOK_URL,p),'booking',p);}
+   if(a.hasAttribute('data-book')||(/(^|index\.html|\.\/)#contact$/.test(h)&&CALL.test(a.textContent))){var p=pos(a);own(a,utm(BOOK_PAGE,p),'booking',p);}
   });
  }
  document.querySelectorAll('[data-book-only],[data-deposit-only]').forEach(function(el){
