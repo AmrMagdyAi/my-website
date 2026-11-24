@@ -8165,8 +8165,8 @@ Pick one rule and keep it. Most teams credit the first source that brought the s
 Why do my lead source reports never match my bank account?
 Usually because fees are recorded outside the CRM, contracts that fell through still count as wins, or the source on the lead was not carried to the deal. Fix those three and the report starts to match what the title company paid you.
 Related guides
-Want this table every Monday without building it?
-Your CRM already has the answers. Connect your GoHighLevel or Salesforce to Climbmark and every Monday it shows you the fees kept per lead source and which signed deals are slipping, counted the same way every week. You type in spend; the rest comes from your CRM.
+This table every week, without building it
+Climbmark reads your GoHighLevel or Salesforce and shows the fees kept per lead source and which signed deals are slipping, counted the same way every week. You type in spend; the rest comes from your CRM.
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
