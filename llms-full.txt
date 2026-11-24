@@ -13,11 +13,12 @@ Your Salesforce person, for home-buying and wholesaling teams
 Integrations, automation, reports and the everyday changes, from one person who has run a home-buying company's Salesforce for two years. Monthly, without hiring an admin.
 On the call we connect your CRM to look at your last 13 weeks of money by lead source.
 Salesforce work for Central City Solutions and Pezon Properties . Changes done the same week. US hours, NDA first.
-Want a first look at your own numbers? Connect your CRM to Climbmark free and look back 13 weeks.
+Connect your Salesforce or GoHighLevel to Climbmark for free and look back 13 weeks.
 What's stuck in your Salesforce right now?
 Pick one to see what I do about it.
 "Sellers call back and nobody calls them."
 Lead routing, missed-call alerts and follow-up queues, so every new lead has an owner and a next step within minutes.
+On Climbmark, the sellers worth another call show up at the top of your list on Monday.
 Who keeps your Salesforce working?
 Most 10 to 50 person teams can't justify a full-time admin. Here's what else there is.
 A full-time admin
@@ -64,6 +65,11 @@ Covers
 Integrations, automation, reports and admin
 If they leave
 Everything is written down, so you are never stuck
+Two other options owners ask about: an offshore admin who still needs you to direct them, and moving to an all-in-one investor CRM, which means rebuilding what you already have. Compare this to the cost of one lost deal instead of an hourly rate.
+Climbmark finds it. I fix it.
+Which lead sources pay you back Climbmark shows it on Monday. I fix the CRM setup that caused the leak.
+Which signed deals are slipping Climbmark flags them on Monday. I fix the step that keeps dropping them.
+What your CRM can't tell you When a number looks wrong, I find why and fix it in your Salesforce or GoHighLevel.
 How working together works
 1. You tell me what changed A new hire, a new source, something broken. Slack or email, no ticket system, no form.
 2. I make the change that week Built so ops can switch it on or off later, and written down so another admin could take it over.
@@ -258,6 +264,7 @@ Most focused builds take 6 to 12 weeks, scoped up front: the design first, then 
 Next Monday
 Make next Monday the one you can trust.
 Book a free 15-minute call and tell me how your team works today, on Salesforce, Podio, REsimpli, GoHighLevel or spreadsheets. We'll find the quick wins and the right next step. No pressure.
+On the call we connect your CRM to look at your last 13 weeks of money by lead source.
 info@AmrMagdy.com I reply within one working day
 Message me on WhatsApp +20 103 327 5250
 Connect on LinkedIn linkedin.com/in/amrmagdyai
