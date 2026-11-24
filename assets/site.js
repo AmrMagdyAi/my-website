@@ -23,7 +23,7 @@
     var dark=root.getAttribute('data-theme')!=='dark';
     if(dark) root.setAttribute('data-theme','dark'); else root.removeAttribute('data-theme');
     try{localStorage.setItem('theme',dark?'dark':'light');}catch(e){}
-    try{document.cookie='theme='+(dark?'dark':'light')+';path=/;max-age=31536000;SameSite=Lax';}catch(e){}
+    try{document.cookie='theme=;path=/;max-age=0;SameSite=Lax';}catch(e){} /* the theme is kept in browser storage only, no cookie */
     /* last resorts for browsers that block storage and cookies: this tab's session storage and its window name */
     try{sessionStorage.setItem('theme',dark?'dark':'light');}catch(e){}
     try{if(!window.name||/^theme-/.test(window.name))window.name='theme-'+(dark?'dark':'light');}catch(e){}
@@ -170,7 +170,7 @@
       var subject=form.querySelector('input[name="subject"]'), lines=[];
       Object.keys(FIELDS).forEach(function(k){ var v=fd.get(k); if(v) lines.push(FIELDS[k]+': '+v); });
       if(fd.get('message')) lines.push('',fd.get('message'));
-      st.className='status err'; st.textContent='That didn’t go through. Please ';
+      st.className='status err'; st.setAttribute('role','alert'); st.textContent='That didn’t go through. Please ';
       var mail=link('mailto:info@AmrMagdy.com?subject='+encodeURIComponent(subject?subject.value:'Website inquiry')+'&body='+encodeURIComponent(lines.join('\n')),'email it to me instead');
       /* counted as a form lead, not as a plain email click from the page-wide listener */
       mail.addEventListener('click',function(e){ e.stopPropagation(); ev('generate_lead',{method:'form_mailto',form:name}); });
@@ -188,7 +188,7 @@
       fd.delete('website');
       /* aria-disabled rather than disabled, so focus stays on the button */
       busy=true; if(btn) btn.setAttribute('aria-disabled','true');
-      st.className='status'; st.textContent='Sending…';
+      st.className='status'; st.setAttribute('role','status'); st.textContent='Sending…';
       fetch('https://api.web3forms.com/submit',{method:'POST',headers:{Accept:'application/json'},body:fd})
         .then(function(r){ return r.json(); })
         .then(function(j){

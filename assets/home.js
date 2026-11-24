@@ -5,6 +5,7 @@
     var k=b.getAttribute('data-k');
     chips.forEach(function(x){ x.setAttribute('aria-pressed',x===b?'true':'false'); });
     panes.forEach(function(p){ p.hidden=p.getAttribute('data-k')!==k; });
+    var live=d.getElementById('pick-live'); if(live) live.textContent='Showing: '+b.textContent;
     try{ if(window.gtag) gtag('event','stuck_pick',{problem:k}); }catch(e){}
   }); });
 })(document);

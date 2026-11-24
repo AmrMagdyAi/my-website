@@ -6,6 +6,7 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-66PK4JKWSF"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{(function(c){if(c==='granted'||c==='denied')gtag('consent','update',{analytics_storage:c});})(localStorage.getItem('ga_consent'));}catch(e){}gtag('js',new Date());gtag('config','G-66PK4JKWSF',{page_location:location.href.replace(/\/index\.html(?=[?#]|$)/,'/')});</script>
+<script src="assets/consent.js" defer></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <script>(function(r){try{if((function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t)try{var m=document.cookie.match(/(?:^|; )theme=(\w+)/);t=m&&m[1]}catch(e){}if(!t)try{t=sessionStorage.getItem('theme')}catch(e){}if(!t&&/^theme-(dark|light)$/.test(window.name))t=window.name.slice(6);return t})()==='dark')r.setAttribute('data-theme','dark');}catch(e){}})(document.documentElement);</script>
 <title>Book a free 15-minute call | Amr Magdy</title>
@@ -69,8 +70,8 @@ p{margin:0 0 24px;color:var(--ink2)}
    Calendly keeps UTM tags on each booking. The page passes on its own utm_* tags; without them it names the site the visit came from ("linkedin" for LinkedIn) with medium "book_page". */
 (function(){
 var q=new URLSearchParams(location.search),r=document.referrer,t={};
-['utm_source','utm_medium','utm_campaign','utm_content'].forEach(function(k){var v=q.get(k);if(v)t[k]=v;});
-if(!t.utm_source)t.utm_source=/linkedin|lnkd\.in/i.test(r)?'linkedin':(r.split('/')[2]||'direct');
+['utm_source','utm_medium','utm_campaign','utm_content'].forEach(function(k){var v=(q.get(k)||'').slice(0,64);if(/^[A-Za-z0-9._ -]+$/.test(v))t[k]=v;});
+if(!t.utm_source)t.utm_source=/linkedin|lnkd\.in/i.test(r)?'linkedin':((r.split('/')[2]||'direct').slice(0,64).replace(/[^A-Za-z0-9._-]/g,''))||'direct';
 if(!t.utm_medium)t.utm_medium='book_page';
 var url='https://calendly.com/amr-magdy-crm/15-minute-climbmark-setup-help?'+Object.keys(t).map(function(k){return k+'='+encodeURIComponent(t[k]);}).join('&');
 document.getElementById('go').href=url;
