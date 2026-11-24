@@ -105,7 +105,7 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 </div></div>
 <section class="ab"><div class="wrap">
 <p>Zapier is the right tool when you're connecting two systems that don't have a native integration. But when your Salesforce org has matured and you're using Zapier primarily to send Slack messages from Salesforce, create tasks, or trigger emails — you're paying for a middleman you don't need.</p>
-<p>At Central City Solutions, Zapier API limits were being hit every month. The team was getting "Zap limit exceeded" errors at critical moments — when new leads came in, when deals moved to under contract. I was asked to investigate, and what I found was that most of their Zaps were doing things that Salesforce could do natively, better, and for free.</p>
+<p>At a two-market home-buying company in Ohio, Zapier API limits were being hit every month. The team was getting "Zap limit exceeded" errors at critical moments — when new leads came in, when deals moved to under contract. I was asked to investigate, and what I found was that most of their Zaps were doing things that Salesforce could do natively, better, and for free.</p>
 <div class="sr">
   <div class="sb"><div class="sb-n">Native</div><div class="sb-l">Zaps moved to Salesforce Flows</div></div>
   <div class="sb"><div class="sb-n">0</div><div class="sb-l">API limit errors post-migration</div></div>
@@ -121,14 +121,14 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 </ul>
 <p>Only a fraction of the Zaps were doing what Zapier is actually designed for: connecting Salesforce to external systems that don't have a Salesforce integration (Facebook Lead Ads, external forms, Google Sheets).</p>
 <div class="co"><p>The rule I now apply: if both the trigger AND the action are in Salesforce, or if the action is in a system with a Salesforce-native connector, Zapier is unnecessary. Zapier earns its place when connecting to external systems without native Salesforce integrations.</p></div>
-<div class="co co-case"><p>I migrated their Zaps to native Flows at <strong>Central City Solutions</strong> — the founder called the work &ldquo;drastic improvements&rdquo; in a written referral. <a href="./#cases" style="color:var(--sf);font-weight:700">See the full case study →</a></p></div>
+<div class="co co-case"><p>I migrated their Zaps to native Flows for a two-market home-buying company in Ohio — the founder called the work &ldquo;drastic improvements&rdquo; in a written referral. <a href="./#cases" style="color:var(--sf);font-weight:700">See the full case study →</a></p></div>
 <h2>The Migration Process</h2>
 <h3>Step 1: Audit every Zap</h3>
 <p>Export a list of all active Zaps and categorize by: trigger system, action system, and whether Salesforce is on both ends. In this case, most of the Zaps had Salesforce on both sides. Those were all migration candidates.</p>
 <h3>Step 2: Map Zap logic to Salesforce objects</h3>
 <p>For each Zap being migrated, document the trigger condition, any filters, and the exact action. A Zap that says "When Opportunity Stage = Under Contract → Send Slack to #transactions-channel with message: 'New contract at {Property Address}'" maps directly to a Record-Triggered Flow on Opportunity.</p>
 <h3>Step 3: Set up the Salesforce-Slack direct integration</h3>
-<p>Central City Solutions had been using Zapier as the Slack bridge for years. Setting up Salesforce's native Slack integration (available in AppExchange or via the Salesforce for Slack app) was a one-time configuration that unlocked direct Slack messaging from any Flow — with no Zap usage, no delay, no API limits.</p>
+<p>That company had been using Zapier as the Slack bridge for years. Setting up Salesforce's native Slack integration (available in AppExchange or via the Salesforce for Slack app) was a one-time configuration that unlocked direct Slack messaging from any Flow — with no Zap usage, no delay, no API limits.</p>
 <h3>Step 4: Build the Flows</h3>
 <p>Each migrated Zap became a Record-Triggered Flow. The advantage over Zapier: Salesforce Flows run in real time (not on Zapier's polling interval, which can be 2-15 minutes). A lead coming in from Facebook now triggered a Slack notification in seconds instead of minutes.</p>
 <h3>Step 5: Test in parallel, then deactivate Zaps</h3>
