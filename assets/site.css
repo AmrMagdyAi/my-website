@@ -420,7 +420,7 @@ body.with .pair{border-color:var(--teal-line)}
 
 /* audit page */
 .audit-hero .kicker .tag{margin-right:10px;vertical-align:1px}
-.audit-hero h1 em{font-style:italic;color:var(--rose)}
+.audit-hero h1 em{font-style:italic;color:var(--teal)}
 .audit-hero .lede p+p{margin-top:12px}
 .status-line{margin-top:24px;max-width:34em}
 .status-line .st{padding:14px 16px;border-radius:14px;border-left:4px solid}
@@ -661,3 +661,5 @@ body:not(.touched) .sw{animation:swpulse 2.2s ease-in-out 1.2s 4}
 .how li b{display:block;font:400 1.25rem/1.2 var(--f-head);margin-bottom:8px}
 .how li span{color:var(--ink2);font-size:.97rem;line-height:1.5}
 @media (max-width:760px){.how ol{grid-template-columns:minmax(0,1fr)}}
+
+.tools .pillar{display:block;width:72px;height:72px;margin:0 0 10px}
