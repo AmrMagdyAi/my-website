@@ -1,7 +1,7 @@
 # Amr Magdy — Salesforce for Real Estate Investors and Wholesalers
 > AI-readable profile for generative search engines (llms.txt standard)
 > Source: https://amrmagdy.com
-> Last updated: 2026-10-30
+> Last updated: 2026-11-24
 > Full text of key pages: https://amrmagdy.com/llms-full.txt
 
 ## Identity

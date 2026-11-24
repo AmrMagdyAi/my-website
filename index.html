@@ -381,7 +381,8 @@
       <button type="button" class="chip-pick" data-k="grow" aria-pressed="false">New reps or a new market</button>
       <button type="button" class="chip-pick" data-k="messy" aria-pressed="false">Not sure, it's just messy</button>
     </div>
-    <div class="panel" aria-live="polite">
+    <p class="sr" id="pick-live" role="status"></p>
+    <div class="panel" id="pick-panel">
       <div class="pane" data-k="leads">
         <p class="say">"Sellers call back and nobody calls them."</p><span class="lbl">What I do</span><p>Lead routing, missed-call alerts and follow-up queues, so every new lead has an owner and a next step within minutes.</p>
         <div class="ctas"><a class="btn" href="https://calendly.com/amr-magdy-crm/15-minute-climbmark-setup-help" target="_blank" rel="noopener" data-book="stuck_leads">Talk it through on a free call</a><a class="alt" href="missed-call-alerts-salesforce">How missed-call alerts work &rarr;</a></div>
@@ -515,6 +516,7 @@
     <div class="flip"><p class="st b">You're seeing the common problem at investor teams. Flip to see what I built at Central City and what it changed.</p><p class="st a">You're seeing what I built at Central City and what it changed. Flip back to see the common problem.</p></div>
     <button type="button" class="btn sm" data-flip><span class="flip in"><span class="st b">Show what I built</span><span class="st a">Show the problem</span></span></button>
   </div>
+  <p class="sr" id="sw-live" role="status"></p>
   <div class="pairs">
     <article class="pair" style="--d:0">
       <header><h3>Marketing ROI</h3><span class="chip flip in"><span class="st b">At most teams</span><span class="st a">At Central City</span></span></header>
