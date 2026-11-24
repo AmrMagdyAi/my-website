@@ -3383,7 +3383,7 @@ Lead counts include wrong numbers, tire-kickers and duplicates. An appointment m
 Can I track these without Salesforce?
 Yes, in any CRM that keeps lead source on the record from first contact to closing and logs calls with timestamps. The hard part is usually attribution: making sure the source survives from lead to contract to closed deal.
 Work out your numbers
-Cost per deal by lead source · Missed seller call cost · Glossary
+Cost per deal by lead source · Which lead source makes money · Missed seller call cost · Glossary
 Build it in Salesforce
 KPIs for every role on the team · Pipeline dashboard guide · Which campaign gets credit? · 20 report recipes for wholesalers · 15 automation recipes
 Want all five on one Salesforce dashboard?
@@ -6547,7 +6547,7 @@ CallRail: Salesforce integration
 CallRail: fields sent to Salesforce
 PropStream: export a lead list
 Related
-Which campaign gets credit? · Google Ads offline conversions · Duplicate sellers in Salesforce · All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Cost per deal calculator · Kept deal map · Driving for dollars
+Which campaign gets credit? · Which lead source makes money · Google Ads offline conversions · Duplicate sellers in Salesforce · All Salesforce integrations for investors · Salesforce features for investors · Real estate CRM guide · Cost per deal calculator · Kept deal map · Driving for dollars
 Last updated October 2026. Product names, editions and limits change; check the linked source before you rely on one. Not legal advice.
 Want every lead tagged from click to close?
 I build Salesforce for real estate investors and wholesalers and connect it to the tools you already use. Start with a free 15-minute call, or connect your CRM to Climbmark free.
@@ -8104,6 +8104,71 @@ On Podio, REsimpli or spreadsheets? See how a move to Salesforce works . On GoHi
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
+## Which Lead Source Makes Money? Profit Per Source for Wholesalers
+URL: https://amrmagdy.com/which-lead-source-makes-money
+
+Which lead source actually makes money? Count fees collected, not leads.
+Most wholesaling owners can say what each lead source costs. Far fewer can say what each one brings back. The usual report ranks sources by cost per lead or by contracts signed, and both can point the wrong way: a cheap source can fill the pipeline with sellers who never sign, and a contract is not a fee until the title company pays it. This guide shows the four counts to keep per source, a worked example, the CRM gaps that skew the result, and a Monday check you can run on your own records.
+A lead source makes money when the assignment fees you collected from its deals are higher than what you spent on it over the same period. To see it, record the source on every lead at first contact, carry it to the deal, record the fee when the deal closes, and enter spend per source each month. Then compare fees collected per dollar spent, using leads old enough to have closed.
+Why does cost per lead point the wrong way?
+Cost per lead measures what it costs to make the phone ring. It says nothing about whether those sellers sign, whether the contracts hold, or how big the fees are. Two sources with the same cost per lead can be very different businesses: one brings sellers who are shopping for a retail price, the other brings sellers who need to sell this month.
+Contracts signed is closer, but still not money. Contracts fall through for title problems, inspection surprises, a seller who changes their mind or a buyer who walks. If a source signs plenty of contracts that later die, a contract count makes it look better than it is. The only count that matches the bank account is fees collected at closing.
+What should you count for each lead source?
+Count | What it is | Where it comes from
+Spend | What you paid for that source in the period: mail, ads, list and data costs, a lead vendor's fee. | Your invoices, entered per source per month.
+Leads | New sellers who came in from that source. | The lead source field on each lead.
+Signed contracts | Deals that reached a signed purchase agreement. | Deals carrying the same source as the lead.
+Fees collected | Assignment fees or spread actually received on closed deals. | A fee field filled in when the deal closes.
+From those four you get the ratios that matter: fees collected minus spend (what the source made), fees collected per dollar spent (how hard each dollar works), and contracts that closed out of contracts signed (how well the source's deals hold). Cost per lead and cost per contract are still useful, as early warnings, before enough deals have closed to judge.
+A worked example
+The numbers below are made up to show the method. They are not from any real business.
+Source | Spend | Leads | Cost per lead | Signed | Closed | Fees collected | Fees minus spend
+Source A | $6,000 | 120 | $50 | 4 | 2 | $18,000 | $12,000
+Source B | $6,000 | 30 | $200 | 3 | 3 | $33,000 | $27,000
+On cost per lead, Source A looks four times better. On contracts signed, it still wins. On fees collected, Source B brought back nearly twice as much for the same spend, and after spend it made more than twice as much, because its contracts held and its deals were bigger. An owner who cut Source B to buy more of Source A would have made less money while every early report said the opposite.
+To run the same comparison on your own figures, the free cost per deal calculator works out cost per lead, per contract and per closed deal by source.
+How long should you wait before judging a source?
+Long enough for its leads to close. A seller who calls this week may sign next month and close the month after, and some sellers need several follow-ups over months before they are ready. If you judge a source on last month's leads, its fees have not arrived yet and every new source looks like a loss.
+Two habits help. First, compare sources on leads that are at least one full sales cycle old; a 13-week look back is a common starting point. Second, keep a dated reason on every dead deal and a re-contact date on every "not now" seller, so a source's late closings still get counted when they happen. See reactivating dead seller leads for how to keep those sellers from going cold.
+What skews the count?
+The source is blank or "Other". If the source is not set when the lead is created, it is usually never set. A large "Unknown" bucket hides the answer.
+The source gets overwritten. A rep changes it, or a second form fill replaces it. Lock the first source after it is set and record later touches separately; see which campaign gets credit .
+The source does not travel to the deal. In Salesforce this often breaks at lead conversion; in any CRM it breaks when the deal is created by hand. Then closed deals have no source at all.
+Fees live in a spreadsheet. If the fee is recorded only in a bookkeeping file, the CRM can count contracts but never money.
+Dead contracts still count as wins. A deal that fell through must leave the won column, with a reason. See why wholesale deals fall through .
+Spend is not entered. Without spend per source per month, fees cannot be compared with cost. It is one number per source per month, typed in by whoever pays the invoices.
+Calls are not tied to a source. Inbound calls from mail or signs need a tracking number per campaign, or they all land as "phone". See call tracking for investors .
+How do you set up the CRM so the count is right?
+Make lead source required on every new lead, from a fixed list, not free text.
+Lock it once set, and add a separate field or activity for later touches.
+Carry the source from the lead to the deal automatically, and check a few recent deals to make sure it arrived.
+Add a fee field that must be filled before a deal can be marked closed won.
+Require a reason when a signed deal dies, and move it out of the won column.
+Keep one spend record per source per month.
+On Salesforce, any custom source or campaign fields carry over at conversion only if they are mapped; getting every lead source into Salesforce walks through it. If your ads run on Google, offline conversions send closed deals back to the ad account so it learns from fees, not form fills.
+What should the Monday check look like?
+Once a week, look at one table: each source, its spend, leads, signed contracts, closed deals and fees collected over the last 13 weeks, plus how many leads have no source. Three questions come out of it:
+Which source brought back the most fees per dollar, and is it getting more budget?
+Which source has signed contracts that keep dying, and why?
+How many new leads came in with no source this week, and who entered them?
+If building that table takes you, a manager or a VA a couple of hours each week, that time is the cost of not having it in the CRM. The Monday 5 lists five KPIs worth looking at in the same meeting, including campaign ROI.
+Questions
+How do I know which lead source makes money in wholesaling?
+Count four things per source over the same period: what you spent, how many leads came in, how many contracts you signed and the assignment fees you actually collected at closing. Subtract spend from fees collected. The source with the highest fees collected per dollar spent makes the most money, whatever its cost per lead says.
+Is cost per lead a good way to compare lead sources?
+No, not on its own. A cheap source can fill the pipeline with sellers who never sign, and an expensive one can close at a much higher rate. Cost per lead tells you what the phone ringing costs, not what the business keeps.
+How long should I wait before judging a lead source?
+Long enough for its leads to close. Many seller leads take weeks or months to become a closed deal, so judge a source on leads that are at least one full sales cycle old, and look again as late deals close. A 13-week look back is a common starting point.
+Which lead source gets credit when a seller came through two channels?
+Pick one rule and keep it. Most teams credit the first source that brought the seller in and lock that field, then record later touches separately. Changing the rule month to month makes the sources impossible to compare.
+Why do my lead source reports never match my bank account?
+Usually because fees are recorded outside the CRM, contracts that fell through still count as wins, or the source on the lead was not carried to the deal. Fix those three and the report starts to match what the title company paid you.
+Related guides
+Want this table every Monday without building it?
+Your CRM already has the answers. Connect your GoHighLevel or Salesforce to Climbmark and every Monday it shows you the fees kept per lead source and which signed deals are slipping, counted the same way every week. You type in spend; the rest comes from your CRM.
+Or just ask one question about your setup: email · WhatsApp · LinkedIn
+
+---
 ## Wholesale Assignment Fee: Who Pays and How Much to Charge
 URL: https://amrmagdy.com/wholesale-assignment-fee
 
@@ -8272,7 +8337,7 @@ Cost per contract divides spend by signed purchase contracts. Cost per deal divi
 How do you calculate marketing ROI per lead source?
 ROI = (gross profit from closed deals − marketing spend) ÷ marketing spend. A channel with $20,000 of assignment fees on $5,000 of spend has a 300% ROI.
 Where should these numbers come from?
-From your CRM. Every lead needs a lead source, every contract and closed deal needs to be linked to the original lead, and spend needs to be logged per channel per month. If any link is missing, the numbers are guesses.
+From your CRM. Every lead needs a lead source, every contract and closed deal needs to be linked to the original lead, and spend needs to be logged per channel per month. If any link is missing, the numbers are guesses. The full check is in which lead source makes money .
 Why most wholesalers can't fill this in
 The usual gap is attribution: leads come in from mail, PPC, cold calls and texts, but the closed deal is never tied back to the original lead source in the CRM. That's the first thing Climbmark reads in your CRM, and it's the first check in the free Deal Leak Score .
 Want these numbers live in your CRM every Monday?

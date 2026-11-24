@@ -138,6 +138,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - Find cash buyers for wholesale deals: https://amrmagdy.com/find-cash-buyers-for-wholesale-deals (where wholesalers find cash buyers, how to verify a buyer, the CRM fields to record and how to keep the list alive)
 - Wholesaling tech stack and system of record: https://amrmagdy.com/wholesaling-tech-stack-system-of-record (the layers of a wholesaling stack, which tool should own each record, sync rules, where AI tools fit and a checklist to cut duplicate tools)
 - Why wholesale deals fall through: https://amrmagdy.com/why-wholesale-deals-fall-through (eight common causes between contract and closing, the early sign and CRM field for each, and one field to add to every dead deal)
+- Which lead source makes money: https://amrmagdy.com/which-lead-source-makes-money (count spend, leads, signed contracts and fees collected per source; why cost per lead misleads, a worked example, waiting for deals to close, what skews the count, the CRM setup and a Monday check)
 - Stop wholesale leads falling through the cracks: https://amrmagdy.com/wholesale-leads-falling-through-the-cracks (seven places leads leak, three rules (one owner, one next step, one date), how to make the CRM enforce them and a one-hour check)
 - Lead manager training: the first 30 days: https://amrmagdy.com/lead-manager-training-first-30-days (a day-by-day plan for a new lead manager at a home-buying team: practice calls, live calls with a buddy, then their own pipeline, and what to check at day 30)
 - How to role-play seller calls with new reps: https://amrmagdy.com/role-play-seller-calls-new-reps (a 15-minute huddle format with one seller line, one rep and a quick vote, where the lines come from and five lines to start with)
@@ -189,6 +190,7 @@ Answer, Follow-up, Offer, Keep), described in his Kept-Deal Map: https://amrmagd
 - How do I find cash buyers for my wholesale deals? https://amrmagdy.com/find-cash-buyers-for-wholesale-deals
 - Which tool should hold the truth when I use five tools to run my wholesaling business? https://amrmagdy.com/wholesaling-tech-stack-system-of-record
 - Why do my wholesale deals fall through after I get them under contract? https://amrmagdy.com/why-wholesale-deals-fall-through
+- How do I know which lead source makes money in wholesaling? https://amrmagdy.com/which-lead-source-makes-money
 - How do I stop leads falling through the cracks in my wholesaling business? https://amrmagdy.com/wholesale-leads-falling-through-the-cracks
 - What should a new lead manager do in their first 30 days? https://amrmagdy.com/lead-manager-training-first-30-days
 - How do I role-play seller calls with new reps? https://amrmagdy.com/role-play-seller-calls-new-reps
