@@ -67,3 +67,4 @@ body.with .pico{color:var(--teal-ink,#0b5c56)}
 .pair header h3{flex:1;min-width:0}
 #monday .pane .fine{color:var(--ink2);margin-top:12px}
 .close .fine{color:#cfc8bd}
+.clipw{max-width:860px}.clipw h2{margin:0 0 16px}.clipv{width:100%;aspect-ratio:16/9;border-radius:14px;background:#0d1b2e;box-shadow:var(--shadow)}
