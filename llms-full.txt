@@ -3996,7 +3996,7 @@ Who runs this site
 I'm Amr Magdy, an independent Salesforce CRM Consultant working from Cairo, Egypt, as Amr Magdy CRM Consulting. I decide what happens to the details collected here. Questions about them go to info@AmrMagdy.com .
 What I collect and why
 Forms. When you ask about a move to Salesforce, send a question or join the newsletter, I get what you type: your name and email, and where the form asks for them, your company, phone, CRM and message. Web3Forms delivers it to my inbox. I use it to reply, to send what you asked for and, if you joined the newsletter, to send the newsletter.
-Calls. When you book a call, Calendly takes your booking details on its own site and shares them with me so we can meet.
+Calls. When you book a call, Calendly takes your booking details and shares them with me so we can meet. On the booking page the calendar is shown on the page itself, so loading it connects your browser to Calendly. When a booking is made I count it, without your details, in my analytics if you accepted analytics cookies.
 Email, WhatsApp and LinkedIn. If you message me there, I get what you send. Those services have their own privacy rules.
 Visit counts. Google Analytics shows me which pages get read, which buttons and forms get used, your rough location (city or country), your device and browser, and the site that sent you. It doesn't tell me who you are. Form sends and booking clicks are counted there as leads, without names or emails.
 Cookies
