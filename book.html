@@ -32,6 +32,7 @@
 <meta name="twitter:image" content="https://amrmagdy.com/imgs/og-book.jpg?v=4">
 <meta name="twitter:image:alt" content="Book a free 15-minute call. Amr Magdy, Salesforce CRM Consultant for real estate investors">
 
+<link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
 <link rel="icon" type="image/svg+xml" href="imgs/fav.svg">
 <link rel="apple-touch-icon" href="imgs/apple-touch-icon.png">
 <link rel="preload" href="assets/fonts/dm-serif-display-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -46,12 +47,13 @@
 :root[data-theme="dark"]{--bg:#161412;--paper:#1f1c19;--ink:#f1ece5;--ink2:#c9c1b7;--line:#302b26;--rose:#dc9f9c;--teal:#4fc4b6;--teal-ink:#93e1d6;--on-accent:#0c1816;color-scheme:dark}
 *,*::before,*::after{box-sizing:border-box}
 body{margin:0;min-height:100vh;min-height:100svh;display:grid;place-items:center;padding:24px 16px;background:var(--bg);color:var(--ink);font:400 17px/1.55 'DM Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
-main{position:relative;overflow:hidden;width:100%;max-width:520px;padding:36px 28px 42px;text-align:center;background:var(--paper);border:1px solid var(--line);border-radius:14px}
+main{position:relative;overflow:hidden;width:100%;max-width:760px;padding:36px 20px 48px;text-align:center;background:var(--paper);border:1px solid var(--line);border-radius:14px}
 main::after{content:"";position:absolute;left:0;right:0;bottom:0;height:7px;background:linear-gradient(90deg,var(--rose) 50%,var(--teal) 50%)}
 .kicker{margin:0;font:600 13px/1.3 'DM Sans',system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2)}
 h1{margin:12px 0 10px;font:400 clamp(32px,7vw,42px)/1.08 'DM Serif Display',Georgia,'Times New Roman',serif;letter-spacing:-.01em}
 h1 em{font-style:italic;color:var(--teal);white-space:nowrap}
 p{margin:0 0 24px;color:var(--ink2)}
+#cal{min-width:320px;height:720px;margin:0 0 20px}
 .btn{display:inline-block;padding:13px 26px;border-radius:999px;background:var(--teal);color:var(--on-accent);font-weight:600;text-decoration:none}
 .btn:hover{background:var(--teal-ink)}
 .btn:focus-visible{outline:3px solid var(--teal-ink);outline-offset:3px}
@@ -61,11 +63,12 @@ p{margin:0 0 24px;color:var(--ink2)}
 <main>
 <p class="kicker">amrmagdy.com</p>
 <h1>Book a free <em>15-minute call</em></h1>
-<p>Opening my calendar on Calendly. If it doesn't open, use the button.</p>
-<a class="btn" id="go" href="https://calendly.com/amr-magdy-crm/15-minute-climbmark-setup-help?utm_source=amrmagdy.com&amp;utm_medium=book_page">Open the calendar</a>
+<p>Pick a time below. If the calendar doesn't load, use the button.</p>
+<div id="cal"></div>
+<a class="btn" id="go" href="https://calendly.com/amr-magdy-crm/15-minute-climbmark-setup-help?utm_source=amrmagdy.com&amp;utm_medium=book_page">Open the calendar in a new tab</a>
 </main>
 <script>
-/* For places that can't preview a Calendly link, like LinkedIn Featured: link crawlers read this page's tags, and people go straight on to the calendar.
+/* The calendar sits right on this page. Link crawlers (LinkedIn Featured) read this page's tags, and people book without leaving.
    Calendly keeps UTM tags on each booking. The page passes on its own utm_* tags; without them it names the site the visit came from ("linkedin" for LinkedIn) with medium "book_page". */
 (function(){
 var q=new URLSearchParams(location.search),r=document.referrer,t={};
@@ -74,9 +77,13 @@ if(!t.utm_source)t.utm_source=/linkedin|lnkd\.in/i.test(r)?'linkedin':((r.split(
 if(!t.utm_medium)t.utm_medium='book_page';
 var url='https://calendly.com/amr-magdy-crm/15-minute-climbmark-setup-help?'+Object.keys(t).map(function(k){return k+'='+encodeURIComponent(t[k]);}).join('&');
 document.getElementById('go').href=url;
-var gone=false;function go(){if(!gone){gone=true;location.replace(url);}}
-gtag('event','generate_lead',{method:'booking',position:'book_page',page_path:location.pathname,event_callback:go,event_timeout:700});
-setTimeout(go,800);
+window.addEventListener('message',function(e){
+  if(e.origin!=='https://calendly.com'||!e.data||e.data.event!=='calendly.event_scheduled')return;
+  gtag('event','book_call',{method:'calendly_inline',page_path:location.pathname});
+});
+var sc=document.createElement('script');sc.src='https://assets.calendly.com/assets/external/widget.js';sc.async=true;
+sc.onload=function(){try{Calendly.initInlineWidget({url:url,parentElement:document.getElementById('cal')});}catch(e){}};
+document.head.appendChild(sc);
 })();
 </script>
 </body>
