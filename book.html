@@ -72,14 +72,14 @@ p{margin:0 0 24px;color:var(--ink2)}
    Calendly keeps UTM tags on each booking. The page passes on its own utm_* tags; without them it names the site the visit came from ("linkedin" for LinkedIn) with medium "book_page". */
 (function(){
 var q=new URLSearchParams(location.search),r=document.referrer,t={};
-['utm_source','utm_medium','utm_campaign','utm_content'].forEach(function(k){var v=(q.get(k)||'').slice(0,64);if(/^[A-Za-z0-9._ -]+$/.test(v))t[k]=v;});
+['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].forEach(function(k){var v=(q.get(k)||'').slice(0,64);if(/^[A-Za-z0-9._: -]+$/.test(v))t[k]=v;});
 if(!t.utm_source)t.utm_source=/linkedin|lnkd\.in/i.test(r)?'linkedin':((r.split('/')[2]||'direct').slice(0,64).replace(/[^A-Za-z0-9._-]/g,''))||'direct';
 if(!t.utm_medium)t.utm_medium='book_page';
 var url='https://calendly.com/amr-magdy-crm/15-minute-climbmark-setup-help?'+Object.keys(t).map(function(k){return k+'='+encodeURIComponent(t[k]);}).join('&');
 document.getElementById('go').href=url;
 window.addEventListener('message',function(e){
   if(e.origin!=='https://calendly.com'||!e.data||e.data.event!=='calendly.event_scheduled')return;
-  gtag('event','book_call',{method:'calendly_inline',page_path:location.pathname});
+  gtag('event','book_call',{method:'calendly_inline',page_path:location.pathname,source:t.utm_source||'',campaign:t.utm_campaign||'',position:t.utm_content||''});
 });
 var sc=document.createElement('script');sc.src='https://assets.calendly.com/assets/external/widget.js';sc.async=true;
 sc.onload=function(){try{Calendly.initInlineWidget({url:url,parentElement:document.getElementById('cal')});}catch(e){}};
