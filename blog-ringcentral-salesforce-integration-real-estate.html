@@ -115,7 +115,7 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 </div></div>
 <section class="ab"><div class="wrap">
 <p>A real estate acquisition team makes dozens of calls per day — to motivated sellers, to follow up on leads, to check in on contracts. Logging all of those calls manually in Salesforce is hours of administrative work that takes agents away from their actual job. And if calls aren't logged, reports are wrong, accountability breaks down, and management can't see what's actually happening.</p>
-<p>At Central City Solutions, the team was using RingCentral as their phone system. Calls were being made but not consistently logged in Salesforce. The solution was a custom Apex integration that automatically pulls yesterday's call logs from RingCentral's API and creates Salesforce Task records — every day, at 2 AM, without any human involvement.</p>
+<p>At a two-market home-buying company in Ohio, the team was using RingCentral as their phone system. Calls were being made but not consistently logged in Salesforce. The solution was a custom Apex integration that automatically pulls yesterday's call logs from RingCentral's API and creates Salesforce Task records — every day, at 2 AM, without any human involvement.</p>
 <div class="sr">
   <div class="sb"><div class="sb-n">100%</div><div class="sb-l">Automated daily sync</div></div>
   <div class="sb"><div class="sb-n">0</div><div class="sb-l">Calls logged by hand</div></div>
@@ -143,7 +143,7 @@ public class RCDailyCallLogSync implements Schedulable {
         }
     }
 }</div>
-<div class="co co-case"><p>This Apex sync runs in production at <strong>Central City Solutions</strong> today — it eliminated all manual call logging for the team. <a href="./#cases" style="color:var(--sf);font-weight:700">See the full case study →</a></p></div>
+<div class="co co-case"><p>I built a sync like this for a home-buying company in Ohio. Reps stopped logging calls by hand. <a href="./#cases" style="color:var(--sf);font-weight:700">See the full case study →</a></p></div>
 <h2>Authenticating with RingCentral</h2>
 <p>RingCentral uses OAuth 2.0. The integration stores the access token in Salesforce Custom Settings or Named Credentials and refreshes it as needed. Each API call fetches call logs for a specific extension (stored as a custom field on the Salesforce User record) for the previous day:</p>
 <div class="code-block">// Fetch yesterday's call logs for one user
@@ -194,7 +194,7 @@ System.schedule(
 );</div>
 <p>After deployment, monitor via Setup → Scheduled Jobs. Check that Tasks are being created by running a Salesforce report filtered to Tasks created by the integration user with yesterday's date.</p>
 <h2>The Business Impact</h2>
-<p>Before this integration, call logging at Central City Solutions was inconsistent. Reports showed whatever agents remembered to log. After deployment: every call over 30 seconds was automatically logged, linked to the correct record, and searchable in Salesforce the next morning. Management could finally see actual call activity, not self-reported activity. The accuracy of acquisition performance reports improved immediately.</p>
+<p>Before this integration, call logging at a two-market home-buying company in Ohio was inconsistent. Reports showed whatever agents remembered to log. After deployment: every call over 30 seconds was automatically logged, linked to the correct record, and searchable in Salesforce the next morning. Management could finally see actual call activity, not self-reported activity. The accuracy of acquisition performance reports improved immediately.</p>
 <div class="co"><p>One unexpected benefit: because call recordings were now attached to the Salesforce Task and linked to the relevant Lead or Transaction record, the transaction coordination team could review seller conversations without asking agents to track down recordings manually.</p></div>
 <h2>What You Need to Implement This</h2>
 <p>To replicate this in your Salesforce org, you'll need: a RingCentral account with API access enabled (Platform plan or higher), RingCentral extension IDs mapped to Salesforce User records, Salesforce API access enabled for the integration user, and a Named Credential or Custom Setting to store the OAuth tokens securely. The Apex classes themselves need to be deployed to your org and the scheduled job activated.</p>

@@ -12,7 +12,7 @@ For US home buyers and wholesalers, most already on Salesforce
 Your Salesforce person, for home-buying and wholesaling teams
 Integrations, automation, reports and the everyday changes, from one person who has run a home-buying company's Salesforce for two years. Monthly, without hiring an admin.
 On the call we connect your CRM to look at your last 13 weeks of money by lead source.
-Salesforce work for Central City Solutions and Pezon Properties . Changes done the same week. US hours, NDA first.
+I'm an independent Salesforce consultant for home-buying and wholesaling teams. Small changes done the same week. US hours, NDA first.
 Connect your Salesforce or GoHighLevel to Climbmark for free and look back 13 weeks.
 What's stuck in your Salesforce right now?
 Pick one to see what I do about it.
@@ -79,9 +79,8 @@ Month 1: I learn your org I read what runs today: flows, integrations, who owns 
 Months 2 to 3: changes get fast Requests go straight to me and get done that week. Monitoring is on, the monthly report starts, and you get a short list of what I'd fix next.
 Months 4 to 12: I'm the person you call A new market, a new lead source, a new hire, a broken alert. Each one is handled as it comes, and once a quarter we remove what the team stopped using.
 “Amr has been helping us make drastic improvements in our Salesforce for the last six months… he's been 10× better to work with than the developers we used before.”
-Sean Grabow , Founder, Central City Solutions
-Salesforce work for
-Central City Solutions Pezon Properties Sylndr Conx Digital
+Founder, a two-market home-buying company in Ohio
+Salesforce work for investor teams in Ohio and Pennsylvania since 2024
 Salesforce Certified Administrator and Platform App Builder · Trailhead Double Star Ranger
 You work with me directly
 Based in Cairo, working US hours: 9am to 6pm Eastern, Monday to Friday . I reply within one business day.
@@ -102,7 +101,7 @@ Monthly block of hours that rolls over
 Monthly report
 New-hire setup and training
 Today Every change waits on a developer ticket, or on someone with time.
-With me What I do for Central City: new hires, fixes and reports, done the same week.
+With me What I do for a home-buying company in Ohio: new-hire setup, fixes and reports, done the same week.
 Full Implementation
 Per project Quoted after a free call
 A new build, a rebuild of an org someone else set up, or a move from Podio, REsimpli or GoHighLevel: lead routing, acquisitions, a transaction board, dashboards and training.
@@ -122,11 +121,11 @@ Growth Team: AI scoring of your recorded calls
 Today The answers are in the CRM, and nobody has time to dig them out.
 With Climbmark A plan for the week from your own numbers, every Monday.
 Outgrowing Podio, REsimpli or spreadsheets? You need a move to Salesforce: I map what you track, move the data and build around how your team works.
-Proof · Central City Solutions
-The work I did for Central City
-A home-buying company in Columbus and Cincinnati, Ohio. For two years I've been the person they call when anything in Salesforce needs to change: a new market, a new lead source, a new hire, a broken alert.
-You're seeing the common problem at investor teams. Flip to see the work I did for Central City.
-You're seeing the work I did for Central City. Flip back to see the common problem.
+Proof · A two-market home-buying company in Ohio
+The work I do for a home-buying company in Ohio
+A two-market home-buying company in Ohio. For two years I've been the person they call when anything in Salesforce needs to change: a new market, a new lead source, a new hire, a broken alert.
+Each card shows a common problem at investor teams. Flip it to see how I handled it for the Ohio team.
+You're seeing how I handled it for the Ohio team. Flip back to see the common problem.
 Marketing ROI
 What owners say
 “I don't know my real cost per deal.”
@@ -182,8 +181,8 @@ New-hire setup, access, fixes and reports, handled the same week they're asked f
 What it changed
 The team keeps working, with no ticket queue and no full-time admin hire.
 Also
-Pezon Properties
-Real estate acquisition · Pennsylvania
+A real estate acquisition company in Pennsylvania
+Real estate acquisition · 2024 to 2025
 Built
 50+ delivered requests, including a campaign ROI dashboard with 25 funnel metrics, lead source tagged from call-tracking numbers, and a rebuilt transaction coordination app.
 What it changed
@@ -200,11 +199,11 @@ Trailhead Double Star Ranger
 2024 to now
 Independent Salesforce CRM Consultant , running the Salesforce for a two-market home-buying company in Ohio and building for other investor teams
 2024 to 2025
-Pezon Properties , real estate acquisition, Pennsylvania
+Real estate acquisition company , Pennsylvania
 2024
-Sylndr , automotive: Salesforce admin and developer
+Automotive company : Salesforce admin and developer
 2023
-Conx Digital , UAE: Salesforce Marketing Cloud
+Digital agency , UAE: Salesforce Marketing Cloud
 2015 to 2023
 Adobe Certified Instructor , eight years of classes
 Free tools
@@ -249,7 +248,7 @@ With an agency, your project often goes through a project manager to a consultan
 What access do you need, and is our data safe?
 For a review, a read-only Salesforce user covers most of it. You create the user, so you can see what it does and switch it off at any time. It does use one of your Salesforce licenses; if none is spare, we can free one or do the review on screen shares instead. Nothing in your org changes without your OK, and each quick fix (up to 3) is agreed with you first. Your data stays in your org, and I'm happy to sign your NDA before I log in.
 What have you actually built?
-For two years I've run the Salesforce for a two-market home-buying company in Ohio: campaign ROI by market checked against the books, missed-call alerts on every marketing number, follow-up that stops when a seller replies, a Transactions Board for every file under contract, and settings ops can change without a developer. At Pezon Properties in Pennsylvania I delivered 50+ requests, including a campaign ROI dashboard with 25 funnel metrics and a rebuilt transaction coordination app.
+For two years I've run the Salesforce for a two-market home-buying company in Ohio: campaign ROI by market checked against the books, missed-call alerts on every marketing number, follow-up that stops when a seller replies, a Transactions Board for every file under contract, and settings ops can change without a developer. For a Pennsylvania real estate acquisition company I delivered 50+ requests, including a campaign ROI dashboard with 25 funnel metrics and a rebuilt transaction coordination app.
 Do you work with teams outside the US?
 Yes. Investors in Canada, the UK and Europe get the same offer and the same terms, and their working hours overlap with mine. See Salesforce for Canadian investors and Salesforce for UK property investors .
 Do you train the team too?
@@ -292,13 +291,13 @@ The person who answers your message is the person who builds it. I'm one special
 Background
 Work so far
 2024 to now
-Independent Salesforce CRM Consultant , running the Salesforce for Central City Solutions , a two-market home-buying company in Ohio, and building for other investor teams
+Independent Salesforce CRM Consultant , running the Salesforce for a two-market home-buying company in Ohio, and building for other investor teams
 2024 to 2025
-Pezon Properties , real estate acquisition, Pennsylvania: 50+ requests, including a campaign ROI dashboard and a rebuilt transaction coordination app
+Real estate acquisition company , Pennsylvania: 50+ requests, including a campaign ROI dashboard and a rebuilt transaction coordination app
 2024
-Sylndr , automotive: Salesforce admin and developer
+Automotive company : Salesforce admin and developer
 2023
-Conx Digital , UAE: Salesforce Marketing Cloud
+Digital agency , UAE: Salesforce Marketing Cloud
 2015 to 2023
 Adobe Certified Instructor : eight years of classes, 8,000+ students, rated 4.9/5
 Certifications
@@ -706,7 +705,7 @@ URL: https://amrmagdy.com/blog-migrate-zapier-to-salesforce-real-estate
 
 How I moved a home-buying team’s Zapier automations to native Salesforce
 Zapier is the right tool when you're connecting two systems that don't have a native integration. But when your Salesforce org has matured and you're using Zapier primarily to send Slack messages from Salesforce, create tasks, or trigger emails — you're paying for a middleman you don't need.
-At Central City Solutions, Zapier API limits were being hit every month. The team was getting "Zap limit exceeded" errors at critical moments — when new leads came in, when deals moved to under contract. I was asked to investigate, and what I found was that most of their Zaps were doing things that Salesforce could do natively, better, and for free.
+At a two-market home-buying company in Ohio, Zapier API limits were being hit every month. The team was getting "Zap limit exceeded" errors at critical moments — when new leads came in, when deals moved to under contract. I was asked to investigate, and what I found was that most of their Zaps were doing things that Salesforce could do natively, better, and for free.
 What Zapier Was Being Used For
 When I audited the Zaps, they fell into clear categories:
 Slack notifications — Zapier was watching Salesforce for record changes and sending Slack messages. Salesforce's direct Slack integration does this natively.
@@ -715,14 +714,14 @@ Field updates — Zapier was updating fields on Salesforce records when other fi
 Email alerts — Zapier was sending emails when Salesforce records updated. Salesforce Email Alerts handle this out of the box.
 Only a fraction of the Zaps were doing what Zapier is actually designed for: connecting Salesforce to external systems that don't have a Salesforce integration (Facebook Lead Ads, external forms, Google Sheets).
 The rule I now apply: if both the trigger AND the action are in Salesforce, or if the action is in a system with a Salesforce-native connector, Zapier is unnecessary. Zapier earns its place when connecting to external systems without native Salesforce integrations.
-I migrated their Zaps to native Flows at Central City Solutions — the founder called the work “drastic improvements” in a written referral. See the full case study →
+I migrated their Zaps to native Flows for a two-market home-buying company in Ohio — the founder called the work “drastic improvements” in a written referral. See the full case study →
 The Migration Process
 Step 1: Audit every Zap
 Export a list of all active Zaps and categorize by: trigger system, action system, and whether Salesforce is on both ends. In this case, most of the Zaps had Salesforce on both sides. Those were all migration candidates.
 Step 2: Map Zap logic to Salesforce objects
 For each Zap being migrated, document the trigger condition, any filters, and the exact action. A Zap that says "When Opportunity Stage = Under Contract → Send Slack to #transactions-channel with message: 'New contract at {Property Address}'" maps directly to a Record-Triggered Flow on Opportunity.
 Step 3: Set up the Salesforce-Slack direct integration
-Central City Solutions had been using Zapier as the Slack bridge for years. Setting up Salesforce's native Slack integration (available in AppExchange or via the Salesforce for Slack app) was a one-time configuration that unlocked direct Slack messaging from any Flow — with no Zap usage, no delay, no API limits.
+That company had been using Zapier as the Slack bridge for years. Setting up Salesforce's native Slack integration (available in AppExchange or via the Salesforce for Slack app) was a one-time configuration that unlocked direct Slack messaging from any Flow — with no Zap usage, no delay, no API limits.
 Step 4: Build the Flows
 Each migrated Zap became a Record-Triggered Flow. The advantage over Zapier: Salesforce Flows run in real time (not on Zapier's polling interval, which can be 2-15 minutes). A lead coming in from Facebook now triggered a Slack notification in seconds instead of minutes.
 Step 5: Test in parallel, then deactivate Zaps
@@ -767,14 +766,14 @@ URL: https://amrmagdy.com/blog-ringcentral-salesforce-integration-real-estate
 
 How to Build a RingCentral–Salesforce Daily Call Sync with Apex (Real Estate Case Study)
 A real estate acquisition team makes dozens of calls per day — to motivated sellers, to follow up on leads, to check in on contracts. Logging all of those calls manually in Salesforce is hours of administrative work that takes agents away from their actual job. And if calls aren't logged, reports are wrong, accountability breaks down, and management can't see what's actually happening.
-At Central City Solutions, the team was using RingCentral as their phone system. Calls were being made but not consistently logged in Salesforce. The solution was a custom Apex integration that automatically pulls yesterday's call logs from RingCentral's API and creates Salesforce Task records — every day, at 2 AM, without any human involvement.
+At a two-market home-buying company in Ohio, the team was using RingCentral as their phone system. Calls were being made but not consistently logged in Salesforce. The solution was a custom Apex integration that automatically pulls yesterday's call logs from RingCentral's API and creates Salesforce Task records — every day, at 2 AM, without any human involvement.
 The Architecture
 The solution has two Apex classes working together:
 RCDailyCallLogSync.cls — Schedulable class that runs at 2 AM daily, authenticates with RingCentral's API, fetches yesterday's call logs, and creates Task records in Salesforce
 RCNextUserScheduler.cls — Queueable class that chains user processing with a 2-minute delay between users, preventing API governor limit violations
 Why Chained Processing?
 RingCentral rate-limits API requests. If you try to sync 15 users' call logs simultaneously, you'll hit rate limits. The solution: process one user at a time, with a 2-minute delay between users via chained Queueable jobs. Each job processes one user's calls, then enqueues the next user's job with a delay.
-This Apex sync runs in production at Central City Solutions today — it eliminated all manual call logging for the team. See the full case study →
+I built a sync like this for a home-buying company in Ohio. Reps stopped logging calls by hand. See the full case study →
 Authenticating with RingCentral
 RingCentral uses OAuth 2.0. The integration stores the access token in Salesforce Custom Settings or Named Credentials and refreshes it as needed. Each API call fetches call logs for a specific extension (stored as a custom field on the Salesforce User record) for the previous day:
 Creating Salesforce Tasks from Call Logs
@@ -793,7 +792,7 @@ Scheduling and Monitoring
 Schedule with a cron expression that runs at 2 AM daily:
 After deployment, monitor via Setup → Scheduled Jobs. Check that Tasks are being created by running a Salesforce report filtered to Tasks created by the integration user with yesterday's date.
 The Business Impact
-Before this integration, call logging at Central City Solutions was inconsistent. Reports showed whatever agents remembered to log. After deployment: every call over 30 seconds was automatically logged, linked to the correct record, and searchable in Salesforce the next morning. Management could finally see actual call activity, not self-reported activity. The accuracy of acquisition performance reports improved immediately.
+Before this integration, call logging at a two-market home-buying company in Ohio was inconsistent. Reports showed whatever agents remembered to log. After deployment: every call over 30 seconds was automatically logged, linked to the correct record, and searchable in Salesforce the next morning. Management could finally see actual call activity, not self-reported activity. The accuracy of acquisition performance reports improved immediately.
 One unexpected benefit: because call recordings were now attached to the Salesforce Task and linked to the relevant Lead or Transaction record, the transaction coordination team could review seller conversations without asking agents to track down recordings manually.
 What You Need to Implement This
 To replicate this in your Salesforce org, you'll need: a RingCentral account with API access enabled (Platform plan or higher), RingCentral extension IDs mapped to Salesforce User records, Salesforce API access enabled for the integration user, and a Named Credential or Custom Setting to store the OAuth tokens securely. The Apex classes themselves need to be deployed to your org and the scheduled job activated.
@@ -872,12 +871,12 @@ URL: https://amrmagdy.com/blog-salesforce-configuration-object-real-estate
 
 The Salesforce Configuration Object: How to Manage Automations Without Touching Code
 By the time a real estate company's Salesforce has been live for a year, it has accumulated dozens of automation rules — tasks triggered on status changes, Slack notifications for new leads, email alerts when contracts are signed, SMS messages for follow-ups. Every time a business rule changes, someone has to open Flow Builder and modify code.
-At Central City Solutions, this became unsustainable. Multiple stakeholders requesting changes weekly. A bottleneck every time a notification needed to be updated, a task reassigned, or a new trigger added.
+At a two-market home-buying company in Ohio, this became unsustainable. Multiple stakeholders requesting changes weekly. A bottleneck every time a notification needed to be updated, a task reassigned, or a new trigger added.
 The solution was a Configuration Object — a custom Salesforce object that acts as the control panel for all automations. Non-technical users can add, edit, enable, and disable any notification without touching a single flow.
 What the Configuration Object Is
 The Configuration Object is a custom Salesforce object where each record represents one automation rule. Instead of building a separate Flow for every notification, you have one master Flow that reads from the Configuration Object and executes the right action based on the record's settings.
 A single Configuration record might say: "When Transaction status changes to Under Contract, send a Slack message to #transactions-channel, and create a task for the TC Rep saying 'Reach out to seller' due same day." Non-technical users can modify that record directly — no Flow Builder, no Salesforce setup, no developer needed.
-I build setups like this for Central City Solutions (Ohio), letting their ops team change rules without a developer. See the full case study →
+I build setups like this for a two-market home-buying company in Ohio, letting their ops team change rules without a developer. See the full case study →
 The Object Fields
 The Configuration Object has fields that define what the automation does:
 Trigger Object — which Salesforce object triggers the action (Lead, Opportunity, Transaction, Project)
@@ -901,7 +900,7 @@ How the Master Flow Works
 A single Record-Triggered Flow on each object queries the Configuration Object for active records matching the current trigger condition. For each matching Configuration record, it calls the appropriate action: creates a Task, sends a Slack message via Salesforce's native Slack integration, sends an email via Email Alert, or fires an SMS via SmrtPhone's API.
 Adding a new automation means adding one record to the Configuration Object. That's it. No Flow Builder, no deployment, no sandbox testing cycle.
 The Business Impact
-After deploying the Configuration Object at Central City Solutions, the Salesforce admin bottleneck essentially disappeared. Business users could add notification rules themselves. When a new team member joined, their task triggers were added by their manager in under a minute. When business rules changed — a new task for a new role, a Slack message redirected to a different channel — it happened in real time.
+After deploying the Configuration Object for a two-market home-buying company in Ohio, the Salesforce admin bottleneck essentially disappeared. Business users could add notification rules themselves. When a new team member joined, their task triggers were added by their manager in under a minute. When business rules changed — a new task for a new role, a Slack message redirected to a different channel — it happened in real time.
 The Configuration Object became the single most referenced system at a two-market home-buying company in Ohio. Every new automation request — from transaction coordinators, from acquisitions, from dispositions — was handled by adding or modifying Configuration records rather than building new Flows.
 When to Build a Configuration Object
 This pattern is worth building when your Salesforce org has more than 15-20 distinct automation rules that business users want to control, when you're receiving frequent requests to modify notification text or recipients, or when the same automation logic repeats across multiple triggers with slightly different parameters. If those conditions don't apply yet, a direct Flow approach is simpler. But if your org is growing and your automation library is expanding, a Configuration Object pays for itself within weeks.
@@ -946,7 +945,7 @@ Cost Per Closed Deal (CPCD)
 Total campaign spend divided by closed transactions. The number that actually tells you whether a marketing channel is worth the investment.
 Net Profit Per Deal
 Sale price minus acquisition cost, holding costs, renovation costs, and closing costs. The actual P&L on each deal — broken by lead source to show which channels generate the most profitable deals, not just the most.
-I built this exact financial analytics system at Pezon Properties (Pennsylvania) — real-time net profit per deal. See the full case study →
+I built this exact financial analytics system for a Pennsylvania real estate acquisition company — real-time net profit per deal. See the full case study →
 The Salesforce Object Model
 To calculate these metrics inside Salesforce, you need financial data to live in the right places. The key principle: marketing spend belongs on the Campaign object , and deal financials belong on the Transaction or Opportunity object. The Campaign field on each Lead, Opportunity, and Transaction is the thread that connects them.
 Campaign Object — Marketing Spend Fields
@@ -1227,7 +1226,7 @@ URL: https://amrmagdy.com/blog-salesforce-real-estate-acquisition-case-log
 
 50+ Real Salesforce Requests From a Real Estate Acquisition Company
 If you've never worked with a Salesforce consultant, it's hard to picture what the engagement actually looks like. Is it one big project? A list of tickets? Strategy calls?
-Here's the honest answer: it's a steady stream of very specific, very practical requests. Below is a categorized log of 50+ real requests I delivered for Pezon Properties , a Pennsylvania real estate acquisition company (identifying details like phone numbers and internal links removed). If you run acquisitions on Salesforce — or are thinking about it — this is the most realistic preview you'll find of what a consultant actually does.
+Here's the honest answer: it's a steady stream of very specific, very practical requests. Below is a categorized log of 50+ real requests I delivered for a Pennsylvania real estate acquisition company (identifying details like phone numbers and internal links removed). If you run acquisitions on Salesforce — or are thinking about it — this is the most realistic preview you'll find of what a consultant actually does.
 1. Campaign Performance & ROI Reporting
 The single biggest request: a dashboard that tracks the entire marketing funnel by campaign , filterable by week, month, and quarter. Twenty-five metrics, including:
 Volume: total cost, total mail sent, gross and net lead counts, gross and net response rates
@@ -1235,7 +1234,7 @@ Conversion: opportunity count and conversion rate, appointment count and rate, s
 Unit economics: cost per gross lead, net lead, opportunity, appointment, signed agreement, and closed deal
 Profitability: gross and net profit, profit per unit, and return multiple on marketing spend
 Supporting requests: quarterly campaign automation (old campaigns deactivate when new ones start, with consistent naming like "2024 Q4 Municipal Liens"), and reports on time-to-respond for text messages and lead age per path stage.
-This is the system I built at Pezon Properties , including real-time net profit per deal. See the full case study →
+This is the system I built for a Pennsylvania real estate acquisition company , including real-time net profit per deal. See the full case study →
 2. Lead Source & Campaign Attribution
 ROI reporting is only as good as attribution. Several requests existed purely to make sure every lead carries the right source and campaign:
 Call-tracking attribution — each marketing channel (web, PPC, Google Business Profile per city, direct mail) has a dedicated tracking phone number; the lead source and campaign are set automatically based on the number the seller called
@@ -1331,7 +1330,7 @@ How do you show days in stage?
 Days in stage is the number that turns a pipeline chart into something you can act on. Two ways to get it:
 If your deals are Opportunities , Salesforce has a standard Stage Duration field that tracks how long each one has been in its current stage. Add it to the report and filter or color by it.
 If your deals live on a custom object , which is common in investor orgs that track properties and contracts their own way, stamp the date each stage started with a record-triggered Flow, and add a formula for the days since then.
-Then color it. A simple rule to start with: green under 7 days, amber from 7 to 14, red over 14. Tune it per stage with your team, because a deal waiting on title moves at a different pace from a seller waiting on a second appointment. At Pezon Properties, a property tracker with days since the last update, where anything over 14 days flags in red, is the component leadership uses instead of asking "what's the status of..." every week.
+Then color it. A simple rule to start with: green under 7 days, amber from 7 to 14, red over 14. Tune it per stage with your team, because a deal waiting on title moves at a different pace from a seller waiting on a second appointment. For a Pennsylvania real estate acquisition company, a property tracker with days since the last update, where anything over 14 days flags in red, is the component leadership uses instead of asking "what's the status of..." every week.
 The transaction pipeline: from contract to closing
 Once a deal is under contract, the question changes from "what's stuck?" to "what's about to slip?". The transaction side needs its own view:
 Every file under contract by stage, such as inspection, title, clear to close and scheduled.
@@ -1505,7 +1504,7 @@ The 5 Integrations That Deliver the Most Value
 Every form submission on your website should instantly create a Lead in Salesforce — not batched overnight, not manually entered from an inbox, but instantly, with all form fields mapped and assignment rules triggered. Build this first. It closes the biggest data gap in most real estate organizations and takes about 20 minutes to configure in Zapier.
 2. Zillow and Realtor.com to Salesforce Lead
 These platforms email lead notifications. Zapier watches the inbox, parses lead details from the email, and creates a Salesforce Lead record automatically. Combined with assignment rules, the lead reaches an agent before anyone has even opened the email notification.
-At Central City Solutions, this kind of integration puts every new lead in front of a rep within minutes instead of waiting in an inbox.
+At a two-market home-buying company in Ohio, this kind of integration puts every new lead in front of a rep within minutes instead of waiting in an inbox.
 3. Facebook Lead Ads to Salesforce
 Facebook Lead Ads is one of the most effective lead generation tools for real estate — and one of the least connected to CRMs. Zapier has a native Facebook Lead Ads trigger that fires the moment someone submits a form, creating an instant Salesforce record with full campaign attribution.
 4. Closed Deal to Finance System
@@ -6182,7 +6181,7 @@ URL: https://amrmagdy.com/salesforce-for-real-estate-investors
 Salesforce for real estate investors and home-buying companies.
 Salesforce makes sense for an investor team when deals leak between steps nobody owns: missed calls, follow-ups that stop at touch two, offers made outside the system, and profit nobody ties back to the campaign that paid for the lead. This page shows how a home-buying operation maps into Salesforce, the ten builds that pay for themselves, what it really costs in 2026, and when you should not use it.
 Who this is for, and who it isn't
-I build and run Salesforce for US home-buying companies. For the last two years I have built and run the system behind a two-market home-buying company in Ohio, and for Pezon Properties, a property acquisition company in Pennsylvania, I built a campaign ROI dashboard and rebuilt their transaction coordination app. Everything on this page comes from that kind of work. I sell Salesforce work, so weigh my view with that in mind, and read the "not for you" list twice.
+I build and run Salesforce for US home-buying companies. For the last two years I have built and run the system behind a two-market home-buying company in Ohio, and for a property acquisition company in Pennsylvania, I built a campaign ROI dashboard and rebuilt their transaction coordination app. Everything on this page comes from that kind of work. I sell Salesforce work, so weigh my view with that in mind, and read the "not for you" list twice.
 Salesforce fits when
 You have about three or more people touching leads (acquisitions reps, a lead manager, dispositions, a transaction coordinator) and need to see who owns what.
 You market in more than one channel or market and want profit per campaign, not leads per campaign.
@@ -6922,13 +6921,13 @@ Buyer secured | Assignment or second contract signed (wholesale), or financing c
 Clear to close | Title commitment clear, closing scheduled with all parties
 Closed | Funds received, file complete
 Fell through | With a required reason, so you can see why deals die
-Not every deal goes through every step. At Pezon Properties I rebuilt the TC app so the stages change by deal type, cash or financed, single-family or multi-unit, and the record only asks the questions that deal needs. That one change matters more than any dashboard: TCs stop skipping fields that don't apply.
+Not every deal goes through every step. For a Pennsylvania real estate acquisition company I rebuilt the TC app so the stages change by deal type, cash or financed, single-family or multi-unit, and the record only asks the questions that deal needs. That one change matters more than any dashboard: TCs stop skipping fields that don't apply.
 The fields worth having
 Dates: contract date, inspection deadline, cancellation deadline (where the state has one), expected close, actual close.
 Parties: title company and contact, buyer, seller's preferred contact method, lender if any.
 Money: purchase price, earnest money and where it sits, assignment fee or expected profit, closing costs.
 Exit: assignment, double close, flip or keep as a rental. This is the field that makes campaign ROI honest later, because kept deals still came from a campaign.
-Checklist: a short onboarding checklist for the property (keys, utilities, access, photos). Pezon's ended up with 40+ fields because they run several deal types; most teams need far fewer.
+Checklist: a short onboarding checklist for the property (keys, utilities, access, photos). Theirs ended up with 40+ fields because they run several deal types; most teams need far fewer.
 Last seller update: the date someone last told the seller where things stand. More on this below.
 Tasks that create themselves
 The point of all of this is that nobody has to remember. When a deal moves stage, Salesforce creates the next tasks, assigns them and dates them. A few that I'd always build:
@@ -6941,7 +6940,7 @@ Closed: request the settlement statement, update profit and exit, ask for a revi
 Fell through: reason required, then a task to put the lead back into follow-up if the seller still wants to sell.
 Every one of those is a normal record-triggered Flow. No code. If your team changes the rules often, the Configuration Object approach lets ops change them without a developer.
 One board for every file under contract
-A Kanban view of transactions by stage, with the closing date, days in stage and last seller update on each card. That's it. At Central City Solutions every file under contract sits on one live Transactions Board, so nobody has to ask the TC where a deal stands.
+A Kanban view of transactions by stage, with the closing date, days in stage and last seller update on each card. That's it. At a two-market home-buying company in Ohio every file under contract sits on one live Transactions Board, so nobody has to ask the TC where a deal stands.
 Add a filter for "my deals" so each TC and rep sees their own, and a red flag for anything past a deadline or quiet for too long.
 The TC scorecard
 One report the owner looks at weekly. Keep it short:

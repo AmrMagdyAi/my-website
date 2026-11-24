@@ -117,7 +117,7 @@
 <tr><td>Closed</td><td>Funds received, file complete</td></tr>
 <tr><td>Fell through</td><td>With a required reason, so you can see why deals die</td></tr>
 </tbody></table></div>
-<p>Not every deal goes through every step. At Pezon Properties I rebuilt the TC app so the stages change by deal type, cash or financed, single-family or multi-unit, and the record only asks the questions that deal needs. That one change matters more than any dashboard: TCs stop skipping fields that don't apply.</p>
+<p>Not every deal goes through every step. For a Pennsylvania real estate acquisition company I rebuilt the TC app so the stages change by deal type, cash or financed, single-family or multi-unit, and the record only asks the questions that deal needs. That one change matters more than any dashboard: TCs stop skipping fields that don't apply.</p>
 
 <h2 id="fields">The fields worth having</h2>
 <ul>
@@ -125,7 +125,7 @@
 <li><strong>Parties:</strong> title company and contact, buyer, seller's preferred contact method, lender if any.</li>
 <li><strong>Money:</strong> purchase price, earnest money and where it sits, assignment fee or expected profit, closing costs.</li>
 <li><strong>Exit:</strong> assignment, double close, flip or keep as a rental. This is the field that makes campaign ROI honest later, because kept deals still came from a campaign.</li>
-<li><strong>Checklist:</strong> a short onboarding checklist for the property (keys, utilities, access, photos). Pezon's ended up with 40+ fields because they run several deal types; most teams need far fewer.</li>
+<li><strong>Checklist:</strong> a short onboarding checklist for the property (keys, utilities, access, photos). Theirs ended up with 40+ fields because they run several deal types; most teams need far fewer.</li>
 <li><strong>Last seller update:</strong> the date someone last told the seller where things stand. More on this below.</li>
 </ul>
 
@@ -143,7 +143,7 @@
 <p>Every one of those is a normal record-triggered Flow. No code. If your team changes the rules often, the <a href="blog-salesforce-configuration-object-real-estate">Configuration Object approach</a> lets ops change them without a developer.</p>
 
 <h2 id="board">One board for every file under contract</h2>
-<p>A Kanban view of transactions by stage, with the closing date, days in stage and last seller update on each card. That's it. At Central City Solutions every file under contract sits on one live Transactions Board, so nobody has to ask the TC where a deal stands.</p>
+<p>A Kanban view of transactions by stage, with the closing date, days in stage and last seller update on each card. That's it. At a two-market home-buying company in Ohio every file under contract sits on one live Transactions Board, so nobody has to ask the TC where a deal stands.</p>
 <p>Add a filter for "my deals" so each TC and rep sees their own, and a red flag for anything past a deadline or quiet for too long.</p>
 
 <h2 id="score">The TC scorecard</h2>
