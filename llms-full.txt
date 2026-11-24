@@ -123,7 +123,7 @@ With Climbmark A plan for the week from your own numbers, every Monday.
 Outgrowing Podio, REsimpli or spreadsheets? You need a move to Salesforce: I map what you track, move the data and build around how your team works.
 Proof · A two-market home-buying company in Ohio
 The work I do for a home-buying company in Ohio
-A home-buying company in Columbus and Cincinnati, Ohio. For two years I've been the person they call when anything in Salesforce needs to change: a new market, a new lead source, a new hire, a broken alert.
+A two-market home-buying company in Ohio. For two years I've been the person they call when anything in Salesforce needs to change: a new market, a new lead source, a new hire, a broken alert.
 Each card shows a common problem at investor teams. Flip it to see how I handled it for the Ohio team.
 You're seeing how I handled it for the Ohio team. Flip back to see the common problem.
 Marketing ROI

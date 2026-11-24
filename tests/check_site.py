@@ -28,7 +28,7 @@ for p in indexable:
         if not re.search(pat, h, re.S): fail(f'{p}: missing {name}')
 
 # 3 writing rules: nothing the project forbids may ship in site text
-banned = [r'certified architect', r'4x certified', r'Left Main', r'Central City', r'Grabow', r'Pezon', r'Sylndr', r'Conx Digital']
+banned = [r'certified architect', r'4x certified', r'Left Main', r'Central City', r'Grabow', r'Pezon', r'Sylndr', r'Conx Digital', r'Columbus', r'Cincinnati']
 for p in pages + ['llms.txt']:
     h = read(p)
     h2 = re.sub(r'<script.*?</script>|<style.*?</style>', '', h, flags=re.S) if p.endswith('.html') else h
