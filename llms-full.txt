@@ -1,7 +1,7 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-11-23
+> Generated: 2026-11-24
 
 
 ---
@@ -104,7 +104,7 @@ Dashboards and reports
 Dialer, DocuSign, QuickBooks, Slack
 Team training
 Today A CRM someone else built, and nobody is sure what it does anymore.
-With me The same pieces I built at Central City, fitted to how your team works.
+With me Mapped to how your team works, and written down so another admin could take it over.
 Climbmark
 Free Growth Team $299 a month
 The app I built. It runs on top of your GoHighLevel or Salesforce and does the digging every Monday: which lead sources bring back fees, which signed deals are slipping and which sellers to call first.
@@ -116,10 +116,10 @@ Today The answers are in the CRM, and nobody has time to dig them out.
 With Climbmark A plan for the week from your own numbers, every Monday.
 Outgrowing Podio, REsimpli or spreadsheets? You need a move to Salesforce: I map what you track, move the data and build around how your team works.
 Proof · Central City Solutions
-What I built, and what it changed
+The work I did for Central City, and what it changed
 A home-buying company in Columbus and Cincinnati, Ohio. For two years I've been the person they call when anything in Salesforce needs to change: a new market, a new lead source, a new hire, a broken alert.
-You're seeing the common problem at investor teams. Flip to see what I built at Central City and what it changed.
-You're seeing what I built at Central City and what it changed. Flip back to see the common problem.
+You're seeing the common problem at investor teams. Flip to see the work I did for Central City and what it changed.
+You're seeing the work I did for Central City and what it changed. Flip back to see the common problem.
 Marketing ROI
 What owners say
 “I don't know my real cost per deal.”
@@ -869,7 +869,7 @@ The solution was a Configuration Object — a custom Salesforce object that acts
 What the Configuration Object Is
 The Configuration Object is a custom Salesforce object where each record represents one automation rule. Instead of building a separate Flow for every notification, you have one master Flow that reads from the Configuration Object and executes the right action based on the record's settings.
 A single Configuration record might say: "When Transaction status changes to Under Contract, send a Slack message to #transactions-channel, and create a task for the TC Rep saying 'Reach out to seller' due same day." Non-technical users can modify that record directly — no Flow Builder, no Salesforce setup, no developer needed.
-This is the exact system I built at Central City Solutions (Ohio), where ops changes the rules with no developer. See the full case study →
+This is the kind of setup I run for Central City Solutions (Ohio), where ops changes the rules with no developer. See the full case study →
 The Object Fields
 The Configuration Object has fields that define what the automation does:
 Trigger Object — which Salesforce object triggers the action (Lead, Opportunity, Transaction, Project)
@@ -1730,14 +1730,6 @@ Found this useful?
 Ask me how this would work in your CRM.
 Send one question about your setup, whether you're on Podio, an investor CRM, spreadsheets or Salesforce. No pitch, just a straight answer.
 Salesforce CRM Consultant for US real estate investors, wholesalers and home-buying companies.
-
----
-## Book a free 15-minute call | Amr Magdy
-URL: https://amrmagdy.com/book
-
-amrmagdy.com
-Book a free 15-minute call
-Opening my calendar on Calendly. If it doesn't open, use the button.
 
 ---
 ## BRRRR Calculator: Cash Left In, Cash Flow & ROI (Free)
