@@ -6316,6 +6316,16 @@ Weeks 3–6 | Objects and fields, lead intake, shared queue, missed-call alert, 
 Weeks 7–8 | Import history, run both systems side by side, fix what the team finds | New leads go to Salesforce; old tool is read-only
 Weeks 9–12 | Cadences, transactions board, buyer matching, campaign ROI and the Monday dashboard | Monday meeting runs from one dashboard
 The five numbers to put on that dashboard are in the free Monday 5 . Already on Salesforce and not sure what's working? Check your Deal Leak Score , then the 12 features most investor orgs don't use .
+Salesforce or an investor CRM?
+The short answer: an investor CRM is the faster start, and Salesforce goes further once you need your own data model, deeper reports and tested changes. Each comparison below links the vendor's own pages, so you can check every claim.
+Comparing Salesforce with | The difference in one line
+Investor CRMs in general | Investor CRMs come ready for wholesaling; Salesforce goes furthest on data model, automation, reporting and testing, but costs more and needs to be set up.
+REsimpli | REsimpli has the dialer, texting and data already inside; Salesforce is a CRM you build around your own process.
+Podio | Podio is cheap and flexible, with workspaces other investors built; teams look at Salesforce once they have several reps, a second market or an owner who wants real numbers.
+GoHighLevel | GoHighLevel is a marketing platform with a CRM inside; Salesforce is a CRM platform you shape to your process. Neither has wholesaling data built in.
+HubSpot | HubSpot is a good CRM; the question is whether it fits a business where properties, offers, contracts and buyers matter as much as contacts and deals.
+Follow Up Boss | Follow Up Boss is built for residential agent teams; an investor business usually needs properties, offers and buyers as their own records.
+Already chosen Salesforce? Pick the edition with which Salesforce edition an investor team needs , and decide who owns it with hire an admin or use a retainer .
 What should you settle before the first build?
 Which tool owns each record. If a list tool, a dialer and a spreadsheet all hold sellers, decide which one is the owner first; see the wholesaling tech stack map .
 Your stage rules. Salesforce will show whatever stages you give it, so write what must be true to enter and leave each one; see wholesaling pipeline stages .
