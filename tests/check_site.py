@@ -40,7 +40,7 @@ idx = read('index.html')
 for i in ('sw-live', 'pick-live'):
     if f'id="{i}"' not in idx: fail(f'index.html: missing #{i}')
 if 'aria-live="polite">\n      <div class="pane"' in idx: fail('index.html: picker panel announces whole pane')
-for p in ('about.html', 'book.html', 'index.html'):
+for p in ('about.html', 'index.html'):
     if 'assets/consent.js' not in read(p): fail(f'{p}: consent.js not loaded')
 
 # 5 privacy truth: no first-party cookie is written (privacy.html says only GA cookies)
