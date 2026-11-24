@@ -52,6 +52,11 @@ for p in pages:
     for m in re.findall(r'<a [^>]*target="_blank"[^>]*>', read(p)):
         if 'noopener' not in m: fail(f'{p}: _blank without noopener')
 
+# 7 the booking script has its own test
+import subprocess
+r = subprocess.run(['node', 'tests/booking.test.js'], capture_output=True, text=True)
+if r.returncode: fail('booking.test.js failed: ' + (r.stderr or r.stdout)[-300:])
+
 if errs:
     print('\n'.join(errs[:60])); print(f'{len(errs)} problem(s)'); sys.exit(1)
 print(f'ok: {len(pages)} pages, {len(indexable)} indexable')
