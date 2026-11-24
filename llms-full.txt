@@ -3154,7 +3154,7 @@ They can say what they'd do differently on their worst call this month.
 Want this on one page to print? Use the new lead manager checklist .
 Related guides
 Want your new reps to practice this before a live lead?
-Climbmark gives every job on a home-buying team its own practice, a coach and tools for the daily work, free for a team owner and 2 reps. A first practice round takes a few minutes, with no sign-up: climbmark.com
+Climbmark runs on top of the GoHighLevel or Salesforce your team already uses and does the digging every Monday. When you add people, every job also gets its own practice, free for a team owner and 2 reps. A first round takes a few minutes, with no sign-up: climbmark.com
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -3640,7 +3640,7 @@ The team lead reviews 3 of their calls
 Agreed on one skill to work on next month
 Related guides
 Want your new reps to practice this before a live lead?
-Climbmark gives every job on a home-buying team its own practice, a coach and tools for the daily work, free for a team owner and 2 reps. A first practice round takes a few minutes, with no sign-up: climbmark.com
+Climbmark runs on top of the GoHighLevel or Salesforce your team already uses and does the digging every Monday. When you add people, every job also gets its own practice, free for a team owner and 2 reps. A first round takes a few minutes, with no sign-up: climbmark.com
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -4657,7 +4657,7 @@ Five lines to start with
 For what a good answer sounds like on the five calls that trip up new hires, see 5 seller calls to practice before day one .
 Related guides
 Want your new reps to practice this before a live lead?
-Climbmark gives every job on a home-buying team its own practice, a coach and tools for the daily work, free for a team owner and 2 reps. A first practice round takes a few minutes, with no sign-up: climbmark.com
+Climbmark runs on top of the GoHighLevel or Salesforce your team already uses and does the digging every Monday. When you add people, every job also gets its own practice, free for a team owner and 2 reps. A first round takes a few minutes, with no sign-up: climbmark.com
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -7441,7 +7441,7 @@ The no-show. The seller missed the visit. A good call is friendly, asks what cam
 Climbmark has practice calls for the first two (Marcus, the fresh web lead, and Gloria, who anchors on a price), with sellers who react to what the rep picks. Use the huddle format for the other three.
 Related guides
 Want your new reps to practice this before a live lead?
-Climbmark gives every job on a home-buying team its own practice, a coach and tools for the daily work, free for a team owner and 2 reps. A first practice round takes a few minutes, with no sign-up: climbmark.com
+Climbmark runs on top of the GoHighLevel or Salesforce your team already uses and does the digging every Monday. When you add people, every job also gets its own practice, free for a team owner and 2 reps. A first round takes a few minutes, with no sign-up: climbmark.com
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
@@ -8088,11 +8088,11 @@ On Podio, REsimpli or spreadsheets? See how a move to Salesforce works . On GoHi
 Or just ask one question about your setup: email · WhatsApp · LinkedIn
 
 ---
-## Wholesale Assignment Fee: How Much to Charge (Max-Fee Formula)
+## Wholesale Assignment Fee: Who Pays and How Much to Charge
 URL: https://amrmagdy.com/wholesale-assignment-fee
 
 Wholesale assignment fee: set it from the buyer's margin.
-An assignment fee is what a wholesaler is paid for assigning the purchase contract to a cash buyer. The fee that works is not a round number you pick in advance: it is whatever is left after the buyer's repairs, costs and required profit come out of the after-repair value, minus your contract price. Price it from the buyer's side and deals sell instead of sitting. To find buyers for the deal, see how to find cash buyers for wholesale deals .
+An assignment fee is what a wholesaler is paid for assigning the purchase contract to a cash buyer. The cash buyer pays it, on top of the contract price, usually at closing through the title company. The fee that works is not a round number you pick in advance: it is whatever is left after the buyer's repairs, costs and required profit come out of the after-repair value, minus your contract price. Price it from the buyer's side and deals sell instead of sitting. To find buyers for the deal, see how to find cash buyers for wholesale deals .
 The max-fee formula
 Buyer's costs = ARV × closing, holding and selling %
 Buyer's profit = the profit active buyers in that market need on this kind of deal
