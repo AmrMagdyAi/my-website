@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-labelledby="t">
+<title id="t">A signed contract starting to slip off the edge of a desk</title>
+<rect x="8" y="8" width="224" height="224" rx="36" fill="#efeae2"/>
+<rect x="20" y="176" width="118" height="12" rx="6" fill="#22201d"/><rect x="34" y="188" width="10" height="30" rx="4" fill="#22201d"/>
+<g transform="translate(8 6) rotate(-20 150 150)">
+<rect x="74" y="56" width="112" height="126" rx="10" fill="#22201d" opacity=".14" transform="translate(5 6)"/>
+<rect x="74" y="56" width="112" height="126" rx="10" fill="#FFFFFF" stroke="#22201d" stroke-width="4"/>
+<rect x="90" y="76" width="60" height="7" rx="3.5" fill="#22201d"/>
+<rect x="90" y="92" width="80" height="5" rx="2.5" fill="#cfc6b8"/>
+<rect x="90" y="104" width="72" height="5" rx="2.5" fill="#cfc6b8"/>
+<rect x="90" y="116" width="78" height="5" rx="2.5" fill="#cfc6b8"/>
+<path d="M92 152c8-12 14-12 16-2s8 6 14-4 10-2 12 4" fill="none" stroke="#22201d" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="90" y="160" width="76" height="3" rx="1.5" fill="#22201d"/>
+</g>
+<circle cx="180" cy="62" r="22" fill="#9b5d5d"/>
+<rect x="177" y="48" width="6" height="18" rx="3" fill="#fffdf9"/>
+<circle cx="180" cy="74" r="3.6" fill="#fffdf9"/>
+</svg>
