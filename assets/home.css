@@ -59,3 +59,11 @@
   .pick .chips{display:grid;grid-template-columns:1fr 1fr;gap:6px}
   .chip-pick{font-size:.82rem;padding:8px 10px;border-radius:12px;min-height:44px}
 }
+
+.cico{flex:none;vertical-align:-3px;margin-right:8px}
+.chip-pick{display:inline-flex;align-items:center}
+.pico{flex:none;color:var(--rose,#9b5d5d)}
+body.with .pico{color:var(--teal-ink,#0b5c56)}
+.pair header h3{flex:1;min-width:0}
+#monday .pane .fine{color:var(--ink2);margin-top:12px}
+.close .fine{color:#cfc8bd}
