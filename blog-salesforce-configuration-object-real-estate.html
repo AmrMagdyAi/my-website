@@ -105,7 +105,7 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 </div></div>
 <section class="ab"><div class="wrap">
 <p>By the time a real estate company's Salesforce has been live for a year, it has accumulated dozens of automation rules — tasks triggered on status changes, Slack notifications for new leads, email alerts when contracts are signed, SMS messages for follow-ups. Every time a business rule changes, someone has to open Flow Builder and modify code.</p>
-<p>At a two-market home-buying company in Ohio, this became unsustainable. Multiple stakeholders requesting changes weekly. A bottleneck every time a notification needed to be updated, a task reassigned, or a new trigger added.</p>
+<p>At Central City Solutions, this became unsustainable. Multiple stakeholders requesting changes weekly. A bottleneck every time a notification needed to be updated, a task reassigned, or a new trigger added.</p>
 <p>The solution was a <strong>Configuration Object</strong> — a custom Salesforce object that acts as the control panel for all automations. Non-technical users can add, edit, enable, and disable any notification without touching a single flow.</p>
 <div class="sr">
   <div class="sb"><div class="sb-n">One</div><div class="sb-l">Control panel for every notification</div></div>
@@ -115,7 +115,7 @@ h1.ttl{font-size:clamp(1.85rem,4vw,2.7rem);line-height:1.1;margin-bottom:20px}
 <h2>What the Configuration Object Is</h2>
 <p>The Configuration Object is a custom Salesforce object where each record represents one automation rule. Instead of building a separate Flow for every notification, you have one master Flow that reads from the Configuration Object and executes the right action based on the record's settings.</p>
 <p>A single Configuration record might say: <em>"When Transaction status changes to Under Contract, send a Slack message to #transactions-channel, and create a task for the TC Rep saying 'Reach out to seller' due same day."</em> Non-technical users can modify that record directly — no Flow Builder, no Salesforce setup, no developer needed.</p>
-<div class="co co-case"><p>I build setups like this for a two-market home-buying company in Ohio, letting their ops team change rules without a developer. <a href="./#cases" style="color:var(--sf);font-weight:700">See the full case study →</a></p></div>
+<div class="co co-case"><p>I build setups like this for <strong>Central City Solutions</strong> (Ohio), letting their ops team change rules without a developer. <a href="./#cases" style="color:var(--sf);font-weight:700">See the full case study →</a></p></div>
 <h2>The Object Fields</h2>
 <p>The Configuration Object has fields that define what the automation does:</p>
 <ul>
@@ -149,7 +149,7 @@ String message = MergeFieldReplacer.resolve(
 <p>A single Record-Triggered Flow on each object queries the Configuration Object for active records matching the current trigger condition. For each matching Configuration record, it calls the appropriate action: creates a Task, sends a Slack message via Salesforce's native Slack integration, sends an email via Email Alert, or fires an SMS via SmrtPhone's API.</p>
 <p>Adding a new automation means adding one record to the Configuration Object. That's it. No Flow Builder, no deployment, no sandbox testing cycle.</p>
 <h2>The Business Impact</h2>
-<p>After deploying the Configuration Object for a two-market home-buying company in Ohio, the Salesforce admin bottleneck essentially disappeared. Business users could add notification rules themselves. When a new team member joined, their task triggers were added by their manager in under a minute. When business rules changed — a new task for a new role, a Slack message redirected to a different channel — it happened in real time.</p>
+<p>After deploying the Configuration Object at Central City Solutions, the Salesforce admin bottleneck essentially disappeared. Business users could add notification rules themselves. When a new team member joined, their task triggers were added by their manager in under a minute. When business rules changed — a new task for a new role, a Slack message redirected to a different channel — it happened in real time.</p>
 <div class="co"><p>The Configuration Object became the single most referenced system at a two-market home-buying company in Ohio. Every new automation request — from transaction coordinators, from acquisitions, from dispositions — was handled by adding or modifying Configuration records rather than building new Flows.</p></div>
 <h2>When to Build a Configuration Object</h2>
 <p>This pattern is worth building when your Salesforce org has more than 15-20 distinct automation rules that business users want to control, when you're receiving frequent requests to modify notification text or recipients, or when the same automation logic repeats across multiple triggers with slightly different parameters. If those conditions don't apply yet, a direct Flow approach is simpler. But if your org is growing and your automation library is expanding, a Configuration Object pays for itself within weeks.</p>
