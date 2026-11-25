@@ -293,3 +293,7 @@ div.ah .meta-a,div.ah .meta-a a{color:#f7f4ef!important}
 div.ah .meta .sep{background:rgba(247,244,239,.3)}
 main.tm:has(.band-h){isolation:isolate;padding-top:0}
 body:has(main.tm .band-h){overflow-x:clip}
+
+/* One line and one button to the free Money by source look on climbmark.com (growth war room move 6, Nov 25 2026). */
+.cm-look { margin:18px 0 6px; padding:14px 16px; border-left:3px solid var(--teal); display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; max-width:46em; }
+.cm-look .btn { margin:0; }
