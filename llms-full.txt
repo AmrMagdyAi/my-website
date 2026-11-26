@@ -1,7 +1,7 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-11-25
+> Generated: 2026-11-26
 
 
 ---
@@ -21,7 +21,7 @@ Lead routing, missed-call alerts and follow-up queues, so every new lead has an 
 On Climbmark, the sellers worth another call show up at the top of your list on Monday.
 See what I fix, in 35 seconds
 Who keeps your Salesforce working?
-Most 10 to 50 person teams can't justify a full-time admin. Here's what else there is.
+A full-time admin isn't the only way to keep Salesforce working. Here's what else there is.
 A full-time admin
 Knows real-estate investing
 Learns your business on the job
@@ -118,8 +118,8 @@ Free Paid plans: see climbmark.com/pricing
 The app I built. It runs on top of your GoHighLevel or Salesforce and does the digging every Monday: which lead sources bring back fees, which signed deals are slipping and which sellers to call first.
 No migration, nothing extra for your team to fill in
 Free: 13 weeks of Money by source, once
-Growth Team: Deal rescue watch on every signed deal
-Growth Team: AI scoring of your recorded calls
+Growth Team: checks every deal under contract for what is slipping and who owns the next step
+Growth Team: AI reads up to 3 recorded calls per rep each day and points to the moments to coach
 Today The answers are in the CRM, and nobody has time to dig them out.
 With Climbmark A plan for the week from your own numbers, every Monday.
 Outgrowing Podio, REsimpli or spreadsheets? You need a move to Salesforce: I map what you track, move the data and build around how your team works.
@@ -148,9 +148,9 @@ What it changed
 Missed calls turn into callback tasks instead of voicemails nobody hears.
 Follow-up
 What owners say
-“The reps are on top of it.”
+“Follow-up is handled.”
 What it costs
-Deals that were almost yours. Offers go quiet, and texts keep going to sellers who already answered.
+Follow-up that runs on memory. Offers go quiet, and texts keep going to sellers who already answered.
 Built
 Text cadences that stop on reply, and tasks for stale leads and offers with no activity.
 What it changed
@@ -236,7 +236,7 @@ Questions
 Before you book
 Working with me
 We're about to hire a full-time Salesforce admin. Should we?
-Maybe later. At a team of 10 to 50, most of the work is small changes every week: a new lead source, a new hire, an alert that broke. A retainer covers that for less than a salary. Hire an admin or use a retainer compares the two. If you do hire, here's how to hire a Salesforce admin , with interview questions and a paid test.
+Maybe later. At a team of 5 to 50, most of the work is small changes every week: a new lead source, a new hire, an alert that broke. A retainer covers that for less than a salary. Hire an admin or use a retainer compares the two. If you do hire, here's how to hire a Salesforce admin , with interview questions and a paid test.
 We're adding reps or opening a new market. Should we fix the CRM first?
 If you can, yes. More leads through the same leaks means more money lost the same way. Look at what your current sources bring back before you add more. Climbmark shows it free from your own CRM. For the setup itself, use the checklists for adding acquisitions reps and opening a new market .
 We're on Podio, REsimpli or GoHighLevel. Can you help?
@@ -582,6 +582,7 @@ URL: https://amrmagdy.com/best-crm-for-wholesalers
 
 Best CRM for wholesalers in 2026.
 There isn’t one best CRM for wholesalers. There’s a best one for your team size and the tools you already use. Below are 11 options compared on the things that matter for wholesaling, with every feature and price linked to the vendor’s own site. If budget is the question, read where a free CRM for wholesalers stops ; if you run a home-buying company, read the CRM a we-buy-houses company needs .
+Already on GoHighLevel or Salesforce? See which of your lead sources turned into fees over the last 13 weeks, once your fees are matched in setup. Connect your CRM free
 Want calling, texting, lists, skip tracing and buyer sites in one login? Look at the all-in-one investor CRMs: REsimpli , FreedomSoft , REI BlackBook .
 Already have a dialer and data, and want strict follow-up workflows? InvestorFuse / CarrotCRM .
 Want to build your own process as you grow past a few reps or markets? Salesforce , with setup help.
@@ -1148,7 +1149,7 @@ A record-triggered Flow looks up who's in the rotation (a checkbox on the user r
 Omni-Channel routes work, including leads, to people who are available and have capacity. Reps set a status, and work goes to whoever is online. It's built for service teams, it takes more setup, and it only works if reps actually set their status. Salesforce has been moving customers from Standard to Enhanced Omni-Channel, so check which one your org has before you plan around it.
 4. A routing app
 Dedicated routing apps from the AppExchange handle availability, weighting, territories and reporting out of the box. They cost extra and add another vendor. Worth it at high volume or with complex territories, rarely needed for a team of ten reps in two markets.
-For most home-buying teams of 10 to 50, option 1 or 2 is enough. Pick option 1 if your team rarely changes, option 2 if reps come and go or you need to skip people who are out.
+For most home-buying teams of 5 to 50, option 1 or 2 is enough. Pick option 1 if your team rarely changes, option 2 if reps come and go or you need to skip people who are out.
 What should call routing do, and what should Salesforce do?
 When a seller calls a marketing number, two systems are involved, and teams often expect one to do the other's job.
 Your phone system (RingCentral, smrtPhone and so on) | Salesforce
@@ -1183,7 +1184,7 @@ Leads created by an integration or Flow that never run the assignment rule.
 A rep who left still in the rotation.
 A new tracking number or form that was never added to the rule, so its leads all go to the default owner.
 Duplicates that go to a new rep instead of the seller's original owner.
-What I'd set up for a 10 to 50 person team
+What I'd set up for a 5 to 50 person team
 Every lead created with its source and market already filled in, from the tracking number or form.
 Duplicate matching on phone before routing, so returning sellers go to their original owner.
 During business hours, new leads go to a shared queue per market, with a short time limit to claim them.
@@ -1207,7 +1208,7 @@ Make sure every lead has its market filled in automatically from the tracking nu
 What happens to leads that don't match any assignment rule entry?
 They go to the default lead owner in Lead Settings. Set that to a queue someone watches, and check a report of leads assigned there every week, because they usually point to a new source or form nobody added to the rule.
 Is Omni-Channel a good fit for real estate lead routing?
-It can be, if reps reliably set their availability status. It routes leads to people who are online and have capacity. For most home-buying teams of 10 to 50, an assignment rule with a formula-based or Flow-based round robin is simpler.
+It can be, if reps reliably set their availability status. It routes leads to people who are online and have capacity. For most home-buying teams of 5 to 50, an assignment rule with a formula-based or Flow-based round robin is simpler.
 How do I measure speed to lead in Salesforce?
 Record the time of the first call or text on each lead in a field such as time until contacted, then report it by source, market and rep. Flag leads that arrive after hours so they're measured from the start of the next business day.
 Related guides
@@ -1709,7 +1710,7 @@ A 10-part checklist, a launch test and the first 90 days, so every lead and deal
 Your Salesforce Admin Just Left: The Two-Week Handover Plan
 Freeze or deactivate, what runs under their name, what breaks first, and 10 questions to ask before they go.
 A Salesforce Admin for Your Investor Team: Hire, Freelancer or Retainer?
-Which kind of help fits a 10 to 50 person team, and if you hire: a job post to copy, 10 interview questions, a paid test, 2026 pay and a 30-day plan.
+Which kind of help fits a 5 to 50 person team, and if you hire: a job post to copy, 10 interview questions, a paid test, 2026 pay and a 30-day plan.
 How to Choose a Salesforce Consultant for an Investor Team
 Freelancer, firm or offshore, published 2026 rate ranges, 11 questions to ask and the red flags.
 Stop Reps Exporting Your Seller List from Salesforce
@@ -1856,6 +1857,7 @@ URL: https://amrmagdy.com/cash-buyers-list-template
 Cash buyers list template for wholesalers.
 A cash buyers list works when every buyer's buy box is saved as fields, not buried in texts and DMs. Then each new deal goes to the 10 buyers who fit its area, price, property type and rehab level, instead of a blast to everyone. Download the free template below and fill it once per buyer. To find the buyers in the first place and verify them, see how to find cash buyers for wholesale deals .
 Download the CSV template Opens in Google Sheets, Excel or any CRM import.
+Running your deals in GoHighLevel or Salesforce? See which of your lead sources turned into fees over the last 13 weeks, once your fees are matched in setup. Connect your CRM free
 The fields to capture
 How to send each deal to the right buyers
 1. Filter: area matches, price between min and max, property type matches, rehab level matches
@@ -1898,18 +1900,20 @@ Two ways to start
 $0 Free: connect your CRM and see your last 13 weeks of Money by source, once
 $299 a month for Growth Team, up to 15 reps
 14 days of Growth Team free, no card. It ends on its own.
-Founding price: the first 10 teams that use code FOUNDING get Growth, paid monthly, for $199 a month for their first 12 months, then $299.
 You pay for the company, not for each seat. Smaller and bigger plans are on the plans page .
 What an owner sees
 Three blind spots, from your own numbers
 Already tracking some of this? Good. Climbmark keeps doing the digging every week. It reads what's already in your CRM, and you add what each lead source costs.
-Which lead sources paid you back?
-Money by source: the fees you kept from each lead source next to what it cost, with a plan for the week.
-Deals that drift
-Deal rescue watch: every deal under contract checked for what is slipping and who owns the next step.
-Sellers worth another call
-New public code violations and permits on leads already in your CRM, in the 10 US cities and counties whose records it reads today. On GoHighLevel, those leads go to the top of each rep's list in Call These First.
-All three are in Growth Team. So is AI scoring of your team's recorded calls, with one thing to work on next from each (your CRM has to record and transcribe calls). Money by source and Deal rescue watch start on the smaller Starter plan.
+Which lead sources turn into fees
+The fees you kept from each lead source next to what it cost, with a plan for the week.
+In the app: Money by source
+Which signed deals are slipping
+Every deal under contract checked for what is slipping and who owns the next step.
+In the app: Deal rescue watch
+Which sellers to call first
+New public code violations and permits on leads already in your CRM, in the 10 US cities and counties whose records it reads today. On GoHighLevel, those leads go to the top of each rep's list.
+In the app: Call These First, in the cities Climbmark covers
+All three are in Growth Team. So is AI that reads up to 3 recorded calls per rep each day, with one thing to work on next from each (your CRM has to record and transcribe calls). Money by source and Deal rescue watch start on the smaller Starter plan.
 Plain facts
 What it does, and what it doesn't
 No new CRM and no migration. It runs on top of GoHighLevel or Salesforce, and your team keeps working where it works now.
@@ -2166,7 +2170,7 @@ Bookkeeping so fees and costs match deals ( QuickBooks ).
 Ad platforms receiving which leads became contracts ( Google Ads ).
 The point of the CRM is that these write back to one record per seller. If each tool keeps its own copy, you've multiplied the problems above. More on the options: integrations .
 Who needs access, and to what?
-A company of 10 to 50 usually has cold callers, acquisitions reps, a dispo person, a transaction coordinator, a marketing person, VAs and an owner. They don't all need to see the same things. Decide up front who can see sellers' phone numbers, who can export, who can change a closed deal, and who can edit the pipeline settings. Contractors and VAs often need narrower access and a trail of what they did. See who sees what and stopping reps exporting your list .
+A company of 5 to 50 usually has cold callers, acquisitions reps, a dispo person, a transaction coordinator, a marketing person, VAs and an owner. They don't all need to see the same things. Decide up front who can see sellers' phone numbers, who can export, who can change a closed deal, and who can edit the pipeline settings. Contractors and VAs often need narrower access and a trail of what they did. See who sees what and stopping reps exporting your list .
 Which numbers should it give you without a spreadsheet?
 Leads, appointments, offers, contracts and closings by source, for any date range.
 Time from lead to first call, by rep and by hour of day.
@@ -2471,6 +2475,7 @@ URL: https://amrmagdy.com/double-closing-costs
 
 Double closing costs: both sides, one formula.
 In a double close you buy the property from the seller and resell it to your end buyer, usually the same day. You pay buyer-side costs on the first closing and seller-side costs on the second, plus transactional funding if you borrow the purchase money. What you keep is the resale price minus your contract price minus all of that.
+Tracking closings in GoHighLevel or Salesforce? See which of your lead sources turned into fees over the last 13 weeks, once your fees are matched in setup. Connect your CRM free
 The formula
 Closing A (you buy) = settlement fee + title insurance and recording you pay + any transfer tax your side pays
 Closing B (you sell) = settlement fee + transfer tax, deed prep and any title costs your side pays
@@ -2886,7 +2891,7 @@ Who does the work | The person you talked to | Often a team, sometimes junior st
 Knows real estate investing | Varies a lot; ask for specifics | Rarely, unless they focus on it | Rarely
 Strength | Direct, fast decisions, one person who knows your org | Bench depth, process, can cover big projects | Low hourly rate for well-defined work
 Main risk | One person; ask what happens when they're sick or busy | Cost, and the people who sold the project aren't the ones building it | You end up writing the specs and testing everything yourself
-Best for | Teams of 10 to 50 who want someone who understands the business | Large, multi-department builds | Teams that already have a strong admin to direct the work
+Best for | Teams of 5 to 50 who want someone who understands the business | Large, multi-department builds | Teams that already have a strong admin to direct the work
 If you're on an investor CRM built on Salesforce, the vendor's own services team knows their package best. Ask them whether they'll build things outside the package, how changes are priced, and who supports custom work after it's live.
 What does a Salesforce consultant cost in 2026?
 Rates vary a lot by region and experience. Codleo, a Salesforce consultancy, published these ranges in October 2026. Use them as a rough guide:
@@ -2943,7 +2948,7 @@ Questions
 How much does a Salesforce consultant cost in 2026?
 Freelance Salesforce consultants commonly charge $50 to $150 an hour, US partner firms $100 to $250, and offshore teams $40 to $80, based on ranges Codleo published in October 2026. Small-business implementations often cost $10,000 to $30,000, and managed support runs from about $2,500 a month.
 Should I hire a Salesforce partner firm or an independent consultant?
-For a 10 to 50 person investor team, an independent consultant who knows real estate investing is often the better fit: one person who learns your business and does the work. Partner firms make more sense for large, multi-department builds that need a team.
+For a 5 to 50 person investor team, an independent consultant who knows real estate investing is often the better fit: one person who learns your business and does the work. Partner firms make more sense for large, multi-department builds that need a team.
 How much does a Salesforce implementation cost for a small real estate investment company?
 Small-business Salesforce implementations commonly land between $10,000 and $30,000, plus Salesforce licenses. The range depends on how many integrations you need (dialer, texting, accounting), how much data you're moving and how much automation you want on day one.
 How long does a Salesforce implementation take?
@@ -3741,7 +3746,7 @@ Questions
 How do I track marketing ROI by market?
 Put a Market field on every lead, deal and campaign, filled automatically from the tracking number, web form or zip code. Record monthly spend per campaign and market, split the same way in your accounting, and report cost per contract and net profit per deal by market.
 Should each market have its own Salesforce org?
-Almost never for a 10 to 50 person company. One org with a market field on every record lets you share buyers, reports and automations while still splitting everything by market. Separate orgs make sense only for separate businesses.
+Almost never for a 5 to 50 person company. One org with a market field on every record lets you share buyers, reports and automations while still splitting everything by market. Separate orgs make sense only for separate businesses.
 How do I route leads by market in Salesforce?
 Use a queue or an assignment rule entry per market, based on the Market field. Make sure the market is set before assignment runs, which is why it should come from the phone number, form or zip code rather than a rep.
 How do I compare a new market with my existing one?
@@ -4208,6 +4213,7 @@ URL: https://amrmagdy.com/real-estate-crm-guide
 
 Real estate CRM for investors: the complete guide.
 A real estate CRM for investors is the system that tracks every seller, property, offer and buyer and makes sure no lead is forgotten. This guide covers how to choose one, the records and stages it needs, what to automate and connect, the numbers to review weekly, compliance, and a 30-day setup plan, with links to every free tool on this site. Two specific cases have their own guides: free CRMs for wholesalers and a CRM for a we-buy-houses company .
+Already on GoHighLevel or Salesforce? See which of your lead sources turned into fees over the last 13 weeks, once your fees are matched in setup. Connect your CRM free
 A real estate CRM is the system that holds every seller, property, offer and buyer, and makes sure no lead is forgotten . For investors it replaces sticky notes, spreadsheets and memory.
 The parts that matter: a data model built around properties, pipeline stages with rules, automation for follow-up, integrations with your phone and lead sources, and five numbers you review every week.
 This guide links every free tool, checklist and deep dive on this site, so you can build or fix your CRM in order.
@@ -4354,7 +4360,7 @@ First response | The campaign behind the seller's first inbound call, form, text
 Latest source | The campaign behind the most recent response before the deal | Showing what makes sellers act now | Undervalues the mail that warmed them up
 Seller says | Whatever the seller tells the rep | Color, and catching referrals and signs | Unreliable on its own; "your letter" is a common default answer
 Split credit | Several campaigns share each deal | Teams with heavy multi-channel spend and someone to maintain it | Complex, and hard to explain in a Monday meeting
-Salesforce can do split credit through its campaign influence features. For most teams of 10 to 50, I'd skip it. A simple rule everyone understands beats a sophisticated one nobody trusts.
+Salesforce can do split credit through its campaign influence features. For most teams of 5 to 50, I'd skip it. A simple rule everyone understands beats a sophisticated one nobody trusts.
 The rule I'd use
 Credit goes to the campaign that produced the seller's first response. Then lock it.
 A seller who calls a direct mail tracking number: that mail campaign.
@@ -4418,6 +4424,7 @@ URL: https://amrmagdy.com/real-estate-lead-response-statistics
 
 Speed to lead & follow-up statistics for real estate investors (2026).
 Speed to lead is the time between a seller reaching out and a real person responding. Below are 62 statistics on lead response, follow-up, missed calls, CRM data and the 2026 investor market, each linked to the page it came from, plus 8 widely quoted “stats” I couldn’t verify.
+On GoHighLevel or Salesforce? See which of your lead sources turned into fees over the last 13 weeks, once your fees are matched in setup. Connect your CRM free
 Jump to: Speed to lead Follow-up Missed calls CRM data 2026 market Channels Myths What it means
 Lead response time (speed to lead)
 Answering fast is the single most studied lever in lead conversion. The research is old, mostly outside real estate, and still consistent: minutes matter, and most companies are slow.
@@ -4600,13 +4607,11 @@ Rental yield & cap rate
 Gross and net yield, cap rate and cash-on-cash for rentals and buy-to-let. USD, CAD, GBP or EUR.
 DSCR calculator
 Debt service coverage from rent and PITIA, the NOI-based ratio, and the largest loan that meets your target.
-Train your reps
-Free practice before the live calls. Every seller in it is made up.
-Climbmark
-Seven job paths for lead managers, acquisitions, dispo, follow-up, cold calling, coordinators and team leads. Practice calls with sellers who react to what you say, and a rep table that shows the owner who is ready.
-Lead manager training
+When you add people
+Climbmark runs on the GoHighLevel or Salesforce you already use. Every Monday it shows which lead sources turn into fees, which signed deals are slipping and which sellers to call first. When you hire, each job has short practice on made-up sellers, buyers and contractors, so a new person's first mistakes don't land on a real deal.
+For a new lead manager
 Five short levels from the first seller call to leading other reps. Try a 3-minute seller call with no sign-up.
-Acquisitions rep training
+For a new acquisitions rep
 The visit, the offer talk, contract to close, and what to do when the seller says no.
 Check your CRM
 Score your setup in a few minutes and see what to fix first.
@@ -4782,7 +4787,7 @@ They stay owned by that user until you move them. Use Mass Transfer Records in S
 Can someone take over a Salesforce org they didn't build?
 Yes, and it's common. Start with the checklist on this page, then document the org before changing anything. If you're short on time, a retainer admin can do the handover work and keep things running while you decide on a long-term hire.
 How long does a Salesforce admin handover take?
-For a 10 to 50 person investor team, plan on about two weeks to do it properly: day one for access, week one for everything that runs under their name, week two for documentation. It goes faster if the person leaving helps.
+For a 5 to 50 person investor team, plan on about two weeks to do it properly: day one for access, week one for everything that runs under their name, week two for documentation. It goes faster if the person leaving helps.
 Related guides
 Sources
 Checked in October 2026. Salesforce and vendor features change with each release, so check the linked page before you rely on a detail.
@@ -4804,7 +4809,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/salesforce-admin-real-estate-investors
 
 A Salesforce admin for your investor team: hire, freelancer or retainer?
-Most home-buying and wholesaling teams of 10 to 50 people reach the same point. Salesforce runs the business, the person who set it up has moved on, and every change now waits on a support ticket or a favor. This page is for the owner or ops lead deciding what to do about it: what an admin actually does in an investor org, the three ways to cover it, and how to tell which one fits. If you decide to hire, it has a job post you can copy, interview questions you can ask without knowing Salesforce yourself, a short paid test for finalists, what admins are paid in 2026 and what their first month should look like.
+Most home-buying and wholesaling teams of 5 to 50 people reach the same point. Salesforce runs the business, the person who set it up has moved on, and every change now waits on a support ticket or a favor. This page is for the owner or ops lead deciding what to do about it: what an admin actually does in an investor org, the three ways to cover it, and how to tell which one fits. If you decide to hire, it has a job post you can copy, interview questions you can ask without knowing Salesforce yourself, a short paid test for finalists, what admins are paid in 2026 and what their first month should look like.
 Signs the admin gap is costing you
 You don't need a full-time admin because you're on Salesforce. You need some admin time when changes start piling up. These are the signs I see most:
 Changes wait weeks. A new lead source, a new market, a new field for the acquisitions team. Nobody owns it, so it sits.
@@ -4906,7 +4911,7 @@ Source (2026, US) | Figure | Notes
 Mason Frank | $110,000 median | Middle half earns $75,000 to $140,500. Contract admins: $75 to $135 an hour.
 Stott and May | $120,000 median | Range of $90,000 to $150,000.
 Salesforce Ben survey | $78,000 junior, $92,000 intermediate, $109,000 senior | Medians from a survey of 2,316 people across Salesforce roles.
-Add benefits, payroll taxes, equipment and the weeks it takes to hire, and you have the real cost. For many 10 to 50 person investor teams, that number is the reason they use a part-time admin or a retainer instead, at least until the workload proves itself.
+Add benefits, payroll taxes, equipment and the weeks it takes to hire, and you have the real cost. For many 5 to 50 person investor teams, that number is the reason they use a part-time admin or a retainer instead, at least until the workload proves itself.
 Where the person is based matters less than two things: how many of your working hours they overlap with, and whether they've seen a home-buying pipeline before. I work from Cairo during US business hours, so I'm not neutral on the first point. The second is the one I'd weigh more.
 Red flags in candidates
 Wants to rebuild everything in the first month.
@@ -4924,7 +4929,7 @@ Week 3 | Fix the top three problems from week one | Each fix tested and logged
 Week 4 | One improvement the team asked for, plus the first monthly report | What was asked, what was done, what's next
 The Deal Leak Score is a good week-one starting point, and the handover plan lists everything that can be running under the previous admin's name.
 Questions
-Do I need a full-time Salesforce admin for a team of 10 to 50?
+Do I need a full-time Salesforce admin for a team of 5 to 50?
 Usually not. Most investor teams that size have a steady stream of changes but not 40 hours a week of them. A part-time or retainer admin who knows real estate covers it, as long as automations are checked monthly and changes are documented.
 What is a fractional Salesforce admin?
 Someone who acts as your admin for part of the month on a retainer: handles requests, watches automations and integrations, keeps reports right and trains new users, without the cost of a full-time hire.
@@ -6761,7 +6766,7 @@ How many automations can we run in Salesforce?
 It depends on your edition. Pro Suite allows 5 flows in total, which is fewer than most investor teams need, and Salesforce Help documents 2,000 active flows for Enterprise. Check the current limits for your edition before you plan a build.
 Admin and team
 Do we need a full-time Salesforce admin?
-Usually not at 10 to 50 people. Most teams that size have a steady stream of changes, not 40 hours a week of them. A part-time or retainer admin who knows real estate covers it, as long as automations are checked monthly and changes are written down. See hire, freelancer or retainer .
+Usually not at 5 to 50 people. Most teams that size have a steady stream of changes, not 40 hours a week of them. A part-time or retainer admin who knows real estate covers it, as long as automations are checked monthly and changes are written down. See hire, freelancer or retainer .
 What should we do when our Salesforce admin leaves?
 Freeze their user, make sure someone still with you has admin access, then find everything that runs under their name: flow error emails, integrations, scheduled reports, records and queues. Move those, then deactivate. See the two-week handover plan .
 Should we freeze or deactivate a user who left?
@@ -7144,7 +7149,7 @@ How to choose
 If this is you | Lean toward
 Under 10 people, simple pipeline, inbound marketing is your main channel, no one to run a CRM | HubSpot (or an investor CRM)
 You need properties, offers, transactions and buyers as separate records, and Enterprise HubSpot isn't in the budget | Salesforce
-10 to 50 people, several lead sources and markets, owner wants cost per deal by campaign | Salesforce
+5 to 50 people, several lead sources and markets, owner wants cost per deal by campaign | Salesforce
 Heavy cold calling and texting, with a dedicated dialer | Either; check the dialer's integration first
 You already run HubSpot marketing and like it | Keep it for marketing; consider Salesforce as the deal system
 Questions
@@ -7744,7 +7749,7 @@ Or just ask one question about your setup: email · WhatsApp · LinkedIn
 URL: https://amrmagdy.com/sops-inside-your-crm-wholesaling
 
 Wholesaling SOPs that live inside your CRM: shown at the moment of the task, checked without a meeting
-Every wholesaling company eventually writes SOPs: a shared document with how a cold caller handles a lead, how acquisitions runs an appointment, how dispo sends a deal. A month later, nobody opens it. New hires read it once, the team drifts, and the owner is back to correcting the same mistakes by message. The fix isn't a better document, it's moving each rule to the place the work happens, so the CRM shows it when it matters, requires it when it must be right and reports on whether it was followed. This guide shows the five-line format I use for an SOP, the SOPs a 10 to 50 person team needs by role, and where in Salesforce each part belongs.
+Every wholesaling company eventually writes SOPs: a shared document with how a cold caller handles a lead, how acquisitions runs an appointment, how dispo sends a deal. A month later, nobody opens it. New hires read it once, the team drifts, and the owner is back to correcting the same mistakes by message. The fix isn't a better document, it's moving each rule to the place the work happens, so the CRM shows it when it matters, requires it when it must be right and reports on whether it was followed. This guide shows the five-line format I use for an SOP, the SOPs a 5 to 50 person team needs by role, and where in Salesforce each part belongs.
 Write each SOP in five lines: the trigger, the owner, up to seven steps, a done-when check and a clock. Then put each piece where work happens: the steps as guidance on the Path or as tasks a flow creates, the must-haves as required fields and validation messages, the clock as an alert, and the done-when check as a report that shows how often it was met. Keep a short document only as an index and for the why.
 Why do SOP documents stop being used?
 They live somewhere else. The rule is in a document and the work is in the CRM, so reading the rule is an extra step nobody takes under pressure.
@@ -7907,7 +7912,7 @@ Partly, and the useful part costs extra.
 Free: login history shows who logged in, when and from where. Salesforce's free Event Monitoring tier covers a few event types, such as logins, logouts and total API usage, with one day of storage.
 Paid: report exports are a separate event type that needs the Event Monitoring add-on, also part of Salesforce Shield. It covers more than 70 event types, with up to 30 days of storage.
 Blocking: with that add-on, a Transaction Security policy can block a report export above a set number of rows and email someone when a user tries.
-For most teams of 10 to 50, the add-on isn't worth it. Removing the permission is the cheap control. It starts to make sense when you have many users, a history of leaks, or a lot of money riding on one list.
+For most teams of 5 to 50, the add-on isn't worth it. Removing the permission is the cheap control. It starts to make sense when you have many users, a history of leaks, or a lot of money riding on one list.
 What should you do when a rep gives notice?
 Decide on access first. Whether they work their notice period, and with what access, is the owner's call. Make it before anything else happens.
 Reassign their open leads, deals and tasks the same day , and take them out of round robin , queues and alerts. The steps are in the new rep and offboarding checklist .
@@ -8778,7 +8783,7 @@ No exit rule. Anyone can move a deal forward with nothing filled in, so the data
 No owner for the gaps. The hand-offs (cold caller to acquisitions, acquisitions to dispo) are where deals sit unclaimed.
 No clock. A deal can sit in one stage forever without anybody being told.
 What are the eight stages of a wholesale or home-buying pipeline?
-These are the stages I'd start a 10 to 50 person team on. Rename them to fit your shop, but keep the logic: each stage answers one question about the seller or the deal.
+These are the stages I'd start a 5 to 50 person team on. Rename them to fit your shop, but keep the logic: each stage answers one question about the seller or the deal.
 Stage | Enters when | Can't leave until | Owner | Time limit
 New lead | Any inquiry creates a record with a source | First contact attempt is logged | Lead queue, then the assigned rep | Minutes, not hours
 Contacted | You spoke to the seller or an owner | Reason for selling, timeline, condition and a next follow-up date are filled in | Cold caller or acquisitions | A few days to qualify or park
