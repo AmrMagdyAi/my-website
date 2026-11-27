@@ -1,7 +1,7 @@
 # Amr Magdy — full text of key pages (llms-full.txt)
 > Plain-text copy of the main content of amrmagdy.com for AI assistants and answer engines.
 > Short profile: https://amrmagdy.com/llms.txt
-> Generated: 2026-11-26
+> Generated: 2026-11-27
 
 
 ---
@@ -117,7 +117,7 @@ The app I built. It runs on top of your GoHighLevel or Salesforce and does the d
 No migration, nothing extra for your team to fill in
 Free: 13 weeks of Money by source, once
 Growth Team: checks every deal under contract for what is slipping and who owns the next step
-Growth Team: AI reads up to 3 recorded calls per rep each day and points to the moments to coach
+Growth Team: AI reads up to 3 recorded calls a rep a day and points to the moments to coach
 Today The answers are in the CRM, and nobody has time to dig them out.
 With Climbmark A plan for the week from your own numbers, every Monday.
 Outgrowing Podio, REsimpli or spreadsheets? You need a move to Salesforce: I map what you track, move the data and build around how your team works.
@@ -145,10 +145,9 @@ Missed-call alerts on every marketing number, shared queues, and duplicate handl
 What it changed
 Missed calls turn into callback tasks instead of voicemails nobody hears.
 Follow-up
-What owners say
-“Follow-up is handled.”
+Follow-up that does not depend on memory.
 What it costs
-Follow-up that runs on memory. Offers go quiet, and texts keep going to sellers who already answered.
+Follow-up that depends on memory. Offers go quiet, and texts keep going to sellers who already answered.
 Built
 Text cadences that stop on reply, and tasks for stale leads and offers with no activity.
 What it changed
@@ -652,6 +651,13 @@ Price the usage, not the plan. Texts, minutes, skip tracing and AI are billed on
 Ask how you get your data out. Export, API or Zapier. You’ll care the day you switch.
 Test one deal end to end in the trial. Lead in, call, offer, contract, buyer, assignment. Where you hit copy-paste is your answer.
 Not sure where your current CRM leaks deals? Take the Deal Leak Score (10 yes/no questions).
+The afternoon trial: put your last 20 deals through each CRM
+A demo shows the best day of a CRM. Your own deals show the average one. Before you pay, load the last 20 leads you worked, a mix of closed, dead and still open, into each CRM on your shortlist and see whether it can answer four questions without a spreadsheet next to it.
+Which source paid? Can you see leads, contracts and fees for each lead source, including the ones that came from a list or a VA? If not, you will keep guessing where to spend. Which lead source makes money shows what to count.
+How long did the first call take? Can it show the gap between the lead arriving and the first real contact? That gap is the most common leak. Speed to lead for real estate investors has the first-hour rule.
+Who owns the next step on every open deal? Pick one deal under contract. If you can't tell in ten seconds who does what and by when, the dates live in someone's head.
+Can a new rep or VA run it from a one-page checklist? If setup needs a day of someone's time, price that in.
+Whichever CRM answers all four with the least fiddling is the one to trial for a month. If none do, the problem is usually the fields and rules you set up, not the software, and the cost per deal calculator is a quick way to see whether your numbers are even being captured.
 Questions
 What is the best CRM for wholesalers in 2026?
 It depends on team size and what you already use. All-in-one investor CRMs like REsimpli, FreedomSoft and REI BlackBook bundle calling, texting and lists. InvestorFuse focuses on follow-up workflows. Salesforce fits teams that want their own process and deeper reporting and are willing to set it up.
@@ -4270,7 +4276,7 @@ Accounting | Fees invoiced and collected, reportable | QuickBooks
 Everything else | Email, files, Slack, maps, scheduling | All integrations
 Which numbers should an investor review every week?
 Five is enough to run the business: new leads by source, speed to first contact, offers made, contracts signed, and cost per kept deal. Fall-outs come out of the count. More on weekly numbers: the Monday 5 · KPIs in Salesforce · pipeline dashboard · kept deal map .
-Calculators: cost per deal · deal analyzer (MAO) · team capacity · missed call cost .
+Calculators: cost per deal · which lead source makes money · deal analyzer (MAO) · team capacity · missed call cost .
 AI on top of the CRM: Salesforce AI and Agentforce for investors .
 What compliance rules affect an investor’s CRM?
 Texting: app-to-person texts over 10DLC numbers in the US require brand and campaign registration, per Twilio. CTIA’s guidance calls for express written consent for marketing texts and advises against rented, sold or shared lists. Store consent and opt-out on the lead. Texting guide
@@ -4398,7 +4404,7 @@ Spend has to be on the same campaigns, month by month, and checked against your 
 Campaign ROI by market and source, checked against the books, is part of what I built for a two-market home-buying company in Ohio. Whatever rule you pick, it has to be applied the same way to every deal, or those numbers aren't worth reading.
 Questions
 What is lead attribution in real estate investing?
-It's the rule for which marketing campaign gets credit for a seller lead and the deal it becomes. Without a consistent rule, cost per deal by channel and campaign ROI can't be compared month to month.
+It's the rule for which marketing campaign gets credit for a seller lead and the deal it becomes. Without a consistent rule, cost per deal by channel and campaign ROI can't be compared month to month. For what to count once the rule is set, see which lead source makes money .
 Should wholesalers use first-touch or last-touch attribution?
 For most investor teams I'd use a first-response rule: credit the campaign behind the seller's first inbound call, form, text reply or real conversation, and lock it on the deal. Track the latest source separately, so campaigns that bring sellers back still show up.
 Should I trust 'how did you hear about us'?
@@ -7637,7 +7643,7 @@ For how often to follow up, the follow-up cadence builder gives you a touch plan
 What should you count every Friday?
 Five minutes, same numbers, every week. With a Date added column, a count of last week's leads for a source is:
 =COUNTIFS(C:C,"Direct mail",B:B,">="&TODAY()-7)
-Build a small table of sources down the side and these across the top: leads, appointments set, offers made, contracts, and money spent. The spend you type in yourself. Then divide: spend by contracts is your cost per contract for each source, and the cost per deal calculator will do the arithmetic for you. If one source has produced many leads and no contracts for a month, you've found the first thing to change.
+Build a small table of sources down the side and these across the top: leads, appointments set, offers made, contracts, and money spent. The spend you type in yourself. Then divide: spend by contracts is your cost per contract for each source, and the cost per deal calculator will do the arithmetic for you. To judge a source fairly, see which lead source makes money . If one source has produced many leads and no contracts for a month, you've found the first thing to change.
 When should you leave the spreadsheet?
 A spreadsheet is a good tool for one person. These are the signs it has stopped being enough:
 A second person needs it. Two people editing means overwritten rows, no history of who changed what, and no way to limit what a VA can see or download.
@@ -8562,7 +8568,7 @@ Appointments kept | 40 | 80%
 Offers made | 35 | 88%
 Contracts | 7 | 20%
 Closed | 5 | 71%
-From 400 leads to 5 closings: 80 leads per deal. If that source cost a set amount over the period, divide by 5 for cost per deal. The same sheet for a second source might show 150 leads per deal but twice the average fee, which changes which one you scale. This is why you do it by source.
+From 400 leads to 5 closings: 80 leads per deal. If that source cost a set amount over the period, divide by 5 for cost per deal. The same sheet for a second source might show 150 leads per deal but twice the average fee, which changes which one you scale. This is why you do it by source. Which lead source makes money walks through the same count with the fee included.
 How do you run it backward from a target?
 Say the goal is 8 closings a month. Working back with the invented rates above: 8 closings need about 11 contracts, which need about 55 offers, about 63 appointments set, about 250 conversations, and about 500 leads. Now you can ask practical questions:
 Do I have the lead flow for 500 leads a month, and from which sources?
