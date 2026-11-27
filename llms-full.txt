@@ -651,13 +651,13 @@ Price the usage, not the plan. Texts, minutes, skip tracing and AI are billed on
 Ask how you get your data out. Export, API or Zapier. You’ll care the day you switch.
 Test one deal end to end in the trial. Lead in, call, offer, contract, buyer, assignment. Where you hit copy-paste is your answer.
 Not sure where your current CRM leaks deals? Take the Deal Leak Score (10 yes/no questions).
-The afternoon trial: put your last 20 deals through each CRM
-A demo shows the best day of a CRM. Your own deals show the average one. Before you pay, load the last 20 leads you worked, a mix of closed, dead and still open, into each CRM on your shortlist and see whether it can answer four questions without a spreadsheet next to it.
+The afternoon trial: run your last 20 leads through each CRM
+A demo shows the best day of a CRM, and your own leads show an ordinary one. Before you pay, load the last 20 leads you worked, a mix of closed, dead and still open, into each CRM on your shortlist and see whether it can answer four questions without a spreadsheet next to it.
 Which source paid? Can you see leads, contracts and fees for each lead source, including the ones that came from a list or a VA? If not, you will keep guessing where to spend. Which lead source makes money shows what to count.
 How long did the first call take? Can it show the gap between the lead arriving and the first real contact? That gap is the most common leak. Speed to lead for real estate investors has the first-hour rule.
 Who owns the next step on every open deal? Pick one deal under contract. If you can't tell in ten seconds who does what and by when, the dates live in someone's head.
 Can a new rep or VA run it from a one-page checklist? If setup needs a day of someone's time, price that in.
-Whichever CRM answers all four with the least fiddling is the one to trial for a month. If none do, the problem is usually the fields and rules you set up, not the software, and the cost per deal calculator is a quick way to see whether your numbers are even being captured.
+Whichever CRM answers all four with the least fiddling earns a month of real use. If none do, the problem is often the fields and rules you set up, not the software, and the cost per deal calculator is a quick way to see whether your numbers are even being captured.
 Questions
 What is the best CRM for wholesalers in 2026?
 It depends on team size and what you already use. All-in-one investor CRMs like REsimpli, FreedomSoft and REI BlackBook bundle calling, texting and lists. InvestorFuse focuses on follow-up workflows. Salesforce fits teams that want their own process and deeper reporting and are willing to set it up.
@@ -7643,7 +7643,7 @@ For how often to follow up, the follow-up cadence builder gives you a touch plan
 What should you count every Friday?
 Five minutes, same numbers, every week. With a Date added column, a count of last week's leads for a source is:
 =COUNTIFS(C:C,"Direct mail",B:B,">="&TODAY()-7)
-Build a small table of sources down the side and these across the top: leads, appointments set, offers made, contracts, and money spent. The spend you type in yourself. Then divide: spend by contracts is your cost per contract for each source, and the cost per deal calculator will do the arithmetic for you. To judge a source fairly, see which lead source makes money . If one source has produced many leads and no contracts for a month, you've found the first thing to change.
+Build a small table of sources down the side and these across the top: leads, appointments set, offers made, contracts, and money spent. The spend you type in yourself. Then divide: spend by contracts is your cost per contract for each source, and the cost per deal calculator will do the arithmetic for you. To judge a source fairly, work through which lead source makes money . If one source has produced many leads and no contracts for a month, you've found the first thing to change.
 When should you leave the spreadsheet?
 A spreadsheet is a good tool for one person. These are the signs it has stopped being enough:
 A second person needs it. Two people editing means overwritten rows, no history of who changed what, and no way to limit what a VA can see or download.
